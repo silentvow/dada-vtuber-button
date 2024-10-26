@@ -10,7 +10,7 @@
         />
       </template>
       -->
-      <v-list style="padding-top: 0;">
+      <v-list style="padding-top: 0">
         <v-list-item to="/" router exact dense>
           <v-list-item-action>
             <v-icon>{{ icons.apps }}</v-icon>
@@ -30,7 +30,7 @@
           dense
         >
           <v-list-item-action>
-            <v-img :src="item.icon" style="width: 24px;" />
+            <v-img :src="item.icon" style="width: 24px" />
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -63,7 +63,7 @@
     <v-app-bar dense class="primary white--text" app>
       <v-app-bar-nav-icon class="white--text" @click.stop="drawer = !drawer" />
       <v-toolbar-title v-text="$t('site.title')" />
-      <v-img src="/icon.png" style="max-width: 24px; margin-left: 6px;" />
+      <v-img src="/icon.png" style="max-width: 24px; margin-left: 6px" />
       <v-spacer />
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
@@ -103,7 +103,7 @@
       </v-container>
       <v-footer :fixed="false" class="footer">
         <div>
-          <div style="vertical-align: middle;">
+          <div style="vertical-align: middle">
             <span>&copy; {{ new Date().getFullYear() }} </span>
             <span>
               <a :href="$t('site.footer.author_link')" target="_blank" rel="noreferrer">
@@ -115,7 +115,7 @@
               icon
               :href="$t('site.footer.repo_link')"
               target="_blank"
-              style="vertical-align: middle;"
+              style="vertical-align: middle"
               rel="noreferrer"
             >
               <v-icon>{{ icons.github }}</v-icon>

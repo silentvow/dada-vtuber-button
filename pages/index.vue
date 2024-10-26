@@ -57,7 +57,7 @@
         </v-icon>
       </v-btn>
     </v-speed-dial>
-    <v-flex xs12 sm8 md6 style="min-width: 85%;">
+    <v-flex xs12 sm8 md6 style="min-width: 85%">
       <!-- 直播或者动态面板，不要取消注释，还没写功能 -->
       <!--
       <v-card :loading="lives_loading">
