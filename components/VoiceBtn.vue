@@ -39,7 +39,7 @@ export default {
   data() {
     return {
       twe_para: {
-        base: 'https://twemoji.maxcdn.com/v/latest',
+        base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets',
         folder: '/svg',
         ext: '.svg'
       },
