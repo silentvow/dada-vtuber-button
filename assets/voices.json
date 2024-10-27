@@ -2,6 +2,25 @@
   "groups": [
     {
       "group_description": {
+        "en": "Yoda",
+        "ja": "ヨーダ",
+        "zh": "幼妲"
+      },
+      "group_name": "yoda",
+      "voice_list": [
+        {
+          "description": {
+            "en": "Weee~~~",
+            "ja": "Weee~~~",
+            "zh": "Weee~~~"
+          },
+          "name": "weee",
+          "path": "weee.mp3"
+        }
+      ]
+    },
+    {
+      "group_description": {
         "en": "First broadcast",
         "ja": "初配信",
         "zh": "初配信"
@@ -73,6 +92,24 @@
         },
         {
           "description": {
+            "en": "You big loser",
+            "ja": "この役立たず",
+            "zh": "你這個大廢物"
+          },
+          "name": "you-garbage",
+          "path": "first-broadcast/you-garbage.mp3"
+        },
+        {
+          "description": {
+            "en": "Idiot",
+            "ja": "バカ",
+            "zh": "笨蛋"
+          },
+          "name": "stupid",
+          "path": "first-broadcast/stupid.mp3"
+        },
+        {
+          "description": {
             "en": "Grandpa, it's time to eat.",
             "ja": "おじいちゃん、ご飯ですよ。",
             "zh": "阿公吃飯囉"
@@ -106,25 +143,51 @@
           },
           "name": "wayli",
           "path": "first-broadcast/wayli.mp3"
-        }
-      ]
-    },
-    {
-      "group_description": {
-        "en": "Yoda",
-        "ja": "ヨーダ",
-        "zh": "幼妲"
-      },
-      "group_name": "yoda",
-      "voice_list": [
+        },
         {
           "description": {
-            "en": "Weee~~~",
-            "ja": "Weee~~~",
-            "zh": "Weee~~~"
+            "en": "You're talking nonsense.",
+            "ja": "くだらないことを言っているね。",
+            "zh": "哩歐北共"
           },
-          "name": "weee",
-          "path": "weee.mp3"
+          "name": "nonsense",
+          "path": "first-broadcast/nonsense.mp3"
+        },
+        {
+          "description": {
+            "en": "You're such an idiot.",
+            "ja": "あなたは本当にバカだね。",
+            "zh": "哩系北七"
+          },
+          "name": "idiot",
+          "path": "first-broadcast/idiot.mp3"
+        },
+        {
+          "description": {
+            "en": "You are like a dog",
+            "ja": "あなたは犬でしょう",
+            "zh": "你是狗吧"
+          },
+          "name": "dog",
+          "path": "first-broadcast/dog.mp3"
+        },
+        {
+          "description": {
+            "en": "You won’t get rich",
+            "ja": "あなたは大金持ちにはなれないでしょう",
+            "zh": "你不會發大財"
+          },
+          "name": "no-money",
+          "path": "first-broadcast/no-money.mp3"
+        },
+        {
+          "description": {
+            "en": "You’ll never win the lottery",
+            "ja": "あなたは宝くじに当たることはないでしょう",
+            "zh": "你簽威力彩都不會中"
+          },
+          "name": "no-lotto",
+          "path": "first-broadcast/no-lotto.mp3"
         }
       ]
     }

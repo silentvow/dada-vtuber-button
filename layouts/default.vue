@@ -142,6 +142,13 @@ $blur-function: blur(3px);
   html[lang='zh'] & {
     font-family: $zh-body-fonts;
   }
+  background-repeat: repeat;
+}
+.theme--light.v-application {
+  background-image: url('/img/bg/pink.jpg');
+}
+.theme--dark.v-application {
+  background-image: url('/img/bg/dark-red.jpg');
 }
 
 .nav-drawer-img {
