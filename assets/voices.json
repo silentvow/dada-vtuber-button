@@ -1,67 +1,58 @@
 {
   "groups": [
     {
-      "group_name": "actmoe",
       "group_description": {
-        "zh": "第一个分类",
-        "en": "Moe",
-        "ja": "萌え"
+        "en": "First broadcast",
+        "ja": "初配信",
+        "zh": "初配信"
       },
+      "group_name": "first-broadcast",
       "voice_list": [
         {
-          "name": "v-001",
-          "path": "v-001.mp3",
           "description": {
-            "zh": "示例1",
-            "en": "Example 1",
-            "ja": "例1"
-          }
+            "en": "mihumisang",
+            "ja": "mihumisang",
+            "zh": "米乎咪桑"
+          },
+          "name": "mihumisang",
+          "path": "first-broadcast/mihumisang.mp3"
         },
         {
-          "name": "v-002",
-          "path": "v-002.mp3",
           "description": {
-            "zh": "示例2 民那我是你的爸爸",
-            "en": "Example 2 I'm your daddy!",
-            "ja": "例2 这日语我不会"
-          }
+            "en": "If I say I eat chicken, will it be too hellish?",
+            "ja": "鶏肉を食べると言ったら、ちょっと地獄っぽいですか？",
+            "zh": "如果我說我吃雞肉的話，會不會有點太地獄"
+          },
+          "name": "chicken-hell",
+          "path": "first-broadcast/chicken-hell.mp3"
+        },
+        {
+          "description": {
+            "en": "I like eating Wei Li Zha Jiang Mian (instant noodles), and I prefer it with soup.",
+            "ja": "私は維力炸醬麵（インスタントラーメン）が好きで、スープありがいいです。",
+            "zh": "我喜歡吃維力炸醬麵，然後要湯的"
+          },
+          "name": "wayli",
+          "path": "first-broadcast/wayli.mp3"
         }
       ]
     },
     {
-      "group_name": "nakigoe",
       "group_description": {
-        "zh": "第二个分类",
-        "en": "Roaring",
-        "ja": "鳴き声"
+        "en": "Yoda",
+        "ja": "ヨーダ",
+        "zh": "幼妲"
       },
+      "group_name": "yoda",
       "voice_list": [
         {
-          "name": "v-003",
-          "path": "f-003.mp3",
           "description": {
-            "zh": "示例3",
-            "en": "example3",
-            "ja": "例3"
-          }
-        },
-        {
-          "name": "v-004",
-          "path": "v-004.mp3",
-          "description": {
-            "zh": "示例4",
-            "en": "four",
-            "ja": "4"
-          }
-        },
-        {
-          "name": "v-005",
-          "path": "相对路径也可以/v-005.mp3",
-          "description": {
-            "zh": "五",
-            "en": "five",
-            "ja": "5"
-          }
+            "en": "Weee~~~",
+            "ja": "Weee~~~",
+            "zh": "Weee~~~"
+          },
+          "name": "weee",
+          "path": "weee.mp3"
         }
       ]
     }
