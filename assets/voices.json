@@ -19,12 +19,57 @@
         },
         {
           "description": {
-            "en": "Parrot laughter",
-            "ja": "オウムの笑い声",
-            "zh": "鸚鵡笑聲"
+            "en": "hmph~~~",
+            "ja": "ふん~~~",
+            "zh": "哼~~~"
+          },
+          "name": "hmph",
+          "path": "first-broadcast/hmph.mp3"
+        },
+        {
+          "description": {
+            "en": "LOL",
+            "ja": "大笑い",
+            "zh": "大笑"
           },
           "name": "laugh",
           "path": "first-broadcast/laugh.mp3"
+        },
+        {
+          "description": {
+            "en": "More, more",
+            "ja": "もっともっと",
+            "zh": "摸多摸多"
+          },
+          "name": "motomoto",
+          "path": "first-broadcast/motomoto.mp3"
+        },
+        {
+          "description": {
+            "en": "More, more, more",
+            "ja": "もっともっともっと",
+            "zh": "摸多摸多摸多"
+          },
+          "name": "motomotomoto",
+          "path": "first-broadcast/motomotomoto.mp3"
+        },
+        {
+          "description": {
+            "en": "Get rich",
+            "ja": "大金持ちになる",
+            "zh": "發大財"
+          },
+          "name": "big-money",
+          "path": "first-broadcast/big-money.mp3"
+        },
+        {
+          "description": {
+            "en": "Angry",
+            "ja": "怒った",
+            "zh": "生氣了"
+          },
+          "name": "angry",
+          "path": "first-broadcast/angry.mp3"
         },
         {
           "description": {
@@ -48,7 +93,7 @@
           "description": {
             "en": "If I say I eat chicken, will it be too hellish?",
             "ja": "鶏肉を食べると言ったら、ちょっと地獄っぽいですか？",
-            "zh": "如果我說我吃雞肉的話，會不會有點太地獄"
+            "zh": "如果我說我吃雞肉的話，會不會有點太地獄？"
           },
           "name": "chicken-hell",
           "path": "first-broadcast/chicken-hell.mp3"
@@ -57,7 +102,7 @@
           "description": {
             "en": "I like eating Wei Li Zha Jiang Mian (instant noodles), and I prefer it with soup.",
             "ja": "私は維力炸醬麵（インスタントラーメン）が好きで、スープありがいいです。",
-            "zh": "我喜歡吃維力炸醬麵，然後要湯的"
+            "zh": "我喜歡吃維力炸醬麵，然後要湯的。"
           },
           "name": "wayli",
           "path": "first-broadcast/wayli.mp3"
