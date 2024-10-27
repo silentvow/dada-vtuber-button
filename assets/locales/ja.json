@@ -45,9 +45,9 @@
     "description": "灰妲の声を記録し、誰もがいつでも彼女の声を聞くことができるようにします。",
     "footer": {
       "author": "【彼得與狼】",
-      "author_link": "【整个链接到开发者/组织，比如GitHub啊B站啊都可以】",
-      "content": "本站为爱好者作品，和**官方没有关联，STAFF名单以及项目参与方式请查看\"关于\"页面",
-      "repo_link": "【如果开源的话可以贴个git地址，不开源的话把这个设置成no_display】"
+      "author_link": "https://x.com/tn604000",
+      "content": "本サイトはファン作品であり、ReLive Projectの公式とは関係ありません。プロジェクトの参加方法やフィードバックについては、'アバウト'ページをご覧ください。",
+      "repo_link": "https://github.com/silentvow/dada-vtuber-button"
     },
     "index": "ホームページ",
     "keywords": "【网站的关键词 SEO】",
@@ -55,7 +55,7 @@
     "social_image": "【https://xxxx.moe/img/social.png】 < 就是分享到推特之类的可以用这个当卡片封面",
     "switch_dark_mode": "ナイトモードスイッチ",
     "switch_language": "言語を切り替える",
-    "title": "【V按钮】",
-    "url": "【https://xxxx.moe】 < 就是部署在哪个域名下面"
+    "title": "【灰妲の音声ボタン】",
+    "url": "https://xxxx.com"
   }
 }

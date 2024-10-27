@@ -19,6 +19,33 @@
         },
         {
           "description": {
+            "en": "Parrot laughter",
+            "ja": "オウムの笑い声",
+            "zh": "鸚鵡笑聲"
+          },
+          "name": "laugh",
+          "path": "first-broadcast/laugh.mp3"
+        },
+        {
+          "description": {
+            "en": "Grandpa, it's time to eat.",
+            "ja": "おじいちゃん、ご飯ですよ。",
+            "zh": "阿公吃飯囉"
+          },
+          "name": "grandpa-rice",
+          "path": "first-broadcast/grandpa-rice.mp3"
+        },
+        {
+          "description": {
+            "en": "Grandpa, do you want to eat some cantaloupe?",
+            "ja": "おじいちゃん、ハミウリを食べますか?",
+            "zh": "阿公你要不要吃哈密瓜"
+          },
+          "name": "grandpa-melon",
+          "path": "first-broadcast/grandpa-melon.mp3"
+        },
+        {
+          "description": {
             "en": "If I say I eat chicken, will it be too hellish?",
             "ja": "鶏肉を食べると言ったら、ちょっと地獄っぽいですか？",
             "zh": "如果我說我吃雞肉的話，會不會有點太地獄"

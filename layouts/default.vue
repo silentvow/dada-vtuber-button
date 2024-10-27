@@ -88,9 +88,9 @@
           <v-list-item id="lang-switch-zh" @click="switch_lang('zh')">
             <v-list-item-title>中文</v-list-item-title>
           </v-list-item>
-          <!-- <v-list-item id="lang-switch-ja" @click="switch_lang('ja')">
+          <v-list-item id="lang-switch-ja" @click="switch_lang('ja')">
             <v-list-item-title>日本語</v-list-item-title>
-          </v-list-item> -->
+          </v-list-item>
           <v-list-item id="lang-switch-en" @click="switch_lang('en')">
             <v-list-item-title>English</v-list-item-title>
           </v-list-item>
