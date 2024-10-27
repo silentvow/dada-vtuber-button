@@ -86,11 +86,11 @@
         </template>
         <v-list>
           <v-list-item id="lang-switch-zh" @click="switch_lang('zh')">
-            <v-list-item-title>简体中文</v-list-item-title>
+            <v-list-item-title>中文</v-list-item-title>
           </v-list-item>
-          <v-list-item id="lang-switch-ja" @click="switch_lang('ja')">
+          <!-- <v-list-item id="lang-switch-ja" @click="switch_lang('ja')">
             <v-list-item-title>日本語</v-list-item-title>
-          </v-list-item>
+          </v-list-item> -->
           <v-list-item id="lang-switch-en" @click="switch_lang('en')">
             <v-list-item-title>English</v-list-item-title>
           </v-list-item>
@@ -178,7 +178,12 @@ a {
   padding-bottom: 150px;
 }
 .footer {
-  margin-top: -150px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer p {
+  margin: 0;
 }
 </style>
 

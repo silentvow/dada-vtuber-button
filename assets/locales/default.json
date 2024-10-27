@@ -1,56 +1,61 @@
 {
-  "site": {
-    "title": "【V按钮】",
-    "description": "】这里写个描述，比如XX按钮旨在打造一个XX的语音分享平台之类的】",
-    "keywords": "【网站的关键词 SEO】",
-    "url": "https://xxxx.com",
-    "social_image": "【https://xxxx.moe/img/social.png】 < 就是分享到推特之类的可以用这个当卡片封面",
-    "index": "主页",
-    "links": "友情链接",
-    "about": "关于",
-    "switch_dark_mode": "夜间模式开关",
-    "switch_language": "切换语言",
-    "footer": {
-      "author": "【海离Channel，写主要开发者/组织就行】",
-      "author_link": "【整个链接到开发者/组织，比如GitHub啊B站啊都可以】",
-      "repo_link": "【如果开源的话可以贴个git地址，不开源的话把这个设置成no_display】",
-      "content": "本站为爱好者作品，和**官方没有关联，STAFF名单以及项目参与方式请查看\"关于\"页面"
-    }
-  },
   "control": {
+    "disabled": "關閉",
+    "enabled": "開啟",
+    "full_name": "灰妲",
+    "overlap": "重疊播放",
+    "overlap_title": "【灰妲】",
+    "pick_one": "幫我選一個",
+    "random": "隨機撥放",
+    "repeat": "重複播放",
     "self": "播放控制",
-    "pick_one": "帮我选一个",
-    "stop": "停止",
-    "enabled": "开启",
-    "disabled": "关闭",
-    "overlap": "重叠播放",
-    "random": "随机播放",
-    "repeat": "洗脑循环",
-    "full_name": "【显示在媒体控制上的作者名，一般写V的名字就好】",
-    "overlap_title": "【显示在媒体控制上的作者名,只不过是重叠播放的，一般写V的名字就好】"
+    "stop": "停止"
   },
   "navigator": {
     "items": [
       {
-        "icon": "/img/bilibili-fill.svg",
-        "title": "Bilibili 主页",
-        "to": "https://space.bilibili.com/7564991/"
-      },
-      {
-        "icon": "/img/bilibili-fill.svg",
-        "title": "Bilibili 直播间",
-        "to": "https://live.bilibili.com/449047"
-      },
-      {
         "icon": "/img/youtube-fill.svg",
         "title": "YouTube",
-        "to": "https://www.youtube.com/channel/频道号?sub_confirmation=1"
+        "to": "https://www.youtube.com/@ReLiveDaDa"
       },
       {
         "icon": "/img/twitter-fill.svg",
-        "title": "Twitter",
-        "to": "https://twitter.com/用户名"
+        "title": "X (Twitter)",
+        "to": "https://x.com/DadaRelive"
+      },
+      {
+        "icon": "/img/twitch-fill.svg",
+        "title": "Twitch",
+        "to": "https://www.twitch.tv/grayda0105"
+      },
+      {
+        "icon": "/img/facebook-fill.svg",
+        "title": "Facebook",
+        "to": "https://www.facebook.com/ParrotDaRelive"
+      },
+      {
+        "icon": "/img/plurk-fill.svg",
+        "title": "Plurk",
+        "to": "https://www.plurk.com/grayda0105"
       }
     ]
+  },
+  "site": {
+    "about": "關於",
+    "description": "紀錄灰妲的語音，讓大家可以隨時聽到她的聲音",
+    "footer": {
+      "author": "【彼得與狼】",
+      "author_link": "https://x.com/tn604000",
+      "content": "本站為愛好者作品，和ReLive Project官方沒有關聯，項目參與方式與意見回饋請查看\"關於\"頁面",
+      "repo_link": "https://github.com/silentvow/dada-vtuber-button"
+    },
+    "index": "首頁",
+    "keywords": "灰妲,Vtuber,台V,語音按鈕,ReLive Project",
+    "links": "友情連結",
+    "social_image": "【https://xxxx.moe/img/social.png】 < 就是分享到推特之类的可以用这个当卡片封面",
+    "switch_dark_mode": "夜間模式開關",
+    "switch_language": "切換語言",
+    "title": "【灰妲語音按鈕】",
+    "url": "https://xxxx.com"
   }
 }

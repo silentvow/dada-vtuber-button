@@ -1,56 +1,61 @@
 {
-  "site": {
-    "title": "V Button",
-    "description": "Description here, mainly for SEO",
-    "keywords": "keywords here, mainly for SEO",
-    "url": "https://xxxx.com",
-    "social_image": "【https://xxxx.moe/img/social.png】 < When share this site to twitter, a banner image will be shown",
-    "index": "Index",
-    "links": "Links",
-    "about": "About",
-    "switch_dark_mode": "Dark Mode",
-    "switch_language": "Switch Language",
-    "footer": {
-      "author": "【海离Channel】 < The main contributor/team",
-      "author_link": "【A link to the contributor/team】",
-      "repo_link": "【A link if this is opensourced， otherwise set this to 'no_display'】",
-      "content": "This site is a fan work and is not associated with the ** official. For staff and more information, please see \"About\" page."
-    }
-  },
   "control": {
-    "self": "Player Control",
-    "pick_one": "Randomly Pick One",
-    "stop": "Stop Playing",
-    "enabled": "Enabled",
     "disabled": "Disabled",
+    "enabled": "Enabled",
+    "full_name": "Gray Da",
     "overlap": "Overlap Mode",
+    "overlap_title": "【Gray Da】",
+    "pick_one": "Randomly Pick One",
     "random": "Random Mode",
     "repeat": "Repeat Mode",
-    "full_name": "【The name of the VTuber】",
-    "overlap_title": "【The name of the VTuber】"
+    "self": "Player Control",
+    "stop": "Stop Playing"
   },
   "navigator": {
     "items": [
       {
-        "icon": "/img/bilibili-fill.svg",
-        "title": "Bilibili Home",
-        "to": "https://space.bilibili.com/7564991/"
-      },
-      {
-        "icon": "/img/bilibili-fill.svg",
-        "title": "Bilibili Live Room",
-        "to": "https://live.bilibili.com/449047"
-      },
-      {
         "icon": "/img/youtube-fill.svg",
         "title": "YouTube",
-        "to": "https://www.youtube.com/channel/[channel_id]?sub_confirmation=1"
+        "to": "https://www.youtube.com/@ReLiveDaDa"
       },
       {
         "icon": "/img/twitter-fill.svg",
-        "title": "Twitter",
-        "to": "https://twitter.com/[username]"
+        "title": "X (Twitter)",
+        "to": "https://x.com/DadaRelive"
+      },
+      {
+        "icon": "/img/twitch-fill.svg",
+        "title": "Twitch",
+        "to": "https://www.twitch.tv/grayda0105"
+      },
+      {
+        "icon": "/img/facebook-fill.svg",
+        "title": "Facebook",
+        "to": "https://www.facebook.com/ParrotDaRelive"
+      },
+      {
+        "icon": "/img/plurk-fill.svg",
+        "title": "Plurk",
+        "to": "https://www.plurk.com/grayda0105"
       }
     ]
+  },
+  "site": {
+    "about": "About",
+    "description": "Record the voice of the VTuber ReLiveDaDa, so that everyone can listen to her voice at any time.",
+    "footer": {
+      "author": "【彼得與狼】",
+      "author_link": "https://x.com/tn604000",
+      "content": "This site is a fan work and is not associated with the ReLive Project official. For staff and more information, please see \"About\" page.",
+      "repo_link": "https://github.com/silentvow/dada-vtuber-button"
+    },
+    "index": "Index",
+    "keywords": "DaDa,Vtuber,Taiwan,Voice Button,ReLive Project",
+    "links": "Links",
+    "social_image": "【https://xxxx.moe/img/social.png】 < When share this site to twitter, a banner image will be shown",
+    "switch_dark_mode": "Dark Mode",
+    "switch_language": "Switch Language",
+    "title": "DaDa Voice Button",
+    "url": "https://xxxx.com"
   }
 }
