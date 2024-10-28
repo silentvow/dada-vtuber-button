@@ -69,7 +69,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', '@nuxtjs/axios', '@nuxtjs/markdownit', '@nuxtjs/sitemap'],
+  modules: ['@nuxtjs/pwa', '@nuxtjs/axios', '@nuxtjs/markdownit', '@nuxtjs/sitemap', '@nuxtjs/google-fonts'],
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
@@ -107,6 +107,11 @@ export default {
   pwa: {
     manifest: {
       start_url: '/?standalone=true'
+    }
+  },
+  googleFonts: {
+    families: {
+      'Noto Sans TC': true
     }
   },
   markdownit: {
