@@ -38,11 +38,11 @@ export default {
       },
       { hid: 'og:image', property: 'og:image', content: trs.site.social_image },
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:site', content: '@lonely_ion' }
+      { name: 'twitter:site', content: '@tn604000' }
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/icon.png' },
-      { rel: 'shortcut icon', type: 'image/png', href: '/icon.png' }
+      { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
+      { rel: 'shortcut icon', type: 'image/x-icon', href: 'favicon.ico' }
     ]
   },
   /*
