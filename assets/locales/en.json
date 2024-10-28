@@ -44,7 +44,7 @@
     "about": "About",
     "description": "Record the voice of the VTuber ReLiveDaDa, so that everyone can listen to her voice at any time.",
     "footer": {
-      "author": "【彼得與狼】",
+      "author": "彼得與狼",
       "author_link": "https://x.com/tn604000",
       "content": "This site is a fan work and is not associated with the ReLive Project official. For staff and more information, please see \"About\" page.",
       "repo_link": "https://github.com/silentvow/dada-vtuber-button"
@@ -52,10 +52,10 @@
     "index": "Index",
     "keywords": "DaDa,Vtuber,Taiwan,Voice Button,ReLive Project",
     "links": "Links",
-    "social_image": "【https://xxxx.moe/img/social.png】 < When share this site to twitter, a banner image will be shown",
+    "social_image": "https://dada-vtuber-button.vercel.app/img/og_common.png",
     "switch_dark_mode": "Dark Mode",
     "switch_language": "Switch Language",
     "title": "DaDa Voice Button",
-    "url": "https://xxxx.com"
+    "url": "https://dada-vtuber-button.vercel.app"
   }
 }

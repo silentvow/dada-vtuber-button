@@ -2,7 +2,7 @@
   "control": {
     "disabled": "無効",
     "enabled": "有効",
-    "full_name": "【灰妲】",
+    "full_name": "灰妲",
     "overlap": "音声を重ねる",
     "overlap_title": "【灰妲】",
     "pick_one": "ランダム再生",
@@ -44,18 +44,18 @@
     "about": "について",
     "description": "灰妲の声を記録し、誰もがいつでも彼女の声を聞くことができるようにします。",
     "footer": {
-      "author": "【彼得與狼】",
+      "author": "彼得與狼",
       "author_link": "https://x.com/tn604000",
       "content": "本サイトはファン作品であり、ReLive Projectの公式とは関係ありません。プロジェクトの参加方法やフィードバックについては、'アバウト'ページをご覧ください。",
       "repo_link": "https://github.com/silentvow/dada-vtuber-button"
     },
     "index": "ホームページ",
-    "keywords": "【网站的关键词 SEO】",
+    "keywords": "灰妲,Vtuber,Taiwan,Voice Button,ReLive Project",
     "links": "友情リンク",
-    "social_image": "【https://xxxx.moe/img/social.png】 < 就是分享到推特之类的可以用这个当卡片封面",
+    "social_image": "https://dada-vtuber-button.vercel.app/img/og_common.png",
     "switch_dark_mode": "ナイトモードスイッチ",
     "switch_language": "言語を切り替える",
-    "title": "【灰妲の音声ボタン】",
-    "url": "https://xxxx.com"
+    "title": "灰妲の音声ボタン",
+    "url": "https://dada-vtuber-button.vercel.app"
   }
 }
