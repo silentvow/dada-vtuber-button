@@ -16,6 +16,7 @@ module.exports = {
     'vue/no-v-html': 'off',
     'no-console': 'off',
     'vue/max-attributes-per-line': 'off',
+    'vue/singleline-html-element-content-newline': 'off',
     'prettier/prettier': ['error']
   }
 };
