@@ -2,6 +2,66 @@
   "groups": [
     {
       "group_description": {
+        "en": "Catchphrase",
+        "ja": "口癖",
+        "zh": "口頭禪"
+      },
+      "group_name": "catchphrase",
+      "voice_list": [
+        {
+          "description": {
+            "en": "Oh, dear Lord.",
+            "ja": "ああ、神様。",
+            "zh": "天老爺阿"
+          },
+          "name": "tian-lao-ye-a",
+          "path": "dp-toys/tian-lao-ye-a.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+        },
+        {
+          "description": {
+            "en": "Alright, I really can't do anything about you guys.",
+            "ja": "まあ、君たちには本当に手をこまねいているよ。",
+            "zh": "好啦真拿你們沒辦法"
+          },
+          "name": "zhen-na-ni-mei-ban-fa",
+          "path": "dp-toys/zhen-na-ni-mei-ban-fa.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "Weird cry",
+        "ja": "奇妙な叫び声",
+        "zh": "怪異叫聲"
+      },
+      "group_name": "weird-cry",
+      "voice_list": [
+        {
+          "description": {
+            "en": "Unicorn sound 1",
+            "ja": "ユニコーンの鳴き声1",
+            "zh": "獨角獸叫聲1"
+          },
+          "name": "du-jiao-shou-jiao",
+          "path": "dp-toys/du-jiao-shou-jiao.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+        },
+        {
+          "description": {
+            "en": "Unicorn sound 2",
+            "ja": "ユニコーンの鳴き声2",
+            "zh": "獨角獸叫聲2"
+          },
+          "name": "du-jiao-shou-jiao-2",
+          "path": "dp-toys/du-jiao-shou-jiao-2.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+        }
+      ]
+    },
+    {
+      "group_description": {
         "en": "Yoda",
         "ja": "ヨーダ",
         "zh": "幼妲"
@@ -15,7 +75,28 @@
             "zh": "Weee~~~"
           },
           "name": "weee",
-          "path": "weee.mp3"
+          "path": "weee.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "Brother Da",
+        "ja": "妲哥",
+        "zh": "妲哥"
+      },
+      "group_name": "brother-da",
+      "voice_list": [
+        {
+          "description": {
+            "en": "Remember to wash your own butt well.",
+            "ja": "自分の尻をきれいに洗うのを忘れないでね。",
+            "zh": "記得把自己的屁股洗好"
+          },
+          "name": "pi-gu-xi-hao",
+          "path": "dp-toys/pi-gu-xi-hao.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
         }
       ]
     },
@@ -34,7 +115,8 @@
             "zh": "米乎咪桑"
           },
           "name": "mihumisang",
-          "path": "first-broadcast/mihumisang.mp3"
+          "path": "first-broadcast/mihumisang.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -43,7 +125,8 @@
             "zh": "哼~~~"
           },
           "name": "hmph",
-          "path": "first-broadcast/hmph.mp3"
+          "path": "first-broadcast/hmph.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -52,7 +135,8 @@
             "zh": "大笑"
           },
           "name": "laugh",
-          "path": "first-broadcast/laugh.mp3"
+          "path": "first-broadcast/laugh.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -61,7 +145,8 @@
             "zh": "摸多摸多"
           },
           "name": "motomoto",
-          "path": "first-broadcast/motomoto.mp3"
+          "path": "first-broadcast/motomoto.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -70,7 +155,8 @@
             "zh": "摸多摸多摸多"
           },
           "name": "motomotomoto",
-          "path": "first-broadcast/motomotomoto.mp3"
+          "path": "first-broadcast/motomotomoto.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -79,7 +165,8 @@
             "zh": "發大財"
           },
           "name": "big-money",
-          "path": "first-broadcast/big-money.mp3"
+          "path": "first-broadcast/big-money.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -88,7 +175,8 @@
             "zh": "生氣了"
           },
           "name": "angry",
-          "path": "first-broadcast/angry.mp3"
+          "path": "first-broadcast/angry.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -97,7 +185,8 @@
             "zh": "你這個大廢物"
           },
           "name": "you-garbage",
-          "path": "first-broadcast/you-garbage.mp3"
+          "path": "first-broadcast/you-garbage.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -106,7 +195,8 @@
             "zh": "笨蛋"
           },
           "name": "stupid",
-          "path": "first-broadcast/stupid.mp3"
+          "path": "first-broadcast/stupid.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -115,7 +205,8 @@
             "zh": "阿公吃飯囉"
           },
           "name": "grandpa-rice",
-          "path": "first-broadcast/grandpa-rice.mp3"
+          "path": "first-broadcast/grandpa-rice.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -124,7 +215,8 @@
             "zh": "阿公你要不要吃哈密瓜"
           },
           "name": "grandpa-melon",
-          "path": "first-broadcast/grandpa-melon.mp3"
+          "path": "first-broadcast/grandpa-melon.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -133,7 +225,8 @@
             "zh": "如果我說我吃雞肉的話，會不會有點太地獄？"
           },
           "name": "chicken-hell",
-          "path": "first-broadcast/chicken-hell.mp3"
+          "path": "first-broadcast/chicken-hell.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -142,7 +235,8 @@
             "zh": "我喜歡吃維力炸醬麵，然後要湯的。"
           },
           "name": "wayli",
-          "path": "first-broadcast/wayli.mp3"
+          "path": "first-broadcast/wayli.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -151,7 +245,8 @@
             "zh": "哩歐北共"
           },
           "name": "nonsense",
-          "path": "first-broadcast/nonsense.mp3"
+          "path": "first-broadcast/nonsense.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -160,7 +255,8 @@
             "zh": "哩系北七"
           },
           "name": "idiot",
-          "path": "first-broadcast/idiot.mp3"
+          "path": "first-broadcast/idiot.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -169,7 +265,8 @@
             "zh": "你是狗吧"
           },
           "name": "dog",
-          "path": "first-broadcast/dog.mp3"
+          "path": "first-broadcast/dog.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -178,7 +275,8 @@
             "zh": "你不會發大財"
           },
           "name": "no-money",
-          "path": "first-broadcast/no-money.mp3"
+          "path": "first-broadcast/no-money.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
           "description": {
@@ -187,7 +285,108 @@
             "zh": "你簽威力彩都不會中"
           },
           "name": "no-lotto",
-          "path": "first-broadcast/no-lotto.mp3"
+          "path": "first-broadcast/no-lotto.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "Miscellaneous",
+        "ja": "雑多なもの",
+        "zh": "雜項"
+      },
+      "group_name": "miscellaneous",
+      "voice_list": [
+        {
+          "description": {
+            "en": "Bye-bye",
+            "ja": "バイバイ",
+            "zh": "掰掰"
+          },
+          "name": "bye-bye",
+          "path": "dp-toys/bye-bye.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+        },
+        {
+          "description": {
+            "en": "Damn it, I don’t have a GG!",
+            "ja": "ちくしょう、私はGGを持っていない！",
+            "zh": "靠盃我沒有GG啦"
+          },
+          "name": "cow-bay-no-gg",
+          "path": "dp-toys/cow-bay-no-gg.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+        },
+        {
+          "description": {
+            "en": "I am the unicorn of the dreamlike fleshlight forest.",
+            "ja": "私は夢のフレッシュライトの森のユニコーンです",
+            "zh": "我是夢幻飛機杯森林的獨角獸"
+          },
+          "name": "fei-ji-bei-sen-lin",
+          "path": "dp-toys/fei-ji-bei-sen-lin.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+        },
+        {
+          "description": {
+            "en": "Accumulating good deeds in secret.",
+            "ja": "陰で善行を積む",
+            "zh": "積積陰陰德"
+          },
+          "name": "gg-in-in-der",
+          "path": "dp-toys/gg-in-in-der.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+        },
+        {
+          "description": {
+            "en": "Laughter.",
+            "ja": "大笑",
+            "zh": "大笑聲"
+          },
+          "name": "ha-ha-ha",
+          "path": "dp-toys/ha-ha-ha.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+        },
+        {
+          "description": {
+            "en": "Let me think.",
+            "ja": "ちょっと考えさせて。",
+            "zh": "我想想噢"
+          },
+          "name": "i-think",
+          "path": "dp-toys/i-think.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+        },
+        {
+          "description": {
+            "en": "There's nothing that a good shot can't solve.",
+            "ja": "尻一発で解決できないことはない。",
+            "zh": "沒有什麼尻一槍無法解決的"
+          },
+          "name": "kao-yi-qiang",
+          "path": "dp-toys/kao-yi-qiang.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+        },
+        {
+          "description": {
+            "en": "I am the erotic girl V.",
+            "ja": "私はエロティックな女Vです。",
+            "zh": "我是色情女V"
+          },
+          "name": "se-qing-nv-v",
+          "path": "dp-toys/se-qing-nv-v.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+        },
+        {
+          "description": {
+            "en": "Let's experience the ultimate joy of the GG unicorn together.",
+            "ja": "一緒にGGユニコーンの至高の喜びを体験しよう。",
+            "zh": "一起體會GG獨角獸的無上快樂吧"
+          },
+          "name": "wu-shang-kuai-le",
+          "path": "dp-toys/wu-shang-kuai-le.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
         }
       ]
     }
