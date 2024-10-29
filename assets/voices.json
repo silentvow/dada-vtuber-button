@@ -16,7 +16,17 @@
           },
           "name": "tian-lao-ye-a",
           "path": "dp-toys/tian-lao-ye-a.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "description": {
+            "en": "How bad could it be?",
+            "ja": "どれだけ悪くなるっていうの？",
+            "zh": "能有多糟呢"
+          },
+          "name": "how-bad",
+          "path": "on-fire/how-bad.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
           "description": {
@@ -26,7 +36,7 @@
           },
           "name": "zhen-na-ni-mei-ban-fa",
           "path": "dp-toys/zhen-na-ni-mei-ban-fa.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         }
       ]
     },
@@ -46,7 +56,7 @@
           },
           "name": "du-jiao-shou-jiao",
           "path": "dp-toys/du-jiao-shou-jiao.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
           "description": {
@@ -56,7 +66,7 @@
           },
           "name": "du-jiao-shou-jiao-2",
           "path": "dp-toys/du-jiao-shou-jiao-2.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         }
       ]
     },
@@ -96,7 +106,77 @@
           },
           "name": "pi-gu-xi-hao",
           "path": "dp-toys/pi-gu-xi-hao.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "breast",
+        "ja": "おっぱい",
+        "zh": "奶子"
+      },
+      "group_name": "breast",
+      "voice_list": [
+        {
+          "description": {
+            "en": "I don’t have any issues with big breasts, okay?",
+            "ja": "大きな胸が嫌いなわけじゃないんだけど、わかる？",
+            "zh": "我沒有仇奶好嗎"
+          },
+          "name": "may-yo-cho-na",
+          "path": "on-fire/may-yo-cho-na.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "If I say I'm big-chested, then I am!",
+            "ja": "私が大きな胸って言ったら、それが大きな胸なの！",
+            "zh": "我說我是大奶我就是大奶啦"
+          },
+          "name": "wo-so-wo-shi-da-nai",
+          "path": "on-fire/wo-so-wo-shi-da-nai.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "Lolicon",
+        "ja": "ロリコン",
+        "zh": "蘿莉控"
+      },
+      "group_name": "lolicon",
+      "voice_list": [
+        {
+          "description": {
+            "en": "Lolis shouldn’t have big breasts!",
+            "ja": "ロリには大きな胸があるべきじゃない。",
+            "zh": "蘿莉不該有大奶阿"
+          },
+          "name": "loli-da-nai",
+          "path": "on-fire/loli-da-nai.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "But I only watch loli streams!",
+            "ja": "私はロリチャンネルしか見てないよ！",
+            "zh": "阿我就只看蘿莉台咩"
+          },
+          "name": "loli-tai",
+          "path": "on-fire/loli-tai.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "Only someone with a hole in their brain would like loli big breasts.",
+            "ja": "ロリで大きな胸が好きな人は頭に問題があるんじゃない？",
+            "zh": "會喜歡蘿莉大奶的是腦子有洞吧"
+          },
+          "name": "shi-huan-loli-da-nai",
+          "path": "on-fire/shi-huan-loli-da-nai.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         }
       ]
     },
@@ -300,13 +380,73 @@
       "voice_list": [
         {
           "description": {
+            "en": "Laughing hard when it comes to the topic of reducing classes.",
+            "ja": "クラス削減の話題を聞くと笑いが止まらない。",
+            "zh": "大笑 (講到減班台話題)"
+          },
+          "name": "ha-ha-ha-ha",
+          "path": "on-fire/ha-ha-ha-ha.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "But... that's awful!",
+            "ja": "くっ…悔しい！",
+            "zh": "可..可惡"
+          },
+          "name": "ke-ke-wu",
+          "path": "on-fire/ke-ke-wu.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "What’s wrong with you haters?",
+            "ja": "何なの、このアンチたち。",
+            "zh": "什麼啦你們這些酸民"
+          },
+          "name": "ni-men-zhe-she-shua-min",
+          "path": "on-fire/ni-men-zhe-she-shua-min.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "Stop nagging, you guys!",
+            "ja": "うるさい、君たち！",
+            "zh": "少囉嗦你們這些傢伙"
+          },
+          "name": "sau-ro-sol",
+          "path": "on-fire/sau-ro-sol.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "Who's jealous? I'm not jealous at all, okay?",
+            "ja": "誰が嫉妬してるの？私は全然嫉妬なんかしてないよ。",
+            "zh": "誰嫉妒阿我一點都沒有嫉妒好不好"
+          },
+          "name": "se-ji-du-a",
+          "path": "on-fire/se-ji-du-a.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "What the heck?",
+            "ja": "何だよ！",
+            "zh": "什麼東西阿"
+          },
+          "name": "wtf",
+          "path": "on-fire/wtf.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
             "en": "Bye-bye",
             "ja": "バイバイ",
-            "zh": "掰掰"
+            "zh": "掰掰再見叭叭叭叭"
           },
           "name": "bye-bye",
           "path": "dp-toys/bye-bye.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
           "description": {
@@ -316,7 +456,7 @@
           },
           "name": "cow-bay-no-gg",
           "path": "dp-toys/cow-bay-no-gg.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
           "description": {
@@ -326,7 +466,7 @@
           },
           "name": "fei-ji-bei-sen-lin",
           "path": "dp-toys/fei-ji-bei-sen-lin.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
           "description": {
@@ -336,7 +476,7 @@
           },
           "name": "gg-in-in-der",
           "path": "dp-toys/gg-in-in-der.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
           "description": {
@@ -346,7 +486,7 @@
           },
           "name": "ha-ha-ha",
           "path": "dp-toys/ha-ha-ha.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
           "description": {
@@ -356,7 +496,7 @@
           },
           "name": "i-think",
           "path": "dp-toys/i-think.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
           "description": {
@@ -366,7 +506,7 @@
           },
           "name": "kao-yi-qiang",
           "path": "dp-toys/kao-yi-qiang.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
           "description": {
@@ -376,7 +516,7 @@
           },
           "name": "se-qing-nv-v",
           "path": "dp-toys/se-qing-nv-v.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
           "description": {
@@ -386,7 +526,7 @@
           },
           "name": "wu-shang-kuai-le",
           "path": "dp-toys/wu-shang-kuai-le.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI&t"
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         }
       ]
     }
