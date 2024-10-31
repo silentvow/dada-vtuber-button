@@ -92,6 +92,386 @@
     },
     {
       "group_description": {
+        "en": "Real DaDa: Greetings",
+        "ja": "真妲：挨拶",
+        "zh": "真妲：打招呼"
+      },
+      "group_name": "real_dada_greetings",
+      "voice_list": [
+        {
+          "description": {
+            "en": "Hello, everyone, good evening, Mifumi-san.",
+            "ja": "こんばんは、皆さん、ミフミさん。",
+            "zh": "哈囉大家晚上好米乎咪桑"
+          },
+          "name": "hello",
+          "path": "real-da-agree/hello.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Good evening and goodnight.",
+            "ja": "こんばんは、おやすみなさい。",
+            "zh": "晚上好呀晚安"
+          },
+          "name": "wan-shan-hao",
+          "path": "real-da-agree/wan-shan-hao.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Goodnight, go to sleep soon.",
+            "ja": "おやすみ、早く寝てね。",
+            "zh": "晚安快點睡覺吧"
+          },
+          "name": "kwa-dian-sue-jiao",
+          "path": "real-da-agree/kwa-dian-sue-jiao.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Bye-bye, goodnight, oyasumi.",
+            "ja": "バイバイ、おやすみ",
+            "zh": "掰掰晚安 お休み"
+          },
+          "name": "oyasumi",
+          "path": "real-da-agree/oyasumi.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "Real DaDa: Chat",
+        "ja": "真妲：おしゃべり",
+        "zh": "真妲：閒聊"
+      },
+      "group_name": "real_dada_chat",
+      "voice_list": [
+        {
+          "description": {
+            "en": "Take care of yourself",
+            "ja": "体を大事にしてね",
+            "zh": "要保重身體阿"
+          },
+          "name": "bao-zon-she-ti",
+          "path": "real-da-agree/bao-zon-she-ti.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Really, if you keep staying up, I’ll start to dislike you!",
+            "ja": "本当に、こんなふうに寝ないと嫌いになるよ！",
+            "zh": "真是的再這樣子不睡覺的話我就要討厭你囉"
+          },
+          "name": "tao-yen-no-o",
+          "path": "real-da-agree/tao-yen-no-o.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Jenda really exists.",
+            "ja": "真妲は本当に存在しているよ",
+            "zh": "真妲是真實存在的"
+          },
+          "name": "chen-shi-tsu-chai",
+          "path": "real-da-agree/chen-shi-tsu-chai.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Is Jenda real? If you believe, then I think it must be real.",
+            "ja": "真妲は本当に存在しているの？あなたが信じれば、本当に存在しているんだと思うよ。",
+            "zh": "真妲究竟是不是真實的呢只要你這麼相信的話我想應該就是真實的吧"
+          },
+          "name": "tse-da-tse-shi",
+          "path": "real-da-agree/tse-da-tse-shi.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "If we get the chance, we’ll definitely meet someday.",
+            "ja": "チャンスがあれば、いつか必ず会えるよ。",
+            "zh": "有機會的話我們鐵定有一天會見面的"
+          },
+          "name": "yo-gi-hue",
+          "path": "real-da-agree/yo-gi-hue.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "Real DaDa: Agree",
+        "ja": "真妲：肯定",
+        "zh": "真妲：肯定"
+      },
+      "group_name": "real_dada_agree",
+      "voice_list": [
+        {
+          "description": {
+            "en": "You’re the best.",
+            "ja": "あなたは最高だよ。",
+            "zh": "你是最棒的"
+          },
+          "name": "tsue-ban-der",
+          "path": "real-da-agree/tsue-ban-der.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "You're amazing!",
+            "ja": "あなたは本当にすごい",
+            "zh": "你好棒好棒喔"
+          },
+          "name": "hao-ban",
+          "path": "real-da-agree/hao-ban.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "You’re the best!",
+            "ja": "あなたは最高だよ！",
+            "zh": "你呢是最棒的喔"
+          },
+          "name": "ni-ner-tsue-bang",
+          "path": "real-da-agree/ni-ner-tsue-bang.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "You did great today, too!",
+            "ja": "今日もよく頑張ったね！",
+            "zh": "今天也做得很棒喔"
+          },
+          "name": "gin-ten-hen-bang",
+          "path": "real-da-agree/gin-ten-hen-bang.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Go all out for the things you love and want to do!",
+            "ja": "あなたが愛していることややりたいことのために全力を尽くそう。",
+            "zh": "好好地為了你自己所愛的一些事物想要做的事情大展拳腳吧"
+          },
+          "name": "da-zan-chen-jiao",
+          "path": "real-da-agree/da-zan-chen-jiao.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Even if everyone else denies you, I’ll always support you.",
+            "ja": "みんながあなたを否定しても、私は認めるよ。",
+            "zh": "就算全部的人都否定你我也會肯定你的"
+          },
+          "name": "fo-din-ni",
+          "path": "real-da-agree/fo-din-ni.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Take it slow, it’s okay.",
+            "ja": "ゆっくりでいいんだよ。",
+            "zh": "慢慢來沒關係的"
+          },
+          "name": "mang-mang-lai",
+          "path": "real-da-agree/mang-mang-lai.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "You are the most special and amazing person.",
+            "ja": "あなたは一番特別で素晴らしい人だよ。",
+            "zh": "你是最特別最棒的那個人"
+          },
+          "name": "tsue-te-bie",
+          "path": "real-da-agree/tsue-te-bie.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Sometimes, don’t push yourself too hard to accomplish something.",
+            "ja": "時には無理に何かを達成しようとしなくてもいいんだよ",
+            "zh": "有的時候呢不要太勉強自己一定要達成什麼樣的事情"
+          },
+          "name": "mian-chiang",
+          "path": "real-da-agree/mian-chiang.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "No problem, you can definitely become the Hokage!",
+            "ja": "大丈夫、あなたはきっと火影になれるよ！",
+            "zh": "沒問題你一定可以成為火影的"
+          },
+          "name": "naruto",
+          "path": "real-da-agree/naruto.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Believe in yourself, no matter what happens, it’ll be fine.",
+            "ja": "自分を信じて、何があっても大丈夫だから。",
+            "zh": "你要相信自己不管遇到什麼事情都不要緊的"
+          },
+          "name": "shan-shin-tze-zhi",
+          "path": "real-da-agree/shan-shin-tze-zhi.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "I’ll absolutely be one of the people in this world who thinks you’re the best.",
+            "ja": "私はこの世界で絶対にあなたが最高だと思う人の一人になるよ。",
+            "zh": "我呢會是這個世界上呢絕對是認為你最棒的其中一個人噢"
+          },
+          "name": "shi-che-shan",
+          "path": "real-da-agree/shi-che-shan.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "Real DaDa: Disagree",
+        "ja": "真妲：吐槽",
+        "zh": "真妲：吐槽"
+      },
+      "group_name": "real_dada_disagree",
+      "voice_list": [
+        {
+          "description": {
+            "en": "No way!",
+            "ja": "だめだよ！",
+            "zh": "不行啦！"
+          },
+          "name": "bu-shin-la",
+          "path": "real-da-agree/bu-shin-la.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Be careful.",
+            "ja": "気をつけてね",
+            "zh": "給我小心一點"
+          },
+          "name": "shao-shin-i-dian",
+          "path": "real-da-agree/shao-shin-i-dian.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Who’s your wife?",
+            "ja": "誰があなたの奥さんだって",
+            "zh": "誰是你老婆阿"
+          },
+          "name": "she-shi-ni-lao-po",
+          "path": "real-da-agree/she-shi-ni-lao-po.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "What are you going to do?",
+            "ja": "何をするの？",
+            "zh": "你要幹什麼阿"
+          },
+          "name": "gan-shen-mo",
+          "path": "real-da-agree/gan-shen-mo.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Stop fantasizing and wake up!",
+            "ja": "妄想はやめて目を覚まして",
+            "zh": "不要幻想了醒醒阿"
+          },
+          "name": "huan-hsiang",
+          "path": "real-da-agree/huan-hsiang.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Are you teasing me?",
+            "ja": "からかってるんじゃないよね？",
+            "zh": "你該不會是在捉弄我吧"
+          },
+          "name": "dro-nong-wo",
+          "path": "real-da-agree/dro-nong-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "You can’t just call every VTuber you see your “wife.”",
+            "ja": "どのVTuberを見ても「奥さん」って呼ぶのはやめなさい。",
+            "zh": "你們不可以隨隨便便看到一個vtuber就在那邊說什麼老婆什麼的"
+          },
+          "name": "sue-sue-bian-bian",
+          "path": "real-da-agree/sue-sue-bian-bian.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "Real DaDa: Benefits",
+        "ja": "真妲：福利",
+        "zh": "真妲：福利"
+      },
+      "group_name": "real_dada_benefits",
+      "voice_list": [
+        {
+          "description": {
+            "en": "Meow meow",
+            "ja": "にゃんにゃん",
+            "zh": "喵喵"
+          },
+          "name": "miao-miao",
+          "path": "real-da-agree/miao-miao.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Honey, hold me, I want a princess carry.",
+            "ja": "ダーリン、抱っこして、プリンセス抱っこがいいな。",
+            "zh": "老公老公抱抱我要公主抱抱"
+          },
+          "name": "lao-gon-bao-bao",
+          "path": "real-da-agree/lao-gon-bao-bao.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Rain Love Lyrics Remix - 1",
+            "ja": "雨愛歌詞アレンジ - 1",
+            "zh": "雨愛歌詞改編-1"
+          },
+          "name": "rainy-love",
+          "path": "real-da-agree/rainy-love.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Rain Love Lyrics Remix - 2",
+            "ja": "雨愛歌詞アレンジ - 2",
+            "zh": "雨愛歌詞改編-2"
+          },
+          "name": "rainy-love-2",
+          "path": "real-da-agree/rainy-love-2.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "description": {
+            "en": "Rain Love Lyrics Remix - 3",
+            "ja": "雨愛歌詞アレンジ - 3",
+            "zh": "雨愛歌詞改編-3"
+          },
+          "name": "rainy-love-3",
+          "path": "real-da-agree/rainy-love-3.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        }
+      ]
+    },
+    {
+      "group_description": {
         "en": "Brother Da",
         "ja": "妲哥",
         "zh": "妲哥"
@@ -382,7 +762,7 @@
           "description": {
             "en": "Laughing hard when it comes to the topic of reducing classes.",
             "ja": "クラス削減の話題を聞くと笑いが止まらない。",
-            "zh": "大笑 (講到減班台話題)"
+            "zh": "鸚鵡狂笑"
           },
           "name": "ha-ha-ha-ha",
           "path": "on-fire/ha-ha-ha-ha.mp3",
