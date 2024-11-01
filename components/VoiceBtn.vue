@@ -1,27 +1,39 @@
 <template>
   <v-hover>
     <template v-slot="{ hover }">
-      <v-btn
-        class="ma-1 pa-2 vo-btn"
-        :class="[v_btn_classes]"
-        :elevation="hover ? 6 : 2"
+      <v-item-group
         rounded
-        height="max-content"
-        min-height="36px"
-        :style="{
-          '--hover-content': 'url(\'' + emoji_url + '\')',
-          '--progress': progress + '%',
-          '--start-percent': progress - 5 + '%'
-        }"
+        class="ma-1 v-btn-toggle v-btn-toggle--rounded"
+        :class="hover ? 'elevation-6' : 'elevation-2'"
       >
-        <div style="z-index: 2">
-          <slot class="slot"></slot>
-        </div>
-      </v-btn>
+        <v-btn
+          class="vo-btn pa-2"
+          :class="[v_btn_classes]"
+          color="primary"
+          rounded
+          height="max-content"
+          min-height="36px"
+          :style="{
+            opacity: 1,
+            '--hover-content': 'url(\'' + emoji_url + '\')',
+            '--progress': progress + '%',
+            '--start-percent': progress - 5 + '%'
+          }"
+          @click.native="onPlay"
+        >
+          <div style="z-index: 2">
+            <slot class="slot"></slot>
+          </div>
+        </v-btn>
+        <v-btn height="auto" color="primary" @click.native="onYoutube">
+          <v-icon :style="{ color: '#FFF' }">{{ icons.youtube }}</v-icon>
+        </v-btn>
+      </v-item-group>
     </template>
   </v-hover>
 </template>
 <script>
+import { mdiYoutube } from '@mdi/js';
 import twemoji from 'twemoji';
 
 export default {
@@ -38,6 +50,9 @@ export default {
   },
   data() {
     return {
+      icons: {
+        youtube: mdiYoutube
+      },
       twe_para: {
         base: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets',
         folder: '/svg',
@@ -64,6 +79,14 @@ export default {
       let match = reg.exec(str);
       return match[1];
     }
+  },
+  methods: {
+    onPlay() {
+      this.$emit('on-play');
+    },
+    onYoutube() {
+      this.$emit('on-youtube');
+    }
   }
 };
 </script>
@@ -71,7 +94,7 @@ export default {
 $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 .vo-btn {
   display: inline-block;
-  max-width: 100%;
+  max-width: calc(100% - 48px);
   word-wrap: break-word !important;
   word-break: break-all !important;
   white-space: normal !important;
@@ -82,11 +105,11 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 }
 
 .vo-btn-bg-light {
-  background: linear-gradient(to right, #d05a6a var(--start-percent), #d81b60 var(--progress));
+  background: linear-gradient(to right, #d05a6a var(--start-percent), #c51162 var(--progress));
 }
 
 .vo-btn-bg-dark {
-  background: linear-gradient(to right, #d05a6a var(--start-percent), #d81b60 var(--progress));
+  background: linear-gradient(to right, #d05a6a var(--start-percent), #c51162 var(--progress));
 }
 
 .vo-btn div {
@@ -100,7 +123,7 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 .vo-btn div:after {
   content: var(--hover-content);
   position: absolute;
-  right: -20px;
+  right: -10px;
   opacity: 0;
   transition: 0.5s $nonlinear-transition;
   width: 20px;

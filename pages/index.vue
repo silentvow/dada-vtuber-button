@@ -58,37 +58,6 @@
       </v-btn>
     </v-speed-dial>
     <v-flex xs12 sm8 md6 style="min-width: 85%">
-      <!-- 直播或者动态面板，不要取消注释，还没写功能 -->
-      <!--
-      <v-card :loading="lives_loading">
-        <v-card-title>
-          <v-icon class="primary--text" :class="dark_text" style="margin-right: 8px;">
-            {{ icons.clock_outline }}
-          </v-icon>
-          {{ $t('live.activity') }}
-        </v-card-title>
-        <SkeletonLoading :loading="lives_loading">
-          <v-card-text>
-            <div v-for="live in lives" :key="live.id">
-              <div v-if="live.title.length" :class="dark_text">
-                <span class="warning--text">{{ $t('live.on_air') }}</span>
-                <youtube-link :video-key="live.yt_video_key" :content="live.title" class="error--text" />
-              </div>
-            </div>
-            <div v-for="live in upcoming_lives" :key="live.id">
-              <div v-if="live.title.length" :class="dark_text">
-                <span>{{ $t('live.schedule') + format_time(live.live_schedule) }}</span>
-                <youtube-link :video-key="live.yt_video_key" :content="live.title" />
-              </div>
-            </div>
-            <div v-if="lives.length === 0 && upcoming_lives.length === 0">
-              <p>{{ lives_loading ? $t('live.loading') : $t('live.no_schedule') }}</p>
-            </div>
-            <div class="notification-board" v-html="$md.render($t('live.notification'))"></div>
-          </v-card-text>
-        </SkeletonLoading>
-      </v-card>
-      -->
       <!-- 对每个按钮组生成一个Card -->
       <v-card v-for="group in groups" :key="group.name">
         <v-card-title class="headline" :class="dark_text">
@@ -100,13 +69,49 @@
             ref="voice_btn"
             :key="item.name"
             :class="voice_button_color"
-            @click.native="play(item)"
+            @on-play="play(item)"
+            @on-youtube="openModal(item)"
           >
             {{ item.description[current_locale] }}
           </voice-btn>
         </v-card-text>
       </v-card>
     </v-flex>
+
+    <v-dialog v-model="is_dialog_open" max-width="600px">
+      <v-card>
+        <v-card-title>
+          {{ `${$t('site.voice_source')}：${dialog_item.description[current_locale]}` }}
+        </v-card-title>
+        <v-card-text>
+          <a :href="dialog_item.url" target="_blank" rel="noreferrer">{{ dialog_item.url }}</a>
+        </v-card-text>
+        <iframe
+          class="mx-5"
+          :src="`https://www.youtube.com/embed/${dialog_item.url.slice(-11)}`"
+          frameborder="0"
+          allowfullscreen
+          :style="{
+            width: 'calc(100% - 40px)',
+            height: 'auto',
+            aspectRatio: '16/9'
+          }"
+        ></iframe>
+        <v-card-actions>
+          <v-btn
+            class="ml-auto mr-0 px-16"
+            color="primary"
+            large
+            @click.native="
+              is_dialog_open = false;
+              dialog_item = { description: {}, url: '' };
+            "
+          >
+            {{ $t('control.disabled') }}
+          </v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog>
   </v-layout>
 </template>
 
@@ -182,7 +187,9 @@ export default {
       now_playing: new Set(),
       upcoming_lives: [],
       lives: [],
-      lives_loading: true
+      lives_loading: true,
+      is_dialog_open: false,
+      dialog_item: { description: {}, url: '' }
     };
   },
   computed: {
@@ -200,8 +207,8 @@ export default {
     },
     voice_button_color() {
       return {
-        'pink darken-1': this.$vuetify.theme.dark,
-        'pink darken-1 white--text': !this.$vuetify.theme.dark
+        'pink accent-4': this.$vuetify.theme.dark,
+        'pink accent-4 white--text': !this.$vuetify.theme.dark
       };
     },
     fab_icon() {
@@ -211,7 +218,7 @@ export default {
       return [this.$vuetify.theme.dark ? 'indigo darken-1' : 'white'];
     },
     speed_dial_color: function () {
-      return [this.$vuetify.theme.dark ? 'pink darken-1' : 'pink darken-1'];
+      return [this.$vuetify.theme.dark ? 'pink accent-4' : 'pink accent-4'];
     },
     current_locale() {
       return this.$i18n.locale;
@@ -264,6 +271,10 @@ export default {
           eventLabel: item.name + ' ' + item.description['zh']
         });
       }
+    },
+    openModal(item) {
+      this.is_dialog_open = true;
+      this.dialog_item = item;
     },
     play(item) {
       //播放音频主逻辑部分
