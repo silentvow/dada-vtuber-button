@@ -98,15 +98,7 @@
           }"
         ></iframe>
         <v-card-actions>
-          <v-btn
-            class="ml-auto mr-0 px-16"
-            color="primary"
-            large
-            @click.native="
-              is_dialog_open = false;
-              dialog_item = { description: {}, url: '' };
-            "
-          >
+          <v-btn class="ml-auto mr-0 px-16" color="primary" large @click.native="is_dialog_open = false">
             {{ $t('control.disabled') }}
           </v-btn>
         </v-card-actions>
@@ -233,6 +225,13 @@ export default {
     },
     repeat_text() {
       return this.$t('control.repeat') + ' ' + (this.repeat ? this.$t('control.enabled') : this.$t('control.disabled'));
+    }
+  },
+  watch: {
+    is_dialog_open(newValue) {
+      if (!newValue) {
+        this.dialog_item = { description: {}, url: '' };
+      }
     }
   },
   async mounted() {
