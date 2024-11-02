@@ -87,6 +87,10 @@ sw.*
 # macOS
 .DS_Store
 
+# Windows
+Thumbs.db
+desktop.ini
+
 # Vim swap files
 *.swp
 

@@ -42,6 +42,156 @@
     },
     {
       "group_description": {
+        "en": "Laugh",
+        "ja": "笑聲",
+        "zh": "笑聲"
+      },
+      "group_name": "laugh",
+      "voice_list": [
+        {
+          "description": {
+            "en": "hahaha-1",
+            "ja": "ハハハ-1",
+            "zh": "哈哈哈-1"
+          },
+          "name": "ha-ha-ha-1",
+          "path": "dp-toys/ha-ha-ha.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "description": {
+            "en": "hahaha-2",
+            "ja": "ハハハ-2",
+            "zh": "哈哈哈-2"
+          },
+          "name": "ha-ha-ha-2",
+          "path": "on-fire/ha-ha-ha-ha.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "hahaha-3",
+            "ja": "ハハハ-3",
+            "zh": "哈哈哈-3"
+          },
+          "name": "ha-ha-ha-3",
+          "path": "draw-avatar-10/ha-ha-ha.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "Disagree",
+        "ja": "吐槽",
+        "zh": "吐槽"
+      },
+      "group_name": "disagree",
+      "voice_list": [
+        {
+          "description": {
+            "en": "Shut up, shut up.",
+            "ja": "黙れ、黙れ",
+            "zh": "閉嘴閉嘴"
+          },
+          "name": "bi-tsue-bi-tsue",
+          "path": "draw-avatar-10/bi-tsue-bi-tsue.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "description": {
+            "en": "What the heck?",
+            "ja": "何だよ！",
+            "zh": "什麼東西阿"
+          },
+          "name": "wtf",
+          "path": "on-fire/wtf.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "You guys ask for so much.",
+            "ja": "あなたたちは要求が多すぎる。",
+            "zh": "你們要求好多"
+          },
+          "name": "ni-men-yao-cho-hao-duo",
+          "path": "draw-avatar-10/ni-men-yao-cho-hao-duo.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "description": {
+            "en": "What the heck is this?",
+            "ja": "これは一体何なんだ？",
+            "zh": "這到底是沙小"
+          },
+          "name": "san-shiao",
+          "path": "draw-avatar-10/san-shiao.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "description": {
+            "en": "I really can’t believe it.",
+            "ja": "本当に信じられない",
+            "zh": "我真不敢相信"
+          },
+          "name": "wo-chen-bu-gan-shan-shin",
+          "path": "draw-avatar-10/wo-chen-bu-gan-shan-shin.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "description": {
+            "en": "Stop nagging, you guys!",
+            "ja": "うるさい、君たち！",
+            "zh": "少囉嗦你們這些傢伙"
+          },
+          "name": "sau-ro-sol",
+          "path": "on-fire/sau-ro-sol.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "Damn it, I don’t have a GG!",
+            "ja": "ちくしょう、私はGGを持っていない！",
+            "zh": "靠盃我沒有GG啦"
+          },
+          "name": "cow-bay-no-gg",
+          "path": "dp-toys/cow-bay-no-gg.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "description": {
+            "en": "I’m going to have a stroke; what is this?",
+            "ja": "脳卒中を起こしそう、これ何なの？",
+            "zh": "我要中風了這什麼東西"
+          },
+          "name": "wo-yao-chon-fon",
+          "path": "draw-avatar-10/wo-yao-chon-fon.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "description": {
+            "en": "What’s wrong with you haters?",
+            "ja": "何なの、このアンチたち。",
+            "zh": "什麼啦你們這些酸民"
+          },
+          "name": "ni-men-zhe-she-shua-min",
+          "path": "on-fire/ni-men-zhe-she-shua-min.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "Who's jealous? I'm not jealous at all, okay?",
+            "ja": "誰が嫉妬してるの？私は全然嫉妬なんかしてないよ。",
+            "zh": "誰嫉妒阿我一點都沒有嫉妒好不好"
+          },
+          "name": "se-ji-du-a",
+          "path": "on-fire/se-ji-du-a.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        }
+      ]
+    },
+    {
+      "group_description": {
         "en": "Weird cry",
         "ja": "奇妙な叫び声",
         "zh": "怪異叫聲"
@@ -760,16 +910,6 @@
       "voice_list": [
         {
           "description": {
-            "en": "Laughing hard when it comes to the topic of reducing classes.",
-            "ja": "クラス削減の話題を聞くと笑いが止まらない。",
-            "zh": "鸚鵡狂笑"
-          },
-          "name": "ha-ha-ha-ha",
-          "path": "on-fire/ha-ha-ha-ha.mp3",
-          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
-        },
-        {
-          "description": {
             "en": "But... that's awful!",
             "ja": "くっ…悔しい！",
             "zh": "可..可惡"
@@ -780,62 +920,12 @@
         },
         {
           "description": {
-            "en": "What’s wrong with you haters?",
-            "ja": "何なの、このアンチたち。",
-            "zh": "什麼啦你們這些酸民"
-          },
-          "name": "ni-men-zhe-she-shua-min",
-          "path": "on-fire/ni-men-zhe-she-shua-min.mp3",
-          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
-        },
-        {
-          "description": {
-            "en": "Stop nagging, you guys!",
-            "ja": "うるさい、君たち！",
-            "zh": "少囉嗦你們這些傢伙"
-          },
-          "name": "sau-ro-sol",
-          "path": "on-fire/sau-ro-sol.mp3",
-          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
-        },
-        {
-          "description": {
-            "en": "Who's jealous? I'm not jealous at all, okay?",
-            "ja": "誰が嫉妬してるの？私は全然嫉妬なんかしてないよ。",
-            "zh": "誰嫉妒阿我一點都沒有嫉妒好不好"
-          },
-          "name": "se-ji-du-a",
-          "path": "on-fire/se-ji-du-a.mp3",
-          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
-        },
-        {
-          "description": {
-            "en": "What the heck?",
-            "ja": "何だよ！",
-            "zh": "什麼東西阿"
-          },
-          "name": "wtf",
-          "path": "on-fire/wtf.mp3",
-          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
-        },
-        {
-          "description": {
             "en": "Bye-bye",
             "ja": "バイバイ",
             "zh": "掰掰再見叭叭叭叭"
           },
           "name": "bye-bye",
           "path": "dp-toys/bye-bye.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
-          "description": {
-            "en": "Damn it, I don’t have a GG!",
-            "ja": "ちくしょう、私はGGを持っていない！",
-            "zh": "靠盃我沒有GG啦"
-          },
-          "name": "cow-bay-no-gg",
-          "path": "dp-toys/cow-bay-no-gg.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
@@ -856,16 +946,6 @@
           },
           "name": "gg-in-in-der",
           "path": "dp-toys/gg-in-in-der.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
-          "description": {
-            "en": "Laughter.",
-            "ja": "大笑",
-            "zh": "大笑聲"
-          },
-          "name": "ha-ha-ha",
-          "path": "dp-toys/ha-ha-ha.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
@@ -907,6 +987,46 @@
           "name": "wu-shang-kuai-le",
           "path": "dp-toys/wu-shang-kuai-le.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "description": {
+            "en": "Ah, I want a vacation too.",
+            "ja": "ああ、私も休みが欲しい",
+            "zh": "啊我也想放假"
+          },
+          "name": "shan-fang-jia",
+          "path": "draw-avatar-10/shan-fang-jia.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "description": {
+            "en": "Am I becoming more and more like a fujoshi?",
+            "ja": "私は今どんどん夢女子っぽくなっているのかな？",
+            "zh": "我現在是不是越來越像夢女"
+          },
+          "name": "shan-meng-nu",
+          "path": "draw-avatar-10/shan-meng-nu.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "description": {
+            "en": "I must be an idiot.",
+            "ja": "私はバカだよね",
+            "zh": "我是笨蛋吧"
+          },
+          "name": "who-shi-ben-dan",
+          "path": "draw-avatar-10/who-shi-ben-dan.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "description": {
+            "en": "I’m sorry, I’m sorry, I’m a penguin, a pathetic penguin.",
+            "ja": "ごめんなさい、ごめんなさい、私はペンギンです、哀れなペンギンです。",
+            "zh": "對不起對不起我是企鵝我是一隻可悲企鵝"
+          },
+          "name": "wo-shi-chi-er",
+          "path": "draw-avatar-10/wo-shi-chi-er.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         }
       ]
     }
