@@ -37,6 +37,16 @@
           "name": "zhen-na-ni-mei-ban-fa",
           "path": "dp-toys/zhen-na-ni-mei-ban-fa.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "description": {
+            "en": "Alright, I really can't do anything about you.",
+            "ja": "まあいいか、君たちにはどうしようもないね。",
+            "zh": "好吧真是拿你們沒辦法"
+          },
+          "name": "hao-ba-may-ban-fa",
+          "path": "mihoyo-set/hao-ba-may-ban-fa.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         }
       ]
     },
@@ -77,6 +87,16 @@
           "name": "ha-ha-ha-3",
           "path": "draw-avatar-10/ha-ha-ha.mp3",
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "description": {
+            "en": "Hahaha -4",
+            "ja": "ハハハ-4",
+            "zh": "哈哈哈-4"
+          },
+          "name": "ha-ha-ha-4",
+          "path": "mihoyo-set/ha-ha-ha-4.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         }
       ]
     },
@@ -187,6 +207,76 @@
           "name": "se-ji-du-a",
           "path": "on-fire/se-ji-du-a.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "Why are you crying?",
+            "ja": "なんで泣いているの？",
+            "zh": "是在哭哭噢"
+          },
+          "name": "s-zai-kuku-o",
+          "path": "mihoyo-set/s-zai-kuku-o.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Rail players are suspiciously rich",
+            "ja": "鉄道ゲーマーがこんなにお金持ちなんて怪しすぎる",
+            "zh": "鐵道玩家也有錢到太可疑了吧"
+          },
+          "name": "te-dao-wan-jia",
+          "path": "mihoyo-set/te-dao-wan-jia.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Wait, what is this? Why is there so much?",
+            "ja": "ちょっと待って、これは何？なんでこんなに多いの？",
+            "zh": "等一下這個是什麼為什麼這麼多啦"
+          },
+          "name": "ze-shi-na-mou-dou-la",
+          "path": "mihoyo-set/ze-shi-na-mou-dou-la.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Who would want to buy my embarrassing expression?",
+            "ja": "誰が私のこの恥ずかしい表情を買うんだよ",
+            "zh": "誰要買我這充滿恥辱的表情啊"
+          },
+          "name": "se-yao-mai-chi-zu",
+          "path": "mihoyo-set/se-yao-mai-chi-zu.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "What is this? This is basically forcing me into the pit.",
+            "ja": "これは何だ？これは基本的に私を坑に押し込むようなものだ。",
+            "zh": "這是什麼這根本就是強迫入坑嘛"
+          },
+          "name": "chian-po-ru-ken",
+          "path": "mihoyo-set/chian-po-ru-ken.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "What are you saying, you woman",
+            "ja": "何を言っているんだ、この女は",
+            "zh": "你在說什麼你這個女人"
+          },
+          "name": "ni-ze-ger-nu-ren",
+          "path": "mihoyo-set/ni-ze-ger-nu-ren.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "I just started playing and you're telling me to spend on four units? Am I moving in here? Should I just buy a house?",
+            "ja": "プレイを始めたばかりなのに、四つのユニットを課金しろって？ここに住むつもりか？家でも買うべき？",
+            "zh": "我現在才剛試玩你就叫我課四單我是要住下來了是不是直接買房了"
+          },
+          "name": "ss-wan-ke-shi-dan",
+          "path": "mihoyo-set/ss-wan-ke-shi-dan.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         }
       ]
     },
@@ -642,6 +732,96 @@
     },
     {
       "group_description": {
+        "en": "Drumstick",
+        "ja": "雞腿",
+        "zh": "雞腿"
+      },
+      "group_name": "drumstick",
+      "voice_list": [
+        {
+          "description": {
+            "en": "I don't want to be chicken",
+            "ja": "私は鶏肉になりたくない",
+            "zh": "我不要做雞肉啦"
+          },
+          "name": "bu-yao-g-zuo",
+          "path": "mihoyo-set/bu-yao-g-zuo.mp3",
+          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Wow, I dropped a chicken leg, gnnn, why is it a chicken leg? I'm so mad!",
+            "ja": "わあ、鶏肉を落とした、ぐぬぬ、なぜ鶏肉なんだ？すごく腹が立つ！",
+            "zh": "哇掉雞腿ㄍㄋㄋ為什麼是雞腿氣死我了"
+          },
+          "name": "diao-g-tue-gan",
+          "path": "mihoyo-set/diao-g-tue-gan.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Damn, he actually gave me chicken and even ten skewers!",
+            "ja": "ちぇっ、彼は実際に私に鶏肉と10本の串焼きまでくれた！",
+            "zh": "幹他真的給我雞肉還給我十串"
+          },
+          "name": "ge-wo-g-zuo",
+          "path": "mihoyo-set/ge-wo-g-zuo.mp3",
+          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "Penguin",
+        "ja": "ペンギン",
+        "zh": "企鵝"
+      },
+      "group_name": "penguin",
+      "voice_list": [
+        {
+          "description": {
+            "en": "I’m sorry, I’m sorry, I’m a penguin, a pathetic penguin.",
+            "ja": "ごめんなさい、ごめんなさい、私はペンギンです、哀れなペンギンです。",
+            "zh": "對不起對不起我是企鵝我是一隻可悲企鵝"
+          },
+          "name": "wo-shi-chi-er",
+          "path": "draw-avatar-10/wo-shi-chi-er.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "Unicorn",
+        "ja": "ユニコーン",
+        "zh": "獨角獸"
+      },
+      "group_name": "unicorn",
+      "voice_list": [
+        {
+          "description": {
+            "en": "I am the unicorn of the dreamlike fleshlight forest.",
+            "ja": "私は夢のフレッシュライトの森のユニコーンです",
+            "zh": "我是夢幻飛機杯森林的獨角獸"
+          },
+          "name": "fei-ji-bei-sen-lin",
+          "path": "dp-toys/fei-ji-bei-sen-lin.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "description": {
+            "en": "Let's experience the ultimate joy of the GG unicorn together.",
+            "ja": "一緒にGGユニコーンの至高の喜びを体験しよう。",
+            "zh": "一起體會GG獨角獸的無上快樂吧"
+          },
+          "name": "wu-shang-kuai-le",
+          "path": "dp-toys/wu-shang-kuai-le.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        }
+      ]
+    },
+    {
+      "group_description": {
         "en": "breast",
         "ja": "おっぱい",
         "zh": "奶子"
@@ -667,6 +847,26 @@
           "name": "wo-so-wo-shi-da-nai",
           "path": "on-fire/wo-so-wo-shi-da-nai.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "description": {
+            "en": "My name should be called Big Milk",
+            "ja": "私の名前はおっぱいと呼ばれるべき",
+            "zh": "我名字要叫做大奶"
+          },
+          "name": "jiao-zuo-da-nai",
+          "path": "mihoyo-set/jiao-zuo-da-nai.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Hey, I told you I don't hate milk!",
+            "ja": "ねえ、私は牛乳が嫌いだって言ったでしょう！",
+            "zh": "吼唷我不就說了我沒有仇奶啦"
+          },
+          "name": "ho-yo-ma-yo-tso-na",
+          "path": "mihoyo-set/ho-yo-ma-yo-tso-na.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         }
       ]
     },
@@ -707,6 +907,126 @@
           "name": "shi-huan-loli-da-nai",
           "path": "on-fire/shi-huan-loli-da-nai.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "Genshin Impact",
+        "ja": "原神",
+        "zh": "原神"
+      },
+      "group_name": "genshin-impact",
+      "voice_list": [
+        {
+          "description": {
+            "en": "Genshin... Impact... Start...",
+            "ja": "原神...起動...",
+            "zh": "原神..啟動..."
+          },
+          "name": "yuan-shen-chi-don",
+          "path": "mihoyo-set/yuan-shen-chi-don.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Gen... Gen... Genshin... Im... Impact... Start...",
+            "ja": "げ...げん...原神...き...起動...",
+            "zh": "原..原..原神...啟..啟動..."
+          },
+          "name": "yuan-shen-chi-don-2",
+          "path": "mihoyo-set/yuan-shen-chi-don-2.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Genshin Impact start! I love playing Genshin Impact the most, I'm a Klee player. Look, this is my newly bought Klee's Jumpy Dumpty clothes",
+            "ja": "原神、起動！原神をプレイするのが大好きです。クレープレイヤーです。見て、これが新しく買ったクレーのジャンピー爆弾の服です",
+            "zh": "原神啟動我最喜歡玩原神了我是可莉玩家你看這是我新買的衣服可莉蹦蹦炸彈"
+          },
+          "name": "ke-li-wan-jia-2",
+          "path": "mihoyo-set/ke-li-wan-jia-2.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "I'm not just a Klee player, I also wear Klee's clothes",
+            "ja": "私はクレープレイヤーだけでなく、クレーの服も着ています",
+            "zh": "我不只是可莉玩家我還穿上了可莉的衣服"
+          },
+          "name": "ke-li-wan-jia",
+          "path": "mihoyo-set/ke-li-wan-jia.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        }
+      ]
+    },
+    {
+      "group_description": {
+        "en": "Draw card live broadcast",
+        "ja": "ガチャ配信",
+        "zh": "抽卡實況"
+      },
+      "group_name": "draw-card-live-broadcast",
+      "voice_list": [
+        {
+          "description": {
+            "en": "I am guaranteed, I am a guaranteed person",
+            "ja": "私は保証された、私は保証された人だ",
+            "zh": "我保底了我是保底人"
+          },
+          "name": "bao-di-ren",
+          "path": "mihoyo-set/bao-di-ren.mp3",
+          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Reject Africa, understand Africa, and finally become Africa",
+            "ja": "アフリカを拒絶し、アフリカを理解し、最終的にアフリカになる",
+            "zh": "拒絕非洲理解非洲最後成為非洲"
+          },
+          "name": "chen-way-fe-chou",
+          "path": "mihoyo-set/chen-way-fe-chou.mp3",
+          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "50 pulls? What game would I play that needs 50 pulls?",
+            "ja": "50回ガチャ？どんなゲームで50回もガチャを引くんだよ？",
+            "zh": "五十抽我玩什麼遊戲會抽到五十抽啊"
+          },
+          "name": "wu-shih-tsou-wo",
+          "path": "mihoyo-set/wu-shih-tsou-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "I don't want to become an African grey parrot.",
+            "ja": "私はアフリカ灰オウムになりたくない。",
+            "zh": "我不要變非洲灰鸚鵡啦"
+          },
+          "name": "fei-zou-hue-yi-wu",
+          "path": "mihoyo-set/fei-zou-hue-yi-wu.mp3",
+          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "If I don't get it today, I'm going to lie on the ground and cry",
+            "ja": "今日手に入らなかったら、地面に寝転んで泣くつもりだ",
+            "zh": "我今天我今天要是沒有沒有抽到我就躺在地上哭"
+          },
+          "name": "tang-zai-di-sha-ku",
+          "path": "mihoyo-set/tang-zai-di-sha-ku.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "It will definitely come out! The goods will come! Ah damn!",
+            "ja": "絶対出る！出るぞ！あぁもう！",
+            "zh": "他一定會出！出貨！啊幹"
+          },
+          "name": "ta-yi-din-hue-tsu",
+          "path": "mihoyo-set/ta-yi-din-hue-tsu.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         }
       ]
     },
@@ -930,16 +1250,6 @@
         },
         {
           "description": {
-            "en": "I am the unicorn of the dreamlike fleshlight forest.",
-            "ja": "私は夢のフレッシュライトの森のユニコーンです",
-            "zh": "我是夢幻飛機杯森林的獨角獸"
-          },
-          "name": "fei-ji-bei-sen-lin",
-          "path": "dp-toys/fei-ji-bei-sen-lin.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
-          "description": {
             "en": "Accumulating good deeds in secret.",
             "ja": "陰で善行を積む",
             "zh": "積積陰陰德"
@@ -980,16 +1290,6 @@
         },
         {
           "description": {
-            "en": "Let's experience the ultimate joy of the GG unicorn together.",
-            "ja": "一緒にGGユニコーンの至高の喜びを体験しよう。",
-            "zh": "一起體會GG獨角獸的無上快樂吧"
-          },
-          "name": "wu-shang-kuai-le",
-          "path": "dp-toys/wu-shang-kuai-le.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
-          "description": {
             "en": "Ah, I want a vacation too.",
             "ja": "ああ、私も休みが欲しい",
             "zh": "啊我也想放假"
@@ -1020,13 +1320,163 @@
         },
         {
           "description": {
-            "en": "I’m sorry, I’m sorry, I’m a penguin, a pathetic penguin.",
-            "ja": "ごめんなさい、ごめんなさい、私はペンギンです、哀れなペンギンです。",
-            "zh": "對不起對不起我是企鵝我是一隻可悲企鵝"
+            "en": "Ai yo wei wa",
+            "ja": "アイヨーウェイワ",
+            "zh": "哎哎哎哎嗚哇"
           },
-          "name": "wo-shi-chi-er",
-          "path": "draw-avatar-10/wo-shi-chi-er.mp3",
-          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+          "name": "ai-yo-wei-wa",
+          "path": "mihoyo-set/ai-yo-wei-wa.mp3",
+          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Oh no, it's terrible",
+            "ja": "ああ、大変だ",
+            "zh": "哎哎不得了不得了"
+          },
+          "name": "bu-der-liao",
+          "path": "mihoyo-set/bu-der-liao.mp3",
+          "url": "https://www.youtube.com/youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Everyone, remember, never, never, never, never gamble",
+            "ja": "皆さん、覚えておいてください、決して、決して、決して、決してギャンブルをしてはいけません",
+            "zh": "各位要記得千萬千千萬萬不要不要賭博啊"
+          },
+          "name": "chen-wan-bu-yao-du-bo",
+          "path": "mihoyo-set/chen-wan-bu-yao-du-bo.mp3",
+          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Deng deng deng deng deng deng deng deng",
+            "ja": "デンデンデンデンデンデンデンデン",
+            "zh": "等登登登等登登登登扔"
+          },
+          "name": "den-x9",
+          "path": "mihoyo-set/den-x9.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "I think I should cooperate with the anti-fraud hotline.",
+            "ja": "私は詐欺対策ホットラインと協力すべきだと思う。",
+            "zh": "我覺得我應該要跟反詐騙專線合作"
+          },
+          "name": "fan-zha-pien-he-zuo",
+          "path": "mihoyo-set/fan-zha-pien-he-zuo.mp3",
+          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Why on earth is my red friend digging a hole for me to jump into?",
+            "ja": "どうして私の赤い友達は、私が飛び込むための穴を掘っているんだ？",
+            "zh": "我的紅色朋友到底到底為什麼要挖坑給我跳咧"
+          },
+          "name": "hon-se-peng-yo-wa-ken",
+          "path": "mihoyo-set/hon-se-peng-yo-wa-ken.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Can my red friend lend me some luck?",
+            "ja": "赤い友達は私に少し運気を貸してくれるかな？",
+            "zh": "我的紅色朋友可不可以借我一下運氣"
+          },
+          "name": "hon-se-peng-yo-yu-chi",
+          "path": "mihoyo-set/hon-se-peng-yo-yu-chi.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Wow, this character is so cute!",
+            "ja": "わあ、このキャラクターはとても可愛い！",
+            "zh": "哇好好看喔這角色真的很好看捏"
+          },
+          "name": "jiao-se-hen-hao-kan",
+          "path": "mihoyo-set/jiao-se-hen-hao-kan.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "I really love this character, they perfectly match my preferences, I love them so much",
+            "ja": "このキャラクターが大好き、私の好みにぴったり合っていて本当に大好き",
+            "zh": "我真的太喜歡這個角色這角色完美踩在我的性癖上超喜歡"
+          },
+          "name": "jiao-se-hsin-pi",
+          "path": "mihoyo-set/jiao-se-hsin-pi.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Let's go!",
+            "ja": "レッツゴー！",
+            "zh": "Let's go!"
+          },
+          "name": "letsgo",
+          "path": "mihoyo-set/letsgo.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Oh my god!",
+            "ja": "オーマイガー！",
+            "zh": "喔買尬"
+          },
+          "name": "oh-my-god",
+          "path": "mihoyo-set/oh-my-god.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Awesome!",
+            "ja": "すげー！",
+            "zh": "水啦"
+          },
+          "name": "sue-la",
+          "path": "mihoyo-set/sue-la.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "I don't want to be an orphan",
+            "ja": "孤児になりたくない",
+            "zh": "我不要我不要當孤兒"
+          },
+          "name": "wo-bu-yao-dan-gu-er",
+          "path": "mihoyo-set/wo-bu-yao-dan-gu-er.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Aiya aiya, I'm going to die!",
+            "ja": "あぁあぁ、死んじゃうよ！",
+            "zh": "哎哎哎我會死掉啦"
+          },
+          "name": "wo-hui-si-diao",
+          "path": "mihoyo-set/wo-hui-si-diao.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "Aiyo aiyo, what a troublesome kid",
+            "ja": "あいよあいよ、困った子だね",
+            "zh": "哎唷哎唷夭壽死囡仔"
+          },
+          "name": "yao-so-shi-lin-na",
+          "path": "mihoyo-set/yao-so-shi-lin-na.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "description": {
+            "en": "My fortune doesn't seem to align well with this game",
+            "ja": "このゲームと私の相性はあまり良くないみたいだ",
+            "zh": "我跟這個遊戲的八字好像沒有到很好"
+          },
+          "name": "you-shi-ba-tze",
+          "path": "mihoyo-set/you-shi-ba-tze.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         }
       ]
     }
