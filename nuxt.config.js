@@ -65,7 +65,7 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [['@nuxtjs/vuetify', { treeShake: is_production }]],
+  buildModules: [['@nuxtjs/vuetify', { treeShake: false }]],
   /*
    ** Nuxt.js modules
    */
