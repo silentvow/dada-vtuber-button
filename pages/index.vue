@@ -200,18 +200,18 @@ export default {
     },
     voice_button_color() {
       return {
-        'pink accent-4': this.$vuetify.theme.dark,
-        'pink accent-4 white--text': !this.$vuetify.theme.dark
+        'red darken-3': this.$vuetify.theme.dark,
+        'red darken-3 white--text': !this.$vuetify.theme.dark
       };
     },
     fab_icon() {
-      return [this.$vuetify.theme.dark ? 'white--text' : 'pink--text'];
+      return [this.$vuetify.theme.dark ? 'white--text' : 'red--text text--darken-3'];
     },
     fab_color() {
-      return [this.$vuetify.theme.dark ? 'indigo darken-1' : 'white'];
+      return [this.$vuetify.theme.dark ? 'red darken-3' : 'white'];
     },
     speed_dial_color: function () {
-      return [this.$vuetify.theme.dark ? 'pink accent-4' : 'pink accent-4'];
+      return [this.$vuetify.theme.dark ? 'red darken-3' : 'red darken-3'];
     },
     current_locale() {
       return this.$i18n.locale;
