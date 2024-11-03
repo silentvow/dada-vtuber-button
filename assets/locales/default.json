@@ -53,10 +53,11 @@
     "keywords": "灰妲,Vtuber,台V,語音按鈕,ReLive Project",
     "links": "友情連結",
     "social_image": "https://dada-vtuber-button.vercel.app/img/og_common.png",
+    "source": "來源",
     "switch_dark_mode": "夜間模式開關",
     "switch_language": "切換語言",
     "title": "灰妲語音按鈕",
     "url": "https://dada-vtuber-button.vercel.app",
-    "voice_source": "語音來源"
+    "voice": "語音"
   }
 }

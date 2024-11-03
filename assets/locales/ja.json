@@ -53,10 +53,11 @@
     "keywords": "灰妲,Vtuber,Taiwan,Voice Button,ReLive Project",
     "links": "友情リンク",
     "social_image": "https://dada-vtuber-button.vercel.app/img/og_common.png",
+    "source": "ソース",
     "switch_dark_mode": "ナイトモードスイッチ",
     "switch_language": "言語を切り替える",
     "title": "灰妲の音声ボタン",
     "url": "https://dada-vtuber-button.vercel.app",
-    "voice_source": "音声ソース"
+    "voice": "音声"
   }
 }

@@ -81,9 +81,10 @@
     <v-dialog v-model="is_dialog_open" max-width="600px">
       <v-card>
         <v-card-title>
-          {{ `${$t('site.voice_source')}：${dialog_item.description[current_locale]}` }}
+          {{ `${$t('site.voice')}：${dialog_item.description[current_locale]}` }}
         </v-card-title>
         <v-card-text>
+          <span>{{ $t('site.source') }}：</span>
           <a :href="dialog_item.url" target="_blank" rel="noreferrer">{{ dialog_item.url }}</a>
         </v-card-text>
         <iframe

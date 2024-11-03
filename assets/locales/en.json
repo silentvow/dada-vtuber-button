@@ -53,10 +53,11 @@
     "keywords": "DaDa,Vtuber,Taiwan,Voice Button,ReLive Project",
     "links": "Links",
     "social_image": "https://dada-vtuber-button.vercel.app/img/og_common.png",
+    "source": "Source",
     "switch_dark_mode": "Dark Mode",
     "switch_language": "Switch Language",
     "title": "DaDa Voice Button",
     "url": "https://dada-vtuber-button.vercel.app",
-    "voice_source": "Voice Source"
+    "voice": "Voice"
   }
 }
