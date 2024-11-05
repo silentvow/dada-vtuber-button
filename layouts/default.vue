@@ -110,6 +110,10 @@
                 {{ $t('site.footer.author') }}
               </a>
             </span>
+            <span>&nbsp;|&nbsp;</span>
+            <span>
+              <a href="/privacy">Privacy</a>
+            </span>
             <v-btn
               v-if="$t('site.footer.repo_link') === 'no_display'"
               icon
