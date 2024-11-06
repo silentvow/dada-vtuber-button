@@ -69,7 +69,14 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/pwa', '@nuxtjs/axios', '@nuxtjs/markdownit', '@nuxtjs/sitemap', '@nuxtjs/google-fonts'],
+  modules: [
+    '@nuxtjs/pwa',
+    '@nuxtjs/axios',
+    '@nuxtjs/markdownit',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/google-fonts',
+    'cookie-universal-nuxt'
+  ],
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module
@@ -144,6 +151,11 @@ export default {
         lastmod: new Date()
       }
     ]
+  },
+  publicRuntimeConfig: {
+    DISCORD_CLIENT_ID: process.env.DISCORD_CLIENT_ID,
+    DISCORD_REDIRECT_URI: process.env.DISCORD_REDIRECT_URI,
+    DISCORD_API_BASE: process.env.DISCORD_API_BASE
   },
   /*
    ** Build configuration
