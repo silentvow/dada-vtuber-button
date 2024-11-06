@@ -1,37 +1,50 @@
 <template>
-  <v-container>
-    <v-card class="mx-auto" max-width="500" outlined>
-      <v-card-title class="justify-center">Member Page</v-card-title>
+  <v-layout column justify-center align-center app>
+    <v-flex xs12 sm8 md6 style="min-width: 85%">
+      <v-card class="mx-auto" outlined>
+        <v-card-title class="headline mb-8">Member Area</v-card-title>
 
-      <v-card-text v-if="loading">
-        <v-progress-circular indeterminate color="primary"></v-progress-circular>
-        <p>Loading...</p>
-      </v-card-text>
+        <v-card-text v-if="loading" style="display: flex; flex-direction: column; align-items: center">
+          <v-progress-circular indeterminate color="primary"></v-progress-circular>
+          <p class="my-4">Loading...</p>
+        </v-card-text>
 
-      <v-card-text v-else-if="error">
-        <v-alert type="error" outlined>{{ error }}</v-alert>
-        <v-btn color="primary" @click="redirectToDiscordAuth">Authorize with Discord</v-btn>
-      </v-card-text>
+        <v-card-text v-else-if="error">
+          <v-alert type="error" outlined>{{ error }}</v-alert>
+          <v-btn v-if="account" large class="mt-4 px-8" color="success" @click="fetchAccountInfo">重新整理</v-btn>
+          <v-btn v-else large class="mt-4 px-8" color="success" @click="redirectToDiscordAuth">
+            連結 Discord 帳號
+          </v-btn>
+        </v-card-text>
 
-      <v-card-text v-else>
-        <v-avatar class="mb-4" size="64">
-          <img :src="account.avatar_url" alt="User avatar" />
-        </v-avatar>
-        <h2 class="text-h6 mb-2">Welcome, {{ account.username }}</h2>
+        <v-card-text v-else>
+          <h2 class="text-h6 mb-2">Welcome, {{ account.global_name }}</h2>
 
-        <v-list>
-          <v-subheader>Subscribed Guilds</v-subheader>
-          <v-list-item v-for="guild in guilds" :key="guild.id">
-            <v-list-item-content>{{ guild.name }}</v-list-item-content>
-          </v-list-item>
-        </v-list>
+          <div v-if="isAuthorized">
+            <v-alert type="success" outlined>
+              You are authorized to view this page. Welcome to the member area!
+            </v-alert>
+          </div>
+          <div v-else>
+            <v-alert type="error" outlined>
+              You are not authorized to view this page. Please join @ReliveDaDa youtube member and link to discord
+              server.
+            </v-alert>
+            <v-btn color="success" large class="mt-4 px-8" @click="fetchAccountInfo">重新整理</v-btn>
+          </div>
 
-        <v-btn color="error" class="mt-4" @click="logout">Logout</v-btn>
-      </v-card-text>
-    </v-card>
-  </v-container>
+          <v-btn color="error" large class="mt-4 px-8" @click="logout">取消連結</v-btn>
+        </v-card-text>
+      </v-card>
+    </v-flex>
+  </v-layout>
 </template>
 
+<style lang="scss" scoped>
+.v-card {
+  margin: 8px auto;
+}
+</style>
 <script>
 export default {
   data() {
@@ -41,6 +54,11 @@ export default {
       account: null,
       guilds: []
     };
+  },
+  computed: {
+    isAuthorized() {
+      return this.guilds.some(guild => guild.id === '959421169629560892');
+    }
   },
   mounted() {
     setTimeout(() => this.fetchAccountInfo(), 1000);
@@ -53,7 +71,6 @@ export default {
       if (token) {
         this.$cookies.set('discord_token', token);
         window.location.hash = ''; // Clean up the URL
-        // this.fetchAccountInfo(); // Fetch account info with the new token
       }
     }
   },
@@ -63,7 +80,7 @@ export default {
       this.error = null;
       try {
         const token = this.$cookies.get('discord_token');
-        if (!token) throw new Error('No auth token found');
+        if (!token) throw new Error('');
 
         const headers = { Authorization: `Bearer ${token}` };
 
