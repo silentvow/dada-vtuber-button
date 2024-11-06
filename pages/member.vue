@@ -43,8 +43,7 @@ export default {
     };
   },
   mounted() {
-    console.log(process.env);
-    this.fetchAccountInfo();
+    setTimeout(() => this.fetchAccountInfo(), 1000);
   },
   beforeMount() {
     const hash = window.location.hash;
@@ -54,7 +53,7 @@ export default {
       if (token) {
         this.$cookies.set('discord_token', token);
         window.location.hash = ''; // Clean up the URL
-        this.fetchAccountInfo(); // Fetch account info with the new token
+        // this.fetchAccountInfo(); // Fetch account info with the new token
       }
     }
   },
