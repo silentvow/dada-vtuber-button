@@ -18,7 +18,7 @@
         </v-card-text>
 
         <v-card-text v-else>
-          <h2 class="text-h6 mb-2">Welcome, {{ account.global_name }}</h2>
+          <h2 class="text-h6 mb-2">Welcome, {{ account?.user.global_name }}</h2>
 
           <div v-if="isAuthorized">
             <v-alert type="success" outlined>
@@ -51,13 +51,12 @@ export default {
     return {
       loading: true,
       error: null,
-      account: null,
-      guilds: []
+      account: null
     };
   },
   computed: {
     isAuthorized() {
-      return this.guilds.some(guild => guild.id === '959421169629560892');
+      return this.account?.roles.length > 0;
     }
   },
   mounted() {
@@ -85,13 +84,13 @@ export default {
         const headers = { Authorization: `Bearer ${token}` };
 
         // Fetch the account and guild information
-        const [accountRes, guildsRes] = await Promise.all([
-          fetch(`${this.$config.DISCORD_API_BASE}/users/@me`, { headers }).then(res => res.json()),
-          fetch(`${this.$config.DISCORD_API_BASE}/users/@me/guilds`, { headers }).then(res => res.json())
+        const [accountRes] = await Promise.all([
+          fetch(`${this.$config.DISCORD_API_BASE}/users/@me/guilds/959421169629560892/member`, { headers }).then(res =>
+            res.json()
+          )
         ]);
 
         this.account = accountRes;
-        this.guilds = guildsRes;
         this.loading = false;
       } catch (err) {
         this.error = err.message || 'Authorization required';
@@ -103,13 +102,12 @@ export default {
         this.$config.DISCORD_CLIENT_ID
       }&redirect_uri=${encodeURIComponent(
         this.$config.DISCORD_REDIRECT_URI
-      )}&response_type=token&scope=identify%20guilds`;
+      )}&response_type=token&scope=identify%20guilds%20guilds.members.read`;
       window.location.href = discordAuthUrl;
     },
     logout() {
       this.$cookies.remove('discord_token');
       this.account = null;
-      this.guilds = [];
       this.error = 'Logged out. Please re-authenticate.';
     }
   }
