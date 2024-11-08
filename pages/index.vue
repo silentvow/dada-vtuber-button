@@ -69,6 +69,7 @@
             ref="voice_btn"
             :key="item.name"
             :class="voice_button_color"
+            :from-youtube="Boolean(item.url)"
             @on-play="play(item)"
             @on-youtube="openModal(item)"
           >
@@ -200,18 +201,18 @@ export default {
     },
     voice_button_color() {
       return {
-        'red darken-3': this.$vuetify.theme.dark,
-        'red darken-3 white--text': !this.$vuetify.theme.dark
+        'blue-grey darken-1': this.$vuetify.theme.dark,
+        'blue-grey darken-1 white--text': !this.$vuetify.theme.dark
       };
     },
     fab_icon() {
-      return [this.$vuetify.theme.dark ? 'white--text' : 'red--text text--darken-3'];
+      return [this.$vuetify.theme.dark ? 'white--text' : 'blue-grey--text text--darken-1'];
     },
     fab_color() {
-      return [this.$vuetify.theme.dark ? 'red darken-3' : 'white'];
+      return [this.$vuetify.theme.dark ? 'blue-grey darken-1' : 'white'];
     },
     speed_dial_color: function () {
-      return [this.$vuetify.theme.dark ? 'red darken-3' : 'red darken-3'];
+      return [this.$vuetify.theme.dark ? 'blue-grey darken-1' : 'blue-grey darken-1'];
     },
     current_locale() {
       return this.$i18n.locale;

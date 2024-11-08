@@ -2,9 +2,11 @@
   <v-hover>
     <template v-slot="{ hover }">
       <v-item-group
+        v-if="fromYoutube"
         rounded
         class="ma-1 v-btn-toggle v-btn-toggle--rounded"
         :class="hover ? 'elevation-6' : 'elevation-2'"
+        :style="{ borderRadius: '16px' }"
       >
         <v-btn
           class="vo-btn pa-2"
@@ -25,10 +27,31 @@
             <slot class="slot"></slot>
           </div>
         </v-btn>
-        <v-btn height="auto" color="primary" @click.native="onYoutube">
+        <v-btn height="auto" color="primary" :style="{ opacity: 1 }" @click.native="onYoutube">
           <v-icon :style="{ color: '#FFF' }">{{ icons.youtube }}</v-icon>
         </v-btn>
       </v-item-group>
+      <v-btn
+        v-else
+        class="vo-btn ma-1 pa-2"
+        :class="[v_btn_classes]"
+        color="primary"
+        rounded
+        height="max-content"
+        min-height="36px"
+        :style="{
+          opacity: 1,
+          borderRadius: '16px',
+          '--hover-content': 'url(\'' + emoji_url + '\')',
+          '--progress': progress + '%',
+          '--start-percent': progress - 5 + '%'
+        }"
+        @click.native="onPlay"
+      >
+        <div style="z-index: 2">
+          <slot class="slot"></slot>
+        </div>
+      </v-btn>
     </template>
   </v-hover>
 </template>
@@ -42,6 +65,10 @@ export default {
     emoji: {
       default: '🦜',
       type: String
+    },
+    fromYoutube: {
+      default: false,
+      type: Boolean
     },
     link: {
       default: false,
@@ -115,7 +142,7 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 .vo-btn div {
   display: inline-block;
   transition: 0.5s $nonlinear-transition;
-  text-align: center;
+  text-align: start;
   padding-left: 12px;
   padding-right: 12px;
 }

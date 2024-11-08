@@ -18,7 +18,7 @@
         </v-card-text>
 
         <v-card-text v-else>
-          <h2 class="text-h6 mb-2">Welcome, {{ account?.user.global_name }}</h2>
+          <h2 class="text-h6 mb-2">Welcome, {{ account?.global_name }}</h2>
 
           <div v-if="isAuthorized">
             <v-alert type="success" outlined>
@@ -51,12 +51,13 @@ export default {
     return {
       loading: true,
       error: null,
-      account: null
+      account: null,
+      member: null
     };
   },
   computed: {
     isAuthorized() {
-      return this.account?.roles.length > 0;
+      return this.member?.roles.length > 0;
     }
   },
   mounted() {
@@ -83,14 +84,17 @@ export default {
 
         const headers = { Authorization: `Bearer ${token}` };
 
-        // Fetch the account and guild information
-        const [accountRes] = await Promise.all([
-          fetch(`${this.$config.DISCORD_API_BASE}/users/@me/guilds/959421169629560892/member`, { headers }).then(res =>
-            res.json()
-          )
-        ]);
+        const accountRes = await fetch(`${this.$config.DISCORD_API_BASE}/users/@me`, { headers });
+        this.account = await accountRes.json();
 
-        this.account = accountRes;
+        const memberRes = await fetch(`${this.$config.DISCORD_API_BASE}/users/@me/guilds/959421169629560892/member`, {
+          headers
+        });
+        this.member = await memberRes.json();
+        if (this.member.code === 10004) {
+          this.member = { roles: [] };
+        }
+
         this.loading = false;
       } catch (err) {
         this.error = err.message || 'Authorization required';
@@ -108,6 +112,7 @@ export default {
     logout() {
       this.$cookies.remove('discord_token');
       this.account = null;
+      this.member = null;
       this.error = 'Logged out. Please re-authenticate.';
     }
   }
