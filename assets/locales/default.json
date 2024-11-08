@@ -11,6 +11,16 @@
     "self": "播放控制",
     "stop": "停止"
   },
+  "member": {
+    "link_discord": "連結 Discord 帳號",
+    "loading": "載入中...",
+    "member_area": "會員專區",
+    "member_authorized": "您已獲准查看此頁面，歡迎來到會員專區！",
+    "member_unauthorized": "您尚未獲准查看此頁面，請先連結 Discord 帳號並取得身分組！",
+    "refresh": "重新整理",
+    "unlink": "解除連結",
+    "welcome": "歡迎"
+  },
   "navigator": {
     "items": [
       {

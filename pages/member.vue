@@ -2,38 +2,66 @@
   <v-layout column justify-center align-center app>
     <v-flex xs12 sm8 md6 style="min-width: 85%">
       <v-card class="mx-auto" outlined>
-        <v-card-title class="headline mb-8">Member Area</v-card-title>
+        <v-card-title class="headline mb-4">{{ $t('member.member_area') }}</v-card-title>
 
         <v-card-text v-if="loading" style="display: flex; flex-direction: column; align-items: center">
           <v-progress-circular indeterminate color="primary"></v-progress-circular>
-          <p class="my-4">Loading...</p>
+          <p class="my-4 text--primary">{{ $t('member.loading') }}</p>
         </v-card-text>
 
         <v-card-text v-else-if="error">
           <v-alert type="error" outlined>{{ error }}</v-alert>
-          <v-btn v-if="account" large class="mt-4 px-8" color="success" @click="fetchAccountInfo">重新整理</v-btn>
-          <v-btn v-else large class="mt-4 px-8" color="success" @click="redirectToDiscordAuth">
-            連結 Discord 帳號
+          <v-btn
+            v-if="account"
+            large
+            class="mt-4 px-8"
+            color="success"
+            :dark="$vuetify.theme.dark"
+            @click="fetchAccountInfo"
+          >
+            {{ $t('member.refresh') }}
+          </v-btn>
+          <v-btn
+            v-else
+            large
+            class="mt-4 px-8"
+            color="success"
+            :dark="$vuetify.theme.dark"
+            @click="redirectToDiscordAuth"
+          >
+            {{ $t('member.link_discord') }}
           </v-btn>
         </v-card-text>
 
         <v-card-text v-else>
-          <h2 class="text-h6 mb-2">Welcome, {{ account?.global_name }}</h2>
+          <h2 class="text-h6 mb-2 text--primary">{{ $t('member.welcome') }}, {{ account?.global_name }}</h2>
 
           <div v-if="isAuthorized">
-            <v-alert type="success" outlined>
-              You are authorized to view this page. Welcome to the member area!
+            <v-alert :dark="$vuetify.theme.dark" type="success" outlined>
+              {{ $t('member.member_authorized') }}
             </v-alert>
           </div>
           <div v-else>
-            <v-alert type="error" outlined>
-              You are not authorized to view this page. Please join @ReliveDaDa youtube member and link to discord
-              server.
+            <v-alert :dark="$vuetify.theme.dark" type="error" outlined>
+              {{ $t('member.member_unauthorized') }}
             </v-alert>
-            <v-btn color="success" large class="mt-4 px-8" @click="fetchAccountInfo">重新整理</v-btn>
           </div>
 
-          <v-btn color="error" large class="mt-4 px-8" @click="logout">取消連結</v-btn>
+          <div class="d-flex">
+            <v-btn
+              v-if="!isAuthorized"
+              color="success"
+              large
+              class="mt-4 mr-4 px-8"
+              :dark="$vuetify.theme.dark"
+              @click="fetchAccountInfo"
+            >
+              {{ $t('member.refresh') }}
+            </v-btn>
+            <v-btn color="error" large class="mt-4 px-8" :dark="$vuetify.theme.dark" @click="logout">
+              {{ $t('member.unlink') }}
+            </v-btn>
+          </div>
         </v-card-text>
       </v-card>
     </v-flex>

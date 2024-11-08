@@ -11,6 +11,16 @@
     "self": "コントロール",
     "stop": "再生停止"
   },
+  "member": {
+    "link_discord": "Discordアカウントをリンク",
+    "loading": "読み込み中...",
+    "member_area": "メンバーエリア",
+    "member_authorized": "このページを表示する権限があります。メンバーエリアへようこそ！",
+    "member_unauthorized": "このページを表示する権限がありません。Discordアカウントをリンクしてロールを取得してください。",
+    "refresh": "リフレッシュ",
+    "unlink": "リンク解除",
+    "welcome": "ようこそ"
+  },
   "navigator": {
     "items": [
       {

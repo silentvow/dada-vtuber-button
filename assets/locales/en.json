@@ -11,6 +11,16 @@
     "self": "Player Control",
     "stop": "Stop Playing"
   },
+  "member": {
+    "link_discord": "Link Discord Account",
+    "loading": "Loading...",
+    "member_area": "Member Area",
+    "member_authorized": "You are authorized to view this page, welcome to the member area!",
+    "member_unauthorized": "You are not authorized to view this page, please link your Discord account and get the role!",
+    "refresh": "Refresh",
+    "unlink": "Unlink",
+    "welcome": "Welcome"
+  },
   "navigator": {
     "items": [
       {
