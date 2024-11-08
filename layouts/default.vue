@@ -58,6 +58,14 @@
             <v-list-item-title>{{ $t('site.about') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+        <v-list-item dense to="/member" router exact>
+          <v-list-item-action>
+            <v-icon>{{ icons.account_group }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>{{ $t('member.member_area') }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
       </v-list>
     </v-navigation-drawer>
     <v-app-bar dense class="primary white--text" app>
@@ -229,6 +237,7 @@ a {
 
 <script>
 import {
+  mdiAccountGroup,
   mdiApps,
   mdiCodeTags,
   mdiBrightness2,
@@ -248,6 +257,7 @@ export default {
     return {
       icons: {
         apps: mdiApps,
+        account_group: mdiAccountGroup,
         code_tags: mdiCodeTags,
         brightness: mdiBrightness2,
         translate: mdiTranslate,
