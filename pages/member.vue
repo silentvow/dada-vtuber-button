@@ -4,7 +4,7 @@
       <v-card class="mx-auto" outlined>
         <v-card-title class="headline mb-4">{{ $t('member.member_area') }}</v-card-title>
 
-        <v-card-text v-if="loading" style="display: flex; flex-direction: column; align-items: center">
+        <v-card-text v-if="loading" class="d-flex flex-column align-center">
           <v-progress-circular indeterminate color="primary"></v-progress-circular>
           <p class="my-4 text--primary">{{ $t('member.loading') }}</p>
         </v-card-text>
@@ -148,15 +148,24 @@ export default {
         const headers = { Authorization: `Bearer ${token}` };
 
         const accountRes = await fetch(`${this.$config.DISCORD_API_BASE}/users/@me`, { headers });
+        if (accountRes.status === 401) {
+          throw new Error('Authorization required');
+        } else if (accountRes.status === 403) {
+          throw new Error('Forbidden');
+        } else if (!accountRes.ok) {
+          throw new Error('Failed to fetch account info');
+        }
         this.account = await accountRes.json();
 
         const memberRes = await fetch(`${this.$config.DISCORD_API_BASE}/users/@me/guilds/959421169629560892/member`, {
           headers
         });
-        this.member = await memberRes.json();
         if (this.member.code === 10004) {
           this.member = { roles: [] };
+        } else if (!memberRes.ok) {
+          throw new Error('Failed to fetch member info');
         }
+        this.member = await memberRes.json();
 
         this.loading = false;
       } catch (err) {
