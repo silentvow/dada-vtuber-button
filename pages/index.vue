@@ -73,7 +73,7 @@
             @on-play="play(item)"
             @on-youtube="openModal(item)"
           >
-            {{ item.description[current_locale] }}
+            {{ item.description[current_locale] || item.description['zh'] }}
           </voice-btn>
         </v-card-text>
       </v-card>

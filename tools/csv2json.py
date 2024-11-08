@@ -53,6 +53,8 @@ def convert_csv_to_json(groups_file, voices_file):
                     "path": voice["path"],
                     "url": voice["url"],
                 }
+                if voice.get("TBD") == "*":
+                    voice_data["TBD"] = True
                 group_data["voice_list"].append(voice_data)
 
         output["groups"].append(group_data)

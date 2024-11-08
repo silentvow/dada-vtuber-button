@@ -33,7 +33,7 @@
       </v-item-group>
       <v-btn
         v-else
-        class="vo-btn ma-1 pa-2"
+        class="vo-btn full-width ma-1 pa-2"
         :class="[v_btn_classes]"
         color="primary"
         rounded
@@ -66,6 +66,10 @@ export default {
       default: '🦜',
       type: String
     },
+    tbd: {
+      default: false,
+      type: Boolean
+    },
     fromYoutube: {
       default: false,
       type: Boolean
@@ -97,6 +101,7 @@ export default {
       return {
         'grey--text text--lighten-2 vo-btn-bg-dark': this.link ? false : this.$vuetify.theme.dark,
         'vo-btn-bg-light': this.link ? false : !this.$vuetify.theme.dark,
+        tbd: this.tbd,
         playing: this.playing
       };
     },
@@ -131,12 +136,24 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
   z-index: 2;
 }
 
+.vo-btn.full-width {
+  max-width: 100%;
+}
+
 .vo-btn-bg-light {
   background: linear-gradient(to right, #e57373 var(--start-percent), #c62828 var(--progress));
 }
 
 .vo-btn-bg-dark {
   background: linear-gradient(to right, #e57373 var(--start-percent), #c62828 var(--progress));
+}
+
+.vo-btn-bg-light.tbd {
+  background: linear-gradient(to right, #8d6e63 var(--start-percent), #4e342e var(--progress));
+}
+
+.vo-btn-bg-dark.tbd {
+  background: linear-gradient(to right, #8d6e63 var(--start-percent), #4e342e var(--progress));
 }
 
 .vo-btn div {

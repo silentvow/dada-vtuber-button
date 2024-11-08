@@ -1,0 +1,1003 @@
+{
+  "groups": [
+    {
+      "group_description": {
+        "en": "Discord Voices",
+        "ja": "Discordの声",
+        "zh": "Discord語音"
+      },
+      "group_name": "dc_voice",
+      "voice_list": [
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": ".........哦？你說怎麼沒有聲音？因為他在土裡～ (三號)"
+          },
+          "name": "29825a77",
+          "path": "discord/29825a77.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "@?^#%@幹你娘～"
+          },
+          "name": "89927261",
+          "path": "discord/89927261.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "1 2 3 4 5 6 7 8 9 10"
+          },
+          "name": "402e0068",
+          "path": "discord/402e0068.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "100萬 200萬 300萬 400萬 500萬 600萬 700萬 800萬 900萬 哇呼依～"
+          },
+          "name": "912c801c",
+          "path": "discord/912c801c.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "小可愛，我要監禁你，永遠永遠永遠都不會離開這裡唷～ (病嬌)"
+          },
+          "name": "bed73032",
+          "path": "discord/bed73032.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "才沒有咧哩系咧淦喔都是阿郡講的啦"
+          },
+          "name": "26ea2867",
+          "path": "discord/26ea2867.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "不行欸我是氣質單純的女V，我怎麼會模仿這種東西咧"
+          },
+          "name": "d9cddd81",
+          "path": "discord/d9cddd81.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "不要再Spicy Taki了"
+          },
+          "name": "d7240500",
+          "path": "discord/d7240500.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "不要哇+怪叫"
+          },
+          "name": "721a4888",
+          "path": "discord/721a4888.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "不要睡起來嗨吧，還沒Debug呢，還沒Debug～"
+          },
+          "name": "0cc85142",
+          "path": "discord/0cc85142.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "什麼意思？難道星穹鐵道是一種galgame嗎？"
+          },
+          "name": "01579986",
+          "path": "discord/01579986.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "什麼雞腿，甲賽啦"
+          },
+          "name": "2e74499a",
+          "path": "discord/2e74499a.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "什麼雞腿！根本就沒有人要唱那種歌！什麼雞腿！"
+          },
+          "name": "7d80473f",
+          "path": "discord/7d80473f.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "他 他怎麼會三更半夜還在開台咧"
+          },
+          "name": "f5d7552f",
+          "path": "discord/f5d7552f.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "他奶奶的，你為什麼每次都要來問俺一些俺不該回答的問題咧"
+          },
+          "name": "eb47c747",
+          "path": "discord/eb47c747.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "兄弟這裡是聊天室，不是男同俱樂部"
+          },
+          "name": "8a9bc392",
+          "path": "discord/8a9bc392.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "去你的擔擔麵"
+          },
+          "name": "4c4086e4",
+          "path": "discord/4c4086e4.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "本來就不可能成功的東西，就不要再挑戰啦"
+          },
+          "name": "1caaaa1e",
+          "path": "discord/1caaaa1e.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "皮卡丘皮卡丘～"
+          },
+          "name": "ded345ed",
+          "path": "discord/ded345ed.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "再見了各位"
+          },
+          "name": "cbbee91d",
+          "path": "discord/cbbee91d.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "好想吃肉肉～"
+          },
+          "name": "500ac43f",
+          "path": "discord/500ac43f.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "此時不遠處，突然慢慢有一股香氣慢慢向我飄來....突然出現了位氣質十分出眾的美少女在我眼前。他身穿著聖誕衣賞，並且手上拿著一份超大的炸雞腿，緩緩靠近。然而每他他往前走一步，那香酥薄脆的雞腿，都會在地板上彈跳一次。而他走過的道路上，拖著那充滿精華的雞汁。精黃色的雞汁還伴隨著每次彈跳散落的酥脆外皮有如星星和銀河般的美景。在我前面畫著一圈又一圈的痕跡。引領著我未來跟隨這位美少女的道路。"
+          },
+          "name": "25a77920",
+          "path": "discord/25a77920.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "但是我們都知道～他是廢物～是廢物～"
+          },
+          "name": "89bc0b53",
+          "path": "discord/89bc0b53.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "住手阿"
+          },
+          "name": "45e4d064",
+          "path": "discord/45e4d064.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "你你知道嗎，這是我在幫阿鼠做他的夢天堂文宣的時候，因為那個時候我閒閒沒事做我就幫忙做了一下，可是我覺得在做的途中有一種深深的罪惡感我不知道你怎麼想"
+          },
+          "name": "c32badbb",
+          "path": "discord/c32badbb.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "你是在吵啥～哩系咧淦喔～真是受不了捏～"
+          },
+          "name": "eb0d35cb",
+          "path": "discord/eb0d35cb.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "你是GAY～你是GAY～每天都像一個真的GAY～"
+          },
+          "name": "2425b95c",
+          "path": "discord/2425b95c.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "你為什麼最近都沒有數米了，想你數米的樣子了，想你啦！"
+          },
+          "name": "42dae4ac",
+          "path": "discord/42dae4ac.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "你啊你啊 (歌)"
+          },
+          "name": "f62c4659",
+          "path": "discord/f62c4659.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "巫婆笑聲"
+          },
+          "name": "a0ac0ed3",
+          "path": "discord/a0ac0ed3.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "快點睡覺，快快睡～快快睡～快快睡～快快睡～快快睡～"
+          },
+          "name": "eebd2e2f",
+          "path": "discord/eebd2e2f.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "我才不是企鵝寶寶咧"
+          },
+          "name": "7bee0172",
+          "path": "discord/7bee0172.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "我才不要"
+          },
+          "name": "0c4cc230",
+          "path": "discord/0c4cc230.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "我才不要沃克～我不要沃克～"
+          },
+          "name": "820e4618",
+          "path": "discord/820e4618.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "我才不要咧～我要去睡覺覺啦～我想要睡覺覺啦～睡覺覺啦～"
+          },
+          "name": "cc7753eb",
+          "path": "discord/cc7753eb.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "我不要～我不要～"
+          },
+          "name": "fa536361",
+          "path": "discord/fa536361.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "我不要～還給我～"
+          },
+          "name": "0b7160de",
+          "path": "discord/0b7160de.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "我在睡覺了，呼～"
+          },
+          "name": "12573aee",
+          "path": "discord/12573aee.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "我在睡覺了哇"
+          },
+          "name": "40dce747",
+          "path": "discord/40dce747.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "我要睡覺了"
+          },
+          "name": "0c88fcd5",
+          "path": "discord/0c88fcd5.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "我現在只想要睡覺"
+          },
+          "name": "9921cccc",
+          "path": "discord/9921cccc.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "沒有啦其實現在是阿郡來說話啦被你發現惹"
+          },
+          "name": "94117531",
+          "path": "discord/94117531.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "沒有欸我覺得我唱得爛透了～"
+          },
+          "name": "916bbacc",
+          "path": "discord/916bbacc.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "沒有這種東西～"
+          },
+          "name": "525efe3e",
+          "path": "discord/525efe3e.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "沙威瑪喔沙威瑪"
+          },
+          "name": "8d8f236e",
+          "path": "discord/8d8f236e.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "男子漢 (男聲)"
+          },
+          "name": "030e2b57",
+          "path": "discord/030e2b57.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "男子漢 (LNG改詞版)"
+          },
+          "name": "7e626573",
+          "path": "discord/7e626573.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "那那那我是不是也應該要開一台阿"
+          },
+          "name": "91a88e29",
+          "path": "discord/91a88e29.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "咕嚕咕嚕咕嚕咕嚕咕嚕咕嚕咕嚕咕嚕"
+          },
+          "name": "a9bb8302",
+          "path": "discord/a9bb8302.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "咖哩飯"
+          },
+          "name": "f3fcf972",
+          "path": "discord/f3fcf972.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "阿巴阿巴阿巴阿巴阿巴阿巴，阿巴巴阿巴，阿巴，阿巴，阿巴，阿巴，阿巴"
+          },
+          "name": "872b96d6",
+          "path": "discord/872b96d6.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "阿罵哩到底細咧公蝦毀～"
+          },
+          "name": "775222e7",
+          "path": "discord/775222e7.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "阿糟糕，一點都不像，對不起"
+          },
+          "name": "2b7da1fd",
+          "path": "discord/2b7da1fd.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "哇馬母災影～"
+          },
+          "name": "410306a7",
+          "path": "discord/410306a7.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "哇嘎裡共啦，會下雨都是阿郡搞的鬼啦，跟那隻企鵝沒有關係啦"
+          },
+          "name": "a6eac701",
+          "path": "discord/a6eac701.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "哇噢，你是懂的"
+          },
+          "name": "bcabe6fa",
+          "path": "discord/bcabe6fa.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "怎麼有那麼香的Nice body跟Nice Butt阿"
+          },
+          "name": "763ee63f",
+          "path": "discord/763ee63f.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "拜託惹～拜託你惹～"
+          },
+          "name": "4c541ee7",
+          "path": "discord/4c541ee7.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "活不下去了，沒有數米的日子活不下去了"
+          },
+          "name": "336f1a45",
+          "path": "discord/336f1a45.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "約嗎 (歌)"
+          },
+          "name": "25083b41",
+          "path": "discord/25083b41.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "胖丁唱歌"
+          },
+          "name": "15198df1",
+          "path": "discord/15198df1.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "哩系列淦諾～就跟你說不像了咩熙薇妮"
+          },
+          "name": "855fb9e3",
+          "path": "discord/855fb9e3.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "哩系咧淦諾"
+          },
+          "name": "4ae335e8",
+          "path": "discord/4ae335e8.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "唸你 (歌)"
+          },
+          "name": "f5ef9533",
+          "path": "discord/f5ef9533.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "晚安～快點睡覺吧，拍拍(活俠小師妹)"
+          },
+          "name": "03937b06",
+          "path": "discord/03937b06.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "晚安了不跟大家玩了，我要去睡覺啦～晚安掰掰ㄅㄅ～"
+          },
+          "name": "71652321",
+          "path": "discord/71652321.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "晚安掰噗早點睡喔～晚安晚安～"
+          },
+          "name": "6d88d424",
+          "path": "discord/6d88d424.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "晚安歌 (幼妲)"
+          },
+          "name": "cbec23aa",
+          "path": "discord/cbec23aa.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "欸嘿"
+          },
+          "name": "c48e2b0b",
+          "path": "discord/c48e2b0b.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "這是什麼三小貼圖我現在要把他拔掉"
+          },
+          "name": "49be247f",
+          "path": "discord/49be247f.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "這是什麼意思，要哭哭了喔，嗚嗚嗚～"
+          },
+          "name": "a6cf3abc",
+          "path": "discord/a6cf3abc.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "這啥？嗯哼嗯哼～"
+          },
+          "name": "efd47579",
+          "path": "discord/efd47579.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "傘電～傘電～"
+          },
+          "name": "16505e6e",
+          "path": "discord/16505e6e.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "惡臭聲"
+          },
+          "name": "e5e0d568",
+          "path": "discord/e5e0d568.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "詐寢灰鸚鵡～"
+          },
+          "name": "803852d0",
+          "path": "discord/803852d0.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "買你 (歌)"
+          },
+          "name": "b8f00953",
+          "path": "discord/b8f00953.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "溺水聲"
+          },
+          "name": "dc76cd41",
+          "path": "discord/dc76cd41.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "種子種子！種子種子！"
+          },
+          "name": "8a97f9b4",
+          "path": "discord/8a97f9b4.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "蜘蛛人打屁屁"
+          },
+          "name": "380a4264",
+          "path": "discord/380a4264.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "嘿嘿嘿嘿～嘿嘿嘿嘿～"
+          },
+          "name": "b23232f8",
+          "path": "discord/b23232f8.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "誰是企鵝啦，恁娘咧"
+          },
+          "name": "ecc175fa",
+          "path": "discord/ecc175fa.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "靠盃～靠盃～靠盃～"
+          },
+          "name": "e9a0cf29",
+          "path": "discord/e9a0cf29.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "噢你在幹嘛～謝謝你的綠界～"
+          },
+          "name": "5b4cc017",
+          "path": "discord/5b4cc017.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "噢沒事我也好愛我自己喔，我覺得我蠻氣質的"
+          },
+          "name": "a5ce63f2",
+          "path": "discord/a5ce63f2.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "操逼操逼 操逼操逼操逼 操逼操逼操逼"
+          },
+          "name": "d2623033",
+          "path": "discord/d2623033.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "機掰咧"
+          },
+          "name": "a80b31e7",
+          "path": "discord/a80b31e7.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "寶寶睡～乖乖睡～"
+          },
+          "name": "f59d0a3a",
+          "path": "discord/f59d0a3a.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "蘑菇濃湯 (歌)"
+          },
+          "name": "8e870896",
+          "path": "discord/8e870896.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "戀愛循環 (歌)"
+          },
+          "name": "a92a3838",
+          "path": "discord/a92a3838.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "體重是母鸚鵡的秘密"
+          },
+          "name": "3e58cc7d",
+          "path": "discord/3e58cc7d.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "A cup, B cup, C cup, D cup, E cup, 哇，這就是我的大ㄋㄟㄋㄟ嗎？太大了吧～"
+          },
+          "name": "5efd5772",
+          "path": "discord/5efd5772.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "APT. (歌)"
+          },
+          "name": "73cb740f",
+          "path": "discord/73cb740f.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "Failure!"
+          },
+          "name": "5d608485",
+          "path": "discord/5d608485.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "PADORU (歌)"
+          },
+          "name": "05384112",
+          "path": "discord/05384112.ogg",
+          "url": ""
+        },
+        {
+          "TBD": true,
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "puluuuu沒錯啦"
+          },
+          "name": "32ccd4d6",
+          "path": "discord/32ccd4d6.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "WTF啦"
+          },
+          "name": "52c6cc27",
+          "path": "discord/52c6cc27.ogg",
+          "url": ""
+        },
+        {
+          "description": {
+            "en": "",
+            "ja": "",
+            "zh": "レクイエム (歌)"
+          },
+          "name": "17348f8d",
+          "path": "discord/17348f8d.ogg",
+          "url": ""
+        }
+      ]
+    }
+  ]
+}
