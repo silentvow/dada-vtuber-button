@@ -160,9 +160,7 @@ export default {
         const memberRes = await fetch(`${this.$config.DISCORD_API_BASE}/users/@me/guilds/959421169629560892/member`, {
           headers
         });
-        if (this.member.code === 10004) {
-          this.member = { roles: [] };
-        } else if (!memberRes.ok) {
+        if (!memberRes.ok) {
           throw new Error('Failed to fetch member info');
         }
         this.member = await memberRes.json();
