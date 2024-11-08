@@ -22,6 +22,17 @@ export default ({ app, store }) => {
       localStorage.setItem('dark', dark_mode);
     }
     store.commit('SET_DARK', dark_mode);
+
+    // Volume
+    let volume = 100;
+    const stored_volume = localStorage.getItem('volume');
+    if (stored_volume) {
+      volume = stored_volume;
+    } else {
+      localStorage.setItem('volume', volume);
+    }
+    store.commit('SET_VOLUME', volume);
+
     next();
   });
 };

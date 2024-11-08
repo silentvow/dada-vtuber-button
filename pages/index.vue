@@ -331,7 +331,7 @@ export default {
         navigator.mediaSession.playbackState = 'playing';
       }
       audio.addEventListener('canplay', () => {
-        audio.volume = 1;
+        audio.volume = this.$store.state.volume * 0.01;
         audio.play();
         this.now_playing.add(audio);
         this.send_google_event(item);

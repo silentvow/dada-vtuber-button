@@ -65,9 +65,30 @@
       <v-toolbar-title v-text="$t('site.title')" />
       <v-img src="/icon.png" style="max-width: 24px; margin-left: 6px" />
       <v-spacer />
+      <v-menu offset-y>
+        <template v-slot:activator="{ on, attrs }">
+          <v-btn icon plain class="white--text" v-bind="attrs" v-on="on">
+            <v-icon>{{ icons.volume }}</v-icon>
+          </v-btn>
+        </template>
+        <v-layout flex flex-row class="pa-2 volume-menu">
+          <v-icon color="#c62828">{{ icons.volumeLow }}</v-icon>
+          <v-slider
+            v-model="volume"
+            :min="0"
+            :max="100"
+            hide-details
+            model-value="volume"
+            track-color="#bdbdbd"
+            track-fill-color="#ff8a80"
+            @change="onVolumeChange"
+          ></v-slider>
+          <v-icon color="#c62828">{{ icons.volume }}</v-icon>
+        </v-layout>
+      </v-menu>
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
-          <v-btn icon class="white--text" @click="switch_dark()" v-on="on">
+          <v-btn icon plain class="white--text" @click="switch_dark()" v-on="on">
             <v-icon>{{ icons.brightness }}</v-icon>
           </v-btn>
         </template>
@@ -77,7 +98,7 @@
         <template v-slot:activator="{ on: menu }">
           <v-tooltip bottom>
             <template v-slot:activator="{ on: tooltip }">
-              <v-btn icon class="white--text" v-on="{ ...tooltip, ...menu }">
+              <v-btn icon plain class="white--text" v-on="{ ...tooltip, ...menu }">
                 <v-icon>{{ icons.translate }}</v-icon>
               </v-btn>
             </template>
@@ -183,6 +204,14 @@ $blur-function: blur(3px);
 a {
   text-decoration: none;
 }
+.volume-menu {
+  background-color: #fff;
+  width: 256px;
+  margin-top: 0px;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
 .page {
   box-sizing: border-box;
   min-height: 100%;
@@ -208,7 +237,9 @@ import {
   mdiNewspaper,
   mdiAlphaBBox,
   mdiPlaylistStar,
-  mdiCommentAccountOutline
+  mdiCommentAccountOutline,
+  mdiVolumeHigh,
+  mdiVolumeLow
 } from '@mdi/js';
 //import themes from '../assets/themes.js';
 
@@ -224,7 +255,9 @@ export default {
         newspaper: mdiNewspaper,
         alpha_b_box: mdiAlphaBBox,
         play_list_star: mdiPlaylistStar,
-        account: mdiCommentAccountOutline
+        account: mdiCommentAccountOutline,
+        volume: mdiVolumeHigh,
+        volumeLow: mdiVolumeLow
       },
       drawer: false,
       fixed: false
@@ -233,6 +266,9 @@ export default {
   computed: {
     current_locale() {
       return this.$i18n.locale;
+    },
+    volume() {
+      return this.$store.state.volume;
     }
   },
   mounted() {
@@ -250,6 +286,9 @@ export default {
       console.log('switching to ' + lang);
       this.$store.commit('SET_LANG', lang);
       this.$i18n.locale = lang;
+    },
+    onVolumeChange(value) {
+      this.$store.commit('SET_VOLUME', value);
     }
   },
   head() {
