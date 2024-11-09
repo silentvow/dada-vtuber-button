@@ -69,7 +69,7 @@
       </v-list>
 
       <template v-slot:append>
-        <v-img :src="drawer_img" style="width: 100%; height: auto" />
+        <v-img src="/img/woman.png" style="width: 100%; height: auto" />
       </template>
     </v-navigation-drawer>
     <v-app-bar dense class="primary white--text" app>
@@ -291,12 +291,6 @@ export default {
     };
   },
   computed: {
-    drawer_img() {
-      if (typeof this.$vuetify.theme?.dark === 'boolean') {
-        return this.$vuetify.theme.dark ? '/img/woman-dark.png' : '/img/woman.png';
-      }
-      return this.$store.state.dark === 'true' ? '/img/woman-dark.png' : '/img/woman.png';
-    },
     current_locale() {
       return this.$i18n.locale;
     },
