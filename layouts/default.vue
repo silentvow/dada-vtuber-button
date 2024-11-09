@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" :mobile-breakpoint="1024" class="elevation-3" fixed app>
+    <v-navigation-drawer v-model="drawer" :mobile-breakpoint="1024" class="elevation-3 full-height" fixed app>
       <!--
       <template v-slot:img>
         <v-img />
@@ -168,6 +168,10 @@
 </template>
 
 <style lang="scss">
+:root {
+  --vh: 1vh;
+}
+
 $blur-function: blur(3px);
 .v-application {
   html[lang='en'] & {
@@ -181,6 +185,15 @@ $blur-function: blur(3px);
   }
   background-repeat: repeat;
 }
+.v-application--wrap {
+  min-height: calc(var(--vh, 1vh) * 100) !important;
+}
+.full-height {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+  max-height: -webkit-fill-available;
+}
+
 .theme--light.v-application {
   background-image: url('/img/bg/pink.jpg');
 }
@@ -292,6 +305,17 @@ export default {
     }
   },
   mounted() {
+    // First we get the viewport height and we multiply it by 1% to get a value for a vh unit
+    const vh = window.innerHeight * 0.01;
+    // Then we set the value in the --vh custom property to the root of the document
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+    // Update on resize and orientation change
+    window.addEventListener('resize', () => {
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    });
+
     this.$vuetify.theme.dark = this.$store.state.dark === 'true';
     if (window.innerWidth >= 1024) {
       this.drawer = true;
