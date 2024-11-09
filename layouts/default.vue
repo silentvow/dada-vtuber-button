@@ -50,12 +50,12 @@
           </v-list-item-content>
         </v-list-item>
         -->
-        <v-list-item dense to="/about" router exact>
+        <v-list-item dense to="/feedback" router exact>
           <v-list-item-action>
-            <v-icon>{{ icons.code_tags }}</v-icon>
+            <v-icon>{{ icons.msg_question }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>{{ $t('site.about') }}</v-list-item-title>
+            <v-list-item-title>{{ $t('site.feedback') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
         <v-list-item dense to="/member" router exact>
@@ -258,6 +258,7 @@ import {
   mdiApps,
   mdiCodeTags,
   mdiBrightness2,
+  mdiMessageAlertOutline,
   mdiTranslate,
   mdiGithub,
   mdiNewspaper,
@@ -276,6 +277,7 @@ export default {
         apps: mdiApps,
         account_group: mdiAccountGroup,
         code_tags: mdiCodeTags,
+        msg_question: mdiMessageAlertOutline,
         brightness: mdiBrightness2,
         translate: mdiTranslate,
         github: mdiGithub,

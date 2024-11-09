@@ -145,7 +145,7 @@ export default {
         lastmod: new Date()
       },
       {
-        url: '/about',
+        url: '/feedback',
         changefreq: 'weekly',
         priority: 0.5,
         lastmod: new Date()
