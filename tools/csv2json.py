@@ -17,6 +17,9 @@ def convert_csv_to_json(groups_file, voices_file):
     groups = read_csv_file(groups_file)
     voices = read_csv_file(voices_file)
 
+    # Sort the list of dictionaries by the length of the 'description_zh' field
+    voices = sorted(voices, key=lambda x: len(x["description_zh"]))
+
     # Create output JSON structure
     output = {"groups": []}
 

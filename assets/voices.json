@@ -19,14 +19,14 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
-          "name": "hao-ba-may-ban-fa",
+          "name": "how-bad",
           "description": {
-            "en": "Alright, I really can't do anything about you.",
-            "ja": "まあいいか、君たちにはどうしようもないね。",
-            "zh": "好吧真是拿你們沒辦法"
+            "en": "How bad could it be?",
+            "ja": "どれだけ悪くなるっていうの？",
+            "zh": "能有多糟呢"
           },
-          "path": "mihoyo-set/hao-ba-may-ban-fa.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+          "path": "on-fire/how-bad.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
           "name": "zhen-na-ni-mei-ban-fa",
@@ -39,14 +39,14 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
-          "name": "how-bad",
+          "name": "hao-ba-may-ban-fa",
           "description": {
-            "en": "How bad could it be?",
-            "ja": "どれだけ悪くなるっていうの？",
-            "zh": "能有多糟呢"
+            "en": "Alright, I really can't do anything about you.",
+            "ja": "まあいいか、君たちにはどうしようもないね。",
+            "zh": "好吧真是拿你們沒辦法"
           },
-          "path": "on-fire/how-bad.mp3",
-          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+          "path": "mihoyo-set/hao-ba-may-ban-fa.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         }
       ]
     },
@@ -54,7 +54,7 @@
       "group_name": "laugh",
       "group_description": {
         "en": "Laugh",
-        "ja": "笑聲",
+        "ja": "笑い声",
         "zh": "笑聲"
       },
       "voice_list": [
@@ -62,8 +62,8 @@
           "name": "ha-ha-ha-1",
           "description": {
             "en": "hahaha-1",
-            "ja": "ハハハ-1",
-            "zh": "哈哈哈-1"
+            "ja": "ぎゃはは-1",
+            "zh": "大笑聲-1"
           },
           "path": "dp-toys/ha-ha-ha.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
@@ -72,8 +72,8 @@
           "name": "ha-ha-ha-2",
           "description": {
             "en": "hahaha-2",
-            "ja": "ハハハ-2",
-            "zh": "哈哈哈-2"
+            "ja": "ぎゃはは-2",
+            "zh": "大笑聲-2"
           },
           "path": "on-fire/ha-ha-ha-ha.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
@@ -82,8 +82,8 @@
           "name": "ha-ha-ha-3",
           "description": {
             "en": "hahaha-3",
-            "ja": "ハハハ-3",
-            "zh": "哈哈哈-3"
+            "ja": "ぎゃはは-3",
+            "zh": "大笑聲-3"
           },
           "path": "draw-avatar-10/ha-ha-ha.mp3",
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
@@ -92,8 +92,8 @@
           "name": "ha-ha-ha-4",
           "description": {
             "en": "Hahaha -4",
-            "ja": "ハハハ-4",
-            "zh": "哈哈哈-4"
+            "ja": "ぎゃはは-4",
+            "zh": "大笑聲-4"
           },
           "path": "mihoyo-set/ha-ha-ha-4.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
@@ -102,11 +102,21 @@
           "name": "ha-ha-ha-5",
           "description": {
             "en": "Hahaha-5",
-            "ja": "ハハハ-5",
-            "zh": "哈哈哈-5"
+            "ja": "ぎゃはは-5",
+            "zh": "大笑聲-5"
           },
           "path": "two-loli-blame/ha-ha-ha-5.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "ha-ha-ha-6",
+          "description": {
+            "en": "Big laugh sound-6",
+            "ja": "大笑い-6",
+            "zh": "大笑聲-6"
+          },
+          "path": "yoda-girlfriend/ha-ha-ha-6.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         }
       ]
     },
@@ -114,8 +124,8 @@
       "group_name": "greetings",
       "group_description": {
         "en": "Greetings",
-        "ja": "挨拶",
-        "zh": "打招呼"
+        "ja": "あいさつ",
+        "zh": "問候"
       },
       "voice_list": [
         {
@@ -137,26 +147,66 @@
           },
           "path": "dp-toys/bye-bye.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "name": "she-she-da-jia",
+          "description": {
+            "en": "Thank you everyone, thank you, thank you.",
+            "ja": "皆さんありがとう、ありがとうございます。",
+            "zh": "謝謝大家謝謝謝謝"
+          },
+          "path": "yoda-girlfriend/she-she-da-jia.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         }
       ]
     },
     {
-      "group_name": "roast",
+      "group_name": "retort",
       "group_description": {
-        "en": "Roast",
-        "ja": "吐槽",
+        "en": "Retort",
+        "ja": "ッコミ",
         "zh": "吐槽"
       },
       "voice_list": [
         {
-          "name": "ni-bu-yao-a-yi",
+          "name": "jia-sai-la",
           "description": {
-            "en": "What, you don't want aunties? F**k you!",
-            "ja": "何？お姉さんはダメだって？くたばれ！",
-            "zh": "什麼你不要阿姨 fuck you啦"
+            "en": "Stop it.",
+            "ja": "やめろ。",
+            "zh": "甲賽啦"
           },
-          "path": "two-loli-blame/ni-bu-yao-a-yi.mp3",
+          "path": "yoda-girlfriend/jia-sai-la.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "tse-sa-shio-la",
+          "description": {
+            "en": "What is this",
+            "ja": "これは何だよ",
+            "zh": "這沙小啦"
+          },
+          "path": "two-loli-blame/tse-sa-shio-la.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "bi-tsue-bi-tsue",
+          "description": {
+            "en": "Shut up, shut up.",
+            "ja": "黙れ、黙れ",
+            "zh": "閉嘴閉嘴"
+          },
+          "path": "draw-avatar-10/bi-tsue-bi-tsue.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "name": "fuck",
+          "description": {
+            "en": "Fuck.",
+            "ja": "くそ。",
+            "zh": "Fuck"
+          },
+          "path": "yoda-girlfriend/fuck.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
           "name": "wtf",
@@ -167,6 +217,96 @@
           },
           "path": "on-fire/wtf.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "name": "s-zai-kuku-o",
+          "description": {
+            "en": "Why are you crying?",
+            "ja": "なんで泣いているの？",
+            "zh": "是在哭哭噢"
+          },
+          "path": "mihoyo-set/s-zai-kuku-o.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "name": "bu-yao-za-zao-yiao",
+          "description": {
+            "en": "Stop spreading rumors!",
+            "ja": "もう噂を流さないで！",
+            "zh": "不要再造謠了"
+          },
+          "path": "yoda-girlfriend/bu-yao-za-zao-yiao.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "ni-men-yao-cho-hao-duo",
+          "description": {
+            "en": "You guys ask for so much.",
+            "ja": "あなたたちは要求が多すぎる。",
+            "zh": "你們要求好多"
+          },
+          "path": "draw-avatar-10/ni-men-yao-cho-hao-duo.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "name": "wo-chen-bu-gan-shan-shin",
+          "description": {
+            "en": "I really can’t believe it.",
+            "ja": "本当に信じられない",
+            "zh": "我真不敢相信"
+          },
+          "path": "draw-avatar-10/wo-chen-bu-gan-shan-shin.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "name": "san-shiao",
+          "description": {
+            "en": "What the heck is this?",
+            "ja": "これは一体何なんだ？",
+            "zh": "這到底是沙小"
+          },
+          "path": "draw-avatar-10/san-shiao.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "name": "yo-nu-peng-yo-gwun",
+          "description": {
+            "en": "If you have a girlfriend then get lost",
+            "ja": "彼女いるなら出てけよ",
+            "zh": "有女朋友就滾啦"
+          },
+          "path": "two-loli-blame/yo-nu-peng-yo-gwun.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "me-wo-shi-nu-v",
+          "description": {
+            "en": "I’m not one of those girl V’s, you know.",
+            "ja": "私は女Vじゃないよ。",
+            "zh": "沒有我是女V呀"
+          },
+          "path": "yoda-girlfriend/me-wo-shi-nu-v.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "yiao-gan-ma-la",
+          "description": {
+            "en": "What is this all about?",
+            "ja": "これって何をするんだろう？",
+            "zh": "這到底是要幹嘛啦"
+          },
+          "path": "yoda-girlfriend/yiao-gan-ma-la.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "cow-bay-no-gg",
+          "description": {
+            "en": "Damn it, I don’t have a GG!",
+            "ja": "ちくしょう、私はGGを持っていない！",
+            "zh": "靠盃我沒有GG啦"
+          },
+          "path": "dp-toys/cow-bay-no-gg.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
           "name": "ni-men-zhe-she-shua-min",
@@ -189,16 +329,6 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
-          "name": "yo-nu-peng-yo-gwun",
-          "description": {
-            "en": "If you have a girlfriend then get lost",
-            "ja": "彼女いるなら出てけよ",
-            "zh": "有女朋友就滾啦"
-          },
-          "path": "two-loli-blame/yo-nu-peng-yo-gwun.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
           "name": "ni-ze-ger-nu-ren",
           "description": {
             "en": "What are you saying, you woman",
@@ -207,16 +337,6 @@
           },
           "path": "mihoyo-set/ni-ze-ger-nu-ren.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "name": "ni-men-yao-cho-hao-duo",
-          "description": {
-            "en": "You guys ask for so much.",
-            "ja": "あなたたちは要求が多すぎる。",
-            "zh": "你們要求好多"
-          },
-          "path": "draw-avatar-10/ni-men-yao-cho-hao-duo.mp3",
-          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
           "name": "wo-yao-chon-fon",
@@ -229,54 +349,34 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
-          "name": "wo-chen-bu-gan-shan-shin",
+          "name": "wo-men-jia-shen-ji-bin",
           "description": {
-            "en": "I really can’t believe it.",
-            "ja": "本当に信じられない",
-            "zh": "我真不敢相信"
+            "en": "Damn it, everyone in my family is crazy.",
+            "ja": "くそ、うちの家族はみんな頭がおかしい。",
+            "zh": "媽的我們家的人都是神經病啊"
           },
-          "path": "draw-avatar-10/wo-chen-bu-gan-shan-shin.mp3",
-          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+          "path": "yoda-girlfriend/wo-men-jia-shen-ji-bin.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
-          "name": "ss-wan-ke-shi-dan",
+          "name": "se-yao-mai-chi-zu",
           "description": {
-            "en": "I just started playing and you're telling me to spend on four units? Am I moving in here? Should I just buy a house?",
-            "ja": "プレイを始めたばかりなのに、四つのユニットを課金しろって？ここに住むつもりか？家でも買うべき？",
-            "zh": "我現在才剛試玩你就叫我課四單我是要住下來了是不是直接買房了"
+            "en": "Who would want to buy my embarrassing expression?",
+            "ja": "誰が私のこの恥ずかしい表情を買うんだよ",
+            "zh": "誰要買我這充滿恥辱的表情啊"
           },
-          "path": "mihoyo-set/ss-wan-ke-shi-dan.mp3",
+          "path": "mihoyo-set/se-yao-mai-chi-zu.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
-          "name": "s-zai-kuku-o",
+          "name": "te-dao-wan-jia",
           "description": {
-            "en": "Why are you crying?",
-            "ja": "なんで泣いているの？",
-            "zh": "是在哭哭噢"
+            "en": "Rail players are suspiciously rich",
+            "ja": "鉄道ゲーマーがこんなにお金持ちなんて怪しすぎる",
+            "zh": "鐵道玩家也有錢到太可疑了吧"
           },
-          "path": "mihoyo-set/s-zai-kuku-o.mp3",
+          "path": "mihoyo-set/te-dao-wan-jia.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "name": "tse-sa-shio-la",
-          "description": {
-            "en": "What is this",
-            "ja": "これは何だよ",
-            "zh": "這沙小啦"
-          },
-          "path": "two-loli-blame/tse-sa-shio-la.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "san-shiao",
-          "description": {
-            "en": "What the heck is this?",
-            "ja": "これは一体何なんだ？",
-            "zh": "這到底是沙小"
-          },
-          "path": "draw-avatar-10/san-shiao.mp3",
-          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
           "name": "chian-po-ru-ken",
@@ -289,16 +389,6 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
-          "name": "bi-tsue-bi-tsue",
-          "description": {
-            "en": "Shut up, shut up.",
-            "ja": "黙れ、黙れ",
-            "zh": "閉嘴閉嘴"
-          },
-          "path": "draw-avatar-10/bi-tsue-bi-tsue.mp3",
-          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
-        },
-        {
           "name": "ze-shi-na-mou-dou-la",
           "description": {
             "en": "Wait, what is this? Why is there so much?",
@@ -306,26 +396,6 @@
             "zh": "等一下這個是什麼為什麼這麼多啦"
           },
           "path": "mihoyo-set/ze-shi-na-mou-dou-la.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "name": "se-shi-g-tue-a",
-          "description": {
-            "en": "Who's chicken leg?",
-            "ja": "誰がチキンレッグだよ",
-            "zh": "誰是雞腿阿"
-          },
-          "path": "two-loli-blame/se-shi-g-tue-a.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "se-yao-mai-chi-zu",
-          "description": {
-            "en": "Who would want to buy my embarrassing expression?",
-            "ja": "誰が私のこの恥ずかしい表情を買うんだよ",
-            "zh": "誰要買我這充滿恥辱的表情啊"
-          },
-          "path": "mihoyo-set/se-yao-mai-chi-zu.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
@@ -339,23 +409,43 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
-          "name": "cow-bay-no-gg",
+          "name": "ni-bu-yao-a-yi",
           "description": {
-            "en": "Damn it, I don’t have a GG!",
-            "ja": "ちくしょう、私はGGを持っていない！",
-            "zh": "靠盃我沒有GG啦"
+            "en": "What, you don't want aunties? F**k you!",
+            "ja": "何？お姉さんはダメだって？くたばれ！",
+            "zh": "什麼你不要阿姨 fuck you啦"
           },
-          "path": "dp-toys/cow-bay-no-gg.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+          "path": "two-loli-blame/ni-bu-yao-a-yi.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
-          "name": "te-dao-wan-jia",
+          "name": "hsian-tza-hsian-da-jia",
           "description": {
-            "en": "Rail players are suspiciously rich",
-            "ja": "鉄道ゲーマーがこんなにお金持ちなんて怪しすぎる",
-            "zh": "鐵道玩家也有錢到太可疑了吧"
+            "en": "What now? Are you trying to start a fight?",
+            "ja": "今どうしたの？喧嘩でもしたいの？",
+            "zh": "現在想怎樣？現在是想打架是不是哈？"
           },
-          "path": "mihoyo-set/te-dao-wan-jia.mp3",
+          "path": "yoda-girlfriend/hsian-tza-hsian-da-jia.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "relive-she-ka-hsian",
+          "description": {
+            "en": "ReLive was supposed to be an idol but became a niche character.",
+            "ja": "ReLiveはアイドルになるはずだったのに、斜めキャラになっちゃった。",
+            "zh": "啊ReLive明明要做偶像卻成為了斜咖箱"
+          },
+          "path": "yoda-girlfriend/relive-she-ka-hsian.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "ss-wan-ke-shi-dan",
+          "description": {
+            "en": "I just started playing and you're telling me to spend on four units? Am I moving in here? Should I just buy a house?",
+            "ja": "プレイを始めたばかりなのに、四つのユニットを課金しろって？ここに住むつもりか？家でも買うべき？",
+            "zh": "我現在才剛試玩你就叫我課四單我是要住下來了是不是直接買房了"
+          },
+          "path": "mihoyo-set/ss-wan-ke-shi-dan.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         }
       ]
@@ -364,20 +454,10 @@
       "group_name": "abuse",
       "group_description": {
         "en": "Abuse",
-        "ja": "罵倒",
+        "ja": "罵り",
         "zh": "罵倒"
       },
       "voice_list": [
-        {
-          "name": "ma-der-luo-li-kon",
-          "description": {
-            "en": "F**king lolicon, hahahahaha",
-            "ja": "くそロリコン、ハハハハハハハハ",
-            "zh": "媽的蘿莉控fuck 哈哈哈哈哈哈哈哈"
-          },
-          "path": "two-loli-blame/ma-der-luo-li-kon.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
         {
           "name": "gan-ni-nya-la",
           "description": {
@@ -386,6 +466,16 @@
             "zh": "幹你娘啦"
           },
           "path": "two-loli-blame/gan-ni-nya-la.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "ma-der-luo-li-kon",
+          "description": {
+            "en": "F**king lolicon, hahahahaha",
+            "ja": "くそロリコン、ハハハハハハハハ",
+            "zh": "媽的蘿莉控fuck 哈哈哈哈哈哈哈哈"
+          },
+          "path": "two-loli-blame/ma-der-luo-li-kon.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         }
       ]
@@ -424,10 +514,40 @@
       "group_name": "yoda_greetings",
       "group_description": {
         "en": "Yoda: Greetings",
-        "ja": "ヨーダ：挨拶",
-        "zh": "幼妲：打招呼"
+        "ja": "ヨーダ：あいさつ",
+        "zh": "幼妲：問候"
       },
       "voice_list": [
+        {
+          "name": "yoda-hello-1",
+          "description": {
+            "en": "Hello~",
+            "ja": "こんにちは～",
+            "zh": "哈囉～"
+          },
+          "path": "yoda-girlfriend/yoda-hello-1.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "yoda-wan-shan-hao-2",
+          "description": {
+            "en": "Good evening.",
+            "ja": "こんばんは。",
+            "zh": "晚上好"
+          },
+          "path": "yoda-girlfriend/yoda-wan-shan-hao.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "yoda-a-li-ga-do",
+          "description": {
+            "en": "Arigato",
+            "ja": "ありがとう",
+            "zh": "阿哩嘎都"
+          },
+          "path": "two-loli-blame/yoda-a-li-ga-do.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
         {
           "name": "yoda-wan-shan-hao",
           "description": {
@@ -437,6 +557,86 @@
           },
           "path": "two-loli-blame/yoda-wan-shan-hao.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "pa-g-pa-g-pa-g",
+          "description": {
+            "en": "Paji-paji-paji-paji",
+            "ja": "パジパジパジパジ",
+            "zh": "啪嘰啪嘰啪嘰啪嘰"
+          },
+          "path": "yoda-girlfriend/pa-g-pa-g-pa-g.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        }
+      ]
+    },
+    {
+      "group_name": "yoda_cute",
+      "group_description": {
+        "en": "Yoda: Cute",
+        "ja": "ヨーダ：可愛",
+        "zh": "幼妲：可愛"
+      },
+      "voice_list": [
+        {
+          "name": "mi-pa",
+          "description": {
+            "en": "Mipa~",
+            "ja": "みぱ～",
+            "zh": "咪趴～"
+          },
+          "path": "yoda-girlfriend/mi-pa.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "weee",
+          "description": {
+            "en": "Weee~~~",
+            "ja": "Weee~~~",
+            "zh": "Weee~~~"
+          },
+          "path": "weee.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "name": "ker-ai-gay-chen",
+          "description": {
+            "en": "I'm so cute; please give me money.",
+            "ja": "私はとてもかわいいので、お金をください。",
+            "zh": "我很可愛，請給我錢吧"
+          },
+          "path": "yoda-girlfriend/ker-ai-gay-chen.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "da-ger-gre-tsu-lai-wan",
+          "description": {
+            "en": "Big brother, I’m really happy we went out today.",
+            "ja": "お兄ちゃん、今日は遊びに行けて本当にうれしいよ。",
+            "zh": "大哥哥今天出來玩真的很開心呢"
+          },
+          "path": "yoda-girlfriend/da-ger-gre-tsu-lai-wan.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "fei-gao-gao",
+          "description": {
+            "en": "Oh nii-chan~ can I fly high?",
+            "ja": "お兄ちゃん～高く飛びたい！",
+            "zh": "喔逆醬～人家想要飛高高可以嗎？"
+          },
+          "path": "yoda-girlfriend/fei-gao-gao.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "dian-zan-din-ue-fu-hsian",
+          "description": {
+            "en": "If you like the video, just like, subscribe, and share! Buy a chicken leg bento and get a free chicken wing, along with a cute smile from Youta!",
+            "ja": "この動画を気に入ったら、いいねとチャンネル登録、シェアをお願いします！チキンレッグ弁当を購入すると、もれなくチキンウィングと幼妲のかわいい笑顔がついてくる！",
+            "zh": "現在影片只要按讚、訂閱、分享，購買一個雞腿便當就可以加贈一個雞翅，還有幼妲可愛的微笑喔！"
+          },
+          "path": "yoda-girlfriend/dian-zan-din-ue-fu-hsian.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         }
       ]
     },
@@ -447,7 +647,168 @@
         "ja": "ヨーダ：肯定",
         "zh": "幼妲：肯定"
       },
-      "voice_list": []
+      "voice_list": [
+        {
+          "name": "marry-me-ok",
+          "description": {
+            "en": "Marry me, OK?",
+            "ja": "結婚してくれる？",
+            "zh": "Marry me, OK?"
+          },
+          "path": "yoda-girlfriend/marry-me-ok.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        }
+      ]
+    },
+    {
+      "group_name": "yoda_retort",
+      "group_description": {
+        "en": "Yoda: Retort",
+        "ja": "ヨーダ：吐槽",
+        "zh": "幼妲：吐槽"
+      },
+      "voice_list": [
+        {
+          "name": "bu-yao",
+          "description": {
+            "en": "No!",
+            "ja": "いやだ！",
+            "zh": "不要！"
+          },
+          "path": "yoda-girlfriend/bu-yao.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "ya-mei-zho",
+          "description": {
+            "en": "Yamero!",
+            "ja": "やめろ！",
+            "zh": "亞咩肉！"
+          },
+          "path": "two-loli-blame/ya-mei-zho.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "bu-yao-bu-yao",
+          "description": {
+            "en": "Nooo~ nooo~",
+            "ja": "いや～いや～",
+            "zh": "不要～不要～"
+          },
+          "path": "yoda-girlfriend/bu-yao-bu-yao.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "tse-der-bu-hsin-la",
+          "description": {
+            "en": "This really won’t work!",
+            "ja": "こんなのはだめだよ！",
+            "zh": "這樣真的不行啦！"
+          },
+          "path": "yoda-girlfriend/tse-der-bu-hsin-la.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "zen-fu-tai-v-chan",
+          "description": {
+            "en": "What is this? Ugh~",
+            "ja": "これは何？あ～",
+            "zh": "這是什麼啦？吼唷～"
+          },
+          "path": "yoda-girlfriend/zhe-shen-ho-yo.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "fa-tsai-ler",
+          "description": {
+            "en": "This is a criminal act, big brother.",
+            "ja": "これは犯罪行為だよ、お兄ちゃん。",
+            "zh": "這是犯罪行為喔大哥哥"
+          },
+          "path": "yoda-girlfriend/fan-tsue-tsin-wei.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "wei-shen-mo-hue-ze-ya",
+          "description": {
+            "en": "Why did this happen? Waaa~",
+            "ja": "なぜこうなったの？うわあ～",
+            "zh": "為為什麼會這樣啊～嗚啊～"
+          },
+          "path": "yoda-girlfriend/wei-shen-mo-hue-ze-ya.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "bu-ne-ze-yan",
+          "description": {
+            "en": "You can't do this, can't do this, can't do this!",
+            "ja": "だめだめだめ！",
+            "zh": "不能這樣不能這樣不能這樣啦"
+          },
+          "path": "yoda-girlfriend/bu-ne-ze-yan.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "z-nen-tza-wo",
+          "description": {
+            "en": "Let's go conquer this Taiwanese Vtuber circle, everyone!",
+            "ja": "皆でこの台湾のVtuber界を征服しましょう！",
+            "zh": "讓我們一起去征服這個台V圈吧各位！"
+          },
+          "path": "yoda-girlfriend/zen-fu-tai-v-chan.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "wu-yao-ker-jo",
+          "description": {
+            "en": "Everyone here is hopeless. What a bunch of perverted big brothers and sisters.",
+            "ja": "ここにいる皆は救いようがないな。変態のお兄さんお姉さんばっかり。",
+            "zh": "大家真是無藥可救呢。真是一群變態大哥哥大姊姊呢。"
+          },
+          "path": "yoda-girlfriend/wu-yao-ker-jo.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        }
+      ]
+    },
+    {
+      "group_name": "yoda_cure",
+      "group_description": {
+        "en": "Yoda: Cure",
+        "ja": "ヨーダ：療癒",
+        "zh": "幼妲：療癒"
+      },
+      "voice_list": [
+        {
+          "name": "lao-gon-ai-ni-o",
+          "description": {
+            "en": "I love you, hubby.",
+            "ja": "旦那様、愛してるわ。",
+            "zh": "老公我愛你喔"
+          },
+          "path": "yoda-girlfriend/lao-gon-ai-ni-o.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "hua-yi-hue-jia",
+          "description": {
+            "en": "Baby, welcome home~",
+            "ja": "ベイビー、おかえり～",
+            "zh": "寶貝，歡迎回家～"
+          },
+          "path": "yoda-girlfriend/hua-yi-hue-jia.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "sue-jiao-ou-ya",
+          "description": {
+            "en": "It’s late; go to sleep. You’ve been staying up late these days, and it’s not good for your health. So, get some sleep, okay?",
+            "ja": "もう遅いから寝なさい。この数日、夜更かししてばかりで、体に良くないよ。だから、早く寝てね。",
+            "zh": "快睡覺了，很晚了喔，你這幾天都一直熬夜，這樣對身體很不好呢。所以趕快去睡個覺，好嗎？"
+          },
+          "path": "yoda-girlfriend/sue-jiao-ou-ya.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        }
+      ]
     },
     {
       "group_name": "yoda_abuse",
@@ -458,93 +819,73 @@
       },
       "voice_list": [
         {
-          "name": "jiao-hsin-se-tsu",
+          "name": "to-ko-tsue",
           "description": {
-            "en": "Today too... today too I barely survived as a corporate slave",
-            "ja": "今日も...今日もなんとか社畜として生き延びた",
-            "zh": "今天也 今天也僥倖地活下來了呢社畜"
+            "en": "Spitting sound",
+            "ja": "つばを吐く音",
+            "zh": "吐口水聲"
           },
-          "path": "two-loli-blame/jiao-hsin-se-tsu.mp3",
+          "path": "yoda-girlfriend/to-ko-tsue.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "din-gon-san-lian",
+          "description": {
+            "en": "Kugimiya triple combo",
+            "ja": "釘宮三連",
+            "zh": "釘宮三連"
+          },
+          "path": "two-loli-blame/din-gon-san-lian.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
-          "name": "ke-i-ge-wo-je-hun",
+          "name": "din-gon-san-lian-2",
           "description": {
-            "en": "Will you marry me? No, go away",
-            "ja": "私と結婚してくれる？ダメ、離れて",
-            "zh": "可以跟我結婚嗎？不行走開"
+            "en": "Three consecutive dinggongs.",
+            "ja": "釘宮三連-2",
+            "zh": "釘宮三連-2"
           },
-          "path": "two-loli-blame/ke-i-ge-wo-je-hun.mp3",
+          "path": "yoda-girlfriend/din-gon-san-lian-2.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "chu-chon-bian-ta-ser-tsu",
+          "description": {
+            "en": "Maggot, pervert, corporate slave",
+            "ja": "蛆虫、変態、社畜",
+            "zh": "蛆蟲 變態 社畜"
+          },
+          "path": "two-loli-blame/chu-chon-bian-ta-ser-tsu.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
-          "name": "hao-er-hsian-bei-tsa",
+          "name": "do-s-ler-ser",
           "description": {
-            "en": "How gross, you actually want to be stepped on? Disgusting, pervert, social outcast",
-            "ja": "気持ち悪い、踏まれたいだって？吐き気がする、変態、社会のクズ",
-            "zh": "好噁心喔居然想被踩什麼的 噁心 變態 社會敗類"
+            "en": "Everyone here is trash.",
+            "ja": "ここにいる皆はゴミだ。",
+            "zh": "在座的各位都是垃圾"
           },
-          "path": "two-loli-blame/hao-er-hsian-bei-tsa.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+          "path": "yoda-girlfriend/do-s-ler-ser.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
-          "name": "me-nu-peng-yo-cho-jia",
+          "name": "ker-yi-lolicon",
           "description": {
-            "en": "If you're always complaining about not having a girlfriend, have you considered that maybe you're just gay?",
-            "ja": "彼女ができないって文句ばかり言ってるけど、もしかしてゲイなんじゃない？",
-            "zh": "如果假設整天抱怨找不到女朋友 有沒有想過你其實是臭甲"
+            "en": "Isn't this suspicious, being a lolicon?",
+            "ja": "ロリコンって怪しいんじゃない？",
+            "zh": "這是可疑的蘿莉控吧"
           },
-          "path": "two-loli-blame/me-nu-peng-yo-cho-jia.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+          "path": "yoda-girlfriend/ker-yi-lolicon.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
-          "name": "fei-wu-mei-yon-du-tsen",
+          "name": "er-shin-chi-cho-di-tsen",
           "description": {
-            "en": "You're trash, useless person, society's scum, bottom feeder, maggot, pig",
-            "ja": "お前はクズ、役立たず、社会のクズ、底辺、蛆虫、豚",
-            "zh": "你是廢物 沒有用的人 社會的敗類 底層 蛆蟲 豬"
+            "en": "Disgusting maggot, bottom feeder",
+            "ja": "気持ち悪い蛆虫、底辺のクズ",
+            "zh": "噁心 蛆蟲 底層敗類"
           },
-          "path": "two-loli-blame/fei-wu-mei-yon-du-tsen.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "hao-hao-jian-tao",
-          "description": {
-            "en": "You need to reflect properly, who's your wife?",
-            "ja": "ちゃんと反省しなさい、誰があなたの嫁なの？",
-            "zh": "你要好好檢討阿 誰是你老婆阿"
-          },
-          "path": "two-loli-blame/hao-hao-jian-tao.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "yo-nu-me-yo-hsian-kang",
-          "description": {
-            "en": "You perverts really like young girls I can't believe it hmph I don't want you looking at me hmph",
-            "ja": "変態たちは本当に幼女が好きなのね信じられないわ ふん 見られたくなんかないわよ ふん",
-            "zh": "你們這些變態真的很喜歡幼女欸 真不敢相信 哼 才沒有想要被你們看著呢 哼"
-          },
-          "path": "two-loli-blame/yo-nu-me-yo-hsian-kang.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "bian-tai-kan-loli",
-          "description": {
-            "en": "You perverts only want to look at lolis, it's so gross",
-            "ja": "変態たちはロリばかり見たがって気持ち悪い",
-            "zh": "你們這群變態都只想看蘿莉而已好噁心喔"
-          },
-          "path": "two-loli-blame/bian-tai-kan-loli.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "tsen-tian-g-tue-g-tue",
-          "description": {
-            "en": "You corporate slave always going on about chicken legs how annoying",
-            "ja": "社畜よ、いつも鶏もも肉のことばかり言って煩わしいね",
-            "zh": "你這個社畜 整天在那邊雞腿雞腿雞腿什麼的煩不煩哪"
-          },
-          "path": "two-loli-blame/tsen-tian-g-tue-g-tue.mp3",
+          "path": "two-loli-blame/er-shin-chi-cho-di-tsen.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
@@ -558,26 +899,6 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
-          "name": "che-shen-yo-ni-ni",
-          "description": {
-            "en": "Don't come near me, I'm a clean freak! You're all greasy and gross. So disgusting! I need to take a bath, big brother is gross",
-            "ja": "近づかないで、潔癖なの！あなた全身ベタベタで気持ち悪い。油っこい！お風呂に入らなきゃ、お兄さん気持ち悪い",
-            "zh": "別靠近我我有潔癖啦你全身油膩膩的好噁心喔油死了 我要去洗澡了大哥哥噁心"
-          },
-          "path": "two-loli-blame/che-shen-yo-ni-ni.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "ni-jo-se-cho-jia",
-          "description": {
-            "en": "I'm telling you you're gay and you are gay, stop denying it okay?",
-            "ja": "あなたがゲイだって言ってるんだからゲイなの、もう否定するのやめなさいよ",
-            "zh": "我說你是臭甲你就是臭甲不要整天不承認好不好阿"
-          },
-          "path": "two-loli-blame/ni-jo-se-cho-jia.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
           "name": "bu-hua-chen-yang-wo",
           "description": {
             "en": "Why don't you spend money to support me?",
@@ -588,93 +909,13 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
-          "name": "se-chu-bian-tai-da-ger",
+          "name": "ke-i-ge-wo-je-hun",
           "description": {
-            "en": "You're a corporate slave right? A corporate slave big brother pervert who's super stressed",
-            "ja": "社畜でしょ？ストレスMAXの社畜変態お兄さん",
-            "zh": "是社畜吧已經壓力大到不行的社畜變態大哥哥"
+            "en": "Will you marry me? No, go away",
+            "ja": "私と結婚してくれる？ダメ、離れて",
+            "zh": "可以跟我結婚嗎？不行走開"
           },
-          "path": "two-loli-blame/se-chu-bian-tai-da-ger.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "bu-hsian-zhi-bo",
-          "description": {
-            "en": "Hmph, this guy again, can you leave? I don't want to see you anymore, when I see you I don't want to stream anymore",
-            "ja": "はぁ、またこいつか。消えてくれない？もう見たくないし、あなたを見るとストリームする気も失せる",
-            "zh": "哼這傢伙又來了可以滾嗎我不想再看到你了啦我看到你我就不想直播了啦"
-          },
-          "path": "two-loli-blame/bu-hsian-zhi-bo.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "din-gon-san-lian",
-          "description": {
-            "en": "Kugimiya triple combo",
-            "ja": "釘宮三連撃",
-            "zh": "釘宮三連"
-          },
-          "path": "two-loli-blame/din-gon-san-lian.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "chen-ren-bian-tai",
-          "description": {
-            "en": "62% now admit they are lolicon perverts",
-            "ja": "今では62%がロリコン変態だと認めている",
-            "zh": "現在承認自己是變態蘿莉控的有62%"
-          },
-          "path": "two-loli-blame/chen-ren-bian-tai.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "liao-ten-s-zua-zhou",
-          "description": {
-            "en": "Why are there still so many people in the chat? You guys need to stop pretending to be gentlemen. If you're a lolicon, just get arrested by the police already",
-            "ja": "チャットにまだこんなに人がいるの？紳士ぶるのやめなさい。ロリコンなら早く警察に捕まりなさいよ",
-            "zh": "聊天室怎麼還有那麼多人阿你們這些傢伙少在那邊裝紳士了 是蘿莉控的話就乾脆一點被警察叔叔抓走阿"
-          },
-          "path": "two-loli-blame/liao-ten-s-zua-zhou.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "chu-chon-bian-ta-ser-tsu",
-          "description": {
-            "en": "Maggot, pervert, corporate slave",
-            "ja": "蛆虫、変態、社畜",
-            "zh": "蛆蟲 變態 社畜"
-          },
-          "path": "two-loli-blame/chu-chon-bian-ta-ser-tsu.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "wang-hsian-how-er-hsin",
-          "description": {
-            "en": "Is this what you're fantasizing about? How disgusting",
-            "ja": "これはあなたの妄想なの？気持ち悪い",
-            "zh": "這些東西是你所妄想的嗎 好噁心喔"
-          },
-          "path": "two-loli-blame/wang-hsian-how-er-hsin.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "ze-tian-lao-po-lai-chu",
-          "description": {
-            "en": "Why are you always going on about wife this wife that",
-            "ja": "なんで？いつも奥さん奥さんって",
-            "zh": "蛤為什麼阿 整天只會在那邊老婆來老婆去的"
-          },
-          "path": "two-loli-blame/ze-tian-lao-po-lai-chu.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "name": "er-shin-chi-cho-di-tsen",
-          "description": {
-            "en": "Disgusting maggot, bottom feeder",
-            "ja": "気持ち悪い蛆虫、底辺のクズ",
-            "zh": "噁心 蛆蟲 底層敗類"
-          },
-          "path": "two-loli-blame/er-shin-chi-cho-di-tsen.mp3",
+          "path": "two-loli-blame/ke-i-ge-wo-je-hun.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
@@ -688,6 +929,156 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "name": "hao-hao-jian-tao",
+          "description": {
+            "en": "You need to reflect properly, who's your wife?",
+            "ja": "ちゃんと反省しなさい、誰があなたの嫁なの？",
+            "zh": "你要好好檢討阿 誰是你老婆阿"
+          },
+          "path": "two-loli-blame/hao-hao-jian-tao.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "da-ger-gre-hao-er-hsi",
+          "description": {
+            "en": "So gross, so gross, big brother, you’re so gross.",
+            "ja": "きもいきもい、お兄ちゃん、きもい。",
+            "zh": "好噁心喔好噁心喔大哥哥好噁心喔"
+          },
+          "path": "yoda-girlfriend/da-ger-gre-hao-er-hsi.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "bu-jin-tze-lolicon",
+          "description": {
+            "en": "You're such an irresponsible corporate slave and lolicon big brother.",
+            "ja": "無責任な社畜でロリコンのお兄ちゃん。",
+            "zh": "你這個不盡責的社畜蘿莉控大哥哥"
+          },
+          "path": "yoda-girlfriend/bu-jin-tze-lolicon.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "wang-hsian-how-er-hsin",
+          "description": {
+            "en": "Is this what you're fantasizing about? How disgusting",
+            "ja": "これはあなたの妄想なの？気持ち悪い",
+            "zh": "這些東西是你所妄想的嗎 好噁心喔"
+          },
+          "path": "two-loli-blame/wang-hsian-how-er-hsin.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "jiao-hsin-se-tsu",
+          "description": {
+            "en": "Today too... today too I barely survived as a corporate slave",
+            "ja": "今日も...今日もなんとか社畜として生き延びた",
+            "zh": "今天也 今天也僥倖地活下來了呢社畜"
+          },
+          "path": "two-loli-blame/jiao-hsin-se-tsu.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "chen-ren-bian-tai",
+          "description": {
+            "en": "62% now admit they are lolicon perverts",
+            "ja": "今では62%がロリコン変態だと認めている",
+            "zh": "現在承認自己是變態蘿莉控的有62%"
+          },
+          "path": "two-loli-blame/chen-ren-bian-tai.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "bian-tai-kan-loli",
+          "description": {
+            "en": "You perverts only want to look at lolis, it's so gross",
+            "ja": "変態たちはロリばかり見たがって気持ち悪い",
+            "zh": "你們這群變態都只想看蘿莉而已好噁心喔"
+          },
+          "path": "two-loli-blame/bian-tai-kan-loli.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "tza-nan-hsin-hua",
+          "description": {
+            "en": "You cheater! Are you seeing someone new outside?",
+            "ja": "浮気者！外で新しい相手がいるんでしょ？",
+            "zh": "你這個渣男！是不是在外面又有新歡了啊！"
+          },
+          "path": "yoda-girlfriend/tza-nan-hsin-hua.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "se-chu-bian-tai-da-ger",
+          "description": {
+            "en": "You're a corporate slave right? A corporate slave big brother pervert who's super stressed",
+            "ja": "社畜でしょ？ストレスMAXの社畜変態お兄さん",
+            "zh": "是社畜吧已經壓力大到不行的社畜變態大哥哥"
+          },
+          "path": "two-loli-blame/se-chu-bian-tai-da-ger.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "ze-tian-lao-po-lai-chu",
+          "description": {
+            "en": "Why are you always going on about wife this wife that",
+            "ja": "なんで？いつも奥さん奥さんって",
+            "zh": "蛤為什麼阿 整天只會在那邊老婆來老婆去的"
+          },
+          "path": "two-loli-blame/ze-tian-lao-po-lai-chu.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "ni-jo-se-cho-jia",
+          "description": {
+            "en": "I'm telling you you're gay and you are gay, stop denying it okay?",
+            "ja": "あなたがゲイだって言ってるんだからゲイなの、もう否定するのやめなさいよ",
+            "zh": "我說你是臭甲你就是臭甲不要整天不承認好不好阿"
+          },
+          "path": "two-loli-blame/ni-jo-se-cho-jia.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "hao-er-hsian-bei-tsa",
+          "description": {
+            "en": "How gross, you actually want to be stepped on? Disgusting, pervert, social outcast",
+            "ja": "気持ち悪い、踏まれたいだって？吐き気がする、変態、社会のクズ",
+            "zh": "好噁心喔居然想被踩什麼的 噁心 變態 社會敗類"
+          },
+          "path": "two-loli-blame/hao-er-hsian-bei-tsa.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "fei-wu-mei-yon-du-tsen",
+          "description": {
+            "en": "You're trash, useless person, society's scum, bottom feeder, maggot, pig",
+            "ja": "お前はクズ、役立たず、社会のクズ、底辺、蛆虫、豚",
+            "zh": "你是廢物 沒有用的人 社會的敗類 底層 蛆蟲 豬"
+          },
+          "path": "two-loli-blame/fei-wu-mei-yon-du-tsen.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "tsen-tian-g-tue-g-tue",
+          "description": {
+            "en": "You corporate slave always going on about chicken legs how annoying",
+            "ja": "社畜よ、いつも鶏もも肉のことばかり言って煩わしいね",
+            "zh": "你這個社畜 整天在那邊雞腿雞腿雞腿什麼的煩不煩哪"
+          },
+          "path": "two-loli-blame/tsen-tian-g-tue-g-tue.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "me-nu-peng-yo-cho-jia",
+          "description": {
+            "en": "If you're always complaining about not having a girlfriend, have you considered that maybe you're just gay?",
+            "ja": "彼女ができないって文句ばかり言ってるけど、もしかしてゲイなんじゃない？",
+            "zh": "如果假設整天抱怨找不到女朋友 有沒有想過你其實是臭甲"
+          },
+          "path": "two-loli-blame/me-nu-peng-yo-cho-jia.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
           "name": "shu-shu-sao-jia-hua",
           "description": {
             "en": "Those like uncle are society's failures so mom told me to talk less with uncle",
@@ -696,6 +1087,96 @@
           },
           "path": "two-loli-blame/shu-shu-sao-jia-hua.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "bu-hsian-zhi-bo",
+          "description": {
+            "en": "Hmph, this guy again, can you leave? I don't want to see you anymore, when I see you I don't want to stream anymore",
+            "ja": "はぁ、またこいつか。消えてくれない？もう見たくないし、あなたを見るとストリームする気も失せる",
+            "zh": "哼這傢伙又來了可以滾嗎我不想再看到你了啦我看到你我就不想直播了啦"
+          },
+          "path": "two-loli-blame/bu-hsian-zhi-bo.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "che-shen-yo-ni-ni",
+          "description": {
+            "en": "Don't come near me, I'm a clean freak! You're all greasy and gross. So disgusting! I need to take a bath, big brother is gross",
+            "ja": "近づかないで、潔癖なの！あなた全身ベタベタで気持ち悪い。油っこい！お風呂に入らなきゃ、お兄さん気持ち悪い",
+            "zh": "別靠近我我有潔癖啦你全身油膩膩的好噁心喔油死了 我要去洗澡了大哥哥噁心"
+          },
+          "path": "two-loli-blame/che-shen-yo-ni-ni.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "dan-sen-yi-bei-tze",
+          "description": {
+            "en": "You’re such a gross lolicon. Without me as your girlfriend, you’d be single for life.",
+            "ja": "こんなきもいロリコンのお前が彼女になるなら、私以外いないでしょ、一生独り身になるよ。",
+            "zh": "再說呢像你這種噁心的蘿莉控，如果沒有我來當你女朋友的話，你只能單身一輩子"
+          },
+          "path": "yoda-girlfriend/dan-sen-yi-bei-tze.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "yo-nu-me-yo-hsian-kang",
+          "description": {
+            "en": "You perverts really like young girls I can't believe it hmph I don't want you looking at me hmph",
+            "ja": "変態たちは本当に幼女が好きなのね信じられないわ ふん 見られたくなんかないわよ ふん",
+            "zh": "你們這些變態真的很喜歡幼女欸 真不敢相信 哼 才沒有想要被你們看著呢 哼"
+          },
+          "path": "two-loli-blame/yo-nu-me-yo-hsian-kang.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "liao-ten-s-zua-zhou",
+          "description": {
+            "en": "Why are there still so many people in the chat? You guys need to stop pretending to be gentlemen. If you're a lolicon, just get arrested by the police already",
+            "ja": "チャットにまだこんなに人がいるの？紳士ぶるのやめなさい。ロリコンなら早く警察に捕まりなさいよ",
+            "zh": "聊天室怎麼還有那麼多人阿你們這些傢伙少在那邊裝紳士了 是蘿莉控的話就乾脆一點被警察叔叔抓走阿"
+          },
+          "path": "two-loli-blame/liao-ten-s-zua-zhou.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "lan-gon-zhuo",
+          "description": {
+            "en": "You lousy corporate slave, doing such a crappy job! You work twelve hours every day, only six or seven days off per month, and only make 40K a month!",
+            "ja": "このくだらない社畜め、こんなクソ仕事をやって！毎日12時間働いて、月に6、7日しか休みがないのに、月給はたった40K！",
+            "zh": "你這個臭社畜，做那什麼爛工作啊！每天要工作十二個小時，每個月只有六七個休假，月薪還只有40K！"
+          },
+          "path": "yoda-girlfriend/lan-gon-zhuo.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        }
+      ]
+    },
+    {
+      "group_name": "yoda_yandere",
+      "group_description": {
+        "en": "Yoda: Yandare",
+        "ja": "ヨーダ：ヤンデレ",
+        "zh": "幼妲：病嬌"
+      },
+      "voice_list": [
+        {
+          "name": "yoda-bin-jiao-shiao",
+          "description": {
+            "en": "Yandere laugh",
+            "ja": "ヤンデレの笑い声",
+            "zh": "病嬌笑聲"
+          },
+          "path": "yoda-girlfriend/yoda-bin-jiao-shiao.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "zhe-shen-ho-yo",
+          "description": {
+            "en": "You can only be by my side~ Hehehe~ Yihihi~ Hehehehe~ Heheheha~ Hehehehe~",
+            "ja": "私のそばにしかいられないよ～うふふ～いひひひ～うふふふは～うふふふ～",
+            "zh": "你只能在我身邊喔～嘻嘻～咿嘻嘻嘻～嘻嘻嘻哈～嘻嘻嘻～"
+          },
+          "path": "yoda-girlfriend/z-nen-tza-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         }
       ]
     },
@@ -708,24 +1189,24 @@
       },
       "voice_list": [
         {
-          "name": "ya-mei-zho",
+          "name": "yoda-tian-lao-ya-a",
           "description": {
-            "en": "Yamero!",
-            "ja": "やめろ！",
-            "zh": "亞咩肉！"
+            "en": "Oh my goodness!",
+            "ja": "お天道様！",
+            "zh": "我的天老爺啊"
           },
-          "path": "two-loli-blame/ya-mei-zho.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+          "path": "yoda-girlfriend/yoda-tian-lao-ya-a.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
-          "name": "yoda-a-li-ga-do",
+          "name": "yoda-arrrr",
           "description": {
-            "en": "Arigato",
-            "ja": "ありがとう",
-            "zh": "阿哩嘎都"
+            "en": "Aaaaaaaaah!",
+            "ja": "ああああああ！",
+            "zh": "嗚啊啊啊啊啊"
           },
-          "path": "two-loli-blame/yoda-a-li-ga-do.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+          "path": "yoda-girlfriend/yoda-arrrr.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
           "name": "yu-zan-jiao-hsin-wo",
@@ -748,6 +1229,36 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "name": "g-tue-bian-dan",
+          "description": {
+            "en": "Delicious chicken leg bento is here!",
+            "ja": "おいしいチキンレッグ弁当が来たよ！",
+            "zh": "好吃的雞腿便當來囉～"
+          },
+          "path": "yoda-girlfriend/g-tue-bian-dan.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "lau-guo-bow-bow",
+          "description": {
+            "en": "Hubby, number one in the world (song)",
+            "ja": "旦那様、天下一(歌)",
+            "zh": "老公天下第一 (歌)"
+          },
+          "path": "yoda-girlfriend/lau-guo-bow-bow.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "kua-chi-chan-ler",
+          "description": {
+            "en": "Wake up! You're going to be late for work! Get up!",
+            "ja": "起きて！仕事に遅刻しちゃうよ！起きなさい！",
+            "zh": "快起床了！上班要遲到了！起床了！"
+          },
+          "path": "yoda-girlfriend/kua-chi-chan-ler.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
           "name": "ya-li-do-hen-zho",
           "description": {
             "en": "To be honest sometimes I feel everyone is under a lot of pressure",
@@ -758,35 +1269,45 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
-          "name": "weee",
+          "name": "si-zao-tsai-ni",
           "description": {
-            "en": "Weee~~~",
-            "ja": "Weee~~~",
-            "zh": "Weee~~~"
+            "en": "Would you like a bath first? Or should I step on you? Or maybe a chicken leg?",
+            "ja": "お風呂に入りますか？それとも私に踏まれたい？それともチキンレッグ？",
+            "zh": "你想要先洗澡？還是我踩你呢？還是要吃雞腿呢？"
           },
-          "path": "weee.mp3",
-          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+          "path": "yoda-girlfriend/si-zao-tsai-ni.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "chi-lai-san-dian",
+          "description": {
+            "en": "Get up! It’s only 3 a.m. now, and the competition is fierce! Why are you still sleeping?",
+            "ja": "起きて！まだ朝3時だし、競争が激しいよ！何でまだ寝てるの？",
+            "zh": "起來！現在也才三點，競爭好激烈～你怎麼還在睡～"
+          },
+          "path": "yoda-girlfriend/chi-lai-san-dian.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "bu-zan-kan-sho-g",
+          "description": {
+            "en": "Why won’t you let me look at your phone? Are you seeing another woman?",
+            "ja": "どうして私にスマホを見せないの？別の女性が好きになったの？",
+            "zh": "你為什麼不讓我看手機呀？你是不是喜歡上別的女人！"
+          },
+          "path": "yoda-girlfriend/bu-zan-kan-sho-g.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         }
       ]
     },
     {
-      "group_name": "real_dada_greetings",
+      "group_name": "realda_greetings",
       "group_description": {
-        "en": "Real DaDa: Greetings",
-        "ja": "真妲：挨拶",
-        "zh": "真妲：打招呼"
+        "en": "Real Da: Greetings",
+        "ja": "ジンダ：あいさつ",
+        "zh": "真妲：問候"
       },
       "voice_list": [
-        {
-          "name": "hello",
-          "description": {
-            "en": "Hello, everyone, good evening, Mifumi-san.",
-            "ja": "こんばんは、皆さん、ミフミさん。",
-            "zh": "哈囉大家晚上好米乎咪桑"
-          },
-          "path": "real-da-agree/hello.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
         {
           "name": "wan-shan-hao",
           "description": {
@@ -816,27 +1337,27 @@
           },
           "path": "real-da-agree/oyasumi.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "name": "hello",
+          "description": {
+            "en": "Hello, everyone, good evening, Mifumi-san.",
+            "ja": "こんばんは、皆さん、ミフミさん。",
+            "zh": "哈囉大家晚上好米乎咪桑"
+          },
+          "path": "real-da-agree/hello.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         }
       ]
     },
     {
-      "group_name": "real_dada_chat",
+      "group_name": "realda_chat",
       "group_description": {
-        "en": "Real DaDa: Chat",
-        "ja": "真妲：おしゃべり",
+        "en": "Real Da: Chat",
+        "ja": "ジンダ：おしゃべり",
         "zh": "真妲：閒聊"
       },
       "voice_list": [
-        {
-          "name": "yo-gi-hue",
-          "description": {
-            "en": "If we get the chance, we’ll definitely meet someday.",
-            "ja": "チャンスがあれば、いつか必ず会えるよ。",
-            "zh": "有機會的話我們鐵定有一天會見面的"
-          },
-          "path": "real-da-agree/yo-gi-hue.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
         {
           "name": "bao-zon-she-ti",
           "description": {
@@ -845,16 +1366,6 @@
             "zh": "要保重身體阿"
           },
           "path": "real-da-agree/bao-zon-she-ti.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "name": "tse-da-tse-shi",
-          "description": {
-            "en": "Is Jenda real? If you believe, then I think it must be real.",
-            "ja": "真妲は本当に存在しているの？あなたが信じれば、本当に存在しているんだと思うよ。",
-            "zh": "真妲究竟是不是真實的呢只要你這麼相信的話我想應該就是真實的吧"
-          },
-          "path": "real-da-agree/tse-da-tse-shi.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
@@ -868,6 +1379,16 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "name": "yo-gi-hue",
+          "description": {
+            "en": "If we get the chance, we’ll definitely meet someday.",
+            "ja": "チャンスがあれば、いつか必ず会えるよ。",
+            "zh": "有機會的話我們鐵定有一天會見面的"
+          },
+          "path": "real-da-agree/yo-gi-hue.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
           "name": "tao-yen-no-o",
           "description": {
             "en": "Really, if you keep staying up, I’ll start to dislike you!",
@@ -876,45 +1397,35 @@
           },
           "path": "real-da-agree/tao-yen-no-o.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "name": "tse-da-tse-shi",
+          "description": {
+            "en": "Is Jenda real? If you believe, then I think it must be real.",
+            "ja": "真妲は本当に存在しているの？あなたが信じれば、本当に存在しているんだと思うよ。",
+            "zh": "真妲究竟是不是真實的呢只要你這麼相信的話我想應該就是真實的吧"
+          },
+          "path": "real-da-agree/tse-da-tse-shi.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         }
       ]
     },
     {
-      "group_name": "real_dada_agree",
+      "group_name": "realda_agree",
       "group_description": {
-        "en": "Real DaDa: Agree",
-        "ja": "真妲：肯定",
+        "en": "Real Da: Agree",
+        "ja": "ジンダ：肯定",
         "zh": "真妲：肯定"
       },
       "voice_list": [
         {
-          "name": "gin-ten-hen-bang",
+          "name": "tsue-ban-der",
           "description": {
-            "en": "You did great today, too!",
-            "ja": "今日もよく頑張ったね！",
-            "zh": "今天也做得很棒喔"
+            "en": "You’re the best.",
+            "ja": "あなたは最高だよ。",
+            "zh": "你是最棒的"
           },
-          "path": "real-da-agree/gin-ten-hen-bang.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "name": "da-zan-chen-jiao",
-          "description": {
-            "en": "Go all out for the things you love and want to do!",
-            "ja": "あなたが愛していることややりたいことのために全力を尽くそう。",
-            "zh": "好好地為了你自己所愛的一些事物想要做的事情大展拳腳吧"
-          },
-          "path": "real-da-agree/da-zan-chen-jiao.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "name": "mian-chiang",
-          "description": {
-            "en": "Sometimes, don’t push yourself too hard to accomplish something.",
-            "ja": "時には無理に何かを達成しようとしなくてもいいんだよ",
-            "zh": "有的時候呢不要太勉強自己一定要達成什麼樣的事情"
-          },
-          "path": "real-da-agree/mian-chiang.mp3",
+          "path": "real-da-agree/tsue-ban-der.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
@@ -938,6 +1449,26 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "name": "mang-mang-lai",
+          "description": {
+            "en": "Take it slow, it’s okay.",
+            "ja": "ゆっくりでいいんだよ。",
+            "zh": "慢慢來沒關係的"
+          },
+          "path": "real-da-agree/mang-mang-lai.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "name": "gin-ten-hen-bang",
+          "description": {
+            "en": "You did great today, too!",
+            "ja": "今日もよく頑張ったね！",
+            "zh": "今天也做得很棒喔"
+          },
+          "path": "real-da-agree/gin-ten-hen-bang.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
           "name": "tsue-te-bie",
           "description": {
             "en": "You are the most special and amazing person.",
@@ -945,36 +1476,6 @@
             "zh": "你是最特別最棒的那個人"
           },
           "path": "real-da-agree/tsue-te-bie.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "name": "tsue-ban-der",
-          "description": {
-            "en": "You’re the best.",
-            "ja": "あなたは最高だよ。",
-            "zh": "你是最棒的"
-          },
-          "path": "real-da-agree/tsue-ban-der.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "name": "shan-shin-tze-zhi",
-          "description": {
-            "en": "Believe in yourself, no matter what happens, it’ll be fine.",
-            "ja": "自分を信じて、何があっても大丈夫だから。",
-            "zh": "你要相信自己不管遇到什麼事情都不要緊的"
-          },
-          "path": "real-da-agree/shan-shin-tze-zhi.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "name": "shi-che-shan",
-          "description": {
-            "en": "I’ll absolutely be one of the people in this world who thinks you’re the best.",
-            "ja": "私はこの世界で絶対にあなたが最高だと思う人の一人になるよ。",
-            "zh": "我呢會是這個世界上呢絕對是認為你最棒的其中一個人噢"
-          },
-          "path": "real-da-agree/shi-che-shan.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
@@ -998,22 +1499,52 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
-          "name": "mang-mang-lai",
+          "name": "shan-shin-tze-zhi",
           "description": {
-            "en": "Take it slow, it’s okay.",
-            "ja": "ゆっくりでいいんだよ。",
-            "zh": "慢慢來沒關係的"
+            "en": "Believe in yourself, no matter what happens, it’ll be fine.",
+            "ja": "自分を信じて、何があっても大丈夫だから。",
+            "zh": "你要相信自己不管遇到什麼事情都不要緊的"
           },
-          "path": "real-da-agree/mang-mang-lai.mp3",
+          "path": "real-da-agree/shan-shin-tze-zhi.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "name": "mian-chiang",
+          "description": {
+            "en": "Sometimes, don’t push yourself too hard to accomplish something.",
+            "ja": "時には無理に何かを達成しようとしなくてもいいんだよ",
+            "zh": "有的時候呢不要太勉強自己一定要達成什麼樣的事情"
+          },
+          "path": "real-da-agree/mian-chiang.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "name": "shi-che-shan",
+          "description": {
+            "en": "I’ll absolutely be one of the people in this world who thinks you’re the best.",
+            "ja": "私はこの世界で絶対にあなたが最高だと思う人の一人になるよ。",
+            "zh": "我呢會是這個世界上呢絕對是認為你最棒的其中一個人噢"
+          },
+          "path": "real-da-agree/shi-che-shan.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "name": "da-zan-chen-jiao",
+          "description": {
+            "en": "Go all out for the things you love and want to do!",
+            "ja": "あなたが愛していることややりたいことのために全力を尽くそう。",
+            "zh": "好好地為了你自己所愛的一些事物想要做的事情大展拳腳吧"
+          },
+          "path": "real-da-agree/da-zan-chen-jiao.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         }
       ]
     },
     {
-      "group_name": "real_dada_disagree",
+      "group_name": "realda_retort",
       "group_description": {
-        "en": "Real DaDa: Disagree",
-        "ja": "真妲：吐槽",
+        "en": "Real Da: Retort",
+        "ja": "ジンダ：吐槽",
         "zh": "真妲：吐槽"
       },
       "voice_list": [
@@ -1028,16 +1559,6 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
-          "name": "huan-hsiang",
-          "description": {
-            "en": "Stop fantasizing and wake up!",
-            "ja": "妄想はやめて目を覚まして",
-            "zh": "不要幻想了醒醒阿"
-          },
-          "path": "real-da-agree/huan-hsiang.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
           "name": "gan-shen-mo",
           "description": {
             "en": "What are you going to do?",
@@ -1045,26 +1566,6 @@
             "zh": "你要幹什麼阿"
           },
           "path": "real-da-agree/gan-shen-mo.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "name": "sue-sue-bian-bian",
-          "description": {
-            "en": "You can’t just call every VTuber you see your “wife.”",
-            "ja": "どのVTuberを見ても「奥さん」って呼ぶのはやめなさい。",
-            "zh": "你們不可以隨隨便便看到一個vtuber就在那邊說什麼老婆什麼的"
-          },
-          "path": "real-da-agree/sue-sue-bian-bian.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "name": "dro-nong-wo",
-          "description": {
-            "en": "Are you teasing me?",
-            "ja": "からかってるんじゃないよね？",
-            "zh": "你該不會是在捉弄我吧"
-          },
-          "path": "real-da-agree/dro-nong-wo.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
@@ -1086,25 +1587,55 @@
           },
           "path": "real-da-agree/she-shi-ni-lao-po.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "name": "huan-hsiang",
+          "description": {
+            "en": "Stop fantasizing and wake up!",
+            "ja": "妄想はやめて目を覚まして",
+            "zh": "不要幻想了醒醒阿"
+          },
+          "path": "real-da-agree/huan-hsiang.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "name": "dro-nong-wo",
+          "description": {
+            "en": "Are you teasing me?",
+            "ja": "からかってるんじゃないよね？",
+            "zh": "你該不會是在捉弄我吧"
+          },
+          "path": "real-da-agree/dro-nong-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "name": "sue-sue-bian-bian",
+          "description": {
+            "en": "You can’t just call every VTuber you see your “wife.”",
+            "ja": "どのVTuberを見ても「奥さん」って呼ぶのはやめなさい。",
+            "zh": "你們不可以隨隨便便看到一個vtuber就在那邊說什麼老婆什麼的"
+          },
+          "path": "real-da-agree/sue-sue-bian-bian.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         }
       ]
     },
     {
-      "group_name": "real_dada_benefits",
+      "group_name": "realda_benefits",
       "group_description": {
-        "en": "Real DaDa: Benefits",
-        "ja": "真妲：福利",
+        "en": "Real Da: Benefits",
+        "ja": "ジンダ：福利",
         "zh": "真妲：福利"
       },
       "voice_list": [
         {
-          "name": "lao-gon-bao-bao",
+          "name": "miao-miao",
           "description": {
-            "en": "Honey, hold me, I want a princess carry.",
-            "ja": "ダーリン、抱っこして、プリンセス抱っこがいいな。",
-            "zh": "老公老公抱抱我要公主抱抱"
+            "en": "Meow meow",
+            "ja": "にゃんにゃん",
+            "zh": "喵喵"
           },
-          "path": "real-da-agree/lao-gon-bao-bao.mp3",
+          "path": "real-da-agree/miao-miao.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
@@ -1138,13 +1669,13 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
-          "name": "miao-miao",
+          "name": "lao-gon-bao-bao",
           "description": {
-            "en": "Meow meow",
-            "ja": "にゃんにゃん",
-            "zh": "喵喵"
+            "en": "Honey, hold me, I want a princess carry.",
+            "ja": "ダーリン、抱っこして、プリンセス抱っこがいいな。",
+            "zh": "老公老公抱抱我要公主抱抱"
           },
-          "path": "real-da-agree/miao-miao.mp3",
+          "path": "real-da-agree/lao-gon-bao-bao.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         }
       ]
@@ -1153,7 +1684,7 @@
       "group_name": "brother-da",
       "group_description": {
         "en": "Brother Da",
-        "ja": "妲哥",
+        "ja": "ダー兄",
         "zh": "妲哥"
       },
       "voice_list": [
@@ -1173,10 +1704,20 @@
       "group_name": "drumstick",
       "group_description": {
         "en": "Drumstick",
-        "ja": "雞腿",
+        "ja": "チキンレッグ",
         "zh": "雞腿"
       },
       "voice_list": [
+        {
+          "name": "se-shi-g-tue-a",
+          "description": {
+            "en": "Who's chicken leg?",
+            "ja": "誰がチキンレッグだよ",
+            "zh": "誰是雞腿阿"
+          },
+          "path": "two-loli-blame/se-shi-g-tue-a.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
         {
           "name": "bu-yao-g-zuo",
           "description": {
@@ -1188,16 +1729,6 @@
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
         },
         {
-          "name": "diao-g-tue-gan",
-          "description": {
-            "en": "Wow, I dropped a chicken leg, gnnn, why is it a chicken leg? I'm so mad!",
-            "ja": "わあ、鶏肉を落とした、ぐぬぬ、なぜ鶏肉なんだ？すごく腹が立つ！",
-            "zh": "哇掉雞腿ㄍㄋㄋ為什麼是雞腿氣死我了"
-          },
-          "path": "mihoyo-set/diao-g-tue-gan.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
           "name": "ge-wo-g-zuo",
           "description": {
             "en": "Damn, he actually gave me chicken and even ten skewers!",
@@ -1206,6 +1737,16 @@
           },
           "path": "mihoyo-set/ge-wo-g-zuo.mp3",
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        },
+        {
+          "name": "diao-g-tue-gan",
+          "description": {
+            "en": "Wow, I dropped a chicken leg, gnnn, why is it a chicken leg? I'm so mad!",
+            "ja": "わあ、鶏肉を落とした、ぐぬぬ、なぜ鶏肉なんだ？すごく腹が立つ！",
+            "zh": "哇掉雞腿ㄍㄋㄋ為什麼是雞腿氣死我了"
+          },
+          "path": "mihoyo-set/diao-g-tue-gan.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         }
       ]
     },
@@ -1230,6 +1771,36 @@
       ]
     },
     {
+      "group_name": "tribe",
+      "group_description": {
+        "en": "Tribe",
+        "ja": "部族",
+        "zh": "部落"
+      },
+      "voice_list": [
+        {
+          "name": "wei-ler-bu-lou",
+          "description": {
+            "en": "For the tribe!",
+            "ja": "部落のために！",
+            "zh": "為了部落！"
+          },
+          "path": "yoda-girlfriend/wei-ler-bu-lou.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "relive-bu-lo-shi",
+          "description": {
+            "en": "From today onward, individual and corporate interests are no longer trends. The real trend is our ReLive Tribe!",
+            "ja": "今日から、個人勢も企業勢も、もはや世界のトレンドではありません。本当のトレンドは私たちのReLive部落勢です！",
+            "zh": "從今天開始，個人勢、企業勢、都已經不再是世界的趨勢。真正的趨勢是我們的ReLive部落勢！"
+          },
+          "path": "yoda-girlfriend/relive-bu-lo-shi.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        }
+      ]
+    },
+    {
       "group_name": "unicorn",
       "group_description": {
         "en": "Unicorn",
@@ -1238,16 +1809,6 @@
       },
       "voice_list": [
         {
-          "name": "wu-shang-kuai-le",
-          "description": {
-            "en": "Let's experience the ultimate joy of the GG unicorn together.",
-            "ja": "一緒にGGユニコーンの至高の喜びを体験しよう。",
-            "zh": "一起體會GG獨角獸的無上快樂吧"
-          },
-          "path": "dp-toys/wu-shang-kuai-le.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
           "name": "fei-ji-bei-sen-lin",
           "description": {
             "en": "I am the unicorn of the dreamlike fleshlight forest.",
@@ -1255,6 +1816,16 @@
             "zh": "我是夢幻飛機杯森林的獨角獸"
           },
           "path": "dp-toys/fei-ji-bei-sen-lin.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "name": "wu-shang-kuai-le",
+          "description": {
+            "en": "Let's experience the ultimate joy of the GG unicorn together.",
+            "ja": "一緒にGGユニコーンの至高の喜びを体験しよう。",
+            "zh": "一起體會GG獨角獸的無上快樂吧"
+          },
+          "path": "dp-toys/wu-shang-kuai-le.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         }
       ]
@@ -1268,14 +1839,14 @@
       },
       "voice_list": [
         {
-          "name": "ho-yo-ma-yo-tso-na",
+          "name": "may-yo-cho-na",
           "description": {
-            "en": "Hey, I told you I don't hate milk!",
-            "ja": "ねえ、私は牛乳が嫌いだって言ったでしょう！",
-            "zh": "吼唷我不就說了我沒有仇奶啦"
+            "en": "I don’t have any issues with big breasts, okay?",
+            "ja": "大きな胸が嫌いなわけじゃないんだけど、わかる？",
+            "zh": "我沒有仇奶好嗎"
           },
-          "path": "mihoyo-set/ho-yo-ma-yo-tso-na.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+          "path": "on-fire/may-yo-cho-na.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
           "name": "jiao-zuo-da-nai",
@@ -1288,16 +1859,6 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
-          "name": "may-yo-cho-na",
-          "description": {
-            "en": "I don’t have any issues with big breasts, okay?",
-            "ja": "大きな胸が嫌いなわけじゃないんだけど、わかる？",
-            "zh": "我沒有仇奶好嗎"
-          },
-          "path": "on-fire/may-yo-cho-na.mp3",
-          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
-        },
-        {
           "name": "wo-so-wo-shi-da-nai",
           "description": {
             "en": "If I say I'm big-chested, then I am!",
@@ -1306,6 +1867,26 @@
           },
           "path": "on-fire/wo-so-wo-shi-da-nai.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "name": "ho-yo-ma-yo-tso-na",
+          "description": {
+            "en": "Hey, I told you I don't hate milk!",
+            "ja": "ねえ、私は牛乳が嫌いだって言ったでしょう！",
+            "zh": "吼唷我不就說了我沒有仇奶啦"
+          },
+          "path": "mihoyo-set/ho-yo-ma-yo-tso-na.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "name": "da-bo-hao-chen-zo",
+          "description": {
+            "en": "Everyone, believe in my big-wave parrot, it's so big, so heavy!",
+            "ja": "みんな、私の大波オウムを信じて！とても大きくて重いんだ！",
+            "zh": "各位啊各位要相信我的大波鸚啊大波鸚好大啊搖晃啊好沉重"
+          },
+          "path": "yoda-girlfriend/da-bo-hao-chen-zo.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         }
       ]
     },
@@ -1318,24 +1899,14 @@
       },
       "voice_list": [
         {
-          "name": "loli-tai",
+          "name": "loli-tsao-bang-der",
           "description": {
-            "en": "But I only watch loli streams!",
-            "ja": "私はロリチャンネルしか見てないよ！",
-            "zh": "阿我就只看蘿莉台咩"
+            "en": "Lolis are awesome",
+            "ja": "ロリは最高だ",
+            "zh": "蘿莉超棒的"
           },
-          "path": "on-fire/loli-tai.mp3",
-          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
-        },
-        {
-          "name": "shi-huan-loli-da-nai",
-          "description": {
-            "en": "Only someone with a hole in their brain would like loli big breasts.",
-            "ja": "ロリで大きな胸が好きな人は頭に問題があるんじゃない？",
-            "zh": "會喜歡蘿莉大奶的是腦子有洞吧"
-          },
-          "path": "on-fire/shi-huan-loli-da-nai.mp3",
-          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+          "path": "two-loli-blame/loli-tsao-bang-der.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
           "name": "loli-da-nai",
@@ -1358,25 +1929,45 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
-          "name": "loli-tsao-bang-der",
+          "name": "loli-tai",
           "description": {
-            "en": "Lolis are awesome",
-            "ja": "ロリは最高だ",
-            "zh": "蘿莉超棒的"
+            "en": "But I only watch loli streams!",
+            "ja": "私はロリチャンネルしか見てないよ！",
+            "zh": "阿我就只看蘿莉台咩"
           },
-          "path": "two-loli-blame/loli-tsao-bang-der.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+          "path": "on-fire/loli-tai.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "name": "shi-huan-loli-da-nai",
+          "description": {
+            "en": "Only someone with a hole in their brain would like loli big breasts.",
+            "ja": "ロリで大きな胸が好きな人は頭に問題があるんじゃない？",
+            "zh": "會喜歡蘿莉大奶的是腦子有洞吧"
+          },
+          "path": "on-fire/shi-huan-loli-da-nai.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         }
       ]
     },
     {
       "group_name": "genshin-impact",
       "group_description": {
-        "en": "Genshin Impact",
+        "en": "Genshin",
         "ja": "原神",
         "zh": "原神"
       },
       "voice_list": [
+        {
+          "name": "yuan-shen-chi-don",
+          "description": {
+            "en": "Genshin... Impact... Start...",
+            "ja": "原神...起動...",
+            "zh": "原神..啟動..."
+          },
+          "path": "mihoyo-set/yuan-shen-chi-don.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
         {
           "name": "ke-li-wan-jia",
           "description": {
@@ -1398,16 +1989,6 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
-          "name": "yuan-shen-chi-don",
-          "description": {
-            "en": "Genshin... Impact... Start...",
-            "ja": "原神...起動...",
-            "zh": "原神..啟動..."
-          },
-          "path": "mihoyo-set/yuan-shen-chi-don.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
           "name": "ke-li-wan-jia-2",
           "description": {
             "en": "Genshin Impact start! I love playing Genshin Impact the most, I'm a Klee player. Look, this is my newly bought Klee's Jumpy Dumpty clothes",
@@ -1420,32 +2001,22 @@
       ]
     },
     {
-      "group_name": "draw-card-live-broadcast",
+      "group_name": "gacha-live",
       "group_description": {
-        "en": "Draw Card Live Broadcast",
+        "en": "Gacha Live",
         "ja": "ガチャ配信",
         "zh": "抽卡實況"
       },
       "voice_list": [
         {
-          "name": "wu-shih-tsou-wo",
+          "name": "bao-di-ren",
           "description": {
-            "en": "50 pulls? What game would I play that needs 50 pulls?",
-            "ja": "50回ガチャ？どんなゲームで50回もガチャを引くんだよ？",
-            "zh": "五十抽我玩什麼遊戲會抽到五十抽啊"
+            "en": "I am guaranteed, I am a guaranteed person",
+            "ja": "私は保証された、私は保証された人だ",
+            "zh": "我保底了我是保底人"
           },
-          "path": "mihoyo-set/wu-shih-tsou-wo.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "name": "ta-yi-din-hue-tsu",
-          "description": {
-            "en": "It will definitely come out! The goods will come! Ah damn!",
-            "ja": "絶対出る！出るぞ！あぁもう！",
-            "zh": "他一定會出！出貨！啊幹"
-          },
-          "path": "mihoyo-set/ta-yi-din-hue-tsu.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+          "path": "mihoyo-set/bao-di-ren.mp3",
+          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
         },
         {
           "name": "fei-zou-hue-yi-wu",
@@ -1458,24 +2029,14 @@
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
         },
         {
-          "name": "tang-zai-di-sha-ku",
+          "name": "ta-yi-din-hue-tsu",
           "description": {
-            "en": "If I don't get it today, I'm going to lie on the ground and cry",
-            "ja": "今日手に入らなかったら、地面に寝転んで泣くつもりだ",
-            "zh": "我今天我今天要是沒有沒有抽到我就躺在地上哭"
+            "en": "It will definitely come out! The goods will come! Ah damn!",
+            "ja": "絶対出る！出るぞ！あぁもう！",
+            "zh": "他一定會出！出貨！啊幹"
           },
-          "path": "mihoyo-set/tang-zai-di-sha-ku.mp3",
+          "path": "mihoyo-set/ta-yi-din-hue-tsu.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "name": "bao-di-ren",
-          "description": {
-            "en": "I am guaranteed, I am a guaranteed person",
-            "ja": "私は保証された、私は保証された人だ",
-            "zh": "我保底了我是保底人"
-          },
-          "path": "mihoyo-set/bao-di-ren.mp3",
-          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
         },
         {
           "name": "chen-way-fe-chou",
@@ -1486,6 +2047,26 @@
           },
           "path": "mihoyo-set/chen-way-fe-chou.mp3",
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        },
+        {
+          "name": "wu-shih-tsou-wo",
+          "description": {
+            "en": "50 pulls? What game would I play that needs 50 pulls?",
+            "ja": "50回ガチャ？どんなゲームで50回もガチャを引くんだよ？",
+            "zh": "五十抽我玩什麼遊戲會抽到五十抽啊"
+          },
+          "path": "mihoyo-set/wu-shih-tsou-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "name": "tang-zai-di-sha-ku",
+          "description": {
+            "en": "If I don't get it today, I'm going to lie on the ground and cry",
+            "ja": "今日手に入らなかったら、地面に寝転んで泣くつもりだ",
+            "zh": "我今天我今天要是沒有沒有抽到我就躺在地上哭"
+          },
+          "path": "mihoyo-set/tang-zai-di-sha-ku.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         }
       ]
     },
@@ -1508,6 +2089,16 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "name": "stupid",
+          "description": {
+            "en": "Idiot",
+            "ja": "バカ",
+            "zh": "笨蛋"
+          },
+          "path": "first-broadcast/stupid.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
+        },
+        {
           "name": "angry",
           "description": {
             "en": "Angry",
@@ -1518,13 +2109,13 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
-          "name": "chicken-hell",
+          "name": "big-money",
           "description": {
-            "en": "If I say I eat chicken, will it be too hellish?",
-            "ja": "鶏肉を食べると言ったら、ちょっと地獄っぽいですか？",
-            "zh": "如果我說我吃雞肉的話，會不會有點太地獄？"
+            "en": "Get rich",
+            "ja": "大金持ちになる",
+            "zh": "發大財"
           },
-          "path": "first-broadcast/chicken-hell.mp3",
+          "path": "first-broadcast/big-money.mp3",
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
@@ -1538,16 +2129,6 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
-          "name": "no-money",
-          "description": {
-            "en": "You won’t get rich",
-            "ja": "あなたは大金持ちにはなれないでしょう",
-            "zh": "你不會發大財"
-          },
-          "path": "first-broadcast/no-money.mp3",
-          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
-        },
-        {
           "name": "dog",
           "description": {
             "en": "You are like a dog",
@@ -1555,56 +2136,6 @@
             "zh": "你是狗吧"
           },
           "path": "first-broadcast/dog.mp3",
-          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
-        },
-        {
-          "name": "you-garbage",
-          "description": {
-            "en": "You big loser",
-            "ja": "この役立たず",
-            "zh": "你這個大廢物"
-          },
-          "path": "first-broadcast/you-garbage.mp3",
-          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
-        },
-        {
-          "name": "no-lotto",
-          "description": {
-            "en": "You’ll never win the lottery",
-            "ja": "あなたは宝くじに当たることはないでしょう",
-            "zh": "你簽威力彩都不會中"
-          },
-          "path": "first-broadcast/no-lotto.mp3",
-          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
-        },
-        {
-          "name": "wayli",
-          "description": {
-            "en": "I like eating Wei Li Zha Jiang Mian (instant noodles), and I prefer it with soup.",
-            "ja": "私は維力炸醬麵（インスタントラーメン）が好きで、スープありがいいです。",
-            "zh": "我喜歡吃維力炸醬麵，然後要湯的。"
-          },
-          "path": "first-broadcast/wayli.mp3",
-          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
-        },
-        {
-          "name": "grandpa-rice",
-          "description": {
-            "en": "Grandpa, it's time to eat.",
-            "ja": "おじいちゃん、ご飯ですよ。",
-            "zh": "阿公吃飯囉"
-          },
-          "path": "first-broadcast/grandpa-rice.mp3",
-          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
-        },
-        {
-          "name": "grandpa-melon",
-          "description": {
-            "en": "Grandpa, do you want to eat some cantaloupe?",
-            "ja": "おじいちゃん、ハミウリを食べますか?",
-            "zh": "阿公你要不要吃哈密瓜"
-          },
-          "path": "first-broadcast/grandpa-melon.mp3",
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
@@ -1638,26 +2169,6 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
-          "name": "stupid",
-          "description": {
-            "en": "Idiot",
-            "ja": "バカ",
-            "zh": "笨蛋"
-          },
-          "path": "first-broadcast/stupid.mp3",
-          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
-        },
-        {
-          "name": "big-money",
-          "description": {
-            "en": "Get rich",
-            "ja": "大金持ちになる",
-            "zh": "發大財"
-          },
-          "path": "first-broadcast/big-money.mp3",
-          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
-        },
-        {
           "name": "motomoto",
           "description": {
             "en": "More, more",
@@ -1665,6 +2176,36 @@
             "zh": "摸多摸多"
           },
           "path": "first-broadcast/motomoto.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
+        },
+        {
+          "name": "grandpa-rice",
+          "description": {
+            "en": "Grandpa, it's time to eat.",
+            "ja": "おじいちゃん、ご飯ですよ。",
+            "zh": "阿公吃飯囉"
+          },
+          "path": "first-broadcast/grandpa-rice.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
+        },
+        {
+          "name": "no-money",
+          "description": {
+            "en": "You won’t get rich",
+            "ja": "あなたは大金持ちにはなれないでしょう",
+            "zh": "你不會發大財"
+          },
+          "path": "first-broadcast/no-money.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
+        },
+        {
+          "name": "you-garbage",
+          "description": {
+            "en": "You big loser",
+            "ja": "この役立たず",
+            "zh": "你這個大廢物"
+          },
+          "path": "first-broadcast/you-garbage.mp3",
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
@@ -1676,6 +2217,46 @@
           },
           "path": "first-broadcast/motomotomoto.mp3",
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
+        },
+        {
+          "name": "no-lotto",
+          "description": {
+            "en": "You’ll never win the lottery",
+            "ja": "あなたは宝くじに当たることはないでしょう",
+            "zh": "你簽威力彩都不會中"
+          },
+          "path": "first-broadcast/no-lotto.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
+        },
+        {
+          "name": "grandpa-melon",
+          "description": {
+            "en": "Grandpa, do you want to eat some cantaloupe?",
+            "ja": "おじいちゃん、ハミウリを食べますか?",
+            "zh": "阿公你要不要吃哈密瓜"
+          },
+          "path": "first-broadcast/grandpa-melon.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
+        },
+        {
+          "name": "wayli",
+          "description": {
+            "en": "I like eating Wei Li Zha Jiang Mian (instant noodles), and I prefer it with soup.",
+            "ja": "私は維力炸醬麵（インスタントラーメン）が好きで、スープありがいいです。",
+            "zh": "我喜歡吃維力炸醬麵，然後要湯的。"
+          },
+          "path": "first-broadcast/wayli.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
+        },
+        {
+          "name": "chicken-hell",
+          "description": {
+            "en": "If I say I eat chicken, will it be too hellish?",
+            "ja": "鶏肉を食べると言ったら、ちょっと地獄っぽいですか？",
+            "zh": "如果我說我吃雞肉的話，會不會有點太地獄？"
+          },
+          "path": "first-broadcast/chicken-hell.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         }
       ]
     },
@@ -1683,7 +2264,7 @@
       "group_name": "miscellaneous",
       "group_description": {
         "en": "Miscellaneous",
-        "ja": "雑多なもの",
+        "ja": "その他",
         "zh": "雜項"
       },
       "voice_list": [
@@ -1698,94 +2279,14 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
-          "name": "ke-ke-wu",
+          "name": "oh-my-god",
           "description": {
-            "en": "But... that's awful!",
-            "ja": "くっ…悔しい！",
-            "zh": "可..可惡"
+            "en": "Oh my god!",
+            "ja": "オーマイガー！",
+            "zh": "喔買尬"
           },
-          "path": "on-fire/ke-ke-wu.mp3",
-          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
-        },
-        {
-          "name": "chen-wan-bu-yao-du-bo",
-          "description": {
-            "en": "Everyone, remember, never, never, never, never gamble",
-            "ja": "皆さん、覚えておいてください、決して、決して、決して、決してギャンブルをしてはいけません",
-            "zh": "各位要記得千萬千千萬萬不要不要賭博啊"
-          },
-          "path": "mihoyo-set/chen-wan-bu-yao-du-bo.mp3",
-          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
-        },
-        {
-          "name": "wo-bu-yao-dan-gu-er",
-          "description": {
-            "en": "I don't want to be an orphan",
-            "ja": "孤児になりたくない",
-            "zh": "我不要我不要當孤兒"
-          },
-          "path": "mihoyo-set/wo-bu-yao-dan-gu-er.mp3",
+          "path": "mihoyo-set/oh-my-god.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "name": "hon-se-peng-yo-yu-chi",
-          "description": {
-            "en": "Can my red friend lend me some luck?",
-            "ja": "赤い友達は私に少し運気を貸してくれるかな？",
-            "zh": "我的紅色朋友可不可以借我一下運氣"
-          },
-          "path": "mihoyo-set/hon-se-peng-yo-yu-chi.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "name": "hon-se-peng-yo-wa-ken",
-          "description": {
-            "en": "Why on earth is my red friend digging a hole for me to jump into?",
-            "ja": "どうして私の赤い友達は、私が飛び込むための穴を掘っているんだ？",
-            "zh": "我的紅色朋友到底到底為什麼要挖坑給我跳咧"
-          },
-          "path": "mihoyo-set/hon-se-peng-yo-wa-ken.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "name": "se-qing-nv-v",
-          "description": {
-            "en": "I am the erotic girl V.",
-            "ja": "私はエロティックな女Vです。",
-            "zh": "我是色情女V"
-          },
-          "path": "dp-toys/se-qing-nv-v.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
-          "name": "who-shi-ben-dan",
-          "description": {
-            "en": "I must be an idiot.",
-            "ja": "私はバカだよね",
-            "zh": "我是笨蛋吧"
-          },
-          "path": "draw-avatar-10/who-shi-ben-dan.mp3",
-          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
-        },
-        {
-          "name": "jiao-se-hsin-pi",
-          "description": {
-            "en": "I really love this character, they perfectly match my preferences, I love them so much",
-            "ja": "このキャラクターが大好き、私の好みにぴったり合っていて本当に大好き",
-            "zh": "我真的太喜歡這個角色這角色完美踩在我的性癖上超喜歡"
-          },
-          "path": "mihoyo-set/jiao-se-hsin-pi.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "name": "shan-meng-nu",
-          "description": {
-            "en": "Am I becoming more and more like a fujoshi?",
-            "ja": "私は今どんどん夢女子っぽくなっているのかな？",
-            "zh": "我現在是不是越來越像夢女"
-          },
-          "path": "draw-avatar-10/shan-meng-nu.mp3",
-          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
           "name": "i-think",
@@ -1798,44 +2299,64 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
-          "name": "you-shi-ba-tze",
+          "name": "ke-ke-wu",
           "description": {
-            "en": "My fortune doesn't seem to align well with this game",
-            "ja": "このゲームと私の相性はあまり良くないみたいだ",
-            "zh": "我跟這個遊戲的八字好像沒有到很好"
+            "en": "But... that's awful!",
+            "ja": "くっ…悔しい！",
+            "zh": "可..可惡"
           },
-          "path": "mihoyo-set/you-shi-ba-tze.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+          "path": "on-fire/ke-ke-wu.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
-          "name": "fan-zha-pien-he-zuo",
+          "name": "who-shi-ben-dan",
           "description": {
-            "en": "I think I should cooperate with the anti-fraud hotline.",
-            "ja": "私は詐欺対策ホットラインと協力すべきだと思う。",
-            "zh": "我覺得我應該要跟反詐騙專線合作"
+            "en": "I must be an idiot.",
+            "ja": "私はバカだよね",
+            "zh": "我是笨蛋吧"
           },
-          "path": "mihoyo-set/fan-zha-pien-he-zuo.mp3",
-          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+          "path": "draw-avatar-10/who-shi-ben-dan.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
-          "name": "kao-yi-qiang",
+          "name": "gg-in-in-der",
           "description": {
-            "en": "There's nothing that a good shot can't solve.",
-            "ja": "尻一発で解決できないことはない。",
-            "zh": "沒有什麼尻一槍無法解決的"
+            "en": "Accumulating good deeds in secret.",
+            "ja": "陰で善行を積む",
+            "zh": "積積陰陰德"
           },
-          "path": "dp-toys/kao-yi-qiang.mp3",
+          "path": "dp-toys/gg-in-in-der.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
-          "name": "jiao-se-hen-hao-kan",
+          "name": "se-qing-nv-v",
           "description": {
-            "en": "Wow, this character is so cute!",
-            "ja": "わあ、このキャラクターはとても可愛い！",
-            "zh": "哇好好看喔這角色真的很好看捏"
+            "en": "I am the erotic girl V.",
+            "ja": "私はエロティックな女Vです。",
+            "zh": "我是色情女V"
           },
-          "path": "mihoyo-set/jiao-se-hen-hao-kan.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+          "path": "dp-toys/se-qing-nv-v.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "name": "ai-yo-wei-wa",
+          "description": {
+            "en": "Ai yo wei wa",
+            "ja": "アイヨーウェイワ",
+            "zh": "哎哎哎哎嗚哇"
+          },
+          "path": "mihoyo-set/ai-yo-wei-wa.mp3",
+          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        },
+        {
+          "name": "shan-fang-jia",
+          "description": {
+            "en": "Ah, I want a vacation too.",
+            "ja": "ああ、私も休みが欲しい",
+            "zh": "啊我也想放假"
+          },
+          "path": "draw-avatar-10/shan-fang-jia.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
           "name": "bu-der-liao",
@@ -1858,14 +2379,24 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
-          "name": "ai-yo-wei-wa",
+          "name": "fan-tsue-tsin-wei",
           "description": {
-            "en": "Ai yo wei wa",
-            "ja": "アイヨーウェイワ",
-            "zh": "哎哎哎哎嗚哇"
+            "en": "Jackpot! Jackpot!",
+            "ja": "一攫千金！",
+            "zh": "發財啦～發財啦～"
           },
-          "path": "mihoyo-set/ai-yo-wei-wa.mp3",
-          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+          "path": "yoda-girlfriend/fa-tsai-ler.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "wo-bu-yao-dan-gu-er",
+          "description": {
+            "en": "I don't want to be an orphan",
+            "ja": "孤児になりたくない",
+            "zh": "我不要我不要當孤兒"
+          },
+          "path": "mihoyo-set/wo-bu-yao-dan-gu-er.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
           "name": "yao-so-shi-lin-na",
@@ -1878,23 +2409,13 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
-          "name": "shan-fang-jia",
+          "name": "letsgo",
           "description": {
-            "en": "Ah, I want a vacation too.",
-            "ja": "ああ、私も休みが欲しい",
-            "zh": "啊我也想放假"
+            "en": "Let's go!",
+            "ja": "レッツゴー！",
+            "zh": "Let's go!"
           },
-          "path": "draw-avatar-10/shan-fang-jia.mp3",
-          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
-        },
-        {
-          "name": "oh-my-god",
-          "description": {
-            "en": "Oh my god!",
-            "ja": "オーマイガー！",
-            "zh": "喔買尬"
-          },
-          "path": "mihoyo-set/oh-my-god.mp3",
+          "path": "mihoyo-set/letsgo.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
@@ -1908,23 +2429,103 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
-          "name": "gg-in-in-der",
+          "name": "shan-meng-nu",
           "description": {
-            "en": "Accumulating good deeds in secret.",
-            "ja": "陰で善行を積む",
-            "zh": "積積陰陰德"
+            "en": "Am I becoming more and more like a fujoshi?",
+            "ja": "私は今どんどん夢女子っぽくなっているのかな？",
+            "zh": "我現在是不是越來越像夢女"
           },
-          "path": "dp-toys/gg-in-in-der.mp3",
+          "path": "draw-avatar-10/shan-meng-nu.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "name": "kao-yi-qiang",
+          "description": {
+            "en": "There's nothing that a good shot can't solve.",
+            "ja": "尻一発で解決できないことはない。",
+            "zh": "沒有什麼尻一槍無法解決的"
+          },
+          "path": "dp-toys/kao-yi-qiang.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
-          "name": "letsgo",
+          "name": "jiao-se-hen-hao-kan",
           "description": {
-            "en": "Let's go!",
-            "ja": "レッツゴー！",
-            "zh": "Let's go!"
+            "en": "Wow, this character is so cute!",
+            "ja": "わあ、このキャラクターはとても可愛い！",
+            "zh": "哇好好看喔這角色真的很好看捏"
           },
-          "path": "mihoyo-set/letsgo.mp3",
+          "path": "mihoyo-set/jiao-se-hen-hao-kan.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "name": "fan-zha-pien-he-zuo",
+          "description": {
+            "en": "I think I should cooperate with the anti-fraud hotline.",
+            "ja": "私は詐欺対策ホットラインと協力すべきだと思う。",
+            "zh": "我覺得我應該要跟反詐騙專線合作"
+          },
+          "path": "mihoyo-set/fan-zha-pien-he-zuo.mp3",
+          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        },
+        {
+          "name": "hon-se-peng-yo-yu-chi",
+          "description": {
+            "en": "Can my red friend lend me some luck?",
+            "ja": "赤い友達は私に少し運気を貸してくれるかな？",
+            "zh": "我的紅色朋友可不可以借我一下運氣"
+          },
+          "path": "mihoyo-set/hon-se-peng-yo-yu-chi.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "name": "you-shi-ba-tze",
+          "description": {
+            "en": "My fortune doesn't seem to align well with this game",
+            "ja": "このゲームと私の相性はあまり良くないみたいだ",
+            "zh": "我跟這個遊戲的八字好像沒有到很好"
+          },
+          "path": "mihoyo-set/you-shi-ba-tze.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "name": "chen-wan-bu-yao-du-bo",
+          "description": {
+            "en": "Everyone, remember, never, never, never, never gamble",
+            "ja": "皆さん、覚えておいてください、決して、決して、決して、決してギャンブルをしてはいけません",
+            "zh": "各位要記得千萬千千萬萬不要不要賭博啊"
+          },
+          "path": "mihoyo-set/chen-wan-bu-yao-du-bo.mp3",
+          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        },
+        {
+          "name": "hon-se-peng-yo-wa-ken",
+          "description": {
+            "en": "Why on earth is my red friend digging a hole for me to jump into?",
+            "ja": "どうして私の赤い友達は、私が飛び込むための穴を掘っているんだ？",
+            "zh": "我的紅色朋友到底到底為什麼要挖坑給我跳咧"
+          },
+          "path": "mihoyo-set/hon-se-peng-yo-wa-ken.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "name": "ta-ma-ta-ma-ta-ma",
+          "description": {
+            "en": "Tama-tama-tama-tama-tama-tama-tama.",
+            "ja": "タマタマタマタマタマタマ。",
+            "zh": "塔嗎塔嗎塔嗎塔嗎塔嗎塔嗎塔嗎塔嗎塔嗎塔嗎"
+          },
+          "path": "yoda-girlfriend/ta-ma-ta-ma-ta-ma.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "jiao-se-hsin-pi",
+          "description": {
+            "en": "I really love this character, they perfectly match my preferences, I love them so much",
+            "ja": "このキャラクターが大好き、私の好みにぴったり合っていて本当に大好き",
+            "zh": "我真的太喜歡這個角色這角色完美踩在我的性癖上超喜歡"
+          },
+          "path": "mihoyo-set/jiao-se-hsin-pi.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         }
       ]
