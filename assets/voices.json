@@ -117,6 +117,16 @@
           },
           "path": "yoda-girlfriend/ha-ha-ha-6.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "ha-ha-ha-7",
+          "description": {
+            "en": "Big laugh sound-7",
+            "ja": "大笑い-7",
+            "zh": "大笑聲-7"
+          },
+          "path": "news-202405/ha-ha-ha-7.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
         }
       ]
     },
@@ -128,6 +138,16 @@
         "zh": "問候"
       },
       "voice_list": [
+        {
+          "name": "da-jia-hao",
+          "description": {
+            "en": "Hello everyone.",
+            "ja": "皆さんこんにちは。",
+            "zh": "大家好"
+          },
+          "path": "news-202405/da-jia-hao.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
         {
           "name": "zhai-jen-bye-bye",
           "description": {
@@ -157,6 +177,16 @@
           },
           "path": "yoda-girlfriend/she-she-da-jia.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "gan-en-bye-bye",
+          "description": {
+            "en": "Thank you, thank you, bye-bye, bye-bye.",
+            "ja": "感謝します、感謝します、バイバイ、バイバイ。",
+            "zh": "感恩感恩掰掰掰掰"
+          },
+          "path": "news-202405/gan-en-bye-bye.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
         }
       ]
     },
@@ -177,6 +207,26 @@
           },
           "path": "yoda-girlfriend/jia-sai-la.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "bie-hu-sow",
+          "description": {
+            "en": "Don't talk nonsense.",
+            "ja": "くだらないことを言うな。",
+            "zh": "別胡說"
+          },
+          "path": "news-202405/bie-hu-sow.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "name": "wei-shen-mo",
+          "description": {
+            "en": "Why?",
+            "ja": "どうして？",
+            "zh": "為什麼"
+          },
+          "path": "news-202405/wei-shen-mo.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
           "name": "tse-sa-shio-la",
@@ -279,16 +329,6 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
-          "name": "me-wo-shi-nu-v",
-          "description": {
-            "en": "I’m not one of those girl V’s, you know.",
-            "ja": "私は女Vじゃないよ。",
-            "zh": "沒有我是女V呀"
-          },
-          "path": "yoda-girlfriend/me-wo-shi-nu-v.mp3",
-          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
           "name": "yiao-gan-ma-la",
           "description": {
             "en": "What is this all about?",
@@ -349,16 +389,6 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
-          "name": "wo-men-jia-shen-ji-bin",
-          "description": {
-            "en": "Damn it, everyone in my family is crazy.",
-            "ja": "くそ、うちの家族はみんな頭がおかしい。",
-            "zh": "媽的我們家的人都是神經病啊"
-          },
-          "path": "yoda-girlfriend/wo-men-jia-shen-ji-bin.mp3",
-          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
           "name": "se-yao-mai-chi-zu",
           "description": {
             "en": "Who would want to buy my embarrassing expression?",
@@ -389,6 +419,16 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "name": "wo-der-liao-tian-shi",
+          "description": {
+            "en": "Is this chat room really my chat room?",
+            "ja": "このチャットルームは本当に私のチャットルーム？",
+            "zh": "這個聊天室真的是我的聊天室嗎"
+          },
+          "path": "news-202405/wo-der-liao-tian-shi.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
           "name": "ze-shi-na-mou-dou-la",
           "description": {
             "en": "Wait, what is this? Why is there so much?",
@@ -409,6 +449,16 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "name": "wu-hue-gua-ren",
+          "description": {
+            "en": "What? Mistaken for a weirdo? I'm not a weirdo!",
+            "ja": "何？変人と間違われるって？私は変人じゃない！",
+            "zh": "什麼被誤會成怪人我才不是怪人呢"
+          },
+          "path": "news-202405/wu-hue-gua-ren.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
           "name": "ni-bu-yao-a-yi",
           "description": {
             "en": "What, you don't want aunties? F**k you!",
@@ -426,16 +476,6 @@
             "zh": "現在想怎樣？現在是想打架是不是哈？"
           },
           "path": "yoda-girlfriend/hsian-tza-hsian-da-jia.mp3",
-          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
-          "name": "relive-she-ka-hsian",
-          "description": {
-            "en": "ReLive was supposed to be an idol but became a niche character.",
-            "ja": "ReLiveはアイドルになるはずだったのに、斜めキャラになっちゃった。",
-            "zh": "啊ReLive明明要做偶像卻成為了斜咖箱"
-          },
-          "path": "yoda-girlfriend/relive-she-ka-hsian.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
@@ -477,6 +517,66 @@
           },
           "path": "two-loli-blame/ma-der-luo-li-kon.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        }
+      ]
+    },
+    {
+      "group_name": "scream",
+      "group_description": {
+        "en": "Scream",
+        "ja": "尖叫",
+        "zh": "尖叫"
+      },
+      "voice_list": [
+        {
+          "name": "wo-bu-yao-x",
+          "description": {
+            "en": "I don’t want to!",
+            "ja": "いやだ～",
+            "zh": "我不要～"
+          },
+          "path": "news-202405/wo-bu-yao-x.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "name": "tsan-jiao-1",
+          "description": {
+            "en": "Scream sound-1",
+            "ja": "叫び声-1",
+            "zh": "慘叫聲-1"
+          },
+          "path": "news-202405/tsan-jiao-1.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "name": "wo-der-tofa",
+          "description": {
+            "en": "Ah~ my hair~",
+            "ja": "ああ～私の髪～",
+            "zh": "啊～我的頭髮～"
+          },
+          "path": "news-202405/wo-der-tofa.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "name": "300-jian-jiao",
+          "description": {
+            "en": "3D funding goal reached scream",
+            "ja": "3D資金達成の叫び声",
+            "zh": "3D募資達標尖叫聲"
+          },
+          "path": "news-202405/300-jian-jiao.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "name": "bibi-to-fa-bu-jian",
+          "description": {
+            "en": "Bibi, help! My hair is disappearing!",
+            "ja": "ビビ、助けて！髪がなくなりそう！",
+            "zh": "比比救救我的頭髮它快不見了"
+          },
+          "path": "news-202405/bibi-to-fa-bu-jian.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
         }
       ]
     },
@@ -1709,6 +1809,16 @@
       },
       "voice_list": [
         {
+          "name": "se-shi-ji-a",
+          "description": {
+            "en": "Who’s the chicken?",
+            "ja": "誰がチキンだ？",
+            "zh": "誰是雞阿"
+          },
+          "path": "news-202405/se-shi-ji-a.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
           "name": "se-shi-g-tue-a",
           "description": {
             "en": "Who's chicken leg?",
@@ -1717,6 +1827,16 @@
           },
           "path": "two-loli-blame/se-shi-g-tue-a.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "name": "na-ger-g",
+          "description": {
+            "en": "Who is that chicken?",
+            "ja": "誰がそのチキン？",
+            "zh": "誰是那個雞啦"
+          },
+          "path": "news-202405/na-ger-g.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
           "name": "bu-yao-g-zuo",
@@ -1771,11 +1891,11 @@
       ]
     },
     {
-      "group_name": "tribe",
+      "group_name": "relive",
       "group_description": {
-        "en": "Tribe",
-        "ja": "部族",
-        "zh": "部落"
+        "en": "Relive",
+        "ja": "李賴虎",
+        "zh": "李賴虎"
       },
       "voice_list": [
         {
@@ -1787,6 +1907,46 @@
           },
           "path": "yoda-girlfriend/wei-ler-bu-lou.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "relive-no-idol",
+          "description": {
+            "en": "ReLive isn’t about idols, okay?",
+            "ja": "ReLiveはアイドルじゃないよ、いい？",
+            "zh": "ReLive沒有偶像好不好"
+          },
+          "path": "news-202405/relive-no-idol.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "name": "wo-men-jia-shen-ji-bin",
+          "description": {
+            "en": "Damn it, everyone in my family is crazy.",
+            "ja": "くそ、うちの家族はみんな頭がおかしい。",
+            "zh": "媽的我們家的人都是神經病啊"
+          },
+          "path": "yoda-girlfriend/wo-men-jia-shen-ji-bin.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "relive-she-ka-hsian",
+          "description": {
+            "en": "ReLive was supposed to be an idol but became a niche character.",
+            "ja": "ReLiveはアイドルになるはずだったのに、斜めキャラになっちゃった。",
+            "zh": "啊ReLive明明要做偶像卻成為了斜咖箱"
+          },
+          "path": "yoda-girlfriend/relive-she-ka-hsian.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "noe-bu-shi-idol",
+          "description": {
+            "en": "Have you checked the fact-check center? It must say that No Sakura is not an idol!",
+            "ja": "ファクトチェックセンターで調べた？絶対に「諾櫻はアイドルではない」と書いてあるはず！",
+            "zh": "有沒有去事實查核中心去看哪！它上面一定會寫說諾櫻不是偶像啦！"
+          },
+          "path": "news-202405/noe-bu-shi-idol.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
           "name": "relive-bu-lo-shi",
@@ -1827,6 +1987,66 @@
           },
           "path": "dp-toys/wu-shang-kuai-le.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        }
+      ]
+    },
+    {
+      "group_name": "female-vtuber",
+      "group_description": {
+        "en": "Female Vtuber",
+        "ja": "女V",
+        "zh": "女V"
+      },
+      "voice_list": [
+        {
+          "name": "se-qing-nv-v",
+          "description": {
+            "en": "I am the erotic girl V.",
+            "ja": "私はエロティックな女Vです。",
+            "zh": "我是色情女V"
+          },
+          "path": "dp-toys/se-qing-nv-v.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "name": "me-wo-shi-nu-v",
+          "description": {
+            "en": "I’m not one of those girl V’s, you know.",
+            "ja": "私は女Vじゃないよ。",
+            "zh": "沒有我是女V呀"
+          },
+          "path": "yoda-girlfriend/me-wo-shi-nu-v.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "chen-wei-chi-zi-nu-v",
+          "description": {
+            "en": "I want to be a classy girl Vtuber.",
+            "ja": "私は気品ある女Vになりたいんだ。",
+            "zh": "我是想要成為氣質女V啦"
+          },
+          "path": "news-202405/chen-wei-chi-zi-nu-v.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "name": "ni-men-yo-nu-v",
+          "description": {
+            "en": "Have you ever thought of me as a girl Vtuber?",
+            "ja": "私が女Vだと思ったことある？",
+            "zh": "你們有想過我是女V嗎！"
+          },
+          "path": "news-202405/ni-men-yo-nu-v.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "name": "nu-v-guan-to",
+          "description": {
+            "en": "I'm a girl Vtuber! How can I be bald!",
+            "ja": "私は女Vだよ！どうしてハゲるの！？",
+            "zh": "我是女V欸怎麼可以光頭啦！"
+          },
+          "path": "news-202405/nu-v-guan-to.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
         }
       ]
     },
@@ -2279,6 +2499,16 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "name": "wa-sai",
+          "description": {
+            "en": "Wow!",
+            "ja": "わあ！",
+            "zh": "哇塞"
+          },
+          "path": "news-202405/wa-sai.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
           "name": "oh-my-god",
           "description": {
             "en": "Oh my god!",
@@ -2329,14 +2559,14 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
-          "name": "se-qing-nv-v",
+          "name": "me-yo-tso-la",
           "description": {
-            "en": "I am the erotic girl V.",
-            "ja": "私はエロティックな女Vです。",
-            "zh": "我是色情女V"
+            "en": "That's right~",
+            "ja": "そうです～",
+            "zh": "沒有錯啦～"
           },
-          "path": "dp-toys/se-qing-nv-v.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+          "path": "news-202405/me-yo-tso-la.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
           "name": "ai-yo-wei-wa",
@@ -2387,6 +2617,16 @@
           },
           "path": "yoda-girlfriend/fa-tsai-ler.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "name": "jia-yo-jia-yo",
+          "description": {
+            "en": "Go, go, go, go!",
+            "ja": "がんばれ、がんばれ、がんばれ、がんばれ！",
+            "zh": "加油加油加油加油"
+          },
+          "path": "news-202405/jia-yo-jia-yo.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
           "name": "wo-bu-yao-dan-gu-er",
@@ -2527,6 +2767,16 @@
           },
           "path": "mihoyo-set/jiao-se-hsin-pi.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "name": "man-hua-pei-in",
+          "description": {
+            "en": "Wait! Why did their faces look so awful as soon as the stream started? And why does my tag say \"Comic Relief\"! What does this mean? What does it mean!?",
+            "ja": "待って！配信が始まったとたん、なんであの二人の顔がとても微妙な顔になったの？それに、どうして私のタグが「ツッコミ役」って書いてあるの？どういう意味なの！？",
+            "zh": "等一下！為什麼直播一開始他們兩個的臉就變得超級不妙的！還有為什麼就是我的牌子上面寫著吐槽役！這是什麼意思！是什麼意思！"
+          },
+          "path": "news-202405/man-hua-pei-in.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
         }
       ]
     }
