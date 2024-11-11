@@ -145,7 +145,6 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 <script>
 import voice_lists from '~/assets/voices.json';
 import VoiceBtn from '../components/VoiceBtn';
-//import SkeletonLoading from '../components/SkeletonLoading';
 import {
   mdiClockOutline,
   mdiClose,
@@ -160,7 +159,6 @@ import {
 export default {
   components: {
     VoiceBtn
-    //SkeletonLoading
   },
   data() {
     return {
@@ -178,16 +176,30 @@ export default {
       random: false,
       repeat: false,
       fab: false,
-      groups: voice_lists.groups,
       now_playing: new Set(),
       upcoming_lives: [],
       lives: [],
       lives_loading: true,
       is_dialog_open: false,
-      dialog_item: { description: {}, url: '' }
+      dialog_item: { description: {}, url: '' },
+      voiceMap: new Map(Object.values(voice_lists.groups.flatMap(i => i.voice_list.map(v => [v.id.slice(0, 13), v]))))
     };
   },
   computed: {
+    groups() {
+      return [
+        {
+          id: 'favorite',
+          name: 'favorite',
+          group_description: {
+            zh: '我的最愛',
+            en: 'Favorite',
+            ja: 'お気に入り'
+          },
+          voice_list: this.$store.getters['getFavorite'].map(id => this.voiceMap.get(id)).filter(v => !!v)
+        }
+      ];
+    },
     voice_host() {
       return '/voices/';
       //可以选择生产环境用CDN以减少宽带使用量/缓解速度瓶颈，例如白嫖JsDeliver
@@ -387,7 +399,7 @@ export default {
   },
   head() {
     return {
-      title: this.$t('site.title')
+      title: this.$t('site.favorite') + ' - ' + this.$t('site.title')
     };
   }
 };

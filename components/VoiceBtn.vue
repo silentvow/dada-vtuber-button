@@ -36,12 +36,20 @@
             </v-btn>
           </template>
           <v-list dense>
-            <v-list-item @click="onAddToFavorites">
+            <v-list-item v-if="in_favorite" @click="onUnlike">
               <v-list-item-icon class="mr-2">
-                <v-icon>{{ icons.heart }}</v-icon>
+                <v-icon>{{ icons.heartMinus }}</v-icon>
               </v-list-item-icon>
               <v-list-item-content>
-                <v-list-item-title>Add to Favorite</v-list-item-title>
+                <v-list-item-title>Unlike</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+            <v-list-item v-else @click="onLike">
+              <v-list-item-icon class="mr-2">
+                <v-icon>{{ icons.heartPlus }}</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
+                <v-list-item-title>Like</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
             <v-list-item @click="onYoutube">
@@ -80,7 +88,7 @@
   </v-hover>
 </template>
 <script>
-import { mdiHeartPlus, mdiMenu, mdiYoutube } from '@mdi/js';
+import { mdiHeartMinus, mdiHeartPlus, mdiMenu, mdiYoutube } from '@mdi/js';
 import twemoji from 'twemoji';
 
 export default {
@@ -111,7 +119,8 @@ export default {
     return {
       icons: {
         menu: mdiMenu,
-        heart: mdiHeartPlus,
+        heartMinus: mdiHeartMinus,
+        heartPlus: mdiHeartPlus,
         youtube: mdiYoutube
       },
       twe_para: {
@@ -127,6 +136,9 @@ export default {
     };
   },
   computed: {
+    in_favorite() {
+      return this.$store.getters['getFavorite'].some(prefix => this.voiceId.startsWith(prefix));
+    },
     v_btn_classes() {
       return {
         'grey--text text--lighten-2 vo-btn-bg-dark': this.link ? false : this.$vuetify.theme.dark,
@@ -149,8 +161,11 @@ export default {
     onYoutube() {
       this.$emit('on-youtube');
     },
-    onAddToFavorites() {
-      this.$emit('on-add-to-favorites');
+    onLike() {
+      this.$store.commit('ADD_VOICE_FAVORITE', this.voiceId.slice(0, 13));
+    },
+    onUnlike() {
+      this.$store.commit('REMOVE_VOICE_FAVORITE', this.voiceId.slice(0, 13));
     }
   }
 };
