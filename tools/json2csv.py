@@ -14,7 +14,7 @@ def convert_json_to_csv(input_json):
 
     for group in input_json["groups"]:
         # Generate UUID for group
-        group_id = str(uuid.uuid4())
+        group_id = group["id"] or str(uuid.uuid4())
         group_id_map[group["group_name"]] = group_id
 
         # Add group to groups.csv data
@@ -32,7 +32,7 @@ def convert_json_to_csv(input_json):
         for voice in group["voice_list"]:
             voices_data.append(
                 {
-                    "id": str(uuid.uuid4()),
+                    "id": voice["id"] or str(uuid.uuid4()),
                     "group_id": group_id,  # Reference to parent group
                     "group_name": group["group_name"],
                     "name": voice["name"],

@@ -34,6 +34,7 @@ def convert_csv_to_json(groups_file, voices_file):
     # Process each group
     for group in groups:
         group_data = {
+            "id": group["id"],
             "group_name": group["group_name"],
             "group_description": {
                 "en": group["description_en"],
@@ -47,6 +48,7 @@ def convert_csv_to_json(groups_file, voices_file):
         if group["id"] in voices_by_group:
             for voice in voices_by_group[group["id"]]:
                 voice_data = {
+                    "id": voice["id"],
                     "name": voice["name"],
                     "description": {
                         "en": voice["description_en"],

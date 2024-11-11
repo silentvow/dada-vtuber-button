@@ -1,6 +1,7 @@
 {
   "groups": [
     {
+      "id": "77aeebd6-b79f-4cef-aa0d-ba3ae0225a97",
       "group_name": "catchphrase",
       "group_description": {
         "en": "Catchphrase",
@@ -9,6 +10,7 @@
       },
       "voice_list": [
         {
+          "id": "8531cc31-4b2b-4936-8f14-43c54bfd222a",
           "name": "tian-lao-ye-a",
           "description": {
             "en": "Oh, dear Lord.",
@@ -19,6 +21,7 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "9533fafb-cb1b-44e6-9cf7-e93620150568",
           "name": "how-bad",
           "description": {
             "en": "How bad could it be?",
@@ -29,6 +32,7 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "6c479f3e-abce-48b6-9252-8606b6801cf4",
           "name": "zhen-na-ni-mei-ban-fa",
           "description": {
             "en": "Alright, I really can't do anything about you guys.",
@@ -39,6 +43,7 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "9c74cfae-8366-4358-a422-e15a73cc1940",
           "name": "hao-ba-may-ban-fa",
           "description": {
             "en": "Alright, I really can't do anything about you.",
@@ -51,6 +56,7 @@
       ]
     },
     {
+      "id": "fc7a13a3-49bb-4e3e-9c3d-eb990ac72ce9",
       "group_name": "laugh",
       "group_description": {
         "en": "Laugh",
@@ -59,6 +65,7 @@
       },
       "voice_list": [
         {
+          "id": "a9af9a18-ad1e-4025-a169-41af54af0430",
           "name": "ha-ha-ha-1",
           "description": {
             "en": "hahaha-1",
@@ -69,6 +76,7 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "a159d779-f80b-4be9-91b9-540ece9a2f11",
           "name": "ha-ha-ha-2",
           "description": {
             "en": "hahaha-2",
@@ -79,6 +87,7 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "e910026b-e273-407a-b6d1-50acfa2b3e8c",
           "name": "ha-ha-ha-3",
           "description": {
             "en": "hahaha-3",
@@ -89,6 +98,7 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "b915e76f-0c9b-4427-9802-2741c1dd2201",
           "name": "ha-ha-ha-4",
           "description": {
             "en": "Hahaha -4",
@@ -99,6 +109,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "m8nop6q4-r3m5-6q0o-1p7n-5q9r0p2o3n4m",
           "name": "ha-ha-ha-5",
           "description": {
             "en": "Hahaha-5",
@@ -109,6 +120,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "6e5924e2-0912-4c56-a1f8-8b987437b598",
           "name": "ha-ha-ha-6",
           "description": {
             "en": "Big laugh sound-6",
@@ -119,6 +131,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "4d9ac706-f713-4314-9798-fbd1b2b9d8b0",
           "name": "ha-ha-ha-7",
           "description": {
             "en": "Big laugh sound-7",
@@ -131,6 +144,7 @@
       ]
     },
     {
+      "id": "2c3d4e5f-6g7h-8i9j-0k1l-2m3n4o5p6q7r",
       "group_name": "greetings",
       "group_description": {
         "en": "Greetings",
@@ -139,6 +153,7 @@
       },
       "voice_list": [
         {
+          "id": "81de6bc0-26a3-432b-83a3-9e345aade0e7",
           "name": "da-jia-hao",
           "description": {
             "en": "Hello everyone.",
@@ -149,6 +164,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8914-abcdef123469",
           "name": "zhai-jen-bye-bye",
           "description": {
             "en": "Goodbye bye bye",
@@ -159,6 +175,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "025a28dc-4c9d-4bac-b870-53d7e97782bb",
           "name": "bye-bye",
           "description": {
             "en": "Bye-bye",
@@ -169,6 +186,7 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "1dd460fd-bec2-42f8-9ddd-792fd73e9f14",
           "name": "she-she-da-jia",
           "description": {
             "en": "Thank you everyone, thank you, thank you.",
@@ -179,6 +197,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "59beabdb-d610-47bf-907d-da417fa1fe96",
           "name": "gan-en-bye-bye",
           "description": {
             "en": "Thank you, thank you, bye-bye, bye-bye.",
@@ -191,6 +210,7 @@
       ]
     },
     {
+      "id": "c5615961-1b79-4154-bf00-360507037daf",
       "group_name": "retort",
       "group_description": {
         "en": "Retort",
@@ -199,6 +219,7 @@
       },
       "voice_list": [
         {
+          "id": "205bc69f-fe94-4cf7-ab28-3cc48df2a13f",
           "name": "jia-sai-la",
           "description": {
             "en": "Stop it.",
@@ -209,6 +230,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "1c0e811c-a623-497d-b3ad-dfe4f0e93e6b",
           "name": "bie-hu-sow",
           "description": {
             "en": "Don't talk nonsense.",
@@ -219,6 +241,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "e0c91d71-ae59-43d5-91c2-9fdc8b5f0f22",
           "name": "wei-shen-mo",
           "description": {
             "en": "Why?",
@@ -229,6 +252,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8904-abcdef123459",
           "name": "tse-sa-shio-la",
           "description": {
             "en": "What is this",
@@ -239,6 +263,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "5eab07bb-a566-4dd8-9f29-c253ead36723",
           "name": "bi-tsue-bi-tsue",
           "description": {
             "en": "Shut up, shut up.",
@@ -249,6 +274,7 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "15247b78-f275-4fe7-930b-951cdfa4165e",
           "name": "fuck",
           "description": {
             "en": "Fuck.",
@@ -259,6 +285,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "5858b8d8-7224-4322-8014-7da2a4350406",
           "name": "wtf",
           "description": {
             "en": "What the heck?",
@@ -269,6 +296,7 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "7bee3398-dc11-401b-ae85-a06e75f116fa",
           "name": "s-zai-kuku-o",
           "description": {
             "en": "Why are you crying?",
@@ -279,6 +307,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "8ce22374-094d-4085-9225-4739968f2900",
           "name": "bu-yao-za-zao-yiao",
           "description": {
             "en": "Stop spreading rumors!",
@@ -289,6 +318,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "b1480ecd-4ac3-40db-9ebb-e50fbed5f98f",
           "name": "ni-men-yao-cho-hao-duo",
           "description": {
             "en": "You guys ask for so much.",
@@ -299,6 +329,7 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "ecd8163c-f327-4c02-a4af-801d13a6f99b",
           "name": "wo-chen-bu-gan-shan-shin",
           "description": {
             "en": "I really can’t believe it.",
@@ -309,6 +340,7 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "38501d46-ce46-4e87-a716-7a5e526d61f9",
           "name": "san-shiao",
           "description": {
             "en": "What the heck is this?",
@@ -319,6 +351,7 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8911-abcdef123466",
           "name": "yo-nu-peng-yo-gwun",
           "description": {
             "en": "If you have a girlfriend then get lost",
@@ -329,6 +362,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "1fed82ee-ebd7-45ab-b018-17990117369a",
           "name": "yiao-gan-ma-la",
           "description": {
             "en": "What is this all about?",
@@ -339,6 +373,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "ff124e40-e8fb-4361-b211-2cc1a587f6d9",
           "name": "cow-bay-no-gg",
           "description": {
             "en": "Damn it, I don’t have a GG!",
@@ -349,6 +384,7 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "6408faf2-2343-4f00-8c77-d71f9f324ed0",
           "name": "ni-men-zhe-she-shua-min",
           "description": {
             "en": "What’s wrong with you haters?",
@@ -359,6 +395,7 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "89175929-ba99-4e6f-b7bb-f6d12471c688",
           "name": "sau-ro-sol",
           "description": {
             "en": "Stop nagging, you guys!",
@@ -369,6 +406,7 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "63266065-59e9-4a73-91ba-236b0ae111da",
           "name": "ni-ze-ger-nu-ren",
           "description": {
             "en": "What are you saying, you woman",
@@ -379,6 +417,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "5bb97c29-6e27-488a-9307-5da574f8a338",
           "name": "wo-yao-chon-fon",
           "description": {
             "en": "I’m going to have a stroke; what is this?",
@@ -389,6 +428,7 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "5508a243-5de5-4744-a020-0633541f2486",
           "name": "se-yao-mai-chi-zu",
           "description": {
             "en": "Who would want to buy my embarrassing expression?",
@@ -399,6 +439,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "84994df8-f5fa-4875-b30c-a3881f7f67c6",
           "name": "te-dao-wan-jia",
           "description": {
             "en": "Rail players are suspiciously rich",
@@ -409,6 +450,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "fe3aa3ed-1714-44d2-9f63-c1b4c703cefe",
           "name": "chian-po-ru-ken",
           "description": {
             "en": "What is this? This is basically forcing me into the pit.",
@@ -419,6 +461,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "181e4af4-2cc1-453e-836c-3db949d52fd8",
           "name": "wo-der-liao-tian-shi",
           "description": {
             "en": "Is this chat room really my chat room?",
@@ -429,6 +472,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "41d63dc0-5cd8-4a9b-99ae-a8d0e0606d81",
           "name": "ze-shi-na-mou-dou-la",
           "description": {
             "en": "Wait, what is this? Why is there so much?",
@@ -439,6 +483,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "cfaf4f1e-68ae-451a-8057-2775e2b4a5a3",
           "name": "se-ji-du-a",
           "description": {
             "en": "Who's jealous? I'm not jealous at all, okay?",
@@ -449,6 +494,7 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "886807db-08eb-496e-aebd-6418d8a3d6dd",
           "name": "wu-hue-gua-ren",
           "description": {
             "en": "What? Mistaken for a weirdo? I'm not a weirdo!",
@@ -459,6 +505,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "w8xyz6a4-b3w5-6a0y-1z7x-5a9b0z2y3x4w",
           "name": "ni-bu-yao-a-yi",
           "description": {
             "en": "What, you don't want aunties? F**k you!",
@@ -469,6 +516,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "e83efb3c-8d33-4e50-b53e-562da7ca4292",
           "name": "hsian-tza-hsian-da-jia",
           "description": {
             "en": "What now? Are you trying to start a fight?",
@@ -479,6 +527,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "0492153e-4972-4474-b44b-5e6c718d7df8",
           "name": "ss-wan-ke-shi-dan",
           "description": {
             "en": "I just started playing and you're telling me to spend on four units? Am I moving in here? Should I just buy a house?",
@@ -491,6 +540,7 @@
       ]
     },
     {
+      "id": "9d8c7b6a-5f4e-3d2c-1b0a-9e8d7f6c5b4a",
       "group_name": "abuse",
       "group_description": {
         "en": "Abuse",
@@ -499,6 +549,7 @@
       },
       "voice_list": [
         {
+          "id": "k6lmn4o2-p1k3-4o8m-9n5l-3o7p8n0m1l2k",
           "name": "gan-ni-nya-la",
           "description": {
             "en": "F**k your mother!",
@@ -509,6 +560,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "u6vwx4y2-z1u3-4y8w-9x5v-3y7z8x0w1v2u",
           "name": "ma-der-luo-li-kon",
           "description": {
             "en": "F**king lolicon, hahahahaha",
@@ -521,6 +573,7 @@
       ]
     },
     {
+      "id": "91c48be9-944b-42b3-b871-28b2f19ca67f",
       "group_name": "scream",
       "group_description": {
         "en": "Scream",
@@ -529,6 +582,7 @@
       },
       "voice_list": [
         {
+          "id": "430c5e70-b716-4a23-8b14-8b48b2e31bf3",
           "name": "wo-bu-yao-x",
           "description": {
             "en": "I don’t want to!",
@@ -539,6 +593,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "647dcdbd-494b-4b98-b163-2c70791fcda9",
           "name": "tsan-jiao-1",
           "description": {
             "en": "Scream sound-1",
@@ -549,6 +604,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "4ba3a3d4-cbe1-49cc-9862-8ac630261343",
           "name": "wo-der-tofa",
           "description": {
             "en": "Ah~ my hair~",
@@ -559,6 +615,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "1406c8a3-87d6-401c-a269-07b625835844",
           "name": "300-jian-jiao",
           "description": {
             "en": "3D funding goal reached scream",
@@ -569,6 +626,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "e3e041cb-26a3-4138-915c-981a5b48b404",
           "name": "bibi-to-fa-bu-jian",
           "description": {
             "en": "Bibi, help! My hair is disappearing!",
@@ -581,6 +639,7 @@
       ]
     },
     {
+      "id": "777a95d1-c96d-46a5-ab7b-dc9c86030cea",
       "group_name": "weird-cry",
       "group_description": {
         "en": "Weird cry",
@@ -589,6 +648,7 @@
       },
       "voice_list": [
         {
+          "id": "bc4ff100-772f-4fb0-a5d0-682f33629e7e",
           "name": "du-jiao-shou-jiao",
           "description": {
             "en": "Unicorn sound 1",
@@ -599,6 +659,7 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "8bab5eec-4e0c-4a4c-a76d-57c4da502864",
           "name": "du-jiao-shou-jiao-2",
           "description": {
             "en": "Unicorn sound 2",
@@ -611,6 +672,7 @@
       ]
     },
     {
+      "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
       "group_name": "yoda_greetings",
       "group_description": {
         "en": "Yoda: Greetings",
@@ -619,6 +681,7 @@
       },
       "voice_list": [
         {
+          "id": "02922a57-beb5-4547-b62f-55c8ea6a9f71",
           "name": "yoda-hello-1",
           "description": {
             "en": "Hello~",
@@ -629,6 +692,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "65053734-9da7-4db5-b163-a96d74918009",
           "name": "yoda-wan-shan-hao-2",
           "description": {
             "en": "Good evening.",
@@ -639,6 +703,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8908-abcdef123463",
           "name": "yoda-a-li-ga-do",
           "description": {
             "en": "Arigato",
@@ -649,6 +714,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8909-abcdef123464",
           "name": "yoda-wan-shan-hao",
           "description": {
             "en": "Good evening",
@@ -659,6 +725,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "e8cdd7c6-3408-402f-a4c4-49a58f80067c",
           "name": "pa-g-pa-g-pa-g",
           "description": {
             "en": "Paji-paji-paji-paji",
@@ -671,6 +738,7 @@
       ]
     },
     {
+      "id": "6b933718-6821-4301-b82e-3a5d2f5bcee2",
       "group_name": "yoda_cute",
       "group_description": {
         "en": "Yoda: Cute",
@@ -679,6 +747,7 @@
       },
       "voice_list": [
         {
+          "id": "6eda4c31-0102-4b98-8cb8-71e2a55a155b",
           "name": "mi-pa",
           "description": {
             "en": "Mipa~",
@@ -689,6 +758,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "c0dcd888-61a9-4140-acb0-37aac8b3d971",
           "name": "weee",
           "description": {
             "en": "Weee~~~",
@@ -699,6 +769,7 @@
           "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
         },
         {
+          "id": "46a83f7f-9877-4cfc-9620-886d1abc4304",
           "name": "ker-ai-gay-chen",
           "description": {
             "en": "I'm so cute; please give me money.",
@@ -709,6 +780,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "ea94c665-b303-4820-a072-93da0057d3e2",
           "name": "da-ger-gre-tsu-lai-wan",
           "description": {
             "en": "Big brother, I’m really happy we went out today.",
@@ -719,6 +791,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "4b35b4e9-207b-4e48-946a-95cf42dcfce8",
           "name": "fei-gao-gao",
           "description": {
             "en": "Oh nii-chan~ can I fly high?",
@@ -729,6 +802,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "b24bb357-a182-47f0-a7db-d6f408335abe",
           "name": "dian-zan-din-ue-fu-hsian",
           "description": {
             "en": "If you like the video, just like, subscribe, and share! Buy a chicken leg bento and get a free chicken wing, along with a cute smile from Youta!",
@@ -741,6 +815,7 @@
       ]
     },
     {
+      "id": "7b6a5d4c-3f2e-1d0c-9b8a-7f6e5d4c3b2a",
       "group_name": "yoda_agree",
       "group_description": {
         "en": "Yoda: Agree",
@@ -749,6 +824,7 @@
       },
       "voice_list": [
         {
+          "id": "2014a9de-af13-4841-b5d4-eb6ac5ade45e",
           "name": "marry-me-ok",
           "description": {
             "en": "Marry me, OK?",
@@ -761,6 +837,7 @@
       ]
     },
     {
+      "id": "8b530892-1922-4b1f-8cc1-c389568588bb",
       "group_name": "yoda_retort",
       "group_description": {
         "en": "Yoda: Retort",
@@ -769,6 +846,7 @@
       },
       "voice_list": [
         {
+          "id": "47d3ca02-a45f-4f5d-96f8-f99cbc181cf9",
           "name": "bu-yao",
           "description": {
             "en": "No!",
@@ -779,6 +857,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8907-abcdef123462",
           "name": "ya-mei-zho",
           "description": {
             "en": "Yamero!",
@@ -789,6 +868,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "839acb9a-330b-4ece-a148-b26e344d1e90",
           "name": "bu-yao-bu-yao",
           "description": {
             "en": "Nooo~ nooo~",
@@ -799,6 +879,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "204d9325-d987-4618-9b21-f46039f2d308",
           "name": "tse-der-bu-hsin-la",
           "description": {
             "en": "This really won’t work!",
@@ -809,6 +890,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "aa8ce6ca-de8a-4ff8-a48b-9485781f29d6",
           "name": "zen-fu-tai-v-chan",
           "description": {
             "en": "What is this? Ugh~",
@@ -819,6 +901,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "36f25d29-3986-4126-9e81-29548133b2db",
           "name": "fa-tsai-ler",
           "description": {
             "en": "This is a criminal act, big brother.",
@@ -829,6 +912,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "f1751026-5c8a-4b61-9f54-079a05b5b792",
           "name": "wei-shen-mo-hue-ze-ya",
           "description": {
             "en": "Why did this happen? Waaa~",
@@ -839,6 +923,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "35203c0b-51c7-44f0-a059-deee98648cda",
           "name": "bu-ne-ze-yan",
           "description": {
             "en": "You can't do this, can't do this, can't do this!",
@@ -849,6 +934,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "2ee120ab-6ab6-443b-b54c-49122895cfdd",
           "name": "z-nen-tza-wo",
           "description": {
             "en": "Let's go conquer this Taiwanese Vtuber circle, everyone!",
@@ -859,6 +945,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "df1d27e9-3ced-4fb0-9baa-dabc06744e08",
           "name": "wu-yao-ker-jo",
           "description": {
             "en": "Everyone here is hopeless. What a bunch of perverted big brothers and sisters.",
@@ -871,6 +958,7 @@
       ]
     },
     {
+      "id": "c3ca629c-0c90-4650-ac8d-51f2ad4d05aa",
       "group_name": "yoda_cure",
       "group_description": {
         "en": "Yoda: Cure",
@@ -879,6 +967,7 @@
       },
       "voice_list": [
         {
+          "id": "644420e2-c0e7-48ab-88d1-490541037b0b",
           "name": "lao-gon-ai-ni-o",
           "description": {
             "en": "I love you, hubby.",
@@ -889,6 +978,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "8a77a732-147a-4c28-869a-b097ad7c8c9b",
           "name": "hua-yi-hue-jia",
           "description": {
             "en": "Baby, welcome home~",
@@ -899,6 +989,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "813c274e-699f-451b-873e-fee1078e84d7",
           "name": "sue-jiao-ou-ya",
           "description": {
             "en": "It’s late; go to sleep. You’ve been staying up late these days, and it’s not good for your health. So, get some sleep, okay?",
@@ -911,6 +1002,7 @@
       ]
     },
     {
+      "id": "8f7d6e5c-4b3a-2f1d-9e8c-7b6a5d4c3f2e",
       "group_name": "yoda_abuse",
       "group_description": {
         "en": "Yoda: Abuse",
@@ -919,6 +1011,7 @@
       },
       "voice_list": [
         {
+          "id": "13e42777-9576-47fb-bbd9-667256bf57e2",
           "name": "to-ko-tsue",
           "description": {
             "en": "Spitting sound",
@@ -929,6 +1022,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "g2hij0k8-l7g9-0k4i-5j1h-9k3l4j6i7h8g",
           "name": "din-gon-san-lian",
           "description": {
             "en": "Kugimiya triple combo",
@@ -939,6 +1033,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "ffac7ddc-d8ea-48d7-9cec-b8db6424a34c",
           "name": "din-gon-san-lian-2",
           "description": {
             "en": "Three consecutive dinggongs.",
@@ -949,6 +1044,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "f1ghi9j7-k6f8-9j3h-4i0g-8j2k3i5h6g7f",
           "name": "chu-chon-bian-ta-ser-tsu",
           "description": {
             "en": "Maggot, pervert, corporate slave",
@@ -959,6 +1055,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "c76869d8-4f71-4767-9c57-4f80d1022de9",
           "name": "do-s-ler-ser",
           "description": {
             "en": "Everyone here is trash.",
@@ -969,6 +1066,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "91f2ff21-2857-405a-b7d7-8b70728a0119",
           "name": "ker-yi-lolicon",
           "description": {
             "en": "Isn't this suspicious, being a lolicon?",
@@ -979,6 +1077,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "i4jkl2m0-n9i1-2m6k-7l3j-1m5n6l8k9j0i",
           "name": "er-shin-chi-cho-di-tsen",
           "description": {
             "en": "Disgusting maggot, bottom feeder",
@@ -989,6 +1088,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "h3ijk1l9-m8h0-1l5j-6k2i-0l4m5k7j8i9h",
           "name": "diu-ren-shen-yen",
           "description": {
             "en": "Stop embarrassing yourself here, trash",
@@ -999,6 +1099,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "c8def6g4-h3c5-6g0e-1f7d-5g9h0f2e3d4c",
           "name": "bu-hua-chen-yang-wo",
           "description": {
             "en": "Why don't you spend money to support me?",
@@ -1009,6 +1110,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "q2rst0u8-v7q9-0u4s-5t1r-9u3v4t6s7r8q",
           "name": "ke-i-ge-wo-je-hun",
           "description": {
             "en": "Will you marry me? No, go away",
@@ -1019,6 +1121,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8902-abcdef123457",
           "name": "tsa-ni-hao-you-a",
           "description": {
             "en": "Wake up who wants to step on you being so greasy",
@@ -1029,6 +1132,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "o0pqr8s6-t5o7-8s2q-3r9p-7s1t2r4q5p6o",
           "name": "hao-hao-jian-tao",
           "description": {
             "en": "You need to reflect properly, who's your wife?",
@@ -1039,6 +1143,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "707d7e22-beab-4dce-8f17-9e6809d952c5",
           "name": "da-ger-gre-hao-er-hsi",
           "description": {
             "en": "So gross, so gross, big brother, you’re so gross.",
@@ -1049,6 +1154,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "bb84c5a9-0cd5-4e68-a094-b3d72862b50d",
           "name": "bu-jin-tze-lolicon",
           "description": {
             "en": "You're such an irresponsible corporate slave and lolicon big brother.",
@@ -1059,6 +1165,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8905-abcdef123460",
           "name": "wang-hsian-how-er-hsin",
           "description": {
             "en": "Is this what you're fantasizing about? How disgusting",
@@ -1069,6 +1176,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "p1qrs9t7-u6p8-9t3r-4s0q-8t2u3s5r6q7p",
           "name": "jiao-hsin-se-tsu",
           "description": {
             "en": "Today too... today too I barely survived as a corporate slave",
@@ -1079,6 +1187,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "d9efg7h5-i4d6-7h1f-2g8e-6h0i1g3f4e5d",
           "name": "chen-ren-bian-tai",
           "description": {
             "en": "62% now admit they are lolicon perverts",
@@ -1089,6 +1198,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "a6bcf4d2-f1a3-4e8c-9d5b-3e7f8d9c0b1a",
           "name": "bian-tai-kan-loli",
           "description": {
             "en": "You perverts only want to look at lolis, it's so gross",
@@ -1099,6 +1209,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "7c821c04-cb40-4ab1-8eb0-4c98c4c414fe",
           "name": "tza-nan-hsin-hua",
           "description": {
             "en": "You cheater! Are you seeing someone new outside?",
@@ -1109,6 +1220,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "y0zab8c6-d5y7-8c2a-3b9z-7c1d2b4a5z6y",
           "name": "se-chu-bian-tai-da-ger",
           "description": {
             "en": "You're a corporate slave right? A corporate slave big brother pervert who's super stressed",
@@ -1119,6 +1231,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8913-abcdef123468",
           "name": "ze-tian-lao-po-lai-chu",
           "description": {
             "en": "Why are you always going on about wife this wife that",
@@ -1129,6 +1242,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "x9yza7b5-c4x6-7b1z-2a8y-6b0c1a3z4y5x",
           "name": "ni-jo-se-cho-jia",
           "description": {
             "en": "I'm telling you you're gay and you are gay, stop denying it okay?",
@@ -1139,6 +1253,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "n9opq7r5-s4n6-7r1p-2q8o-6r0s1q3p4o5n",
           "name": "hao-er-hsian-bei-tsa",
           "description": {
             "en": "How gross, you actually want to be stepped on? Disgusting, pervert, social outcast",
@@ -1149,6 +1264,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "j5klm3n1-o0j2-3n7l-8m4k-2n6o7m9l0k1j",
           "name": "fei-wu-mei-yon-du-tsen",
           "description": {
             "en": "You're trash, useless person, society's scum, bottom feeder, maggot, pig",
@@ -1159,6 +1275,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8903-abcdef123458",
           "name": "tsen-tian-g-tue-g-tue",
           "description": {
             "en": "You corporate slave always going on about chicken legs how annoying",
@@ -1169,6 +1286,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "v7wxy5z3-a2v4-5z9x-0y6w-4z8a9y1x2w3v",
           "name": "me-nu-peng-yo-cho-jia",
           "description": {
             "en": "If you're always complaining about not having a girlfriend, have you considered that maybe you're just gay?",
@@ -1179,6 +1297,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8901-abcdef123456",
           "name": "shu-shu-sao-jia-hua",
           "description": {
             "en": "Those like uncle are society's failures so mom told me to talk less with uncle",
@@ -1189,6 +1308,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "b7cde5f3-g2b4-5f9d-0e6c-4f8g9e1d2c3b",
           "name": "bu-hsian-zhi-bo",
           "description": {
             "en": "Hmph, this guy again, can you leave? I don't want to see you anymore, when I see you I don't want to stream anymore",
@@ -1199,6 +1319,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "e0fgh8i6-j5e7-8i2g-3h9f-7i1j2h4g5f6e",
           "name": "che-shen-yo-ni-ni",
           "description": {
             "en": "Don't come near me, I'm a clean freak! You're all greasy and gross. So disgusting! I need to take a bath, big brother is gross",
@@ -1209,6 +1330,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "4480d6d9-6a27-494e-b042-3e5542318043",
           "name": "dan-sen-yi-bei-tze",
           "description": {
             "en": "You’re such a gross lolicon. Without me as your girlfriend, you’d be single for life.",
@@ -1219,6 +1341,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8910-abcdef123465",
           "name": "yo-nu-me-yo-hsian-kang",
           "description": {
             "en": "You perverts really like young girls I can't believe it hmph I don't want you looking at me hmph",
@@ -1229,6 +1352,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "r3stu1v9-w8r0-1v5t-6u2s-0v4w5u7t8s9r",
           "name": "liao-ten-s-zua-zhou",
           "description": {
             "en": "Why are there still so many people in the chat? You guys need to stop pretending to be gentlemen. If you're a lolicon, just get arrested by the police already",
@@ -1239,6 +1363,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "935715ef-ca0b-4b73-89e2-b7f175c6862e",
           "name": "lan-gon-zhuo",
           "description": {
             "en": "You lousy corporate slave, doing such a crappy job! You work twelve hours every day, only six or seven days off per month, and only make 40K a month!",
@@ -1251,6 +1376,7 @@
       ]
     },
     {
+      "id": "9ed3795c-55e8-4b1e-9738-33733c940bee",
       "group_name": "yoda_yandere",
       "group_description": {
         "en": "Yoda: Yandare",
@@ -1259,6 +1385,7 @@
       },
       "voice_list": [
         {
+          "id": "01bc63e3-f84c-4180-b28f-71ef5b3d86a3",
           "name": "yoda-bin-jiao-shiao",
           "description": {
             "en": "Yandere laugh",
@@ -1269,6 +1396,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "8787ffb3-ba55-4ea2-96b7-c89991967ce4",
           "name": "zhe-shen-ho-yo",
           "description": {
             "en": "You can only be by my side~ Hehehe~ Yihihi~ Hehehehe~ Heheheha~ Hehehehe~",
@@ -1281,6 +1409,7 @@
       ]
     },
     {
+      "id": "4b8edf88-72e3-4546-855d-d4634558a96a",
       "group_name": "yoda_others",
       "group_description": {
         "en": "Yoda: Others",
@@ -1289,6 +1418,7 @@
       },
       "voice_list": [
         {
+          "id": "a4ecba1a-9103-4e19-b480-2e6b963aa607",
           "name": "yoda-tian-lao-ya-a",
           "description": {
             "en": "Oh my goodness!",
@@ -1299,6 +1429,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "ee0d312a-f676-4f1b-9e4e-900b1856589e",
           "name": "yoda-arrrr",
           "description": {
             "en": "Aaaaaaaaah!",
@@ -1309,6 +1440,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8912-abcdef123467",
           "name": "yu-zan-jiao-hsin-wo",
           "description": {
             "en": "Why did you suddenly wake me up",
@@ -1319,6 +1451,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "l7mno5p3-q2l4-5p9n-0o6m-4p8q9o1n2m3l",
           "name": "gin-chen-der-li-lian",
           "description": {
             "en": "Is this the power of money?",
@@ -1329,6 +1462,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "5e08a276-0deb-49e9-90bd-5a5c1908cc4e",
           "name": "g-tue-bian-dan",
           "description": {
             "en": "Delicious chicken leg bento is here!",
@@ -1339,6 +1473,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "588c5a3d-7d9f-485f-bb1c-cf4a8c902386",
           "name": "lau-guo-bow-bow",
           "description": {
             "en": "Hubby, number one in the world (song)",
@@ -1349,6 +1484,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "43f4303d-13ce-454f-8572-26e21ff88f00",
           "name": "kua-chi-chan-ler",
           "description": {
             "en": "Wake up! You're going to be late for work! Get up!",
@@ -1359,6 +1495,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "e9f8b1a2-1234-4567-8906-abcdef123461",
           "name": "ya-li-do-hen-zho",
           "description": {
             "en": "To be honest sometimes I feel everyone is under a lot of pressure",
@@ -1369,6 +1506,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "e0a6e3f7-c38f-4ee3-aecb-a8c18aad7892",
           "name": "si-zao-tsai-ni",
           "description": {
             "en": "Would you like a bath first? Or should I step on you? Or maybe a chicken leg?",
@@ -1379,6 +1517,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "71ca0547-eda7-4ea8-a3ca-07558b37757a",
           "name": "chi-lai-san-dian",
           "description": {
             "en": "Get up! It’s only 3 a.m. now, and the competition is fierce! Why are you still sleeping?",
@@ -1389,6 +1528,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "98eec18a-f42e-4ecb-8def-8552270aca7d",
           "name": "bu-zan-kan-sho-g",
           "description": {
             "en": "Why won’t you let me look at your phone? Are you seeing another woman?",
@@ -1401,6 +1541,7 @@
       ]
     },
     {
+      "id": "3b68d990-0c70-42f3-ad80-6f2ae26c58fb",
       "group_name": "realda_greetings",
       "group_description": {
         "en": "Real Da: Greetings",
@@ -1409,6 +1550,7 @@
       },
       "voice_list": [
         {
+          "id": "d7df6dec-712d-4615-bfeb-d2592d0736ef",
           "name": "wan-shan-hao",
           "description": {
             "en": "Good evening and goodnight.",
@@ -1419,6 +1561,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "760046ed-2816-4c96-a8dc-806b60c50f4f",
           "name": "kwa-dian-sue-jiao",
           "description": {
             "en": "Goodnight, go to sleep soon.",
@@ -1429,6 +1572,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "ab5536b0-c08d-4598-9736-3759c2b32a0b",
           "name": "oyasumi",
           "description": {
             "en": "Bye-bye, goodnight, oyasumi.",
@@ -1439,6 +1583,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "705ecda9-15ca-4c0c-bbca-40849ed887d9",
           "name": "hello",
           "description": {
             "en": "Hello, everyone, good evening, Mifumi-san.",
@@ -1451,6 +1596,7 @@
       ]
     },
     {
+      "id": "e125f408-740f-422e-a54b-f3a451ae3ff4",
       "group_name": "realda_chat",
       "group_description": {
         "en": "Real Da: Chat",
@@ -1459,6 +1605,7 @@
       },
       "voice_list": [
         {
+          "id": "77a32187-64c7-4751-82de-894866233f91",
           "name": "bao-zon-she-ti",
           "description": {
             "en": "Take care of yourself",
@@ -1469,6 +1616,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "b88fa0d7-7ef6-49dd-88df-9a8b9f36b4a2",
           "name": "chen-shi-tsu-chai",
           "description": {
             "en": "Jenda really exists.",
@@ -1479,6 +1627,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "4abacb2a-ab1e-4d50-8e0a-2366f8563966",
           "name": "yo-gi-hue",
           "description": {
             "en": "If we get the chance, we’ll definitely meet someday.",
@@ -1489,6 +1638,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "93d3daae-283a-4079-bb7c-f3d3690b486b",
           "name": "tao-yen-no-o",
           "description": {
             "en": "Really, if you keep staying up, I’ll start to dislike you!",
@@ -1499,6 +1649,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "b9d5430b-cb8c-42b4-adb9-22be092225ed",
           "name": "tse-da-tse-shi",
           "description": {
             "en": "Is Jenda real? If you believe, then I think it must be real.",
@@ -1511,6 +1662,7 @@
       ]
     },
     {
+      "id": "e126b102-e339-49dc-9886-ace87a237cb6",
       "group_name": "realda_agree",
       "group_description": {
         "en": "Real Da: Agree",
@@ -1519,6 +1671,7 @@
       },
       "voice_list": [
         {
+          "id": "2d5a1a9f-7013-4400-9ed4-5a0466218fc5",
           "name": "tsue-ban-der",
           "description": {
             "en": "You’re the best.",
@@ -1529,6 +1682,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "de6a8db8-6f3f-4c50-adf7-2a8ecfcb2ad3",
           "name": "hao-ban",
           "description": {
             "en": "You're amazing!",
@@ -1539,6 +1693,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "e7cf7a87-ef0d-435a-b08e-d3d0d9d76d42",
           "name": "ni-ner-tsue-bang",
           "description": {
             "en": "You’re the best!",
@@ -1549,6 +1704,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "8365c3c9-9b2f-47e0-83fa-5074c1cd9164",
           "name": "mang-mang-lai",
           "description": {
             "en": "Take it slow, it’s okay.",
@@ -1559,6 +1715,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "63bd61de-f6a3-4959-b2eb-e9f4b4eaf740",
           "name": "gin-ten-hen-bang",
           "description": {
             "en": "You did great today, too!",
@@ -1569,6 +1726,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "c092b180-17f7-4d18-b18e-ed6e9919f3ff",
           "name": "tsue-te-bie",
           "description": {
             "en": "You are the most special and amazing person.",
@@ -1579,6 +1737,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "f0f3e748-b50f-4617-8988-1403b80a3d02",
           "name": "naruto",
           "description": {
             "en": "No problem, you can definitely become the Hokage!",
@@ -1589,6 +1748,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "f9e202d8-05df-409f-98e3-a391adc5fce0",
           "name": "fo-din-ni",
           "description": {
             "en": "Even if everyone else denies you, I’ll always support you.",
@@ -1599,6 +1759,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "fe4d4cfa-399b-450a-b8f6-a253d9b8ec47",
           "name": "shan-shin-tze-zhi",
           "description": {
             "en": "Believe in yourself, no matter what happens, it’ll be fine.",
@@ -1609,6 +1770,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "3a6e0dba-4e62-4a04-bb93-964261704f4e",
           "name": "mian-chiang",
           "description": {
             "en": "Sometimes, don’t push yourself too hard to accomplish something.",
@@ -1619,6 +1781,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "d3083102-4305-4363-9dd5-f14402d6783e",
           "name": "shi-che-shan",
           "description": {
             "en": "I’ll absolutely be one of the people in this world who thinks you’re the best.",
@@ -1629,6 +1792,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "195aed66-76a1-4bc9-82c2-5548f90ff725",
           "name": "da-zan-chen-jiao",
           "description": {
             "en": "Go all out for the things you love and want to do!",
@@ -1641,6 +1805,7 @@
       ]
     },
     {
+      "id": "52863f7f-a008-4777-aa83-463fcf74a113",
       "group_name": "realda_retort",
       "group_description": {
         "en": "Real Da: Retort",
@@ -1649,6 +1814,7 @@
       },
       "voice_list": [
         {
+          "id": "b0307641-aaa1-401d-9d0a-7f3f956c656a",
           "name": "bu-shin-la",
           "description": {
             "en": "No way!",
@@ -1659,6 +1825,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "eff75a35-4b2f-49ff-8872-def845decaf6",
           "name": "gan-shen-mo",
           "description": {
             "en": "What are you going to do?",
@@ -1669,6 +1836,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "7d537de5-550e-4673-9cb4-7f3bfd5d4686",
           "name": "shao-shin-i-dian",
           "description": {
             "en": "Be careful.",
@@ -1679,6 +1847,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "618e875d-f7cc-47e8-a77c-1369a012210f",
           "name": "she-shi-ni-lao-po",
           "description": {
             "en": "Who’s your wife?",
@@ -1689,6 +1858,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "6e5e8f8b-73b9-4d95-8377-88ebfa1da67e",
           "name": "huan-hsiang",
           "description": {
             "en": "Stop fantasizing and wake up!",
@@ -1699,6 +1869,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "a040433a-cbc3-4f1a-b618-3cb3395d0485",
           "name": "dro-nong-wo",
           "description": {
             "en": "Are you teasing me?",
@@ -1709,6 +1880,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "7fa0a90f-7c1d-434a-800b-fc42690e3d99",
           "name": "sue-sue-bian-bian",
           "description": {
             "en": "You can’t just call every VTuber you see your “wife.”",
@@ -1721,6 +1893,7 @@
       ]
     },
     {
+      "id": "af1756fd-0941-4300-9602-2931d5c7a114",
       "group_name": "realda_benefits",
       "group_description": {
         "en": "Real Da: Benefits",
@@ -1729,6 +1902,7 @@
       },
       "voice_list": [
         {
+          "id": "66670b1d-b73f-4427-96c9-dfd003e61def",
           "name": "miao-miao",
           "description": {
             "en": "Meow meow",
@@ -1739,6 +1913,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "2ecc1fde-8b5d-4d53-9d94-6ece668b1b48",
           "name": "rainy-love",
           "description": {
             "en": "Rain Love Lyrics Remix - 1",
@@ -1749,6 +1924,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "fe4f1ff4-ffd7-46ea-93fc-e2f99e9d529d",
           "name": "rainy-love-2",
           "description": {
             "en": "Rain Love Lyrics Remix - 2",
@@ -1759,6 +1935,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "04f3a75c-4376-4a3b-803c-06d3472097b4",
           "name": "rainy-love-3",
           "description": {
             "en": "Rain Love Lyrics Remix - 3",
@@ -1769,6 +1946,7 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "1bf41ca7-0501-463d-9f46-d565705b8125",
           "name": "lao-gon-bao-bao",
           "description": {
             "en": "Honey, hold me, I want a princess carry.",
@@ -1781,6 +1959,7 @@
       ]
     },
     {
+      "id": "47b69f5c-1a63-4ae4-8242-bdbc889aca81",
       "group_name": "brother-da",
       "group_description": {
         "en": "Brother Da",
@@ -1789,6 +1968,7 @@
       },
       "voice_list": [
         {
+          "id": "9c937c30-69f9-485f-9ddf-171c08bfb184",
           "name": "pi-gu-xi-hao",
           "description": {
             "en": "Remember to wash your own butt well.",
@@ -1801,6 +1981,7 @@
       ]
     },
     {
+      "id": "b5e9e777-1dfb-4067-93b7-3625ebd2274b",
       "group_name": "drumstick",
       "group_description": {
         "en": "Drumstick",
@@ -1809,6 +1990,7 @@
       },
       "voice_list": [
         {
+          "id": "13ca0cbd-a0f1-4ff9-a9f0-a2df86dcb48c",
           "name": "se-shi-ji-a",
           "description": {
             "en": "Who’s the chicken?",
@@ -1819,6 +2001,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "z1abc9d7-e6z8-9d3b-4c0a-8d2e3c5b6a7z",
           "name": "se-shi-g-tue-a",
           "description": {
             "en": "Who's chicken leg?",
@@ -1829,6 +2012,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "2bf1ecc9-067d-455c-a18b-229a37548e02",
           "name": "na-ger-g",
           "description": {
             "en": "Who is that chicken?",
@@ -1839,6 +2023,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "77d528bf-2681-4fc0-bc51-9fe74c2e64ab",
           "name": "bu-yao-g-zuo",
           "description": {
             "en": "I don't want to be chicken",
@@ -1849,6 +2034,7 @@
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
         },
         {
+          "id": "7d0ede7e-cfd6-4f40-9434-ffbdee28f5b7",
           "name": "ge-wo-g-zuo",
           "description": {
             "en": "Damn, he actually gave me chicken and even ten skewers!",
@@ -1859,6 +2045,7 @@
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
         },
         {
+          "id": "dc5f9328-172e-411b-9077-ce293f97b31e",
           "name": "diao-g-tue-gan",
           "description": {
             "en": "Wow, I dropped a chicken leg, gnnn, why is it a chicken leg? I'm so mad!",
@@ -1871,6 +2058,7 @@
       ]
     },
     {
+      "id": "9efbdf39-645d-45fc-9e57-f83deaf7be57",
       "group_name": "penguin",
       "group_description": {
         "en": "Penguin",
@@ -1879,6 +2067,7 @@
       },
       "voice_list": [
         {
+          "id": "9f35bf27-ccb9-4f26-9761-e870877adc30",
           "name": "wo-shi-chi-er",
           "description": {
             "en": "I’m sorry, I’m sorry, I’m a penguin, a pathetic penguin.",
@@ -1891,6 +2080,7 @@
       ]
     },
     {
+      "id": "a4c6922b-bdf6-4747-9050-4b2c0fe190a6",
       "group_name": "relive",
       "group_description": {
         "en": "Relive",
@@ -1899,6 +2089,7 @@
       },
       "voice_list": [
         {
+          "id": "072826dd-6bc2-42bf-b9fd-2a06eb4fecee",
           "name": "wei-ler-bu-lou",
           "description": {
             "en": "For the tribe!",
@@ -1909,6 +2100,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "18d21bfc-fe83-4664-b7bb-8d4e38dc93d9",
           "name": "relive-no-idol",
           "description": {
             "en": "ReLive isn’t about idols, okay?",
@@ -1919,6 +2111,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "a81c9a82-d0e0-466c-ae01-34b32d434d0b",
           "name": "wo-men-jia-shen-ji-bin",
           "description": {
             "en": "Damn it, everyone in my family is crazy.",
@@ -1929,6 +2122,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "07a23c8b-ad5d-4d28-849d-5c67756844db",
           "name": "relive-she-ka-hsian",
           "description": {
             "en": "ReLive was supposed to be an idol but became a niche character.",
@@ -1939,6 +2133,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "6b40bd87-6d69-451a-ab66-bdb44d4b0ede",
           "name": "noe-bu-shi-idol",
           "description": {
             "en": "Have you checked the fact-check center? It must say that No Sakura is not an idol!",
@@ -1949,6 +2144,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "b12e01a6-49d7-47ca-87c3-e17a8a2ab635",
           "name": "relive-bu-lo-shi",
           "description": {
             "en": "From today onward, individual and corporate interests are no longer trends. The real trend is our ReLive Tribe!",
@@ -1961,6 +2157,7 @@
       ]
     },
     {
+      "id": "d428f3be-0ef4-47a2-a6eb-9914697fdb47",
       "group_name": "unicorn",
       "group_description": {
         "en": "Unicorn",
@@ -1969,6 +2166,7 @@
       },
       "voice_list": [
         {
+          "id": "12d61193-6a23-4f50-87b9-2bdd075de351",
           "name": "fei-ji-bei-sen-lin",
           "description": {
             "en": "I am the unicorn of the dreamlike fleshlight forest.",
@@ -1979,6 +2177,7 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "10c14532-c82b-46a2-95ad-9d17299b2bd0",
           "name": "wu-shang-kuai-le",
           "description": {
             "en": "Let's experience the ultimate joy of the GG unicorn together.",
@@ -1991,6 +2190,7 @@
       ]
     },
     {
+      "id": "67d8dc1c-1eb1-4bf3-84b3-6f08fc93650a",
       "group_name": "female-vtuber",
       "group_description": {
         "en": "Female Vtuber",
@@ -1999,6 +2199,7 @@
       },
       "voice_list": [
         {
+          "id": "dab95629-21a1-468e-88e1-4bab546b144b",
           "name": "se-qing-nv-v",
           "description": {
             "en": "I am the erotic girl V.",
@@ -2009,6 +2210,7 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "c1cc9537-00e0-4d11-90fd-80a5db1422db",
           "name": "me-wo-shi-nu-v",
           "description": {
             "en": "I’m not one of those girl V’s, you know.",
@@ -2019,6 +2221,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "12ea06ae-1f7a-4fc1-8409-29f8eb38cef1",
           "name": "chen-wei-chi-zi-nu-v",
           "description": {
             "en": "I want to be a classy girl Vtuber.",
@@ -2029,6 +2232,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "e74593b8-131b-420b-9496-f4d9357c8202",
           "name": "ni-men-yo-nu-v",
           "description": {
             "en": "Have you ever thought of me as a girl Vtuber?",
@@ -2039,6 +2243,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "7ef2fe0c-203a-4d1c-9554-22ee826f2ed3",
           "name": "nu-v-guan-to",
           "description": {
             "en": "I'm a girl Vtuber! How can I be bald!",
@@ -2051,6 +2256,7 @@
       ]
     },
     {
+      "id": "2e56352f-19e7-490d-b2f2-f0b41e3806d9",
       "group_name": "breast",
       "group_description": {
         "en": "Breast",
@@ -2059,6 +2265,7 @@
       },
       "voice_list": [
         {
+          "id": "eca75e5c-6abd-4171-b461-abffdff8d9de",
           "name": "may-yo-cho-na",
           "description": {
             "en": "I don’t have any issues with big breasts, okay?",
@@ -2069,6 +2276,7 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "8deee1f6-2dff-4ad8-a584-07e9ae9e803a",
           "name": "jiao-zuo-da-nai",
           "description": {
             "en": "My name should be called Big Milk",
@@ -2079,6 +2287,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "ba85c62c-1421-452d-baae-0eedb019c47b",
           "name": "wo-so-wo-shi-da-nai",
           "description": {
             "en": "If I say I'm big-chested, then I am!",
@@ -2089,6 +2298,7 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "746feaff-2410-4fff-8d8e-1852d59eaaea",
           "name": "ho-yo-ma-yo-tso-na",
           "description": {
             "en": "Hey, I told you I don't hate milk!",
@@ -2099,6 +2309,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "bdbc8bc9-d841-4e95-baf1-392dfa2e70d5",
           "name": "da-bo-hao-chen-zo",
           "description": {
             "en": "Everyone, believe in my big-wave parrot, it's so big, so heavy!",
@@ -2111,6 +2322,7 @@
       ]
     },
     {
+      "id": "0b2917cd-bb65-40d8-9599-ed45c174c8b4",
       "group_name": "lolicon",
       "group_description": {
         "en": "Lolicon",
@@ -2119,6 +2331,7 @@
       },
       "voice_list": [
         {
+          "id": "s4tuv2w0-x9s1-2w6u-7v3t-1w5x6v8u9t0s",
           "name": "loli-tsao-bang-der",
           "description": {
             "en": "Lolis are awesome",
@@ -2129,6 +2342,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "ab3a8176-0841-4634-ad70-b24ec4379c49",
           "name": "loli-da-nai",
           "description": {
             "en": "Lolis shouldn’t have big breasts!",
@@ -2139,6 +2353,7 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "t5uvw3x1-y0t2-3x7v-8w4u-2x6y7w9v0u1t",
           "name": "loli-tsao-bang-der-2",
           "description": {
             "en": "Lolis are really awesome",
@@ -2149,6 +2364,7 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "d8c8105f-54c4-4d07-ac00-e032fa434a32",
           "name": "loli-tai",
           "description": {
             "en": "But I only watch loli streams!",
@@ -2159,6 +2375,7 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "996d2d9f-454e-479d-95ba-26f698d9ee37",
           "name": "shi-huan-loli-da-nai",
           "description": {
             "en": "Only someone with a hole in their brain would like loli big breasts.",
@@ -2171,6 +2388,7 @@
       ]
     },
     {
+      "id": "ab43f8ba-0586-4665-a9da-7a072f6b2eea",
       "group_name": "genshin-impact",
       "group_description": {
         "en": "Genshin",
@@ -2179,6 +2397,7 @@
       },
       "voice_list": [
         {
+          "id": "e8f4a0b7-a302-4237-977b-e66f67d7dd9a",
           "name": "yuan-shen-chi-don",
           "description": {
             "en": "Genshin... Impact... Start...",
@@ -2189,6 +2408,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "d3891f0d-ded7-410b-a943-f5e07efb328d",
           "name": "ke-li-wan-jia",
           "description": {
             "en": "I'm not just a Klee player, I also wear Klee's clothes",
@@ -2199,6 +2419,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "5720ae44-aa4a-4740-96f5-5cc99b7211b5",
           "name": "yuan-shen-chi-don-2",
           "description": {
             "en": "Gen... Gen... Genshin... Im... Impact... Start...",
@@ -2209,6 +2430,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "740252af-a3a8-46c7-ab87-851eb91236ac",
           "name": "ke-li-wan-jia-2",
           "description": {
             "en": "Genshin Impact start! I love playing Genshin Impact the most, I'm a Klee player. Look, this is my newly bought Klee's Jumpy Dumpty clothes",
@@ -2221,6 +2443,7 @@
       ]
     },
     {
+      "id": "c1b53d3c-bc74-4c49-b1f9-2371df29717a",
       "group_name": "gacha-live",
       "group_description": {
         "en": "Gacha Live",
@@ -2229,6 +2452,7 @@
       },
       "voice_list": [
         {
+          "id": "6653ee1b-ea46-4f01-abba-1cad4a356f7f",
           "name": "bao-di-ren",
           "description": {
             "en": "I am guaranteed, I am a guaranteed person",
@@ -2239,6 +2463,7 @@
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
         },
         {
+          "id": "63389314-18ed-4b6a-9ee5-cafe04a7504c",
           "name": "fei-zou-hue-yi-wu",
           "description": {
             "en": "I don't want to become an African grey parrot.",
@@ -2249,6 +2474,7 @@
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
         },
         {
+          "id": "dcaaa949-b5ae-44b2-99cc-015dd31af0a8",
           "name": "ta-yi-din-hue-tsu",
           "description": {
             "en": "It will definitely come out! The goods will come! Ah damn!",
@@ -2259,6 +2485,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "9ceb467f-5e2f-4fcc-a090-b93c717c3c68",
           "name": "chen-way-fe-chou",
           "description": {
             "en": "Reject Africa, understand Africa, and finally become Africa",
@@ -2269,6 +2496,7 @@
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
         },
         {
+          "id": "f04590ac-6c68-40cf-94fe-80931f371e32",
           "name": "wu-shih-tsou-wo",
           "description": {
             "en": "50 pulls? What game would I play that needs 50 pulls?",
@@ -2279,6 +2507,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "f8a147ab-8ea9-47e9-aeee-a54da9d2f8cc",
           "name": "tang-zai-di-sha-ku",
           "description": {
             "en": "If I don't get it today, I'm going to lie on the ground and cry",
@@ -2291,6 +2520,7 @@
       ]
     },
     {
+      "id": "d056af76-7d54-49aa-bd87-f000c9baa677",
       "group_name": "first-broadcast",
       "group_description": {
         "en": "First Broadcast",
@@ -2299,6 +2529,7 @@
       },
       "voice_list": [
         {
+          "id": "d1a7e5fa-ecc9-4f81-ba5f-5b6a3f217dff",
           "name": "laugh",
           "description": {
             "en": "LOL",
@@ -2309,6 +2540,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "a6da8d27-4531-45be-8923-d064cf5bcd81",
           "name": "stupid",
           "description": {
             "en": "Idiot",
@@ -2319,6 +2551,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "daffd849-bcad-4d7a-a047-e19bd18c653e",
           "name": "angry",
           "description": {
             "en": "Angry",
@@ -2329,6 +2562,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "69ccdee0-3c22-4602-a19e-2450702d9cb1",
           "name": "big-money",
           "description": {
             "en": "Get rich",
@@ -2339,6 +2573,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "670fdebf-abba-407d-bb30-11c2ff2d415c",
           "name": "mihumisang",
           "description": {
             "en": "mihumisang",
@@ -2349,6 +2584,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "a85efe44-d9ec-4bd0-a49e-8b1d2aee669d",
           "name": "dog",
           "description": {
             "en": "You are like a dog",
@@ -2359,6 +2595,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "764ac4c8-a9f8-4544-89dd-bdcfb4ec9677",
           "name": "idiot",
           "description": {
             "en": "You're such an idiot.",
@@ -2369,6 +2606,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "fede2753-8ef5-4846-a504-95180c94875c",
           "name": "nonsense",
           "description": {
             "en": "You're talking nonsense.",
@@ -2379,6 +2617,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "689facfb-223d-4519-9ae3-a85d8a6286e0",
           "name": "hmph",
           "description": {
             "en": "hmph~~~",
@@ -2389,6 +2628,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "6a2e272e-5ac9-4748-9f74-53dbe5e6cdb8",
           "name": "motomoto",
           "description": {
             "en": "More, more",
@@ -2399,6 +2639,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "a3676f7e-833d-49cf-bdc1-cb5f9ebbe459",
           "name": "grandpa-rice",
           "description": {
             "en": "Grandpa, it's time to eat.",
@@ -2409,6 +2650,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "65ebbcf1-e320-472e-a604-eb334058da81",
           "name": "no-money",
           "description": {
             "en": "You won’t get rich",
@@ -2419,6 +2661,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "b786384a-eb78-4f30-aa40-4dcb69b741ec",
           "name": "you-garbage",
           "description": {
             "en": "You big loser",
@@ -2429,6 +2672,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "461555ac-ba0a-4bfd-93d9-4f720a81dfaf",
           "name": "motomotomoto",
           "description": {
             "en": "More, more, more",
@@ -2439,6 +2683,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "45ccf25b-61a9-4dea-a559-20c4e735250d",
           "name": "no-lotto",
           "description": {
             "en": "You’ll never win the lottery",
@@ -2449,6 +2694,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "892b3c52-e200-4044-8b68-3f2460dd864f",
           "name": "grandpa-melon",
           "description": {
             "en": "Grandpa, do you want to eat some cantaloupe?",
@@ -2459,6 +2705,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "81a89644-e07d-4ec6-a304-cc473545667e",
           "name": "wayli",
           "description": {
             "en": "I like eating Wei Li Zha Jiang Mian (instant noodles), and I prefer it with soup.",
@@ -2469,6 +2716,7 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "3664ae05-ce79-4fe5-b46c-1697bb1a76fb",
           "name": "chicken-hell",
           "description": {
             "en": "If I say I eat chicken, will it be too hellish?",
@@ -2481,6 +2729,7 @@
       ]
     },
     {
+      "id": "9d6b01d2-9f17-4a1e-9697-34a679d686c3",
       "group_name": "miscellaneous",
       "group_description": {
         "en": "Miscellaneous",
@@ -2489,6 +2738,7 @@
       },
       "voice_list": [
         {
+          "id": "0649aff0-0cd0-4847-ace4-e498e22c9e02",
           "name": "sue-la",
           "description": {
             "en": "Awesome!",
@@ -2499,6 +2749,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "5e8c8355-703e-48d0-8d1a-2fbacb479f2a",
           "name": "wa-sai",
           "description": {
             "en": "Wow!",
@@ -2509,6 +2760,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "8b22496e-5336-488d-8780-002965896d57",
           "name": "oh-my-god",
           "description": {
             "en": "Oh my god!",
@@ -2519,6 +2771,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "a8c91967-4116-470c-97f4-0a374ff0bb55",
           "name": "i-think",
           "description": {
             "en": "Let me think.",
@@ -2529,6 +2782,7 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "782f5382-0f48-4bd8-be73-0a62fef42b8b",
           "name": "ke-ke-wu",
           "description": {
             "en": "But... that's awful!",
@@ -2539,6 +2793,7 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "4042cf19-21c8-4c10-b184-d2b09573b0d8",
           "name": "who-shi-ben-dan",
           "description": {
             "en": "I must be an idiot.",
@@ -2549,6 +2804,7 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "4e706d5a-f141-4470-b046-b05f94e9b379",
           "name": "gg-in-in-der",
           "description": {
             "en": "Accumulating good deeds in secret.",
@@ -2559,6 +2815,7 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "8281f74d-46a3-43d1-88f3-8621dcd481ca",
           "name": "me-yo-tso-la",
           "description": {
             "en": "That's right~",
@@ -2569,6 +2826,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "4b988e81-198d-4fc9-96db-2f87e474ba93",
           "name": "ai-yo-wei-wa",
           "description": {
             "en": "Ai yo wei wa",
@@ -2579,6 +2837,7 @@
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
         },
         {
+          "id": "d72596f5-c4ad-43e2-8d77-81d2ba91648a",
           "name": "shan-fang-jia",
           "description": {
             "en": "Ah, I want a vacation too.",
@@ -2589,6 +2848,7 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "500d5bd2-6672-4789-893f-d847b2136ba5",
           "name": "bu-der-liao",
           "description": {
             "en": "Oh no, it's terrible",
@@ -2599,6 +2859,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "4ed4a6fe-1851-45dc-a982-0435dd7c8bef",
           "name": "wo-hui-si-diao",
           "description": {
             "en": "Aiya aiya, I'm going to die!",
@@ -2609,6 +2870,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "a0b2ee7f-164a-4f52-a832-075147ee069d",
           "name": "fan-tsue-tsin-wei",
           "description": {
             "en": "Jackpot! Jackpot!",
@@ -2619,6 +2881,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "dce08d9e-87e8-4170-a384-63554254626c",
           "name": "jia-yo-jia-yo",
           "description": {
             "en": "Go, go, go, go!",
@@ -2629,6 +2892,7 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "471326ba-7ae9-4575-81c5-edee64b43f06",
           "name": "wo-bu-yao-dan-gu-er",
           "description": {
             "en": "I don't want to be an orphan",
@@ -2639,6 +2903,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "544c4192-3e35-4055-bbe7-5e210f74eff1",
           "name": "yao-so-shi-lin-na",
           "description": {
             "en": "Aiyo aiyo, what a troublesome kid",
@@ -2649,6 +2914,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "5fdcd9d4-8c8e-4b48-9a42-050ddbb32a0d",
           "name": "letsgo",
           "description": {
             "en": "Let's go!",
@@ -2659,6 +2925,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "146cc758-97a0-4684-88fd-e7c446c64d3a",
           "name": "den-x9",
           "description": {
             "en": "Deng deng deng deng deng deng deng deng",
@@ -2669,6 +2936,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "20023579-d07c-4bdf-9198-b6bec45631eb",
           "name": "shan-meng-nu",
           "description": {
             "en": "Am I becoming more and more like a fujoshi?",
@@ -2679,6 +2947,7 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "e5bea414-a5aa-471e-a8a8-22ae26c1e95b",
           "name": "kao-yi-qiang",
           "description": {
             "en": "There's nothing that a good shot can't solve.",
@@ -2689,6 +2958,7 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "5a64f0fa-d512-415d-88da-b68f887a7798",
           "name": "jiao-se-hen-hao-kan",
           "description": {
             "en": "Wow, this character is so cute!",
@@ -2699,6 +2969,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "2bbeee40-85f9-445e-a770-af0c72453160",
           "name": "fan-zha-pien-he-zuo",
           "description": {
             "en": "I think I should cooperate with the anti-fraud hotline.",
@@ -2709,6 +2980,7 @@
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
         },
         {
+          "id": "1ed10f49-e6b2-45f0-843c-a36dea22c766",
           "name": "hon-se-peng-yo-yu-chi",
           "description": {
             "en": "Can my red friend lend me some luck?",
@@ -2719,6 +2991,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "8709ae49-997f-40f4-acf9-f946af4a0110",
           "name": "you-shi-ba-tze",
           "description": {
             "en": "My fortune doesn't seem to align well with this game",
@@ -2729,6 +3002,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "ff051c71-11d9-4699-90b4-62636e159c27",
           "name": "chen-wan-bu-yao-du-bo",
           "description": {
             "en": "Everyone, remember, never, never, never, never gamble",
@@ -2739,6 +3013,7 @@
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
         },
         {
+          "id": "bb558a4e-552e-4a5f-afb0-133fec65119a",
           "name": "hon-se-peng-yo-wa-ken",
           "description": {
             "en": "Why on earth is my red friend digging a hole for me to jump into?",
@@ -2749,6 +3024,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "66bae28e-b41f-4f84-9bc4-70f74376ef0a",
           "name": "ta-ma-ta-ma-ta-ma",
           "description": {
             "en": "Tama-tama-tama-tama-tama-tama-tama.",
@@ -2759,6 +3035,7 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "427505f6-aac6-4d8e-a86b-5ce1555849e7",
           "name": "jiao-se-hsin-pi",
           "description": {
             "en": "I really love this character, they perfectly match my preferences, I love them so much",
@@ -2769,6 +3046,7 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "e7bcc42f-f301-4e03-949e-a40a79da6ad9",
           "name": "man-hua-pei-in",
           "description": {
             "en": "Wait! Why did their faces look so awful as soon as the stream started? And why does my tag say \"Comic Relief\"! What does this mean? What does it mean!?",

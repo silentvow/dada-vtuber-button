@@ -1,6 +1,7 @@
 {
   "groups": [
     {
+      "id": "7605e123-26ea-4c9b-9633-2e2ad9de740f",
       "group_name": "dc_voice",
       "group_description": {
         "en": "Discord Voices",
@@ -9,6 +10,7 @@
       },
       "voice_list": [
         {
+          "id": "abaf05b5-d536-40a2-b480-efc2a85df107",
           "name": "c48e2b0b",
           "description": {
             "en": "Eh heh",
@@ -19,6 +21,7 @@
           "url": ""
         },
         {
+          "id": "e9f4defc-eb6d-4e9c-8222-2cf1de6693a9",
           "name": "45e4d064",
           "description": {
             "en": "Stop it",
@@ -29,6 +32,7 @@
           "url": ""
         },
         {
+          "id": "4390d59c-dbf2-46e7-b437-04deb6be025f",
           "name": "f3fcf972",
           "description": {
             "en": "Curry rice",
@@ -39,6 +43,7 @@
           "url": ""
         },
         {
+          "id": "616adeea-26e2-403d-aec0-c431547af197",
           "name": "e5e0d568",
           "description": {
             "en": "Disgusting sound",
@@ -49,6 +54,7 @@
           "url": ""
         },
         {
+          "id": "8d4ff299-fdc8-4d69-ae10-858733817399",
           "name": "dc76cd41",
           "description": {
             "en": "Drowning sound",
@@ -60,6 +66,7 @@
           "TBD": true
         },
         {
+          "id": "d15fab18-a23e-403b-9025-f656a8f50d7f",
           "name": "a80b31e7",
           "description": {
             "en": "Bye",
@@ -70,6 +77,7 @@
           "url": ""
         },
         {
+          "id": "b82b212d-9a15-499e-a320-cab4fde4330b",
           "name": "a0ac0ed3",
           "description": {
             "en": "Witch's laughter",
@@ -80,6 +88,7 @@
           "url": ""
         },
         {
+          "id": "4a7cc8e9-8793-464e-a876-e6b1a9bf0970",
           "name": "0c4cc230",
           "description": {
             "en": "I don't want to",
@@ -90,6 +99,7 @@
           "url": ""
         },
         {
+          "id": "a37ee3fe-c6db-416d-949f-003f8f337bf5",
           "name": "15198df1",
           "description": {
             "en": "Chubby Deedee singing",
@@ -100,6 +110,7 @@
           "url": ""
         },
         {
+          "id": "bce16592-ebe9-4251-ad6e-665164eee1e9",
           "name": "52c6cc27",
           "description": {
             "en": "WTF",
@@ -110,6 +121,7 @@
           "url": ""
         },
         {
+          "id": "a2289ab1-ed14-4ff1-a13f-9ac654056bc2",
           "name": "cbbee91d",
           "description": {
             "en": "Goodbye everyone",
@@ -120,6 +132,7 @@
           "url": ""
         },
         {
+          "id": "1333df48-c983-4ff1-816c-782a1cd32322",
           "name": "0c88fcd5",
           "description": {
             "en": "I want to sleep now",
@@ -130,6 +143,7 @@
           "url": ""
         },
         {
+          "id": "9fe16b5c-02d5-4033-97ce-d5b5fbe775ab",
           "name": "4ae335e8",
           "description": {
             "en": "Well, you know",
@@ -140,6 +154,7 @@
           "url": ""
         },
         {
+          "id": "3e2a3901-f5bf-47f2-875c-d80c0e02ea4c",
           "name": "721a4888",
           "description": {
             "en": "Don't Wah+ howl",
@@ -150,6 +165,7 @@
           "url": ""
         },
         {
+          "id": "42375225-416e-491f-804c-f18c33b7e857",
           "name": "4c4086e4",
           "description": {
             "en": "Go to hell with your dan dan noodles",
@@ -160,6 +176,7 @@
           "url": ""
         },
         {
+          "id": "9a637194-182c-4b37-8ed0-6e08a1280580",
           "name": "500ac43f",
           "description": {
             "en": "I really want to eat meat~",
@@ -171,6 +188,7 @@
           "TBD": true
         },
         {
+          "id": "f95d7546-bc0a-4416-ad54-f6240c29ff01",
           "name": "40dce747",
           "description": {
             "en": "I'm sleeping now, wah",
@@ -181,6 +199,7 @@
           "url": ""
         },
         {
+          "id": "d193fdf1-7d45-4089-9d6f-88433d700da1",
           "name": "410306a7",
           "description": {
             "en": "Wow, mother of disaster~",
@@ -191,6 +210,7 @@
           "url": ""
         },
         {
+          "id": "053d0c52-70ea-4798-9032-31cffe47d040",
           "name": "25083b41",
           "description": {
             "en": "Date me (song)",
@@ -201,6 +221,7 @@
           "url": ""
         },
         {
+          "id": "ebdfde7e-ced0-42cf-bb1e-32a653ddd676",
           "name": "f5ef9533",
           "description": {
             "en": "Recite you (song)",
@@ -211,6 +232,7 @@
           "url": ""
         },
         {
+          "id": "4001b9b6-31e9-4933-a3e6-e04105801303",
           "name": "16505e6e",
           "description": {
             "en": "Umbrella electricity~ Umbrella electricity~",
@@ -221,6 +243,7 @@
           "url": ""
         },
         {
+          "id": "dad61535-63f2-4b94-9aab-e66dfb8fa878",
           "name": "803852d0",
           "description": {
             "en": "Deceiving gray parrot~",
@@ -231,6 +254,7 @@
           "url": ""
         },
         {
+          "id": "e4bd463e-5b2b-4369-bf21-b387b662c19f",
           "name": "b8f00953",
           "description": {
             "en": "Buy you (song)",
@@ -241,6 +265,7 @@
           "url": ""
         },
         {
+          "id": "485d4459-5f87-42d7-8af7-108c8d3ababf",
           "name": "380a4264",
           "description": {
             "en": "Spider-man spanks (his) butt",
@@ -251,6 +276,7 @@
           "url": ""
         },
         {
+          "id": "2a14c478-cf25-47f5-95c5-935ecb6195a6",
           "name": "ded345ed",
           "description": {
             "en": "Pikachu Pikachu~",
@@ -262,6 +288,7 @@
           "TBD": true
         },
         {
+          "id": "576fe7a4-f491-4704-9416-45caa924b306",
           "name": "525efe3e",
           "description": {
             "en": "No such thing~",
@@ -272,6 +299,7 @@
           "url": ""
         },
         {
+          "id": "093f8ee2-f96d-4ddd-a746-91964bd734a2",
           "name": "8d8f236e",
           "description": {
             "en": "Shawarma, oh Shawarma",
@@ -282,6 +310,7 @@
           "url": ""
         },
         {
+          "id": "7d5938d5-0300-4d20-b685-649f493bebec",
           "name": "bcabe6fa",
           "description": {
             "en": "Wow, you know",
@@ -292,6 +321,7 @@
           "url": ""
         },
         {
+          "id": "51e51799-336f-49d4-8bf1-c06d31bd7eab",
           "name": "2e74499a",
           "description": {
             "en": "What chicken leg, it's a waste of time",
@@ -302,6 +332,7 @@
           "url": ""
         },
         {
+          "id": "82012b07-a532-4579-90e7-6fe20fee3f23",
           "name": "f62c4659",
           "description": {
             "en": "You, you (song)",
@@ -312,6 +343,7 @@
           "url": ""
         },
         {
+          "id": "4191d010-88e5-4b98-bb7f-f6ed714a5174",
           "name": "fa536361",
           "description": {
             "en": "I don't want to~",
@@ -322,6 +354,7 @@
           "url": ""
         },
         {
+          "id": "fde4adc2-e332-4530-bea4-dd97da93a7b3",
           "name": "0b7160de",
           "description": {
             "en": "I don't want it~ Give it back to me~",
@@ -332,6 +365,7 @@
           "url": ""
         },
         {
+          "id": "f87fc852-2ff5-4390-b66c-b91e52fc0971",
           "name": "12573aee",
           "description": {
             "en": "I'm sleeping now, huff~",
@@ -342,6 +376,7 @@
           "url": ""
         },
         {
+          "id": "775873e8-9530-4369-bdbd-9502a894a3a8",
           "name": "9921cccc",
           "description": {
             "en": "I just want to sleep now",
@@ -352,6 +387,7 @@
           "url": ""
         },
         {
+          "id": "5fc0bc89-d3a3-4af7-8ac4-cec00c582f27",
           "name": "030e2b57",
           "description": {
             "en": "A real man (male voice)",
@@ -362,6 +398,7 @@
           "url": ""
         },
         {
+          "id": "165c83e0-7e75-4786-93f4-036f10eb269b",
           "name": "cbec23aa",
           "description": {
             "en": "Good night song (小妲)",
@@ -373,6 +410,7 @@
           "TBD": true
         },
         {
+          "id": "f309d5bb-2c2d-481b-9a1e-d42f0d7c1264",
           "name": "efd47579",
           "description": {
             "en": "What's this? Hmm hmm~",
@@ -383,6 +421,7 @@
           "url": ""
         },
         {
+          "id": "0803ab7a-4fa9-4bcc-887c-d4daadb140b9",
           "name": "f59d0a3a",
           "description": {
             "en": "Baby sleep~ Good baby sleep~",
@@ -394,6 +433,7 @@
           "TBD": true
         },
         {
+          "id": "947345da-33f9-41d0-927a-370ad3abbf09",
           "name": "8e870896",
           "description": {
             "en": "Mushroom soup (song)",
@@ -404,6 +444,7 @@
           "url": ""
         },
         {
+          "id": "caa8be5a-26a3-4656-88a7-8bccf3ea0cd4",
           "name": "a92a3838",
           "description": {
             "en": "Love Circulator (song)",
@@ -414,6 +455,7 @@
           "url": ""
         },
         {
+          "id": "fce5412d-c1c0-42c6-8a65-cdb69ed5173b",
           "name": "73cb740f",
           "description": {
             "en": "APT. (song)",
@@ -424,6 +466,7 @@
           "url": ""
         },
         {
+          "id": "79ffea6d-8933-4bd0-827b-3b60c694be5c",
           "name": "5d608485",
           "description": {
             "en": "Failure!",
@@ -434,6 +477,7 @@
           "url": ""
         },
         {
+          "id": "d22a3e14-884e-416a-aed4-feea770e5ee5",
           "name": "7bee0172",
           "description": {
             "en": "I'm not a penguin baby",
@@ -445,6 +489,7 @@
           "TBD": true
         },
         {
+          "id": "0b4accc8-61de-45f9-bb51-248a76ef11e9",
           "name": "4c541ee7",
           "description": {
             "en": "Please~ Please~",
@@ -456,6 +501,7 @@
           "TBD": true
         },
         {
+          "id": "c83597ab-0053-4c26-8fd9-1a898d44ddf7",
           "name": "ecc175fa",
           "description": {
             "en": "Who's the penguin? Your mom's there",
@@ -466,6 +512,7 @@
           "url": ""
         },
         {
+          "id": "e52456d9-00d1-494b-96f0-296a087cbd17",
           "name": "e9a0cf29",
           "description": {
             "en": "Pfft~ Pfft~ Pfft~",
@@ -477,6 +524,7 @@
           "TBD": true
         },
         {
+          "id": "89f82475-f4b4-4858-a3a2-f50cabb033c6",
           "name": "3e58cc7d",
           "description": {
             "en": "The secret of a mother parrot's weight",
@@ -487,6 +535,7 @@
           "url": ""
         },
         {
+          "id": "504a0deb-ddf9-4b90-b16c-8faa64c5bbac",
           "name": "17348f8d",
           "description": {
             "en": "Requiem (song)",
@@ -497,6 +546,7 @@
           "url": ""
         },
         {
+          "id": "d6b2742f-6844-46c0-a9a5-b66ed8196a4e",
           "name": "89927261",
           "description": {
             "en": "@?^#%@Fuck your mother~",
@@ -508,6 +558,7 @@
           "TBD": true
         },
         {
+          "id": "ab0e30e2-fceb-41b5-90c3-adb4e0f32fd5",
           "name": "8a97f9b4",
           "description": {
             "en": "Seeds, seeds! Seeds, seeds!",
@@ -518,6 +569,7 @@
           "url": ""
         },
         {
+          "id": "18d49baa-3222-42a3-9670-d22679e3cce8",
           "name": "b23232f8",
           "description": {
             "en": "Hehe hehe hehe hehe~ Hehe hehe hehe hehe~",
@@ -528,6 +580,7 @@
           "url": ""
         },
         {
+          "id": "205ad333-08d3-468d-80da-45eacb7f24ab",
           "name": "05384112",
           "description": {
             "en": "PADORU (song)",
@@ -538,6 +591,7 @@
           "url": ""
         },
         {
+          "id": "da02036d-3f04-4b3a-9316-8d04445fbb6a",
           "name": "32ccd4d6",
           "description": {
             "en": "puluuuu, that's right",
@@ -549,6 +603,7 @@
           "TBD": true
         },
         {
+          "id": "e2af8e33-120d-4e40-8019-6cb6c3b48545",
           "name": "775222e7",
           "description": {
             "en": "Damn, what is it all about, public shrimp ruin~",
@@ -559,6 +614,7 @@
           "url": ""
         },
         {
+          "id": "b5ac09c5-6b97-4de4-9cce-7d9bd071c22e",
           "name": "7e626573",
           "description": {
             "en": "A real man (LNG revised version)",
@@ -570,6 +626,7 @@
           "TBD": true
         },
         {
+          "id": "78d1cbd7-dbb5-4e2f-aca7-b6100fe1f803",
           "name": "820e4618",
           "description": {
             "en": "I don't want Walker~ I don't want Walker~",
@@ -580,6 +637,7 @@
           "url": ""
         },
         {
+          "id": "2bf3e39c-1c2d-4800-919b-45fc415f7d11",
           "name": "916bbacc",
           "description": {
             "en": "No, I think I sang really badly~",
@@ -590,6 +648,7 @@
           "url": ""
         },
         {
+          "id": "5ec249ea-f4dd-43bd-b04a-f1a77c8d5bf6",
           "name": "2b7da1fd",
           "description": {
             "en": "Oh no, it doesn't look like anything, I'm sorry",
@@ -601,6 +660,7 @@
           "TBD": true
         },
         {
+          "id": "af69c6bb-03c1-4e70-b814-75e7938b4a23",
           "name": "5b4cc017",
           "description": {
             "en": "Oh, what are you doing~ Thank you for your green area~",
@@ -611,6 +671,7 @@
           "url": ""
         },
         {
+          "id": "388fb489-4432-45f6-bf50-b7e64dbc49c0",
           "name": "d7240500",
           "description": {
             "en": "Don't Spicy Taki anymore",
@@ -622,6 +683,7 @@
           "TBD": true
         },
         {
+          "id": "7e674f98-6940-4dc9-a169-fddc2f7d5e7a",
           "name": "6d88d424",
           "description": {
             "en": "Good night, sleep well Good night good night",
@@ -632,6 +694,7 @@
           "url": ""
         },
         {
+          "id": "489e29f9-3c1a-4d80-8fe2-5a3ceae513b6",
           "name": "f5d7552f",
           "description": {
             "en": "How come he's still streaming in the middle of the night?",
@@ -642,6 +705,7 @@
           "url": ""
         },
         {
+          "id": "3cdb98e6-a346-45a7-a415-00b5b0634332",
           "name": "91a88e29",
           "description": {
             "en": "Then should I also start a stream?",
@@ -652,6 +716,7 @@
           "url": ""
         },
         {
+          "id": "bfe919da-a9ce-496a-b3fe-4600abf883ab",
           "name": "26ea2867",
           "description": {
             "en": "No, it's not like that, it's what Ajun said",
@@ -663,6 +728,7 @@
           "TBD": true
         },
         {
+          "id": "acc11e27-505d-4df9-8c1a-0f22839258b7",
           "name": "8a9bc392",
           "description": {
             "en": "This is a chat room, not a men's club",
@@ -673,6 +739,7 @@
           "url": ""
         },
         {
+          "id": "48a49b1e-abea-415c-9e78-3a45a974a591",
           "name": "a9bb8302",
           "description": {
             "en": "Gurgle gurgle gurgle gurgle gurgle gurgle gurgle gurgle gurgle",
@@ -683,6 +750,7 @@
           "url": ""
         },
         {
+          "id": "ff0de3e4-2abb-48d5-ac5e-4d597e12e98c",
           "name": "49be247f",
           "description": {
             "en": "What kind of sticker is this, I'm going to pull it out now",
@@ -693,6 +761,7 @@
           "url": ""
         },
         {
+          "id": "76f34b91-d662-405c-9fb7-5bb2ad729a21",
           "name": "89bc0b53",
           "description": {
             "en": "But we all know~ he's a waste~ a waste~",
@@ -704,6 +773,7 @@
           "TBD": true
         },
         {
+          "id": "0465b00c-dc4b-4cea-860e-28137a26eaba",
           "name": "855fb9e3",
           "description": {
             "en": "Well, you know, I told you it wouldn't be like this Hsi-Wei-Ni",
@@ -714,6 +784,7 @@
           "url": ""
         },
         {
+          "id": "4b290a83-9ff3-4a7e-8d0c-ddce68af7d92",
           "name": "a6cf3abc",
           "description": {
             "en": "What does this mean, I'm going to cry, wah wah wah",
@@ -725,6 +796,7 @@
           "TBD": true
         },
         {
+          "id": "1c3bec5c-4ce2-4ad8-b4b8-178f4c43a431",
           "name": "336f1a45",
           "description": {
             "en": "I can't live without counting rice, I can't live without it",
@@ -736,6 +808,7 @@
           "TBD": true
         },
         {
+          "id": "4fc45c64-f0bc-4a67-a701-fdd73328def0",
           "name": "03937b06",
           "description": {
             "en": "Good night, go to sleep soon, pat (Savior Little Sister)",
@@ -746,6 +819,7 @@
           "url": ""
         },
         {
+          "id": "2f5bcf5a-325a-4083-b745-615a07b4ec79",
           "name": "d2623033",
           "description": {
             "en": "Fuck, fuck, fuck, fuck, fuck, fuck, fuck",
@@ -756,6 +830,7 @@
           "url": ""
         },
         {
+          "id": "b98210db-3e69-42d6-a937-1f522aeb8800",
           "name": "1caaaa1e",
           "description": {
             "en": "Something that's impossible to succeed in, don't keep challenging it",
@@ -767,6 +842,7 @@
           "TBD": true
         },
         {
+          "id": "3181ee68-a825-4b2f-8145-f4ddc83ea4e0",
           "name": "eb0d35cb",
           "description": {
             "en": "What are you arguing about~ it's not like that~ damn it~ I can't stand it~",
@@ -777,6 +853,7 @@
           "url": ""
         },
         {
+          "id": "1ef16b55-c472-4dc3-9369-095130d72907",
           "name": "94117531",
           "description": {
             "en": "Actually, it's Ajun speaking now, you found out",
@@ -787,6 +864,7 @@
           "url": ""
         },
         {
+          "id": "df21b2bf-d21b-4860-bb32-3f8d698359af",
           "name": "402e0068",
           "description": {
             "en": "1 2 3 4 5 6 7 8 9 10",
@@ -797,6 +875,7 @@
           "url": ""
         },
         {
+          "id": "6e50c74c-fad8-4e81-aa87-ec5952caf8b9",
           "name": "a5ce63f2",
           "description": {
             "en": "Oh, it's fine, I really love myself too, I think I'm quite graceful",
@@ -807,6 +886,7 @@
           "url": ""
         },
         {
+          "id": "2d355953-e7f7-4058-b965-2d8ffcbb2302",
           "name": "7d80473f",
           "description": {
             "en": "What chicken leg! Nobody wants to sing that kind of song! What chicken leg!",
@@ -817,6 +897,7 @@
           "url": ""
         },
         {
+          "id": "10c14532-c82b-46a2-95ad-9d17299b2bd0",
           "name": "01579986",
           "description": {
             "en": "What does that mean? Is the Stellar Railway a kind of galgame?",
@@ -827,6 +908,7 @@
           "url": ""
         },
         {
+          "id": "51a92a40-64a2-4176-abf5-d5178f2f888c",
           "name": "d9cddd81",
           "description": {
             "en": "No, I'm a pure, elegant woman V, how could I imitate this kind of thing?",
@@ -837,6 +919,7 @@
           "url": ""
         },
         {
+          "id": "9e555f6d-20d6-4a27-9063-3f4666dd781b",
           "name": "2425b95c",
           "description": {
             "en": "You're gay~ You're gay~ You're like a real gay every day~",
@@ -847,6 +930,7 @@
           "url": ""
         },
         {
+          "id": "9f0e39de-961f-4e73-8c88-057f5f499d42",
           "name": "71652321",
           "description": {
             "en": "Good night, I won't play with everyone anymore, I'm going to sleep now~ Good night bye bye",
@@ -858,6 +942,7 @@
           "TBD": true
         },
         {
+          "id": "cdd9b702-f386-4773-9701-c240a067cd14",
           "name": "0cc85142",
           "description": {
             "en": "Don't wake up and get high, we haven't debugged yet, we haven't debugged~",
@@ -868,6 +953,7 @@
           "url": ""
         },
         {
+          "id": "299ab933-edb9-4302-8bdf-c4347457ff1a",
           "name": "eebd2e2f",
           "description": {
             "en": "Quick, go to sleep, quick quick sleep~ quick quick sleep~ quick quick sleep~ quick quick sleep~ quick quick sleep~",
@@ -878,6 +964,7 @@
           "url": ""
         },
         {
+          "id": "e159f720-3479-496a-bde8-ef506840b910",
           "name": "42dae4ac",
           "description": {
             "en": "Why haven't you been counting rice lately, I miss your rice counting style, I miss you!",
@@ -888,6 +975,7 @@
           "url": ""
         },
         {
+          "id": "4a632b83-0f3a-4b94-909e-6dbb490f9cbf",
           "name": "eb47c747",
           "description": {
             "en": "Damn it, why do you always come and ask me questions I shouldn't answer?",
@@ -898,6 +986,7 @@
           "url": ""
         },
         {
+          "id": "2de4d8d0-d707-4243-b78f-4168ae364d29",
           "name": "cc7753eb",
           "description": {
             "en": "I don't want to~ I want to go to sleep~ I want to sleep~ sleep~",
@@ -908,6 +997,7 @@
           "url": ""
         },
         {
+          "id": "99670f3a-08b7-461c-96d0-92b63304ac56",
           "name": "763ee63f",
           "description": {
             "en": "How come there's such a nice body and nice butt",
@@ -918,6 +1008,7 @@
           "url": ""
         },
         {
+          "id": "a71471b4-a8d0-403a-b6fc-76f8f8f8ac64",
           "name": "a6eac701",
           "description": {
             "en": "Wow, it's Ajun who caused the rain, not that penguin",
@@ -928,6 +1019,7 @@
           "url": ""
         },
         {
+          "id": "d7437fb2-c4b0-4c8f-bac1-42fa490b8f9e",
           "name": "bed73032",
           "description": {
             "en": "Little cutie, I'll imprison you, you'll never ever ever leave this place~ (Yandere)",
@@ -938,6 +1030,7 @@
           "url": ""
         },
         {
+          "id": "0c097c73-d694-47d8-ae4b-92c09e678e7f",
           "name": "29825a77",
           "description": {
             "en": "Oh? You said there's no sound? Because he's in the ground~ (No.3)",
@@ -948,6 +1041,7 @@
           "url": ""
         },
         {
+          "id": "294a0d79-bd99-4a95-ad9f-efe05cc37349",
           "name": "872b96d6",
           "description": {
             "en": "Ababababa, ababa, aba, aba, aba, aba, aba",
@@ -958,6 +1052,7 @@
           "url": ""
         },
         {
+          "id": "da36f9c3-11ae-4c25-8d24-637646300194",
           "name": "912c801c",
           "description": {
             "en": "1 million 2 million 3 million 4 million 5 million 6 million 7 million 8 million 9 million Wow~",
@@ -968,6 +1063,7 @@
           "url": ""
         },
         {
+          "id": "4f856f82-9387-4209-bac8-efd7e9b8ac71",
           "name": "5efd5772",
           "description": {
             "en": "A cup, B cup, C cup, D cup, E cup, Wow, is this my big boobs? Too big~",
@@ -978,6 +1074,7 @@
           "url": ""
         },
         {
+          "id": "122d9e69-7dd4-4741-9297-9bb526827267",
           "name": "c32badbb",
           "description": {
             "en": "You know, this is when I was helping Amu make his dream paradise marketing, because at that time I was bored and just helped a bit, but I felt a deep sense of guilt during the process, I don't know what you think",
@@ -988,6 +1085,7 @@
           "url": ""
         },
         {
+          "id": "a40591e2-9e9e-4f16-8da9-c4689bde73d1",
           "name": "25a77920",
           "description": {
             "en": "At this time, a fragrance slowly drifts towards me from a distance.... Suddenly, a beautiful young lady with an exceptional aura appears before me. She is wearing a Christmas outfit and holding a huge fried chicken leg. She slowly approaches me. However, with every step she takes, the crispy chicken leg bounces once on the floor. And the chicken juice, full of essence, trails behind her as she walks, forming a galaxy-like scene of golden chicken juice and scattered crispy skin flakes.",
