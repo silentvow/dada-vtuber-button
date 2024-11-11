@@ -1,4 +1,9 @@
 {
+  "action": {
+    "like": "お気に入り",
+    "unlike": "お気に入り解除",
+    "view_stream": "ストリームを見る"
+  },
   "control": {
     "disabled": "無効",
     "enabled": "有効",

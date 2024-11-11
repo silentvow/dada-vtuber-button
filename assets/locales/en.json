@@ -1,4 +1,9 @@
 {
+  "action": {
+    "like": "Like",
+    "unlike": "Unlike",
+    "view_stream": "View Stream"
+  },
   "control": {
     "disabled": "Disabled",
     "enabled": "Enabled",

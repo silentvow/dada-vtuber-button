@@ -32,7 +32,7 @@
                 <v-icon>{{ icons.heartMinus }}</v-icon>
               </v-list-item-icon>
               <v-list-item-content>
-                <v-list-item-title>Unlike</v-list-item-title>
+                <v-list-item-title>{{ $t('action.unlike') }}</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
             <v-list-item v-else @click="onLike">
@@ -40,7 +40,7 @@
                 <v-icon>{{ icons.heartPlus }}</v-icon>
               </v-list-item-icon>
               <v-list-item-content>
-                <v-list-item-title>Like</v-list-item-title>
+                <v-list-item-title>{{ $t('action.like') }}</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
             <v-list-item @click="onYoutube">
@@ -48,7 +48,7 @@
                 <v-icon>{{ icons.youtube }}</v-icon>
               </v-list-item-icon>
               <v-list-item-content>
-                <v-list-item-title>View Stream</v-list-item-title>
+                <v-list-item-title>{{ $t('action.view_stream') }}</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
           </v-list>
