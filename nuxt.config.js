@@ -3,7 +3,7 @@ import themes from './assets/themes';
 const is_production = process.env.NODE_ENV === 'production';
 
 export default {
-  mode: 'universal',
+  ssr: false,
   target: 'static',
   server: {
     port: 3000, // default: 3000
@@ -48,7 +48,10 @@ export default {
   /*
    ** Customize the progress-bar color
    */
-  loading: { color: '#fff' },
+  loading: {
+    color: '#c62828',
+    height: '5px'
+  },
   /*
    ** Global CSS
    */
