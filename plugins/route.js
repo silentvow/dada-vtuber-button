@@ -33,6 +33,10 @@ export default ({ app, store }) => {
     }
     store.commit('SET_VOLUME', volume);
 
+    // Voice Favorite
+    const voiceFavorite = JSON.parse(localStorage.getItem('voiceFavorite')) || [];
+    store.commit('SET_VOICE_FAVORITE', voiceFavorite);
+
     next();
   });
 };

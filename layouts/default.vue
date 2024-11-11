@@ -50,6 +50,14 @@
           </v-list-item-content>
         </v-list-item>
         -->
+        <v-list-item dense to="/favorite" router exact>
+          <v-list-item-action>
+            <v-icon>{{ icons.heart }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>{{ $t('site.favorite') }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
         <v-list-item dense to="/feedback" router exact>
           <v-list-item-action>
             <v-icon>{{ icons.msg_question }}</v-icon>
@@ -258,6 +266,7 @@ import {
   mdiApps,
   mdiCodeTags,
   mdiBrightness2,
+  mdiHeartOutline,
   mdiMessageAlertOutline,
   mdiTranslate,
   mdiGithub,
@@ -277,6 +286,7 @@ export default {
         apps: mdiApps,
         account_group: mdiAccountGroup,
         code_tags: mdiCodeTags,
+        heart: mdiHeartOutline,
         msg_question: mdiMessageAlertOutline,
         brightness: mdiBrightness2,
         translate: mdiTranslate,
