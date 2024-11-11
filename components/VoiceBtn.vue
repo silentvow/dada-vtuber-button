@@ -151,9 +151,11 @@ export default {
     },
     onLike() {
       this.$store.commit('ADD_VOICE_FAVORITE', this.voiceId.slice(0, 13));
+      this.$root.$emit('show-snackbar', this.$t('action.like_success'));
     },
     onUnlike() {
       this.$store.commit('REMOVE_VOICE_FAVORITE', this.voiceId.slice(0, 13));
+      this.$root.$emit('show-snackbar', this.$t('action.unlike_success'));
     }
   }
 };

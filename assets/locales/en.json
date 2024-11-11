@@ -1,7 +1,9 @@
 {
   "action": {
     "like": "Like",
+    "like_success": "Liked",
     "unlike": "Unlike",
+    "unlike_success": "Unliked",
     "view_stream": "View Stream"
   },
   "control": {

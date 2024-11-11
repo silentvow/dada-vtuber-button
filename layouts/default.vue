@@ -141,6 +141,9 @@
     <v-main>
       <v-container class="page">
         <nuxt />
+        <v-snackbar v-model="snackbarVisible" :timeout="2000" :elevation="6" top color="success">
+          {{ snackbarMessage }}
+        </v-snackbar>
       </v-container>
       <v-footer :fixed="false" class="footer">
         <div>
@@ -298,6 +301,8 @@ export default {
         volume: mdiVolumeHigh,
         volumeLow: mdiVolumeLow
       },
+      snackbarVisible: false,
+      snackbarMessage: '',
       volume: this.$store.state.volume,
       drawer: false,
       fixed: false
@@ -324,8 +329,17 @@ export default {
     if (window.innerWidth >= 1024) {
       this.drawer = true;
     }
+
+    this.$root.$on('show-snackbar', this.showSnackbar);
+  },
+  beforeDestroy() {
+    this.$root.$off('show-snackbar', this.showSnackbar);
   },
   methods: {
+    showSnackbar(message) {
+      this.snackbarMessage = message;
+      this.snackbarVisible = true;
+    },
     switch_dark() {
       this.$vuetify.theme.dark = !this.$vuetify.theme.dark;
       this.$store.commit('SET_DARK', this.$vuetify.theme.dark);
