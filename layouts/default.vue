@@ -85,7 +85,7 @@
       <v-toolbar-title v-text="$t('site.title')" />
       <v-img src="/icon.png" style="max-width: 24px; margin-left: 6px" />
       <v-spacer />
-      <v-menu offset-y>
+      <v-menu offset-y :close-on-content-click="false">
         <template v-slot:activator="{ on, attrs }">
           <v-btn icon plain class="white--text" v-bind="attrs" v-on="on">
             <v-icon>{{ icons.volume }}</v-icon>
@@ -298,6 +298,7 @@ export default {
         volume: mdiVolumeHigh,
         volumeLow: mdiVolumeLow
       },
+      volume: this.$store.state.volume,
       drawer: false,
       fixed: false
     };
@@ -305,9 +306,6 @@ export default {
   computed: {
     current_locale() {
       return this.$i18n.locale;
-    },
-    volume() {
-      return this.$store.state.volume;
     }
   },
   mounted() {
@@ -333,11 +331,11 @@ export default {
       this.$store.commit('SET_DARK', this.$vuetify.theme.dark);
     },
     switch_lang(lang) {
-      console.log('switching to ' + lang);
       this.$store.commit('SET_LANG', lang);
       this.$i18n.locale = lang;
     },
     onVolumeChange(value) {
+      this.volume = value;
       this.$store.commit('SET_VOLUME', value);
     }
   },

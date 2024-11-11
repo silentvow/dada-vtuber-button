@@ -1,22 +1,13 @@
 <template>
   <v-hover>
     <template v-slot="{ hover }">
-      <v-item-group
-        v-if="fromYoutube"
-        rounded
-        class="ma-1 v-btn-toggle v-btn-toggle--rounded"
-        :class="hover ? 'elevation-6' : 'elevation-2'"
-        :style="{ borderRadius: '16px' }"
-      >
+      <v-item-group v-if="fromYoutube" rounded class="ma-1 vo-btn-group" :class="hover ? 'elevation-6' : 'elevation-2'">
         <v-btn
           class="vo-btn pa-2"
           :class="[v_btn_classes]"
           color="primary"
           rounded
-          height="max-content"
-          min-height="36px"
           :style="{
-            opacity: 1,
             '--hover-content': 'url(\'' + emoji_url + '\')',
             '--progress': progress + '%',
             '--start-percent': progress - 5 + '%'
@@ -29,7 +20,7 @@
         </v-btn>
 
         <!-- Dropdown Action Button -->
-        <v-menu offset-y>
+        <v-menu offset-y left nudge-bottom="4">
           <template v-slot:activator="{ on, attrs }">
             <v-btn v-bind="attrs" height="auto" color="primary" :style="{ opacity: 1 }" v-on="on">
               <v-icon color="white">{{ icons.menu }}</v-icon>
@@ -69,10 +60,7 @@
         :class="[v_btn_classes]"
         color="primary"
         rounded
-        height="max-content"
-        min-height="36px"
         :style="{
-          opacity: 1,
           borderRadius: '16px',
           '--hover-content': 'url(\'' + emoji_url + '\')',
           '--progress': progress + '%',
@@ -172,8 +160,61 @@ export default {
 </script>
 <style lang="scss" scoped>
 $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
+
+.vo-btn-group {
+  display: inline-flex;
+  align-items: stretch;
+  border-radius: 16px;
+}
+
+.vo-btn-group > .v-btn.v-btn {
+  border-radius: 0;
+  border-style: solid;
+  border-width: thin;
+  box-shadow: none;
+  padding: 0 12px;
+}
+
+.vo-btn-group .v-btn.v-btn.v-size--default {
+  min-width: 48px;
+  min-height: 0;
+  height: unset;
+}
+
+.vo-btn-group > .v-btn.v-btn:first-child {
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+}
+
+.vo-btn-group > .v-btn.v-btn:last-child {
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.vo-btn-group > .v-btn.v-btn:not(:first-child) {
+  border-left-width: 0;
+}
+
+.theme--light.vo-btn-group .v-btn.v-btn {
+  border-color: rgba(0, 0, 0, 0.12) !important;
+}
+
+.theme--dark.vo-btn-group .v-btn.v-btn {
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+.theme--dark.v-menu__content {
+  border: thin solid #757575;
+}
+
+.theme--light.v-menu__content {
+  border: thin solid #e0e0e0;
+}
+
 .vo-btn {
   display: inline-block;
+  height: max-content;
+  min-height: 36px;
   max-width: calc(100% - 48px);
   word-wrap: break-word !important;
   word-break: break-all !important;
