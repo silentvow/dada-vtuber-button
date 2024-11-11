@@ -68,6 +68,7 @@
             v-for="item in group.voice_list"
             ref="voice_btn"
             :key="item.id"
+            :voice-id="item.id"
             :class="voice_button_color"
             :from-youtube="Boolean(item.url)"
             @on-play="play(item)"
