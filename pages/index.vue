@@ -202,8 +202,8 @@ export default {
     },
     voice_button_color() {
       return {
-        'blue-grey darken-1': this.$vuetify.theme.dark,
-        'blue-grey darken-1 white--text': !this.$vuetify.theme.dark
+        primary: this.$vuetify.theme.dark,
+        'primary white--text': !this.$vuetify.theme.dark
       };
     },
     fab_icon() {
