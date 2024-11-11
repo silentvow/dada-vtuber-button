@@ -74,9 +74,14 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/markdownit',
     '@nuxtjs/sitemap',
+    '@nuxtjs/google-gtag',
     '@nuxtjs/google-fonts',
     'cookie-universal-nuxt'
   ],
+  'google-gtag': {
+    id: 'G-JHW2E0H1PQ',
+    debug: !is_production
+  },
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module

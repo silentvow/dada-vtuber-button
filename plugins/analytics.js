@@ -19,7 +19,7 @@ if (process.client && process.env.NODE_ENV === 'production') {
     /*
      ** 当前页的访问统计
      */
-    ga('create', 'UA-XXXXXXXXX-X', 'auto');
+    ga('create', 'G-JHW2E0H1PQ', 'auto');
   }
 
   export default ({ app: { router }, store }) => {
