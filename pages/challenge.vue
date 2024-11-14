@@ -97,7 +97,13 @@ export default {
   methods: {
     closeCorrectAnswer() {
       this.show_correct_answer = false;
-      this.generateVoiceOptions();
+      for (;;) {
+        let q = this.generateVoiceOptions();
+        if (q.url !== this.question?.url) {
+          this.question = q;
+          break;
+        }
+      }
     },
     closeWrongAnswer() {
       if (this.score > this.high_score) {
