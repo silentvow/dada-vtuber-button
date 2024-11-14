@@ -10,35 +10,15 @@
         />
       </template>
       -->
-      <v-list style="padding-top: 0">
+      <v-list class="pt-0">
         <v-list-item to="/" router exact dense>
           <v-list-item-action>
-            <v-icon>{{ icons.apps }}</v-icon>
+            <v-img src="/icon.png" style="width: 24px" />
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>{{ $t('site.index') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item
-          v-for="(item, i) in $t('navigator.items')"
-          :key="i"
-          :href="item.to"
-          target="_blank"
-          rel="noreferrer"
-          router
-          exact
-          dense
-        >
-          <v-list-item-action>
-            <v-img :src="item.icon" style="width: 24px" />
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title v-text="item.title" />
-          </v-list-item-content>
-        </v-list-item>
-      </v-list>
-      <v-divider />
-      <v-list>
         <!-- 友情链接 -->
         <!--
         <v-list-item dense to="/links" router exact>
@@ -83,6 +63,27 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
+      <v-divider />
+
+      <v-list>
+        <v-list-item
+          v-for="(item, i) in $t('navigator.items')"
+          :key="i"
+          :href="item.to"
+          target="_blank"
+          rel="noreferrer"
+          router
+          exact
+          dense
+        >
+          <v-list-item-action>
+            <v-img :src="item.icon" style="width: 24px" />
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title v-text="item.title" />
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
 
       <template v-slot:append>
         <v-img src="/img/woman.png" style="width: 100%; height: auto" />
@@ -91,7 +92,6 @@
     <v-app-bar dense class="primary white--text" app>
       <v-app-bar-nav-icon class="white--text" @click.stop="drawer = !drawer" />
       <v-toolbar-title v-text="$t('site.title')" />
-      <v-img src="/icon.png" style="max-width: 24px; margin-left: 6px" />
       <v-spacer />
       <v-menu offset-y :close-on-content-click="false">
         <template v-slot:activator="{ on, attrs }">
