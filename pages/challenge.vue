@@ -42,7 +42,7 @@
                     ref="voice_btn"
                     :key="option.id"
                     :voice-id="option.id"
-                    :style="{ width: '284px' }"
+                    :style="{ width: '256px' }"
                     @on-play="play(option)"
                   >
                     {{ $t('action.play_option') }} {{ index + 1 }}
