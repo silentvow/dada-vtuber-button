@@ -384,6 +384,17 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "c5615101-f18e-4df6-8f77-6c06d072c163",
+          "name": "mon-zo-hsin-la",
+          "description": {
+            "en": "Wake up from the dream quickly!",
+            "ja": "早く夢から覚めなさい。",
+            "zh": "趕快從夢中醒來啦"
+          },
+          "path": "yoda-new-clothes/mon-zo-hsin-la.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
           "id": "6408faf2-2343-4f00-8c77-d71f9f324ed0",
           "name": "ni-men-zhe-she-shua-min",
           "description": {
@@ -714,6 +725,28 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "b81b789b-7d00-4786-b1fa-f5f8ba638b48",
+          "name": "aligado",
+          "description": {
+            "en": "Thank you very much.",
+            "ja": "ありがとう。",
+            "zh": "阿哩嘎多"
+          },
+          "path": "yoda-new-clothes/aligado.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
+          "id": "b52c4435-c5c7-4e66-a5cd-81494ee71b39",
+          "name": "mihumisang",
+          "description": {
+            "en": "Mihu Misang",
+            "ja": "ミーフーミーさん",
+            "zh": "米乎咪桑"
+          },
+          "path": "yoda-new-clothes/mihumisang.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
           "id": "e9f8b1a2-1234-4567-8909-abcdef123464",
           "name": "yoda-wan-shan-hao",
           "description": {
@@ -725,6 +758,28 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "2712bc85-e28e-45df-a59a-97e3c23ccb11",
+          "name": "qin-duo-z-jiao",
+          "description": {
+            "en": "Nice to meet you all.",
+            "ja": "皆さん、どうぞよろしくお願いします。",
+            "zh": "大家請多指教"
+          },
+          "path": "yoda-new-clothes/qin-duo-z-jiao.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
+          "id": "e55cdcbe-e9e6-48a1-90ff-e37bcf046ee8",
+          "name": "yoda-hello-mihumisang",
+          "description": {
+            "en": "Hello, Mihu Misang.",
+            "ja": "こんにちは、ミーフーミーさん。",
+            "zh": "哈囉米乎咪桑"
+          },
+          "path": "yoda-new-clothes/yoda-hello-mihumisang.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
           "id": "e8cdd7c6-3408-402f-a4c4-49a58f80067c",
           "name": "pa-g-pa-g-pa-g",
           "description": {
@@ -734,6 +789,17 @@
           },
           "path": "yoda-girlfriend/pa-g-pa-g-pa-g.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "7be7a556-84e5-4cee-a90c-82efae80f188",
+          "name": "shi-ba-ba",
+          "description": {
+            "en": "It’s Daddy~ Daddy, Daddy, Daddy~",
+            "ja": "お父さんだ～ お父さんお父さんお父さん～",
+            "zh": "是爸爸～爸爸爸爸爸～"
+          },
+          "path": "yoda-new-clothes/shi-ba-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         }
       ]
     },
@@ -758,6 +824,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "ebe13e22-7562-482d-b543-e8e0eec009ea",
+          "name": "waaaa",
+          "description": {
+            "en": "Waaa~!",
+            "ja": "わあ～！",
+            "zh": "哇～～～"
+          },
+          "path": "yoda-new-clothes/waaaa.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
           "id": "c0dcd888-61a9-4140-acb0-37aac8b3d971",
           "name": "weee",
           "description": {
@@ -767,6 +844,17 @@
           },
           "path": "weee.mp3",
           "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "5acc082c-2434-4b63-a081-7e092a8b4e68",
+          "name": "mo-gu-mo-gu",
+          "description": {
+            "en": "Mushroom soup (song)",
+            "ja": "きのこスープ（歌）",
+            "zh": "蘑菇濃湯 (歌)"
+          },
+          "path": "yoda-new-clothes/mo-gu-mo-gu.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
           "id": "46a83f7f-9877-4cfc-9620-886d1abc4304",
@@ -824,15 +912,26 @@
       },
       "voice_list": [
         {
-          "id": "2014a9de-af13-4841-b5d4-eb6ac5ade45e",
-          "name": "marry-me-ok",
+          "id": "829ce3fe-a0e3-4d87-9905-8a5921f68285",
+          "name": "zue-si-hua-ni",
           "description": {
-            "en": "Marry me, OK?",
-            "ja": "結婚してくれる？",
-            "zh": "Marry me, OK?"
+            "en": "I love you the most.",
+            "ja": "あなたが一番好きです。",
+            "zh": "最喜歡你了"
           },
-          "path": "yoda-girlfriend/marry-me-ok.mp3",
-          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+          "path": "yoda-new-clothes/zue-si-hua-ni.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
+          "id": "05425082-2c65-4164-89a1-789fec42868b",
+          "name": "zue-si-hua-da-jia",
+          "description": {
+            "en": "I love everyone the most.",
+            "ja": "みんなが一番好きです。",
+            "zh": "最喜歡大家了"
+          },
+          "path": "yoda-new-clothes/zue-si-hua-da-jia.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         }
       ]
     },
@@ -934,15 +1033,15 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
-          "id": "2ee120ab-6ab6-443b-b54c-49122895cfdd",
-          "name": "z-nen-tza-wo",
+          "id": "ccdc4177-20a5-4918-a5a1-a95bb1a7cc1b",
+          "name": "no-no",
           "description": {
-            "en": "Let's go conquer this Taiwanese Vtuber circle, everyone!",
-            "ja": "皆でこの台湾のVtuber界を征服しましょう！",
-            "zh": "讓我們一起去征服這個台V圈吧各位！"
+            "en": "I told you not to do that, no, no!",
+            "ja": "そんなことしちゃダメだって言ったのに、ノーノー！",
+            "zh": "都說不可以這樣了 no no"
           },
-          "path": "yoda-girlfriend/zen-fu-tai-v-chan.mp3",
-          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+          "path": "yoda-new-clothes/no-no.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
           "id": "df1d27e9-3ced-4fb0-9baa-dabc06744e08",
@@ -1440,6 +1539,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "b8940255-2098-4a71-a167-25d07d451deb",
+          "name": "se-z-kua-le",
+          "description": {
+            "en": "Happy Birthday (song)",
+            "ja": "ハッピーバースデー（歌）",
+            "zh": "生日快樂 (歌)"
+          },
+          "path": "yoda-new-clothes/se-z-kua-le.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
           "id": "e9f8b1a2-1234-4567-8912-abcdef123467",
           "name": "yu-zan-jiao-hsin-wo",
           "description": {
@@ -1484,6 +1594,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "2014a9de-af13-4841-b5d4-eb6ac5ade45e",
+          "name": "marry-me-ok",
+          "description": {
+            "en": "Marry me, OK?",
+            "ja": "結婚してくれる？",
+            "zh": "Marry me, OK?"
+          },
+          "path": "yoda-girlfriend/marry-me-ok.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
           "id": "43f4303d-13ce-454f-8572-26e21ff88f00",
           "name": "kua-chi-chan-ler",
           "description": {
@@ -1504,6 +1625,28 @@
           },
           "path": "two-loli-blame/ya-li-do-hen-zho.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "id": "16321e02-7742-41c1-800d-673d8b216db5",
+          "name": "jin-mao-yin-mao",
+          "description": {
+            "en": "Did you drop this golden hat or this silver hat?",
+            "ja": "君が落としたのはこの金の帽子ですか？それともこの銀の帽子ですか？",
+            "zh": "你掉的是這個金帽子，還是這個銀帽子呢？"
+          },
+          "path": "yoda-new-clothes/jin-mao-yin-mao.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
+          "id": "d26a5608-08e5-419d-9a8b-3422b391edc7",
+          "name": "wan-zen-ji-hua",
+          "description": {
+            "en": "Well then, let's fully evolve! Let's go!",
+            "ja": "それでは、完全に進化しよう！レッツゴー！",
+            "zh": "那麼我們就完整的進化吧Let's go!"
+          },
+          "path": "yoda-new-clothes/wan-zen-ji-hua.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
           "id": "e0a6e3f7-c38f-4ee3-aecb-a8c18aad7892",
@@ -2067,6 +2210,17 @@
       },
       "voice_list": [
         {
+          "id": "c3eafb3c-fe47-4cb4-8d13-81ef817543d0",
+          "name": "bu-s-chi-er",
+          "description": {
+            "en": "It’s not a penguin coat; you’re such a dummy, Nuo!",
+            "ja": "ペンギンのコートじゃないよ、ノー、君は本当にバカだね！",
+            "zh": "不是企鵝外套啦，你是笨蛋諾"
+          },
+          "path": "yoda-new-clothes/bu-s-chi-er.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
           "id": "9f35bf27-ccb9-4f26-9761-e870877adc30",
           "name": "wo-shi-chi-er",
           "description": {
@@ -2119,6 +2273,17 @@
             "zh": "媽的我們家的人都是神經病啊"
           },
           "path": "yoda-girlfriend/wo-men-jia-shen-ji-bin.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "2ee120ab-6ab6-443b-b54c-49122895cfdd",
+          "name": "z-nen-tza-wo",
+          "description": {
+            "en": "Let's go conquer this Taiwanese Vtuber circle, everyone!",
+            "ja": "皆でこの台湾のVtuber界を征服しましょう！",
+            "zh": "讓我們一起去征服這個台V圈吧各位！"
+          },
+          "path": "yoda-girlfriend/zen-fu-tai-v-chan.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
@@ -2848,6 +3013,17 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "8aa79271-70e4-40ad-833c-df69a36354dc",
+          "name": "gon-si-da-due",
+          "description": {
+            "en": "Congratulations, you got it right!",
+            "ja": "おめでとう、正解だよ～",
+            "zh": "恭喜你答對啦～"
+          },
+          "path": "yoda-new-clothes/gon-si-da-due.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
           "id": "500d5bd2-6672-4789-893f-d847b2136ba5",
           "name": "bu-der-liao",
           "description": {
@@ -2956,6 +3132,17 @@
           },
           "path": "dp-toys/kao-yi-qiang.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "id": "62c59e5e-5078-4564-acd7-47cfe7c6525f",
+          "name": "denx6",
+          "description": {
+            "en": "Dun dun dun dun dun dun dun dun dun~",
+            "ja": "デンデンデンデンデンデンデンデン～",
+            "zh": "登登登登登登登登登登登登～"
+          },
+          "path": "yoda-new-clothes/denx6.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
           "id": "5a64f0fa-d512-415d-88da-b68f887a7798",
