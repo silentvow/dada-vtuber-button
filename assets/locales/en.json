@@ -2,6 +2,8 @@
   "action": {
     "like": "Like",
     "like_success": "Liked",
+    "play_option": "Play Option",
+    "submit_answer": "Submit Answer",
     "unlike": "Unlike",
     "unlike_success": "Unliked",
     "view_stream": "View Stream"

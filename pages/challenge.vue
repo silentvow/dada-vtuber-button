@@ -29,19 +29,26 @@
         </v-card-text>
 
         <v-card-text class="d-flex flex-column align-center">
-          <v-radio-group class="mx-5" :style="{ width: '100%', maxWidth: '600px' }">
-            <v-radio v-for="option in question?.options" :key="option.id" :value="option.id">
+          <v-radio-group v-model="picked_answer" class="mx-5" :style="{ width: '100%', maxWidth: '600px' }">
+            <v-radio v-for="(option, index) in question?.options" :key="option.id" :value="option.id">
               <template v-slot:label>
                 <div>
-                  <voice-btn ref="voice_btn" :voice-id="option.id" @on-play="play(option)">
-                    {{ option.name }}
+                  <voice-btn ref="voice_btn" :voice-id="option.id" :style="{ width: '284px' }" @on-play="play(option)">
+                    {{ $t('action.play_option') }} {{ index + 1 }}
                   </voice-btn>
                 </div>
               </template>
             </v-radio>
           </v-radio-group>
-          <v-btn class="mx-5 my-4" x-large color="success" @click="question = generateVoiceOptions()">
-            {{ $t('site.next') }}
+          <v-btn
+            class="mx-5 my-4"
+            x-large
+            color="success"
+            :disabled="!picked_answer"
+            :style="{ minWidth: '284px' }"
+            @click="submitAnswer"
+          >
+            {{ $t('action.submit_answer') }}
           </v-btn>
         </v-card-text>
       </v-card>
@@ -66,8 +73,13 @@ export default {
     return {
       voices: voice_lists.groups.flatMap(group => group.voice_list),
       question: null,
+      score: 0,
+      high_score: 0,
       now_playing: new Set(),
-      loading: true
+      loading: true,
+      picked_answer: '',
+      show_correct_answer: false,
+      show_wrong_answer: false
     };
   },
   computed: {
@@ -83,6 +95,25 @@ export default {
     this.loading = false;
   },
   methods: {
+    closeCorrectAnswer() {
+      this.show_correct_answer = false;
+      this.generateVoiceOptions();
+    },
+    closeWrongAnswer() {
+      if (this.score > this.high_score) {
+        this.high_score = this.score;
+      }
+      this.score = 0;
+      this.show_wrong_answer = false;
+    },
+    submitAnswer(option) {
+      if (option.url === this.question.url) {
+        this.score++;
+        this.show_correct_answer = true;
+      } else {
+        this.show_wrong_answer = true;
+      }
+    },
     generateVoiceOptions() {
       // Flatten the voice list across all groups
       const voiceList = this.voices;

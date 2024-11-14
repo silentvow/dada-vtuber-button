@@ -2,6 +2,8 @@
   "action": {
     "like": "加入最愛",
     "like_success": "已加入最愛",
+    "play_option": "播放選項",
+    "submit_answer": "提交答案",
     "unlike": "移除最愛",
     "unlike_success": "已移除最愛",
     "view_stream": "觀看直播"
