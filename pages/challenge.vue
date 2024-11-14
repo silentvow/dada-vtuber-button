@@ -1,18 +1,26 @@
 <template>
   <v-layout column justify-center align-stretch app>
     <v-flex xs12 sm8 md6>
-      <v-card class="mx-auto" outlined>
-        <v-card-title class="headline mb-4">{{ $t('site.challenge') }}</v-card-title>
+      <v-card class="mx-auto">
+        <v-card-title class="headline">{{ $t('site.challenge') }}</v-card-title>
+        <v-card-subtitle class="subtitle-1">{{ $t('challenge.rule') }}</v-card-subtitle>
 
-        <v-card-text class="d-flex flex-column align-center">
-          <v-progress-circular indeterminate color="primary"></v-progress-circular>
-          <p class="my-4 text--primary">{{ $t('member.loading') }}</p>
+        <v-card-text class="d-flex flex-row align-center">
+          <v-card :elevation="0" class="mr-2 score_card">
+            <v-card-text class="text-h5 text-center pb-0">{{ $t('challenge.now_score') }}</v-card-text>
+            <v-card-text class="text-h3 text-center pt-0 font-weight-bold">{{ score }}</v-card-text>
+          </v-card>
+          <v-card :elevation="0" class="ml-2 score_card">
+            <v-card-text class="text-h5 text-center pb-0">{{ $t('challenge.high_score') }}</v-card-text>
+            <v-card-text class="text-h3 text-center pt-0 font-weight-bold">{{ high_score }}</v-card-text>
+          </v-card>
         </v-card-text>
       </v-card>
     </v-flex>
 
     <v-flex v-if="!!question" xs12 sm8 md6>
       <v-card>
+        <v-card-title class="headline">{{ $t('challenge.question_desc') }}</v-card-title>
         <v-card-text class="d-flex flex-column align-center">
           <iframe
             class="mx-5"
@@ -26,22 +34,28 @@
               aspectRatio: '16/9'
             }"
           ></iframe>
-        </v-card-text>
-
-        <v-card-text class="d-flex flex-column align-center">
-          <v-radio-group v-model="picked_answer" class="mx-5" :style="{ width: '100%', maxWidth: '600px' }">
+          <v-radio-group v-model="picked_answer" class="mx-5">
             <v-radio v-for="(option, index) in question?.options" :key="option.id" :value="option.id">
               <template v-slot:label>
                 <div>
-                  <voice-btn ref="voice_btn" :voice-id="option.id" :style="{ width: '284px' }" @on-play="play(option)">
+                  <voice-btn
+                    ref="voice_btn"
+                    :key="option.id"
+                    :voice-id="option.id"
+                    :style="{ width: '284px' }"
+                    @on-play="play(option)"
+                  >
                     {{ $t('action.play_option') }} {{ index + 1 }}
                   </voice-btn>
                 </div>
               </template>
             </v-radio>
           </v-radio-group>
+        </v-card-text>
+
+        <v-card-text class="d-flex flex-column align-center">
           <v-btn
-            class="mx-5 my-4"
+            class="mx-5 mb-4"
             x-large
             color="success"
             :disabled="!picked_answer"
@@ -52,6 +66,33 @@
           </v-btn>
         </v-card-text>
       </v-card>
+
+      <v-dialog v-model="show_correct_answer" max-width="600">
+        <v-card>
+          <v-toolbar color="primary" dark> {{ $t('challenge.answer_result') }} {{ answer_index }} </v-toolbar>
+          <v-card-text class="justify-center">
+            <div class="text-h2 text-center pt-8">{{ $t('challenge.correct') }}</div>
+          </v-card-text>
+          <v-card-actions class="justify-end">
+            <v-btn text @click="show_correct_answer = false">
+              {{ $t('challenge.next_question') }}
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
+      <v-dialog v-model="show_wrong_answer" max-width="600">
+        <v-card>
+          <v-toolbar color="primary" dark> {{ $t('challenge.answer_result') }} {{ answer_index }} </v-toolbar>
+          <v-card-text class="justify-center pt-8">
+            <div class="text-h2 text-center">{{ $t('challenge.wrong') }}</div>
+          </v-card-text>
+          <v-card-actions class="justify-end">
+            <v-btn text @click="show_wrong_answer = false">
+              {{ $t('challenge.next_question') }}
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-dialog>
     </v-flex>
   </v-layout>
 </template>
@@ -59,6 +100,13 @@
 <style lang="scss" scoped>
 .v-card {
   margin: 8px auto;
+}
+.score_card {
+  width: 160px;
+  border: thick solid #424242;
+}
+.score_card.theme--dark {
+  border: thick solid #eeeeee;
 }
 </style>
 <script>
@@ -74,7 +122,7 @@ export default {
       voices: voice_lists.groups.flatMap(group => group.voice_list),
       question: null,
       score: 0,
-      high_score: 0,
+      high_score: Number(localStorage.getItem('da_game_high_score') || 0),
       now_playing: new Set(),
       loading: true,
       picked_answer: '',
@@ -83,6 +131,9 @@ export default {
     };
   },
   computed: {
+    answer_index() {
+      return this.question?.options.findIndex(option => option.correct) + 1;
+    },
     current_locale() {
       return this.$i18n.locale;
     },
@@ -90,34 +141,43 @@ export default {
       return '/voices/';
     }
   },
+  watch: {
+    show_correct_answer(value) {
+      if (value) return;
+      this.score++;
+      this.generateNextQuestion();
+    },
+    show_wrong_answer(value) {
+      if (value) return;
+      if (this.score > this.high_score) {
+        this.high_score = this.score;
+        localStorage.setItem('da_game_high_score', this.high_score);
+      }
+      this.score = 0;
+      this.generateNextQuestion();
+    }
+  },
   mounted() {
     this.question = this.generateVoiceOptions();
     this.loading = false;
   },
   methods: {
-    closeCorrectAnswer() {
-      this.show_correct_answer = false;
+    submitAnswer() {
+      this.stop_all();
+      const option = this.question.options.find(option => option.id === this.picked_answer);
+      if (option.correct) {
+        this.show_correct_answer = true;
+      } else {
+        this.show_wrong_answer = true;
+      }
+    },
+    generateNextQuestion() {
       for (;;) {
         let q = this.generateVoiceOptions();
         if (q.url !== this.question?.url) {
           this.question = q;
           break;
         }
-      }
-    },
-    closeWrongAnswer() {
-      if (this.score > this.high_score) {
-        this.high_score = this.score;
-      }
-      this.score = 0;
-      this.show_wrong_answer = false;
-    },
-    submitAnswer(option) {
-      if (option.url === this.question.url) {
-        this.score++;
-        this.show_correct_answer = true;
-      } else {
-        this.show_wrong_answer = true;
       }
     },
     generateVoiceOptions() {
@@ -167,7 +227,7 @@ export default {
       let ref = null;
       let timer = null;
       this.$refs.voice_btn.forEach(i => {
-        if (i.$vnode.data.key === item.name) {
+        if (i.$vnode.data.key === item.id) {
           ref = i;
         }
       });
@@ -175,7 +235,6 @@ export default {
         this.now_playing.forEach(i => {
           i.pause();
           this.now_playing.delete(i);
-          console.log(item.name, 'paused before new playing');
         });
       }
       let setup_timer = () => {
@@ -253,6 +312,9 @@ export default {
         this.now_playing.delete(audio);
         delete this.audio;
       });
+    },
+    stop_all() {
+      this.$bus.$emit('abort_play');
     }
   }
 };

@@ -8,6 +8,16 @@
     "unlike_success": "Unliked",
     "view_stream": "View Stream"
   },
+  "challenge": {
+    "answer_result": "Correct Answer: ",
+    "correct": "Correct!",
+    "high_score": "High Score",
+    "next_question": "Next Question",
+    "now_score": "Now Score",
+    "question_desc": "Which stream does the following voice come from?",
+    "rule": "One point for each correct answer, score reset for each wrong answer.",
+    "wrong": "Wrong!"
+  },
   "control": {
     "disabled": "Disabled",
     "enabled": "Enabled",

@@ -8,6 +8,16 @@
     "unlike_success": "已移除最愛",
     "view_stream": "觀看直播"
   },
+  "challenge": {
+    "answer_result": "正確答案：",
+    "correct": "答對了！",
+    "high_score": "最高得分",
+    "next_question": "下一題",
+    "now_score": "目前得分",
+    "question_desc": "請問哪一個語音出自於以下直播？",
+    "rule": "答對一題得一分，答錯分數歸零。",
+    "wrong": "答錯了！"
+  },
   "control": {
     "disabled": "關閉",
     "enabled": "開啟",
