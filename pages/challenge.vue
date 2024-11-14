@@ -13,8 +13,6 @@
 
     <v-flex v-if="!!question" xs12 sm8 md6>
       <v-card>
-        <v-card-title class="headline mb-4">{{ $t('site.challenge') }}</v-card-title>
-
         <v-card-text class="d-flex flex-column align-center">
           <iframe
             class="mx-5"
@@ -30,25 +28,18 @@
           ></iframe>
         </v-card-text>
 
-        <v-card-text>
-          <v-list-item-group>
-            <v-list-item
-              v-for="option in question?.options"
-              :key="option.id"
-              :value="option.name"
-              @click="play(option)"
-            >
-              <voice-btn
-                :ref="option.id"
-                :name="option.name"
-                :description="option.description"
-                :playing="false"
-                :progress="0"
-              >
-                {{ option.name }}
-              </voice-btn>
-            </v-list-item>
-          </v-list-item-group>
+        <v-card-text class="d-flex flex-column align-center">
+          <v-radio-group class="mx-5" :style="{ width: '100%', maxWidth: '600px' }">
+            <v-radio v-for="option in question?.options" :key="option.id" :value="option.id">
+              <template v-slot:label>
+                <div>
+                  <voice-btn ref="voice_btn" :voice-id="option.id" @on-play="play(option)">
+                    {{ option.name }}
+                  </voice-btn>
+                </div>
+              </template>
+            </v-radio>
+          </v-radio-group>
         </v-card-text>
       </v-card>
     </v-flex>
