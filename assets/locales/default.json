@@ -72,23 +72,24 @@
   "site": {
     "about": "關於",
     "challenge": "問妲挑戰",
-    "description": "紀錄灰妲的語音，讓大家可以隨時聽到她的聲音",
+    "description": "歡迎來到灰妲語音按鈕收藏集！這裡收錄了灰妲的各種語音與獨特叫聲，讓粉絲可以隨時點擊按鈕播放，體驗她的魅力與個性。",
     "favorite": "我的最愛",
     "feedback": "意見回饋",
     "footer": {
       "author": "彼得與狼",
       "author_link": "https://x.com/tn604000",
-      "content": "本站為愛好者作品，和ReLive Project官方沒有關聯，項目參與方式與意見回饋請查看\"關於\"頁面",
+      "content": "本站為愛好者作品，和ReLive Project官方沒有關聯，項目參與方式與意見回饋請查看{feedback}頁面",
       "repo_link": "https://github.com/silentvow/dada-vtuber-button"
     },
     "index": "首頁",
     "keywords": "灰妲,Vtuber,台V,語音按鈕,ReLive Project",
     "links": "友情連結",
+    "privacy": "隱私政策",
     "social_image": "https://dada-vtuber-button.vercel.app/img/og_common.png",
     "source": "來源",
     "switch_dark_mode": "夜間模式開關",
     "switch_language": "切換語言",
-    "title": "灰妲語音按鈕",
+    "title": "灰妲語音按鈕收藏集",
     "url": "https://dada-vtuber-button.vercel.app",
     "voice": "語音"
   }

@@ -72,23 +72,24 @@
   "site": {
     "about": "について",
     "challenge": "ダダに挑戦",
-    "description": "灰妲の声を記録し、誰もがいつでも彼女の声を聞くことができるようにします。",
+    "description": "灰妲の音声ボタンコレクションへようこそ！ここでは、灰妲のさまざまな音声や独特の鳴き声が収録されており、ファンがいつでもボタンをクリックして再生し、彼女の魅力と個性を体験できます。",
     "favorite": "お気に入り",
     "feedback": "フィードバック",
     "footer": {
       "author": "彼得與狼",
       "author_link": "https://x.com/tn604000",
-      "content": "本サイトはファン作品であり、ReLive Projectの公式とは関係ありません。プロジェクトの参加方法やフィードバックについては、'アバウト'ページをご覧ください。",
+      "content": "本サイトはファン作品であり、ReLive Projectの公式とは関係ありません。プロジェクトの参加方法やフィードバックについては、{feedback}ページをご覧ください。",
       "repo_link": "https://github.com/silentvow/dada-vtuber-button"
     },
     "index": "ホームページ",
     "keywords": "灰妲,Vtuber,Taiwan,Voice Button,ReLive Project",
     "links": "友情リンク",
+    "privacy": "プライバシーポリシー",
     "social_image": "https://dada-vtuber-button.vercel.app/img/og_common.png",
     "source": "ソース",
     "switch_dark_mode": "ナイトモードスイッチ",
     "switch_language": "言語を切り替える",
-    "title": "灰妲の音声ボタン",
+    "title": "灰妲の音声ボタンコレクション",
     "url": "https://dada-vtuber-button.vercel.app",
     "voice": "音声"
   }

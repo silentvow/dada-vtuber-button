@@ -71,23 +71,25 @@
   },
   "site": {
     "about": "About",
-    "challenge": "Listen DaDa Challenge",
-    "description": "Record the voice of the VTuber ReLiveDaDa, so that everyone can listen to her voice at any time.",
+    "challenge": "Da Challenge",
+    "description": "A collection of DaDa's voice buttons from ReLive Project.",
     "favorite": "Favorite",
+    "feedback": "Feedback",
     "footer": {
       "author": "彼得與狼",
       "author_link": "https://x.com/tn604000",
-      "content": "This site is a fan work and is not associated with the ReLive Project official. For staff and more information, please see \"About\" page.",
+      "content": "This site is a fan work and is not associated with the ReLive Project official. For staff and more information, please see {feedback} page.",
       "repo_link": "https://github.com/silentvow/dada-vtuber-button"
     },
     "index": "Index",
     "keywords": "DaDa,Vtuber,Taiwan,Voice Button,ReLive Project",
     "links": "Links",
+    "privacy": "Privacy Policy",
     "social_image": "https://dada-vtuber-button.vercel.app/img/og_common.png",
     "source": "Source",
     "switch_dark_mode": "Dark Mode",
     "switch_language": "Switch Language",
-    "title": "DaDa Voice Button",
+    "title": "DaDa Voice Button Collection",
     "url": "https://dada-vtuber-button.vercel.app",
     "voice": "Voice"
   }

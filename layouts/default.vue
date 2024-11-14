@@ -164,7 +164,7 @@
             </span>
             <span>&nbsp;|&nbsp;</span>
             <span>
-              <a href="/privacy">Privacy</a>
+              <a href="/privacy">{{ $t('site.privacy') }}</a>
             </span>
             <v-btn
               v-if="$t('site.footer.repo_link') === 'no_display'"
@@ -178,7 +178,8 @@
             </v-btn>
           </div>
           <div>
-            <p>{{ $t('site.footer.content') }}</p>
+            <!-- <p>{{ $t('site.footer.content', { feedback: $t('site.feedback') }) }}</p> -->
+            <p v-html="footerContent"></p>
           </div>
         </div>
       </v-footer>
@@ -321,6 +322,10 @@ export default {
   computed: {
     current_locale() {
       return this.$i18n.locale;
+    },
+    footerContent() {
+      const styledName = `<a href="/feedback">${this.$t('site.feedback')}</a>`;
+      return this.$t('site.footer.content').replace('{feedback}', styledName);
     }
   },
   mounted() {

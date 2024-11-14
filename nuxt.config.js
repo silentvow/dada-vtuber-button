@@ -124,6 +124,11 @@ export default {
   },
   pwa: {
     manifest: {
+      name: '灰妲語音按鈕收藏集',
+      short_name: '灰妲語音',
+      description:
+        '歡迎來到灰妲粉絲專頁！這裡收錄了灰妲的各種經典語音與獨特叫聲，讓粉絲可以隨時點擊按鈕播放，體驗她的魅力與個性。',
+      lang: 'zh-TW',
       start_url: '/?standalone=true'
     }
   },
