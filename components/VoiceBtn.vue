@@ -213,7 +213,7 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
   border: thin solid #e0e0e0;
 }
 
-.vo-btn {
+.vo-btn.vo-btn {
   display: inline-block;
   height: max-content;
   min-height: 36px;
