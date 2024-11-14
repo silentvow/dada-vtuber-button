@@ -2,9 +2,21 @@
   "action": {
     "like": "Like",
     "like_success": "Liked",
+    "play_option": "Play Option",
+    "submit_answer": "Submit Answer",
     "unlike": "Unlike",
     "unlike_success": "Unliked",
     "view_stream": "View Stream"
+  },
+  "challenge": {
+    "answer_result": "Correct Answer: ",
+    "correct": "Correct!",
+    "high_score": "High Score",
+    "next_question": "Next Question",
+    "now_score": "Now Score",
+    "question_desc": "Which stream does the following voice come from?",
+    "rule": "One point for each correct answer, score reset for each wrong answer.",
+    "wrong": "Wrong!"
   },
   "control": {
     "disabled": "Disabled",
@@ -59,6 +71,7 @@
   },
   "site": {
     "about": "About",
+    "challenge": "Listen DaDa Challenge",
     "description": "Record the voice of the VTuber ReLiveDaDa, so that everyone can listen to her voice at any time.",
     "favorite": "Favorite",
     "footer": {

@@ -58,6 +58,14 @@
             <v-list-item-title>{{ $t('site.favorite') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
+        <v-list-item dense to="/challenge" router exact>
+          <v-list-item-action>
+            <v-icon>{{ icons.head_question }}</v-icon>
+          </v-list-item-action>
+          <v-list-item-content>
+            <v-list-item-title>{{ $t('site.challenge') }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
         <v-list-item dense to="/feedback" router exact>
           <v-list-item-action>
             <v-icon>{{ icons.msg_question }}</v-icon>
@@ -278,7 +286,8 @@ import {
   mdiPlaylistStar,
   mdiCommentAccountOutline,
   mdiVolumeHigh,
-  mdiVolumeLow
+  mdiVolumeLow,
+  mdiHeadQuestionOutline
 } from '@mdi/js';
 //import themes from '../assets/themes.js';
 
@@ -289,6 +298,7 @@ export default {
         apps: mdiApps,
         account_group: mdiAccountGroup,
         code_tags: mdiCodeTags,
+        head_question: mdiHeadQuestionOutline,
         heart: mdiHeartOutline,
         msg_question: mdiMessageAlertOutline,
         brightness: mdiBrightness2,

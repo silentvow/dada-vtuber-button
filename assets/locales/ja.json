@@ -2,9 +2,21 @@
   "action": {
     "like": "お気に入り",
     "like_success": "お気に入り登録済み",
+    "play_option": "再生オプション",
+    "submit_answer": "回答を提出",
     "unlike": "お気に入り解除",
     "unlike_success": "お気に入り解除済み",
     "view_stream": "ストリームを見る"
+  },
+  "challenge": {
+    "answer_result": "正解：",
+    "correct": "正解！",
+    "high_score": "ハイスコア",
+    "next_question": "次の問題",
+    "now_score": "現在のスコア",
+    "question_desc": "以下の音声はどの配信から来ていますか？",
+    "rule": "正解するごとに1ポイント、不正解するとスコアがリセットされます。",
+    "wrong": "不正解！"
   },
   "control": {
     "disabled": "無効",
@@ -59,6 +71,7 @@
   },
   "site": {
     "about": "について",
+    "challenge": "ダダに挑戦",
     "description": "灰妲の声を記録し、誰もがいつでも彼女の声を聞くことができるようにします。",
     "favorite": "お気に入り",
     "feedback": "フィードバック",

@@ -111,6 +111,9 @@ export default {
           warning: themes.dark.warning,
           info: themes.dark.info,
           success: themes.dark.success
+        },
+        options: {
+          customProperties: true
         }
       }
     },
