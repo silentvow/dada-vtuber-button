@@ -40,6 +40,9 @@
               </template>
             </v-radio>
           </v-radio-group>
+          <v-btn class="mx-5 my-4" x-large color="success" @click="question = generateVoiceOptions()">
+            {{ $t('site.next') }}
+          </v-btn>
         </v-card-text>
       </v-card>
     </v-flex>
