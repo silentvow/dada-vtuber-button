@@ -140,6 +140,17 @@
           },
           "path": "news-202405/ha-ha-ha-7.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "9534f479-3e58-41a8-84fe-9fca9e3950ad",
+          "name": "hahaha-8",
+          "description": {
+            "en": "laughing sound-8",
+            "ja": "笑い声-8",
+            "zh": "大笑聲-8"
+          },
+          "path": "news-202410/hahaha-8.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         }
       ]
     },
@@ -162,6 +173,17 @@
           },
           "path": "news-202405/da-jia-hao.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "35cf5266-ea0d-432d-9fc3-0eb5649c4676",
+          "name": "sayonara",
+          "description": {
+            "en": "Sayonara",
+            "ja": "さようなら",
+            "zh": "莎優娜啦"
+          },
+          "path": "news-202410/sayonara.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         },
         {
           "id": "e9f8b1a2-1234-4567-8914-abcdef123469",
@@ -206,6 +228,17 @@
           },
           "path": "news-202405/gan-en-bye-bye.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "3a173a6e-9724-4427-ac36-0566bb249be7",
+          "name": "how-are-you",
+          "description": {
+            "en": "How are you? Fine, thank you.",
+            "ja": "お元気ですか？私は元気です、ありがとう。",
+            "zh": "How are you? Fine, thank you."
+          },
+          "path": "news-202410/how-are-you.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         }
       ]
     },
@@ -307,6 +340,17 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "88ca9f86-cbed-4567-9316-97aeca9f815c",
+          "name": "ni-nya-ka-hao",
+          "description": {
+            "en": "How are you doing?",
+            "ja": "お元気ですか？",
+            "zh": "恁娘卡好咧"
+          },
+          "path": "news-202410/ni-nya-ka-hao.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
           "id": "8ce22374-094d-4085-9225-4739968f2900",
           "name": "bu-yao-za-zao-yiao",
           "description": {
@@ -349,6 +393,17 @@
           },
           "path": "draw-avatar-10/san-shiao.mp3",
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "id": "1f32a735-215a-4ed8-a04b-dd630d40685d",
+          "name": "chi-ni-der-da-da-mian",
+          "description": {
+            "en": "To hell with your dan dan noodles",
+            "ja": "担々麺なんか知るか",
+            "zh": "去你的擔擔麵"
+          },
+          "path": "news-202410/chi-ni-der-da-da-mian.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         },
         {
           "id": "e9f8b1a2-1234-4567-8911-abcdef123466",
@@ -2210,6 +2265,17 @@
       },
       "voice_list": [
         {
+          "id": "7edce39c-5fbb-40c8-a80f-a4e4c3e9b64f",
+          "name": "chian-diao-chi-er",
+          "description": {
+            "en": "Once again, I emphasize that this broadcaster is not a penguin",
+            "ja": "改めて、この配信者はペンギンではありませんよ",
+            "zh": "再次強調本主播不是企鵝噢"
+          },
+          "path": "news-202410/chian-diao-chi-er.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
           "id": "c3eafb3c-fe47-4cb4-8d13-81ef817543d0",
           "name": "bu-s-chi-er",
           "description": {
@@ -2296,6 +2362,17 @@
           },
           "path": "yoda-girlfriend/relive-she-ka-hsian.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "4289b7cb-5619-48d0-8508-3676ec1c0eff",
+          "name": "self-intro-1",
+          "description": {
+            "en": "I'm Grayta, a first generation gray parrot VTuber from Relive",
+            "ja": "私はReliveの一期生の灰色オウムVTuberのグレイタです",
+            "zh": "我是Relive的一期生灰鸚鵡Vtuber灰妲"
+          },
+          "path": "news-202410/self-intro-1.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         },
         {
           "id": "6b40bd87-6d69-451a-ab66-bdb44d4b0ede",
@@ -2450,6 +2527,17 @@
           },
           "path": "mihoyo-set/jiao-zuo-da-nai.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "71c623db-ed99-4ab3-8db9-7a6942bd7fea",
+          "name": "yo-da-ne-ne",
+          "description": {
+            "en": "I have big boobs, you know",
+            "ja": "私は大きな胸を持っていますよ",
+            "zh": "我可是有大ㄋㄟㄋㄟ的喔"
+          },
+          "path": "news-202410/yo-da-ne-ne.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         },
         {
           "id": "ba85c62c-1421-452d-baae-0eedb019c47b",
@@ -3112,6 +3200,17 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "94338600-3077-47f2-8cbf-8584a72346ae",
+          "name": "bai-ye-goblin",
+          "description": {
+            "en": "I am a goblin who works at midnight",
+            "ja": "私は夜中に働くゴブリンです",
+            "zh": "我是半夜工作的好哥布林"
+          },
+          "path": "news-202410/bai-ye-goblin.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
           "id": "20023579-d07c-4bdf-9198-b6bec45631eb",
           "name": "shan-meng-nu",
           "description": {
@@ -3154,6 +3253,17 @@
           },
           "path": "mihoyo-set/jiao-se-hen-hao-kan.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "7268e815-8b09-4f37-b8ed-e4b47392e1d8",
+          "name": "o-er-yo-dian-diu-lian",
+          "description": {
+            "en": "Sometimes I feel a bit embarrassed",
+            "ja": "時々恥ずかしく感じることもあります",
+            "zh": "我偶爾有時候也會感到有點丟臉"
+          },
+          "path": "news-202410/o-er-yo-dian-diu-lian.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         },
         {
           "id": "2bbeee40-85f9-445e-a770-af0c72453160",
@@ -3233,6 +3343,17 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "172268de-3cb1-45b4-a863-878eabcf7152",
+          "name": "goblin-sao-zao",
+          "description": {
+            "en": "So now there are rumors that there's a Gobuta in the forest who harasses passing streamers",
+            "ja": "今、森の中にゴブ太という配信者を困らせる者がいるという噂があります",
+            "zh": "所以現在大家都傳言說森林裡面有個哥布妲並且會去騷擾路過的主播"
+          },
+          "path": "news-202410/goblin-sao-zao.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
           "id": "e7bcc42f-f301-4e03-949e-a40a79da6ad9",
           "name": "man-hua-pei-in",
           "description": {
@@ -3242,6 +3363,17 @@
           },
           "path": "news-202405/man-hua-pei-in.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "9229d811-abec-4f5f-90a4-4c593bc19321",
+          "name": "nan-fan-lao-de",
+          "description": {
+            "en": "Why do you always ask me such weird questions? What's with all this about lesbians and dad's self-pleasure? Can't you ask normal questions like 'How's the weather, dad?' It's sunny, thanks. 'Dad, what's a prostitute?' I swear you'll be the end of my career!",
+            "ja": "なぜいつも変な質問ばかりするんだ？レズビアンだの親父のオナニーだの何なんだ？天気はどうだ親父？とか普通の質問できないのか？今日は晴れだよ、どうも。親父、売春婦って何？お前らのせいで俺の仕事がダメになるぞ！",
+            "zh": "為什麼你們每次來都要問俺一些奇怪的問題呢？什麼女同志阿老爹打手槍是什麼玩意兒，你們可不可以問一點正常的阿像是老爹天氣怎麼樣？出大太陽謝謝。老爹什麼是娼妓？俺說俺的飯碗遲早砸在你們手上！"
+          },
+          "path": "news-202410/nan-fan-lao-de.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         }
       ]
     }
