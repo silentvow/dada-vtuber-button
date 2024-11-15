@@ -290,6 +290,7 @@ import {
   mdiVolumeLow,
   mdiHeadQuestionOutline
 } from '@mdi/js';
+import { inject } from '@vercel/analytics';
 //import themes from '../assets/themes.js';
 
 export default {
@@ -346,6 +347,7 @@ export default {
     }
 
     this.$root.$on('show-snackbar', this.showSnackbar);
+    inject();
   },
   beforeDestroy() {
     this.$root.$off('show-snackbar', this.showSnackbar);
