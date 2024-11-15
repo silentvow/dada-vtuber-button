@@ -189,11 +189,9 @@ export default {
   },
   computed: {
     voice_host() {
-      return '/voices/';
-      //可以选择生产环境用CDN以减少宽带使用量/缓解速度瓶颈，例如白嫖JsDeliver
-      //if (process.env.NODE_ENV === 'production')
-      //  return 'https://cdn.jsdelivr.net/gh/GitHub用户名/仓库名@master/static/voices/';
-      //else return '/voices/';
+      if (process.env.NODE_ENV === 'production')
+        return 'https://cdn.jsdelivr.net/gh/silentvow/dada-vtuber-button@master/static/voices/';
+      else return '/voices/';
     },
     dark_text() {
       return {

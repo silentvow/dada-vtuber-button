@@ -117,7 +117,9 @@ export default {
       return this.$i18n.locale;
     },
     voice_host() {
-      return '/voices/';
+      if (process.env.NODE_ENV === 'production')
+        return 'https://cdn.jsdelivr.net/gh/silentvow/dada-vtuber-button@master/static/voices/';
+      else return '/voices/';
     },
     isAuthorized() {
       return this.member?.roles.length > 0;
