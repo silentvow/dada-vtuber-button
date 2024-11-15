@@ -65,6 +65,17 @@
       },
       "voice_list": [
         {
+          "id": "4221cf1a-6f72-4d08-988b-2614affdc3ce",
+          "name": "evil-ha-ha-ha",
+          "description": {
+            "en": "Evil laughter",
+            "ja": "悪い笑い声",
+            "zh": "邪惡笑聲"
+          },
+          "path": "valentine-lyrics/evil-ha-ha-ha.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
           "id": "a9af9a18-ad1e-4025-a169-41af54af0430",
           "name": "ha-ha-ha-1",
           "description": {
@@ -151,6 +162,17 @@
           },
           "path": "news-202410/hahaha-8.mp3",
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "0068d000-4833-460c-842e-70a2615f2095",
+          "name": "hahaha-9",
+          "description": {
+            "en": "Loud laughter -9",
+            "ja": "大笑声-9",
+            "zh": "大笑聲-9"
+          },
+          "path": "valentine-lyrics/hahaha-9.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         }
       ]
     },
@@ -184,6 +206,17 @@
           },
           "path": "news-202410/sayonara.mp3",
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "0ce935f5-7adb-40e6-abde-5d8013a9828b",
+          "name": "hi-wan-shan-hao",
+          "description": {
+            "en": "Good evening.",
+            "ja": "こんばんは",
+            "zh": "嗨晚上好"
+          },
+          "path": "valentine-lyrics/hi-wan-shan-hao.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
           "id": "e9f8b1a2-1234-4567-8914-abcdef123469",
@@ -252,17 +285,6 @@
       },
       "voice_list": [
         {
-          "id": "205bc69f-fe94-4cf7-ab28-3cc48df2a13f",
-          "name": "jia-sai-la",
-          "description": {
-            "en": "Stop it.",
-            "ja": "やめろ。",
-            "zh": "甲賽啦"
-          },
-          "path": "yoda-girlfriend/jia-sai-la.mp3",
-          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
           "id": "1c0e811c-a623-497d-b3ad-dfe4f0e93e6b",
           "name": "bie-hu-sow",
           "description": {
@@ -305,17 +327,6 @@
           },
           "path": "draw-avatar-10/bi-tsue-bi-tsue.mp3",
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
-        },
-        {
-          "id": "15247b78-f275-4fe7-930b-951cdfa4165e",
-          "name": "fuck",
-          "description": {
-            "en": "Fuck.",
-            "ja": "くそ。",
-            "zh": "Fuck"
-          },
-          "path": "yoda-girlfriend/fuck.mp3",
-          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
           "id": "5858b8d8-7224-4322-8014-7da2a4350406",
@@ -395,17 +406,6 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
-          "id": "1f32a735-215a-4ed8-a04b-dd630d40685d",
-          "name": "chi-ni-der-da-da-mian",
-          "description": {
-            "en": "To hell with your dan dan noodles",
-            "ja": "担々麺なんか知るか",
-            "zh": "去你的擔擔麵"
-          },
-          "path": "news-202410/chi-ni-der-da-da-mian.mp3",
-          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
-        },
-        {
           "id": "e9f8b1a2-1234-4567-8911-abcdef123466",
           "name": "yo-nu-peng-yo-gwun",
           "description": {
@@ -448,6 +448,17 @@
           },
           "path": "yoda-new-clothes/mon-zo-hsin-la.mp3",
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
+          "id": "18fa5092-74cd-4f90-adce-0722637f8a29",
+          "name": "ni-yao-ze-mo-yan",
+          "description": {
+            "en": "Then what do you want?",
+            "ja": "じゃあ、どうしろと!",
+            "zh": "阿不然你要怎麼樣"
+          },
+          "path": "valentine-lyrics/ni-yao-ze-mo-yan.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
           "id": "6408faf2-2343-4f00-8c77-d71f9f324ed0",
@@ -538,6 +549,28 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "cb0c83ca-e0b8-4334-a69d-4bc39dd924d8",
+          "name": "du-ban-cha-bu-duo",
+          "description": {
+            "en": "What do you mean I'm as useless as the floor, you bastard?",
+            "ja": "何だと、私はお前と同じ価値もないってのか、でくのぼう!",
+            "zh": "什麼叫做我跟地板差不多你他媽"
+          },
+          "path": "valentine-lyrics/du-ban-cha-bu-duo.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "4cdf254f-6a74-4597-93ab-def5d0b05b22",
+          "name": "wo-zue-tao-yen-ni-ler",
+          "description": {
+            "en": "What love? I hate you the most! Hmph~",
+            "ja": "何を愛している?私はあなたが一番嫌い!うっ!",
+            "zh": "什麼喜歡？我最討厭你了！哼～"
+          },
+          "path": "valentine-lyrics/wo-zue-tao-yen-ni-ler.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
           "id": "41d63dc0-5cd8-4a9b-99ae-a8d0e0606d81",
           "name": "ze-shi-na-mou-dou-la",
           "description": {
@@ -615,17 +648,6 @@
       },
       "voice_list": [
         {
-          "id": "k6lmn4o2-p1k3-4o8m-9n5l-3o7p8n0m1l2k",
-          "name": "gan-ni-nya-la",
-          "description": {
-            "en": "F**k your mother!",
-            "ja": "くそったれ！",
-            "zh": "幹你娘啦"
-          },
-          "path": "two-loli-blame/gan-ni-nya-la.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
           "id": "u6vwx4y2-z1u3-4y8w-9x5v-3y7z8x0w1v2u",
           "name": "ma-der-luo-li-kon",
           "description": {
@@ -635,6 +657,193 @@
           },
           "path": "two-loli-blame/ma-der-luo-li-kon.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        }
+      ]
+    },
+    {
+      "id": "e41f632f-c046-43b1-baf9-42d3cf70274c",
+      "group_name": "funny",
+      "group_description": {
+        "en": "Funny",
+        "ja": "面白い",
+        "zh": "搞耍"
+      },
+      "voice_list": [
+        {
+          "id": "d828da26-4731-49eb-bd02-8f1001795374",
+          "name": "yan-wa-ye-su",
+          "description": {
+            "en": "Looking up to Jesus (song)",
+            "ja": "主を仰ぐ (歌)",
+            "zh": "仰望耶穌 (歌)"
+          },
+          "path": "valentine-lyrics/yan-wa-ye-su.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "2e42e601-5abd-4b49-9a18-6d1633f2d71d",
+          "name": "don-liu-don-don",
+          "description": {
+            "en": "Still sleeping, yet daydreaming about having a girlfriend.",
+            "ja": "まだ寝てるくせに、彼女がいるって夢見てる。",
+            "zh": "還睡阿都洞六洞洞了還不起床，還幻想自己有女朋友阿"
+          },
+          "path": "valentine-lyrics/don-liu-don-don.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "42f4a911-31c7-4417-8aa9-464bb80b0e92",
+          "name": "ke-wu-explosion",
+          "description": {
+            "en": "Damn you, you evil creature! Explode! Explosion!",
+            "ja": "このクソ野郎め、爆発しろや!Explosion!",
+            "zh": "可惡你這個邪惡的生物給我爆炸吧Explosion！"
+          },
+          "path": "valentine-lyrics/ke-wu-explosion.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "896550a6-a2cf-4893-a09b-e71217c7059c",
+          "name": "guo-shi-wu-shuan",
+          "description": {
+            "en": "You're back, do you want to eat first, shower first, or play mahjong first? Zhan zhan zhan, Invincible!",
+            "ja": "帰ってきたんだな。ご飯、お風呂、麻雀のどれから始めたい?ジャンジャンジャン、天下無敵!",
+            "zh": "你回來了阿，你是想先吃飯還是先洗澡還是先來打日麻！咚咚咚國士無雙！"
+          },
+          "path": "valentine-lyrics/guo-shi-wu-shuan.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "f0ad86b8-d3e9-47eb-82bd-5dd0bea64337",
+          "name": "gin-ker-la",
+          "description": {
+            "en": "We need Ginkgo Biloba! Africa's agriculture is underdeveloped, we need Ginkgo Biloba! Japan's resources are too scarce, we need Ginkgo Biloba!",
+            "ja": "金坷垃が必要だ!アフリカの農業は立ち遅れている、金坷垃が必要だ!日本のリソースは不足している、金坷垃が必要だ!",
+            "zh": "我們要金坷拉非洲農業不發達必須要有金坷拉我們要金坷拉日本資源太缺乏必須要有金坷拉"
+          },
+          "path": "valentine-lyrics/gin-ker-la.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "97a83ed0-ad9e-4f31-bfd8-e5b75754d2c3",
+          "name": "du-guo-yu-kua-der",
+          "description": {
+            "en": "Did everyone have a good day? Or was it like a pitiful office worker, working overtime after work before dragging your exhausted body to the computer?",
+            "ja": "みんな良い一日を過ごせましたか?それともサラリーマンみたいに残業して疲れ果てての帰宅ですか?",
+            "zh": "各位有度過愉快的一天嗎？還是今天就像一個可悲的社畜一樣下了班之後又加了班之後才拖著疲憊的身體來到電腦前呢"
+          },
+          "path": "valentine-lyrics/du-guo-yu-kua-der.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        }
+      ]
+    },
+    {
+      "id": "7a084520-4ec1-46ba-ade7-53b811414974",
+      "group_name": "kind",
+      "group_description": {
+        "en": "Kind",
+        "ja": "優しい",
+        "zh": "溫柔"
+      },
+      "voice_list": [
+        {
+          "id": "e795ae60-5fcf-435e-970d-a2ae2f00ac72",
+          "name": "yao-gua-o",
+          "description": {
+            "en": "Be good, okay?",
+            "ja": "いい子でいてね",
+            "zh": "要乖喔"
+          },
+          "path": "valentine-lyrics/yao-gua-o.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "a6532984-b3d1-4b0a-9b86-ff10afc248d7",
+          "name": "hsin-hwun-san-wen",
+          "description": {
+            "en": "The three questions for newlyweds",
+            "ja": "新婚三問",
+            "zh": "新婚三問"
+          },
+          "path": "valentine-lyrics/hsin-hwun-san-wen.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "7097267d-5acd-4dc5-86f2-b78e5186275a",
+          "name": "chin-ren-jie-kua-ler",
+          "description": {
+            "en": "Happy Valentine's Day! I love you 5ma.",
+            "ja": "バレンタインおめでとう!愛してるよ5ma。",
+            "zh": "情人節快樂～最愛你們啦5ma"
+          },
+          "path": "valentine-lyrics/chin-ren-jie-kua-ler.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "360e89b5-e0a4-4b28-9a72-a4515b4f57f7",
+          "name": "su-yu-wo-der-chin-ren",
+          "description": {
+            "en": "Today you are my valentine, don't sneak away",
+            "ja": "今日はあなたは私のバレンタイン、逃げないでね",
+            "zh": "今天你是屬於我的情人，不可以偷跑喔"
+          },
+          "path": "valentine-lyrics/su-yu-wo-der-chin-ren.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "f64c02bf-3f8b-4987-95df-925b8d0d1811",
+          "name": "chocolate-so-gon",
+          "description": {
+            "en": "This chocolate was handmade by me and is very delicious. I love you.",
+            "ja": "この手作りチョコは本当においしいです。愛してる。",
+            "zh": "這個巧克力是我手工作的很好吃喔，愛你"
+          },
+          "path": "valentine-lyrics/chocolate-so-gon.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "a83b2816-ce0c-44bf-a3a3-dbb71e5facd7",
+          "name": "spring-coming",
+          "description": {
+            "en": "Spring is coming, your spring, no spring without you",
+            "ja": "春が来る、あなたの春が。あなたなくしては春はない",
+            "zh": "春天就要到了，遇見你的春天，沒有你的春天"
+          },
+          "path": "valentine-lyrics/spring-coming.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "8fd12915-06e0-416e-b9f0-1a711fe922b4",
+          "name": "ye-bu-s-bu-hsin",
+          "description": {
+            "en": "If you want... today... that's fine too, you know.",
+            "ja": "もし、今日なら......構わないですよ。",
+            "zh": "如果你要....今天....也不是不行喔"
+          },
+          "path": "valentine-lyrics/ye-bu-s-bu-hsin.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "9ee43524-c3ae-418a-8663-e86491231e3d",
+          "name": "wo-z-shi-shian-yao",
+          "description": {
+            "en": "I just... I just wanted to... spend Valentine's Day with you.",
+            "ja": "私は......ただ......一緒にバレンタインを過ごしたかっただけ。",
+            "zh": "我只是....我只是想要....陪你過情人節而已"
+          },
+          "path": "valentine-lyrics/wo-z-shi-shian-yao.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "3e1247d6-f736-4a6e-822a-82a598f59e5c",
+          "name": "wu-lun-ni-za",
+          "description": {
+            "en": "No matter where you are, I just want you to know that I'm thinking of you right now.",
+            "ja": "どこにいても、今、私はあなたのことを考えているってことを知っていてください。",
+            "zh": "無論你在哪裡，我只想要你知道，此時此刻我正在想你喔"
+          },
+          "path": "valentine-lyrics/wu-lun-ni-za.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         }
       ]
     },
@@ -690,6 +899,17 @@
           },
           "path": "news-202405/300-jian-jiao.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "183d3816-be6f-42de-b854-e724bd6a421d",
+          "name": "ren-jia-min-min",
+          "description": {
+            "en": "They clearly love him!",
+            "ja": "明らかに、彼を愛しているじゃないか!",
+            "zh": "人家明明就很愛他！"
+          },
+          "path": "valentine-lyrics/ren-jia-min-min.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
           "id": "e3e041cb-26a3-4138-915c-981a5b48b404",
@@ -890,6 +1110,17 @@
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
+          "id": "ae17b611-5502-4dfb-b2b8-7ac3ae1cca29",
+          "name": "yoda-hsin-hun-san-wun",
+          "description": {
+            "en": "The three questions for newlyweds",
+            "ja": "新婚三問",
+            "zh": "新婚三問"
+          },
+          "path": "valentine-lyrics/yoda-hsin-hun-san-wun.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
           "id": "c0dcd888-61a9-4140-acb0-37aac8b3d971",
           "name": "weee",
           "description": {
@@ -987,6 +1218,28 @@
           },
           "path": "yoda-new-clothes/zue-si-hua-da-jia.mp3",
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
+          "id": "e299bc8f-1c7e-4c7d-8d01-d73d5446c6fb",
+          "name": "wo-zue-si-hua-5ma",
+          "description": {
+            "en": "I love you the most, 5ma~",
+            "ja": "私はあなたが一番好き、5ma~",
+            "zh": "我最喜歡你了5ma~"
+          },
+          "path": "valentine-lyrics/wo-zue-si-hua-5ma.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "876add1d-19e7-4526-bfc8-0eb2b583dd43",
+          "name": "ger-ger-jie-hun",
+          "description": {
+            "en": "I'll marry my brother when I grow up.",
+            "ja": "大きくなったら兄と結婚するわ。",
+            "zh": "我長大以後要跟哥哥結婚"
+          },
+          "path": "valentine-lyrics/ger-ger-jie-hun.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         }
       ]
     },
@@ -1196,6 +1449,17 @@
           },
           "path": "yoda-girlfriend/din-gon-san-lian-2.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "f10e5afe-8078-4b67-83b7-3029830c30e1",
+          "name": "tu-shen-fe-wu-chu-chon",
+          "description": {
+            "en": "You bastard, waste, maggot",
+            "ja": "畜生め、不要物、うじ虫",
+            "zh": "畜生廢物蛆蟲"
+          },
+          "path": "valentine-lyrics/tu-shen-fe-wu-chu-chon.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
           "id": "f1ghi9j7-k6f8-9j3h-4i0g-8j2k3i5h6g7f",
@@ -2232,6 +2496,17 @@
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
         },
         {
+          "id": "b1fe9a8c-a519-433f-af4e-6dd743ddc069",
+          "name": "se-yao-ts-g-tue",
+          "description": {
+            "en": "Who wants chicken legs, damn it",
+            "ja": "誰が手羽先食べたいと言ったんだ",
+            "zh": "媽的啦誰要吃雞腿媽的"
+          },
+          "path": "valentine-lyrics/se-yao-ts-g-tue.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
           "id": "7d0ede7e-cfd6-4f40-9434-ffbdee28f5b7",
           "name": "ge-wo-g-zuo",
           "description": {
@@ -2241,6 +2516,17 @@
           },
           "path": "mihoyo-set/ge-wo-g-zuo.mp3",
           "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+        },
+        {
+          "id": "9ac56ac5-c2c4-4f02-8434-4ca40e17cf6f",
+          "name": "gtue-gtue-san-shiao",
+          "description": {
+            "en": "Chicken legs, give me chicken legs! Damn it, you rascal!",
+            "ja": "手羽先くれよ、手羽先!くそっ、小悪党め!",
+            "zh": "雞腿阿雞腿給我雞腿媽的這沙小"
+          },
+          "path": "valentine-lyrics/gtue-gtue-san-shiao.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
           "id": "dc5f9328-172e-411b-9077-ce293f97b31e",
@@ -2353,6 +2639,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "b9c2b326-ef4f-497c-8be5-b923b2c95d03",
+          "name": "tsao-ni-ma-bang",
+          "description": {
+            "en": "Eat penis, it's fun, fuck your mother's Bang, fuck your mother!",
+            "ja": "ちんこ食え、面白いぞ、お母さんのBang、お前のマザファッカー!",
+            "zh": "吃ㄐㄐ好玩操你媽的Bang操你媽的啦"
+          },
+          "path": "valentine-lyrics/tsao-ni-ma-bang.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
           "id": "07a23c8b-ad5d-4d28-849d-5c67756844db",
           "name": "relive-she-ka-hsian",
           "description": {
@@ -2399,6 +2696,105 @@
       ]
     },
     {
+      "id": "30f5a154-6e16-4175-8316-a534e4906f28",
+      "group_name": "fff_team",
+      "group_description": {
+        "en": "FFF Team",
+        "ja": "FFF団",
+        "zh": "FFF團"
+      },
+      "voice_list": [
+        {
+          "id": "94ff6cac-9c4f-4a6c-823e-50fabe5b6bf6",
+          "name": "sao-bao-chin-ru",
+          "description": {
+            "en": "Burn the couples!",
+            "ja": "カップル焼き払え!",
+            "zh": "燒爆情侶！"
+          },
+          "path": "valentine-lyrics/sao-bao-chin-ru.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "2e553944-50ca-4cf0-a760-0b4d1c7a4e84",
+          "name": "bao-za-ba",
+          "description": {
+            "en": "Let them explode, normies. Explode!",
+            "ja": "ノーマルを爆破してやれ。爆弾だ!",
+            "zh": "爆炸吧現充們爆炸吧"
+          },
+          "path": "valentine-lyrics/bao-za-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "bc85bf6b-3830-45f7-a6df-1ea5d93e7f35",
+          "name": "chi-s-chi-s-tuan",
+          "description": {
+            "en": "Everyone, what are we? The \"Go Die\" Group!",
+            "ja": "みんな、私たちは何ですか?「死ね団」ですね!",
+            "zh": "各位我們是什麼？去死去死團！"
+          },
+          "path": "valentine-lyrics/chi-s-chi-s-tuan.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "22d63110-1ec2-400f-b26c-bbc085f60f16",
+          "name": "lao-nia-chi-s-ba",
+          "description": {
+            "en": "You damn couples, go die!",
+            "ja": "お前ら、カップルどもくたばれ!",
+            "zh": "你們這些該死的情侶，給老娘去死吧"
+          },
+          "path": "valentine-lyrics/lao-nia-chi-s-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "8c430794-7498-420c-8a91-7617939f04c4",
+          "name": "chin-lu-chie-ka",
+          "description": {
+            "en": "Couples and the chocolates given to them should be crushed to pieces.",
+            "ja": "彼らなる愛する者と、贈られたチョコレートはすり潰されるべきだ。",
+            "zh": "情侶跟送給情侶的巧克力應該要被切開粉碎才對吧"
+          },
+          "path": "valentine-lyrics/chin-lu-chie-ka.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "38108d5b-e344-4b5c-9727-da95e8ad8718",
+          "name": "gai-s-der-chin-lu",
+          "description": {
+            "en": "Why the hell do you goddamn couples have to flaunt your relationships in front of this forever-single person?",
+            "ja": "なぜ、この独身者の前で、お前らカップルは関係をアピールしなきゃいけないんだ!",
+            "zh": "為什麼你們這些該死的情侶，要對我這個母胎單身放閃呢"
+          },
+          "path": "valentine-lyrics/gai-s-der-chin-lu.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "41f782b8-ba45-4002-98e6-a07ba285eaab",
+          "name": "yi-wei-ke-yi-tuo-dan",
+          "description": {
+            "en": "I've been thinking since last Valentine's Day on 2/14 that I'll be single this 2/14 again.",
+            "ja": "前のバレンタインデーの2/14以来、今年の2/14も独身のままだと思ってた。",
+            "zh": "我從上一次2/14號的時候我就一直以來都以為我明年的2/14會脫單"
+          },
+          "path": "valentine-lyrics/yi-wei-ke-yi-tuo-dan.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "6d4832e6-a66d-449e-88cc-57bdab9b50b5",
+          "name": "tin-z-chin-ren-jie",
+          "description": {
+            "en": "Please Taiwan government, call for a law to stop this torturous Valentine's Day holiday, leave us single people alone",
+            "ja": "台湾政府に法改正の呼びかけを、バレンタインデーなんて拷問する祝日は辞めさせてくれ、独身者を放っておいてくれ",
+            "zh": "請台灣政府呼籲修法停止情人節這種折磨人的節日放過我們單身放過我們單身族群好嗎"
+          },
+          "path": "valentine-lyrics/tin-z-chin-ren-jie.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        }
+      ]
+    },
+    {
       "id": "d428f3be-0ef4-47a2-a6eb-9914697fdb47",
       "group_name": "unicorn",
       "group_description": {
@@ -2428,6 +2824,105 @@
           },
           "path": "dp-toys/wu-shang-kuai-le.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        }
+      ]
+    },
+    {
+      "id": "204def7b-24bc-4d28-b60e-da9c2f3cf672",
+      "group_name": "elegance",
+      "group_description": {
+        "en": "Abandoning Elegance",
+        "ja": "品位を捨てる",
+        "zh": "棄質"
+      },
+      "voice_list": [
+        {
+          "id": "205bc69f-fe94-4cf7-ab28-3cc48df2a13f",
+          "name": "jia-sai-la",
+          "description": {
+            "en": "Stop it.",
+            "ja": "やめろ。",
+            "zh": "甲賽啦"
+          },
+          "path": "yoda-girlfriend/jia-sai-la.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "b3a1115a-85f7-4254-b116-57761ec08ca2",
+          "name": "three-small-la",
+          "description": {
+            "en": "You rascal",
+            "ja": "小悪党め",
+            "zh": "沙小啦"
+          },
+          "path": "valentine-lyrics/three-small-la.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "k6lmn4o2-p1k3-4o8m-9n5l-3o7p8n0m1l2k",
+          "name": "gan-ni-nya-la",
+          "description": {
+            "en": "F**k your mother!",
+            "ja": "くそったれ！",
+            "zh": "幹你娘啦"
+          },
+          "path": "two-loli-blame/gan-ni-nya-la.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "id": "15247b78-f275-4fe7-930b-951cdfa4165e",
+          "name": "fuck",
+          "description": {
+            "en": "Fuck.",
+            "ja": "くそ。",
+            "zh": "Fuck"
+          },
+          "path": "yoda-girlfriend/fuck.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "1f32a735-215a-4ed8-a04b-dd630d40685d",
+          "name": "chi-ni-der-da-da-mian",
+          "description": {
+            "en": "To hell with your dan dan noodles",
+            "ja": "担々麺なんか知るか",
+            "zh": "去你的擔擔麵"
+          },
+          "path": "news-202410/chi-ni-der-da-da-mian.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "72231691-f5e3-42dc-bd06-194ff97583f3",
+          "name": "tse-gg-hao-wan",
+          "description": {
+            "en": "Eat penis, it's fun~",
+            "ja": "ちんこ食べるの楽しい~",
+            "zh": "吃ㄐㄐ～好玩～"
+          },
+          "path": "valentine-lyrics/tse-gg-hao-wan.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "bf8fe0eb-555c-490f-9d53-88766953c64b",
+          "name": "tse-gg-jia-sai",
+          "description": {
+            "en": "Don't eat penis anymore, damn it",
+            "ja": "もう、ちんこは食べるな、畜生め",
+            "zh": "不要再吃ㄐㄐ啦甲賽啦"
+          },
+          "path": "valentine-lyrics/tse-gg-jia-sai.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "36489303-0178-4c10-a5dc-e96e01da9609",
+          "name": "fuck-you-all-la",
+          "description": {
+            "en": "Fuck you, fuck you all!",
+            "ja": "クソ野郎め、全員くたばれ!",
+            "zh": "Fuck you啦Fuck you all啦"
+          },
+          "path": "valentine-lyrics/fuck-you-all-la.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         }
       ]
     },
@@ -2560,6 +3055,17 @@
           },
           "path": "mihoyo-set/ho-yo-ma-yo-tso-na.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "3528412b-6c08-4e53-a5e2-dc4ac7e1fafd",
+          "name": "dada-boing-boing",
+          "description": {
+            "en": "Dahha has elegance and big boingboing.",
+            "ja": "ダハには品格があり、バストが大きい。",
+            "zh": "妲妲有氣質和大boingboing"
+          },
+          "path": "valentine-lyrics/dada-boing-boing.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
           "id": "bdbc8bc9-d841-4e95-baf1-392dfa2e70d5",
