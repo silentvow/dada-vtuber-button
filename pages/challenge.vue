@@ -1,41 +1,85 @@
 <template>
   <v-layout column justify-center align-stretch app>
-    <v-flex xs12 sm8 md6>
+    <v-flex v-if="show_main" xs12 sm8 md6>
       <v-card class="mx-auto">
         <v-card-title class="headline">{{ $t('site.challenge') }}</v-card-title>
-        <v-card-subtitle class="subtitle-1">{{ $t('challenge.rule') }}</v-card-subtitle>
+        <v-card-subtitle class="subtitle-1">{{ $t('challenge.description') }}</v-card-subtitle>
 
-        <v-card-text class="d-flex flex-row align-center">
-          <v-card :elevation="0" class="mr-2 score_card">
-            <v-card-text class="text-h5 text-center pb-0">{{ $t('challenge.now_score') }}</v-card-text>
-            <v-card-text class="text-h3 text-center pt-0 font-weight-bold">{{ score }}</v-card-text>
-          </v-card>
-          <v-card :elevation="0" class="ml-2 score_card">
-            <v-card-text class="text-h5 text-center pb-0">{{ $t('challenge.high_score') }}</v-card-text>
-            <v-card-text class="text-h3 text-center pt-0 font-weight-bold">{{ high_score }}</v-card-text>
-          </v-card>
+        <v-card-text>
+          <v-row>
+            <v-col cols="12" sm="5" offset-sm="1">
+              <v-card :elevation="4">
+                <v-card-title class="headline">{{ $t('challenge.level_normal') }}</v-card-title>
+                <v-card-text class="subtitle-1">{{ $t('challenge.level_normal_desc') }}</v-card-text>
+                <v-card-text>
+                  <v-btn block x-large color="success" @click="startNormalLevel">
+                    {{ $t('challenge.start') }}
+                  </v-btn>
+                </v-card-text>
+              </v-card>
+            </v-col>
+            <v-col cols="12" sm="5" offset-sm="0">
+              <v-card :elevation="4">
+                <v-card-title class="headline">{{ $t('challenge.level_hard') }}</v-card-title>
+                <v-card-text class="subtitle-1">{{ $t('challenge.level_hard_desc') }}</v-card-text>
+                <v-card-text>
+                  <v-btn block x-large color="primary" @click="startNormalLevel">
+                    {{ $t('challenge.start') }}
+                  </v-btn>
+                </v-card-text>
+              </v-card>
+            </v-col>
+          </v-row>
         </v-card-text>
       </v-card>
     </v-flex>
 
-    <v-flex v-if="!!question" xs12 sm8 md6>
-      <v-card>
-        <v-card-title class="headline">{{ $t('challenge.question_desc') }}</v-card-title>
+    <v-flex v-if="show_result" xs12 sm8 md6>
+      <v-card class="mx-auto">
+        <v-card-title class="headline">{{ $t('challenge.result') }}</v-card-title>
+        <v-card-subtitle class="subtitle-1">{{ $t('challenge.result_desc') }}</v-card-subtitle>
+        <v-card-text class="text-h2 text-secondary"> {{ score }} / 100 </v-card-text>
+        <v-card-text>
+          <v-row>
+            <v-col cols="12" sm="5">
+              <v-btn x-large block color="success" @click="backToMain">{{ $t('challenge.revenge') }}</v-btn>
+            </v-col>
+          </v-row>
+        </v-card-text>
+      </v-card>
+    </v-flex>
+
+    <v-flex v-if="show_questions" xs12 sm8 md6>
+      <v-card v-for="(question, index) in questions" :key="question.id">
+        <v-card-title class="headline">
+          {{ $t('challenge.question_no', { no: index + 1, points: index >= 10 ? 8 : 6 }) }}
+        </v-card-title>
+        <v-card-subtitle class="subtitle-1">{{ $t(`challenge.${question.type}`) }}</v-card-subtitle>
         <v-card-text class="d-flex flex-column align-center">
-          <iframe
-            class="mx-5"
-            :src="`https://www.youtube.com/embed/${question.url.slice(-11)}`"
-            frameborder="0"
-            allowfullscreen
-            :style="{
-              width: '100%',
-              height: 'auto',
-              maxWidth: '600px',
-              aspectRatio: '16/9'
-            }"
-          ></iframe>
-          <v-radio-group v-model="picked_answer" class="mx-5">
-            <v-radio v-for="(option, index) in question?.options" :key="option.id" :value="option.id">
+          <!-- Parent container for the iframe and the background div -->
+          <div class="iframe-container mx-5">
+            <div v-if="question.loading" class="background-div d-flex align-center justify-center">
+              <v-progress-circular indeterminate color="primary" size="56" width="6"></v-progress-circular>
+            </div>
+
+            <!-- iframe with load event to hide loading indicator -->
+            <iframe
+              :src="`https://www.youtube.com/embed/${question.url.slice(-11)}`"
+              frameborder="0"
+              allowfullscreen
+              :style="{
+                zIndex: 2,
+                position: 'absolute',
+                width: '100%',
+                height: 'auto',
+                maxWidth: '600px',
+                aspectRatio: '16/9'
+              }"
+              @load="loadedQuestion(index)"
+            ></iframe>
+          </div>
+          <v-radio-group v-if="question.type !== 'q_multi_choice'" v-model="answers[`${question.id}`]" class="mx-5">
+            <v-radio v-for="(option, idx) in question?.options" :key="option.id" :value="option.id">
               <template v-slot:label>
                 <div>
                   <voice-btn
@@ -45,50 +89,47 @@
                     :style="{ width: '256px' }"
                     @on-play="play(option)"
                   >
-                    {{ $t('action.play_option') }} {{ index + 1 }}
+                    {{ $t('action.play_option') }} {{ idx + 1 }}
                   </voice-btn>
                 </div>
               </template>
             </v-radio>
           </v-radio-group>
-        </v-card-text>
-
-        <v-card-text class="d-flex flex-column align-center">
-          <v-btn
-            class="mx-5 mb-4"
-            x-large
-            color="success"
-            :disabled="!picked_answer"
-            :style="{ minWidth: '284px' }"
-            @click="submitAnswer"
-          >
-            {{ $t('action.submit_answer') }}
-          </v-btn>
+          <v-item-group v-else class="mt-3 mb-2">
+            <v-item v-for="(option, idx) in question?.options" :key="option.id" class="mt-1">
+              <v-checkbox v-model="answers[`${question.id}`]" hide-details :value="option.id">
+                <template v-slot:label>
+                  <voice-btn
+                    ref="voice_btn"
+                    :key="option.id"
+                    :voice-id="option.id"
+                    :style="{ width: '256px' }"
+                    @on-play="play(option)"
+                  >
+                    {{ $t('action.play_option') }} {{ idx + 1 }}
+                  </voice-btn>
+                </template>
+              </v-checkbox>
+            </v-item>
+          </v-item-group>
         </v-card-text>
       </v-card>
 
-      <v-dialog v-model="show_correct_answer" max-width="600">
+      <v-flex class="d-flex flex-column align-center">
+        <v-btn class="mx-5 my-6" x-large color="success" :style="{ minWidth: '284px' }" @click="submitAnswer">
+          {{ $t('action.submit_answer') }}
+        </v-btn>
+      </v-flex>
+
+      <v-dialog v-model="show_hint" max-width="600">
         <v-card>
-          <v-toolbar color="primary" dark> {{ $t('challenge.answer_result') }} {{ answer_index }} </v-toolbar>
+          <v-toolbar class="headline" color="primary" dark>{{ $t('challenge.hint') }}</v-toolbar>
           <v-card-text class="justify-center">
-            <div class="text-h2 text-center pt-8">{{ $t('challenge.correct') }}</div>
+            <div class="text-body-1 text-center pt-8">{{ $t('challenge.hint_desc') }}</div>
           </v-card-text>
           <v-card-actions class="justify-end">
-            <v-btn text @click="show_correct_answer = false">
-              {{ $t('challenge.next_question') }}
-            </v-btn>
-          </v-card-actions>
-        </v-card>
-      </v-dialog>
-      <v-dialog v-model="show_wrong_answer" max-width="600">
-        <v-card>
-          <v-toolbar color="primary" dark> {{ $t('challenge.answer_result') }} {{ answer_index }} </v-toolbar>
-          <v-card-text class="justify-center pt-8">
-            <div class="text-h2 text-center">{{ $t('challenge.wrong') }}</div>
-          </v-card-text>
-          <v-card-actions class="justify-end">
-            <v-btn text @click="show_wrong_answer = false">
-              {{ $t('challenge.next_question') }}
+            <v-btn text @click="show_hint = false">
+              {{ $t('challenge.close') }}
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -108,8 +149,27 @@
 .score_card.theme--dark {
   border: thick solid #eeeeee;
 }
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  aspect-ratio: 16/9;
+}
+
+.background-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 1; /* Ensures it stays behind the iframe */
+}
 </style>
 <script>
+import { nanoid } from 'nanoid';
 import voice_lists from '~/assets/voices.json';
 import VoiceBtn from '../components/VoiceBtn';
 
@@ -118,16 +178,22 @@ export default {
     VoiceBtn
   },
   data() {
+    const voices = voice_lists.groups.flatMap(group => group.voice_list);
     return {
-      voices: voice_lists.groups.flatMap(group => group.voice_list),
-      question: null,
+      voices,
+      long_voices: voices.filter(voice => voice.description.zh.length > 7),
+      questions: [],
+      answers: {},
       score: 0,
-      high_score: Number(localStorage.getItem('da_game_high_score') || 0),
+      high_score_hard: 0,
+      high_score_normal: 0,
       now_playing: new Set(),
       loading: true,
-      picked_answer: '',
-      show_correct_answer: false,
-      show_wrong_answer: false
+      level: 'normal',
+      show_main: true,
+      show_questions: false,
+      show_hint: false,
+      show_result: false
     };
   },
   computed: {
@@ -144,47 +210,93 @@ export default {
     }
   },
   watch: {
-    show_correct_answer(value) {
+    show_result(value) {
       if (value) return;
-      this.score++;
-      this.generateNextQuestion();
-    },
-    show_wrong_answer(value) {
-      if (value) return;
-      if (this.score > this.high_score) {
-        this.high_score = this.score;
-        localStorage.setItem('da_game_high_score', this.high_score);
+      if (this.level === 'normal') {
+        this.high_score_normal = Math.max(this.score, this.high_score_normal);
+      } else {
+        this.high_score_hard = Math.max(this.score, this.high_score_hard);
       }
-      this.score = 0;
-      this.generateNextQuestion();
+
+      this.show_main = true;
+      this.show_questions = false;
+      this.questions = [];
     }
   },
   mounted() {
-    this.question = this.generateVoiceOptions();
     this.loading = false;
   },
   methods: {
+    loadedQuestion(index) {
+      this.questions[index].loading = false;
+    },
+    backToMain() {
+      this.show_result = false;
+      this.show_main = true;
+    },
+    startNormalLevel() {
+      this.level = 'normal';
+      this.show_main = false;
+      this.answers = {};
+      this.generateQuestions();
+      this.show_questions = true;
+    },
+    startHardLevel() {
+      this.level = 'hard';
+      this.show_main = false;
+      this.answers = {};
+      this.generateQuestions();
+      this.show_questions = true;
+    },
     submitAnswer() {
       this.stop_all();
-      const option = this.question.options.find(option => option.id === this.picked_answer);
-      if (option.correct) {
-        this.show_correct_answer = true;
-      } else {
-        this.show_wrong_answer = true;
+
+      const filled = this.questions.every(
+        q =>
+          (q.type !== 'q_multi_choice' && this.answers[q.id] !== undefined) ||
+          (q.type === 'q_multi_choice' && this.answers[q.id].length > 0)
+      );
+      if (!filled) {
+        this.show_hint = true;
+        return;
       }
-    },
-    generateNextQuestion() {
-      for (;;) {
-        let q = this.generateVoiceOptions();
-        if (q.url !== this.question?.url) {
-          this.question = q;
-          break;
+
+      this.score = this.questions.reduce((acc, question) => {
+        if (question.type === 'q_multi_choice') {
+          const correctAnswers = question.options.filter(option => option.correct).map(option => option.id);
+          const userAnswers = this.answers[question.id];
+          if (correctAnswers.length !== userAnswers.length) return acc;
+          if (correctAnswers.every(answer => userAnswers.includes(answer))) return acc + 8;
+          return acc;
+        } else {
+          if (this.answers[question.id] === question.options.find(option => option.correct).id) return acc + 6;
+          return acc;
         }
-      }
+      }, 0);
+
+      this.show_questions = false;
+      this.show_result = true;
     },
-    generateVoiceOptions() {
+    generateQuestions() {
+      // Generate 10 single choice questions
+      for (let i = 0; i < 5; i++) {
+        this.questions.push(this.generateSinglePositiveQuestion());
+        this.questions.push(this.generateSingleNegativeQuestion());
+      }
+      this.questions.sort(() => 0.5 - Math.random());
+      // Generate 5 multi choice questions
+      for (let i = 0; i < 5; i++) {
+        this.questions.push(this.generateMultiChoiceQuestion());
+      }
+      this.questions.forEach((question, index) => {
+        question.id = nanoid();
+        question.loading = true;
+        this.answers[question.id] = index < 10 ? undefined : [];
+      });
+    },
+    generateSinglePositiveQuestion() {
       // Flatten the voice list across all groups
-      const voiceList = this.voices;
+      const voiceList = this.level === 'normal' ? this.long_voices : this.voices;
 
       // Randomly select a voice entry as the target
       const targetIndex = Math.floor(Math.random() * voiceList.length);
@@ -202,6 +314,7 @@ export default {
 
       // Return the result as an object
       return {
+        type: 'q_positive',
         url: targetVoice.url,
         options: voiceOptions.map(voice => ({
           id: voice.id,
@@ -209,6 +322,79 @@ export default {
           description: voice.description,
           path: voice.path,
           correct: voice.url === targetVoice.url
+        }))
+      };
+    },
+    generateSingleNegativeQuestion() {
+      // Flatten the voice list across all groups
+      const voiceList = this.level === 'normal' ? this.long_voices : this.voices;
+
+      // Randomly select three voices with same url
+      const otherIndex = Math.floor(Math.random() * voiceList.length);
+      const otherVoices = voiceList.filter(v => v.url === voiceList[otherIndex].url);
+
+      if (otherVoices.length < 3) {
+        return this.generateSingleNegativeQuestion();
+      }
+
+      // Filter out the target voice to pick non-matching options
+      const remainingVoices = voiceList.filter(voice => voice.url !== voiceList[otherIndex].url);
+
+      // Shuffle and select three random non-matching voices
+      const shuffledOtherVoices = otherVoices.sort(() => 0.5 - Math.random());
+      const nonMatchingOptions = shuffledOtherVoices.slice(0, 3);
+
+      const targetVoice = remainingVoices[Math.floor(Math.random() * remainingVoices.length)];
+
+      // Combine the target voice with the non-matching options and shuffle the result
+      const voiceOptions = [targetVoice, ...nonMatchingOptions].sort(() => 0.5 - Math.random());
+
+      // Return the result as an object
+      return {
+        type: 'q_negative',
+        url: nonMatchingOptions[0].url,
+        options: voiceOptions.map(voice => ({
+          id: voice.id,
+          name: voice.name,
+          description: voice.description,
+          path: voice.path,
+          correct: voice.url !== targetVoice.url
+        }))
+      };
+    },
+    generateMultiChoiceQuestion() {
+      // Flatten the voice list across all groups
+      const voiceList = this.level === 'normal' ? this.long_voices : this.voices;
+
+      // 隨機確定答案數量 (1~4)，使其平均分布
+      const possibleAnswerCounts = [1, 2, 3, 4];
+      const answerCount = possibleAnswerCounts[Math.floor(Math.random() * possibleAnswerCounts.length)];
+
+      // 隨機選擇答案項目
+      const answer = voiceList[Math.floor(Math.random() * voiceList.length)];
+      const shuffledVoices = voiceList.sort(() => 0.5 - Math.random());
+      const correctAnswers = shuffledVoices.filter(v => v.url === answer.url).slice(0, answerCount);
+      if (correctAnswers.length < answerCount) {
+        return this.generateMultiChoiceQuestion();
+      }
+
+      // 從剩餘選項中選擇干擾項
+      const remainingVoices = shuffledVoices.filter(v => v.url !== answer.url);
+      const distractors = remainingVoices.slice(0, 4 - answerCount);
+
+      // 合併答案和干擾項，並隨機排列
+      const options = [...correctAnswers, ...distractors].sort(() => 0.5 - Math.random());
+
+      // 返回題目對象
+      return {
+        type: 'q_multi_choice',
+        url: answer.url,
+        options: options.map(voice => ({
+          id: voice.id,
+          name: voice.name,
+          description: voice.description,
+          path: voice.path,
+          correct: voice.url === answer.url
         }))
       };
     },

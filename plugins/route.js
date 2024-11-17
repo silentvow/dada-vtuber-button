@@ -37,6 +37,10 @@ export default ({ app, store }) => {
     const voiceFavorite = JSON.parse(localStorage.getItem('voiceFavorite')) || [];
     store.commit('SET_VOICE_FAVORITE', voiceFavorite);
 
+    // Challenge
+    const challengeDict = JSON.parse(localStorage.getItem('challengeDict')) || {};
+    store.commit('SET_CHALLENGE_DICT', challengeDict);
+
     next();
   });
 };
