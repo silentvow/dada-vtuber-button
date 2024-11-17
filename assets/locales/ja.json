@@ -11,11 +11,18 @@
   "challenge": {
     "answer_result": "正解：",
     "correct": "正解！",
+    "description": "ダダに挑戦へようこそ！挑戦したい問題の難易度を選択してください。",
     "high_score": "ハイスコア",
+    "level_hard": "ハード",
+    "level_hard_desc": "全ての音声が出現する可能性があります",
+    "level_normal": "ノーマル",
+    "level_normal_desc": "一定の長さ以上の音声のみが出現します",
     "next_question": "次の問題",
     "now_score": "現在のスコア",
     "question_desc": "以下の音声はどの配信から来ていますか？",
+    "question_no": "問題 {no} ({points} ポイント)",
     "rule": "正解するごとに1ポイント、不正解するとスコアがリセットされます。",
+    "start": "挑戦を開始",
     "wrong": "不正解！"
   },
   "control": {

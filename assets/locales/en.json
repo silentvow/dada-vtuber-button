@@ -11,11 +11,18 @@
   "challenge": {
     "answer_result": "Correct Answer: ",
     "correct": "Correct!",
+    "description": "Welcome to Da Challenge! Please select the difficulty of the question you want to challenge.",
     "high_score": "High Score",
+    "level_hard": "Hard",
+    "level_hard_desc": "All voices may appear",
+    "level_normal": "Normal",
+    "level_normal_desc": "Only voices longer than a certain length will appear",
     "next_question": "Next Question",
     "now_score": "Now Score",
     "question_desc": "Which stream does the following voice come from?",
+    "question_no": "Question {no} ({points} points)",
     "rule": "One point for each correct answer, score reset for each wrong answer.",
+    "start": "Start Challenge",
     "wrong": "Wrong!"
   },
   "control": {
