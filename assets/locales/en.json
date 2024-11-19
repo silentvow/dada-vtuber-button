@@ -28,6 +28,13 @@
     "result_desc": "Your score result is as follows",
     "revenge": "Re-challenge",
     "rule": "One point for each correct answer, score reset for each wrong answer.",
+    "score0": "“Did you mess up on purpose, or are you just an unlucky soul bound for hell? Got a problem?”",
+    "score1": "“Are you a new viewer? Hello there! If you like this channel, remember to like, subscribe, and hit the notification bell~”",
+    "score100": "“Are you Grey Herta's true love unicorn? Isn't that a mythical creature? No way...”",
+    "score20": "“Welcome to the apprentice spy parrot team!”",
+    "score40": "“Welcome to the full-time spy parrot team!”",
+    "score60": "“Looks like you're a loyal fan of Grey Herta. Let Granny Herta give you a kiss! 5mamamama”",
+    "score80": "“You did great! Let baby Herta give you a big hug!”",
     "start": "Start Challenge",
     "wrong": "Wrong!"
   },

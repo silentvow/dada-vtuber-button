@@ -36,15 +36,88 @@
 
     <v-flex v-if="show_result" xs12 sm8 md6>
       <v-card class="mx-auto">
-        <v-card-title class="headline">{{ $t('challenge.result') }}</v-card-title>
+        <v-card-title class="headline">
+          {{ $t('challenge.result') }}：{{ $t(level === 'normal' ? 'challenge.level_normal' : 'challenge.level_hard') }}
+        </v-card-title>
         <v-card-subtitle class="subtitle-1">{{ $t('challenge.result_desc') }}</v-card-subtitle>
         <v-card-text class="text-h2 text-secondary"> {{ score }} / 100 </v-card-text>
+        <v-card-text class="text-primary"> {{ score_text }}</v-card-text>
         <v-card-text>
           <v-row>
             <v-col cols="12" sm="5">
               <v-btn x-large block color="success" @click="backToMain">{{ $t('challenge.revenge') }}</v-btn>
             </v-col>
           </v-row>
+        </v-card-text>
+      </v-card>
+
+      <v-card v-for="(question, index) in questions" :key="question.id">
+        <v-card-title class="headline">
+          {{ $t('challenge.question_no', { no: index + 1, points: index >= 10 ? 8 : 6 }) }}
+        </v-card-title>
+        <v-card-subtitle class="subtitle-1">{{ $t(`challenge.${question.type}`) }}</v-card-subtitle>
+        <v-card-text class="d-flex flex-column align-center">
+          <!-- Parent container for the iframe and the background div -->
+          <div class="iframe-container mx-5">
+            <div v-if="question.loading" class="background-div d-flex align-center justify-center">
+              <v-progress-circular indeterminate color="primary" size="56" width="6"></v-progress-circular>
+            </div>
+
+            <!-- iframe with load event to hide loading indicator -->
+            <iframe
+              :src="`https://www.youtube.com/embed/${question.url.slice(-11)}`"
+              frameborder="0"
+              allowfullscreen
+              :style="{
+                zIndex: 2,
+                position: 'absolute',
+                width: '100%',
+                height: 'auto',
+                maxWidth: '600px',
+                aspectRatio: '16/9'
+              }"
+              @load="loadedQuestion(index)"
+            ></iframe>
+          </div>
+          <v-radio-group
+            v-if="question.type !== 'q_multi_choice'"
+            v-model="answer_result[`${question.id}`]"
+            readonly
+            class="mx-5"
+          >
+            <v-radio v-for="(option, idx) in question?.options" :key="option.id" :value="option.id" readonly>
+              <template v-slot:label>
+                <div>
+                  <voice-btn
+                    ref="voice_btn"
+                    :key="option.id"
+                    :voice-id="option.id"
+                    :style="{ width: '256px' }"
+                    @on-play="play(option)"
+                  >
+                    {{ $t('action.play_option') }} {{ idx + 1 }}
+                  </voice-btn>
+                </div>
+              </template>
+            </v-radio>
+          </v-radio-group>
+          <v-item-group v-else class="mt-3 mb-2">
+            <v-item v-for="(option, idx) in question?.options" :key="option.id" class="mt-1">
+              <v-checkbox v-model="answer_result[`${question.id}`]" readonly hide-details :value="option.id">
+                <template v-slot:label>
+                  <voice-btn
+                    ref="voice_btn"
+                    :key="option.id"
+                    :voice-id="option.id"
+                    :style="{ width: '256px' }"
+                    @on-play="play(option)"
+                  >
+                    {{ $t('action.play_option') }} {{ idx + 1 }}
+                  </voice-btn>
+                </template>
+              </v-checkbox>
+            </v-item>
+          </v-item-group>
         </v-card-text>
       </v-card>
     </v-flex>
@@ -184,6 +257,7 @@ export default {
       long_voices: voices.filter(voice => voice.description.zh.length > 7),
       questions: [],
       answers: {},
+      answer_result: {},
       score: 0,
       high_score_hard: 0,
       high_score_normal: 0,
@@ -202,6 +276,15 @@ export default {
     },
     current_locale() {
       return this.$i18n.locale;
+    },
+    score_text() {
+      if (this.score === 100) return this.$t('challenge.score100');
+      if (this.score >= 80) return this.$t('challenge.score80');
+      if (this.score >= 60) return this.$t('challenge.score60');
+      if (this.score >= 40) return this.$t('challenge.score40');
+      if (this.score >= 20) return this.$t('challenge.score20');
+      if (this.score > 0) return this.$t('challenge.score1');
+      return this.$t('challenge.score0');
     },
     voice_host() {
       if (process.env.NODE_ENV === 'production')
@@ -276,6 +359,8 @@ export default {
 
       this.show_questions = false;
       this.show_result = true;
+
+      window.scrollTo({ top: 0 });
     },
     generateQuestions() {
       // Generate 10 single choice questions
@@ -292,6 +377,10 @@ export default {
         question.id = nanoid();
         question.loading = true;
         this.answers[question.id] = index < 10 ? undefined : [];
+        this.answer_result[question.id] =
+          index < 10
+            ? question.options.find(option => option.correct)?.id
+            : question.options.filter(option => option.correct).map(option => option.id);
       });
     },
     generateSinglePositiveQuestion() {
