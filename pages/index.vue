@@ -304,13 +304,14 @@ export default {
         }, 50);
       };
       let smooth_end = () => {
-        let play_end_timer = setInterval(() => {
-          ref.progress -= 5;
-          if (ref.progress <= 0) {
-            clearInterval(play_end_timer);
-            play_end_timer = null;
-          }
-        }, 50);
+        // let play_end_timer = setInterval(() => {
+        //   ref.progress -= 5;
+        //   if (ref.progress <= 0) {
+        //     clearInterval(play_end_timer);
+        //     play_end_timer = null;
+        //   }
+        // }, 50);
+        ref.progress = 0;
         ref.playing = false;
       };
       let clear_timer = () => {
