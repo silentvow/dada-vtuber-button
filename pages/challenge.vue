@@ -365,8 +365,10 @@ export default {
     generateQuestions() {
       // Generate 10 single choice questions
       for (let i = 0; i < 5; i++) {
-        this.questions.push(this.generateSinglePositiveQuestion());
         this.questions.push(this.generateSingleNegativeQuestion());
+      }
+      for (let i = 0; i < 5; i++) {
+        this.questions.push(this.generateSinglePositiveQuestion());
       }
       this.questions.sort(() => 0.5 - Math.random());
       // Generate 5 multi choice questions
@@ -385,7 +387,8 @@ export default {
     },
     generateSinglePositiveQuestion() {
       // Flatten the voice list across all groups
-      const voiceList = this.level === 'normal' ? this.long_voices : this.voices;
+      const rawVoiceList = this.level === 'normal' ? this.long_voices : this.voices;
+      const voiceList = rawVoiceList.filter(voice => this.questions.every(q => q.url !== voice.url));
 
       // Randomly select a voice entry as the target
       const targetIndex = Math.floor(Math.random() * voiceList.length);
@@ -416,7 +419,8 @@ export default {
     },
     generateSingleNegativeQuestion() {
       // Flatten the voice list across all groups
-      const voiceList = this.level === 'normal' ? this.long_voices : this.voices;
+      const rawVoiceList = this.level === 'normal' ? this.long_voices : this.voices;
+      const voiceList = rawVoiceList.filter(voice => this.questions.every(q => q.url !== voice.url));
 
       // Randomly select three voices with same url
       const otherIndex = Math.floor(Math.random() * voiceList.length);
@@ -451,7 +455,7 @@ export default {
         }))
       };
     },
-    generateMultiChoiceQuestion() {
+    generateMultiChoiceQuestion(retry = 10) {
       // Flatten the voice list across all groups
       const voiceList = this.level === 'normal' ? this.long_voices : this.voices;
 
@@ -464,7 +468,13 @@ export default {
       const shuffledVoices = voiceList.sort(() => 0.5 - Math.random());
       const correctAnswers = shuffledVoices.filter(v => v.url === answer.url).slice(0, answerCount);
       if (correctAnswers.length < answerCount) {
-        return this.generateMultiChoiceQuestion();
+        return this.generateMultiChoiceQuestion(retry);
+      }
+      // if (retry > 0 && this.questions.some(q => q.url === correctAnswers[0].url)) {
+      //   return this.generateMultiChoiceQuestion(retry - 1);
+      // }
+      if (retry > 0 && correctAnswers[0].url === this.questions.at(-1).url) {
+        return this.generateMultiChoiceQuestion(retry - 1);
       }
 
       // 從剩餘選項中選擇干擾項
