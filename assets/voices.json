@@ -1550,6 +1550,17 @@
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
+          "id": "146cc758-97a0-4684-88fd-e7c446c64d3a",
+          "name": "den-x9",
+          "description": {
+            "en": "Deng deng deng deng deng deng deng deng",
+            "ja": "デンデンデンデンデンデンデンデン",
+            "zh": "等登登登等登登登登扔"
+          },
+          "path": "mihoyo-set/den-x9.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
           "id": "66bae28e-b41f-4f84-9bc4-70f74376ef0a",
           "name": "ta-ma-ta-ma-ta-ma",
           "description": {
@@ -1603,6 +1614,17 @@
           },
           "path": "valentine-lyrics-2/du-sen-der-hue-da.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "9229d811-abec-4f5f-90a4-4c593bc19321",
+          "name": "nan-fan-lao-de",
+          "description": {
+            "en": "Why do you always ask me such weird questions? What's with all this about lesbians and dad's self-pleasure? Can't you ask normal questions like 'How's the weather, dad?' It's sunny, thanks. 'Dad, what's a prostitute?' I swear you'll be the end of my career!",
+            "ja": "なぜいつも変な質問ばかりするんだ？レズビアンだの親父のオナニーだの何なんだ？天気はどうだ親父？とか普通の質問できないのか？今日は晴れだよ、どうも。親父、売春婦って何？お前らのせいで俺の仕事がダメになるぞ！",
+            "zh": "為什麼你們每次來都要問俺一些奇怪的問題呢？什麼女同志阿老爹打手槍是什麼玩意兒，你們可不可以問一點正常的阿像是老爹天氣怎麼樣？出大太陽謝謝。老爹什麼是娼妓？俺說俺的飯碗遲早砸在你們手上！"
+          },
+          "path": "news-202410/nan-fan-lao-de.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         }
       ]
     },
@@ -4652,17 +4674,6 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
-          "id": "146cc758-97a0-4684-88fd-e7c446c64d3a",
-          "name": "den-x9",
-          "description": {
-            "en": "Deng deng deng deng deng deng deng deng",
-            "ja": "デンデンデンデンデンデンデンデン",
-            "zh": "等登登登等登登登登扔"
-          },
-          "path": "mihoyo-set/den-x9.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
           "id": "4a9901d6-9072-491f-8ba3-009bdccbf4f3",
           "name": "tian-wo-der-jiao",
           "description": {
@@ -4870,17 +4881,6 @@
           },
           "path": "news-202405/man-hua-pei-in.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
-        },
-        {
-          "id": "9229d811-abec-4f5f-90a4-4c593bc19321",
-          "name": "nan-fan-lao-de",
-          "description": {
-            "en": "Why do you always ask me such weird questions? What's with all this about lesbians and dad's self-pleasure? Can't you ask normal questions like 'How's the weather, dad?' It's sunny, thanks. 'Dad, what's a prostitute?' I swear you'll be the end of my career!",
-            "ja": "なぜいつも変な質問ばかりするんだ？レズビアンだの親父のオナニーだの何なんだ？天気はどうだ親父？とか普通の質問できないのか？今日は晴れだよ、どうも。親父、売春婦って何？お前らのせいで俺の仕事がダメになるぞ！",
-            "zh": "為什麼你們每次來都要問俺一些奇怪的問題呢？什麼女同志阿老爹打手槍是什麼玩意兒，你們可不可以問一點正常的阿像是老爹天氣怎麼樣？出大太陽謝謝。老爹什麼是娼妓？俺說俺的飯碗遲早砸在你們手上！"
-          },
-          "path": "news-202410/nan-fan-lao-de.mp3",
-          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         }
       ]
     }
