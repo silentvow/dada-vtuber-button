@@ -142,6 +142,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "4289b7cb-5619-48d0-8508-3676ec1c0eff",
+          "name": "self-intro-1",
+          "description": {
+            "en": "I'm Grayta, a first generation gray parrot VTuber from Relive",
+            "ja": "私はReliveの一期生の灰色オウムVTuberのグレイタです",
+            "zh": "我是Relive的一期生灰鸚鵡Vtuber灰妲"
+          },
+          "path": "news-202410/self-intro-1.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
           "id": "3a173a6e-9724-4427-ac36-0566bb249be7",
           "name": "how-are-you",
           "description": {
@@ -3506,17 +3517,6 @@
           },
           "path": "yoda-girlfriend/relive-she-ka-hsian.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
-          "id": "4289b7cb-5619-48d0-8508-3676ec1c0eff",
-          "name": "self-intro-1",
-          "description": {
-            "en": "I'm Grayta, a first generation gray parrot VTuber from Relive",
-            "ja": "私はReliveの一期生の灰色オウムVTuberのグレイタです",
-            "zh": "我是Relive的一期生灰鸚鵡Vtuber灰妲"
-          },
-          "path": "news-202410/self-intro-1.mp3",
-          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         },
         {
           "id": "6b40bd87-6d69-451a-ab66-bdb44d4b0ede",
