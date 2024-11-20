@@ -384,6 +384,17 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "9a435131-9945-44fc-8971-74bb95fa4a08",
+          "name": "wo-zuo-tso-shen-mo",
+          "description": {
+            "en": "Why are you doing this? What did I do wrong?",
+            "ja": "なぜこんなことするの？私が何か悪いことした？",
+            "zh": "為什麼要這樣我做錯什麼了"
+          },
+          "path": "lazy-against/wo-zuo-tso-shen-mo.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
           "id": "5508a243-5de5-4744-a020-0633541f2486",
           "name": "se-yao-mai-chi-zu",
           "description": {
@@ -527,6 +538,17 @@
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
+          "id": "7e386626-05d5-46a3-8148-b809347a390a",
+          "name": "wo-hai-yo-friend",
+          "description": {
+            "en": "Of course I have friends! What nonsense are you talking about? Damn it, shut up!",
+            "ja": "もちろん友達いるよ！何を言ってるの？もう、黙れ！",
+            "zh": "我當然有朋友阿你在胡說八道什麼阿可惡給我給我閉嘴"
+          },
+          "path": "lazy-against/wo-hai-yo-friend.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
           "id": "0492153e-4972-4474-b44b-5e6c718d7df8",
           "name": "ss-wan-ke-shi-dan",
           "description": {
@@ -547,7 +569,305 @@
         "ja": "罵り",
         "zh": "罵倒"
       },
-      "voice_list": []
+      "voice_list": [
+        {
+          "id": "eb5c043d-3d96-430c-9b8b-e3e6a19573e6",
+          "name": "garbage",
+          "description": {
+            "en": "Garbage!",
+            "ja": "ゴミ！",
+            "zh": "垃圾"
+          },
+          "path": "lazy-against/garbage.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "46439cb1-a8db-4dde-921c-173308985f9e",
+          "name": "fei-wu",
+          "description": {
+            "en": "Useless!",
+            "ja": "クズ！",
+            "zh": "廢物！"
+          },
+          "path": "lazy-against/fei-wu.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "0315a38f-057d-46d5-8423-7da70f34ac57",
+          "name": "salary-thief",
+          "description": {
+            "en": "You're completely being a salary thief!",
+            "ja": "完全な給料泥棒じゃない！",
+            "zh": "完全在當薪水小偷嘛"
+          },
+          "path": "lazy-against/salary-thief.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "25008c07-cc12-4f3b-82ee-3593b6e98e77",
+          "name": "ler-ser-due",
+          "description": {
+            "en": "You're living in a garbage dump, you know that?",
+            "ja": "ゴミ捨て場に住んでるってわかってる？",
+            "zh": "你就住在垃圾堆裡面你知道嗎"
+          },
+          "path": "lazy-against/ler-ser-due.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "8c4f6175-64f3-4c32-9af1-e64285af1ebe",
+          "name": "fe-wu-hai-yao-yoda",
+          "description": {
+            "en": "Now this worthless person needs Yuta to scold them! Pah!",
+            "ja": "今このクズはユウタに叱られる必要がある！ちっ！",
+            "zh": "現在這種廢物還要幼妲罵！呸！"
+          },
+          "path": "lazy-against/fe-wu-hai-yao-yoda.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "353bb43f-6746-4d52-b755-1acd20636f6c",
+          "name": "me-yo-mo-gan",
+          "description": {
+            "en": "Why are you doing this? You guys have no sense of humor!",
+            "ja": "なぜそんなことするの？ユーモアのセンスないじゃない！",
+            "zh": "為什麼要這樣吼你們很沒有幽默感捏"
+          },
+          "path": "lazy-against/me-yo-mo-gan.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "5cd6c0ea-c73b-450c-bfe8-7c1762604566",
+          "name": "wo4-ni-ma-o",
+          "description": {
+            "en": "You know I have to scold you here! Am I your mother?!",
+            "ja": "ここで叱らないといけないのわかってるでしょ！私があなたの母親なの？！",
+            "zh": "你也知道還要我在這邊罵！我是你媽噢！"
+          },
+          "path": "lazy-against/wo4-ni-ma-o.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "1905337b-1e21-460c-a49a-f7fb039398a9",
+          "name": "dao-di-zai-gan-ma",
+          "description": {
+            "en": "What were you doing during that time? Why waste time like that?",
+            "ja": "その時間何してたの？なぜそんな時間の無駄遣いをするの？",
+            "zh": "你到底在那段時間在幹嘛為什麼要這樣浪費時間"
+          },
+          "path": "lazy-against/dao-di-zai-gan-ma.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "7ee73a1a-621e-4502-adf1-b76944644fb6",
+          "name": "hu-nan-jk",
+          "description": {
+            "en": "You noob! What's so hard about Makaimura JK Tsubo-otoko?",
+            "ja": "このヘタクソ！魔界村JK壺男なんて何が難しいの？",
+            "zh": "你這個菜逼巴！壺男JK魔界村有什麼難的阿！"
+          },
+          "path": "lazy-against/hu-nan-jk.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "0f562b2b-a9fe-4a09-a576-cfcb4b9eb5c3",
+          "name": "ser-hue-yao-der",
+          "description": {
+            "en": "You know what? In society, what's needed isn't dreams, it's efficiency, okay?",
+            "ja": "社会で必要なのは夢じゃない、効率なんだよ、わかる？",
+            "zh": "你知道嗎在社會阿要的不是夢想要的是效率好嗎"
+          },
+          "path": "lazy-against/ser-hue-yao-der.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "8ca7d0a4-034e-4fcd-b201-ed3a019b91b2",
+          "name": "lua-lua-hua-chien",
+          "description": {
+            "en": "You're just wasting money, completely wasting it like a spendthrift!",
+            "ja": "お金の無駄遣いばかりしてる、完全な浪費家じゃない！",
+            "zh": "阿你根本就是在亂花錢嘛，完全就是亂花錢是敗家子阿"
+          },
+          "path": "lazy-against/lua-lua-hua-chien.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "47804dc0-6e54-48fe-954c-6d2ee928c04d",
+          "name": "she-tser-bao-za",
+          "description": {
+            "en": "Your college entrance exam is about to explode and you know it's going to explode, yet you're still getting distracted!",
+            "ja": "大学入試が爆発しそうなのに、爆発することわかってるのに、まだ気が散ってるの！",
+            "zh": "你學測要爆炸了你都知道要爆炸了還分心你還敢分心阿"
+          },
+          "path": "lazy-against/she-tser-bao-za.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "5055dc8a-19e0-44fc-9685-22426b041714",
+          "name": "tson-shou-jo-hao",
+          "description": {
+            "en": "Do you like the professor that much? Want to retake the class next year, huh?",
+            "ja": "そんなに教授が好きなの？来年もう一度履修したいの？",
+            "zh": "你是不是很喜歡教授？明年還想要再看一次重修舊好蛤"
+          },
+          "path": "lazy-against/tson-shou-jo-hao.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "5e2bb3fb-188e-4d96-8128-d368cf4054fe",
+          "name": "jo4-do-m",
+          "description": {
+            "en": "You guys always like being scolded, you're all just masochists!",
+            "ja": "あなたたち、いつも叱られるのが好きでしょ。完全なMじゃない！",
+            "zh": "你們這些傢伙一天到晚在那邊喜歡被嗆你們根本就是抖M嘛"
+          },
+          "path": "lazy-against/jo4-do-m.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "34670187-c8f9-4ebf-9cf9-52c55d3163b5",
+          "name": "sue-sue-sue",
+          "description": {
+            "en": "Sleep, sleep, keep sleeping and you'll turn into mud! Is the country raising you? Did your parents raise you just to sleep?",
+            "ja": "寝て寝て寝てばかりで泥になるよ！国があなたを養ってるの？親はあなたを寝かせるために育てたの？",
+            "zh": "睡睡睡還一直睡阿繼續睡就變爛泥巴啦國家養你啊你爸媽養你是要你在那邊睡覺的嗎"
+          },
+          "path": "lazy-against/sue-sue-sue.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "bc717c6e-cbe3-45c7-902f-88e74ba34d5d",
+          "name": "ze-tian-jo-hsian-jan-pian",
+          "description": {
+            "en": "Thinking about video editing all day - don't talk about these things that are just in your head. If you haven't edited anything, it's just air, it's just zero.",
+            "ja": "一日中動画編集のことばかり考えている - そんな頭の中だけのことを話すのはやめましょう。何も編集していないのであれば、それは空気です、ただのゼロです。",
+            "zh": "整天就想剪片這種腦袋想想的東西就不要講了沒有剪出來就完全是空氣完全是零而已"
+          },
+          "path": "lazy-against/ze-tian-jo-hsian-jan-pian.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "5df70ae8-b909-4282-900b-9a4dc18f67c6",
+          "name": "bao-yuan-dan-sen",
+          "description": {
+            "en": "Why are you still complaining about being single? Look in the mirror - do you really think that belly of yours can help you find someone?",
+            "ja": "なぜまだ独身だと文句を言っているの？鏡を見てごらん―そのお腹で本当に誰かと付き合えると思うの？",
+            "zh": "你還整天在抱怨說自己單身你真的看一下鏡子你真的覺得這個肚子可以嗎可以脫單嗎蛤"
+          },
+          "path": "lazy-against/bao-yuan-dan-sen.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "9c13fec5-a860-4a36-b3de-6efc877d7199",
+          "name": "yiz-jie-yiz-san",
+          "description": {
+            "en": "If you keep cutting and deleting, it means you have nothing! You haven't produced anything at all, nobody knows you can edit highlights!",
+            "ja": "切って消して、切って消してばかりじゃ何もないってことよ！何も生み出してない、誰もあなたが切り抜きできるって知らないじゃない！",
+            "zh": "你一直剪一直刪掉那就代表你沒有！你什麼什麼屁都沒有生出來人家根本就不知道你會剪精華"
+          },
+          "path": "lazy-against/yiz-jie-yiz-san.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "6b072568-e1ee-47e5-9dd5-7fb315750fe0",
+          "name": "yi-ke-do-me-do",
+          "description": {
+            "en": "Haven't studied any subject? When was the exam? What have you been doing in class? Just being a breathing waste of space, right? How can you not study even one subject?!",
+            "ja": "一教科も勉強してない？試験いつだったの？普段の授業で何してたの？ただ呼吸するだけのクズじゃない？どうして一教科も勉強してないの？！",
+            "zh": "一科都沒讀？段考是什麼時候的事情？平常上課都在幹嘛？就當會呼吸的廢物是不是阿？怎麼會連一科都沒有讀阿！"
+          },
+          "path": "lazy-against/yi-ke-do-me-do.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "2dcc6776-0b53-4cd8-9c25-940b11d258fb",
+          "name": "ren-tai-er-hsin",
+          "description": {
+            "en": "People like you are so disgusting, always getting excited and running in when you see a chance to be scolded by a VTuber girl, shivering with excitement. How gross can you be!",
+            "ja": "あなたみたいな人は本当に気持ち悪い。女性VTuberに罵られるチャンスを見つけては興奮して飛び込んできて、震えながら喜んでる。そんなの気持ち悪すぎでしょ！",
+            "zh": "像你這樣的人太噁心了啦整天就是這樣隨機看到罵倒台就渾身顫慄興奮地跑進來說可以被女V罵耶ㄏㄏ這種人也太噁心了吧"
+          },
+          "path": "lazy-against/ren-tai-er-hsin.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "feb0f21c-71e4-47fd-baea-b03ba3cddb19",
+          "name": "sue-bu-bao",
+          "description": {
+            "en": "If you're not getting enough sleep every day, then you need to find a way to get enough sleep! Isn't sleeping just lying down and closing your eyes? How can you not do something so simple?",
+            "ja": "毎日睡眠不足なら、ちゃんと寝る方法を見つけないと！寝るのは横になって目を閉じるだけでしょ？そんな簡単なことすらできないの？",
+            "zh": "如果假設你每天都睡不飽那你就要想辦法睡飽阿睡覺不就是馬上躺上去一翻兩瞪眼的一件事而已嗎怎麼連那麼簡單的事情都做不到阿"
+          },
+          "path": "lazy-against/sue-bu-bao.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "b497dbe0-8b89-450a-b627-9473f94ba31f",
+          "name": "z-shin-hen-zo-yao",
+          "description": {
+            "en": "Self-confidence is very important. If you don't even like yourself, looking in the mirror and saying \"Damn, I'm ugly,\" then how can you expect others to like you? You need to become confident, you need to become a confident person.",
+            "ja": "自信は大切なことです。もし自分のことさえ好きになれなくて、鏡を見て「なんて醜いんだ」と言うのであれば、どうやって他人にあなたのことを好きになってもらえるでしょうか？少なくとも自信のある人にならなければいけません。自信のある人になるべきです。",
+            "zh": "各位自信是很重要的如果假設連你都自己不喜歡自己就看鏡子就說幹好醜那到底要怎麼樣才能讓其他人喜歡你你至少要成為一個自信的吧要成為一個自信的人吧"
+          },
+          "path": "lazy-against/z-shin-hen-zo-yao.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "8cc833c9-e098-485a-8ad4-5a8e7c280dae",
+          "name": "gua-due-yo",
+          "description": {
+            "en": "You'll just end up blaming your teammates anyway, saying they're noobs and made you lose. No, you're the noob - you're so bad that your noobness can be smelled from 300km away, from Taipei to Pingtung, all across Taiwan. Even cabbage worms are coming to bite you!",
+            "ja": "どうせチームメイトのせいにするんでしょ。チームメイトが下手だから負けたって。違う、あなたが下手なの。台北から屏東まで300キロ先からでもその下手さが臭ってきて、台湾中があなたの下手くそ臭さで溢れていて、キャベツムシまであなたを噛みに来てるよ！",
+            "zh": "反正你遲早就是會怪隊友的嗎就說隊友菜才害我輸沒有是你菜你菜到那個連那個三百公尺外台北到屏東就是那種整個台灣都可以聞到你的菜味瀰漫出來菜蟲都跑出來要咬你了"
+          },
+          "path": "lazy-against/gua-due-yo.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "328aa32f-1fce-4e88-b769-2a42c7b40c16",
+          "name": "yu-dao-mo-shen-ren",
+          "description": {
+            "en": "If in your life, I mean in your daily routine, if the people you meet are too fixed, if you never meet any strangers, not a single stranger, then you should reflect on that",
+            "ja": "もし人生で、つまり日常生活で、会う人が固定されすぎていて、見知らぬ人に全く会わないなら、一人の見知らぬ人にも会わないなら、それは反省すべきよ",
+            "zh": "既然如果假設你的一生中，我的意思是說就是在你的日常中一天你能夠遇到的人太固定，你從來都不會遇到什麼陌生人的話陌生的人一個都沒有的話，那你就應該要去檢討了哦"
+          },
+          "path": "lazy-against/yu-dao-mo-shen-ren.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "4fca7417-eef8-444b-a011-438c312508ed",
+          "name": "z-fan-don-mian",
+          "description": {
+            "en": "Have you pinched your belly? Have you ever pinched your belly? It's because you keep sleeping! You know your fat is hibernating, right? Your fat has settled on your belly! Do you know it's not going away? It's literally made your belly its home!",
+            "ja": "お腹をつまんでみましたか？お腹をつまんだことありますか？それはあなたがずっと寝ているからです！あなたの脂肪は冬眠していることを知っていますか？脂肪があなたのお腹に定住してしまいました！それが離れないことを知っていますか？脂肪があなたのお腹に直接住んでいるんです！",
+            "zh": "有沒有去捏一下你的肚子！有捏過你的肚子嗎？就是因為你一直睡！你的那個脂肪已經冬眠了你知道嗎？你的脂肪定居在你的肚子上了阿！它都不走了你知道嗎？它直接就住在你的肚子上了！"
+          },
+          "path": "lazy-against/z-fan-don-mian.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "ae92ab1f-72a1-4ee9-b2c1-6e6a354ccaaf",
+          "name": "ni-bu-hua-tu",
+          "description": {
+            "en": "If you don't draw, you won't grow at all, you won't even make progress. Do you really think it's okay to stay at this level? Do you really think it's okay to keep your skills at this level? You're just living in your own comfort zone!",
+            "ja": "絵を描かなければ、全く成長しない、進歩すらしない。このままでいいと本当に思ってるの？自分のレベルをここに留めておいて本当に問題ないと思ってるの？ただ自分の殻に閉じこもってるだけじゃない！",
+            "zh": "如果假設你不畫圖的話你根本就完全不會成長你是連進步都不會進步的噢你真的覺得一直停在這邊沒有問題嗎你真的覺得一直讓自己的程度在這邊真的沒有問題嗎你就一直活在自己的自己的同溫層"
+          },
+          "path": "lazy-against/ni-bu-hua-tu.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "7275c224-0cbc-4fd7-874d-00de2adc25fa",
+          "name": "lan-ni-ba",
+          "description": {
+            "en": "Let me tell you, if you don't draw, if you don't draw for one day, you'll just stay there like a lump of mud on the ground, not even breathing. My drawing tablet is better than you - at least it's plugged in, and might accidentally make a stroke if the wind blows. But you're just rotting there, you can't even make one stroke!",
+            "ja": "言っておくけど、絵を描かないなら、一日絵を描かないなら、ただ地面に転がった泥のようにそこにいるだけ、呼吸すらしない。私のペンタブレットの方がマシよ。少なくとも電源は入ってるし、風が吹けば偶然にでも一筆描くかもしれない。でもあなたはそこで腐ってるだけ、一筆も描けない！",
+            "zh": "我跟你講如果假設你就是不畫畫你一天不畫畫阿你就是一直停在那裡你就是一個爛泥巴躺在地上而已完全不會呼吸我電繪板都比你們強他至少插了電人家那個可能不小心風吹他至少還會畫一筆阿你就爛在那裡你連畫一筆都不會"
+          },
+          "path": "lazy-against/lan-ni-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        }
+      ]
     },
     {
       "id": "e41f632f-c046-43b1-baf9-42d3cf70274c",
@@ -744,6 +1064,17 @@
           },
           "path": "valentine-lyrics/wu-lun-ni-za.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "a90fe8a0-5f9d-4939-be7a-43317647885a",
+          "name": "self-hen-ban",
+          "description": {
+            "en": "So I still hope that everyone can become more aware of how great they are, okay?",
+            "ja": "だから皆さんには、自分がどれだけ素晴らしいかをもっと意識してほしいと思います、いいですか？",
+            "zh": "所以我還是期許就是大家可以多多意識到自己很棒這件事情好嗎"
+          },
+          "path": "lazy-against/self-hen-ban.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
         },
         {
           "id": "43f307e0-e689-484a-b4bd-350068b11e69",
@@ -1173,6 +1504,17 @@
           },
           "path": "dp-toys/du-jiao-shou-jiao-2.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "id": "5bdbb872-0510-4a38-abbb-8bb6ad6dcd5b",
+          "name": "unicorn-scream-2",
+          "description": {
+            "en": "Unicorn Sound 3",
+            "ja": "ユニコーンの鳴き声3",
+            "zh": "獨角獸叫聲3"
+          },
+          "path": "lazy-against/unicorn-scream-2.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
         }
       ]
     },
@@ -2943,7 +3285,7 @@
             "zh": "我不要做雞肉啦"
           },
           "path": "mihoyo-set/bu-yao-g-zuo.mp3",
-          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+          "url": "https://www.youtube.com/watch/?v=Ae4C1NN65u0"
         },
         {
           "id": "b1fe9a8c-a519-433f-af4e-6dd743ddc069",
@@ -2965,7 +3307,7 @@
             "zh": "幹他真的給我雞肉還給我十串"
           },
           "path": "mihoyo-set/ge-wo-g-zuo.mp3",
-          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+          "url": "https://www.youtube.com/watch/?v=Ae4C1NN65u0"
         },
         {
           "id": "9ac56ac5-c2c4-4f02-8434-4ca40e17cf6f",
@@ -3307,6 +3649,17 @@
           },
           "path": "dp-toys/wu-shang-kuai-le.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "id": "66eb443c-e824-4e07-a6d3-2addf517b1b1",
+          "name": "unicorn-1",
+          "description": {
+            "en": "Why is this guy getting close to my oshi? I'm so upset and annoyed! I've been supporting them for so long, I attend every member's stream, I donate 3200 every month, but why, why can they just freely interact with my oshi? Who is this random guy, what kind of beast is he? Ahhh I want to bite him to death!",
+            "ja": "なぜこいつが私の推しに近づいてるの？むかつく、イライラする！私はずっと応援してきて、メン限も全部見て、毎月3200も投げてるのに、なぜ、なぜ勝手に私の推しと絡めるの？どこの野郎だ、どんな畜生だ？あーもう噛み殺してやりたい！",
+            "zh": "為什麼這個傢伙居然接近了我的推好不爽好煩燥喔明明明明我已經陪伴他那麼久我每個會限都會到我每個月都會固定斗3200可是為什麼為什麼他可以擅擅自跟就跟我的推連動到底是哪來的野男人哪來的畜生哪阿阿阿阿阿好想咬死他喔"
+          },
+          "path": "lazy-against/unicorn-1.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
         }
       ]
     },
@@ -3474,6 +3827,17 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "bc7dd5bb-988b-4603-8a08-f429c46ac66c",
+          "name": "wu-gu-nu-v",
+          "description": {
+            "en": "I'm just an innocent VTuber",
+            "ja": "私は無実のVTuberだよ",
+            "zh": "我只是個無辜的女V而已"
+          },
+          "path": "lazy-against/wu-gu-nu-v.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
           "id": "9cdce3b9-d07e-4cfe-84bf-cb8d50ac9f48",
           "name": "bu4-nan-v",
           "description": {
@@ -3506,6 +3870,17 @@
         "zh": "奶子"
       },
       "voice_list": [
+        {
+          "id": "ee1a2e15-ba7e-4b8c-b90c-f0d3557aa6b0",
+          "name": "da-boing-attack",
+          "description": {
+            "en": "Big parrot attack!",
+            "ja": "大きなオウムの攻撃！",
+            "zh": "大波鸚攻擊！"
+          },
+          "path": "lazy-against/da-boing-attack.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
         {
           "id": "eca75e5c-6abd-4171-b461-abffdff8d9de",
           "name": "may-yo-cho-na",
@@ -3790,7 +4165,7 @@
             "zh": "我保底了我是保底人"
           },
           "path": "mihoyo-set/bao-di-ren.mp3",
-          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+          "url": "https://www.youtube.com/watch/?v=Ae4C1NN65u0"
         },
         {
           "id": "63389314-18ed-4b6a-9ee5-cafe04a7504c",
@@ -3801,7 +4176,7 @@
             "zh": "我不要變非洲灰鸚鵡啦"
           },
           "path": "mihoyo-set/fei-zou-hue-yi-wu.mp3",
-          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+          "url": "https://www.youtube.com/watch/?v=Ae4C1NN65u0"
         },
         {
           "id": "dcaaa949-b5ae-44b2-99cc-015dd31af0a8",
@@ -3823,7 +4198,7 @@
             "zh": "拒絕非洲理解非洲最後成為非洲"
           },
           "path": "mihoyo-set/chen-way-fe-chou.mp3",
-          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+          "url": "https://www.youtube.com/watch/?v=Ae4C1NN65u0"
         },
         {
           "id": "f04590ac-6c68-40cf-94fe-80931f371e32",
@@ -4164,7 +4539,7 @@
             "zh": "哎哎哎哎嗚哇"
           },
           "path": "mihoyo-set/ai-yo-wei-wa.mp3",
-          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+          "url": "https://www.youtube.com/watch/?v=Ae4C1NN65u0"
         },
         {
           "id": "8aa79271-70e4-40ad-833c-df69a36354dc",
@@ -4176,6 +4551,17 @@
           },
           "path": "yoda-new-clothes/gon-si-da-due.mp3",
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
+          "id": "8d1beda0-ac8c-43ac-80c6-f4bf41353f06",
+          "name": "due-bu-chi-la",
+          "description": {
+            "en": "I'm sorry, I'm sorry!",
+            "ja": "ごめん、ごめんね！",
+            "zh": "對不起對不起啦"
+          },
+          "path": "lazy-against/due-bu-chi-la.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
         },
         {
           "id": "dce08d9e-87e8-4170-a384-63554254626c",
@@ -4220,6 +4606,17 @@
           },
           "path": "yoda-girlfriend/fa-tsai-ler.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "3d66245a-7cea-482b-810e-a1f4a9611f31",
+          "name": "kuz-tuo-diao",
+          "description": {
+            "en": "Take off your pants!",
+            "ja": "パンツを脱ぎなさい！",
+            "zh": "把褲子給我脫掉！"
+          },
+          "path": "lazy-against/kuz-tuo-diao.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
         },
         {
           "id": "471326ba-7ae9-4575-81c5-edee64b43f06",
@@ -4362,7 +4759,7 @@
             "zh": "我覺得我應該要跟反詐騙專線合作"
           },
           "path": "mihoyo-set/fan-zha-pien-he-zuo.mp3",
-          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+          "url": "https://www.youtube.com/watch/?v=Ae4C1NN65u0"
         },
         {
           "id": "1ed10f49-e6b2-45f0-843c-a36dea22c766",
@@ -4395,7 +4792,7 @@
             "zh": "各位要記得千萬千千萬萬不要不要賭博啊"
           },
           "path": "mihoyo-set/chen-wan-bu-yao-du-bo.mp3",
-          "url": "https://www.youtube.com/watch/v=Ae4C1NN65u0"
+          "url": "https://www.youtube.com/watch/?v=Ae4C1NN65u0"
         },
         {
           "id": "bb558a4e-552e-4a5f-afb0-133fec65119a",
@@ -4407,6 +4804,28 @@
           },
           "path": "mihoyo-set/hon-se-peng-yo-wa-ken.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "40a8431c-20f6-4f41-90c6-6797588207d0",
+          "name": "me-yo-janda",
+          "description": {
+            "en": "The real Yuta is a dream, the real Yuta is fake, the real Yuta is an illusion, there is no real Yuta",
+            "ja": "本物のユウタは夢で、本物のユウタは偽物で、本物のユウタは幻想で、本物のユウタなんていない",
+            "zh": "真妲是夢的真妲是假的真妲是幻想的沒有真妲"
+          },
+          "path": "lazy-against/me-yo-janda.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "d3f7e08c-5fda-44e9-ab12-09507cc9df22",
+          "name": "tsao-ren-li-ba-wan",
+          "description": {
+            "en": "Let me show you this Ultraman lewd art I found recently",
+            "ja": "最近見つけたウルトラマンのエロ画像を見せてあげる",
+            "zh": "我現在給你那個我最近發現的那個超人力霸王的色圖"
+          },
+          "path": "lazy-against/tsao-ren-li-ba-wan.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
         },
         {
           "id": "427505f6-aac6-4d8e-a86b-5ce1555849e7",
