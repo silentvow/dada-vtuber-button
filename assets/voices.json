@@ -439,17 +439,6 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
-          "id": "4cdf254f-6a74-4597-93ab-def5d0b05b22",
-          "name": "wo-zue-tao-yen-ni-ler",
-          "description": {
-            "en": "What love? I hate you the most! Hmph~",
-            "ja": "何を愛している?私はあなたが一番嫌い!うっ!",
-            "zh": "什麼喜歡？我最討厭你了！哼～"
-          },
-          "path": "valentine-lyrics/wo-zue-tao-yen-ni-ler.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
           "id": "181e4af4-2cc1-453e-836c-3db949d52fd8",
           "name": "wo-der-liao-tian-shi",
           "description": {
@@ -1130,6 +1119,17 @@
           },
           "path": "valentine-lyrics-2/tsai-me-si-huan.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "4cdf254f-6a74-4597-93ab-def5d0b05b22",
+          "name": "wo-zue-tao-yen-ni-ler",
+          "description": {
+            "en": "What love? I hate you the most! Hmph~",
+            "ja": "何を愛している?私はあなたが一番嫌い!うっ!",
+            "zh": "什麼喜歡？我最討厭你了！哼～"
+          },
+          "path": "valentine-lyrics/wo-zue-tao-yen-ni-ler.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
           "id": "de446245-de62-4a56-b622-bb9e10aa2651",
