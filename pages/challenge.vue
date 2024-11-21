@@ -81,11 +81,17 @@
           </div>
           <v-radio-group
             v-if="question.type !== 'q_multi_choice'"
-            v-model="answer_result[`${question.id}`]"
+            v-model="answers[`${question.id}`]"
             readonly
             class="mx-5"
           >
-            <v-radio v-for="(option, idx) in question?.options" :key="option.id" :value="option.id" readonly>
+            <v-radio
+              v-for="(option, idx) in question?.options"
+              :key="option.id"
+              :value="option.id"
+              readonly
+              class="option-item"
+            >
               <template v-slot:label>
                 <div>
                   <voice-btn
@@ -98,12 +104,24 @@
                     {{ $t('action.play_option') }} {{ idx + 1 }}
                   </voice-btn>
                 </div>
+                <div v-if="option.correct" class="hint-icon">
+                  <v-icon color="success" size="24">{{ icons.correct }}</v-icon>
+                </div>
+                <div v-if="!option.correct && answers[question.id] === option.id" class="hint-icon">
+                  <v-icon color="error" size="24">{{ icons.wrong }}</v-icon>
+                </div>
               </template>
             </v-radio>
           </v-radio-group>
           <v-item-group v-else class="mt-3 mb-2">
             <v-item v-for="(option, idx) in question?.options" :key="option.id" class="mt-1">
-              <v-checkbox v-model="answer_result[`${question.id}`]" readonly hide-details :value="option.id">
+              <v-checkbox
+                v-model="answers[`${question.id}`]"
+                readonly
+                hide-details
+                :value="option.id"
+                class="option-item"
+              >
                 <template v-slot:label>
                   <voice-btn
                     ref="voice_btn"
@@ -114,6 +132,12 @@
                   >
                     {{ $t('action.play_option') }} {{ idx + 1 }}
                   </voice-btn>
+                  <div v-if="isCorrect(question, option)" class="hint-icon">
+                    <v-icon color="success" size="24">{{ icons.correct }}</v-icon>
+                  </div>
+                  <div v-else class="hint-icon">
+                    <v-icon color="error" size="24">{{ icons.wrong }}</v-icon>
+                  </div>
                 </template>
               </v-checkbox>
             </v-item>
@@ -223,6 +247,16 @@
   border: thick solid #eeeeee;
 }
 
+.option-item {
+  position: relative;
+}
+.option-item .hint-icon {
+  position: absolute;
+  top: 10px;
+  left: 288px;
+  z-index: 0;
+}
+
 .iframe-container {
   position: relative;
   width: 100%;
@@ -245,6 +279,7 @@
 import { nanoid } from 'nanoid';
 import voice_lists from '~/assets/voices.json';
 import VoiceBtn from '../components/VoiceBtn';
+import { mdiCheckCircle, mdiCloseCircle } from '@mdi/js';
 
 export default {
   components: {
@@ -253,6 +288,10 @@ export default {
   data() {
     const voices = voice_lists.groups.flatMap(group => group.voice_list);
     return {
+      icons: {
+        correct: mdiCheckCircle,
+        wrong: mdiCloseCircle
+      },
       voices,
       long_voices: voices.filter(voice => voice.description.zh.length > 7),
       questions: [],
@@ -310,6 +349,16 @@ export default {
     this.loading = false;
   },
   methods: {
+    isCorrect(question, option) {
+      if (question.type === 'q_multi_choice') {
+        return (
+          (this.answers[question.id].includes(option.id) && option.correct) ||
+          (!this.answers[question.id].includes(option.id) && !option.correct)
+        );
+      } else {
+        return this.answers[question.id] === option.id && option.correct;
+      }
+    },
     loadedQuestion(index) {
       this.questions[index].loading = false;
     },
@@ -337,7 +386,7 @@ export default {
       const filled = this.questions.every(
         q =>
           (q.type !== 'q_multi_choice' && this.answers[q.id] !== undefined) ||
-          (q.type === 'q_multi_choice' && this.answers[q.id].length > 0)
+          (q.type === 'q_multi_choice' && this.answers[q.id].length >= 0)
       );
       if (!filled) {
         this.show_hint = true;
@@ -346,11 +395,15 @@ export default {
 
       this.score = this.questions.reduce((acc, question) => {
         if (question.type === 'q_multi_choice') {
-          const correctAnswers = question.options.filter(option => option.correct).map(option => option.id);
-          const userAnswers = this.answers[question.id];
-          if (correctAnswers.length !== userAnswers.length) return acc;
-          if (correctAnswers.every(answer => userAnswers.includes(answer))) return acc + 8;
-          return acc;
+          let point = 0;
+          question.options.forEach(option => {
+            if (this.answers[question.id].includes(option.id) && option.correct) {
+              point += 2;
+            } else if (!this.answers[question.id].includes(option.id) && !option.correct) {
+              point += 2;
+            }
+          });
+          return acc + point;
         } else {
           if (this.answers[question.id] === question.options.find(option => option.correct).id) return acc + 6;
           return acc;
@@ -451,7 +504,7 @@ export default {
           name: voice.name,
           description: voice.description,
           path: voice.path,
-          correct: voice.url !== targetVoice.url
+          correct: voice.url === targetVoice.url
         }))
       };
     },

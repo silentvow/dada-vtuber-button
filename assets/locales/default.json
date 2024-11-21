@@ -22,7 +22,7 @@
     "level_normal_desc": "只會出現超過一定長度的語音",
     "next_question": "下一題",
     "now_score": "目前得分",
-    "q_multi_choice": "請問哪些語音出自於以下直播？ (多選，全對才給分)",
+    "q_multi_choice": "請問哪些語音出自於以下直播？ (多選，每個選項 2 分)",
     "q_negative": "請問哪一個語音不是出自於以下直播？ (單選)",
     "q_positive": "請問哪一個語音出自於以下直播？ (單選)",
     "question_desc": "請問哪一個語音出自於以下直播？",
