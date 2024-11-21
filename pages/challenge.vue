@@ -79,31 +79,16 @@
               @load="loadedQuestion(index)"
             ></iframe>
           </div>
-          <v-radio-group
-            v-if="question.type !== 'q_multi_choice'"
-            v-model="answer_result[`${question.id}`]"
-            readonly
-            class="mx-5"
-          >
-            <v-radio v-for="(option, idx) in question?.options" :key="option.id" :value="option.id" readonly>
-              <template v-slot:label>
-                <div>
-                  <voice-btn
-                    ref="voice_btn"
-                    :key="option.id"
-                    :voice-id="option.id"
-                    :style="{ width: '256px' }"
-                    @on-play="play(option)"
-                  >
-                    {{ $t('action.play_option') }} {{ idx + 1 }}
-                  </voice-btn>
-                </div>
-              </template>
-            </v-radio>
-          </v-radio-group>
-          <v-item-group v-else class="mt-3 mb-2">
+          <v-item-group class="mt-3 mb-2">
             <v-item v-for="(option, idx) in question?.options" :key="option.id" class="mt-1">
-              <v-checkbox v-model="answer_result[`${question.id}`]" readonly hide-details :value="option.id">
+              <v-checkbox
+                v-model="answer_result[`${question.id}`]"
+                readonly
+                hide-details
+                :value="option.id"
+                :color="real_answers[`${question.id}`].includes(option.id) ? 'success' : 'error'"
+                :on-icon="real_answers[`${question.id}`].includes(option.id) ? icons.correct : icons.wrong"
+              >
                 <template v-slot:label>
                   <voice-btn
                     ref="voice_btn"
@@ -152,7 +137,7 @@
             ></iframe>
           </div>
           <v-radio-group v-if="question.type !== 'q_multi_choice'" v-model="answers[`${question.id}`]" class="mx-5">
-            <v-radio v-for="(option, idx) in question?.options" :key="option.id" :value="option.id">
+            <v-radio v-for="(option, idx) in question?.options" :key="option.id" color="success" :value="option.id">
               <template v-slot:label>
                 <div>
                   <voice-btn
@@ -170,7 +155,7 @@
           </v-radio-group>
           <v-item-group v-else class="mt-3 mb-2">
             <v-item v-for="(option, idx) in question?.options" :key="option.id" class="mt-1">
-              <v-checkbox v-model="answers[`${question.id}`]" hide-details :value="option.id">
+              <v-checkbox v-model="answers[`${question.id}`]" color="success" hide-details :value="option.id">
                 <template v-slot:label>
                   <voice-btn
                     ref="voice_btn"
@@ -245,6 +230,7 @@
 import { nanoid } from 'nanoid';
 import voice_lists from '~/assets/voices.json';
 import VoiceBtn from '../components/VoiceBtn';
+import { mdiCheckboxMarked, mdiCloseBox } from '@mdi/js';
 
 export default {
   components: {
@@ -253,10 +239,15 @@ export default {
   data() {
     const voices = voice_lists.groups.flatMap(group => group.voice_list);
     return {
+      icons: {
+        correct: mdiCheckboxMarked,
+        wrong: mdiCloseBox
+      },
       voices,
       long_voices: voices.filter(voice => voice.description.zh.length > 7),
       questions: [],
       answers: {},
+      real_answers: {},
       answer_result: {},
       score: 0,
       high_score_hard: 0,
@@ -356,6 +347,15 @@ export default {
           return acc;
         }
       }, 0);
+      this.answer_result = Object.fromEntries(
+        this.questions.map(question => {
+          const answer = this.answers[question.id];
+          if (question.type === 'q_multi_choice') {
+            return [question.id, Array.from(new Set([...answer, ...this.real_answers[question.id]]))];
+          }
+          return [question.id, Array.from(new Set([...this.real_answers[question.id], answer]))];
+        })
+      );
 
       this.show_questions = false;
       this.show_result = true;
@@ -379,9 +379,9 @@ export default {
         question.id = nanoid();
         question.loading = true;
         this.answers[question.id] = index < 10 ? undefined : [];
-        this.answer_result[question.id] =
+        this.real_answers[question.id] =
           index < 10
-            ? question.options.find(option => option.correct)?.id
+            ? [question.options.find(option => option.correct)?.id]
             : question.options.filter(option => option.correct).map(option => option.id);
       });
     },
