@@ -98,7 +98,7 @@
                     ref="voice_btn"
                     :key="option.id"
                     :voice-id="option.id"
-                    :style="{ width: '256px' }"
+                    :style="{ width: '224px' }"
                     @on-play="play(option)"
                   >
                     {{ $t('action.play_option') }} {{ idx + 1 }}
@@ -127,7 +127,7 @@
                     ref="voice_btn"
                     :key="option.id"
                     :voice-id="option.id"
-                    :style="{ width: '256px' }"
+                    :style="{ width: '224px' }"
                     @on-play="play(option)"
                   >
                     {{ $t('action.play_option') }} {{ idx + 1 }}
@@ -252,8 +252,8 @@
 }
 .option-item .hint-icon {
   position: absolute;
-  top: 10px;
-  left: 288px;
+  top: 9px;
+  right: -33px;
   z-index: 0;
 }
 
