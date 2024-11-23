@@ -1,5 +1,5 @@
 <template>
-  <v-layout column justify-center align-center app>
+  <v-layout column justify-center align-stretch app>
     <!-- 播放控制的浮动按钮 -->
     <v-speed-dial
       v-model="fab"
@@ -57,7 +57,7 @@
         </v-icon>
       </v-btn>
     </v-speed-dial>
-    <v-flex xs12 sm8 md6 style="min-width: 85%">
+    <v-flex xs12 sm8 md6>
       <!-- 对每个按钮组生成一个Card -->
       <v-card v-for="group in groups" :key="group.name">
         <v-card-title class="headline" :class="dark_text">
