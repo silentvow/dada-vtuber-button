@@ -93,7 +93,7 @@
               class="option-item"
             >
               <template v-slot:label>
-                <div>
+                <div class="d-flex align-center">
                   <voice-btn
                     ref="voice_btn"
                     :key="option.id"
@@ -103,12 +103,12 @@
                   >
                     {{ $t('action.play_option') }} {{ idx + 1 }}
                   </voice-btn>
-                </div>
-                <div v-if="option.correct" class="hint-icon">
-                  <v-icon color="success" size="24">{{ icons.correct }}</v-icon>
-                </div>
-                <div v-if="!option.correct && answers[question.id] === option.id" class="hint-icon">
-                  <v-icon color="error" size="24">{{ icons.wrong }}</v-icon>
+                  <div class="hint-icon">
+                    <v-icon v-if="option.correct" color="success" size="24">{{ icons.correct }}</v-icon>
+                    <v-icon v-if="!option.correct && answers[question.id] === option.id" color="error" size="24">
+                      {{ icons.wrong }}
+                    </v-icon>
+                  </div>
                 </div>
               </template>
             </v-radio>
@@ -123,20 +123,22 @@
                 class="option-item"
               >
                 <template v-slot:label>
-                  <voice-btn
-                    ref="voice_btn"
-                    :key="option.id"
-                    :voice-id="option.id"
-                    :style="{ width: '224px' }"
-                    @on-play="play(option)"
-                  >
-                    {{ $t('action.play_option') }} {{ idx + 1 }}
-                  </voice-btn>
-                  <div v-if="isCorrect(question, option)" class="hint-icon">
-                    <v-icon color="success" size="24">{{ icons.correct }}</v-icon>
-                  </div>
-                  <div v-else class="hint-icon">
-                    <v-icon color="error" size="24">{{ icons.wrong }}</v-icon>
+                  <div class="d-flex align-center">
+                    <voice-btn
+                      ref="voice_btn"
+                      :key="option.id"
+                      :voice-id="option.id"
+                      :style="{ width: '224px' }"
+                      @on-play="play(option)"
+                    >
+                      {{ $t('action.play_option') }} {{ idx + 1 }}
+                    </voice-btn>
+                    <div v-if="isCorrect(question, option)" class="hint-icon">
+                      <v-icon color="success" size="24">{{ icons.correct }}</v-icon>
+                    </div>
+                    <div v-else class="hint-icon">
+                      <v-icon color="error" size="24">{{ icons.wrong }}</v-icon>
+                    </div>
                   </div>
                 </template>
               </v-checkbox>
@@ -251,10 +253,7 @@
   position: relative;
 }
 .option-item .hint-icon {
-  position: absolute;
-  top: 9px;
-  right: -33px;
-  z-index: 0;
+  margin-left: 9px;
 }
 
 .iframe-container {
