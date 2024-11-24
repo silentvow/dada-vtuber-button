@@ -293,6 +293,11 @@ export default {
         delete this.audio;
       });
     }
+  },
+  head() {
+    return {
+      title: this.$t('member.member_area') + ' - ' + this.$t('site.title')
+    };
   }
 };
 </script>

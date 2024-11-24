@@ -655,6 +655,11 @@ export default {
     stop_all() {
       this.$bus.$emit('abort_play');
     }
+  },
+  head() {
+    return {
+      title: this.$t('site.challenge') + ' - ' + this.$t('site.title')
+    };
   }
 };
 </script>

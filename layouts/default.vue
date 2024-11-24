@@ -148,7 +148,7 @@
     </v-app-bar>
     <v-main>
       <v-container class="page">
-        <v-img class="rounded" max-height="240" src="/banner.jpg" />
+        <v-img class="rounded" max-height="360" src="/banner.jpg" />
         <nuxt />
         <v-snackbar v-model="snackbarVisible" :timeout="2000" :elevation="6" top color="success">
           {{ snackbarMessage }}
