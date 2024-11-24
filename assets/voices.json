@@ -109,6 +109,28 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "e1ddb2e7-405c-463a-9fb3-8708b9d67f45",
+          "name": "hi-im-back",
+          "description": {
+            "en": "Hi, I'm back",
+            "ja": "ただいま",
+            "zh": "嗨我回來了"
+          },
+          "path": "find-lover-guide/hi-im-back.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "31645356-12bc-4345-8980-4e3947fb5343",
+          "name": "ka-sa-ha-mi-da",
+          "description": {
+            "en": "Hello, how are you",
+            "ja": "アンニョンハセヨ",
+            "zh": "安安康撒哈咪達"
+          },
+          "path": "find-lover-guide/ka-sa-ha-mi-da.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
           "id": "59beabdb-d610-47bf-907d-da417fa1fe96",
           "name": "gan-en-bye-bye",
           "description": {
@@ -166,6 +188,28 @@
       ]
     },
     {
+      "id": "62b7d30d-d5b8-4a9c-ada1-a16ae7909fa0",
+      "group_name": "agree",
+      "group_description": {
+        "en": "Agree",
+        "ja": "肯定",
+        "zh": "肯定"
+      },
+      "voice_list": [
+        {
+          "id": "c3ed0c2f-5f28-4d49-a0d8-e1d6d69cd9a5",
+          "name": "ni-hao-hue-o",
+          "description": {
+            "en": "Not bad at all, oh you're really good",
+            "ja": "なかなかいいじゃん、うまいね",
+            "zh": "很不錯欸噢你好會喔"
+          },
+          "path": "find-lover-guide/ni-hao-hue-o.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        }
+      ]
+    },
+    {
       "id": "c5615961-1b79-4154-bf00-360507037daf",
       "group_name": "retort",
       "group_description": {
@@ -174,6 +218,17 @@
         "zh": "吐槽"
       },
       "voice_list": [
+        {
+          "id": "3a2f8d2e-547f-4810-9438-a96b942b8ebe",
+          "name": "sa-shiao-arr",
+          "description": {
+            "en": "What the heck",
+            "ja": "なんだよ",
+            "zh": "三小阿"
+          },
+          "path": "find-lover-guide/sa-shiao-arr.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
         {
           "id": "1c0e811c-a623-497d-b3ad-dfe4f0e93e6b",
           "name": "bie-hu-sow",
@@ -195,6 +250,17 @@
           },
           "path": "news-202405/wei-shen-mo.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "7c250200-01f5-4a10-9b0b-8c767a79e604",
+          "name": "oh-my-mom",
+          "description": {
+            "en": "Oh my goodness",
+            "ja": "まあ！",
+            "zh": "我的媽呀"
+          },
+          "path": "find-lover-guide/oh-my-mom.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
           "id": "e9f8b1a2-1234-4567-8904-abcdef123459",
@@ -879,17 +945,6 @@
       },
       "voice_list": [
         {
-          "id": "d828da26-4731-49eb-bd02-8f1001795374",
-          "name": "yan-wa-ye-su",
-          "description": {
-            "en": "Looking up to Jesus (song)",
-            "ja": "主を仰ぐ (歌)",
-            "zh": "仰望耶穌 (歌)"
-          },
-          "path": "valentine-lyrics/yan-wa-ye-su.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
           "id": "82d7c519-5568-4f7a-81ac-d52df7da4e2a",
           "name": "miska-moska",
           "description": {
@@ -1119,6 +1174,17 @@
           },
           "path": "valentine-lyrics-2/tsai-me-si-huan.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "f43c6029-3df1-4858-892d-d8821abc3ec5",
+          "name": "haoa-ni-jo-chi",
+          "description": {
+            "en": "Fine, go do your own thing then",
+            "ja": "はいはい、好きにすれば",
+            "zh": "好啊你就去做你自己的事情啊"
+          },
+          "path": "find-lover-guide/haoa-ni-jo-chi.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
           "id": "4cdf254f-6a74-4597-93ab-def5d0b05b22",
@@ -1372,6 +1438,28 @@
           },
           "path": "valentine-lyrics-2/hahaha-10.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "addfba01-d948-49c7-b99d-c160f95de843",
+          "name": "hahaha-11",
+          "description": {
+            "en": "Big laugh-11",
+            "ja": "大笑い-11",
+            "zh": "大笑聲-11"
+          },
+          "path": "find-lover-guide/hahaha-11.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "8be6d6fe-909d-4583-969f-095e29b4632a",
+          "name": "hahaha-12",
+          "description": {
+            "en": "Big laugh-12",
+            "ja": "大笑い-12",
+            "zh": "大笑聲-12"
+          },
+          "path": "find-lover-guide/hahaha-12.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         }
       ]
     },
@@ -1416,6 +1504,17 @@
           },
           "path": "valentine-lyrics-2/arrrr-2.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "720c9924-b0e3-4a6b-9810-49d505a67c04",
+          "name": "ai-hao-3",
+          "description": {
+            "en": "Wailing sound-3",
+            "ja": "悲鳴の音-3",
+            "zh": "哀嚎聲-3"
+          },
+          "path": "find-lover-guide/ai-hao-3.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
           "id": "647dcdbd-494b-4b98-b163-2c70791fcda9",
@@ -1484,37 +1583,15 @@
       },
       "voice_list": [
         {
-          "id": "bc4ff100-772f-4fb0-a5d0-682f33629e7e",
-          "name": "du-jiao-shou-jiao",
+          "id": "45f6e420-cc92-44dc-adc8-e0b17a18e1f9",
+          "name": "in-water-1",
           "description": {
-            "en": "Unicorn sound 1",
-            "ja": "ユニコーンの鳴き声1",
-            "zh": "獨角獸叫聲1"
+            "en": "Drowning sound-1",
+            "ja": "溺れる音-1",
+            "zh": "溺水聲-1"
           },
-          "path": "dp-toys/du-jiao-shou-jiao.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
-          "id": "8bab5eec-4e0c-4a4c-a76d-57c4da502864",
-          "name": "du-jiao-shou-jiao-2",
-          "description": {
-            "en": "Unicorn sound 2",
-            "ja": "ユニコーンの鳴き声2",
-            "zh": "獨角獸叫聲2"
-          },
-          "path": "dp-toys/du-jiao-shou-jiao-2.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
-          "id": "5bdbb872-0510-4a38-abbb-8bb6ad6dcd5b",
-          "name": "unicorn-scream-2",
-          "description": {
-            "en": "Unicorn Sound 3",
-            "ja": "ユニコーンの鳴き声3",
-            "zh": "獨角獸叫聲3"
-          },
-          "path": "lazy-against/unicorn-scream-2.mp3",
-          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+          "path": "find-lover-guide/in-water-1.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
           "id": "9159d931-e24c-40e0-8bd2-b33315237b31",
@@ -1526,6 +1603,39 @@
           },
           "path": "valentine-lyrics-2/beast-senpai.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "bc4ff100-772f-4fb0-a5d0-682f33629e7e",
+          "name": "du-jiao-shou-jiao",
+          "description": {
+            "en": "Unicorn sound 1",
+            "ja": "ユニコーンの鳴き声1",
+            "zh": "獨角獸叫聲-1"
+          },
+          "path": "dp-toys/du-jiao-shou-jiao.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "id": "8bab5eec-4e0c-4a4c-a76d-57c4da502864",
+          "name": "du-jiao-shou-jiao-2",
+          "description": {
+            "en": "Unicorn sound 2",
+            "ja": "ユニコーンの鳴き声2",
+            "zh": "獨角獸叫聲-2"
+          },
+          "path": "dp-toys/du-jiao-shou-jiao-2.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "id": "5bdbb872-0510-4a38-abbb-8bb6ad6dcd5b",
+          "name": "unicorn-scream-2",
+          "description": {
+            "en": "Unicorn Sound 3",
+            "ja": "ユニコーンの鳴き声3",
+            "zh": "獨角獸叫聲-3"
+          },
+          "path": "lazy-against/unicorn-scream-2.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
         }
       ]
     },
@@ -1550,15 +1660,15 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
-          "id": "379e6f5f-a0dd-4911-a20c-174099bf2ac8",
-          "name": "indie-f4",
+          "id": "6ef30e0a-877b-4d6c-ad36-86b75b4ca7ba",
+          "name": "jo-tian-hsuan-nu",
           "description": {
-            "en": "Indian F4 (Song)",
-            "ja": "インドのF4（歌）",
-            "zh": "印度F4 (歌)"
+            "en": "The Heavenly Lady descends!",
+            "ja": "九天玄女、降臨！",
+            "zh": "九天玄女降落！"
           },
-          "path": "valentine-lyrics-2/indie-f4.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+          "path": "find-lover-guide/jo-tian-hsuan-nu.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
           "id": "146cc758-97a0-4684-88fd-e7c446c64d3a",
@@ -1636,6 +1746,226 @@
           },
           "path": "news-202410/nan-fan-lao-de.mp3",
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        }
+      ]
+    },
+    {
+      "id": "247d20a6-389f-4f71-9757-768583efea11",
+      "group_name": "singing",
+      "group_description": {
+        "en": "Singing",
+        "ja": "歌唄",
+        "zh": "唱歌"
+      },
+      "voice_list": [
+        {
+          "id": "4c6a71ef-17bc-44e0-aef1-1c21eb50b5bf",
+          "name": "yoda-nian-ni",
+          "description": {
+            "en": "Missing You (Song)",
+            "ja": "あなたを想う（歌）",
+            "zh": "唸你"
+          },
+          "path": "valentine-lyrics-2/yoda-nian-ni.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "62e4fc7a-2f08-430f-a866-8fc58c6d53ea",
+          "name": "yue-ma-song",
+          "description": {
+            "en": "Wanna meet up?",
+            "ja": "会う？",
+            "zh": "約嗎"
+          },
+          "path": "find-lover-guide/yue-ma-song.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "d955b7c4-50e6-4658-aa05-8e553827d4be",
+          "name": "shiao-man-yao",
+          "description": {
+            "en": "Slim waist",
+            "ja": "細いウエスト",
+            "zh": "小蠻腰"
+          },
+          "path": "find-lover-guide/shiao-man-yao.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "fb32b327-b4e4-4fc8-a76b-0b65c7b4e8ea",
+          "name": "moon-ya-wan",
+          "description": {
+            "en": "Crescent Bay",
+            "ja": "月牙湾",
+            "zh": "月牙灣"
+          },
+          "path": "find-lover-guide/moon-ya-wan.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "20327b12-851f-41a2-9c5f-5f1a80f7b672",
+          "name": "so-so-der-song",
+          "description": {
+            "en": "Very skinny",
+            "ja": "すごく細い",
+            "zh": "瘦瘦的"
+          },
+          "path": "find-lover-guide/so-so-der-song.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "ed022651-1118-4bd8-944f-c743fb0e4539",
+          "name": "na-she-nian",
+          "description": {
+            "en": "Those Years",
+            "ja": "あの頃",
+            "zh": "那些年"
+          },
+          "path": "find-lover-guide/na-she-nian.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "d828da26-4731-49eb-bd02-8f1001795374",
+          "name": "yan-wa-ye-su",
+          "description": {
+            "en": "Looking up to Jesus (song)",
+            "ja": "主を仰ぐ (歌)",
+            "zh": "仰望耶穌"
+          },
+          "path": "valentine-lyrics/yan-wa-ye-su.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "379e6f5f-a0dd-4911-a20c-174099bf2ac8",
+          "name": "indie-f4",
+          "description": {
+            "en": "Indian F4 (Song)",
+            "ja": "インドのF4（歌）",
+            "zh": "印度F4"
+          },
+          "path": "valentine-lyrics-2/indie-f4.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "1d0d56de-6167-462f-b12c-fcf73481e8e6",
+          "name": "wo-ba-der-bi",
+          "description": {
+            "en": "My father's pen",
+            "ja": "父のペン",
+            "zh": "我爸的筆"
+          },
+          "path": "find-lover-guide/wo-ba-der-bi.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "b8940255-2098-4a71-a167-25d07d451deb",
+          "name": "se-z-kua-le",
+          "description": {
+            "en": "Happy Birthday (song)",
+            "ja": "ハッピーバースデー（歌）",
+            "zh": "生日快樂"
+          },
+          "path": "yoda-new-clothes/se-z-kua-le.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
+          "id": "5acc082c-2434-4b63-a081-7e092a8b4e68",
+          "name": "mo-gu-mo-gu",
+          "description": {
+            "en": "Mushroom soup (song)",
+            "ja": "きのこスープ（歌）",
+            "zh": "蘑菇濃湯"
+          },
+          "path": "yoda-new-clothes/mo-gu-mo-gu.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
+          "id": "84ecc1b2-f96e-4978-a18b-024048da5f0e",
+          "name": "shen-chi-bai-ma",
+          "description": {
+            "en": "Riding on a white horse",
+            "ja": "白馬に乗って",
+            "zh": "身騎白馬"
+          },
+          "path": "find-lover-guide/shen-chi-bai-ma.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "0e96309e-cb42-4f16-afaa-775aae5751b7",
+          "name": "man-man-si-hua-ni",
+          "description": {
+            "en": "Slowly falling for you",
+            "ja": "だんだん好きになる",
+            "zh": "慢慢喜歡你"
+          },
+          "path": "find-lover-guide/man-man-si-hua-ni.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "588c5a3d-7d9f-485f-bb1c-cf4a8c902386",
+          "name": "lau-guo-bow-bow",
+          "description": {
+            "en": "Hubby, number one in the world (song)",
+            "ja": "旦那様、天下一(歌)",
+            "zh": "老公天下第一"
+          },
+          "path": "yoda-girlfriend/lau-guo-bow-bow.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "406090ba-5657-4d3c-869c-69a33123a8cf",
+          "name": "stran-storm-center",
+          "description": {
+            "en": "Strange storm center",
+            "ja": "異様な嵐の中心",
+            "zh": "異樣的風暴中心"
+          },
+          "path": "find-lover-guide/stran-storm-center.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "2ecc1fde-8b5d-4d53-9d94-6ece668b1b48",
+          "name": "rainy-love",
+          "description": {
+            "en": "Rain Love Lyrics Remix - 1",
+            "ja": "雨愛歌詞アレンジ - 1",
+            "zh": "雨愛歌詞改編-1"
+          },
+          "path": "real-da-agree/rainy-love.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "id": "fe4f1ff4-ffd7-46ea-93fc-e2f99e9d529d",
+          "name": "rainy-love-2",
+          "description": {
+            "en": "Rain Love Lyrics Remix - 2",
+            "ja": "雨愛歌詞アレンジ - 2",
+            "zh": "雨愛歌詞改編-2"
+          },
+          "path": "real-da-agree/rainy-love-2.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "id": "04f3a75c-4376-4a3b-803c-06d3472097b4",
+          "name": "rainy-love-3",
+          "description": {
+            "en": "Rain Love Lyrics Remix - 3",
+            "ja": "雨愛歌詞アレンジ - 3",
+            "zh": "雨愛歌詞改編-3"
+          },
+          "path": "real-da-agree/rainy-love-3.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "id": "df0a971d-d2fe-4e23-93ba-1e82a996b14f",
+          "name": "ai-you-x5",
+          "description": {
+            "en": "Ouch ouch ouch ouch ouch",
+            "ja": "あいよーあいよーあいよーあいよーあいよー",
+            "zh": "唉呦唉呦唉呦唉呦唉呦"
+          },
+          "path": "find-lover-guide/ai-you-x5.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         }
       ]
     },
@@ -1812,17 +2142,6 @@
           },
           "path": "weee.mp3",
           "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
-        },
-        {
-          "id": "5acc082c-2434-4b63-a081-7e092a8b4e68",
-          "name": "mo-gu-mo-gu",
-          "description": {
-            "en": "Mushroom soup (song)",
-            "ja": "きのこスープ（歌）",
-            "zh": "蘑菇濃湯 (歌)"
-          },
-          "path": "yoda-new-clothes/mo-gu-mo-gu.mp3",
-          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
           "id": "46a83f7f-9877-4cfc-9620-886d1abc4304",
@@ -2551,17 +2870,6 @@
       },
       "voice_list": [
         {
-          "id": "4c6a71ef-17bc-44e0-aef1-1c21eb50b5bf",
-          "name": "yoda-nian-ni",
-          "description": {
-            "en": "Missing You (Song)",
-            "ja": "あなたを想う（歌）",
-            "zh": "唸你 (歌)"
-          },
-          "path": "valentine-lyrics-2/yoda-nian-ni.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
-        },
-        {
           "id": "ee0d312a-f676-4f1b-9e4e-900b1856589e",
           "name": "yoda-arrrr",
           "description": {
@@ -2582,17 +2890,6 @@
           },
           "path": "yoda-girlfriend/yoda-tian-lao-ya-a.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
-          "id": "b8940255-2098-4a71-a167-25d07d451deb",
-          "name": "se-z-kua-le",
-          "description": {
-            "en": "Happy Birthday (song)",
-            "ja": "ハッピーバースデー（歌）",
-            "zh": "生日快樂 (歌)"
-          },
-          "path": "yoda-new-clothes/se-z-kua-le.mp3",
-          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
           "id": "e9f8b1a2-1234-4567-8912-abcdef123467",
@@ -2625,17 +2922,6 @@
             "zh": "好吃的雞腿便當來囉～"
           },
           "path": "yoda-girlfriend/g-tue-bian-dan.mp3",
-          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
-          "id": "588c5a3d-7d9f-485f-bb1c-cf4a8c902386",
-          "name": "lau-guo-bow-bow",
-          "description": {
-            "en": "Hubby, number one in the world (song)",
-            "ja": "旦那様、天下一(歌)",
-            "zh": "老公天下第一 (歌)"
-          },
-          "path": "yoda-girlfriend/lau-guo-bow-bow.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
@@ -2765,7 +3051,7 @@
           "description": {
             "en": "Bye-bye, goodnight, oyasumi.",
             "ja": "バイバイ、おやすみ",
-            "zh": "掰掰晚安 お休み"
+            "zh": "掰掰～晚安～お休み～"
           },
           "path": "real-da-agree/oyasumi.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
@@ -3101,39 +3387,6 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
-          "id": "2ecc1fde-8b5d-4d53-9d94-6ece668b1b48",
-          "name": "rainy-love",
-          "description": {
-            "en": "Rain Love Lyrics Remix - 1",
-            "ja": "雨愛歌詞アレンジ - 1",
-            "zh": "雨愛歌詞改編-1"
-          },
-          "path": "real-da-agree/rainy-love.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "id": "fe4f1ff4-ffd7-46ea-93fc-e2f99e9d529d",
-          "name": "rainy-love-2",
-          "description": {
-            "en": "Rain Love Lyrics Remix - 2",
-            "ja": "雨愛歌詞アレンジ - 2",
-            "zh": "雨愛歌詞改編-2"
-          },
-          "path": "real-da-agree/rainy-love-2.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "id": "04f3a75c-4376-4a3b-803c-06d3472097b4",
-          "name": "rainy-love-3",
-          "description": {
-            "en": "Rain Love Lyrics Remix - 3",
-            "ja": "雨愛歌詞アレンジ - 3",
-            "zh": "雨愛歌詞改編-3"
-          },
-          "path": "real-da-agree/rainy-love-3.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
           "id": "1bf41ca7-0501-463d-9f46-d565705b8125",
           "name": "lao-gon-bao-bao",
           "description": {
@@ -3297,6 +3550,17 @@
           },
           "path": "two-loli-blame/se-shi-g-tue-a.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "id": "fdd47d37-2f0a-481c-a3e7-a3fdb19283b3",
+          "name": "pen-sue-gi-zo-fan",
+          "description": {
+            "en": "Steamed chicken rice with sauce!",
+            "ja": "噴水チキンライス！",
+            "zh": "噴水雞肉飯！"
+          },
+          "path": "find-lover-guide/pen-sue-gi-zo-fan.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
           "id": "2bf1ecc9-067d-455c-a18b-229a37548e02",
@@ -4586,6 +4850,17 @@
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
+          "id": "15b0d8fd-a3fb-4806-b677-c79fb7f91f56",
+          "name": "ni-za-kai-tser",
+          "description": {
+            "en": "I suspect you're joking around",
+            "ja": "冗談でしょう",
+            "zh": "我懷疑你在開車"
+          },
+          "path": "find-lover-guide/ni-za-kai-tser.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
           "id": "dce08d9e-87e8-4170-a384-63554254626c",
           "name": "jia-yo-jia-yo",
           "description": {
@@ -4650,6 +4925,17 @@
           },
           "path": "mihoyo-set/letsgo.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "f944e103-58b6-4b7e-a1d9-8fa0d267f77d",
+          "name": "zan-shen-gu-li",
+          "description": {
+            "en": "Let's give our guest a round of applause",
+            "ja": "お客様に拍手をお願いします",
+            "zh": "來賓請掌聲鼓勵鼓勵"
+          },
+          "path": "find-lover-guide/zan-shen-gu-li.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
           "id": "544c4192-3e35-4055-bbe7-5e210f74eff1",
@@ -4738,6 +5024,17 @@
           },
           "path": "yoda-new-clothes/denx6.mp3",
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
+          "id": "28d4e3c4-9592-4d28-9da3-cda254394a40",
+          "name": "me-yo-la-jen4-der",
+          "description": {
+            "en": "Ah, how did you know? No way, really",
+            "ja": "えっ、どうしてわかったの？違うよ、まったく",
+            "zh": "阿你怎麼會知道沒有啦真是的"
+          },
+          "path": "find-lover-guide/me-yo-la-jen4-der.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
           "id": "5a64f0fa-d512-415d-88da-b68f887a7798",
