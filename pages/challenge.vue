@@ -285,7 +285,9 @@ export default {
     VoiceBtn
   },
   data() {
-    const voices = voice_lists.groups.flatMap(group => group.voice_list);
+    const voices = voice_lists.groups
+      .filter(group => group.group_name !== 'singing')
+      .flatMap(group => group.voice_list);
     return {
       icons: {
         correct: mdiCheckCircle,
