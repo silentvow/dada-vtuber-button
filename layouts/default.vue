@@ -1,3 +1,4 @@
+<!-- eslint-disable prettier/prettier -->
 <template>
   <v-app>
     <v-navigation-drawer v-model="drawer" :mobile-breakpoint="1024" class="elevation-3 full-height" fixed app>
@@ -172,13 +173,16 @@
           <div style="vertical-align: middle">
             <span>&copy; {{ new Date().getFullYear() }} </span>
             <span>
-              <a :href="$t('site.footer.author_link')" target="_blank" rel="noreferrer">
-                {{ $t('site.footer.author') }}
-              </a>
+              <a
+                :href="$t('site.footer.author_link')"
+                target="_blank"
+                rel="noreferrer"
+                class="text-decoration-underline"
+              >{{ $t('site.footer.author') }}</a>
             </span>
             <span>&nbsp;|&nbsp;</span>
             <span>
-              <a href="/privacy">{{ $t('site.privacy') }}</a>
+              <a href="/privacy" class="text-decoration-underline">{{ $t('site.privacy') }}</a>
             </span>
             <v-btn
               v-if="$t('site.footer.repo_link') === 'no_display'"
@@ -387,7 +391,7 @@ export default {
       });
     },
     footerContent() {
-      const styledName = `<a href="/feedback">${this.$t('site.feedback')}</a>`;
+      const styledName = `<a href="/feedback" class="text-decoration-underline">${this.$t('site.feedback')}</a>`;
       return this.$t('site.footer.content').replace('{feedback}', styledName);
     }
   },
