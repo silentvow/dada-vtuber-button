@@ -1,6 +1,14 @@
 import csv
 import json
 import sys
+import unicodedata
+
+def get_display_length(s):
+    """
+    Calculate the display length of a string,
+    considering full-width and half-width characters.
+    """
+    return sum(2 if unicodedata.east_asian_width(char) in 'FW' else 1 for char in s)
 
 
 def read_csv_file(filename):
@@ -18,7 +26,7 @@ def convert_csv_to_json(groups_file, voices_file):
     voices = read_csv_file(voices_file)
 
     # Sort the list of dictionaries by the length of the 'description_zh' field
-    voices = sorted(voices, key=lambda x: (len(x["description_zh"]), x["description_zh"]))
+    voices = sorted(voices, key=lambda x: (get_display_length(x["description_zh"]), x["description_zh"]))
 
     # Create output JSON structure
     output = {"groups": []}

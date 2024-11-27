@@ -120,6 +120,17 @@
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
+          "id": "19f7f2ee-ea41-4717-a598-7fa10aac8a3b",
+          "name": "da-jia-wan-shan-hao",
+          "description": {
+            "en": "Good evening everyone",
+            "ja": "こんばんは",
+            "zh": "大家晚上好"
+          },
+          "path": "yandere-lyrics/da-jia-wan-shan-hao.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
           "id": "31645356-12bc-4345-8980-4e3947fb5343",
           "name": "ka-sa-ha-mi-da",
           "description": {
@@ -164,17 +175,6 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
-          "id": "4289b7cb-5619-48d0-8508-3676ec1c0eff",
-          "name": "self-intro-1",
-          "description": {
-            "en": "I'm Grayta, a first generation gray parrot VTuber from Relive",
-            "ja": "私はReliveの一期生の灰色オウムVTuberのグレイタです",
-            "zh": "我是Relive的一期生灰鸚鵡Vtuber灰妲"
-          },
-          "path": "news-202410/self-intro-1.mp3",
-          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
-        },
-        {
           "id": "3a173a6e-9724-4427-ac36-0566bb249be7",
           "name": "how-are-you",
           "description": {
@@ -183,6 +183,17 @@
             "zh": "How are you? Fine, thank you."
           },
           "path": "news-202410/how-are-you.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "4289b7cb-5619-48d0-8508-3676ec1c0eff",
+          "name": "self-intro-1",
+          "description": {
+            "en": "I'm Grayta, a first generation gray parrot VTuber from Relive",
+            "ja": "私はReliveの一期生の灰色オウムVTuberのグレイタです",
+            "zh": "我是Relive的一期生灰鸚鵡Vtuber灰妲"
+          },
+          "path": "news-202410/self-intro-1.mp3",
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         }
       ]
@@ -206,6 +217,17 @@
           },
           "path": "find-lover-guide/ni-hao-hue-o.mp3",
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "6ba2824e-e21a-4838-ad0e-6d0fe16524c4",
+          "name": "very-good-right",
+          "description": {
+            "en": "You're all really great, right?",
+            "ja": "あなたたちは本当に素晴らしいでしょ",
+            "zh": "你們都是非常棒的對吧"
+          },
+          "path": "yandere-lyrics/very-good-right.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
         }
       ]
     },
@@ -373,6 +395,17 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "ff124e40-e8fb-4361-b211-2cc1a587f6d9",
+          "name": "cow-bay-no-gg",
+          "description": {
+            "en": "Damn it, I don’t have a GG!",
+            "ja": "ちくしょう、私はGGを持っていない！",
+            "zh": "靠盃我沒有GG啦"
+          },
+          "path": "dp-toys/cow-bay-no-gg.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
           "id": "c5615101-f18e-4df6-8f77-6c06d072c163",
           "name": "mon-zo-hsin-la",
           "description": {
@@ -404,17 +437,6 @@
           },
           "path": "valentine-lyrics/ni-yao-ze-mo-yan.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
-          "id": "ff124e40-e8fb-4361-b211-2cc1a587f6d9",
-          "name": "cow-bay-no-gg",
-          "description": {
-            "en": "Damn it, I don’t have a GG!",
-            "ja": "ちくしょう、私はGGを持っていない！",
-            "zh": "靠盃我沒有GG啦"
-          },
-          "path": "dp-toys/cow-bay-no-gg.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
           "id": "6408faf2-2343-4f00-8c77-d71f9f324ed0",
@@ -470,6 +492,17 @@
           },
           "path": "lazy-against/wo-zuo-tso-shen-mo.mp3",
           "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "w8xyz6a4-b3w5-6a0y-1z7x-5a9b0z2y3x4w",
+          "name": "ni-bu-yao-a-yi",
+          "description": {
+            "en": "What, you don't want aunties? F**k you!",
+            "ja": "何？お姉さんはダメだって？くたばれ！",
+            "zh": "什麼你不要阿姨 fuck you啦"
+          },
+          "path": "two-loli-blame/ni-bu-yao-a-yi.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
           "id": "5508a243-5de5-4744-a020-0633541f2486",
@@ -560,6 +593,17 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "u6vwx4y2-z1u3-4y8w-9x5v-3y7z8x0w1v2u",
+          "name": "ma-der-luo-li-kon",
+          "description": {
+            "en": "F**king lolicon, hahahahaha",
+            "ja": "くそロリコン、ハハハハハハハハ",
+            "zh": "媽的蘿莉控fuck 哈哈哈哈哈哈哈哈"
+          },
+          "path": "two-loli-blame/ma-der-luo-li-kon.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
           "id": "353bb43f-6746-4d52-b755-1acd20636f6c",
           "name": "me-yo-mo-gan",
           "description": {
@@ -571,17 +615,6 @@
           "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
         },
         {
-          "id": "w8xyz6a4-b3w5-6a0y-1z7x-5a9b0z2y3x4w",
-          "name": "ni-bu-yao-a-yi",
-          "description": {
-            "en": "What, you don't want aunties? F**k you!",
-            "ja": "何？お姉さんはダメだって？くたばれ！",
-            "zh": "什麼你不要阿姨 fuck you啦"
-          },
-          "path": "two-loli-blame/ni-bu-yao-a-yi.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
           "id": "e83efb3c-8d33-4e50-b53e-562da7ca4292",
           "name": "hsian-tza-hsian-da-jia",
           "description": {
@@ -591,17 +624,6 @@
           },
           "path": "yoda-girlfriend/hsian-tza-hsian-da-jia.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
-          "id": "u6vwx4y2-z1u3-4y8w-9x5v-3y7z8x0w1v2u",
-          "name": "ma-der-luo-li-kon",
-          "description": {
-            "en": "F**king lolicon, hahahahaha",
-            "ja": "くそロリコン、ハハハハハハハハ",
-            "zh": "媽的蘿莉控fuck 哈哈哈哈哈哈哈哈"
-          },
-          "path": "two-loli-blame/ma-der-luo-li-kon.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
           "id": "daa43368-e46c-4758-a9d3-f2a4ee10044e",
@@ -714,6 +736,17 @@
           "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
         },
         {
+          "id": "7ee73a1a-621e-4502-adf1-b76944644fb6",
+          "name": "hu-nan-jk",
+          "description": {
+            "en": "You noob! What's so hard about Makaimura JK Tsubo-otoko?",
+            "ja": "このヘタクソ！魔界村JK壺男なんて何が難しいの？",
+            "zh": "你這個菜逼巴！壺男JK魔界村有什麼難的阿！"
+          },
+          "path": "lazy-against/hu-nan-jk.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
           "id": "1905337b-1e21-460c-a49a-f7fb039398a9",
           "name": "dao-di-zai-gan-ma",
           "description": {
@@ -733,17 +766,6 @@
             "zh": "你知道嗎在社會阿要的不是夢想要的是效率好嗎"
           },
           "path": "lazy-against/ser-hue-yao-der.mp3",
-          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
-        },
-        {
-          "id": "7ee73a1a-621e-4502-adf1-b76944644fb6",
-          "name": "hu-nan-jk",
-          "description": {
-            "en": "You noob! What's so hard about Makaimura JK Tsubo-otoko?",
-            "ja": "このヘタクソ！魔界村JK壺男なんて何が難しいの？",
-            "zh": "你這個菜逼巴！壺男JK魔界村有什麼難的阿！"
-          },
-          "path": "lazy-against/hu-nan-jk.mp3",
           "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
         },
         {
@@ -1055,6 +1077,17 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "8fd12915-06e0-416e-b9f0-1a711fe922b4",
+          "name": "ye-bu-s-bu-hsin",
+          "description": {
+            "en": "If you want... today... that's fine too, you know.",
+            "ja": "もし、今日なら......構わないですよ。",
+            "zh": "如果你要....今天....也不是不行喔"
+          },
+          "path": "valentine-lyrics/ye-bu-s-bu-hsin.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
           "id": "360e89b5-e0a4-4b28-9a72-a4515b4f57f7",
           "name": "su-yu-wo-der-chin-ren",
           "description": {
@@ -1077,14 +1110,14 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
-          "id": "8fd12915-06e0-416e-b9f0-1a711fe922b4",
-          "name": "ye-bu-s-bu-hsin",
+          "id": "9ee43524-c3ae-418a-8663-e86491231e3d",
+          "name": "wo-z-shi-shian-yao",
           "description": {
-            "en": "If you want... today... that's fine too, you know.",
-            "ja": "もし、今日なら......構わないですよ。",
-            "zh": "如果你要....今天....也不是不行喔"
+            "en": "I just... I just wanted to... spend Valentine's Day with you.",
+            "ja": "私は......ただ......一緒にバレンタインを過ごしたかっただけ。",
+            "zh": "我只是....我只是想要....陪你過情人節而已"
           },
-          "path": "valentine-lyrics/ye-bu-s-bu-hsin.mp3",
+          "path": "valentine-lyrics/wo-z-shi-shian-yao.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
@@ -1096,17 +1129,6 @@
             "zh": "春天就要到了，遇見你的春天，沒有你的春天"
           },
           "path": "valentine-lyrics/spring-coming.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
-          "id": "9ee43524-c3ae-418a-8663-e86491231e3d",
-          "name": "wo-z-shi-shian-yao",
-          "description": {
-            "en": "I just... I just wanted to... spend Valentine's Day with you.",
-            "ja": "私は......ただ......一緒にバレンタインを過ごしたかっただけ。",
-            "zh": "我只是....我只是想要....陪你過情人節而已"
-          },
-          "path": "valentine-lyrics/wo-z-shi-shian-yao.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
@@ -1231,6 +1253,17 @@
       },
       "voice_list": [
         {
+          "id": "e1a2f3ee-5bb7-404c-95bd-dd4036df3686",
+          "name": "yandere-love-you",
+          "description": {
+            "en": "I love you",
+            "ja": "愛してる",
+            "zh": "我愛你"
+          },
+          "path": "yandere-lyrics/yandere-love-you.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
           "id": "5c2a5412-80be-4f50-8733-34b2c64305c4",
           "name": "yandere-laugh-1",
           "description": {
@@ -1253,6 +1286,171 @@
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
+          "id": "4c15e881-ce50-4afd-bc5f-d0e49130300a",
+          "name": "yandere-laugh-3",
+          "description": {
+            "en": "Yandere Laugh #3",
+            "ja": "病的な笑い声-3",
+            "zh": "病嬌笑聲-3"
+          },
+          "path": "yandere-lyrics/yandere-laugh-3.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "34158bdf-7914-483b-94b2-4012d24735d7",
+          "name": "yandere-laugh-4",
+          "description": {
+            "en": "Yandere Laugh #4",
+            "ja": "病的な笑い声-4",
+            "zh": "病嬌笑聲-4"
+          },
+          "path": "yandere-lyrics/yandere-laugh-4.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "c0023464-3667-475f-9d87-a93672a8ff03",
+          "name": "jen-4-hua-hai-z",
+          "description": {
+            "en": "What a bad child you are",
+            "ja": "本当に悪い子ね",
+            "zh": "真是個壞孩子呢"
+          },
+          "path": "yandere-lyrics/jen-4-hua-hai-z.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "03bf9181-0730-45c4-84c5-08adcd5b1da1",
+          "name": "ai-ni-ai-ni-a",
+          "description": {
+            "en": "I love you.. love you.. love...",
+            "ja": "愛してる..愛してる..愛...",
+            "zh": "我愛你..愛你..愛...."
+          },
+          "path": "yandere-lyrics/ai-ni-ai-ni-a.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "c71e1ad2-92bd-4e8d-86eb-8d40cc9e9dd7",
+          "name": "ni-der-tian-go",
+          "description": {
+            "en": "Just be a good little submissive follower",
+            "ja": "おとなしく舐め犬になりなさい",
+            "zh": "你還是乖乖當你的舔狗吧"
+          },
+          "path": "yandere-lyrics/ni-der-tian-go.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "47ba20df-71d9-49d8-a858-04a7c2183fec",
+          "name": "dear-shian-yao",
+          "description": {
+            "en": "My dear, what do you want to do?",
+            "ja": "愛しい人、どうしたいの？",
+            "zh": "親愛的你會想要怎麼樣呢"
+          },
+          "path": "yandere-lyrics/dear-shian-yao.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "48c6cecf-3866-4cda-a90b-4d76dd427c48",
+          "name": "shian-yao-wo-jiao-shun",
+          "description": {
+            "en": "How should I properly discipline you?",
+            "ja": "どうやってお前をちゃんと懲らしめようかな",
+            "zh": "想要我怎麼好好地教訓你呢"
+          },
+          "path": "yandere-lyrics/shian-yao-wo-jiao-shun.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "9d94f89d-09f2-477c-9e02-8ad37b1e9ec3",
+          "name": "tson-jin-yi-ho",
+          "description": {
+            "en": "From now on, you belong only to me",
+            "ja": "これからはお前は私だけのものだ",
+            "zh": "從今以後你只屬於我一個人了"
+          },
+          "path": "yandere-lyrics/tson-jin-yi-ho.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "6b846c73-7e98-44cb-8df7-81733fb2269d",
+          "name": "wo-men-hue-chi",
+          "description": {
+            "en": "We might need to have a serious talk when we go back",
+            "ja": "帰ったら、ちゃんと話し合う必要があるかもね",
+            "zh": "我們回去也許得好好談一談了呢"
+          },
+          "path": "yandere-lyrics/wo-men-hue-chi.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "cf26c11e-6845-43de-a91f-6cfba2d5ec82",
+          "name": "zuo-tian-nu-ren",
+          "description": {
+            "en": "Were you hanging out with other women yesterday?",
+            "ja": "昨日、他の女と一緒にいたの？",
+            "zh": "你昨天是不是跟其他女人混在一起"
+          },
+          "path": "yandere-lyrics/zuo-tian-nu-ren.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "3d93cf66-624d-46af-bce8-820e00188480",
+          "name": "wan-che-su-yu-wo",
+          "description": {
+            "en": "How can I make you completely mine?",
+            "ja": "どうやったらお前を完全に私だけのものにできるの？",
+            "zh": "怎麼樣你才會完完全全地只屬於我呢"
+          },
+          "path": "yandere-lyrics/wan-che-su-yu-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "81308db4-1590-4d2a-baea-cd3b9a016153",
+          "name": "jue-wan-ku-chi",
+          "description": {
+            "en": "I really want to see you crying in despair",
+            "ja": "絶望的に泣いているあなたを見たい",
+            "zh": "我真想看看呢絕望地哭泣的時候的你"
+          },
+          "path": "yandere-lyrics/jue-wan-ku-chi.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "76b9e0ff-9139-4108-9f02-4115adce7d24",
+          "name": "zan-ni-tsuan-ba",
+          "description": {
+            "en": "Let me give you a choice: do you want it fried, roasted, or boiled?",
+            "ja": "焼くのか、揚げるのか、茹でるのか、選ばせてあげるわ",
+            "zh": "讓你選了你是要炸的烤的還是水煮的呢"
+          },
+          "path": "yandere-lyrics/zan-ni-tsuan-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "849b39d0-1639-4d65-8bbe-6795c7fd8988",
+          "name": "bu-guan-ni-za-na",
+          "description": {
+            "en": "No matter where you are in this world, I will kill you.",
+            "ja": "どこにいようと、私はお前を殺す",
+            "zh": "不管你在哪個天涯海角，我都會把你宰掉"
+          },
+          "path": "yandere-lyrics/bu-guan-ni-za-na.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "d0276612-8e75-422d-8d53-4142ff0f7932",
+          "name": "dan-wo-der-dog",
+          "description": {
+            "en": "Will you be my good dog? I'll take good care of you.",
+            "ja": "私の犬になってくれない？ちゃんと世話するからね",
+            "zh": "好好當我的狗好嗎？我會好好豢養你的哦"
+          },
+          "path": "yandere-lyrics/dan-wo-der-dog.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
           "id": "21199ea8-efc5-41bc-85c1-46429ce611ca",
           "name": "yo-wo-hai-yao",
           "description": {
@@ -1262,6 +1460,105 @@
           },
           "path": "valentine-lyrics-2/yo-wo-hai-yao.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "fbe35bef-7fea-4ecc-a094-c68a173dd88a",
+          "name": "bu-hsin-der-ba",
+          "description": {
+            "en": "No way, no way, no way, no way, no way",
+            "ja": "だめだ、だめだ、だめだ、だめだ、だめだ",
+            "zh": "不行的吧不行的吧不行的吧不行的吧不行的吧"
+          },
+          "path": "yandere-lyrics/bu-hsin-der-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "5737358d-5f67-4d2a-bb1d-7e2e084332bd",
+          "name": "di-sha-4",
+          "description": {
+            "en": "Oh, how are you here? Didn't I lock you in the basement?",
+            "ja": "あら、どうしてここに？地下室に閉じ込めたはずなのに",
+            "zh": "哎呀你怎麼在這呢我不是把你關在地下室了嗎"
+          },
+          "path": "yandere-lyrics/di-sha-4.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "233e2cc1-5934-45f1-aec3-49a510d19d2d",
+          "name": "ye-hsu-ni-mouth",
+          "description": {
+            "en": "Maybe you say you like me, but in the end, you'll choose a loli",
+            "ja": "口では私が好きと言いながら、結局はロリを選ぶのね",
+            "zh": "也許你嘴巴上面說喜歡我但最後還是選擇了蘿莉呢"
+          },
+          "path": "yandere-lyrics/ye-hsu-ni-mouth.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "fcc0ae76-beb1-43dc-b3b5-58c4553d8906",
+          "name": "nu-ren-wei-dao",
+          "description": {
+            "en": "The scent of other women on you, I don't mind at all",
+            "ja": "お前の体の他の女の匂い、全然気にしないわ",
+            "zh": "你身上的其他女人的味道呢我不介意完全不介意的喔"
+          },
+          "path": "yandere-lyrics/nu-ren-wei-dao.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "4915b00d-d969-4642-a0dd-2a6782585abc",
+          "name": "yiz-yiz-pei-ban",
+          "description": {
+            "en": "I will keep accompanying you over and over, you know?",
+            "ja": "私はずっと、ずっと、ずっと、ずっと、ずっと、ずっと付き添い続けるからね、分かる？",
+            "zh": "我呢會一直一直一直一直一直一直地陪伴著你的知道嗎"
+          },
+          "path": "yandere-lyrics/yiz-yiz-pei-ban.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "8ed2bfec-da44-43a9-94c8-7ab5a6f4b475",
+          "name": "bu-gua-der-tue",
+          "description": {
+            "en": "These disobedient legs, keeping them seems pointless. I might as well just amputate them.",
+            "ja": "言うことを聞かないこの足、持っていても仕方がないから、切り落とそう",
+            "zh": "這雙不乖的腿，留著好像也沒有什麼用，不如就把它卸了吧"
+          },
+          "path": "yandere-lyrics/bu-gua-der-tue.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "98955480-4dc0-4bb1-a0d7-1cf05b86064e",
+          "name": "ni4-bu-ai-wo",
+          "description": {
+            "en": "Don't you love me anymore? You don't love me anymore, right? You really don't love me anymore, right?!",
+            "ja": "もう私のことを愛してないの？もう愛してないよね！やっぱり愛してないんだよね！",
+            "zh": "你是不愛我了嗎？你是不愛我了吧！你是你果然是不愛我了吧！"
+          },
+          "path": "yandere-lyrics/ni4-bu-ai-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "7c65a41f-6a85-4be7-96e8-e9423777cc3d",
+          "name": "jo-swan-wo-der",
+          "description": {
+            "en": "Even if I can't have you, I'll keep watching your every move",
+            "ja": "私がお前を手に入れられなくても、お前のすべての行動を見続ける",
+            "zh": "就算我得不到你，我也會一直一直一直地一直地注意你的一舉一動的"
+          },
+          "path": "yandere-lyrics/jo-swan-wo-der.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "e1f09008-657c-4def-b405-5d7349925cba",
+          "name": "why3-ni-bu-ai-wo",
+          "description": {
+            "en": "Why, why, why, why don't you love me anymore? Didn't we say we'd be together forever? Why did I see you with that woman so close together?",
+            "ja": "なぜ、なぜ、なぜ、なぜ私のことをもう愛してないの？永遠一緒にいようと言ったじゃない？どうしてあの女の子と一緒にいるのを見たの、しかも近くて",
+            "zh": "為什麼為什麼為什麼為什麼你不愛我了嗎不是說要永遠在一起的嗎為什麼我會看到你跟那個女人在一起阿而且還貼得那麼近什麼的"
+          },
+          "path": "yandere-lyrics/why3-ni-bu-ai-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
         }
       ]
     },
@@ -1318,17 +1615,6 @@
         "zh": "笑聲"
       },
       "voice_list": [
-        {
-          "id": "4221cf1a-6f72-4d08-988b-2614affdc3ce",
-          "name": "evil-ha-ha-ha",
-          "description": {
-            "en": "Evil laughter",
-            "ja": "悪い笑い声",
-            "zh": "邪惡笑聲"
-          },
-          "path": "valentine-lyrics/evil-ha-ha-ha.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
         {
           "id": "a9af9a18-ad1e-4025-a169-41af54af0430",
           "name": "ha-ha-ha-1",
@@ -1429,6 +1715,17 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "4221cf1a-6f72-4d08-988b-2614affdc3ce",
+          "name": "evil-ha-ha-ha",
+          "description": {
+            "en": "Evil laughter",
+            "ja": "悪い笑い声",
+            "zh": "邪惡笑聲"
+          },
+          "path": "valentine-lyrics/evil-ha-ha-ha.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
           "id": "9be8327a-c37f-465d-a590-a59a0796e3ed",
           "name": "hahaha-10",
           "description": {
@@ -1473,17 +1770,6 @@
       },
       "voice_list": [
         {
-          "id": "430c5e70-b716-4a23-8b14-8b48b2e31bf3",
-          "name": "wo-bu-yao-x",
-          "description": {
-            "en": "I don’t want to!",
-            "ja": "いやだ～",
-            "zh": "我不要～"
-          },
-          "path": "news-202405/wo-bu-yao-x.mp3",
-          "url": "https://www.youtube.com/watch?v=594paetbGlU"
-        },
-        {
           "id": "0c493574-1b5b-46cc-ad29-bb10c989dd95",
           "name": "ai-hao-1",
           "description": {
@@ -1525,6 +1811,17 @@
             "zh": "慘叫聲-1"
           },
           "path": "news-202405/tsan-jiao-1.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "430c5e70-b716-4a23-8b14-8b48b2e31bf3",
+          "name": "wo-bu-yao-x",
+          "description": {
+            "en": "I don’t want to!",
+            "ja": "いやだ～",
+            "zh": "我不要～"
+          },
+          "path": "news-202405/wo-bu-yao-x.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
@@ -1594,17 +1891,6 @@
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
-          "id": "9159d931-e24c-40e0-8bd2-b33315237b31",
-          "name": "beast-senpai",
-          "description": {
-            "en": "Senpai Beast's Roar",
-            "ja": "野獣先輩の咆哮",
-            "zh": "野獸前輩嘶吼"
-          },
-          "path": "valentine-lyrics-2/beast-senpai.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
-        },
-        {
           "id": "bc4ff100-772f-4fb0-a5d0-682f33629e7e",
           "name": "du-jiao-shou-jiao",
           "description": {
@@ -1636,6 +1922,17 @@
           },
           "path": "lazy-against/unicorn-scream-2.mp3",
           "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "9159d931-e24c-40e0-8bd2-b33315237b31",
+          "name": "beast-senpai",
+          "description": {
+            "en": "Senpai Beast's Roar",
+            "ja": "野獣先輩の咆哮",
+            "zh": "野獸前輩嘶吼"
+          },
+          "path": "valentine-lyrics-2/beast-senpai.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         }
       ]
     },
@@ -1781,6 +2078,17 @@
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
+          "id": "379e6f5f-a0dd-4911-a20c-174099bf2ac8",
+          "name": "indie-f4",
+          "description": {
+            "en": "Indian F4 (Song)",
+            "ja": "インドのF4（歌）",
+            "zh": "印度F4"
+          },
+          "path": "valentine-lyrics-2/indie-f4.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
           "id": "d955b7c4-50e6-4658-aa05-8e553827d4be",
           "name": "shiao-man-yao",
           "description": {
@@ -1836,17 +2144,6 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
-          "id": "379e6f5f-a0dd-4911-a20c-174099bf2ac8",
-          "name": "indie-f4",
-          "description": {
-            "en": "Indian F4 (Song)",
-            "ja": "インドのF4（歌）",
-            "zh": "印度F4"
-          },
-          "path": "valentine-lyrics-2/indie-f4.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
-        },
-        {
           "id": "1d0d56de-6167-462f-b12c-fcf73481e8e6",
           "name": "wo-ba-der-bi",
           "description": {
@@ -1900,6 +2197,17 @@
           },
           "path": "find-lover-guide/man-man-si-hua-ni.mp3",
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "808ba513-13b2-4c2a-9a8e-cda83f50fb19",
+          "name": "wei-fong-tan-tan",
+          "description": {
+            "en": "Majestic Prelude",
+            "ja": "堂々とした前奏",
+            "zh": "威風堂堂前奏"
+          },
+          "path": "yandere-lyrics/wei-fong-tan-tan.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
         },
         {
           "id": "588c5a3d-7d9f-485f-bb1c-cf4a8c902386",
@@ -2111,6 +2419,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "c0dcd888-61a9-4140-acb0-37aac8b3d971",
+          "name": "weee",
+          "description": {
+            "en": "Weee~~~",
+            "ja": "Weee~~~",
+            "zh": "Weee~~~"
+          },
+          "path": "weee.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
           "id": "ebe13e22-7562-482d-b543-e8e0eec009ea",
           "name": "waaaa",
           "description": {
@@ -2131,17 +2450,6 @@
           },
           "path": "valentine-lyrics/yoda-hsin-hun-san-wun.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
-          "id": "c0dcd888-61a9-4140-acb0-37aac8b3d971",
-          "name": "weee",
-          "description": {
-            "en": "Weee~~~",
-            "ja": "Weee~~~",
-            "zh": "Weee~~~"
-          },
-          "path": "weee.mp3",
-          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
         },
         {
           "id": "46a83f7f-9877-4cfc-9620-886d1abc4304",
@@ -2320,6 +2628,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "ccdc4177-20a5-4918-a5a1-a95bb1a7cc1b",
+          "name": "no-no",
+          "description": {
+            "en": "I told you not to do that, no, no!",
+            "ja": "そんなことしちゃダメだって言ったのに、ノーノー！",
+            "zh": "都說不可以這樣了 no no"
+          },
+          "path": "yoda-new-clothes/no-no.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
           "id": "f1751026-5c8a-4b61-9f54-079a05b5b792",
           "name": "wei-shen-mo-hue-ze-ya",
           "description": {
@@ -2340,17 +2659,6 @@
           },
           "path": "yoda-girlfriend/bu-ne-ze-yan.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
-          "id": "ccdc4177-20a5-4918-a5a1-a95bb1a7cc1b",
-          "name": "no-no",
-          "description": {
-            "en": "I told you not to do that, no, no!",
-            "ja": "そんなことしちゃダメだって言ったのに、ノーノー！",
-            "zh": "都說不可以這樣了 no no"
-          },
-          "path": "yoda-new-clothes/no-no.mp3",
-          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
           "id": "df1d27e9-3ced-4fb0-9baa-dabc06744e08",
@@ -2441,17 +2749,6 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
-          "id": "f10e5afe-8078-4b67-83b7-3029830c30e1",
-          "name": "tu-shen-fe-wu-chu-chon",
-          "description": {
-            "en": "You bastard, waste, maggot",
-            "ja": "畜生め、不要物、うじ虫",
-            "zh": "畜生廢物蛆蟲"
-          },
-          "path": "valentine-lyrics/tu-shen-fe-wu-chu-chon.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
           "id": "ffac7ddc-d8ea-48d7-9cec-b8db6424a34c",
           "name": "din-gon-san-lian-2",
           "description": {
@@ -2463,6 +2760,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "f10e5afe-8078-4b67-83b7-3029830c30e1",
+          "name": "tu-shen-fe-wu-chu-chon",
+          "description": {
+            "en": "You bastard, waste, maggot",
+            "ja": "畜生め、不要物、うじ虫",
+            "zh": "畜生廢物蛆蟲"
+          },
+          "path": "valentine-lyrics/tu-shen-fe-wu-chu-chon.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
           "id": "f1ghi9j7-k6f8-9j3h-4i0g-8j2k3i5h6g7f",
           "name": "chu-chon-bian-ta-ser-tsu",
           "description": {
@@ -2471,6 +2779,17 @@
             "zh": "蛆蟲 變態 社畜"
           },
           "path": "two-loli-blame/chu-chon-bian-ta-ser-tsu.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "id": "i4jkl2m0-n9i1-2m6k-7l3j-1m5n6l8k9j0i",
+          "name": "er-shin-chi-cho-di-tsen",
+          "description": {
+            "en": "Disgusting maggot, bottom feeder",
+            "ja": "気持ち悪い蛆虫、底辺のクズ",
+            "zh": "噁心 蛆蟲 底層敗類"
+          },
+          "path": "two-loli-blame/er-shin-chi-cho-di-tsen.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
@@ -2494,17 +2813,6 @@
           },
           "path": "yoda-girlfriend/ker-yi-lolicon.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
-          "id": "i4jkl2m0-n9i1-2m6k-7l3j-1m5n6l8k9j0i",
-          "name": "er-shin-chi-cho-di-tsen",
-          "description": {
-            "en": "Disgusting maggot, bottom feeder",
-            "ja": "気持ち悪い蛆虫、底辺のクズ",
-            "zh": "噁心 蛆蟲 底層敗類"
-          },
-          "path": "two-loli-blame/er-shin-chi-cho-di-tsen.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
           "id": "ba553f34-4ae9-4fce-aaa6-90306aa918d5",
@@ -2595,6 +2903,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "d9efg7h5-i4d6-7h1f-2g8e-6h0i1g3f4e5d",
+          "name": "chen-ren-bian-tai",
+          "description": {
+            "en": "62% now admit they are lolicon perverts",
+            "ja": "今では62%がロリコン変態だと認めている",
+            "zh": "現在承認自己是變態蘿莉控的有62%"
+          },
+          "path": "two-loli-blame/chen-ren-bian-tai.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
           "id": "e9f8b1a2-1234-4567-8905-abcdef123460",
           "name": "wang-hsian-how-er-hsin",
           "description": {
@@ -2617,15 +2936,15 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
-          "id": "d9efg7h5-i4d6-7h1f-2g8e-6h0i1g3f4e5d",
-          "name": "chen-ren-bian-tai",
+          "id": "a76afdc4-6e78-44e9-8ae6-5c9ed2133389",
+          "name": "tso-tso-da-bro",
           "description": {
-            "en": "62% now admit they are lolicon perverts",
-            "ja": "今では62%がロリコン変態だと認めている",
-            "zh": "現在承認自己是變態蘿莉控的有62%"
+            "en": "I don't want to keep 5ma-ing, you stinky big brothers",
+            "ja": "もう5maはいやよ、臭いお兄さんたち",
+            "zh": "我不要一直5ma啦，你們這些臭臭大哥哥"
           },
-          "path": "two-loli-blame/chen-ren-bian-tai.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+          "path": "valentine-lyrics-2/tso-tso-da-bro.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
           "id": "a6bcf4d2-f1a3-4e8c-9d5b-3e7f8d9c0b1a",
@@ -2650,15 +2969,15 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
-          "id": "a76afdc4-6e78-44e9-8ae6-5c9ed2133389",
-          "name": "tso-tso-da-bro",
+          "id": "e9f8b1a2-1234-4567-8913-abcdef123468",
+          "name": "ze-tian-lao-po-lai-chu",
           "description": {
-            "en": "I don't want to keep 5ma-ing, you stinky big brothers",
-            "ja": "もう5maはいやよ、臭いお兄さんたち",
-            "zh": "我不要一直5ma啦，你們這些臭臭大哥哥"
+            "en": "Why are you always going on about wife this wife that",
+            "ja": "なんで？いつも奥さん奥さんって",
+            "zh": "蛤為什麼阿 整天只會在那邊老婆來老婆去的"
           },
-          "path": "valentine-lyrics-2/tso-tso-da-bro.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+          "path": "two-loli-blame/ze-tian-lao-po-lai-chu.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
           "id": "3a7c6bc0-5c9a-4d82-b652-ca71b6f54d32",
@@ -2683,25 +3002,14 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
-          "id": "e9f8b1a2-1234-4567-8913-abcdef123468",
-          "name": "ze-tian-lao-po-lai-chu",
+          "id": "j5klm3n1-o0j2-3n7l-8m4k-2n6o7m9l0k1j",
+          "name": "fei-wu-mei-yon-du-tsen",
           "description": {
-            "en": "Why are you always going on about wife this wife that",
-            "ja": "なんで？いつも奥さん奥さんって",
-            "zh": "蛤為什麼阿 整天只會在那邊老婆來老婆去的"
+            "en": "You're trash, useless person, society's scum, bottom feeder, maggot, pig",
+            "ja": "お前はクズ、役立たず、社会のクズ、底辺、蛆虫、豚",
+            "zh": "你是廢物 沒有用的人 社會的敗類 底層 蛆蟲 豬"
           },
-          "path": "two-loli-blame/ze-tian-lao-po-lai-chu.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "id": "x9yza7b5-c4x6-7b1z-2a8y-6b0c1a3z4y5x",
-          "name": "ni-jo-se-cho-jia",
-          "description": {
-            "en": "I'm telling you you're gay and you are gay, stop denying it okay?",
-            "ja": "あなたがゲイだって言ってるんだからゲイなの、もう否定するのやめなさいよ",
-            "zh": "我說你是臭甲你就是臭甲不要整天不承認好不好阿"
-          },
-          "path": "two-loli-blame/ni-jo-se-cho-jia.mp3",
+          "path": "two-loli-blame/fei-wu-mei-yon-du-tsen.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
@@ -2716,14 +3024,14 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
-          "id": "j5klm3n1-o0j2-3n7l-8m4k-2n6o7m9l0k1j",
-          "name": "fei-wu-mei-yon-du-tsen",
+          "id": "x9yza7b5-c4x6-7b1z-2a8y-6b0c1a3z4y5x",
+          "name": "ni-jo-se-cho-jia",
           "description": {
-            "en": "You're trash, useless person, society's scum, bottom feeder, maggot, pig",
-            "ja": "お前はクズ、役立たず、社会のクズ、底辺、蛆虫、豚",
-            "zh": "你是廢物 沒有用的人 社會的敗類 底層 蛆蟲 豬"
+            "en": "I'm telling you you're gay and you are gay, stop denying it okay?",
+            "ja": "あなたがゲイだって言ってるんだからゲイなの、もう否定するのやめなさいよ",
+            "zh": "我說你是臭甲你就是臭甲不要整天不承認好不好阿"
           },
-          "path": "two-loli-blame/fei-wu-mei-yon-du-tsen.mp3",
+          "path": "two-loli-blame/ni-jo-se-cho-jia.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
@@ -2771,17 +3079,6 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
-          "id": "e0fgh8i6-j5e7-8i2g-3h9f-7i1j2h4g5f6e",
-          "name": "che-shen-yo-ni-ni",
-          "description": {
-            "en": "Don't come near me, I'm a clean freak! You're all greasy and gross. So disgusting! I need to take a bath, big brother is gross",
-            "ja": "近づかないで、潔癖なの！あなた全身ベタベタで気持ち悪い。油っこい！お風呂に入らなきゃ、お兄さん気持ち悪い",
-            "zh": "別靠近我我有潔癖啦你全身油膩膩的好噁心喔油死了 我要去洗澡了大哥哥噁心"
-          },
-          "path": "two-loli-blame/che-shen-yo-ni-ni.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
           "id": "e9f8b1a2-1234-4567-8910-abcdef123465",
           "name": "yo-nu-me-yo-hsian-kang",
           "description": {
@@ -2790,6 +3087,17 @@
             "zh": "你們這些變態真的很喜歡幼女欸 真不敢相信 哼 才沒有想要被你們看著呢 哼"
           },
           "path": "two-loli-blame/yo-nu-me-yo-hsian-kang.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "id": "e0fgh8i6-j5e7-8i2g-3h9f-7i1j2h4g5f6e",
+          "name": "che-shen-yo-ni-ni",
+          "description": {
+            "en": "Don't come near me, I'm a clean freak! You're all greasy and gross. So disgusting! I need to take a bath, big brother is gross",
+            "ja": "近づかないで、潔癖なの！あなた全身ベタベタで気持ち悪い。油っこい！お風呂に入らなきゃ、お兄さん気持ち悪い",
+            "zh": "別靠近我我有潔癖啦你全身油膩膩的好噁心喔油死了 我要去洗澡了大哥哥噁心"
+          },
+          "path": "two-loli-blame/che-shen-yo-ni-ni.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
@@ -2804,17 +3112,6 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
-          "id": "r3stu1v9-w8r0-1v5t-6u2s-0v4w5u7t8s9r",
-          "name": "liao-ten-s-zua-zhou",
-          "description": {
-            "en": "Why are there still so many people in the chat? You guys need to stop pretending to be gentlemen. If you're a lolicon, just get arrested by the police already",
-            "ja": "チャットにまだこんなに人がいるの？紳士ぶるのやめなさい。ロリコンなら早く警察に捕まりなさいよ",
-            "zh": "聊天室怎麼還有那麼多人阿你們這些傢伙少在那邊裝紳士了 是蘿莉控的話就乾脆一點被警察叔叔抓走阿"
-          },
-          "path": "two-loli-blame/liao-ten-s-zua-zhou.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
           "id": "935715ef-ca0b-4b73-89e2-b7f175c6862e",
           "name": "lan-gon-zhuo",
           "description": {
@@ -2824,6 +3121,17 @@
           },
           "path": "yoda-girlfriend/lan-gon-zhuo.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "r3stu1v9-w8r0-1v5t-6u2s-0v4w5u7t8s9r",
+          "name": "liao-ten-s-zua-zhou",
+          "description": {
+            "en": "Why are there still so many people in the chat? You guys need to stop pretending to be gentlemen. If you're a lolicon, just get arrested by the police already",
+            "ja": "チャットにまだこんなに人がいるの？紳士ぶるのやめなさい。ロリコンなら早く警察に捕まりなさいよ",
+            "zh": "聊天室怎麼還有那麼多人阿你們這些傢伙少在那邊裝紳士了 是蘿莉控的話就乾脆一點被警察叔叔抓走阿"
+          },
+          "path": "two-loli-blame/liao-ten-s-zua-zhou.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         }
       ]
     },
@@ -2836,6 +3144,17 @@
         "zh": "幼妲：病嬌"
       },
       "voice_list": [
+        {
+          "id": "3c4f99d2-1d43-4d4c-b321-37b61d485ed1",
+          "name": "oni-jian",
+          "description": {
+            "en": "Onii-chan",
+            "ja": "お兄ちゃん",
+            "zh": "歐尼醬"
+          },
+          "path": "yandere-lyrics/oni-jian.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
         {
           "id": "01bc63e3-f84c-4180-b28f-71ef5b3d86a3",
           "name": "yoda-bin-jiao-shiao",
@@ -2892,6 +3211,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "2014a9de-af13-4841-b5d4-eb6ac5ade45e",
+          "name": "marry-me-ok",
+          "description": {
+            "en": "Marry me, OK?",
+            "ja": "結婚してくれる？",
+            "zh": "Marry me, OK?"
+          },
+          "path": "yoda-girlfriend/marry-me-ok.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
           "id": "e9f8b1a2-1234-4567-8912-abcdef123467",
           "name": "yu-zan-jiao-hsin-wo",
           "description": {
@@ -2925,15 +3255,15 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
-          "id": "2014a9de-af13-4841-b5d4-eb6ac5ade45e",
-          "name": "marry-me-ok",
+          "id": "d26a5608-08e5-419d-9a8b-3422b391edc7",
+          "name": "wan-zen-ji-hua",
           "description": {
-            "en": "Marry me, OK?",
-            "ja": "結婚してくれる？",
-            "zh": "Marry me, OK?"
+            "en": "Well then, let's fully evolve! Let's go!",
+            "ja": "それでは、完全に進化しよう！レッツゴー！",
+            "zh": "那麼我們就完整的進化吧Let's go!"
           },
-          "path": "yoda-girlfriend/marry-me-ok.mp3",
-          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+          "path": "yoda-new-clothes/wan-zen-ji-hua.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
           "id": "43f4303d-13ce-454f-8572-26e21ff88f00",
@@ -2967,17 +3297,6 @@
           },
           "path": "two-loli-blame/ya-li-do-hen-zho.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "id": "d26a5608-08e5-419d-9a8b-3422b391edc7",
-          "name": "wan-zen-ji-hua",
-          "description": {
-            "en": "Well then, let's fully evolve! Let's go!",
-            "ja": "それでは、完全に進化しよう！レッツゴー！",
-            "zh": "那麼我們就完整的進化吧Let's go!"
-          },
-          "path": "yoda-new-clothes/wan-zen-ji-hua.mp3",
-          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
           "id": "e0a6e3f7-c38f-4ee3-aecb-a8c18aad7892",
@@ -3420,6 +3739,17 @@
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
+          "id": "022cbed9-30d0-4aed-939d-24b5aad54b1c",
+          "name": "dabro-gay-friend",
+          "description": {
+            "en": "Friends - Bromance Version (Song)",
+            "ja": "フレンズ-ブロマンスバージョン（歌）",
+            "zh": "朋友-基友改編版 (歌)"
+          },
+          "path": "valentine-lyrics-2/dabro-gay-friend.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
           "id": "8d7b280f-95e9-4712-8037-b99fb62e1ea7",
           "name": "nan-zi-han-world",
           "description": {
@@ -3442,14 +3772,14 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
-          "id": "022cbed9-30d0-4aed-939d-24b5aad54b1c",
-          "name": "dabro-gay-friend",
+          "id": "7c467121-467d-43e5-80d1-deee3f20f7f8",
+          "name": "jo4-gay-bar",
           "description": {
-            "en": "Friends - Bromance Version (Song)",
-            "ja": "フレンズ-ブロマンスバージョン（歌）",
-            "zh": "朋友-基友改編版 (歌)"
+            "en": "From now on, this is a Gay Bar",
+            "ja": "ここからはゲイバーよ",
+            "zh": "從現在開始這裡就是Gay Bar啦"
           },
-          "path": "valentine-lyrics-2/dabro-gay-friend.mp3",
+          "path": "valentine-lyrics-2/jo4-gay-bar.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
@@ -3461,17 +3791,6 @@
             "zh": "男孩子就是應該要喜歡陽剛的東西"
           },
           "path": "valentine-lyrics-2/yan-gan-don-si.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
-        },
-        {
-          "id": "7c467121-467d-43e5-80d1-deee3f20f7f8",
-          "name": "jo4-gay-bar",
-          "description": {
-            "en": "From now on, this is a Gay Bar",
-            "ja": "ここからはゲイバーよ",
-            "zh": "從現在開始這裡就是Gay Bar啦"
-          },
-          "path": "valentine-lyrics-2/jo4-gay-bar.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
@@ -3583,6 +3902,17 @@
           },
           "path": "mihoyo-set/bu-yao-g-zuo.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "31c2314f-fe0c-4cc2-929d-8f45291161de",
+          "name": "g-tue-hao-tse",
+          "description": {
+            "en": "You say, hey~ Are chicken legs delicious?",
+            "ja": "言ってよ〜チキンレッグおいしい？〜",
+            "zh": "你說阿～雞腿好吃嗎～"
+          },
+          "path": "yandere-lyrics/g-tue-hao-tse.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
         },
         {
           "id": "b1fe9a8c-a519-433f-af4e-6dd743ddc069",
@@ -3750,17 +4080,6 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
-          "id": "2ee120ab-6ab6-443b-b54c-49122895cfdd",
-          "name": "z-nen-tza-wo",
-          "description": {
-            "en": "Let's go conquer this Taiwanese Vtuber circle, everyone!",
-            "ja": "皆でこの台湾のVtuber界を征服しましょう！",
-            "zh": "讓我們一起去征服這個台V圈吧各位！"
-          },
-          "path": "yoda-girlfriend/zen-fu-tai-v-chan.mp3",
-          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
           "id": "b9c2b326-ef4f-497c-8be5-b923b2c95d03",
           "name": "tsao-ni-ma-bang",
           "description": {
@@ -3770,6 +4089,17 @@
           },
           "path": "valentine-lyrics/tsao-ni-ma-bang.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "2ee120ab-6ab6-443b-b54c-49122895cfdd",
+          "name": "z-nen-tza-wo",
+          "description": {
+            "en": "Let's go conquer this Taiwanese Vtuber circle, everyone!",
+            "ja": "皆でこの台湾のVtuber界を征服しましょう！",
+            "zh": "讓我們一起去征服這個台V圈吧各位！"
+          },
+          "path": "yoda-girlfriend/zen-fu-tai-v-chan.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
           "id": "07a23c8b-ad5d-4d28-849d-5c67756844db",
@@ -3959,6 +4289,17 @@
       },
       "voice_list": [
         {
+          "id": "15247b78-f275-4fe7-930b-951cdfa4165e",
+          "name": "fuck",
+          "description": {
+            "en": "Fuck.",
+            "ja": "くそ。",
+            "zh": "Fuck"
+          },
+          "path": "yoda-girlfriend/fuck.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
           "id": "b3a1115a-85f7-4254-b116-57761ec08ca2",
           "name": "three-small-la",
           "description": {
@@ -3978,17 +4319,6 @@
             "zh": "甲賽啦"
           },
           "path": "yoda-girlfriend/jia-sai-la.mp3",
-          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
-          "id": "15247b78-f275-4fe7-930b-951cdfa4165e",
-          "name": "fuck",
-          "description": {
-            "en": "Fuck.",
-            "ja": "くそ。",
-            "zh": "Fuck"
-          },
-          "path": "yoda-girlfriend/fuck.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
@@ -4036,17 +4366,6 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
-          "id": "667580bf-19f7-4f9a-b919-8403386ae0a3",
-          "name": "yidin-4-shi-huan-wo",
-          "description": {
-            "en": "Oh that female VTuber is so cute~ She must like me~",
-            "ja": "あぁその女性VTuberかわいい〜きっと私のことが好きなんだ〜",
-            "zh": "哦那個女V好可愛喔～他一定是喜歡我～"
-          },
-          "path": "valentine-lyrics-2/yidin-4-shi-huan-wo.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
-        },
-        {
           "id": "36489303-0178-4c10-a5dc-e96e01da9609",
           "name": "fuck-you-all-la",
           "description": {
@@ -4056,6 +4375,17 @@
           },
           "path": "valentine-lyrics/fuck-you-all-la.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "667580bf-19f7-4f9a-b919-8403386ae0a3",
+          "name": "yidin-4-shi-huan-wo",
+          "description": {
+            "en": "Oh that female VTuber is so cute~ She must like me~",
+            "ja": "あぁその女性VTuberかわいい〜きっと私のことが好きなんだ〜",
+            "zh": "哦那個女V好可愛喔～他一定是喜歡我～"
+          },
+          "path": "valentine-lyrics-2/yidin-4-shi-huan-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         }
       ]
     },
@@ -4201,6 +4531,17 @@
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         },
         {
+          "id": "3528412b-6c08-4e53-a5e2-dc4ac7e1fafd",
+          "name": "dada-boing-boing",
+          "description": {
+            "en": "Dahha has elegance and big boingboing.",
+            "ja": "ダハには品格があり、バストが大きい。",
+            "zh": "妲妲有氣質和大boingboing"
+          },
+          "path": "valentine-lyrics/dada-boing-boing.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
           "id": "ba85c62c-1421-452d-baae-0eedb019c47b",
           "name": "wo-so-wo-shi-da-nai",
           "description": {
@@ -4221,17 +4562,6 @@
           },
           "path": "mihoyo-set/ho-yo-ma-yo-tso-na.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "id": "3528412b-6c08-4e53-a5e2-dc4ac7e1fafd",
-          "name": "dada-boing-boing",
-          "description": {
-            "en": "Dahha has elegance and big boingboing.",
-            "ja": "ダハには品格があり、バストが大きい。",
-            "zh": "妲妲有氣質和大boingboing"
-          },
-          "path": "valentine-lyrics/dada-boing-boing.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
           "id": "bdbc8bc9-d841-4e95-baf1-392dfa2e70d5",
@@ -4333,17 +4663,6 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
-          "id": "d3891f0d-ded7-410b-a943-f5e07efb328d",
-          "name": "ke-li-wan-jia",
-          "description": {
-            "en": "I'm not just a Klee player, I also wear Klee's clothes",
-            "ja": "私はクレープレイヤーだけでなく、クレーの服も着ています",
-            "zh": "我不只是可莉玩家我還穿上了可莉的衣服"
-          },
-          "path": "mihoyo-set/ke-li-wan-jia.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
           "id": "5720ae44-aa4a-4740-96f5-5cc99b7211b5",
           "name": "yuan-shen-chi-don-2",
           "description": {
@@ -4352,6 +4671,17 @@
             "zh": "原..原..原神...啟..啟動..."
           },
           "path": "mihoyo-set/yuan-shen-chi-don-2.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "d3891f0d-ded7-410b-a943-f5e07efb328d",
+          "name": "ke-li-wan-jia",
+          "description": {
+            "en": "I'm not just a Klee player, I also wear Klee's clothes",
+            "ja": "私はクレープレイヤーだけでなく、クレーの服も着ています",
+            "zh": "我不只是可莉玩家我還穿上了可莉的衣服"
+          },
+          "path": "mihoyo-set/ke-li-wan-jia.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
@@ -4542,6 +4872,17 @@
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
+          "id": "689facfb-223d-4519-9ae3-a85d8a6286e0",
+          "name": "hmph",
+          "description": {
+            "en": "hmph~~~",
+            "ja": "ふん~~~",
+            "zh": "哼~~~"
+          },
+          "path": "first-broadcast/hmph.mp3",
+          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
+        },
+        {
           "id": "daffd849-bcad-4d7a-a047-e19bd18c653e",
           "name": "angry",
           "description": {
@@ -4594,17 +4935,6 @@
             "zh": "哩系北七"
           },
           "path": "first-broadcast/idiot.mp3",
-          "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
-        },
-        {
-          "id": "689facfb-223d-4519-9ae3-a85d8a6286e0",
-          "name": "hmph",
-          "description": {
-            "en": "hmph~~~",
-            "ja": "ふん~~~",
-            "zh": "哼~~~"
-          },
-          "path": "first-broadcast/hmph.mp3",
           "url": "https://www.youtube.com/watch?v=ijx2JgEe5RM"
         },
         {
@@ -4773,6 +5103,17 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "5fdcd9d4-8c8e-4b48-9a42-050ddbb32a0d",
+          "name": "letsgo",
+          "description": {
+            "en": "Let's go!",
+            "ja": "レッツゴー！",
+            "zh": "Let's go!"
+          },
+          "path": "mihoyo-set/letsgo.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
           "id": "4042cf19-21c8-4c10-b184-d2b09573b0d8",
           "name": "who-shi-ben-dan",
           "description": {
@@ -4916,17 +5257,6 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
-          "id": "5fdcd9d4-8c8e-4b48-9a42-050ddbb32a0d",
-          "name": "letsgo",
-          "description": {
-            "en": "Let's go!",
-            "ja": "レッツゴー！",
-            "zh": "Let's go!"
-          },
-          "path": "mihoyo-set/letsgo.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
           "id": "f944e103-58b6-4b7e-a1d9-8fa0d267f77d",
           "name": "zan-shen-gu-li",
           "description": {
@@ -5057,6 +5387,17 @@
           },
           "path": "news-202410/o-er-yo-dian-diu-lian.mp3",
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "b5b3d797-ed9f-4b49-9ad8-4475a17803e2",
+          "name": "hsin-ren-cha",
+          "description": {
+            "en": "Almond tea is really disgusting, so gross!",
+            "ja": "アーモンドティーは本当に美味しくない、吐きそう",
+            "zh": "杏仁茶真的很難喝有夠噁心的嘔"
+          },
+          "path": "yandere-lyrics/hsin-ren-cha.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
         },
         {
           "id": "2bbeee40-85f9-445e-a770-af0c72453160",
