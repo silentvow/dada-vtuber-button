@@ -72,7 +72,7 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [['@nuxtjs/vuetify', { treeShake: false }]],
+  buildModules: ['@nuxt/image', ['@nuxtjs/vuetify', { treeShake: false }]],
   /*
    ** Nuxt.js modules
    */
@@ -89,6 +89,7 @@ export default {
     id: 'G-JHW2E0H1PQ',
     debug: !is_production
   },
+  image: {},
   /*
    ** vuetify module configuration
    ** https://github.com/nuxt-community/vuetify-module

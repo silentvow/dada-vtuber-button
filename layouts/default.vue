@@ -86,7 +86,13 @@
       </v-list>
 
       <template v-slot:append>
-        <v-img src="/img/woman.png" style="width: 100%; height: auto" />
+        <v-img
+          style="width: 100%; height: auto"
+          :src="optimizedWomanSrc"
+          :lazy-src="lazyWomanSrc"
+          :srcset="womanSrcset.srcset"
+          :sizes="womanSrcset.sizes"
+        />
       </template>
     </v-navigation-drawer>
     <v-app-bar dense class="primary white--text" app>
@@ -148,7 +154,14 @@
     </v-app-bar>
     <v-main>
       <v-container class="page">
-        <v-img class="rounded" max-height="360" src="/banner.jpg" />
+        <v-img
+          class="rounded"
+          max-height="360"
+          :src="optimizedBannerSrc"
+          :lazy-src="lazyBannerSrc"
+          :srcset="bannerSrcset.srcset"
+          :sizes="bannerSrcset.sizes"
+        />
         <nuxt />
         <v-snackbar v-model="snackbarVisible" :timeout="2000" :elevation="6" top color="success">
           {{ snackbarMessage }}
@@ -324,6 +337,54 @@ export default {
   computed: {
     current_locale() {
       return this.$i18n.locale;
+    },
+    optimizedBannerSrc() {
+      return this.$img('/banner.jpg', {
+        height: 360,
+        format: 'webp',
+        quality: 75
+      });
+    },
+    lazyBannerSrc() {
+      return this.$img('/banner.jpg', {
+        width: 10,
+        format: 'webp',
+        quality: 70
+      });
+    },
+    bannerSrcset() {
+      return this.$img.getSizes('/banner.jpg', {
+        sizes: 'xs:100vw sm:100vw md:100vw lg:100vw xl:100vw',
+        modifiers: {
+          format: 'webp',
+          quality: 70,
+          height: 360
+        }
+      });
+    },
+    optimizedWomanSrc() {
+      return this.$img('/img/woman.png', {
+        width: 256,
+        format: 'webp',
+        quality: 75
+      });
+    },
+    lazyWomanSrc() {
+      return this.$img('/img/woman.png', {
+        width: 10,
+        format: 'webp',
+        quality: 70
+      });
+    },
+    womanSrcset() {
+      return this.$img.getSizes('/img/woman.png', {
+        sizes: 'xs:100vw sm:100vw md:100vw lg:100vw xl:100vw',
+        modifiers: {
+          width: 256,
+          format: 'webp',
+          quality: 70
+        }
+      });
     },
     footerContent() {
       const styledName = `<a href="/feedback">${this.$t('site.feedback')}</a>`;
