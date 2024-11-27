@@ -14,7 +14,7 @@
       <v-list class="pt-0">
         <v-list-item to="/" router exact dense>
           <v-list-item-action>
-            <v-img src="/icon.png" style="width: 24px" />
+            <v-img alt="home-icon" src="/icon.png" style="width: 24px" />
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>{{ $t('site.index') }}</v-list-item-title>
@@ -78,7 +78,7 @@
           dense
         >
           <v-list-item-action>
-            <v-img :src="item.icon" style="width: 24px" />
+            <v-img :alt="item.title" :src="item.icon" style="width: 24px" />
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -88,6 +88,7 @@
 
       <template v-slot:append>
         <v-img
+          alt="i-m-female-vtuber"
           style="width: 100%; height: auto"
           :src="optimizedWomanSrc"
           :lazy-src="lazyWomanSrc"
@@ -158,6 +159,7 @@
         <v-img
           class="rounded"
           max-height="360"
+          alt="banner"
           :src="optimizedBannerSrc"
           :lazy-src="lazyBannerSrc"
           :srcset="bannerSrcset.srcset"
