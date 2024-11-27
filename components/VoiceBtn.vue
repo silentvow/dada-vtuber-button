@@ -4,6 +4,7 @@
       <v-item-group v-if="fromYoutube" rounded class="ma-1 vo-btn-group" :class="hover ? 'elevation-6' : 'elevation-2'">
         <v-btn
           :id="`button-${voiceId}`"
+          :aria-label="`button-${voiceId}`"
           class="vo-btn pa-2"
           :class="[v_btn_classes]"
           color="primary"
@@ -25,6 +26,7 @@
           <template v-slot:activator="{ on, attrs }">
             <v-btn
               :id="`button-menu-${voiceId}`"
+              :aria-label="`button-menu-${voiceId}`"
               v-bind="attrs"
               height="auto"
               color="primary"
@@ -65,6 +67,7 @@
       <v-btn
         v-else
         :id="`button-${voiceId}`"
+        :aria-label="`button-${voiceId}`"
         class="vo-btn full-width ma-1 pa-2"
         :class="[v_btn_classes]"
         color="primary"

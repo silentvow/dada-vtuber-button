@@ -103,7 +103,7 @@
       <v-spacer />
       <v-menu offset-y :close-on-content-click="false">
         <template v-slot:activator="{ on, attrs }">
-          <v-btn id="button-volume" icon plain class="white--text" v-bind="attrs" v-on="on">
+          <v-btn id="button-volume" aria-label="volume button" icon plain class="white--text" v-bind="attrs" v-on="on">
             <v-icon>{{ icons.volume }}</v-icon>
           </v-btn>
         </template>
@@ -124,7 +124,7 @@
       </v-menu>
       <v-tooltip bottom>
         <template v-slot:activator="{ on }">
-          <v-btn id="button-theme" icon plain class="white--text" @click="switch_dark()" v-on="on">
+          <v-btn id="button-theme" aria-label="theme button" icon plain class="white--text" @click="switch_dark()" v-on="on">
             <v-icon>{{ icons.brightness }}</v-icon>
           </v-btn>
         </template>
@@ -134,7 +134,7 @@
         <template v-slot:activator="{ on: menu }">
           <v-tooltip bottom>
             <template v-slot:activator="{ on: tooltip }">
-              <v-btn id="button-locale" icon plain class="white--text" v-on="{ ...tooltip, ...menu }">
+              <v-btn id="button-locale" aria-label="locale button" icon plain class="white--text" v-on="{ ...tooltip, ...menu }">
                 <v-icon>{{ icons.translate }}</v-icon>
               </v-btn>
             </template>
