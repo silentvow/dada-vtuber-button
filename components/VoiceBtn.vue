@@ -3,6 +3,7 @@
     <template v-slot="{ hover }">
       <v-item-group v-if="fromYoutube" rounded class="ma-1 vo-btn-group" :class="hover ? 'elevation-6' : 'elevation-2'">
         <v-btn
+          :id="`button-${voiceId}`"
           class="vo-btn pa-2"
           :class="[v_btn_classes]"
           color="primary"
@@ -22,7 +23,14 @@
         <!-- Dropdown Action Button -->
         <v-menu offset-y left nudge-bottom="4">
           <template v-slot:activator="{ on, attrs }">
-            <v-btn v-bind="attrs" height="auto" color="primary" :style="{ opacity: 1 }" v-on="on">
+            <v-btn
+              :id="`button-menu-${voiceId}`"
+              v-bind="attrs"
+              height="auto"
+              color="primary"
+              :style="{ opacity: 1 }"
+              v-on="on"
+            >
               <v-icon color="white">{{ icons.menu }}</v-icon>
             </v-btn>
           </template>
@@ -56,6 +64,7 @@
       </v-item-group>
       <v-btn
         v-else
+        :id="`button-${voiceId}`"
         class="vo-btn full-width ma-1 pa-2"
         :class="[v_btn_classes]"
         color="primary"

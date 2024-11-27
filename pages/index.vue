@@ -11,7 +11,7 @@
       transition="slide-y-reverse-transition"
     >
       <template v-slot:activator>
-        <v-btn slot="activator" v-model="fab" :class="speed_dial_color" dark fab hover>
+        <v-btn id="button-player" slot="activator" v-model="fab" :class="speed_dial_color" dark fab hover>
           <v-icon v-if="fab">
             {{ icons.close }}
           </v-icon>
