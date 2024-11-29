@@ -131,6 +131,17 @@
           "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
         },
         {
+          "id": "3b4736d5-740c-4400-896d-3d21865fc5a4",
+          "name": "i-m-coming",
+          "description": {
+            "en": "I'm coming~",
+            "ja": "やってくるよ〜",
+            "zh": "I'm coming~"
+          },
+          "path": "halloween-2022/i-m-coming.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
           "id": "31645356-12bc-4345-8980-4e3947fb5343",
           "name": "ka-sa-ha-mi-da",
           "description": {
@@ -395,6 +406,17 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "4e5c4eb6-eedb-4a59-a424-1a93c904a1d3",
+          "name": "shen-mo-ayi-a",
+          "description": {
+            "en": "Who is this auntie?",
+            "ja": "誰だこのおばさん",
+            "zh": "誰啦什麼阿姨呀"
+          },
+          "path": "halloween-2022/shen-mo-ayi-a.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
           "id": "ff124e40-e8fb-4361-b211-2cc1a587f6d9",
           "name": "cow-bay-no-gg",
           "description": {
@@ -459,6 +481,28 @@
           },
           "path": "on-fire/sau-ro-sol.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "id": "cf750c06-ef8d-4cd1-a1eb-3674c5d7d08c",
+          "name": "child-no-cute",
+          "description": {
+            "en": "Kids are so cute now",
+            "ja": "最近の子供はとても可愛いよ",
+            "zh": "現在小孩好不可愛噢"
+          },
+          "path": "halloween-2022/child-no-cute.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "7234f566-6e01-49b1-af8c-db9079e195f3",
+          "name": "jia-huo-zen-mo-hues",
+          "description": {
+            "en": "What is this guy all about?",
+            "ja": "この奴は何なんだ",
+            "zh": "這傢伙是怎麼回事啦"
+          },
+          "path": "halloween-2022/jia-huo-zen-mo-hues.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
           "id": "63266065-59e9-4a73-91ba-236b0ae111da",
@@ -624,6 +668,28 @@
           },
           "path": "yoda-girlfriend/hsian-tza-hsian-da-jia.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "2d994def-8bc8-426f-8ccc-600bcc8d1183",
+          "name": "fan-zue-fer-z",
+          "description": {
+            "en": "Of course we must follow the law, where did you criminal elements come from?",
+            "ja": "当然法律を守らなければ、あなたたちはどこから来た犯罪者なの？",
+            "zh": "當然要遵守法律阿你們是哪來的犯罪份子阿"
+          },
+          "path": "halloween-2022/fan-zue-fer-z.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "00acb774-5475-4fdf-a998-919c6864a59c",
+          "name": "na-mo-shen-ss",
+          "description": {
+            "en": "Why are you all so realistic? Can't you have a little dream?",
+            "ja": "なぜそんなに現実的なの？ちょっと夢を持てませんか",
+            "zh": "為什麼你們會那麼現實阿有點夢想可不可以阿"
+          },
+          "path": "halloween-2022/na-mo-shen-ss.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
           "id": "daa43368-e46c-4758-a9d3-f2a4ee10044e",
@@ -967,6 +1033,39 @@
       },
       "voice_list": [
         {
+          "id": "526815fb-c129-4edb-ab18-e71d1611fb41",
+          "name": "fly-universe",
+          "description": {
+            "en": "Flying towards the universe~",
+            "ja": "宇宙へ飛んでいく〜",
+            "zh": "飛向宇宙～"
+          },
+          "path": "halloween-2022/fly-universe.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "5aa9dca5-22f4-42be-8034-e7bd69a11134",
+          "name": "guagua-big-boing",
+          "description": {
+            "en": "Quack Quack Big Parrot~",
+            "ja": "ガーガー大波オウム〜",
+            "zh": "呱呱大波鸚～"
+          },
+          "path": "halloween-2022/guagua-big-boing.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "c819cbef-f95e-4b39-8730-7abab2898e93",
+          "name": "na-ger-candy",
+          "description": {
+            "en": "I want that candy~",
+            "ja": "あのキャンディが欲しい〜",
+            "zh": "我要那個糖果～"
+          },
+          "path": "halloween-2022/na-ger-candy.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
           "id": "82d7c519-5568-4f7a-81ac-d52df7da4e2a",
           "name": "miska-moska",
           "description": {
@@ -987,6 +1086,17 @@
           },
           "path": "valentine-lyrics/don-liu-don-don.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "584e772b-68ba-4551-a677-cef8834468cf",
+          "name": "4shen-yuan-wan",
+          "description": {
+            "en": "Just shout \"Quack Quack Big Parrot\" with me and you can realize all kinds of wishes",
+            "ja": "私と一緒に「ガーガー大波オウム」と叫べば、あらゆる願いを叶えられます",
+            "zh": "你只要跟著我一起喊呱呱大波鸚你就可以實現各種各式各樣的願望"
+          },
+          "path": "halloween-2022/4shen-yuan-wan.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
           "id": "896550a6-a2cf-4893-a09b-e71217c7059c",
@@ -1572,6 +1682,17 @@
       },
       "voice_list": [
         {
+          "id": "2a5c0470-6903-4a32-bc7d-d5a3cf57d81b",
+          "name": "be-olda-jue-jiao",
+          "description": {
+            "en": "Outed by Oda, friend breakup fee",
+            "ja": "オダに追い出された友人費",
+            "zh": "被歐妲退朋友費"
+          },
+          "path": "halloween-2022/be-olda-jue-jiao.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
           "id": "183d3816-be6f-42de-b854-e724bd6a421d",
           "name": "ren-jia-min-min",
           "description": {
@@ -1603,6 +1724,17 @@
           },
           "path": "valentine-lyrics-2/ai-hue-shiao-shi.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "a9ec7656-230c-4cdf-a4ad-0207161c0605",
+          "name": "wo-z4-tse-mo-hue",
+          "description": {
+            "en": "I just wanted to play a bit, how did this happen?",
+            "ja": "ちょっと遊びたかっただけなのに、どうしてこんなことに",
+            "zh": "我只想玩一下而已怎麼會發生這種事情"
+          },
+          "path": "halloween-2022/wo-z4-tse-mo-hue.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         }
       ]
     },
@@ -1803,6 +1935,17 @@
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
+          "id": "74720273-8397-4d0f-80ec-75f2416b7d2f",
+          "name": "ai-hao-4",
+          "description": {
+            "en": "Wailing Sound -4",
+            "ja": "苦悶の声 -4",
+            "zh": "哀嚎聲-4"
+          },
+          "path": "halloween-2022/ai-hao-4.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
           "id": "647dcdbd-494b-4b98-b163-2c70791fcda9",
           "name": "tsan-jiao-1",
           "description": {
@@ -1825,6 +1968,17 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "d1b08a71-135c-453e-b9cd-04725b4d9889",
+          "name": "wo-yao-po-fang",
+          "description": {
+            "en": "I'm about to break down",
+            "ja": "もう限界だ",
+            "zh": "我要破防了"
+          },
+          "path": "halloween-2022/wo-yao-po-fang.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
           "id": "4ba3a3d4-cbe1-49cc-9862-8ac630261343",
           "name": "wo-der-tofa",
           "description": {
@@ -1845,6 +1999,17 @@
           },
           "path": "news-202405/300-jian-jiao.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "fc423184-562b-4b89-9437-24a2df1cda29",
+          "name": "bu-yao-a-bu-yao",
+          "description": {
+            "en": "No, no~",
+            "ja": "だめ〜だめ〜",
+            "zh": "不要阿～不要阿～"
+          },
+          "path": "halloween-2022/bu-yao-a-bu-yao.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
           "id": "6cfba02e-b3fc-4300-ac64-f508f139f69c",
@@ -1889,6 +2054,17 @@
           },
           "path": "find-lover-guide/in-water-1.mp3",
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "fae6bf4b-b180-4e29-9292-4fe352fa4b55",
+          "name": "miao-miao-miao",
+          "description": {
+            "en": "Meow meow~ Meow~",
+            "ja": "にゃんにゃん〜にゃ〜",
+            "zh": "喵喵～喵～"
+          },
+          "path": "halloween-2022/miao-miao-miao.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
           "id": "bc4ff100-772f-4fb0-a5d0-682f33629e7e",
@@ -1999,6 +2175,17 @@
           },
           "path": "valentine-lyrics/ke-wu-explosion.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "3b5a0c4c-433e-4642-81b3-179412390deb",
+          "name": "shi-za-nu-pu-magic",
+          "description": {
+            "en": "Here comes someone to cast maid magic for you~ Oh, yikes, cool, cute cute, ptui! OK",
+            "ja": "ここに来て女メイド魔法をかけてあげるよ〜おっと、イエーイ、カッコいい、かわいいかわいい、ぷっ！OK",
+            "zh": "來那個幫你們施展女僕魔法阿～喔依西酷那咧萌ㄟ萌ㄟ呸！OK"
+          },
+          "path": "halloween-2022/shi-za-nu-pu-magic.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
           "id": "f496f97a-25d1-445c-9d7b-05a2830fca88",
@@ -2452,6 +2639,39 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "04bdc36b-8f01-4857-9862-44b4fe78552a",
+          "name": "yoda-moe-moe-chu",
+          "description": {
+            "en": "Moe moe chiu",
+            "ja": "もえもえちゅ",
+            "zh": "萌ㄟ萌ㄟ啾"
+          },
+          "path": "halloween-2022/yoda-moe-moe-chu.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "bca785e9-36ab-4b35-a83c-962ea8ce73e1",
+          "name": "pi-ka-chu",
+          "description": {
+            "en": "Pika~ chu~~~",
+            "ja": "ピカ〜チュ〜〜",
+            "zh": "皮卡～丘～～"
+          },
+          "path": "halloween-2022/pi-ka-chu.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "2e9fab3a-06c4-481c-80cf-4134a73d2eb1",
+          "name": "yao-candy-ma",
+          "description": {
+            "en": "Can I ask you for some candy?",
+            "ja": "キャンディをもらってもいいですか",
+            "zh": "可以跟你要糖果嗎"
+          },
+          "path": "halloween-2022/yao-candy-ma.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
           "id": "46a83f7f-9877-4cfc-9620-886d1abc4304",
           "name": "ker-ai-gay-chen",
           "description": {
@@ -2549,6 +2769,17 @@
           },
           "path": "valentine-lyrics/ger-ger-jie-hun.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "e9944944-d1a7-49d8-b993-b586c289515c",
+          "name": "you-super-great",
+          "description": {
+            "en": "You're really amazing! I really like you!",
+            "ja": "本当に最高！大好きだよ！",
+            "zh": "你真的超級棒的！我超喜歡你的！"
+          },
+          "path": "halloween-2022/you-super-great.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         }
       ]
     },
@@ -4474,6 +4705,17 @@
           },
           "path": "news-202405/nu-v-guan-to.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "413ebbad-8af1-4aea-89ac-0f04346dde41",
+          "name": "wo4-chi-zi-shi",
+          "description": {
+            "en": "Honestly, I was originally a classy type",
+            "ja": "正直に言えば、もともと上品なタイプだったんだ",
+            "zh": "其實老實說呢我本來就是氣質系的阿"
+          },
+          "path": "halloween-2022/wo4-chi-zi-shi.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         }
       ]
     },
