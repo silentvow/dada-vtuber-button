@@ -1682,6 +1682,17 @@
       },
       "voice_list": [
         {
+          "id": "fb8c4f01-2f23-4c0d-9530-f178b1675b9c",
+          "name": "bian-g-tue",
+          "description": {
+            "en": "Humiliatingly becoming a chicken leg",
+            "ja": "屈辱的にチキンレッグになる",
+            "zh": "屈辱地變雞腿"
+          },
+          "path": "chicken-club-ad/bian-g-tue.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
           "id": "2a5c0470-6903-4a32-bc7d-d5a3cf57d81b",
           "name": "be-olda-jue-jiao",
           "description": {
@@ -1704,6 +1715,17 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "9275a32e-8f54-4f63-b516-ea19bc9e9c42",
+          "name": "yi-be-tze-tse-zu",
+          "description": {
+            "en": "This is the shame of my entire life",
+            "ja": "これは私の人生の恥辱だ",
+            "zh": "這是我一輩子的恥辱"
+          },
+          "path": "chicken-club-ad/yi-be-tze-tse-zu.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
           "id": "687516bd-0a8d-4e5c-9d48-b6d928a8e625",
           "name": "why-become-this",
           "description": {
@@ -1724,6 +1746,17 @@
           },
           "path": "valentine-lyrics-2/ai-hue-shiao-shi.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "fca8e2f2-866e-475d-9813-029c951c4c23",
+          "name": "why-now-jian-lo",
+          "description": {
+            "en": "Why are you landing at this moment! Ah~~~~~~",
+            "ja": "なぜ今この瞬間に着陸するの！ああ~~~~~~",
+            "zh": "你為什麼這個時候降落！阿～～～～～"
+          },
+          "path": "chicken-club-ad/why-now-jian-lo.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
         },
         {
           "id": "a9ec7656-230c-4cdf-a4ad-0207161c0605",
@@ -1944,6 +1977,28 @@
           },
           "path": "halloween-2022/ai-hao-4.mp3",
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "3e6f2a1c-6333-452e-b101-4610d4e0e8c0",
+          "name": "ai-hao-5",
+          "description": {
+            "en": "Wailing sound -5",
+            "ja": "うめき声 -5",
+            "zh": "哀嚎聲-5"
+          },
+          "path": "chicken-club-ad/ai-hao-5.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
+          "id": "85a73fb8-2b1f-43e5-bc53-d71f20705980",
+          "name": "ai-hao-6",
+          "description": {
+            "en": "Wailing sound -6",
+            "ja": "うめき声 -6",
+            "zh": "哀嚎聲-6"
+          },
+          "path": "chicken-club-ad/ai-hao-6.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
         },
         {
           "id": "647dcdbd-494b-4b98-b163-2c70791fcda9",
@@ -4135,6 +4190,28 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "3500d089-b893-414e-96fd-1f33d6ad2673",
+          "name": "hi-hi-chicken",
+          "description": {
+            "en": "Hi! Hi chicken!",
+            "ja": "Hi! Hi チキン!",
+            "zh": "Hi! Hi chicken!"
+          },
+          "path": "chicken-club-ad/hi-hi-chicken.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
+          "id": "f345cc6e-df03-495f-88dd-aa3dc1699663",
+          "name": "join-leg-club",
+          "description": {
+            "en": "Join the chicken leg gang now",
+            "ja": "今すぐチキンレッグ団に加入しよう",
+            "zh": "現在就加入雞腿幫吧"
+          },
+          "path": "chicken-club-ad/join-leg-club.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
           "id": "31c2314f-fe0c-4cc2-929d-8f45291161de",
           "name": "g-tue-hao-tse",
           "description": {
@@ -4210,6 +4287,28 @@
           },
           "path": "valentine-lyrics-2/jin-wan-tse-ji-tue.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "d6e13a99-9f01-46e5-9924-fb0f38c7f5a2",
+          "name": "hsian-su-ker-ko",
+          "description": {
+            "en": "Wow, crispy and delicious, with plenty of juice - a chicken leg that everyone would love, right?",
+            "ja": "わぁ、サクサクで美味しい、ジューシーな鶏もも肉 - こんな鶏レッグは誰もが好きだよね",
+            "zh": "哇香酥又可口肉汁又非常的多像這樣的雞腿呢當然是每個人都喜歡的吧"
+          },
+          "path": "chicken-club-ad/hsian-su-ker-ko.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
+          "id": "acf36f56-0927-4d21-8d03-bd7f6d2b572b",
+          "name": "yi-din-join-club",
+          "description": {
+            "en": "Everyone, be sure to join our chicken leg gang, where you can have a delicious chicken leg every day - what better small happiness is there?",
+            "ja": "みんな、私たちのチキンレッグ団に必ず加入してね。毎日美味しい鶏レッグが食べられるよ。これ以上の小さな幸せはないでしょ",
+            "zh": "阿各位阿一定要就是阿一定要記得就是加入我們雞腿幫每天都會有一根好吃的雞腿可以吃阿小確幸莫過於如此吧"
+          },
+          "path": "chicken-club-ad/yi-din-join-club.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
         },
         {
           "id": "67228c2e-5ca0-4563-9098-1a0466791078",
@@ -4573,6 +4672,17 @@
           },
           "path": "news-202410/chi-ni-der-da-da-mian.mp3",
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "a8273a04-e991-4d84-8ee4-4fe8e776d971",
+          "name": "fucku-hahaha",
+          "description": {
+            "en": "F*** your mom hahaha",
+            "ja": "くそったれ、ハハハ",
+            "zh": "幹你娘哈哈哈"
+          },
+          "path": "chicken-club-ad/fucku-hahaha.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
         },
         {
           "id": "72231691-f5e3-42dc-bd06-194ff97583f3",
@@ -5389,6 +5499,17 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "86ab4464-9bae-4718-aaf1-88bc9d7c1526",
+          "name": "do-4ger-sa",
+          "description": {
+            "en": "What is this even",
+            "ja": "これは何なんだ",
+            "zh": "這都是個啥"
+          },
+          "path": "chicken-club-ad/do-4ger-sa.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
           "id": "4b988e81-198d-4fc9-96db-2f87e474ba93",
           "name": "ai-yo-wei-wa",
           "description": {
@@ -5530,6 +5651,17 @@
           },
           "path": "mihoyo-set/wo-bu-yao-dan-gu-er.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "e2851f07-0443-40f9-a769-f3f56bcc0c0c",
+          "name": "bu-yao-gamble",
+          "description": {
+            "en": "Don't gamble, everyone, don't gamble",
+            "ja": "みんな、ギャンブルはダメだよ",
+            "zh": "不要賭博大家不要賭博"
+          },
+          "path": "chicken-club-ad/bu-yao-gamble.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
         },
         {
           "id": "4a9901d6-9072-491f-8ba3-009bdccbf4f3",
@@ -5675,6 +5807,17 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "fbf6c1dd-7bdc-4f81-8afe-267f9cf57ea5",
+          "name": "bad-prediction",
+          "description": {
+            "en": "Wait, I have a really bad feeling about this",
+            "ja": "ちょっと待って、悪い予感がする",
+            "zh": "等一下我我我我我有相當不好的預感耶"
+          },
+          "path": "chicken-club-ad/bad-prediction.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
           "id": "ff051c71-11d9-4699-90b4-62636e159c27",
           "name": "chen-wan-bu-yao-du-bo",
           "description": {
@@ -5750,6 +5893,28 @@
           },
           "path": "news-202410/goblin-sao-zao.mp3",
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "5e7abfb0-b5c0-477b-89a5-ac03094b93a1",
+          "name": "ger-wei-bu-yao-du-bo",
+          "description": {
+            "en": "Everyone, remember that gambling is a bad, bad thing",
+            "ja": "みんな、ギャンブルは悪いことだと覚えておいてね",
+            "zh": "阿各位要記住阿以後再也不要賭博賭博是一件bad bad是一件很不好的事情"
+          },
+          "path": "chicken-club-ad/ger-wei-bu-yao-du-bo.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
+          "id": "45ca6395-2c26-44dd-8d5e-1b93a8ca8b23",
+          "name": "i-too-young",
+          "description": {
+            "en": "I was too young, too naive to not have thought you would do something like this",
+            "ja": "私はあまりにも若く、あまりにも純粋で、あなたがこんなことをするとは思わなかった",
+            "zh": "我想還是我太終究是太年輕了太單純了我居然沒想到你居然會做這樣的事情"
+          },
+          "path": "chicken-club-ad/i-too-young.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
         },
         {
           "id": "e7bcc42f-f301-4e03-949e-a40a79da6ad9",
