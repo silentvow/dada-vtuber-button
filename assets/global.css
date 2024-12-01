@@ -26,3 +26,7 @@
   justify-content: flex-start;
   gap: 8px;
 }
+
+:root {
+  --primary-theme-color: #bd133d;
+}

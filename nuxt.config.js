@@ -53,7 +53,7 @@ export default {
    ** Customize the progress-bar color
    */
   loading: {
-    color: '#c62828',
+    color: '#bd133d',
     height: '5px'
   },
   /*

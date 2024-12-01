@@ -108,7 +108,7 @@
           </v-btn>
         </template>
         <v-layout flex flex-row class="pa-2 volume-menu">
-          <v-icon color="#c62828">{{ icons.volumeLow }}</v-icon>
+          <v-icon color="primary">{{ icons.volumeLow }}</v-icon>
           <v-slider
             v-model="volume"
             :min="0"
@@ -119,7 +119,7 @@
             track-fill-color="#ff8a80"
             @change="onVolumeChange"
           ></v-slider>
-          <v-icon color="#c62828">{{ icons.volume }}</v-icon>
+          <v-icon color="primary">{{ icons.volume }}</v-icon>
         </v-layout>
       </v-menu>
       <v-tooltip bottom>
