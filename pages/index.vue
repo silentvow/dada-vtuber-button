@@ -74,7 +74,7 @@
         <v-card-title class="headline" :class="dark_text">
           {{ group.group_description[current_locale] }}
         </v-card-title>
-        <v-card-text>
+        <v-card-text class="button-container">
           <voice-btn
             v-for="item in opened_groups.has(group.id) ? group.voice_list : group.voice_list.slice(0, 7)"
             ref="voice_btn"
@@ -87,11 +87,11 @@
           >
             {{ item.description[current_locale] || item.description['zh'] }}
           </voice-btn>
-        </v-card-text>
-        <v-card-text v-if="!opened_groups.has(group.id)" class="d-flex justify-end">
           <v-btn
+            v-if="!opened_groups.has(group.id)"
             :id="`button-more-${group.id}`"
             :aria-label="`button-more-${group.id}`"
+            class="align-self-end justify-self-end"
             color="info"
             @click.native="showMore(group.id)"
           >
@@ -135,6 +135,11 @@
 $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 .v-card {
   margin: 8px auto;
+}
+
+.justify-self-end {
+  margin-left: auto;
+  justify-self: flex-end;
 }
 
 .fab-tip {

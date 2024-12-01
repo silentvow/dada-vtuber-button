@@ -63,7 +63,7 @@
         <v-card-title class="headline" :class="dark_text">
           {{ group.group_description[current_locale] }}
         </v-card-title>
-        <v-card-text>
+        <v-card-text class="button-container">
           <voice-btn
             v-for="item in group.voice_list"
             ref="voice_btn"
