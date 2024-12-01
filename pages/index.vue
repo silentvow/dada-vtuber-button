@@ -11,7 +11,18 @@
       transition="slide-y-reverse-transition"
     >
       <template v-slot:activator>
-        <v-btn id="button-player" slot="activator" v-model="fab" :class="speed_dial_color" dark fab hover>
+        <v-btn
+          id="button-player"
+          slot="activator"
+          v-model="fab"
+          aria-label=""
+          player
+          button
+          :class="speed_dial_color"
+          dark
+          fab
+          hover
+        >
           <v-icon v-if="fab">
             {{ icons.close }}
           </v-icon>
@@ -65,7 +76,7 @@
         </v-card-title>
         <v-card-text>
           <voice-btn
-            v-for="item in group.voice_list"
+            v-for="item in opened_groups.has(group.id) ? group.voice_list : group.voice_list.slice(0, 7)"
             ref="voice_btn"
             :key="item.id"
             :voice-id="item.id"
@@ -76,6 +87,16 @@
           >
             {{ item.description[current_locale] || item.description['zh'] }}
           </voice-btn>
+        </v-card-text>
+        <v-card-text v-if="!opened_groups.has(group.id)" class="d-flex justify-end">
+          <v-btn
+            :id="`button-more-${group.id}`"
+            :aria-label="`button-more-${group.id}`"
+            color="info"
+            @click.native="showMore(group.id)"
+          >
+            {{ $t('action.show_more') }}
+          </v-btn>
         </v-card-text>
       </v-card>
     </v-flex>
@@ -163,6 +184,12 @@ export default {
     //SkeletonLoading
   },
   data() {
+    const opened_groups = new Set();
+    voice_lists.groups.forEach(group => {
+      if (group.voice_list.length <= 7) {
+        opened_groups.add(group.id);
+      }
+    });
     return {
       icons: {
         close: mdiClose,
@@ -179,6 +206,7 @@ export default {
       repeat: false,
       fab: false,
       groups: voice_lists.groups,
+      opened_groups,
       now_playing: new Set(),
       upcoming_lives: [],
       lives: [],
@@ -271,6 +299,10 @@ export default {
           eventLabel: item.name + ' ' + item.description['zh']
         });
       }
+    },
+    showMore(groupId) {
+      this.opened_groups.add(groupId);
+      this.opened_groups = new Set(this.opened_groups);
     },
     openModal(item) {
       this.is_dialog_open = true;

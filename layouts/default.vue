@@ -98,7 +98,7 @@
       </template>
     </v-navigation-drawer>
     <v-app-bar dense class="primary white--text" app>
-      <v-app-bar-nav-icon id="button-drawer" class="white--text" @click.stop="drawer = !drawer" />
+      <v-app-bar-nav-icon id="button-drawer" aria-label="drawer button" class="white--text" @click.stop="drawer = !drawer" />
       <v-toolbar-title v-text="$t('site.title')" />
       <v-spacer />
       <v-menu offset-y :close-on-content-click="false">

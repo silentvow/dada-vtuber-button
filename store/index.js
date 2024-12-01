@@ -25,6 +25,10 @@ export const mutations = {
     state.voiceFavorite = voiceFavorite;
     localStorage.setItem('voiceFavorite', JSON.stringify(state.voiceFavorite));
   },
+  SET_CHALLENGE_DICT(state, challengeDict) {
+    state.challengeDict = challengeDict;
+    localStorage.setItem('challengeDict', JSON.stringify(state.challengeDict));
+  },
   SET_VOLUME(state, volume) {
     state.volume = volume;
     localStorage.setItem('volume', state.volume);
