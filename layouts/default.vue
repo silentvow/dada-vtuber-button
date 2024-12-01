@@ -235,10 +235,10 @@ $blur-function: blur(3px);
 }
 
 .theme--light.v-application {
-  background-image: url('/img/bg/pink.jpg');
+  background-color: #a29db3;
 }
 .theme--dark.v-application {
-  background-image: url('/img/bg/dark-red.jpg');
+  background-color: #43404b;
 }
 
 .nav-drawer-img {
