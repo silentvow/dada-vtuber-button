@@ -203,7 +203,7 @@ export default {
       let ref = null;
       let timer = null;
       this.$refs.voice_btn.forEach(i => {
-        if (i.$vnode.data.key === item.name) {
+        if (i.$vnode.data.key === item.id) {
           ref = i;
         }
       });
