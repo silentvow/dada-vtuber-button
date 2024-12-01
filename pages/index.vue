@@ -92,7 +92,7 @@
             :id="`button-more-${group.id}`"
             :aria-label="`button-more-${group.id}`"
             class="align-self-end justify-self-end"
-            color="info"
+            plain
             @click.native="showMore(group.id)"
           >
             {{ $t('action.show_more') }}
