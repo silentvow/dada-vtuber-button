@@ -98,6 +98,7 @@
                     ref="voice_btn"
                     :key="option.id"
                     :voice-id="option.id"
+                    :button-id="`${option.id}-q${index}`"
                     :style="{ width: '224px' }"
                     @on-play="play(option)"
                   >
@@ -128,6 +129,7 @@
                       ref="voice_btn"
                       :key="option.id"
                       :voice-id="option.id"
+                      :button-id="`${option.id}-q${index}`"
                       :style="{ width: '224px' }"
                       @on-play="play(option)"
                     >
@@ -185,6 +187,7 @@
                     ref="voice_btn"
                     :key="option.id"
                     :voice-id="option.id"
+                    :button-id="`${option.id}-q${index}`"
                     :style="{ width: '256px' }"
                     @on-play="play(option)"
                   >
@@ -202,6 +205,7 @@
                     ref="voice_btn"
                     :key="option.id"
                     :voice-id="option.id"
+                    :button-id="`${option.id}-q${index}`"
                     :style="{ width: '256px' }"
                     @on-play="play(option)"
                   >

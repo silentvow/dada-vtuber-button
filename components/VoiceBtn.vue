@@ -3,8 +3,8 @@
     <template v-slot="{ hover }">
       <v-item-group v-if="fromYoutube" rounded class="vo-btn-group" :class="hover ? 'elevation-6' : 'elevation-2'">
         <v-btn
-          :id="`button-${voiceId}`"
-          :aria-label="`button-${voiceId}`"
+          :id="`button-${buttonId}`"
+          :aria-label="`button-${buttonId}`"
           class="vo-btn pa-2"
           :class="[v_btn_classes]"
           color="primary"
@@ -25,8 +25,8 @@
         <v-menu offset-y left nudge-bottom="4">
           <template v-slot:activator="{ on, attrs }">
             <v-btn
-              :id="`button-menu-${voiceId}`"
-              :aria-label="`button-menu-${voiceId}`"
+              :id="`button-menu-${buttonId}`"
+              :aria-label="`button-menu-${buttonId}`"
               v-bind="attrs"
               height="auto"
               color="primary"
@@ -66,8 +66,8 @@
       </v-item-group>
       <v-btn
         v-else
-        :id="`button-${voiceId}`"
-        :aria-label="`button-${voiceId}`"
+        :id="`button-${buttonId}`"
+        :aria-label="`button-${buttonId}`"
         class="vo-btn full-width pa-2"
         :class="[v_btn_classes]"
         color="primary"
@@ -104,6 +104,12 @@ export default {
     },
     voiceId: {
       default: '#',
+      type: String
+    },
+    buttonId: {
+      default() {
+        return this.voiceId;
+      },
       type: String
     },
     fromYoutube: {
