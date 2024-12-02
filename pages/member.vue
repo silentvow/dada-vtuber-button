@@ -77,7 +77,6 @@
             v-for="item in group.voice_list"
             ref="voice_btn"
             :key="item.id"
-            :tbd="item.TBD"
             :from-youtube="false"
             @on-play="play(item)"
           >

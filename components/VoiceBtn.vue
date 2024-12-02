@@ -29,8 +29,8 @@
               :aria-label="`button-menu-${buttonId}`"
               v-bind="attrs"
               height="auto"
-              color="primary"
-              :style="{ opacity: 1 }"
+              class="vo-menu-btn-bg"
+              :class="in_favorite ? ['liked'] : []"
               v-on="on"
             >
               <v-icon color="white">{{ icons.menu }}</v-icon>
@@ -150,6 +150,7 @@ export default {
         'grey--text text--lighten-2 vo-btn-bg-dark': this.link ? false : this.$vuetify.theme.dark,
         'vo-btn-bg-light': this.link ? false : !this.$vuetify.theme.dark,
         tbd: this.tbd,
+        liked: this.in_favorite,
         playing: this.playing
       };
     },
@@ -180,6 +181,11 @@ export default {
 </script>
 <style lang="scss" scoped>
 $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
+
+.v-application .vo-btn-group {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
 
 .vo-btn-group {
   display: inline-flex;
@@ -250,11 +256,29 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 }
 
 .vo-btn-bg-light {
-  background: linear-gradient(to right, #e57373 var(--start-percent), var(--primary-theme-color) var(--progress));
+  background: linear-gradient(to right, #a29db3 var(--start-percent), #43404b var(--progress));
 }
 
 .vo-btn-bg-dark {
+  background: linear-gradient(to right, #a29db3 var(--start-percent), #43404b var(--progress));
+}
+
+.vo-btn-bg-light.liked {
   background: linear-gradient(to right, #e57373 var(--start-percent), var(--primary-theme-color) var(--progress));
+}
+
+.vo-btn-bg-dark.liked {
+  background: linear-gradient(to right, #e57373 var(--start-percent), var(--primary-theme-color) var(--progress));
+}
+
+.vo-menu-btn-bg.vo-menu-btn-bg {
+  color: #ffffff;
+  background-color: #43404b;
+  opacity: 1;
+}
+
+.vo-menu-btn-bg.vo-menu-btn-bg.liked {
+  background-color: var(--primary-theme-color);
 }
 
 .vo-btn-bg-light.tbd {
