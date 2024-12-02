@@ -21,6 +21,17 @@
           "url": ""
         },
         {
+          "id": "bce16592-ebe9-4251-ad6e-665164eee1e9",
+          "name": "52c6cc27",
+          "description": {
+            "en": "WTF",
+            "ja": "ダメだよ",
+            "zh": "WTF啦"
+          },
+          "path": "discord/52c6cc27.ogg",
+          "url": ""
+        },
+        {
           "id": "e9f4defc-eb6d-4e9c-8222-2cf1de6693a9",
           "name": "45e4d064",
           "description": {
@@ -54,6 +65,17 @@
           "url": ""
         },
         {
+          "id": "d15fab18-a23e-403b-9025-f656a8f50d7f",
+          "name": "a80b31e7",
+          "description": {
+            "en": "Bye",
+            "ja": "バイ",
+            "zh": "機掰咧"
+          },
+          "path": "discord/a80b31e7.ogg",
+          "url": ""
+        },
+        {
           "id": "8d4ff299-fdc8-4d69-ae10-858733817399",
           "name": "dc76cd41",
           "description": {
@@ -66,14 +88,14 @@
           "TBD": true
         },
         {
-          "id": "d15fab18-a23e-403b-9025-f656a8f50d7f",
-          "name": "a80b31e7",
+          "id": "79ffea6d-8933-4bd0-827b-3b60c694be5c",
+          "name": "5d608485",
           "description": {
-            "en": "Bye",
-            "ja": "バイ",
-            "zh": "機掰咧"
+            "en": "Failure!",
+            "ja": "失敗!",
+            "zh": "Failure!"
           },
-          "path": "discord/a80b31e7.ogg",
+          "path": "discord/5d608485.ogg",
           "url": ""
         },
         {
@@ -110,14 +132,47 @@
           "url": ""
         },
         {
-          "id": "bce16592-ebe9-4251-ad6e-665164eee1e9",
-          "name": "52c6cc27",
+          "id": "fce5412d-c1c0-42c6-8a65-cdb69ed5173b",
+          "name": "73cb740f",
           "description": {
-            "en": "WTF",
-            "ja": "ダメだよ",
-            "zh": "WTF啦"
+            "en": "APT. (song)",
+            "ja": "APT.(歌)",
+            "zh": "APT. (歌)"
           },
-          "path": "discord/52c6cc27.ogg",
+          "path": "discord/73cb740f.ogg",
+          "url": ""
+        },
+        {
+          "id": "ebdfde7e-ced0-42cf-bb1e-32a653ddd676",
+          "name": "f5ef9533",
+          "description": {
+            "en": "Recite you (song)",
+            "ja": "お前を唱える(歌)",
+            "zh": "唸你 (歌)"
+          },
+          "path": "discord/f5ef9533.ogg",
+          "url": ""
+        },
+        {
+          "id": "053d0c52-70ea-4798-9032-31cffe47d040",
+          "name": "25083b41",
+          "description": {
+            "en": "Date me (song)",
+            "ja": "デートしよう (歌)",
+            "zh": "約嗎 (歌)"
+          },
+          "path": "discord/25083b41.ogg",
+          "url": ""
+        },
+        {
+          "id": "e4bd463e-5b2b-4369-bf21-b387b662c19f",
+          "name": "b8f00953",
+          "description": {
+            "en": "Buy you (song)",
+            "ja": "お前を買う(歌)",
+            "zh": "買你 (歌)"
+          },
+          "path": "discord/b8f00953.ogg",
           "url": ""
         },
         {
@@ -132,6 +187,17 @@
           "url": ""
         },
         {
+          "id": "9fe16b5c-02d5-4033-97ce-d5b5fbe775ab",
+          "name": "4ae335e8",
+          "description": {
+            "en": "Well, you know",
+            "ja": "あーそう言うんじゃない",
+            "zh": "哩系咧淦諾"
+          },
+          "path": "discord/4ae335e8.ogg",
+          "url": ""
+        },
+        {
           "id": "1333df48-c983-4ff1-816c-782a1cd32322",
           "name": "0c88fcd5",
           "description": {
@@ -143,14 +209,14 @@
           "url": ""
         },
         {
-          "id": "9fe16b5c-02d5-4033-97ce-d5b5fbe775ab",
-          "name": "4ae335e8",
+          "id": "205ad333-08d3-468d-80da-45eacb7f24ab",
+          "name": "05384112",
           "description": {
-            "en": "Well, you know",
-            "ja": "あーそう言うんじゃない",
-            "zh": "哩系咧淦諾"
+            "en": "PADORU (song)",
+            "ja": "パドル(歌)",
+            "zh": "PADORU (歌)"
           },
-          "path": "discord/4ae335e8.ogg",
+          "path": "discord/05384112.ogg",
           "url": ""
         },
         {
@@ -165,6 +231,17 @@
           "url": ""
         },
         {
+          "id": "4001b9b6-31e9-4933-a3e6-e04105801303",
+          "name": "16505e6e",
+          "description": {
+            "en": "Umbrella electricity~ Umbrella electricity~",
+            "ja": "傘電傘電",
+            "zh": "傘電～傘電～"
+          },
+          "path": "discord/16505e6e.ogg",
+          "url": ""
+        },
+        {
           "id": "42375225-416e-491f-804c-f18c33b7e857",
           "name": "4c4086e4",
           "description": {
@@ -173,6 +250,17 @@
             "zh": "去你的擔擔麵"
           },
           "path": "discord/4c4086e4.ogg",
+          "url": ""
+        },
+        {
+          "id": "d193fdf1-7d45-4089-9d6f-88433d700da1",
+          "name": "410306a7",
+          "description": {
+            "en": "Wow, mother of disaster~",
+            "ja": "わぁ、母親災難者~",
+            "zh": "哇馬母災影～"
+          },
+          "path": "discord/410306a7.ogg",
           "url": ""
         },
         {
@@ -199,47 +287,14 @@
           "url": ""
         },
         {
-          "id": "d193fdf1-7d45-4089-9d6f-88433d700da1",
-          "name": "410306a7",
+          "id": "485d4459-5f87-42d7-8af7-108c8d3ababf",
+          "name": "380a4264",
           "description": {
-            "en": "Wow, mother of disaster~",
-            "ja": "わぁ、母親災難者~",
-            "zh": "哇馬母災影～"
+            "en": "Spider-man spanks (his) butt",
+            "ja": "スパイダーマンがお尻をペシペシ",
+            "zh": "蜘蛛人打屁屁"
           },
-          "path": "discord/410306a7.ogg",
-          "url": ""
-        },
-        {
-          "id": "053d0c52-70ea-4798-9032-31cffe47d040",
-          "name": "25083b41",
-          "description": {
-            "en": "Date me (song)",
-            "ja": "デートしよう (歌)",
-            "zh": "約嗎 (歌)"
-          },
-          "path": "discord/25083b41.ogg",
-          "url": ""
-        },
-        {
-          "id": "ebdfde7e-ced0-42cf-bb1e-32a653ddd676",
-          "name": "f5ef9533",
-          "description": {
-            "en": "Recite you (song)",
-            "ja": "お前を唱える(歌)",
-            "zh": "唸你 (歌)"
-          },
-          "path": "discord/f5ef9533.ogg",
-          "url": ""
-        },
-        {
-          "id": "4001b9b6-31e9-4933-a3e6-e04105801303",
-          "name": "16505e6e",
-          "description": {
-            "en": "Umbrella electricity~ Umbrella electricity~",
-            "ja": "傘電傘電",
-            "zh": "傘電～傘電～"
-          },
-          "path": "discord/16505e6e.ogg",
+          "path": "discord/380a4264.ogg",
           "url": ""
         },
         {
@@ -254,38 +309,95 @@
           "url": ""
         },
         {
-          "id": "e4bd463e-5b2b-4369-bf21-b387b662c19f",
-          "name": "b8f00953",
+          "id": "da02036d-3f04-4b3a-9316-8d04445fbb6a",
+          "name": "32ccd4d6",
           "description": {
-            "en": "Buy you (song)",
-            "ja": "お前を買う(歌)",
-            "zh": "買你 (歌)"
+            "en": "puluuuu, that's right",
+            "ja": "ぷるぅー、その通りだよ",
+            "zh": "puluuuu沒錯啦"
           },
-          "path": "discord/b8f00953.ogg",
-          "url": ""
-        },
-        {
-          "id": "485d4459-5f87-42d7-8af7-108c8d3ababf",
-          "name": "380a4264",
-          "description": {
-            "en": "Spider-man spanks (his) butt",
-            "ja": "スパイダーマンがお尻をペシペシ",
-            "zh": "蜘蛛人打屁屁"
-          },
-          "path": "discord/380a4264.ogg",
-          "url": ""
-        },
-        {
-          "id": "2a14c478-cf25-47f5-95c5-935ecb6195a6",
-          "name": "ded345ed",
-          "description": {
-            "en": "Pikachu Pikachu~",
-            "ja": "ピカチュウピカチュウ~",
-            "zh": "皮卡丘皮卡丘～"
-          },
-          "path": "discord/ded345ed.ogg",
+          "path": "discord/32ccd4d6.ogg",
           "url": "",
           "TBD": true
+        },
+        {
+          "id": "82012b07-a532-4579-90e7-6fe20fee3f23",
+          "name": "f62c4659",
+          "description": {
+            "en": "You, you (song)",
+            "ja": "おめえ、おめえ (歌)",
+            "zh": "你啊你啊 (歌)"
+          },
+          "path": "discord/f62c4659.ogg",
+          "url": ""
+        },
+        {
+          "id": "caa8be5a-26a3-4656-88a7-8bccf3ea0cd4",
+          "name": "a92a3838",
+          "description": {
+            "en": "Love Circulator (song)",
+            "ja": "ラブサーキュレーター(歌)",
+            "zh": "戀愛循環 (歌)"
+          },
+          "path": "discord/a92a3838.ogg",
+          "url": ""
+        },
+        {
+          "id": "165c83e0-7e75-4786-93f4-036f10eb269b",
+          "name": "cbec23aa",
+          "description": {
+            "en": "Good night song (小妲)",
+            "ja": "おやすみの歌 (幼妲)",
+            "zh": "晚安歌 (幼妲)"
+          },
+          "path": "discord/cbec23aa.ogg",
+          "url": "",
+          "TBD": true
+        },
+        {
+          "id": "5fc0bc89-d3a3-4af7-8ac4-cec00c582f27",
+          "name": "030e2b57",
+          "description": {
+            "en": "A real man (male voice)",
+            "ja": "男子漢 (男声)",
+            "zh": "男子漢 (男聲)"
+          },
+          "path": "discord/030e2b57.ogg",
+          "url": ""
+        },
+        {
+          "id": "947345da-33f9-41d0-927a-370ad3abbf09",
+          "name": "8e870896",
+          "description": {
+            "en": "Mushroom soup (song)",
+            "ja": "きのこのクリームスープ(歌)",
+            "zh": "蘑菇濃湯 (歌)"
+          },
+          "path": "discord/8e870896.ogg",
+          "url": ""
+        },
+        {
+          "id": "d6b2742f-6844-46c0-a9a5-b66ed8196a4e",
+          "name": "89927261",
+          "description": {
+            "en": "@?^#%@Fuck your mother~",
+            "ja": "@?^#%@お前の母ちゃんを~",
+            "zh": "@?^#%@幹你娘～"
+          },
+          "path": "discord/89927261.ogg",
+          "url": "",
+          "TBD": true
+        },
+        {
+          "id": "7d5938d5-0300-4d20-b685-649f493bebec",
+          "name": "bcabe6fa",
+          "description": {
+            "en": "Wow, you know",
+            "ja": "わぁ、分かるんだね",
+            "zh": "哇噢，你是懂的"
+          },
+          "path": "discord/bcabe6fa.ogg",
+          "url": ""
         },
         {
           "id": "576fe7a4-f491-4704-9416-45caa924b306",
@@ -310,14 +422,26 @@
           "url": ""
         },
         {
-          "id": "7d5938d5-0300-4d20-b685-649f493bebec",
-          "name": "bcabe6fa",
+          "id": "2a14c478-cf25-47f5-95c5-935ecb6195a6",
+          "name": "ded345ed",
           "description": {
-            "en": "Wow, you know",
-            "ja": "わぁ、分かるんだね",
-            "zh": "哇噢，你是懂的"
+            "en": "Pikachu Pikachu~",
+            "ja": "ピカチュウピカチュウ~",
+            "zh": "皮卡丘皮卡丘～"
           },
-          "path": "discord/bcabe6fa.ogg",
+          "path": "discord/ded345ed.ogg",
+          "url": "",
+          "TBD": true
+        },
+        {
+          "id": "504a0deb-ddf9-4b90-b16c-8faa64c5bbac",
+          "name": "17348f8d",
+          "description": {
+            "en": "Requiem (song)",
+            "ja": "レクイエム(歌)",
+            "zh": "レクイエム (歌)"
+          },
+          "path": "discord/17348f8d.ogg",
           "url": ""
         },
         {
@@ -332,15 +456,16 @@
           "url": ""
         },
         {
-          "id": "82012b07-a532-4579-90e7-6fe20fee3f23",
-          "name": "f62c4659",
+          "id": "0803ab7a-4fa9-4bcc-887c-d4daadb140b9",
+          "name": "f59d0a3a",
           "description": {
-            "en": "You, you (song)",
-            "ja": "おめえ、おめえ (歌)",
-            "zh": "你啊你啊 (歌)"
+            "en": "Baby sleep~ Good baby sleep~",
+            "ja": "ベビー寝ろおりこう寝ろ",
+            "zh": "寶寶睡～乖乖睡～"
           },
-          "path": "discord/f62c4659.ogg",
-          "url": ""
+          "path": "discord/f59d0a3a.ogg",
+          "url": "",
+          "TBD": true
         },
         {
           "id": "4191d010-88e5-4b98-bb7f-f6ed714a5174",
@@ -387,29 +512,6 @@
           "url": ""
         },
         {
-          "id": "5fc0bc89-d3a3-4af7-8ac4-cec00c582f27",
-          "name": "030e2b57",
-          "description": {
-            "en": "A real man (male voice)",
-            "ja": "男子漢 (男声)",
-            "zh": "男子漢 (男聲)"
-          },
-          "path": "discord/030e2b57.ogg",
-          "url": ""
-        },
-        {
-          "id": "165c83e0-7e75-4786-93f4-036f10eb269b",
-          "name": "cbec23aa",
-          "description": {
-            "en": "Good night song (小妲)",
-            "ja": "おやすみの歌 (幼妲)",
-            "zh": "晚安歌 (幼妲)"
-          },
-          "path": "discord/cbec23aa.ogg",
-          "url": "",
-          "TBD": true
-        },
-        {
           "id": "f309d5bb-2c2d-481b-9a1e-d42f0d7c1264",
           "name": "efd47579",
           "description": {
@@ -421,60 +523,16 @@
           "url": ""
         },
         {
-          "id": "0803ab7a-4fa9-4bcc-887c-d4daadb140b9",
-          "name": "f59d0a3a",
+          "id": "388fb489-4432-45f6-bf50-b7e64dbc49c0",
+          "name": "d7240500",
           "description": {
-            "en": "Baby sleep~ Good baby sleep~",
-            "ja": "ベビー寝ろおりこう寝ろ",
-            "zh": "寶寶睡～乖乖睡～"
+            "en": "Don't Spicy Taki anymore",
+            "ja": "スパイシーたこ焼きは止めて",
+            "zh": "不要再Spicy Taki了"
           },
-          "path": "discord/f59d0a3a.ogg",
+          "path": "discord/d7240500.ogg",
           "url": "",
           "TBD": true
-        },
-        {
-          "id": "947345da-33f9-41d0-927a-370ad3abbf09",
-          "name": "8e870896",
-          "description": {
-            "en": "Mushroom soup (song)",
-            "ja": "きのこのクリームスープ(歌)",
-            "zh": "蘑菇濃湯 (歌)"
-          },
-          "path": "discord/8e870896.ogg",
-          "url": ""
-        },
-        {
-          "id": "caa8be5a-26a3-4656-88a7-8bccf3ea0cd4",
-          "name": "a92a3838",
-          "description": {
-            "en": "Love Circulator (song)",
-            "ja": "ラブサーキュレーター(歌)",
-            "zh": "戀愛循環 (歌)"
-          },
-          "path": "discord/a92a3838.ogg",
-          "url": ""
-        },
-        {
-          "id": "fce5412d-c1c0-42c6-8a65-cdb69ed5173b",
-          "name": "73cb740f",
-          "description": {
-            "en": "APT. (song)",
-            "ja": "APT.(歌)",
-            "zh": "APT. (歌)"
-          },
-          "path": "discord/73cb740f.ogg",
-          "url": ""
-        },
-        {
-          "id": "79ffea6d-8933-4bd0-827b-3b60c694be5c",
-          "name": "5d608485",
-          "description": {
-            "en": "Failure!",
-            "ja": "失敗!",
-            "zh": "Failure!"
-          },
-          "path": "discord/5d608485.ogg",
-          "url": ""
         },
         {
           "id": "d22a3e14-884e-416a-aed4-feea770e5ee5",
@@ -497,6 +555,18 @@
             "zh": "拜託惹～拜託你惹～"
           },
           "path": "discord/4c541ee7.ogg",
+          "url": "",
+          "TBD": true
+        },
+        {
+          "id": "b5ac09c5-6b97-4de4-9cce-7d9bd071c22e",
+          "name": "7e626573",
+          "description": {
+            "en": "A real man (LNG revised version)",
+            "ja": "男子漢 (LNG改詞版)",
+            "zh": "男子漢 (LNG改詞版)"
+          },
+          "path": "discord/7e626573.ogg",
           "url": "",
           "TBD": true
         },
@@ -535,37 +605,14 @@
           "url": ""
         },
         {
-          "id": "504a0deb-ddf9-4b90-b16c-8faa64c5bbac",
-          "name": "17348f8d",
+          "id": "df21b2bf-d21b-4860-bb32-3f8d698359af",
+          "name": "402e0068",
           "description": {
-            "en": "Requiem (song)",
-            "ja": "レクイエム(歌)",
-            "zh": "レクイエム (歌)"
+            "en": "1 2 3 4 5 6 7 8 9 10",
+            "ja": "1 2 3 4 5 6 7 8 9 10",
+            "zh": "1 2 3 4 5 6 7 8 9 10"
           },
-          "path": "discord/17348f8d.ogg",
-          "url": ""
-        },
-        {
-          "id": "d6b2742f-6844-46c0-a9a5-b66ed8196a4e",
-          "name": "89927261",
-          "description": {
-            "en": "@?^#%@Fuck your mother~",
-            "ja": "@?^#%@お前の母ちゃんを~",
-            "zh": "@?^#%@幹你娘～"
-          },
-          "path": "discord/89927261.ogg",
-          "url": "",
-          "TBD": true
-        },
-        {
-          "id": "ab0e30e2-fceb-41b5-90c3-adb4e0f32fd5",
-          "name": "8a97f9b4",
-          "description": {
-            "en": "Seeds, seeds! Seeds, seeds!",
-            "ja": "種子、種子!種子、種子!",
-            "zh": "種子種子！種子種子！"
-          },
-          "path": "discord/8a97f9b4.ogg",
+          "path": "discord/402e0068.ogg",
           "url": ""
         },
         {
@@ -580,27 +627,15 @@
           "url": ""
         },
         {
-          "id": "205ad333-08d3-468d-80da-45eacb7f24ab",
-          "name": "05384112",
+          "id": "ab0e30e2-fceb-41b5-90c3-adb4e0f32fd5",
+          "name": "8a97f9b4",
           "description": {
-            "en": "PADORU (song)",
-            "ja": "パドル(歌)",
-            "zh": "PADORU (歌)"
+            "en": "Seeds, seeds! Seeds, seeds!",
+            "ja": "種子、種子!種子、種子!",
+            "zh": "種子種子！種子種子！"
           },
-          "path": "discord/05384112.ogg",
+          "path": "discord/8a97f9b4.ogg",
           "url": ""
-        },
-        {
-          "id": "da02036d-3f04-4b3a-9316-8d04445fbb6a",
-          "name": "32ccd4d6",
-          "description": {
-            "en": "puluuuu, that's right",
-            "ja": "ぷるぅー、その通りだよ",
-            "zh": "puluuuu沒錯啦"
-          },
-          "path": "discord/32ccd4d6.ogg",
-          "url": "",
-          "TBD": true
         },
         {
           "id": "e2af8e33-120d-4e40-8019-6cb6c3b48545",
@@ -614,16 +649,15 @@
           "url": ""
         },
         {
-          "id": "b5ac09c5-6b97-4de4-9cce-7d9bd071c22e",
-          "name": "7e626573",
+          "id": "af69c6bb-03c1-4e70-b814-75e7938b4a23",
+          "name": "5b4cc017",
           "description": {
-            "en": "A real man (LNG revised version)",
-            "ja": "男子漢 (LNG改詞版)",
-            "zh": "男子漢 (LNG改詞版)"
+            "en": "Oh, what are you doing~ Thank you for your green area~",
+            "ja": "おお、何してるのグリーンエリアありがとう",
+            "zh": "噢你在幹嘛～謝謝你的綠界～"
           },
-          "path": "discord/7e626573.ogg",
-          "url": "",
-          "TBD": true
+          "path": "discord/5b4cc017.ogg",
+          "url": ""
         },
         {
           "id": "78d1cbd7-dbb5-4e2f-aca7-b6100fe1f803",
@@ -656,29 +690,6 @@
             "zh": "阿糟糕，一點都不像，對不起"
           },
           "path": "discord/2b7da1fd.ogg",
-          "url": "",
-          "TBD": true
-        },
-        {
-          "id": "af69c6bb-03c1-4e70-b814-75e7938b4a23",
-          "name": "5b4cc017",
-          "description": {
-            "en": "Oh, what are you doing~ Thank you for your green area~",
-            "ja": "おお、何してるのグリーンエリアありがとう",
-            "zh": "噢你在幹嘛～謝謝你的綠界～"
-          },
-          "path": "discord/5b4cc017.ogg",
-          "url": ""
-        },
-        {
-          "id": "388fb489-4432-45f6-bf50-b7e64dbc49c0",
-          "name": "d7240500",
-          "description": {
-            "en": "Don't Spicy Taki anymore",
-            "ja": "スパイシーたこ焼きは止めて",
-            "zh": "不要再Spicy Taki了"
-          },
-          "path": "discord/d7240500.ogg",
           "url": "",
           "TBD": true
         },
@@ -716,18 +727,6 @@
           "url": ""
         },
         {
-          "id": "bfe919da-a9ce-496a-b3fe-4600abf883ab",
-          "name": "26ea2867",
-          "description": {
-            "en": "No, it's not like that, it's what Ajun said",
-            "ja": "それはウソだ!アジュンがそう言ったんだ",
-            "zh": "才沒有咧哩系咧淦喔都是阿郡講的啦"
-          },
-          "path": "discord/26ea2867.ogg",
-          "url": "",
-          "TBD": true
-        },
-        {
           "id": "acc11e27-505d-4df9-8c1a-0f22839258b7",
           "name": "8a9bc392",
           "description": {
@@ -748,6 +747,18 @@
           },
           "path": "discord/a9bb8302.ogg",
           "url": ""
+        },
+        {
+          "id": "bfe919da-a9ce-496a-b3fe-4600abf883ab",
+          "name": "26ea2867",
+          "description": {
+            "en": "No, it's not like that, it's what Ajun said",
+            "ja": "それはウソだ!アジュンがそう言ったんだ",
+            "zh": "才沒有咧哩系咧淦喔都是阿郡講的啦"
+          },
+          "path": "discord/26ea2867.ogg",
+          "url": "",
+          "TBD": true
         },
         {
           "id": "ff0de3e4-2abb-48d5-ac5e-4d597e12e98c",
@@ -784,28 +795,15 @@
           "url": ""
         },
         {
-          "id": "4b290a83-9ff3-4a7e-8d0c-ddce68af7d92",
-          "name": "a6cf3abc",
+          "id": "2f5bcf5a-325a-4083-b745-615a07b4ec79",
+          "name": "d2623033",
           "description": {
-            "en": "What does this mean, I'm going to cry, wah wah wah",
-            "ja": "これってどういう意味?泣いちゃうわ、ウワーン",
-            "zh": "這是什麼意思，要哭哭了喔，嗚嗚嗚～"
+            "en": "Fuck, fuck, fuck, fuck, fuck, fuck, fuck",
+            "ja": "クソッ、クソッ、クソッ、クソッ、クソッ、クソッ、クソッ",
+            "zh": "操逼操逼 操逼操逼操逼 操逼操逼操逼"
           },
-          "path": "discord/a6cf3abc.ogg",
-          "url": "",
-          "TBD": true
-        },
-        {
-          "id": "1c3bec5c-4ce2-4ad8-b4b8-178f4c43a431",
-          "name": "336f1a45",
-          "description": {
-            "en": "I can't live without counting rice, I can't live without it",
-            "ja": "米を数えるのができないと生きていけない、米を数えられないと生きていけない",
-            "zh": "活不下去了，沒有數米的日子活不下去了"
-          },
-          "path": "discord/336f1a45.ogg",
-          "url": "",
-          "TBD": true
+          "path": "discord/d2623033.ogg",
+          "url": ""
         },
         {
           "id": "4fc45c64-f0bc-4a67-a701-fdd73328def0",
@@ -819,25 +817,37 @@
           "url": ""
         },
         {
-          "id": "2f5bcf5a-325a-4083-b745-615a07b4ec79",
-          "name": "d2623033",
+          "id": "4b290a83-9ff3-4a7e-8d0c-ddce68af7d92",
+          "name": "a6cf3abc",
           "description": {
-            "en": "Fuck, fuck, fuck, fuck, fuck, fuck, fuck",
-            "ja": "クソッ、クソッ、クソッ、クソッ、クソッ、クソッ、クソッ",
-            "zh": "操逼操逼 操逼操逼操逼 操逼操逼操逼"
+            "en": "What does this mean, I'm going to cry, wah wah wah",
+            "ja": "これってどういう意味?泣いちゃうわ、ウワーン",
+            "zh": "這是什麼意思，要哭哭了喔，嗚嗚嗚～"
           },
-          "path": "discord/d2623033.ogg",
+          "path": "discord/a6cf3abc.ogg",
+          "url": "",
+          "TBD": true
+        },
+        {
+          "id": "99670f3a-08b7-461c-96d0-92b63304ac56",
+          "name": "763ee63f",
+          "description": {
+            "en": "How come there's such a nice body and nice butt",
+            "ja": "どうしてあんなにいい体とお尻があるんだろ",
+            "zh": "怎麼有那麼香的Nice body跟Nice Butt阿"
+          },
+          "path": "discord/763ee63f.ogg",
           "url": ""
         },
         {
-          "id": "b98210db-3e69-42d6-a937-1f522aeb8800",
-          "name": "1caaaa1e",
+          "id": "1c3bec5c-4ce2-4ad8-b4b8-178f4c43a431",
+          "name": "336f1a45",
           "description": {
-            "en": "Something that's impossible to succeed in, don't keep challenging it",
-            "ja": "本来無理なものは、もう挑戦するなよ",
-            "zh": "本來就不可能成功的東西，就不要再挑戰啦"
+            "en": "I can't live without counting rice, I can't live without it",
+            "ja": "米を数えるのができないと生きていけない、米を数えられないと生きていけない",
+            "zh": "活不下去了，沒有數米的日子活不下去了"
           },
-          "path": "discord/1caaaa1e.ogg",
+          "path": "discord/336f1a45.ogg",
           "url": "",
           "TBD": true
         },
@@ -853,6 +863,18 @@
           "url": ""
         },
         {
+          "id": "b98210db-3e69-42d6-a937-1f522aeb8800",
+          "name": "1caaaa1e",
+          "description": {
+            "en": "Something that's impossible to succeed in, don't keep challenging it",
+            "ja": "本来無理なものは、もう挑戦するなよ",
+            "zh": "本來就不可能成功的東西，就不要再挑戰啦"
+          },
+          "path": "discord/1caaaa1e.ogg",
+          "url": "",
+          "TBD": true
+        },
+        {
           "id": "1ef16b55-c472-4dc3-9369-095130d72907",
           "name": "94117531",
           "description": {
@@ -864,14 +886,36 @@
           "url": ""
         },
         {
-          "id": "df21b2bf-d21b-4860-bb32-3f8d698359af",
-          "name": "402e0068",
+          "id": "10c14532-c82b-46a2-95ad-9d17299b2bd0",
+          "name": "01579986",
           "description": {
-            "en": "1 2 3 4 5 6 7 8 9 10",
-            "ja": "1 2 3 4 5 6 7 8 9 10",
-            "zh": "1 2 3 4 5 6 7 8 9 10"
+            "en": "What does that mean? Is the Stellar Railway a kind of galgame?",
+            "ja": "それってどういう意味?星穹鉄道ってギャルゲーの一種なの?",
+            "zh": "什麼意思？難道星穹鐵道是一種galgame嗎？"
           },
-          "path": "discord/402e0068.ogg",
+          "path": "discord/01579986.ogg",
+          "url": ""
+        },
+        {
+          "id": "9e555f6d-20d6-4a27-9063-3f4666dd781b",
+          "name": "2425b95c",
+          "description": {
+            "en": "You're gay~ You're gay~ You're like a real gay every day~",
+            "ja": "お前はゲイだお前はゲイだ毎日まるでホントのゲイみたいだ~",
+            "zh": "你是GAY～你是GAY～每天都像一個真的GAY～"
+          },
+          "path": "discord/2425b95c.ogg",
+          "url": ""
+        },
+        {
+          "id": "cdd9b702-f386-4773-9701-c240a067cd14",
+          "name": "0cc85142",
+          "description": {
+            "en": "Don't wake up and get high, we haven't debugged yet, we haven't debugged~",
+            "ja": "起きてハッスルするなよ、デバッグ完了してないから、デバッグ完了してないから~",
+            "zh": "不要睡起來嗨吧，還沒Debug呢，還沒Debug～"
+          },
+          "path": "discord/0cc85142.ogg",
           "url": ""
         },
         {
@@ -897,17 +941,6 @@
           "url": ""
         },
         {
-          "id": "10c14532-c82b-46a2-95ad-9d17299b2bd0",
-          "name": "01579986",
-          "description": {
-            "en": "What does that mean? Is the Stellar Railway a kind of galgame?",
-            "ja": "それってどういう意味?星穹鉄道ってギャルゲーの一種なの?",
-            "zh": "什麼意思？難道星穹鐵道是一種galgame嗎？"
-          },
-          "path": "discord/01579986.ogg",
-          "url": ""
-        },
-        {
           "id": "51a92a40-64a2-4176-abf5-d5178f2f888c",
           "name": "d9cddd81",
           "description": {
@@ -916,17 +949,6 @@
             "zh": "不行欸我是氣質單純的女V，我怎麼會模仿這種東西咧"
           },
           "path": "discord/d9cddd81.ogg",
-          "url": ""
-        },
-        {
-          "id": "9e555f6d-20d6-4a27-9063-3f4666dd781b",
-          "name": "2425b95c",
-          "description": {
-            "en": "You're gay~ You're gay~ You're like a real gay every day~",
-            "ja": "お前はゲイだお前はゲイだ毎日まるでホントのゲイみたいだ~",
-            "zh": "你是GAY～你是GAY～每天都像一個真的GAY～"
-          },
-          "path": "discord/2425b95c.ogg",
           "url": ""
         },
         {
@@ -942,17 +964,6 @@
           "TBD": true
         },
         {
-          "id": "cdd9b702-f386-4773-9701-c240a067cd14",
-          "name": "0cc85142",
-          "description": {
-            "en": "Don't wake up and get high, we haven't debugged yet, we haven't debugged~",
-            "ja": "起きてハッスルするなよ、デバッグ完了してないから、デバッグ完了してないから~",
-            "zh": "不要睡起來嗨吧，還沒Debug呢，還沒Debug～"
-          },
-          "path": "discord/0cc85142.ogg",
-          "url": ""
-        },
-        {
           "id": "299ab933-edb9-4302-8bdf-c4347457ff1a",
           "name": "eebd2e2f",
           "description": {
@@ -961,6 +972,17 @@
             "zh": "快點睡覺，快快睡～快快睡～快快睡～快快睡～快快睡～"
           },
           "path": "discord/eebd2e2f.ogg",
+          "url": ""
+        },
+        {
+          "id": "0c097c73-d694-47d8-ae4b-92c09e678e7f",
+          "name": "29825a77",
+          "description": {
+            "en": "Oh? You said there's no sound? Because he's in the ground~ (No.3)",
+            "ja": "ああ?あなたが音がないって言ったの?彼は土の中にいるからだよ～ (No.3)",
+            "zh": ".........哦？你說怎麼沒有聲音？因為他在土裡～ (三號)"
+          },
+          "path": "discord/29825a77.ogg",
           "url": ""
         },
         {
@@ -997,17 +1019,6 @@
           "url": ""
         },
         {
-          "id": "99670f3a-08b7-461c-96d0-92b63304ac56",
-          "name": "763ee63f",
-          "description": {
-            "en": "How come there's such a nice body and nice butt",
-            "ja": "どうしてあんなにいい体とお尻があるんだろ",
-            "zh": "怎麼有那麼香的Nice body跟Nice Butt阿"
-          },
-          "path": "discord/763ee63f.ogg",
-          "url": ""
-        },
-        {
           "id": "a71471b4-a8d0-403a-b6fc-76f8f8f8ac64",
           "name": "a6eac701",
           "description": {
@@ -1030,14 +1041,14 @@
           "url": ""
         },
         {
-          "id": "0c097c73-d694-47d8-ae4b-92c09e678e7f",
-          "name": "29825a77",
+          "id": "da36f9c3-11ae-4c25-8d24-637646300194",
+          "name": "912c801c",
           "description": {
-            "en": "Oh? You said there's no sound? Because he's in the ground~ (No.3)",
-            "ja": "ああ?あなたが音がないって言ったの?彼は土の中にいるからだよ～ (No.3)",
-            "zh": ".........哦？你說怎麼沒有聲音？因為他在土裡～ (三號)"
+            "en": "1 million 2 million 3 million 4 million 5 million 6 million 7 million 8 million 9 million Wow~",
+            "ja": "100万 200万 300万 400万 500万 600万 700万 800万 900万 わーい～",
+            "zh": "100萬 200萬 300萬 400萬 500萬 600萬 700萬 800萬 900萬 哇呼依～"
           },
-          "path": "discord/29825a77.ogg",
+          "path": "discord/912c801c.ogg",
           "url": ""
         },
         {
@@ -1049,17 +1060,6 @@
             "zh": "阿巴阿巴阿巴阿巴阿巴阿巴，阿巴巴阿巴，阿巴，阿巴，阿巴，阿巴，阿巴"
           },
           "path": "discord/872b96d6.ogg",
-          "url": ""
-        },
-        {
-          "id": "da36f9c3-11ae-4c25-8d24-637646300194",
-          "name": "912c801c",
-          "description": {
-            "en": "1 million 2 million 3 million 4 million 5 million 6 million 7 million 8 million 9 million Wow~",
-            "ja": "100万 200万 300万 400万 500万 600万 700万 800万 900万 わーい～",
-            "zh": "100萬 200萬 300萬 400萬 500萬 600萬 700萬 800萬 900萬 哇呼依～"
-          },
-          "path": "discord/912c801c.ogg",
           "url": ""
         },
         {
