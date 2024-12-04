@@ -1,0 +1,53 @@
+{
+  "name": "灰妲語音按鈕收藏集",
+  "short_name": "灰妲語音",
+  "description": "歡迎來到灰妲粉絲專頁！這裡收錄了灰妲的各種經典語音與獨特叫聲，讓粉絲可以隨時點擊按鈕播放，體驗她的魅力與個性。",
+  "icons": [
+    {
+      "src": "/_nuxt/icons/icon_64x64.0ba682.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_120x120.0ba682.png",
+      "sizes": "120x120",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_144x144.0ba682.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_152x152.0ba682.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_192x192.0ba682.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_384x384.0ba682.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/_nuxt/icons/icon_512x512.0ba682.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/?standalone=true",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "lang": "zh-TW"
+}

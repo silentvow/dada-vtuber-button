@@ -1,0 +1,40 @@
+# robots.txt for Nuxt 2 Application
+
+# Allow all crawlers full access to the site
+User-agent: *
+Allow: /
+
+# Sitemap location (replace with your actual sitemap URL)
+Sitemap: https://dada-vtuber-button.vercel.app/sitemap.xml
+
+# Prevent crawling of sensitive or duplicate content directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /backend/
+Disallow: /api/
+Disallow: /wp-admin/
+
+# Rate limiting for crawlers to be respectful
+Crawl-delay: 10
+
+# Specific crawler rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Block specific directories for specific crawlers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+# Example of blocking certain file types
+Disallow: /*?*
+Disallow: /*.pdf$
+Disallow: /*.zip$
