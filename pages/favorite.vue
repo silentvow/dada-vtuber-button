@@ -60,7 +60,7 @@
     <v-flex xs12 sm8 md6>
       <!-- 对每个按钮组生成一个Card -->
       <v-card v-for="group in groups" :key="group.name">
-        <v-card-title class="headline" :class="dark_text">
+        <v-card-title class="headline font-weight-bold" :class="dark_text">
           {{ group.group_description[current_locale] }}
         </v-card-title>
         <v-card-text class="button-container">

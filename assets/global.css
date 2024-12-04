@@ -20,6 +20,30 @@
   0px 0px 10px rgba(255, 255, 255, 0.04) !important; /* 高亮環境光 */
 }
 
+.v-application .v-card.theme--light {
+  background-color: #FFFFFF;
+}
+
+.v-application .v-card.theme--light:nth-child(even) {
+  background-color: #FFEDEE;
+}
+
+.v-application .v-card .v-card.theme--light {
+  background-color: #FFEDEE;
+}
+
+.v-application .v-card.theme--dark {
+  background-color: #1E1E1E;
+}
+
+.v-application .v-card.theme--dark:nth-child(even) {
+  background-color: #3A1212;
+}
+
+.v-application .v-card .v-card.theme--dark {
+  background-color: #3A1212;
+}
+
 .button-container {
   display: flex;
   flex-wrap: wrap;

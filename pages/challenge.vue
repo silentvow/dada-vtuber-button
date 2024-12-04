@@ -2,14 +2,14 @@
   <v-layout column justify-center align-stretch app>
     <v-flex v-if="show_main" xs12 sm8 md6>
       <v-card class="mx-auto">
-        <v-card-title class="headline">{{ $t('site.challenge') }}</v-card-title>
+        <v-card-title class="headline font-weight-bold">{{ $t('site.challenge') }}</v-card-title>
         <v-card-subtitle class="subtitle-1">{{ $t('challenge.description') }}</v-card-subtitle>
 
         <v-card-text>
           <v-row>
             <v-col cols="12" sm="5" offset-sm="1">
               <v-card :elevation="4">
-                <v-card-title class="headline">{{ $t('challenge.level_normal') }}</v-card-title>
+                <v-card-title class="headline font-weight-bold">{{ $t('challenge.level_normal') }}</v-card-title>
                 <v-card-text class="subtitle-1">{{ $t('challenge.level_normal_desc') }}</v-card-text>
                 <v-card-text>
                   <v-btn block x-large color="success" @click="startNormalLevel">
@@ -20,7 +20,7 @@
             </v-col>
             <v-col cols="12" sm="5" offset-sm="0">
               <v-card :elevation="4">
-                <v-card-title class="headline">{{ $t('challenge.level_hard') }}</v-card-title>
+                <v-card-title class="headline font-weight-bold">{{ $t('challenge.level_hard') }}</v-card-title>
                 <v-card-text class="subtitle-1">{{ $t('challenge.level_hard_desc') }}</v-card-text>
                 <v-card-text>
                   <v-btn block x-large color="primary" @click="startNormalLevel">
@@ -36,7 +36,7 @@
 
     <v-flex v-if="show_result" xs12 sm8 md6>
       <v-card class="mx-auto">
-        <v-card-title class="headline">
+        <v-card-title class="headline font-weight-bold">
           {{ $t('challenge.result') }}：{{ $t(level === 'normal' ? 'challenge.level_normal' : 'challenge.level_hard') }}
         </v-card-title>
         <v-card-subtitle class="subtitle-1">{{ $t('challenge.result_desc') }}</v-card-subtitle>
@@ -52,7 +52,7 @@
       </v-card>
 
       <v-card v-for="(question, index) in questions" :key="question.id">
-        <v-card-title class="headline">
+        <v-card-title class="headline font-weight-bold">
           {{ $t('challenge.question_no', { no: index + 1, points: index >= 10 ? 8 : 6 }) }}
         </v-card-title>
         <v-card-subtitle class="subtitle-1">{{ $t(`challenge.${question.type}`) }}</v-card-subtitle>
@@ -152,7 +152,7 @@
 
     <v-flex v-if="show_questions" xs12 sm8 md6>
       <v-card v-for="(question, index) in questions" :key="question.id">
-        <v-card-title class="headline">
+        <v-card-title class="headline font-weight-bold">
           {{ $t('challenge.question_no', { no: index + 1, points: index >= 10 ? 8 : 6 }) }}
         </v-card-title>
         <v-card-subtitle class="subtitle-1">{{ $t(`challenge.${question.type}`) }}</v-card-subtitle>

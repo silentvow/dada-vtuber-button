@@ -2,7 +2,7 @@
   <v-layout column justify-center align-center app>
     <v-flex xs12 sm8 md6 style="min-width: 100%">
       <v-card class="mx-auto" outlined>
-        <v-card-title class="headline mb-4">{{ $t('member.member_area') }}</v-card-title>
+        <v-card-title class="headline font-weight-bold mb-4">{{ $t('member.member_area') }}</v-card-title>
 
         <v-card-text v-if="loading" class="d-flex flex-column align-center">
           <v-progress-circular indeterminate color="primary"></v-progress-circular>
@@ -69,7 +69,7 @@
     <v-flex v-if="isAuthorized" xs12 sm8 md6 style="min-width: 100%">
       <!-- 对每个按钮组生成一个Card -->
       <v-card v-for="group in groups" :key="group.name">
-        <v-card-title class="headline text--primary">
+        <v-card-title class="headline font-weight-bold text--primary">
           {{ group.group_description[current_locale] }}
         </v-card-title>
         <v-card-text class="button-container">
