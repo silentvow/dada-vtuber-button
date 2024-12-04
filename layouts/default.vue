@@ -90,10 +90,7 @@
         <v-img
           alt="i-m-female-vtuber"
           style="width: 100%; height: auto"
-          :src="optimizedWomanSrc"
-          :lazy-src="lazyWomanSrc"
-          :srcset="womanSrcset.srcset"
-          :sizes="womanSrcset.sizes"
+          src="/img/woman.png"
         />
       </template>
     </v-navigation-drawer>
@@ -365,30 +362,6 @@ export default {
           format: 'webp',
           quality: 70,
           height: 360
-        }
-      });
-    },
-    optimizedWomanSrc() {
-      return this.$img('/img/woman.png', {
-        width: 256,
-        format: 'webp',
-        quality: 75
-      });
-    },
-    lazyWomanSrc() {
-      return this.$img('/img/woman.png', {
-        width: 10,
-        format: 'webp',
-        quality: 70
-      });
-    },
-    womanSrcset() {
-      return this.$img.getSizes('/img/woman.png', {
-        sizes: 'xs:100vw sm:100vw md:100vw lg:100vw xl:100vw',
-        modifiers: {
-          width: 256,
-          format: 'webp',
-          quality: 70
         }
       });
     },
