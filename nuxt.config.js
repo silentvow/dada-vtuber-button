@@ -9,9 +9,6 @@ export default {
     port: 3000, // default: 3000
     host: 'localhost' // default: localhost
   },
-  router: {
-    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/dada-vtuber-button/' : '/'
-  },
   /*
    ** Headers of the page
    */
