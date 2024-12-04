@@ -31,7 +31,7 @@
           </v-list-item-content>
         </v-list-item>
         -->
-        <v-list-item dense to="/favorite" router exact>
+        <!-- <v-list-item dense to="/favorite" router exact>
           <v-list-item-action>
             <v-icon>{{ icons.heart }}</v-icon>
           </v-list-item-action>
@@ -46,7 +46,7 @@
           <v-list-item-content>
             <v-list-item-title>{{ $t('site.challenge') }}</v-list-item-title>
           </v-list-item-content>
-        </v-list-item>
+        </v-list-item> -->
         <v-list-item dense to="/feedback" router exact>
           <v-list-item-action>
             <v-icon>{{ icons.msg_question }}</v-icon>
@@ -55,14 +55,14 @@
             <v-list-item-title>{{ $t('site.feedback') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item dense to="/member" router exact>
+        <!-- <v-list-item dense to="/member" router exact>
           <v-list-item-action>
             <v-icon>{{ icons.account_group }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>{{ $t('member.member_area') }}</v-list-item-title>
           </v-list-item-content>
-        </v-list-item>
+        </v-list-item> -->
       </v-list>
       <v-divider />
 
@@ -156,7 +156,7 @@
     </v-app-bar>
     <v-main>
       <v-container class="page">
-        <v-img
+        <!-- <v-img
           class="rounded"
           max-height="360"
           alt="banner"
@@ -164,7 +164,7 @@
           :lazy-src="lazyBannerSrc"
           :srcset="bannerSrcset.srcset"
           :sizes="bannerSrcset.sizes"
-        />
+        /> -->
         <nuxt />
         <v-snackbar v-model="snackbarVisible" :timeout="2000" :elevation="6" top color="success">
           {{ snackbarMessage }}
