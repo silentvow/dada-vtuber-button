@@ -285,6 +285,17 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "337beb8a-a642-4812-8fea-00bf509dc79c",
+          "name": "ni-yo-bin-o",
+          "description": {
+            "en": "Are you sick?",
+            "ja": "具合が悪いの？",
+            "zh": "你有病噢"
+          },
+          "path": "gap-moe/ni-yo-bin-o.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
           "id": "7c250200-01f5-4a10-9b0b-8c767a79e604",
           "name": "oh-my-mom",
           "description": {
@@ -1066,6 +1077,17 @@
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
+          "id": "9d141051-f69f-4d43-9e08-58053f89364a",
+          "name": "sho-gan-ba",
+          "description": {
+            "en": "Let's fuck right now",
+            "ja": "今すぐファックしよう",
+            "zh": "修幹吧現在就修幹吧"
+          },
+          "path": "gap-moe/sho-gan-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
           "id": "82d7c519-5568-4f7a-81ac-d52df7da4e2a",
           "name": "miska-moska",
           "description": {
@@ -1077,6 +1099,17 @@
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
+          "id": "a52ec862-6f82-4d34-80d4-ad204e957d01",
+          "name": "ji-her-chan-ji-her",
+          "description": {
+            "en": "Immediately gather, gather, damn it, I'll fuck you so hard you can't get up",
+            "ja": "すぐに集合、集合、くそ、あなたを立ち上がれないほど犯してやる",
+            "zh": "立刻連集合場集合媽的馬上操到你起不來阿"
+          },
+          "path": "gap-moe/ji-her-chan-ji-her.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
           "id": "2e42e601-5abd-4b49-9a18-6d1633f2d71d",
           "name": "don-liu-don-don",
           "description": {
@@ -1086,6 +1119,17 @@
           },
           "path": "valentine-lyrics/don-liu-don-don.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "4ee40b6f-0cf5-4497-8005-38d6d7ec1c5a",
+          "name": "nene-bu-gi-zan",
+          "description": {
+            "en": "Neenee supply station~ I'll eat more Neenee supply station in the future, I can also grow Neenee",
+            "ja": "ねーねー補給所〜、今後もっとねーねー補給所を食べるよ、ねーねーも大きくなれる",
+            "zh": "ㄋㄟㄋㄟ補給站～我以後多吃ㄋㄟㄋㄟ補給站我也可以長ㄋㄟㄋㄟ"
+          },
+          "path": "gap-moe/nene-bu-gi-zan.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
           "id": "584e772b-68ba-4551-a677-cef8834468cf",
@@ -1176,6 +1220,17 @@
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
+          "id": "137f66a2-1793-4b5c-8c8b-686f36800cd4",
+          "name": "mina-chi-ts-fan",
+          "description": {
+            "en": "Mina~ I'm going to eat~",
+            "ja": "みな〜、ご飯に行くよ〜",
+            "zh": "咪拿～我要去吃飯囉～"
+          },
+          "path": "gap-moe/mina-chi-ts-fan.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
           "id": "7097267d-5acd-4dc5-86f2-b78e5186275a",
           "name": "chin-ren-jie-kua-ler",
           "description": {
@@ -1242,6 +1297,17 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "0425fab1-bcb4-44f8-a481-c37b3d857ea6",
+          "name": "wo-shian-yao-na-ger",
+          "description": {
+            "en": "I want that thing, I wonder if I can... Don't make me say these things",
+            "ja": "あの物が欲しい、できるかな...そういうことは言わないで",
+            "zh": "我想要那個不知道可不可以呢這種這種事不要讓我說阿"
+          },
+          "path": "gap-moe/wo-shian-yao-na-ger.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
           "id": "3e1247d6-f736-4a6e-822a-82a598f59e5c",
           "name": "wu-lun-ni-za",
           "description": {
@@ -1273,6 +1339,17 @@
           },
           "path": "valentine-lyrics-2/chi-tsua-la-g-tue-ban.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "d50d8e51-98a5-493f-aaa4-a7a5faa9c3ca",
+          "name": "roommate-dun-zo",
+          "description": {
+            "en": "My dear roommate, this is the stewed meat I made myself. I hope you can try it. I hope you'll like it, even though it might be a bit of a failure. But still, I hope... even if you don't eat it, it's okay. Can you try a bite? Please? I can eat it myself too. Just a little taste, okay?",
+            "ja": "親愛なるルームメート、これは私が手作りの煮込み肉。試してみてほしい。少し失敗しているかもしれないけど、気に入ってほしい。でも、でも、でも、試してほしい。食べなくてもいいけど、一口だけ食べてみてくれない？お願い！私も自分で食べるけど、一口だけ試してみてもいい？",
+            "zh": "我親愛的室友這個是我親手做的那個燉肉希望你可以就是可以嘗嘗看我所做的這個燉肉希望你會喜歡雖然他有點有點失敗但是但是但是還是希望嗯就算不吃也沒有關係可以吃一下嗎拜託了但我自己吃也沒關係啦嘗一口就嘗一口好嗎"
+          },
+          "path": "gap-moe/roommate-dun-zo.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         }
       ]
     },
@@ -2122,6 +2199,17 @@
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
+          "id": "ba4046d3-7777-4a5a-a182-63e06de10426",
+          "name": "weird-miao4",
+          "description": {
+            "en": "Meow meow~ Meow~",
+            "ja": "にゃーにゃー〜 にゃー〜",
+            "zh": "喵喵喵～喵～"
+          },
+          "path": "gap-moe/weird-miao4.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
           "id": "bc4ff100-772f-4fb0-a5d0-682f33629e7e",
           "name": "du-jiao-shou-jiao",
           "description": {
@@ -2197,6 +2285,17 @@
           },
           "path": "find-lover-guide/jo-tian-hsuan-nu.mp3",
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "3207e5e2-de15-4c47-b622-84b5d1e6df11",
+          "name": "miao8",
+          "description": {
+            "en": "Meow meow meow meow~ Meow meow meow meow~",
+            "ja": "にゃーにゃー にゃー にゃーにゃー",
+            "zh": "喵喵喵喵～喵喵喵喵～"
+          },
+          "path": "gap-moe/miao8.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
           "id": "146cc758-97a0-4684-88fd-e7c446c64d3a",
@@ -2307,6 +2406,17 @@
           },
           "path": "valentine-lyrics-2/yoda-nian-ni.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "063cdf4b-3ffa-449d-b16b-7e7a54b00847",
+          "name": "song-night-attack",
+          "description": {
+            "en": "Night raid",
+            "ja": "夜襲",
+            "zh": "夜襲"
+          },
+          "path": "gap-moe/song-night-attack.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
           "id": "62e4fc7a-2f08-430f-a866-8fc58c6d53ea",
@@ -2551,6 +2661,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "8d63f2a9-95ba-45a6-ba66-58abf8eb6d5a",
+          "name": "yoda-da-jia-hao-a",
+          "description": {
+            "en": "Hello everyone",
+            "ja": "こんにちは、みんな",
+            "zh": "大家好哇"
+          },
+          "path": "gap-moe/yoda-da-jia-hao-a.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
           "id": "b52c4435-c5c7-4e66-a5cd-81494ee71b39",
           "name": "mihumisang",
           "description": {
@@ -2637,6 +2758,28 @@
           },
           "path": "yoda-new-clothes/shi-ba-ba.mp3",
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
+          "id": "5a512ef8-0797-4918-88ba-7a73ea5afd12",
+          "name": "yoda-sleep-bye-bye",
+          "description": {
+            "en": "Okay, I'm going to sleep now, bye-bye~ Bye-bye~",
+            "ja": "よし、寝るね、またね〜さようなら〜",
+            "zh": "好了那我要去睡覺了掰掰～掰掰～"
+          },
+          "path": "gap-moe/yoda-sleep-bye-bye.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
+          "id": "7af0b13b-8a93-4c33-ad96-b471aa8d1c9f",
+          "name": "yoda-shiao-shi-ho",
+          "description": {
+            "en": "Let me introduce myself, I'm Relive's first-generation gray parrot VTuber, Gray Dada's childhood",
+            "ja": "自己紹介するね、私はReliveの1期生のグレーオウムVTuber、グレーダの幼少期",
+            "zh": "自我介紹一下那個我是Relive一期生灰鸚鵡Vtuber灰妲的小時候"
+          },
+          "path": "gap-moe/yoda-shiao-shi-ho.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         }
       ]
     },
@@ -2703,6 +2846,17 @@
           },
           "path": "halloween-2022/yoda-moe-moe-chu.mp3",
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "3167c8ba-c259-4118-8daa-178d675c75db",
+          "name": "yoda-miao3",
+          "description": {
+            "en": "Meow~ Meow~ Meow~",
+            "ja": "にゃー にゃー にゃー",
+            "zh": "喵～喵～喵～"
+          },
+          "path": "gap-moe/yoda-miao3.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
           "id": "bca785e9-36ab-4b35-a83c-962ea8ce73e1",
@@ -3475,6 +3629,17 @@
       },
       "voice_list": [
         {
+          "id": "2af21b52-171d-4448-abff-fa11460821e1",
+          "name": "yoda-stella",
+          "description": {
+            "en": "Stella!",
+            "ja": "ステラ！",
+            "zh": "Stella!"
+          },
+          "path": "gap-moe/yoda-stella.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
           "id": "ee0d312a-f676-4f1b-9e4e-900b1856589e",
           "name": "yoda-arrrr",
           "description": {
@@ -3541,6 +3706,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "5544cc2f-c265-4dcd-a4a1-2dba6893af9d",
+          "name": "yoda-subscribe-channel",
+          "description": {
+            "en": "Can you subscribe to this channel?",
+            "ja": "このチャンネル、登録してくれる？",
+            "zh": "你們可以訂閱一下這個頻道嗎"
+          },
+          "path": "gap-moe/yoda-subscribe-channel.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
           "id": "d26a5608-08e5-419d-9a8b-3422b391edc7",
           "name": "wan-zen-ji-hua",
           "description": {
@@ -3550,6 +3726,17 @@
           },
           "path": "yoda-new-clothes/wan-zen-ji-hua.mp3",
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
+          "id": "74cde809-8e72-496a-a910-e3b2b797fa51",
+          "name": "yoda-tsu-chi-wan",
+          "description": {
+            "en": "Let's go out and play today~ Have fun!",
+            "ja": "今日は一緒に遊びに行こう〜楽しもうね！",
+            "zh": "今天要一起出去玩～要玩得開心喔！"
+          },
+          "path": "gap-moe/yoda-tsu-chi-wan.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
           "id": "43f4303d-13ce-454f-8572-26e21ff88f00",
@@ -4234,6 +4421,17 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "3fb26132-9efe-4959-b7a8-d9ceedd8d326",
+          "name": "shu-lin-kao-gtue",
+          "description": {
+            "en": "This is a roasted chicken leg from Shulin",
+            "ja": "これは樹林からのチキンレッグよ",
+            "zh": "這是一隻來自樹林的烤雞腿"
+          },
+          "path": "gap-moe/shu-lin-kao-gtue.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
           "id": "7d0ede7e-cfd6-4f40-9434-ffbdee28f5b7",
           "name": "ge-wo-g-zuo",
           "description": {
@@ -4278,6 +4476,28 @@
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
+          "id": "556ef4b8-46c0-4e7c-a296-0d47d14d2b23",
+          "name": "bu-yao-kao-jin",
+          "description": {
+            "en": "Don't come near me, you scumbag, still gnawing on a chicken leg, so gross, ugh",
+            "ja": "私に近づくな、クズよ、まだチキンレッグをかじっているなんて、気持ち悪い、ぞっとする",
+            "zh": "不要靠近我你這個敗類還在那邊啃雞腿好噁心喔呸"
+          },
+          "path": "gap-moe/bu-yao-kao-jin.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
+          "id": "0f796e70-536b-4adf-84cc-207a2d0da60b",
+          "name": "parrot-keryi-kao-gtue",
+          "description": {
+            "en": "As a parrot, how could I eat roasted chicken legs? This is absolutely not allowed",
+            "ja": "オウムとして、焼きチキンレッグを食べるなんて。そんなことは絶対にダメだ",
+            "zh": "我身為鸚鵡怎麼可以吃烤雞腿呢這種事是絕對不行的阿"
+          },
+          "path": "gap-moe/parrot-keryi-kao-gtue.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
           "id": "795990d9-8a38-448a-b783-9a5ebc4bc1de",
           "name": "jin-wan-tse-ji-tue",
           "description": {
@@ -4287,6 +4507,17 @@
           },
           "path": "valentine-lyrics-2/jin-wan-tse-ji-tue.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "b161648f-b500-4584-b29d-4c9e5c11007c",
+          "name": "jump-no-chicke-leg",
+          "description": {
+            "en": "I'd rather jump down from here, eat dirt than eat your damn chicken leg, fuck",
+            "ja": "むしろここから飛び降りて、土を食べても、あなたのくそったれのチキンレッグは食べたくない、くそ",
+            "zh": "我寧願從這邊跳下去寧願吃土我也不要吃你他媽的雞腿fuck"
+          },
+          "path": "gap-moe/jump-no-chicke-leg.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
           "id": "d6e13a99-9f01-46e5-9924-fb0f38c7f5a2",
@@ -4663,6 +4894,17 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "db0beba2-d096-4b00-ab25-f70e40bf8e8f",
+          "name": "kao-bay-pi-la",
+          "description": {
+            "en": "Damn it, bullshit",
+            "ja": "くそったれ、くそ",
+            "zh": "靠北屁啦"
+          },
+          "path": "gap-moe/kao-bay-pi-la.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
           "id": "1f32a735-215a-4ed8-a04b-dd630d40685d",
           "name": "chi-ni-der-da-da-mian",
           "description": {
@@ -4815,6 +5057,17 @@
           },
           "path": "news-202405/nu-v-guan-to.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "51c13639-f0c0-47bf-bc73-cc96fdac7733",
+          "name": "chin-chu-vtuber",
+          "description": {
+            "en": "I'm a clear-cut, clear-cut VTuber, okay?",
+            "ja": "私は明確無比、明確無比のVTuberよ、分かる?",
+            "zh": "我是清楚系清楚系Vtuber耶好不好"
+          },
+          "path": "gap-moe/chin-chu-vtuber.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
           "id": "413ebbad-8af1-4aea-89ac-0f04346dde41",
@@ -4991,6 +5244,28 @@
           },
           "path": "on-fire/shi-huan-loli-da-nai.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "id": "9c52c379-da69-4dde-849e-96d640be0353",
+          "name": "loli-yo-zi-yuan",
+          "description": {
+            "en": "Lolicon wants to go to kindergarten, huh? The lolis here are all mine, go away, go away",
+            "ja": "ロリコンは幼稚園に行きたいのか？ここのロリは全部私のもの、去れ、去れ",
+            "zh": "阿蘿莉控還想去幼稚園阿哈這裡的蘿莉都是我的走開啦走開啦"
+          },
+          "path": "gap-moe/loli-yo-zi-yuan.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
+          "id": "52e86329-4eaf-4486-b7a9-999f47c8c8e7",
+          "name": "si-hua-loli-zozo",
+          "description": {
+            "en": "I love Roco's fleshy legs... Loli's fleshy legs... I want to be stepped on... Haa... Haa... Want to be stepped on... So want to be stepped on... Haa.. Haa..",
+            "ja": "ロコのムチムチした脚が好き...ロリの肉々しい脚...踏まれたい...はぁ...はぁ...踏まれたい...踏まれたいよ...はぁ..はぁ..",
+            "zh": "我我好喜歡蘿可那個肉肉的腿喔...蘿莉那個肉肉的腿...好想被踩喔哈...哈...哈...想被踩...好想被踩喔...哈..哈..哈..."
+          },
+          "path": "gap-moe/si-hua-loli-zozo.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         }
       ]
     },
@@ -5807,6 +6082,17 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "796c9e86-034a-46ce-a174-a16988dbb179",
+          "name": "ger-wei-poor",
+          "description": {
+            "en": "The lives of poor people will only get more miserable",
+            "ja": "貧しい人々の生活はますます苦しくなるばかり",
+            "zh": "各位貧窮的人的生活只會越來越苦而已"
+          },
+          "path": "gap-moe/ger-wei-poor.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
           "id": "fbf6c1dd-7bdc-4f81-8afe-267f9cf57ea5",
           "name": "bad-prediction",
           "description": {
@@ -5860,6 +6146,28 @@
           },
           "path": "lazy-against/tsao-ren-li-ba-wan.mp3",
           "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "62072b89-0894-4f77-afd9-3a87274df627",
+          "name": "wo-der-my-love",
+          "description": {
+            "en": "As expected of my my love, oh my love my love 5mmmmm",
+            "ja": "さすがは私のマイラブよ、おー マイラブ マイラブ 5mmmmm",
+            "zh": "真不愧是我的my love呢喔我my love my love 5mmmmm"
+          },
+          "path": "gap-moe/wo-der-my-love.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
+          "id": "b31e54c7-0d75-4e1a-9440-39547888d825",
+          "name": "hua-sin-za",
+          "description": {
+            "en": "If I continue like this, people will say I'm a playboy, you know",
+            "ja": "このまま続けると、みんな私を浮気者だと言うわよ、分かる?",
+            "zh": "我再這樣繼續下去的話人家都要說我是個花心仔你知道嗎"
+          },
+          "path": "gap-moe/hua-sin-za.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
           "id": "427505f6-aac6-4d8e-a86b-5ce1555849e7",
