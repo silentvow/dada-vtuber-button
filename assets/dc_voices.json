@@ -253,15 +253,16 @@
           "url": ""
         },
         {
-          "id": "42375225-416e-491f-804c-f18c33b7e857",
-          "name": "4c4086e4",
+          "id": "0b4accc8-61de-45f9-bb51-248a76ef11e9",
+          "name": "4c541ee7",
           "description": {
             "en": "Go to hell with your dan dan noodles",
             "ja": "担担麺なんて、うんざりだな",
             "zh": "去你的擔擔麵"
           },
-          "path": "discord/4c4086e4.ogg",
-          "url": ""
+          "path": "discord/4c541ee7.ogg",
+          "url": "",
+          "TBD": true
         },
         {
           "id": "d193fdf1-7d45-4089-9d6f-88433d700da1",
@@ -545,18 +546,6 @@
           "url": ""
         },
         {
-          "id": "388fb489-4432-45f6-bf50-b7e64dbc49c0",
-          "name": "d7240500",
-          "description": {
-            "en": "Don't Spicy Taki anymore",
-            "ja": "スパイシーたこ焼きは止めて",
-            "zh": "不要再Spicy Taki了"
-          },
-          "path": "discord/d7240500.ogg",
-          "url": "",
-          "TBD": true
-        },
-        {
           "id": "d22a3e14-884e-416a-aed4-feea770e5ee5",
           "name": "7bee0172",
           "description": {
@@ -569,16 +558,15 @@
           "TBD": true
         },
         {
-          "id": "0b4accc8-61de-45f9-bb51-248a76ef11e9",
-          "name": "4c541ee7",
+          "id": "42375225-416e-491f-804c-f18c33b7e857",
+          "name": "4c4086e4",
           "description": {
             "en": "Please~ Please~",
             "ja": "お願いよお願いよ",
             "zh": "拜託惹～拜託你惹～"
           },
-          "path": "discord/4c541ee7.ogg",
-          "url": "",
-          "TBD": true
+          "path": "discord/4c4086e4.ogg",
+          "url": ""
         },
         {
           "id": "b5ac09c5-6b97-4de4-9cce-7d9bd071c22e",
@@ -1115,6 +1103,17 @@
             "zh": "你你知道嗎，這是我在幫阿鼠做他的夢天堂文宣的時候，因為那個時候我閒閒沒事做我就幫忙做了一下，可是我覺得在做的途中有一種深深的罪惡感我不知道你怎麼想"
           },
           "path": "discord/c32badbb.ogg",
+          "url": ""
+        },
+        {
+          "id": "388fb489-4432-45f6-bf50-b7e64dbc49c0",
+          "name": "d7240500",
+          "description": {
+            "en": "Don't Spicy Taki anymore",
+            "ja": "スパイシーたこ焼きは止めて",
+            "zh": "不要再Spicy Taki了噢我第三棒已經聽了一整路的Spicy Taki整整兩個小時然後在今天的魯波台又一整路都是Spicy Taki恁娘到底有多少的Spicy Taki到底有多少人會用那個驗證碼"
+          },
+          "path": "discord/d7240500.ogg",
           "url": ""
         },
         {
