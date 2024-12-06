@@ -198,6 +198,17 @@
           "url": ""
         },
         {
+          "id": "00d50829-f507-4497-bcd9-e587140e8c0d",
+          "name": "hao-le-o",
+          "description": {
+            "en": "好累喔哇～",
+            "ja": "好累喔哇～",
+            "zh": "好累喔哇～"
+          },
+          "path": "discord/hao-le-o.ogg",
+          "url": ""
+        },
+        {
           "id": "1333df48-c983-4ff1-816c-782a1cd32322",
           "name": "0c88fcd5",
           "description": {
@@ -261,6 +272,17 @@
             "zh": "哇馬母災影～"
           },
           "path": "discord/410306a7.ogg",
+          "url": ""
+        },
+        {
+          "id": "a3ac4526-8606-429d-997d-df51b58e9db5",
+          "name": "sun-pi-gu",
+          "description": {
+            "en": "太陽曬屁股啦",
+            "ja": "太陽曬屁股啦",
+            "zh": "太陽曬屁股啦"
+          },
+          "path": "discord/sun-pi-gu.ogg",
           "url": ""
         },
         {
@@ -646,6 +668,17 @@
             "zh": "阿罵哩到底細咧公蝦毀～"
           },
           "path": "discord/775222e7.ogg",
+          "url": ""
+        },
+        {
+          "id": "7adc43b8-52d5-469f-b9c4-cc772d78a16e",
+          "name": "hao-ba",
+          "description": {
+            "en": "好吧那我繼續睡了晚安掰掰",
+            "ja": "好吧那我繼續睡了晚安掰掰",
+            "zh": "好吧那我繼續睡了晚安掰掰"
+          },
+          "path": "discord/hao-ba.ogg",
           "url": ""
         },
         {
