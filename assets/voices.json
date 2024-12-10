@@ -219,6 +219,28 @@
       },
       "voice_list": [
         {
+          "id": "547bc727-aeca-4ede-ab18-a0a2243e54a7",
+          "name": "gan-ba-de-ne",
+          "description": {
+            "en": "Ganbadei",
+            "ja": "がんばって",
+            "zh": "甘巴爹捏"
+          },
+          "path": "full-endorsement/gan-ba-de-ne.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
+          "id": "6d65b1d0-9e41-49c9-8850-22a8e700dc8d",
+          "name": "tsen-bang-tsen-bang",
+          "description": {
+            "en": "So great, so great",
+            "ja": "すごい、すごい",
+            "zh": "真棒真棒"
+          },
+          "path": "full-endorsement/tsen-bang-tsen-bang.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
           "id": "c3ed0c2f-5f28-4d49-a0d8-e1d6d69cd9a5",
           "name": "ni-hao-hue-o",
           "description": {
@@ -239,6 +261,83 @@
           },
           "path": "yandere-lyrics/very-good-right.mp3",
           "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "dea6fc19-2c7a-4424-9770-5a458e0a69d0",
+          "name": "yidin-bian-hen-hao",
+          "description": {
+            "en": "You can definitely become better",
+            "ja": "絶対に良くなれる",
+            "zh": "你一定可以可以變得很好的"
+          },
+          "path": "full-endorsement/yidin-bian-hen-hao.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
+          "id": "e2ea2bb4-3567-477c-938f-1b8a3d4aaf5b",
+          "name": "hao-di-lau-ye",
+          "description": {
+            "en": "Yes, my lord, whatever you say is right",
+            "ja": "はい、旦那様、おっしゃることはすべて正しいです",
+            "zh": "好的老爺您說什麼都是對的"
+          },
+          "path": "full-endorsement/hao-di-lau-ye.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
+          "id": "79eaf311-0abc-4962-a060-993fc5b06750",
+          "name": "tsan-lan-shiao-zon",
+          "description": {
+            "en": "Here's the most brilliant smile! La la~",
+            "ja": "最高に輝く笑顔をあなたに！ラ・ラ〜",
+            "zh": "給你最燦爛的笑容！啦啦～"
+          },
+          "path": "full-endorsement/tsan-lan-shiao-zon.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
+          "id": "470d673a-ca20-46ad-a897-976bf1f049fc",
+          "name": "today-love-you",
+          "description": {
+            "en": "I like you! I really like you today! I super like you today!",
+            "ja": "好き！今日好き！今日超好き！",
+            "zh": "喜歡！今天喜歡你！今天超喜歡你的！"
+          },
+          "path": "full-endorsement/today-love-you.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
+          "id": "86adbab5-9e0a-4387-acee-0cef3c1aa200",
+          "name": "me4der-ni-hen-bang",
+          "description": {
+            "en": "It's nothing, I think you're really great! Hug! Hug~",
+            "ja": "大丈夫よ、あなたは本当に素晴らしいと思う！抱っこ！抱っこ〜",
+            "zh": "沒事的我覺得你真的很棒！抱抱！抱抱～"
+          },
+          "path": "full-endorsement/me4der-ni-hen-bang.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
+          "id": "2d17d648-ad17-4269-be22-e3a6cef327cc",
+          "name": "tse-zi-jo-due-ler",
+          "description": {
+            "en": "Quit your job! You deserve better! Quit! Quitting is the right choice!",
+            "ja": "退職！あなたはもっと良いものに値する！退職！退職するのが正解！",
+            "zh": "辭職！你值得更好的！辭職！辭職就對了！"
+          },
+          "path": "full-endorsement/tse-zi-jo-due-ler.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
+          "id": "dc5c526b-884b-4f96-90b4-5d88dc36ecb0",
+          "name": "yao-yan-der-dian",
+          "description": {
+            "en": "Everyone has their own brilliant point, you know. Everyone has their own shining moment",
+            "ja": "みんな自分の輝く瞬間を持っているんだよ、分かる？誰もが自分の輝く瞬間を持っている",
+            "zh": "每個人都有屬於自己耀眼的點你知道嗎大家都有屬於自己耀眼的點"
+          },
+          "path": "full-endorsement/yao-yan-der-dian.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
         }
       ]
     },
@@ -1055,6 +1154,28 @@
       },
       "voice_list": [
         {
+          "id": "6584f4cf-49c9-4cfc-9dcc-e13edb6d382e",
+          "name": "lai-dian-da-ling",
+          "description": {
+            "en": "Incoming Call Daling -1",
+            "ja": "着信 ダーリン -1",
+            "zh": "來電妲鈴-1"
+          },
+          "path": "full-endorsement/lai-dian-da-ling.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
+          "id": "37895ff3-06b1-4bdb-9f5e-8e8ed0220538",
+          "name": "lai-dian-da-ling-2",
+          "description": {
+            "en": "Incoming Call Daling -2",
+            "ja": "着信 ダーリン -2",
+            "zh": "來電妲鈴-2"
+          },
+          "path": "full-endorsement/lai-dian-da-ling-2.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
           "id": "526815fb-c129-4edb-ab18-e71d1611fb41",
           "name": "fly-universe",
           "description": {
@@ -1110,6 +1231,17 @@
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
+          "id": "8689b2bd-bcf6-4d9a-82f8-61f142232aad",
+          "name": "dudu-chi-chan",
+          "description": {
+            "en": "Beep beep beep beep beep~ Beep beep! Isn't it time to wake up?",
+            "ja": "ビーッ ビーッ ビーッ ビーッ ビーッ〜ビーッ ビーッ！もう起きる時間じゃない？",
+            "zh": "嘟嘟嘟嘟嘟～嘟嘟！該起床了吧！"
+          },
+          "path": "full-endorsement/dudu-chi-chan.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
           "id": "a52ec862-6f82-4d34-80d4-ad204e957d01",
           "name": "ji-her-chan-ji-her",
           "description": {
@@ -1163,6 +1295,28 @@
           },
           "path": "valentine-lyrics/guo-shi-wu-shuan.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "5d981422-732f-4d84-8fde-6322f7bb86c3",
+          "name": "kuai-chi-chan",
+          "description": {
+            "en": "Wake up! Are you awake? Haven't woken up yet? What are you joking about! Get up quickly, get up, hurry up, hurry up!",
+            "ja": "起きて！起きたか？まだ起きていない？何冗談言ってんだ！さっさと起きろ、起きろ、急げ、急げ！",
+            "zh": "起床了吧！起來了沒有啊！還沒起來？開什麼玩笑啊！快起床啊快起床快點快點！"
+          },
+          "path": "full-endorsement/kuai-chi-chan.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
+          "id": "a632ddba-a3ff-49dc-b8e7-add2f84b011d",
+          "name": "chi-fan-si-zao-tian-lin",
+          "description": {
+            "en": "You're back~ Are you going to eat first, take a bath first, or have your crown twisted open ㄍㄨㄞㄍㄨㄞ style first?",
+            "ja": "お帰りなさい〜ご飯を先に食べますか〜お風呂を先に浴びますか〜それとも天頂をㄍㄨㄞㄍㄨㄞと開けられたいですか〜",
+            "zh": "你回來啦～你是要先吃飯～還是先洗澡～還是想要先被天靈蓋ㄍㄨㄞㄍㄨㄞ地擰開來呢～"
+          },
+          "path": "full-endorsement/chi-fan-si-zao-tian-lin.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
         },
         {
           "id": "f0ad86b8-d3e9-47eb-82bd-5dd0bea64337",
@@ -2010,6 +2164,17 @@
           },
           "path": "find-lover-guide/hahaha-12.mp3",
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "4cbbeeaf-a858-4f8e-b68f-f538b80a11eb",
+          "name": "hahaha-13",
+          "description": {
+            "en": "Loud Laughter -13",
+            "ja": "大笑声 -13",
+            "zh": "大笑聲-13"
+          },
+          "path": "full-endorsement/hahaha-13.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
         }
       ]
     },
@@ -2285,6 +2450,28 @@
           },
           "path": "on-fire/ke-ke-wu.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "id": "188588a3-72ff-485a-a265-0e3962d185d7",
+          "name": "pan-din-song",
+          "description": {
+            "en": "Pudding Song",
+            "ja": "プリンの歌",
+            "zh": "胖丁之歌"
+          },
+          "path": "full-endorsement/pan-din-song.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
+          "id": "1f2976af-1434-40a2-b8f0-b0f39f1e4068",
+          "name": "gu-lu-lin-bo",
+          "description": {
+            "en": "Gururu Nami~",
+            "ja": "ぐるるなみー",
+            "zh": "咕嚕靈波～"
+          },
+          "path": "full-endorsement/gu-lu-lin-bo.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
         },
         {
           "id": "6ef30e0a-877b-4d6c-ad36-86b75b4ca7ba",
@@ -4421,6 +4608,17 @@
           "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
         },
         {
+          "id": "42f0ba3a-026d-475b-b8e6-1b7833e9ddf2",
+          "name": "gtue-ban-san-lian",
+          "description": {
+            "en": "Wow, how awesome! Chicken Leg Squad forever!",
+            "ja": "わぁ、すごいね！チキンレッグ隊万歳！",
+            "zh": "哇好棒噢雞腿幫萬歲"
+          },
+          "path": "full-endorsement/gtue-ban-san-lian.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
           "id": "f345cc6e-df03-495f-88dd-aa3dc1699663",
           "name": "join-leg-club",
           "description": {
@@ -4498,6 +4696,17 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "ce25e095-a538-408d-b0f8-c005cf9b4790",
+          "name": "gtue-bang-wai-sue",
+          "description": {
+            "en": "Ah, there's no mistake that the Chicken Leg Squad is the kindest organization in the world",
+            "ja": "間違いなく、チキンレッグ隊は世界一優しい組織だ",
+            "zh": "啊沒有錯雞腿幫是全世界最善良的組織"
+          },
+          "path": "full-endorsement/gtue-bang-wai-sue.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
           "id": "083e4e86-5b23-423f-b950-b8d2bfdf01e7",
           "name": "ter-z-kao-g-tue",
           "description": {
@@ -4507,6 +4716,17 @@
           },
           "path": "valentine-lyrics-2/ter-z-kao-g-tue.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "da77cfda-abee-4066-b95d-7fa97a077119",
+          "name": "gtue-bian-dang-yiyan",
+          "description": {
+            "en": "Chicken leg bento is such a fucking nutritious thing",
+            "ja": "チキン弁当は本当にfuckingとても栄養価の高いものだね",
+            "zh": "雞腿便當什麼就是非常fucking有營養的東西呢"
+          },
+          "path": "full-endorsement/gtue-bian-dang-yiyan.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
         },
         {
           "id": "556ef4b8-46c0-4e7c-a296-0d47d14d2b23",
@@ -5013,6 +5233,17 @@
           },
           "path": "mihoyo-set/ho-yo-ma-yo-tso-na.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "3e7b14af-ba36-4ae7-bcfd-7b095a2595d2",
+          "name": "woe-chiz-shi-vtuber",
+          "description": {
+            "en": "I'm a classy Vtuber with big boingboing",
+            "ja": "私は大きなボインボインを持つ気品あるVTuberです",
+            "zh": "我是氣質系的具有大boingboing的氣質系Vtuber～"
+          },
+          "path": "full-endorsement/woe-chiz-shi-vtuber.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
         },
         {
           "id": "bdbc8bc9-d841-4e95-baf1-392dfa2e70d5",
@@ -6170,6 +6401,17 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "92d7ac83-c95c-49d4-a4c2-4f3f45c14288",
+          "name": "ba-chien-ga-wo",
+          "description": {
+            "en": "Give me the money!",
+            "ja": "お金を出してください！",
+            "zh": "把錢給我拿出來阿！"
+          },
+          "path": "full-endorsement/ba-chien-ga-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
           "id": "e2851f07-0443-40f9-a769-f3f56bcc0c0c",
           "name": "bu-yao-gamble",
           "description": {
@@ -6245,6 +6487,17 @@
           },
           "path": "find-lover-guide/me-yo-la-jen4-der.mp3",
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "f1bf0be5-412f-4c84-b804-da249f12531a",
+          "name": "88-tian-lin-ga",
+          "description": {
+            "en": "You are the 88th crown of my head that I'm twisting open today",
+            "ja": "今日、私が開けようとしている88個目の天頂です",
+            "zh": "你是我今天擰開的第88個天靈蓋"
+          },
+          "path": "full-endorsement/88-tian-lin-ga.mp3",
+          "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
         },
         {
           "id": "5a64f0fa-d512-415d-88da-b68f887a7798",
