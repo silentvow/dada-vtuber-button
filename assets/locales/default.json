@@ -90,6 +90,11 @@
         "icon": "/img/plurk-fill.svg",
         "title": "Plurk",
         "to": "https://www.plurk.com/grayda0105"
+      },
+      {
+        "icon": "/img/bsky-fill.svg",
+        "title": "Bluesky",
+        "to": "https://bsky.app/profile/dadarelive.bsky.social"
       }
     ]
   },
