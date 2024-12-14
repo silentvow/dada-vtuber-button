@@ -98,6 +98,17 @@
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         },
         {
+          "id": "bbe2e149-5fac-4762-a646-854185b78622",
+          "name": "a-li-ga-do",
+          "description": {
+            "en": "Arigato",
+            "ja": "ありがとう",
+            "zh": "阿哩嘎多"
+          },
+          "path": "cult/a-li-ga-do.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
           "id": "e9f8b1a2-1234-4567-8914-abcdef123469",
           "name": "zhai-jen-bye-bye",
           "description": {
@@ -140,6 +151,17 @@
           },
           "path": "halloween-2022/i-m-coming.mp3",
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "7c6ebb7a-b61e-4872-b723-89c411ba46f4",
+          "name": "helo-an-an",
+          "description": {
+            "en": "Hello, hi everyone",
+            "ja": "こんにちは、みんなこんにちは",
+            "zh": "哈囉安安大家好"
+          },
+          "path": "cult/helo-an-an.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
         },
         {
           "id": "31645356-12bc-4345-8980-4e3947fb5343",
@@ -1968,6 +1990,17 @@
           "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
         },
         {
+          "id": "7ed69f40-3118-47cb-997e-a3d76e99d314",
+          "name": "san-hai-wo",
+          "description": {
+            "en": "Woe, woe, why hurt me",
+            "ja": "ああ、なぜ私を傷つけるのか",
+            "zh": "嗚耶嗚耶為什麼要傷害我"
+          },
+          "path": "cult/san-hai-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
           "id": "687516bd-0a8d-4e5c-9d48-b6d928a8e625",
           "name": "why-become-this",
           "description": {
@@ -2120,6 +2153,17 @@
           },
           "path": "valentine-lyrics/hahaha-9.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "8ef6baae-47a3-4c86-b9aa-0c05f389577d",
+          "name": "witch-laugh",
+          "description": {
+            "en": "Witch's laughter",
+            "ja": "魔女の笑い声",
+            "zh": "巫婆笑聲"
+          },
+          "path": "cult/witch-laugh.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
         },
         {
           "id": "4221cf1a-6f72-4d08-988b-2614affdc3ce",
@@ -4685,6 +4729,17 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "e9732e87-2fa3-47e6-9d65-53ca6c582213",
+          "name": "gtue-ban-mie-diao",
+          "description": {
+            "en": "We will definitely destroy the chicken legs by the end of the year",
+            "ja": "今年の年末までに必ずチキンレッグを滅ぼす",
+            "zh": "我們年底勢必會把雞腿幫給滅掉的"
+          },
+          "path": "cult/gtue-ban-mie-diao.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
           "id": "dc5f9328-172e-411b-9077-ce293f97b31e",
           "name": "diao-g-tue-gan",
           "description": {
@@ -5235,6 +5290,17 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "444d4769-7034-4b47-b6b0-81f156115864",
+          "name": "hsin-yan-daboing",
+          "description": {
+            "en": "Believe in the Great Wave Parrot Master! Praise the Great Wave Parrot Master!",
+            "ja": "大波オウム教主を信仰せよ！大波オウム教主を讚えよ！",
+            "zh": "信仰大波鸚教主！讚嘆大波鸚教主！"
+          },
+          "path": "cult/hsin-yan-daboing.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
           "id": "3e7b14af-ba36-4ae7-bcfd-7b095a2595d2",
           "name": "woe-chiz-shi-vtuber",
           "description": {
@@ -5255,6 +5321,17 @@
           },
           "path": "yoda-girlfriend/da-bo-hao-chen-zo.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "a2509906-f4d8-45e6-9013-16b3abf2c185",
+          "name": "dada-yo-daboing-x4",
+          "description": {
+            "en": "Gray Da has big waves~ Gray Da has big waves~ Gray Da has big waves~ Gray Da has big waves~",
+            "ja": "グレーダは大波がある〜 グレーダは大波がある〜 グレーダは大波がある〜 グレーダは大波がある〜",
+            "zh": "灰妲有大波鸚～灰妲有大波鸚～灰妲有大波鸚～灰妲有大波鸚～"
+          },
+          "path": "cult/dada-yo-daboing-x4.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
         }
       ]
     },
@@ -6445,6 +6522,28 @@
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
+          "id": "b78c60c1-2cde-48d2-9def-41a13453e135",
+          "name": "gan-so-ton-ku",
+          "description": {
+            "en": "I want to make you feel pain!",
+            "ja": "痛みを感じさせてやる！",
+            "zh": "我要讓你們感受到痛苦！"
+          },
+          "path": "cult/gan-so-ton-ku.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
+          "id": "9324e24f-d713-4248-b2dd-03e1b0f48845",
+          "name": "god-food",
+          "description": {
+            "en": "Yes, Wei Li instant noodles are the food of the gods",
+            "ja": "そう、維力ラーメンは神の食べ物だ",
+            "zh": "是的維力湯麵是神的食物"
+          },
+          "path": "cult/god-food.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
           "id": "fb2639f5-6c0a-4bd3-a08a-c8a6db60efd6",
           "name": "jiao-sue-bei-sue",
           "description": {
@@ -6566,6 +6665,17 @@
           "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
+          "id": "f94e0ab9-051e-4512-a54f-604c4cf13255",
+          "name": "amd-yes",
+          "description": {
+            "en": "Of course, AMD Yes. How could AMD possibly lose to a toothpaste company?",
+            "ja": "AMDは間違いなく、歯磨き粉会社に負けるわけがない",
+            "zh": "當然是AMD Yes阿AMD怎麼會輸牙膏廠呢"
+          },
+          "path": "cult/amd-yes.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
           "id": "fbf6c1dd-7bdc-4f81-8afe-267f9cf57ea5",
           "name": "bad-prediction",
           "description": {
@@ -6588,6 +6698,28 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "16f9a5ad-6224-4031-8833-fdd1950b9744",
+          "name": "lucky-parrot-jian-hue",
+          "description": {
+            "en": "The lucky parrot will guide you on the path to fortune",
+            "ja": "幸運のオウムがあなたたちを幸運の道へと導くでしょう",
+            "zh": "幸運鸚鵡將會指引你們走向幸運的道路去"
+          },
+          "path": "cult/lucky-parrot-jian-hue.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
+          "id": "e7a56e34-a283-424c-97bb-075c6c5c2ff3",
+          "name": "sian-san-lin-hun",
+          "description": {
+            "en": "Let us offer his soul to the sacred 300 seconds!",
+            "ja": "彼の魂を神聖な300秒に捧げよう！",
+            "zh": "讓我們獻上他的靈魂給予他神聖的300秒吧！"
+          },
+          "path": "cult/sian-san-lin-hun.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
           "id": "40a8431c-20f6-4f41-90c6-6797588207d0",
           "name": "me-yo-janda",
           "description": {
@@ -6599,6 +6731,17 @@
           "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
         },
         {
+          "id": "f3c346d7-740d-4e0a-bcd5-4f3c2c3ae936",
+          "name": "bu-hue-math",
+          "description": {
+            "en": "Why does this society treat people who aren't good at math so unfairly?",
+            "ja": "なぜこの社会は数学が得意でない人をこんなにも不公平に扱うのだろうか",
+            "zh": "為什麼這個社會要如此不公地對待不會數學的人呢"
+          },
+          "path": "cult/bu-hue-math.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
           "id": "d3f7e08c-5fda-44e9-ab12-09507cc9df22",
           "name": "tsao-ren-li-ba-wan",
           "description": {
@@ -6608,6 +6751,17 @@
           },
           "path": "lazy-against/tsao-ren-li-ba-wan.mp3",
           "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "f9731ee1-a9fc-437c-9283-02c94fba873c",
+          "name": "ban-ye-ji-er",
+          "description": {
+            "en": "I want to make you feel hungry and unable to order anything in the middle of the night",
+            "ja": "私は真夜中にあなたたちを空腹で、何も注文できない状態にしたい",
+            "zh": "我要讓你們在這半夜之中感到飢餓難耐卻點不到東西吃"
+          },
+          "path": "cult/ban-ye-ji-er.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
         },
         {
           "id": "427505f6-aac6-4d8e-a86b-5ce1555849e7",
@@ -6663,6 +6817,17 @@
           },
           "path": "news-202405/man-hua-pei-in.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "dc9cdc0c-612d-40bd-8a88-f0dd1ba1eec3",
+          "name": "ma-jian-mian-gan",
+          "description": {
+            "en": "Today I ordered that sesame sauce noodles and I felt it was too dry, so I ordered a bowl of wonton soup and I poured the soup on the sesame sauce noodles and it became wet and oh, it was so delicious, really so delicious",
+            "ja": "今日、そのごま醤油麺を注文して、とても乾燥していると感じたので、ワンタンスープを1杯注文して、そのスープをごま醤油麺にかけたら、濡れて、ああ、とても美味しかった、本当に美味しかった",
+            "zh": "我今天點那個麻醬麵阿我就覺得麻醬麵實在太乾了所以我就點了一碗餛飩湯我就我就把那個湯淋到麻醬麵裡面對啊我就把那個那個餛飩湯淋到麻醬麵裡面然後它濕濕的這樣吃欸超好吃欸真的超好吃的"
+          },
+          "path": "cult/ma-jian-mian-gan.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
         }
       ]
     }
