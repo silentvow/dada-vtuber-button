@@ -14,7 +14,7 @@
       <v-list class="pt-0">
         <v-list-item to="/" router exact dense>
           <v-list-item-action>
-            <v-img alt="home-icon" src="/icon.png" style="width: 24px" />
+            <v-img alt="home-icon" :src="`${routerBase}icon.png`" style="width: 24px" />
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>{{ $t('site.index') }}</v-list-item-title>
@@ -39,14 +39,14 @@
             <v-list-item-title>{{ $t('site.favorite') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item dense to="/challenge" router exact>
+        <!-- <v-list-item dense to="/challenge" router exact>
           <v-list-item-action>
             <v-icon>{{ icons.head_question }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>{{ $t('site.challenge') }}</v-list-item-title>
           </v-list-item-content>
-        </v-list-item>
+        </v-list-item> -->
         <v-list-item dense to="/feedback" router exact>
           <v-list-item-action>
             <v-icon>{{ icons.msg_question }}</v-icon>
@@ -55,14 +55,14 @@
             <v-list-item-title>{{ $t('site.feedback') }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item dense to="/member" router exact>
+        <!-- <v-list-item dense to="/member" router exact>
           <v-list-item-action>
             <v-icon>{{ icons.account_group }}</v-icon>
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title>{{ $t('member.member_area') }}</v-list-item-title>
           </v-list-item-content>
-        </v-list-item>
+        </v-list-item> -->
       </v-list>
       <v-divider />
 
@@ -78,7 +78,7 @@
           dense
         >
           <v-list-item-action>
-            <v-img :alt="item.title" :src="item.icon" style="width: 24px" />
+            <v-img :alt="item.title" :src="`${routerBase}${item.icon.slice(1)}`" style="width: 24px" />
           </v-list-item-action>
           <v-list-item-content>
             <v-list-item-title v-text="item.title" />
@@ -90,10 +90,7 @@
         <v-img
           alt="i-m-female-vtuber"
           style="width: 100%; height: auto"
-          :src="optimizedWomanSrc"
-          :lazy-src="lazyWomanSrc"
-          :srcset="womanSrcset.srcset"
-          :sizes="womanSrcset.sizes"
+          :src="`${routerBase}img/woman.png`"
         />
       </template>
     </v-navigation-drawer>
@@ -156,7 +153,7 @@
     </v-app-bar>
     <v-main>
       <v-container class="page">
-        <v-img
+        <!-- <v-img
           class="rounded"
           max-height="360"
           alt="banner"
@@ -164,7 +161,7 @@
           :lazy-src="lazyBannerSrc"
           :srcset="bannerSrcset.srcset"
           :sizes="bannerSrcset.sizes"
-        />
+        /> -->
         <nuxt />
         <v-snackbar v-model="snackbarVisible" :timeout="2000" :elevation="6" top color="success">
           {{ snackbarMessage }}
@@ -341,6 +338,9 @@ export default {
     };
   },
   computed: {
+    routerBase() {
+      return this.$nuxt.context.base || '/';
+    },
     current_locale() {
       return this.$i18n.locale;
     },
@@ -365,30 +365,6 @@ export default {
           format: 'webp',
           quality: 70,
           height: 360
-        }
-      });
-    },
-    optimizedWomanSrc() {
-      return this.$img('/img/woman.png', {
-        width: 256,
-        format: 'webp',
-        quality: 75
-      });
-    },
-    lazyWomanSrc() {
-      return this.$img('/img/woman.png', {
-        width: 10,
-        format: 'webp',
-        quality: 70
-      });
-    },
-    womanSrcset() {
-      return this.$img.getSizes('/img/woman.png', {
-        sizes: 'xs:100vw sm:100vw md:100vw lg:100vw xl:100vw',
-        modifiers: {
-          width: 256,
-          format: 'webp',
-          quality: 70
         }
       });
     },
