@@ -99,6 +99,39 @@
           "url": ""
         },
         {
+          "id": "37118204-3df2-4cc9-b73e-3b6c1fe4d888",
+          "name": "2024-12-15_eduq0p",
+          "description": {
+            "en": "Tomorin~",
+            "ja": "トモリン～",
+            "zh": "Tomorin~"
+          },
+          "path": "discord-20241215/2024-12-15_eduq0p.ogg",
+          "url": ""
+        },
+        {
+          "id": "b4e900ca-c679-4b93-9927-9daf52840810",
+          "name": "2024-12-15_9vtuz1",
+          "description": {
+            "en": "Go to work",
+            "ja": "仕事に行け",
+            "zh": "去工作啦"
+          },
+          "path": "discord-20241215/2024-12-15_9vtuz1.ogg",
+          "url": ""
+        },
+        {
+          "id": "e636738c-fb7b-4210-8387-4da3b701fce8",
+          "name": "2024-12-15_d9fbtu",
+          "description": {
+            "en": "Go to work",
+            "ja": "仕事に行け",
+            "zh": "去工作啦"
+          },
+          "path": "discord-20241215/2024-12-15_d9fbtu.ogg",
+          "url": ""
+        },
+        {
           "id": "b82b212d-9a15-499e-a320-cab4fde4330b",
           "name": "a0ac0ed3",
           "description": {
@@ -201,8 +234,8 @@
           "id": "00d50829-f507-4497-bcd9-e587140e8c0d",
           "name": "hao-le-o",
           "description": {
-            "en": "好累喔哇～",
-            "ja": "好累喔哇～",
+            "en": "I'm so tired, wow~",
+            "ja": "めっちゃ疲れたよ、わー",
             "zh": "好累喔哇～"
           },
           "path": "discord/hao-le-o.ogg",
@@ -276,11 +309,22 @@
           "url": ""
         },
         {
+          "id": "3c1a37aa-f9b1-4e2a-b710-2a40a7fa5722",
+          "name": "2024-12-15_49frz1",
+          "description": {
+            "en": "Chiu chiu~ Chiu chiu~",
+            "ja": "ちゅーちゅー～ちゅーちゅー～",
+            "zh": "啾啾～啾啾～"
+          },
+          "path": "discord-20241215/2024-12-15_49frz1.ogg",
+          "url": ""
+        },
+        {
           "id": "a3ac4526-8606-429d-997d-df51b58e9db5",
           "name": "sun-pi-gu",
           "description": {
-            "en": "太陽曬屁股啦",
-            "ja": "太陽曬屁股啦",
+            "en": "The sun is burning my butt",
+            "ja": "太陽が俺のお尻を焼いてる",
             "zh": "太陽曬屁股啦"
           },
           "path": "discord/sun-pi-gu.ogg",
@@ -297,6 +341,17 @@
           "path": "discord/500ac43f.ogg",
           "url": "",
           "TBD": true
+        },
+        {
+          "id": "e244e297-a627-451f-bdf6-849724b215ae",
+          "name": "2024-12-15_vr56hk",
+          "description": {
+            "en": "I love you too~",
+            "ja": "私もあなたを愛してるよ～",
+            "zh": "我也愛你喔～"
+          },
+          "path": "discord-20241215/2024-12-15_vr56hk.ogg",
+          "url": ""
         },
         {
           "id": "f95d7546-bc0a-4416-ad54-f6240c29ff01",
@@ -318,6 +373,17 @@
             "zh": "蜘蛛人打屁屁"
           },
           "path": "discord/380a4264.ogg",
+          "url": ""
+        },
+        {
+          "id": "94c23aef-aeb0-450f-8273-943bc7aa83c8",
+          "name": "2024-12-15_r9ltmw",
+          "description": {
+            "en": "I found you",
+            "ja": "私、見つけたぞ",
+            "zh": "被我找到了吧"
+          },
+          "path": "discord-20241215/2024-12-15_r9ltmw.ogg",
           "url": ""
         },
         {
@@ -412,6 +478,17 @@
           "TBD": true
         },
         {
+          "id": "7f9c4a23-1723-4cc4-888c-e751f5da8f51",
+          "name": "2024-12-15_oadgen",
+          "description": {
+            "en": "Work hard, office worker",
+            "ja": "一生懸命働け、サラリーマン",
+            "zh": "勤奮工作吧社畜"
+          },
+          "path": "discord-20241215/2024-12-15_oadgen.ogg",
+          "url": ""
+        },
+        {
           "id": "7d5938d5-0300-4d20-b685-649f493bebec",
           "name": "bcabe6fa",
           "description": {
@@ -455,6 +532,17 @@
           "path": "discord/ded345ed.ogg",
           "url": "",
           "TBD": true
+        },
+        {
+          "id": "64fd3ab5-7d6e-4c08-9b2d-308308d645d9",
+          "name": "2024-12-15_ezkdc1",
+          "description": {
+            "en": "Stone... Hot pot...",
+            "ja": "石... 火鍋...",
+            "zh": "石頭...火鍋..."
+          },
+          "path": "discord-20241215/2024-12-15_ezkdc1.ogg",
+          "url": ""
         },
         {
           "id": "504a0deb-ddf9-4b90-b16c-8faa64c5bbac",
@@ -532,6 +620,28 @@
             "zh": "我現在只想要睡覺"
           },
           "path": "discord/9921cccc.ogg",
+          "url": ""
+        },
+        {
+          "id": "ab339ba3-e7fd-443f-b644-1ba185afb1e9",
+          "name": "2024-12-15_kzx5o0",
+          "description": {
+            "en": "Good morning~ Good morning~",
+            "ja": "おはよう～おはよう～",
+            "zh": "早安阿～早安阿～"
+          },
+          "path": "discord-20241215/2024-12-15_kzx5o0.ogg",
+          "url": ""
+        },
+        {
+          "id": "2631164f-257f-4fa1-b60b-46911f942dcb",
+          "name": "2024-12-15_yi3ts2",
+          "description": {
+            "en": "Early curve~ Early curve~",
+            "ja": "早い曲線～早い曲線～",
+            "zh": "早彎彎～早彎彎～"
+          },
+          "path": "discord-20241215/2024-12-15_yi3ts2.ogg",
           "url": ""
         },
         {
@@ -626,6 +736,17 @@
           "url": ""
         },
         {
+          "id": "002c3825-546b-4fbe-bcfd-316d8b889f35",
+          "name": "2024-12-15_vfaz2m",
+          "description": {
+            "en": "??????????? (Can't understand)",
+            "ja": "??????????? (理解できない)",
+            "zh": "??????????? (聽不懂)"
+          },
+          "path": "discord-20241215/2024-12-15_vfaz2m.ogg",
+          "url": ""
+        },
+        {
           "id": "18d49baa-3222-42a3-9670-d22679e3cce8",
           "name": "b23232f8",
           "description": {
@@ -637,6 +758,17 @@
           "url": ""
         },
         {
+          "id": "359bf32d-97aa-4b14-a6ab-b20f6b3813d3",
+          "name": "2024-12-15_tp7o8x",
+          "description": {
+            "en": "Good morning~ Good morning~ It's so cold~",
+            "ja": "おはよう～おはよう～寒いよ～",
+            "zh": "早安～早安～好冷喦～"
+          },
+          "path": "discord-20241215/2024-12-15_tp7o8x.ogg",
+          "url": ""
+        },
+        {
           "id": "ab0e30e2-fceb-41b5-90c3-adb4e0f32fd5",
           "name": "8a97f9b4",
           "description": {
@@ -645,6 +777,17 @@
             "zh": "種子種子！種子種子！"
           },
           "path": "discord/8a97f9b4.ogg",
+          "url": ""
+        },
+        {
+          "id": "3962ebe1-0c67-43f8-a848-8c3de7507656",
+          "name": "2024-12-15_eq4f85",
+          "description": {
+            "en": "Today is also???? (Can't understand)",
+            "ja": "今日も???? (理解できない)",
+            "zh": "今天也是???? (聽不懂)"
+          },
+          "path": "discord-20241215/2024-12-15_eq4f85.ogg",
           "url": ""
         },
         {
@@ -662,11 +805,22 @@
           "id": "7adc43b8-52d5-469f-b9c4-cc772d78a16e",
           "name": "hao-ba",
           "description": {
-            "en": "好吧那我繼續睡了晚安掰掰",
-            "ja": "好吧那我繼續睡了晚安掰掰",
+            "en": "Okay, I'll continue sleeping. Good night, bye bye",
+            "ja": "おけい、寝続けます。おやすみなさい、バイバイ",
             "zh": "好吧那我繼續睡了晚安掰掰"
           },
           "path": "discord/hao-ba.ogg",
+          "url": ""
+        },
+        {
+          "id": "2bb39e9f-5fc5-4fad-9e7a-d4892a8bee25",
+          "name": "2024-12-15_1o2jl3",
+          "description": {
+            "en": "(Crying and making a fuss) I don't care~ I don't care~",
+            "ja": "(泣きわめいて) 知らない～知らない～",
+            "zh": "(哭鬧) 我不管啦～我不管～"
+          },
+          "path": "discord-20241215/2024-12-15_1o2jl3.ogg",
           "url": ""
         },
         {
@@ -715,6 +869,17 @@
           "TBD": true
         },
         {
+          "id": "bc074bc6-a8f3-4be3-b329-3b430fe16776",
+          "name": "2024-12-15_s9ydmr",
+          "description": {
+            "en": "Shake shake shake shake shake shake shake",
+            "ja": "揺れ揺れ揺れ揺れ揺れ揺れ揺れ",
+            "zh": "搖咧搖咧搖咧搖咧搖咧搖咧搖咧"
+          },
+          "path": "discord-20241215/2024-12-15_s9ydmr.ogg",
+          "url": ""
+        },
+        {
           "id": "7e674f98-6940-4dc9-a169-fddc2f7d5e7a",
           "name": "6d88d424",
           "description": {
@@ -745,6 +910,17 @@
             "zh": "那那那我是不是也應該要開一台阿"
           },
           "path": "discord/91a88e29.ogg",
+          "url": ""
+        },
+        {
+          "id": "0ed1644c-76ac-419d-a9c4-9748f7400d10",
+          "name": "2024-12-15_o15xcs",
+          "description": {
+            "en": "Ablabara??????????? (Can't understand)",
+            "ja": "アブラバラ??????????? (理解できない)",
+            "zh": "阿不拉巴拉??????????? (聽不懂)"
+          },
+          "path": "discord-20241215/2024-12-15_o15xcs.ogg",
           "url": ""
         },
         {
@@ -782,6 +958,17 @@
           "TBD": true
         },
         {
+          "id": "72c517a7-cebe-40ee-9b4e-45fa55716737",
+          "name": "2024-12-15_bf4t3m",
+          "description": {
+            "en": "Why not do it? Because everyone is dirty?",
+            "ja": "なぜやらないの？みんな汚れているから？",
+            "zh": "為什麼不做了阿因為大家都髒髒的嗎"
+          },
+          "path": "discord-20241215/2024-12-15_bf4t3m.ogg",
+          "url": ""
+        },
+        {
           "id": "ff0de3e4-2abb-48d5-ac5e-4d597e12e98c",
           "name": "49be247f",
           "description": {
@@ -813,6 +1000,17 @@
             "zh": "哩系列淦諾～就跟你說不像了咩熙薇妮"
           },
           "path": "discord/855fb9e3.ogg",
+          "url": ""
+        },
+        {
+          "id": "ab89e8ef-d3d7-436f-ba77-4a07121633b6",
+          "name": "2024-12-15_9caleo",
+          "description": {
+            "en": "Babi babuliu buliu buliu bu laba bu ba laba",
+            "ja": "バビバブリュ ブリュ ブリュ ブ ラバ ブ バ ラバ",
+            "zh": "巴比巴布溜布溜布溜布布拉巴布巴拉巴"
+          },
+          "path": "discord-20241215/2024-12-15_9caleo.ogg",
           "url": ""
         },
         {
@@ -850,6 +1048,17 @@
           "TBD": true
         },
         {
+          "id": "be204c83-c9b8-4cc8-bcbf-48da3f889faa",
+          "name": "2024-12-15_d68qp9",
+          "description": {
+            "en": "Can't go out~ Can't leave the heater~ Can't leave~",
+            "ja": "外に出られない～暖房から離れられない～離れられない～",
+            "zh": "出不去～沒辦法離開暖氣～沒辦法離開～"
+          },
+          "path": "discord-20241215/2024-12-15_d68qp9.ogg",
+          "url": ""
+        },
+        {
           "id": "99670f3a-08b7-461c-96d0-92b63304ac56",
           "name": "763ee63f",
           "description": {
@@ -871,6 +1080,17 @@
           "path": "discord/336f1a45.ogg",
           "url": "",
           "TBD": true
+        },
+        {
+          "id": "c6e9af8f-d745-4543-8c1c-71813f55b66b",
+          "name": "2024-12-15_sftq57",
+          "description": {
+            "en": "Today I'll immediately go eat stone hot pot, dede rude dede",
+            "ja": "今日、すぐに石火鍋を食べに行くよ、でできるでる",
+            "zh": "今天就立刻去吃石頭火鍋嘟嘟嘟嚕嘟嘟嚕嘟"
+          },
+          "path": "discord-20241215/2024-12-15_sftq57.ogg",
+          "url": ""
         },
         {
           "id": "3181ee68-a825-4b2f-8145-f4ddc83ea4e0",
@@ -948,6 +1168,17 @@
             "zh": "噢沒事我也好愛我自己喔，我覺得我蠻氣質的"
           },
           "path": "discord/a5ce63f2.ogg",
+          "url": ""
+        },
+        {
+          "id": "7f23f631-4a40-4f5f-9b8c-e18c1d74ef3f",
+          "name": "2024-12-15_dxskac",
+          "description": {
+            "en": "Stone... Hot pot... Why don't I have a stone hot pot near my house~",
+            "ja": "石... 火鍋... なぜ家の近くに石火鍋がないの～",
+            "zh": "石頭...火鍋...為什麼我家附近沒有石頭火鍋～"
+          },
+          "path": "discord-20241215/2024-12-15_dxskac.ogg",
           "url": ""
         },
         {
@@ -1062,6 +1293,17 @@
           "url": ""
         },
         {
+          "id": "13f33cfd-3261-4b9e-bd6a-115e4cd598e8",
+          "name": "2024-12-15_i3ebz5",
+          "description": {
+            "en": "I really want to eat napa cabbage~ Hot pot~ Clay pot fish head~ Fish cakes~ Meat! Meat!! Meat!!!",
+            "ja": "大白菜が食べたい～火鍋～土鍋の魚の頭～魚のケーキ～肉！肉！！肉！！！",
+            "zh": "好想吃大白菜～火鍋～砂鍋魚頭～魚板～肉肉！肉肉！！肉肉！！！"
+          },
+          "path": "discord-20241215/2024-12-15_i3ebz5.ogg",
+          "url": ""
+        },
+        {
           "id": "da36f9c3-11ae-4c25-8d24-637646300194",
           "name": "912c801c",
           "description": {
@@ -1092,6 +1334,17 @@
             "zh": "A cup, B cup, C cup, D cup, E cup, 哇，這就是我的大ㄋㄟㄋㄟ嗎？太大了吧～"
           },
           "path": "discord/5efd5772.ogg",
+          "url": ""
+        },
+        {
+          "id": "64a18f0b-c1b5-42e0-872c-db82f0baffc4",
+          "name": "2024-12-15_d2k6uz",
+          "description": {
+            "en": "I really like that peanut powder seasoning~ But it's only available in Mong Kok~ Delicious peanut powder~ Damn~ And I also want to drink that thick soup~ (Crying)",
+            "ja": "あのピーナッツパウダーの調味料が大好き～でも旺角でしか買えない～美味しいピーナッツパウダー～くそ～あの濃厚なスープも飲みたい～(泣)",
+            "zh": "我就喜歡那個花生粉的那個調味阿～可是就只有旺角有提供～好吃的花生粉～可惡～然後也想要喝那個濃濃的湯～ (哭)"
+          },
+          "path": "discord-20241215/2024-12-15_d2k6uz.ogg",
           "url": ""
         },
         {
