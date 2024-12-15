@@ -32,6 +32,17 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "3e528c90-5224-4715-a7e1-31518991a3d5",
+          "name": "ge-wo-shiao-hsin",
+          "description": {
+            "en": "Be careful for me",
+            "ja": "私のために気をつけて",
+            "zh": "給我小心一點哈"
+          },
+          "path": "real-da-lyrics/ge-wo-shiao-hsin.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
           "id": "6c479f3e-abce-48b6-9252-8606b6801cf4",
           "name": "zhen-na-ni-mei-ban-fa",
           "description": {
@@ -527,6 +538,17 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "8987ab82-e040-4998-8f59-141e7b809a84",
+          "name": "bu-yao-huan-shian",
+          "description": {
+            "en": "Stop fantasizing already!",
+            "ja": "もう幻想するのはやめなさい！",
+            "zh": "不要再幻想了！"
+          },
+          "path": "real-da-lyrics/bu-yao-huan-shian.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
           "id": "e9f8b1a2-1234-4567-8911-abcdef123466",
           "name": "yo-nu-peng-yo-gwun",
           "description": {
@@ -668,6 +690,17 @@
           },
           "path": "draw-avatar-10/wo-yao-chon-fon.mp3",
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "id": "be1f16ab-95d7-4b9c-941e-a67b017d67f5",
+          "name": "zen-chin-sian4",
+          "description": {
+            "en": "Can you all face reality?",
+            "ja": "みんな現実を受け入れられるの？",
+            "zh": "各位你們能夠認清現實了嗎"
+          },
+          "path": "real-da-lyrics/zen-chin-sian4.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
         },
         {
           "id": "9a435131-9945-44fc-8971-74bb95fa4a08",
@@ -2782,6 +2815,17 @@
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
+          "id": "2a05ecd0-ce81-4b74-bd9a-1d259eacbd05",
+          "name": "realda-shiao-so-la",
+          "description": {
+            "en": "Small hand holds big hand",
+            "ja": "小さな手が大きな手を握る",
+            "zh": "小手拉大手"
+          },
+          "path": "real-da-lyrics/realda-shiao-so-la.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
           "id": "0e96309e-cb42-4f16-afaa-775aae5751b7",
           "name": "man-man-si-hua-ni",
           "description": {
@@ -4080,6 +4124,28 @@
       },
       "voice_list": [
         {
+          "id": "85b198ad-20fb-4814-b007-3fe2406ab5d2",
+          "name": "realda-da-jia-hao",
+          "description": {
+            "en": "Hello everyone",
+            "ja": "みんな、こんにちは",
+            "zh": "大家好啊"
+          },
+          "path": "real-da-lyrics/realda-da-jia-hao.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "62ca7dc1-fed9-456e-8ec5-e959de5151ec",
+          "name": "realda-mihumisang",
+          "description": {
+            "en": "Mihu-san",
+            "ja": "米乎咪桑",
+            "zh": "米乎咪桑"
+          },
+          "path": "real-da-lyrics/realda-mihumisang.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
           "id": "d7df6dec-712d-4615-bfeb-d2592d0736ef",
           "name": "wan-shan-hao",
           "description": {
@@ -4188,6 +4254,17 @@
           },
           "path": "real-da-agree/tse-da-tse-shi.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "id": "5155762d-2504-4780-b3aa-ce56ba56b0eb",
+          "name": "tsua-gtue-doll",
+          "description": {
+            "en": "I think I'd really love to see everyone wearing chicken leg mascot costumes. It feels so, so cute",
+            "ja": "みんなが鶏のモモ肉のぬいぐるみを着ている姿を見るのが本当に楽しみ。とってもとっても可愛いと思う",
+            "zh": "我覺得我會很想要看看大家穿雞腿玩偶裝的樣子感覺非常非常的可愛呢"
+          },
+          "path": "real-da-lyrics/tsua-gtue-doll.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
         }
       ]
     },
@@ -4278,6 +4355,17 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "4bc842d4-0715-4551-8099-3d8344c2e363",
+          "name": "chatroom-love-all",
+          "description": {
+            "en": "Everyone in the chat room, I love you the most~",
+            "ja": "チャットルームの皆、大好きよ〜",
+            "zh": "聊天室的各位我最愛你們了～"
+          },
+          "path": "real-da-lyrics/chatroom-love-all.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
           "id": "f9e202d8-05df-409f-98e3-a391adc5fce0",
           "name": "fo-din-ni",
           "description": {
@@ -4298,6 +4386,17 @@
           },
           "path": "real-da-agree/shan-shin-tze-zhi.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "id": "5fd5dafe-8550-4169-a00f-8a620b041d92",
+          "name": "nimen4-zue-ban-der",
+          "description": {
+            "en": "You are the best. Have a happy day every day. I love you all the most",
+            "ja": "あなたたちが一番。毎日幸せに過ごしてね。みんな大好き",
+            "zh": "你們是最棒的每一天都要快樂的過唷最喜歡大家了呢"
+          },
+          "path": "real-da-lyrics/nimen4-zue-ban-der.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
         },
         {
           "id": "3a6e0dba-4e62-4a04-bb93-964261704f4e",
@@ -4331,6 +4430,17 @@
           },
           "path": "real-da-agree/da-zan-chen-jiao.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "id": "36200ca0-dd5a-448a-ab5b-0a0a0028800d",
+          "name": "guao-today-nu-li",
+          "description": {
+            "en": "Good job today, you worked hard. Rest well, okay? Come and eat, darling",
+            "ja": "今日も頑張ったね。本当に大変だったわ。ゆっくり休んでね。さあ、食事にしましょう、愛しい人",
+            "zh": "乖喔今天也很努力了呢真是辛苦你了好好休息吧乖喔乖喔好來吃飯吧親愛的"
+          },
+          "path": "real-da-lyrics/guao-today-nu-li.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
         }
       ]
     },
@@ -4353,6 +4463,17 @@
           },
           "path": "real-da-agree/bu-shin-la.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "id": "66bf8c61-d6fb-43d8-b1c6-2456ea8297e7",
+          "name": "real-bu-ser-ser",
+          "description": {
+            "en": "No being perverted!",
+            "ja": "エッチはダメ！",
+            "zh": "不可以色色！"
+          },
+          "path": "real-da-lyrics/real-bu-ser-ser.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
         },
         {
           "id": "eff75a35-4b2f-49ff-8872-def845decaf6",
@@ -4388,6 +4509,28 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "c2716aee-ddbb-4d9c-b0f9-317aeb98179c",
+          "name": "real-ju-so-a",
+          "description": {
+            "en": "Stop! Stop!",
+            "ja": "待て！止まれ！",
+            "zh": "住手阿！住手！"
+          },
+          "path": "real-da-lyrics/real-ju-so-a.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "53b8da44-6a4e-4474-aa8b-b0c72abe0f00",
+          "name": "tsa-bu4-lau-por",
+          "description": {
+            "en": "I'm definitely not your wife",
+            "ja": "私は絶対にあなたの妻じゃないわ",
+            "zh": "才不是你老婆咧"
+          },
+          "path": "real-da-lyrics/tsa-bu4-lau-por.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
           "id": "6e5e8f8b-73b9-4d95-8377-88ebfa1da67e",
           "name": "huan-hsiang",
           "description": {
@@ -4410,6 +4553,17 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "556d8398-ac96-4160-aa8a-495976c4e015",
+          "name": "real-bun-dan-bu-yao",
+          "description": {
+            "en": "Idiot, idiot, idiot. Don't do that!",
+            "ja": "バカ、バカ、バカ。そんなことするな！",
+            "zh": "笨蛋笨蛋笨蛋不要這麼做啊"
+          },
+          "path": "real-da-lyrics/real-bun-dan-bu-yao.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
           "id": "7fa0a90f-7c1d-434a-800b-fc42690e3d99",
           "name": "sue-sue-bian-bian",
           "description": {
@@ -4423,12 +4577,111 @@
       ]
     },
     {
-      "id": "af1756fd-0941-4300-9602-2931d5c7a114",
-      "group_name": "realda_benefits",
+      "id": "c7254a2a-920e-4c77-9a41-d477b6dc469e",
+      "group_name": "realda_cure",
       "group_description": {
-        "en": "Real Da: Benefits",
-        "ja": "ジンダ：福利",
-        "zh": "真妲：福利"
+        "en": "Real Da: Cure",
+        "ja": "ジンダ：療癒",
+        "zh": "真妲：療癒"
+      },
+      "voice_list": [
+        {
+          "id": "32ff15f3-f9ae-4713-9bce-59c16758ca17",
+          "name": "future-jia-yo",
+          "description": {
+            "en": "Work hard in the future. When you're lost, come back here, come back to this place where you can relax",
+            "ja": "未来、頑張ってね。道に迷ったときは、ここに戻ってきて、リラックスできる場所に戻ってきて",
+            "zh": "未來要加油喔當你迷失方向的時候就回來這裡吧回來讓你放鬆的地方"
+          },
+          "path": "real-da-lyrics/future-jia-yo.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "74248062-4201-4b26-8861-508f75a5051f",
+          "name": "ji-ji-fan-kon",
+          "description": {
+            "en": "Now, just quietly blank out. Don't think about anything and rest well. I'll always be here waiting for you to come back. Be good and listen, okay?",
+            "ja": "今は、静かに空白になって。何も考えないでゆっくり休んで。いつもここであなたの帰りを待っているわ。大人しくして聞いてね、いい？",
+            "zh": "現在呢就先靜靜地放空什麼都不要想地好好地休息我會一直都在這裡等你回來的乖乖聽話好嗎"
+          },
+          "path": "real-da-lyrics/ji-ji-fan-kon.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "dbd85398-9b2d-4c58-b3d8-9a72c7755291",
+          "name": "realda-huan-yi-hue-lai",
+          "description": {
+            "en": "Welcome back from work. You look tired. Want to take a shower first? I'll warm up dinner, and we can eat together, okay?",
+            "ja": "お疲れさま。仕事から帰ってきたわ。疲れてるみたいね。先にシャワーを浴びる？晩御飯を温めておくから、一緒に食べようね",
+            "zh": "歡迎回來上班辛苦了呢阿看起來很累的樣子呢要不要先去洗個澡呢我去把晚餐熱一下等等一起吃飯好嗎"
+          },
+          "path": "real-da-lyrics/realda-huan-yi-hue-lai.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "13141fdf-3585-49c4-9404-122e1da85dfa",
+          "name": "bu-yao-ou-ye",
+          "description": {
+            "en": "Why are you only coming home now? Isn't work too long? Hurry and take a shower. I'll prepare some stress-relieving dishes for you. Don't work late anymore, okay?",
+            "ja": "どうして今になって帰ってくるの？仕事が長すぎない？さあ、急いでシャワーを浴びて。ストレス解消の料理を作っておくから。もう夜遅くまで働かないでね。",
+            "zh": "你怎麼現在才回家啊工作會不會太久了阿趕快去洗澡啦我先幫你做一些消除壓力的料理給你吃不要再熬夜了喔"
+          },
+          "path": "real-da-lyrics/bu-yao-ou-ye.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        }
+      ]
+    },
+    {
+      "id": "80182c6e-6d15-4e1c-aad7-14ad377656ac",
+      "group_name": "realda_abuse",
+      "group_description": {
+        "en": "Real Da: Abuse",
+        "ja": "ジンダ：罵倒",
+        "zh": "真妲：罵倒"
+      },
+      "voice_list": [
+        {
+          "id": "9bce5f0e-ca15-4062-b1ce-87d3f1ddcdbd",
+          "name": "realda-hao-er",
+          "description": {
+            "en": "Ew, gross. Stay away from me",
+            "ja": "うえっ、気持ち悪い。私から離れて",
+            "zh": "你好噁噢離我遠一點啦"
+          },
+          "path": "real-da-lyrics/realda-hao-er.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "6707070b-b73e-4982-b069-23342de0b7aa",
+          "name": "zako4",
+          "description": {
+            "en": "Trash~ Trash~ Trash~ Trash...",
+            "ja": "クズ〜クズ〜クズ〜クズ…",
+            "zh": "雜魚～雜魚～雜魚～雜魚...."
+          },
+          "path": "real-da-lyrics/zako4.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "463820d9-c6aa-4677-8e51-74f7ca5ac215",
+          "name": "real-bian-ta-lolicon",
+          "description": {
+            "en": "Are you this in love with young Da? Even though I'm already here, isn't that enough? So gross, pervert, lolicon!",
+            "ja": "幼妲にそんなに夢中？私がもういるのに、それじゃ足りないの？気持ち悪い、変態、ロリコン！",
+            "zh": "你就這麼你就那麼喜歡幼妲嗎都已經有我了還不夠嗎真噁心變態蘿莉控"
+          },
+          "path": "real-da-lyrics/real-bian-ta-lolicon.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        }
+      ]
+    },
+    {
+      "id": "af1756fd-0941-4300-9602-2931d5c7a114",
+      "group_name": "realda_others",
+      "group_description": {
+        "en": "Real Da: Others",
+        "ja": "ジンダ：其他",
+        "zh": "真妲：其他"
       },
       "voice_list": [
         {
@@ -4443,6 +4696,39 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "33b97840-6441-4a78-afc6-3fe8c4b0b086",
+          "name": "husband-back",
+          "description": {
+            "en": "Honey, you're back!",
+            "ja": "旦那、帰ってきたの！",
+            "zh": "老公你回來啦！"
+          },
+          "path": "real-da-lyrics/husband-back.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "53c8ae40-9c04-434f-a24d-dadbc92b3b68",
+          "name": "realda-give-money",
+          "description": {
+            "en": "Please... give me money...",
+            "ja": "お願い…お金を…",
+            "zh": "請...給我錢..."
+          },
+          "path": "real-da-lyrics/realda-give-money.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "d1fa237b-245e-481b-b4c5-c7ada9c785fa",
+          "name": "real-taste-magic",
+          "description": {
+            "en": "Oui, c'est, moe, moe, kyun~",
+            "ja": "おーい、セー、萌え、萌え、きゅん〜",
+            "zh": "歐伊西苦那咧萌欸萌欸啾～"
+          },
+          "path": "real-da-lyrics/real-taste-magic.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
           "id": "1bf41ca7-0501-463d-9f46-d565705b8125",
           "name": "lao-gon-bao-bao",
           "description": {
@@ -4452,6 +4738,94 @@
           },
           "path": "real-da-agree/lao-gon-bao-bao.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "id": "13d11368-4df5-4e19-b732-febdb1cf0125",
+          "name": "husband-bao-yuan",
+          "description": {
+            "en": "Honey, don't complain first! Just hug me!",
+            "ja": "旦那、文句を言わないで！ただ抱きしめて！",
+            "zh": "老公你先不要抱怨！抱我就好了！"
+          },
+          "path": "real-da-lyrics/husband-bao-yuan.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "60f1e929-6666-4c90-9983-d55167e8ef0e",
+          "name": "realda-wedding-3q",
+          "description": {
+            "en": "Do you want to shower first? Or eat first? Or eat... me first?",
+            "ja": "まずシャワー？それとも食事？それとも…私を食べる？",
+            "zh": "你想要先洗澡呢？還是要先吃飯呢？還是要先．吃．我呢？"
+          },
+          "path": "real-da-lyrics/realda-wedding-3q.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "14cb7189-3cfa-4a06-b369-acf818d35684",
+          "name": "baby-so-hot",
+          "description": {
+            "en": "Baby, it's so hot. I just came back from playing in water and my clothes are all wet. Um, can you help me take them off? Please!",
+            "ja": "赤ちゃん、すごく暑いわ。水遊びして帰ってきて服が全部濡れてるの。えっと、脱がせてくれる？お願い！",
+            "zh": "寶貝好熱喔剛剛玩水回來衣服都濕了那個嗯你可以幫我脫嗎拜託啦"
+          },
+          "path": "real-da-lyrics/baby-so-hot.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "773b692a-82bc-43ad-b194-32cc79cb314d",
+          "name": "ya-bian-bian",
+          "description": {
+            "en": "Brother, wake up. You'll be late for work. Hurry and wake up. If you don't wake up, I'll flatten you!",
+            "ja": "兄貴、起きて。仕事に遅刻するよ。さあ、早く起きて。起きないと、完全につぶすぞ！",
+            "zh": "哥起床了你上班要遲到了啦快點起床了你再不起床的話我就要把你壓扁扁了喔"
+          },
+          "path": "real-da-lyrics/ya-bian-bian.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "93224ea7-f572-4a8e-9bfd-67886a4098dd",
+          "name": "realda-get-up",
+          "description": {
+            "en": "Wake up~ Quick~ Wake up~ Are you going to wake up or not?! Sigh, I can't do anything with you~ If you don't wake up, I'll get angry!",
+            "ja": "起きて〜早く〜起きて〜起きるつもりはないの？！ため息。あなたをどうしようもない〜起きないと怒るわよ！",
+            "zh": "起床了～快點～起床了～到底要不要起床了阿！唉真是拿你沒辦法～你再不起床我就要生氣了喔！"
+          },
+          "path": "real-da-lyrics/realda-get-up.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "a5ab1c0a-5af7-4a4b-9a03-1870b2d60c99",
+          "name": "zan-ni-ai-sa-wo",
+          "description": {
+            "en": "Oh really, do you still like kindergarten girls? Then I'm telling you, if you want to be a pedophile, that's fine, but I'll make you like me instead",
+            "ja": "まったく、まだ幼稚園の女の子が好きなの？じゃあ言うけど、気に入らないわ。恋童癖になりたいなら構わないけど、私に好きになってもらうわ",
+            "zh": "吼真是的你到現在還是喜歡幼稚園的女孩子嗎那我跟你說你要去當戀童癖沒關係但是呢我會讓你喜歡我的哼"
+          },
+          "path": "real-da-lyrics/zan-ni-ai-sa-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "069b407a-08d0-4bf7-9da7-bf5284e5d946",
+          "name": "real-smile-dada",
+          "description": {
+            "en": "Smiling Little Da, let your heart smile too. Spreading smiles, Gray Da loves Da Da. If you love Da Da, remember Little Da, okay? No, no, Da Da belongs to everyone, you all!",
+            "ja": "微笑む小妲妲、あなたの心も一緒に笑って。笑顔を広げる、灰妲は妲妲を愛してる。妲妲を愛するなら、小妲妲を覚えてね、オーケー？だめ、だめ、妲妲は皆のもの、あなたたち！",
+            "zh": "微笑小妲妲讓你的心也跟著一起微笑傳遞笑容的灰妲愛妲妲的話就要記住小妲妲喔不行不行妲妲是大家的愛你們喔欸嘿"
+          },
+          "path": "real-da-lyrics/real-smile-dada.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "a79c11b8-7b5f-4778-9255-9a4fb1379a3e",
+          "name": "hue-lai-ka-shian",
+          "description": {
+            "en": "Oh, you're back. I was waiting to unbox something together. So, would you like to unbox the credit card bill, the utility bill, or take a bite of Gray Da's chicken leg and catch your breath?",
+            "ja": "あ、帰ってきたの。一緒に開けるのを待ってたわ。で、クレジットカードの明細？それとも水道光熱費の明細？それとも灰妲の鶏のモモ肉を一口食べてひと息つく？",
+            "zh": "阿你回來啦想說等你回來一起開箱的那麼請問一下你想要開箱的是信用卡的帳單呢還是水電費的帳單呢或者是來一根灰妲的雞腿喘一口氣呢"
+          },
+          "path": "real-da-lyrics/hue-lai-ka-shian.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
         }
       ]
     },
@@ -6817,6 +7191,17 @@
           },
           "path": "news-202405/man-hua-pei-in.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "fea186ea-4a76-471b-91b3-ba648f2cf859",
+          "name": "wo-gn-ni-jia-realda",
+          "description": {
+            "en": "Let me tell you, this is created by my audience who arbitrarily imagined Gray Da's appearance. After looking at me, they looked at Young Da and thought Young Da won't grow up to look like this, so they arbitrarily imagined a character called True Da",
+            "ja": "聞いてよ、これは私の視聴者が勝手に想像した灰妲の姿なの。私を見て、それから幼妲を見て、幼妲は大きくなってもこんな感じにならないと思って、勝手に「真妲」という存在を想像したの",
+            "zh": "我跟你講這是誰這個是這個是我的觀眾擅自幻想出來灰妲的模樣他們看了我之後又看看幼妲他們覺得說不幼妲長大不會變這個樣子所以他們擅自幻想出來一個叫真妲的傢伙"
+          },
+          "path": "real-da-lyrics/wo-gn-ni-jia-realda.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
         },
         {
           "id": "dc9cdc0c-612d-40bd-8a88-f0dd1ba1eec3",

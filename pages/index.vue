@@ -76,7 +76,7 @@
         </v-card-title>
         <v-card-text class="button-container">
           <voice-btn
-            v-for="item in opened_groups.has(group.id) ? group.voice_list : group.voice_list.slice(0, 7)"
+            v-for="item in opened_groups.has(group.id) ? group.voice_list : group.voice_list.slice(0, voice_limit)"
             ref="voice_btn"
             :key="item.id"
             :voice-id="item.id"
@@ -189,9 +189,10 @@ export default {
     //SkeletonLoading
   },
   data() {
+    const voice_limit = 5;
     const opened_groups = new Set();
     voice_lists.groups.forEach(group => {
-      if (group.voice_list.length <= 7) {
+      if (group.voice_list.length <= voice_limit) {
         opened_groups.add(group.id);
       }
     });
@@ -212,6 +213,7 @@ export default {
       fab: false,
       groups: voice_lists.groups,
       opened_groups,
+      voice_limit,
       now_playing: new Set(),
       upcoming_lives: [],
       lives: [],
