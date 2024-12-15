@@ -3649,6 +3649,17 @@
           },
           "path": "yoda-girlfriend/wu-yao-ker-jo.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "bb3f7927-ae0c-40b6-88fb-e59c8e98ee3c",
+          "name": "yoda-this-lyric-no-gf",
+          "description": {
+            "en": "Have you ever thought that using these lines is exactly why you can't get a girlfriend",
+            "ja": "こういうセリフを使うから彼女ができないんじゃない？",
+            "zh": "你們有沒有想過就是因為投這種台詞，你們才有可能交不到女朋友"
+          },
+          "path": "yoda-yandere/yoda-this-lyric-no-gf.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
         }
       ]
     },
@@ -4138,12 +4149,89 @@
           "id": "01bc63e3-f84c-4180-b28f-71ef5b3d86a3",
           "name": "yoda-bin-jiao-shiao",
           "description": {
-            "en": "Yandere laugh",
-            "ja": "ヤンデレの笑い声",
-            "zh": "病嬌笑聲"
+            "en": "Yandere laugh-1",
+            "ja": "ヤンデレの笑い声-1",
+            "zh": "病嬌笑聲-1"
           },
           "path": "yoda-girlfriend/yoda-bin-jiao-shiao.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "49fd63d0-25af-4dd4-a981-b6cd15dea2fc",
+          "name": "yoda-yandere-laugh-2",
+          "description": {
+            "en": "Yandere laugh -2",
+            "ja": "ヤンデレ笑い -2",
+            "zh": "病嬌笑聲-2"
+          },
+          "path": "yoda-yandere/yoda-yandere-laugh-2.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
+        },
+        {
+          "id": "e17aca6b-f398-498d-b63b-2b292d69d683",
+          "name": "yoda-yandere-laugh-3",
+          "description": {
+            "en": "Yandere laugh -3",
+            "ja": "ヤンデレ笑い -3",
+            "zh": "病嬌笑聲-3"
+          },
+          "path": "yoda-yandere/yoda-yandere-laugh-3.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
+        },
+        {
+          "id": "c154aa72-e6b9-4fac-973f-68edc234f9d9",
+          "name": "yoda-yandere-laugh-4",
+          "description": {
+            "en": "Yandere laugh -4",
+            "ja": "ヤンデレ笑い -4",
+            "zh": "病嬌笑聲-4"
+          },
+          "path": "yoda-yandere/yoda-yandere-laugh-4.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
+        },
+        {
+          "id": "a3e91a36-2f56-405b-b221-a1b948b16a9e",
+          "name": "yoda-no-hua-hsin",
+          "description": {
+            "en": "Stop being such a player",
+            "ja": "プレイボーイはやめなさい",
+            "zh": "不要再花心了"
+          },
+          "path": "yoda-yandere/yoda-no-hua-hsin.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
+        },
+        {
+          "id": "d499e49a-305e-49bd-b201-ddfa06aec563",
+          "name": "bei-pan-wo",
+          "description": {
+            "en": "Really, really, really don't betray me, okay~ Got it~",
+            "ja": "本当に本当に本当に裏切らないでね～わかった～",
+            "zh": "真的真的真的不可以背叛我喔～知道了嗎～"
+          },
+          "path": "yoda-yandere/bei-pan-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
+        },
+        {
+          "id": "5c96389d-b1f8-4ffd-bcf8-05ffd21b341b",
+          "name": "yoda-look-at-me",
+          "description": {
+            "en": "Look at me~ Look at me! I don't allow you to look at others, I forbid it",
+            "ja": "私を見て～私を見て！他の人を見るのは許さない、絶対だめ",
+            "zh": "看著我啊～看著我啊！我不允許你看別人，不許。"
+          },
+          "path": "yoda-yandere/yoda-look-at-me.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
+        },
+        {
+          "id": "46f87b67-1005-4e8d-a910-ffe0af4c2bad",
+          "name": "lian-si-duan-diao",
+          "description": {
+            "en": "I'll slowly~ slowly~ cut off your connections with other people~",
+            "ja": "ゆっくり～ゆっくり～他の人とのつながりを断ち切ってやる～",
+            "zh": "我會慢慢地～慢慢地把你和其他人的聯繫方式斷掉的～"
+          },
+          "path": "yoda-yandere/lian-si-duan-diao.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
         },
         {
           "id": "8787ffb3-ba55-4ea2-96b7-c89991967ce4",
@@ -4155,6 +4243,94 @@
           },
           "path": "yoda-girlfriend/z-nen-tza-wo.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "4f906960-9939-454d-ac09-acc36fa91b9e",
+          "name": "bu-zun-kan-bie-ren",
+          "description": {
+            "en": "Because Youda loves big brother the most, so Youda doesn't allow big brother to look at others, not allowed",
+            "ja": "幼妲は大好きな大兄さんしか見ちゃダメ。他の人を見るの禁止よ",
+            "zh": "因為幼妲最喜歡大哥哥了所以幼妲不准大哥哥看別人不准喔"
+          },
+          "path": "yoda-yandere/bu-zun-kan-bie-ren.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
+        },
+        {
+          "id": "c13ee886-03e0-42aa-a964-1be11ceed926",
+          "name": "hsin-lai-fear-panic",
+          "description": {
+            "en": "I want to see big brother's cute expression of fear and pain when he wakes up, hehe",
+            "ja": "大兄さんが目覚めた時の恐怖と苦痛の可愛い表情を見たい、へへ",
+            "zh": "我想看看大哥哥醒來時那恐懼和痛苦的表情一定很可愛吧，嘿嘿"
+          },
+          "path": "yoda-yandere/hsin-lai-fear-panic.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
+        },
+        {
+          "id": "7690a559-e8ce-44e2-b6f0-58a5182563f9",
+          "name": "why-big-bro-uso",
+          "description": {
+            "en": "Why! Why why why, why do you big brothers lie to me like this!",
+            "ja": "なぜ！なぜなぜなぜ、どうしてこんな大兄さんたちは私をだますの！",
+            "zh": "為什麼！為什麼為什麼為什麼你們這些大哥哥為什麼要這樣騙我！"
+          },
+          "path": "yoda-yandere/why-big-bro-uso.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
+        },
+        {
+          "id": "f631d740-0ee5-42a6-84b1-640926e69ccd",
+          "name": "to-kan-other-women",
+          "description": {
+            "en": "If you peek at other women again, I'll peel off their nails layer by layer along the internet cable",
+            "ja": "また他の女の子をチラ見するなら、インターネットケーブル伝いに彼女らの爪を一層また一層剥いでやるわ",
+            "zh": "再偷看其他女人的話我就順著網線把她們的指甲一層一層地剝下來喔"
+          },
+          "path": "yoda-yandere/to-kan-other-women.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
+        },
+        {
+          "id": "3ed0e113-7b6e-41db-a21a-87a73a2ac567",
+          "name": "yoda-ni-min-min",
+          "description": {
+            "en": "You clearly said you only love me, and then, and then, and then you still look at other girls!",
+            "ja": "あなたは私だけを愛うと言ったじゃない、そして、そして、そして他の女の子を見るなんて！",
+            "zh": "你明明只說愛我一個的，然後，然後，然後然後然後還去看其他女孩子！"
+          },
+          "path": "yoda-yandere/yoda-ni-min-min.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
+        },
+        {
+          "id": "0a23cc6d-d95f-417c-8889-ab4eeb9be01d",
+          "name": "yoda-buy-candy",
+          "description": {
+            "en": "Didn't we agree that the money would be used to buy candy for Youda? Why are you donating to other little girls?",
+            "ja": "お金は幼妲のためにキャンディを買うって約束したじゃない？なぜ他の小さな女の子にドネーションするの？",
+            "zh": "不是說好錢錢都要給幼妲買糖果的嗎？為什麼還要去斗內其他的小女孩阿？"
+          },
+          "path": "yoda-yandere/yoda-buy-candy.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
+        },
+        {
+          "id": "7bfba208-e8bc-4aec-b409-7d645be30300",
+          "name": "sen-bian-der-ren",
+          "description": {
+            "en": "The people around you will disappear one by one~ One by one~ Do you know why? Big sister~",
+            "ja": "あなたの周りの人は一人また一人と消えていくわ。なぜか分かる？お姉ちゃん～",
+            "zh": "你身邊的人會一個～一個～一個一個的不見耶。你知道為什麼嗎？大姐姐～"
+          },
+          "path": "yoda-yandere/sen-bian-der-ren.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
+        },
+        {
+          "id": "e886ac12-2228-4687-ae58-f0a907fa57ec",
+          "name": "loli-chi-fan-yin",
+          "description": {
+            "en": "Is this the part of the bad big brother that reacts to other little girls~ Looks like I need to teach you a lesson~",
+            "ja": "ロリに反応するこの部分は悪い大兄さん？ちゃんと懲らしめてやるわ～",
+            "zh": "對其他蘿莉起反應的是壞哥哥的這個部位嗎～看來要好好地教訓才可以呢～"
+          },
+          "path": "yoda-yandere/loli-chi-fan-yin.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
         }
       ]
     },
@@ -4353,6 +4529,17 @@
           },
           "path": "yoda-girlfriend/bu-zan-kan-sho-g.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "98467758-0ce5-4d66-8701-8b9c6b2b0d6b",
+          "name": "gue-sia-lai-a",
+          "description": {
+            "en": "You want chicken legs, right! Come on! Kneel down! My little foot is over there, letting you lick enough!",
+            "ja": "チキンレッグが欲しいんでしょ！さあ！跪け！私の小さな足はあそこにあるから、好きなだけなめなさい！",
+            "zh": "你要雞腿是吧！來啊！跪下來啊！我的腳丫子在那邊讓你舔個夠啊！"
+          },
+          "path": "yoda-yandere/gue-sia-lai-a.mp3",
+          "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
         }
       ]
     },
