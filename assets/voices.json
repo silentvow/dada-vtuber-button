@@ -417,6 +417,17 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "b3d9d0fb-1852-4120-aee5-2acc09737a8c",
+          "name": "ni4-gue-ba",
+          "description": {
+            "en": "Are you a ghost?",
+            "ja": "お前は幽霊か？",
+            "zh": "你是鬼吧"
+          },
+          "path": "math-class/ni4-gue-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=Qv6Ieb8Sh74"
+        },
+        {
           "id": "337beb8a-a642-4812-8fea-00bf509dc79c",
           "name": "ni-yo-bin-o",
           "description": {
@@ -2452,6 +2463,17 @@
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
+          "id": "2e38d280-5c3b-4520-bb3e-15be0b7462b5",
+          "name": "little-baby-voice",
+          "description": {
+            "en": "Baby's crying sound",
+            "ja": "赤ちゃんの泣き声",
+            "zh": "小寶寶叫聲"
+          },
+          "path": "math-class/little-baby-voice.mp3",
+          "url": "https://www.youtube.com/watch?v=Qv6Ieb8Sh74"
+        },
+        {
           "id": "ba4046d3-7777-4a5a-a182-63e06de10426",
           "name": "weird-miao4",
           "description": {
@@ -2912,6 +2934,215 @@
           },
           "path": "find-lover-guide/ai-you-x5.mp3",
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        }
+      ]
+    },
+    {
+      "id": "ade7f2c8-17d2-4fd7-8eda-5ed4ceca7c6f",
+      "group_name": "chat",
+      "group_description": {
+        "en": "Chat",
+        "ja": "おしゃべり",
+        "zh": "閒聊"
+      },
+      "voice_list": [
+        {
+          "id": "a8c91967-4116-470c-97f4-0a374ff0bb55",
+          "name": "i-think",
+          "description": {
+            "en": "Let me think.",
+            "ja": "ちょっと考えさせて。",
+            "zh": "我想想噢"
+          },
+          "path": "dp-toys/i-think.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "id": "8281f74d-46a3-43d1-88f3-8621dcd481ca",
+          "name": "me-yo-tso-la",
+          "description": {
+            "en": "That's right~",
+            "ja": "そうです～",
+            "zh": "沒有錯啦～"
+          },
+          "path": "news-202405/me-yo-tso-la.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "15b0d8fd-a3fb-4806-b677-c79fb7f91f56",
+          "name": "ni-za-kai-tser",
+          "description": {
+            "en": "I suspect you're joking around",
+            "ja": "冗談でしょう",
+            "zh": "我懷疑你在開車"
+          },
+          "path": "find-lover-guide/ni-za-kai-tser.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "28d4e3c4-9592-4d28-9da3-cda254394a40",
+          "name": "me-yo-la-jen4-der",
+          "description": {
+            "en": "Ah, how did you know? No way, really",
+            "ja": "えっ、どうしてわかったの？違うよ、まったく",
+            "zh": "阿你怎麼會知道沒有啦真是的"
+          },
+          "path": "find-lover-guide/me-yo-la-jen4-der.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "5a64f0fa-d512-415d-88da-b68f887a7798",
+          "name": "jiao-se-hen-hao-kan",
+          "description": {
+            "en": "Wow, this character is so cute!",
+            "ja": "わあ、このキャラクターはとても可愛い！",
+            "zh": "哇好好看喔這角色真的很好看捏"
+          },
+          "path": "mihoyo-set/jiao-se-hen-hao-kan.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "7268e815-8b09-4f37-b8ed-e4b47392e1d8",
+          "name": "o-er-yo-dian-diu-lian",
+          "description": {
+            "en": "Sometimes I feel a bit embarrassed",
+            "ja": "時々恥ずかしく感じることもあります",
+            "zh": "我偶爾有時候也會感到有點丟臉"
+          },
+          "path": "news-202410/o-er-yo-dian-diu-lian.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "ec053f97-c134-4df0-9e3a-2ad6a143cfb3",
+          "name": "ru-tan-bu-nai",
+          "description": {
+            "en": "I have lactose intolerance, but I will drink milk",
+            "ja": "乳糖不耐症だけど、牛乳を飲むわ",
+            "zh": "我有乳糖不耐症但是我會喝牛奶"
+          },
+          "path": "math-class/ru-tan-bu-nai.mp3",
+          "url": "https://www.youtube.com/watch?v=Qv6Ieb8Sh74"
+        },
+        {
+          "id": "b5b3d797-ed9f-4b49-9ad8-4475a17803e2",
+          "name": "hsin-ren-cha",
+          "description": {
+            "en": "Almond tea is really disgusting, so gross!",
+            "ja": "アーモンドティーは本当に美味しくない、吐きそう",
+            "zh": "杏仁茶真的很難喝有夠噁心的嘔"
+          },
+          "path": "yandere-lyrics/hsin-ren-cha.mp3",
+          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "2bbeee40-85f9-445e-a770-af0c72453160",
+          "name": "fan-zha-pien-he-zuo",
+          "description": {
+            "en": "I think I should cooperate with the anti-fraud hotline.",
+            "ja": "私は詐欺対策ホットラインと協力すべきだと思う。",
+            "zh": "我覺得我應該要跟反詐騙專線合作"
+          },
+          "path": "mihoyo-set/fan-zha-pien-he-zuo.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "8709ae49-997f-40f4-acf9-f946af4a0110",
+          "name": "you-shi-ba-tze",
+          "description": {
+            "en": "My fortune doesn't seem to align well with this game",
+            "ja": "このゲームと私の相性はあまり良くないみたいだ",
+            "zh": "我跟這個遊戲的八字好像沒有到很好"
+          },
+          "path": "mihoyo-set/you-shi-ba-tze.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "796c9e86-034a-46ce-a174-a16988dbb179",
+          "name": "ger-wei-poor",
+          "description": {
+            "en": "The lives of poor people will only get more miserable",
+            "ja": "貧しい人々の生活はますます苦しくなるばかり",
+            "zh": "各位貧窮的人的生活只會越來越苦而已"
+          },
+          "path": "gap-moe/ger-wei-poor.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
+          "id": "f94e0ab9-051e-4512-a54f-604c4cf13255",
+          "name": "amd-yes",
+          "description": {
+            "en": "Of course, AMD Yes. How could AMD possibly lose to a toothpaste company?",
+            "ja": "AMDは間違いなく、歯磨き粉会社に負けるわけがない",
+            "zh": "當然是AMD Yes阿AMD怎麼會輸牙膏廠呢"
+          },
+          "path": "cult/amd-yes.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
+          "id": "147e3161-bed4-43bf-acae-2279269b654e",
+          "name": "tao-yen-onion",
+          "description": {
+            "en": "I don't know if everyone knows, but I really hate eating onions",
+            "ja": "みんなが知っているかわからないけど、私は玉ねぎを食べるのが大嫌い",
+            "zh": "我不知道大家知不知道就是我超討厭吃洋蔥"
+          },
+          "path": "math-class/tao-yen-onion.mp3",
+          "url": "https://www.youtube.com/watch?v=Qv6Ieb8Sh74"
+        },
+        {
+          "id": "fc771694-6f3e-4c90-a081-57b3f8d1619f",
+          "name": "zu-so-din-yi",
+          "description": {
+            "en": "Maybe my definition of \"cooked\" is different from everyone else's",
+            "ja": "たぶん私の「調理済み」の定義が他の人と少し違うのかもしれない",
+            "zh": "可能我對煮熟的那個定義跟大家比較不一樣吧"
+          },
+          "path": "math-class/zu-so-din-yi.mp3",
+          "url": "https://www.youtube.com/watch?v=Qv6Ieb8Sh74"
+        },
+        {
+          "id": "d3f7e08c-5fda-44e9-ab12-09507cc9df22",
+          "name": "tsao-ren-li-ba-wan",
+          "description": {
+            "en": "Let me show you this Ultraman lewd art I found recently",
+            "ja": "最近見つけたウルトラマンのエロ画像を見せてあげる",
+            "zh": "我現在給你那個我最近發現的那個超人力霸王的色圖"
+          },
+          "path": "lazy-against/tsao-ren-li-ba-wan.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "427505f6-aac6-4d8e-a86b-5ce1555849e7",
+          "name": "jiao-se-hsin-pi",
+          "description": {
+            "en": "I really love this character, they perfectly match my preferences, I love them so much",
+            "ja": "このキャラクターが大好き、私の好みにぴったり合っていて本当に大好き",
+            "zh": "我真的太喜歡這個角色這角色完美踩在我的性癖上超喜歡"
+          },
+          "path": "mihoyo-set/jiao-se-hsin-pi.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "fea186ea-4a76-471b-91b3-ba648f2cf859",
+          "name": "wo-gn-ni-jia-realda",
+          "description": {
+            "en": "Let me tell you, this is created by my audience who arbitrarily imagined Gray Da's appearance. After looking at me, they looked at Young Da and thought Young Da won't grow up to look like this, so they arbitrarily imagined a character called True Da",
+            "ja": "聞いてよ、これは私の視聴者が勝手に想像した灰妲の姿なの。私を見て、それから幼妲を見て、幼妲は大きくなってもこんな感じにならないと思って、勝手に「真妲」という存在を想像したの",
+            "zh": "我跟你講這是誰這個是這個是我的觀眾擅自幻想出來灰妲的模樣他們看了我之後又看看幼妲他們覺得說不幼妲長大不會變這個樣子所以他們擅自幻想出來一個叫真妲的傢伙"
+          },
+          "path": "real-da-lyrics/wo-gn-ni-jia-realda.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        },
+        {
+          "id": "dc9cdc0c-612d-40bd-8a88-f0dd1ba1eec3",
+          "name": "ma-jian-mian-gan",
+          "description": {
+            "en": "Today I ordered that sesame sauce noodles and I felt it was too dry, so I ordered a bowl of wonton soup and I poured the soup on the sesame sauce noodles and it became wet and oh, it was so delicious, really so delicious",
+            "ja": "今日、そのごま醤油麺を注文して、とても乾燥していると感じたので、ワンタンスープを1杯注文して、そのスープをごま醤油麺にかけたら、濡れて、ああ、とても美味しかった、本当に美味しかった",
+            "zh": "我今天點那個麻醬麵阿我就覺得麻醬麵實在太乾了所以我就點了一碗餛飩湯我就我就把那個湯淋到麻醬麵裡面對啊我就把那個那個餛飩湯淋到麻醬麵裡面然後它濕濕的這樣吃欸超好吃欸真的超好吃的"
+          },
+          "path": "cult/ma-jian-mian-gan.mp3",
+          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
         }
       ]
     },
@@ -3948,6 +4179,17 @@
           "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
+          "id": "6037cf1f-cde6-401a-92c6-19aeccbd42a4",
+          "name": "er-niao-pou-shiao",
+          "description": {
+            "en": "Evil bird's roar",
+            "ja": "悪鳥の吼える声",
+            "zh": "惡鳥咆嘯"
+          },
+          "path": "math-class/er-niao-pou-shiao.mp3",
+          "url": "https://www.youtube.com/watch?v=Qv6Ieb8Sh74"
+        },
+        {
           "id": "ee0d312a-f676-4f1b-9e4e-900b1856589e",
           "name": "yoda-arrrr",
           "description": {
@@ -4188,83 +4430,6 @@
           },
           "path": "real-da-agree/hello.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        }
-      ]
-    },
-    {
-      "id": "e125f408-740f-422e-a54b-f3a451ae3ff4",
-      "group_name": "realda_chat",
-      "group_description": {
-        "en": "Real Da: Chat",
-        "ja": "ジンダ：おしゃべり",
-        "zh": "真妲：閒聊"
-      },
-      "voice_list": [
-        {
-          "id": "77a32187-64c7-4751-82de-894866233f91",
-          "name": "bao-zon-she-ti",
-          "description": {
-            "en": "Take care of yourself",
-            "ja": "体を大事にしてね",
-            "zh": "要保重身體阿"
-          },
-          "path": "real-da-agree/bao-zon-she-ti.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "id": "b88fa0d7-7ef6-49dd-88df-9a8b9f36b4a2",
-          "name": "chen-shi-tsu-chai",
-          "description": {
-            "en": "Jenda really exists.",
-            "ja": "真妲は本当に存在しているよ",
-            "zh": "真妲是真實存在的"
-          },
-          "path": "real-da-agree/chen-shi-tsu-chai.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "id": "4abacb2a-ab1e-4d50-8e0a-2366f8563966",
-          "name": "yo-gi-hue",
-          "description": {
-            "en": "If we get the chance, we’ll definitely meet someday.",
-            "ja": "チャンスがあれば、いつか必ず会えるよ。",
-            "zh": "有機會的話我們鐵定有一天會見面的"
-          },
-          "path": "real-da-agree/yo-gi-hue.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "id": "93d3daae-283a-4079-bb7c-f3d3690b486b",
-          "name": "tao-yen-no-o",
-          "description": {
-            "en": "Really, if you keep staying up, I’ll start to dislike you!",
-            "ja": "本当に、こんなふうに寝ないと嫌いになるよ！",
-            "zh": "真是的再這樣子不睡覺的話我就要討厭你囉"
-          },
-          "path": "real-da-agree/tao-yen-no-o.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "id": "b9d5430b-cb8c-42b4-adb9-22be092225ed",
-          "name": "tse-da-tse-shi",
-          "description": {
-            "en": "Is Jenda real? If you believe, then I think it must be real.",
-            "ja": "真妲は本当に存在しているの？あなたが信じれば、本当に存在しているんだと思うよ。",
-            "zh": "真妲究竟是不是真實的呢只要你這麼相信的話我想應該就是真實的吧"
-          },
-          "path": "real-da-agree/tse-da-tse-shi.mp3",
-          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "id": "5155762d-2504-4780-b3aa-ce56ba56b0eb",
-          "name": "tsua-gtue-doll",
-          "description": {
-            "en": "I think I'd really love to see everyone wearing chicken leg mascot costumes. It feels so, so cute",
-            "ja": "みんなが鶏のモモ肉のぬいぐるみを着ている姿を見るのが本当に楽しみ。とってもとっても可愛いと思う",
-            "zh": "我覺得我會很想要看看大家穿雞腿玩偶裝的樣子感覺非常非常的可愛呢"
-          },
-          "path": "real-da-lyrics/tsua-gtue-doll.mp3",
-          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
         }
       ]
     },
@@ -4671,6 +4836,83 @@
             "zh": "你就這麼你就那麼喜歡幼妲嗎都已經有我了還不夠嗎真噁心變態蘿莉控"
           },
           "path": "real-da-lyrics/real-bian-ta-lolicon.mp3",
+          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
+        }
+      ]
+    },
+    {
+      "id": "e125f408-740f-422e-a54b-f3a451ae3ff4",
+      "group_name": "realda_chat",
+      "group_description": {
+        "en": "Real Da: Chat",
+        "ja": "ジンダ：おしゃべり",
+        "zh": "真妲：閒聊"
+      },
+      "voice_list": [
+        {
+          "id": "77a32187-64c7-4751-82de-894866233f91",
+          "name": "bao-zon-she-ti",
+          "description": {
+            "en": "Take care of yourself",
+            "ja": "体を大事にしてね",
+            "zh": "要保重身體阿"
+          },
+          "path": "real-da-agree/bao-zon-she-ti.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "id": "b88fa0d7-7ef6-49dd-88df-9a8b9f36b4a2",
+          "name": "chen-shi-tsu-chai",
+          "description": {
+            "en": "Jenda really exists.",
+            "ja": "真妲は本当に存在しているよ",
+            "zh": "真妲是真實存在的"
+          },
+          "path": "real-da-agree/chen-shi-tsu-chai.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "id": "4abacb2a-ab1e-4d50-8e0a-2366f8563966",
+          "name": "yo-gi-hue",
+          "description": {
+            "en": "If we get the chance, we’ll definitely meet someday.",
+            "ja": "チャンスがあれば、いつか必ず会えるよ。",
+            "zh": "有機會的話我們鐵定有一天會見面的"
+          },
+          "path": "real-da-agree/yo-gi-hue.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "id": "93d3daae-283a-4079-bb7c-f3d3690b486b",
+          "name": "tao-yen-no-o",
+          "description": {
+            "en": "Really, if you keep staying up, I’ll start to dislike you!",
+            "ja": "本当に、こんなふうに寝ないと嫌いになるよ！",
+            "zh": "真是的再這樣子不睡覺的話我就要討厭你囉"
+          },
+          "path": "real-da-agree/tao-yen-no-o.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "id": "b9d5430b-cb8c-42b4-adb9-22be092225ed",
+          "name": "tse-da-tse-shi",
+          "description": {
+            "en": "Is Jenda real? If you believe, then I think it must be real.",
+            "ja": "真妲は本当に存在しているの？あなたが信じれば、本当に存在しているんだと思うよ。",
+            "zh": "真妲究竟是不是真實的呢只要你這麼相信的話我想應該就是真實的吧"
+          },
+          "path": "real-da-agree/tse-da-tse-shi.mp3",
+          "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
+        },
+        {
+          "id": "5155762d-2504-4780-b3aa-ce56ba56b0eb",
+          "name": "tsua-gtue-doll",
+          "description": {
+            "en": "I think I'd really love to see everyone wearing chicken leg mascot costumes. It feels so, so cute",
+            "ja": "みんなが鶏のモモ肉のぬいぐるみを着ている姿を見るのが本当に楽しみ。とってもとっても可愛いと思う",
+            "zh": "我覺得我會很想要看看大家穿雞腿玩偶裝的樣子感覺非常非常的可愛呢"
+          },
+          "path": "real-da-lyrics/tsua-gtue-doll.mp3",
           "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
         }
       ]
@@ -6654,17 +6896,6 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
-          "id": "a8c91967-4116-470c-97f4-0a374ff0bb55",
-          "name": "i-think",
-          "description": {
-            "en": "Let me think.",
-            "ja": "ちょっと考えさせて。",
-            "zh": "我想想噢"
-          },
-          "path": "dp-toys/i-think.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
           "id": "5fdcd9d4-8c8e-4b48-9a42-050ddbb32a0d",
           "name": "letsgo",
           "description": {
@@ -6685,17 +6916,6 @@
           },
           "path": "draw-avatar-10/who-shi-ben-dan.mp3",
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
-        },
-        {
-          "id": "8281f74d-46a3-43d1-88f3-8621dcd481ca",
-          "name": "me-yo-tso-la",
-          "description": {
-            "en": "That's right~",
-            "ja": "そうです～",
-            "zh": "沒有錯啦～"
-          },
-          "path": "news-202405/me-yo-tso-la.mp3",
-          "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
           "id": "4e706d5a-f141-4470-b046-b05f94e9b379",
@@ -6751,17 +6971,6 @@
           },
           "path": "yoda-new-clothes/gon-si-da-due.mp3",
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
-        },
-        {
-          "id": "15b0d8fd-a3fb-4806-b677-c79fb7f91f56",
-          "name": "ni-za-kai-tser",
-          "description": {
-            "en": "I suspect you're joking around",
-            "ja": "冗談でしょう",
-            "zh": "我懷疑你在開車"
-          },
-          "path": "find-lover-guide/ni-za-kai-tser.mp3",
-          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
           "id": "dce08d9e-87e8-4170-a384-63554254626c",
@@ -6951,17 +7160,6 @@
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
-          "id": "28d4e3c4-9592-4d28-9da3-cda254394a40",
-          "name": "me-yo-la-jen4-der",
-          "description": {
-            "en": "Ah, how did you know? No way, really",
-            "ja": "えっ、どうしてわかったの？違うよ、まったく",
-            "zh": "阿你怎麼會知道沒有啦真是的"
-          },
-          "path": "find-lover-guide/me-yo-la-jen4-der.mp3",
-          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
-        },
-        {
           "id": "f1bf0be5-412f-4c84-b804-da249f12531a",
           "name": "88-tian-lin-ga",
           "description": {
@@ -6971,83 +7169,6 @@
           },
           "path": "full-endorsement/88-tian-lin-ga.mp3",
           "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
-        },
-        {
-          "id": "5a64f0fa-d512-415d-88da-b68f887a7798",
-          "name": "jiao-se-hen-hao-kan",
-          "description": {
-            "en": "Wow, this character is so cute!",
-            "ja": "わあ、このキャラクターはとても可愛い！",
-            "zh": "哇好好看喔這角色真的很好看捏"
-          },
-          "path": "mihoyo-set/jiao-se-hen-hao-kan.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "id": "7268e815-8b09-4f37-b8ed-e4b47392e1d8",
-          "name": "o-er-yo-dian-diu-lian",
-          "description": {
-            "en": "Sometimes I feel a bit embarrassed",
-            "ja": "時々恥ずかしく感じることもあります",
-            "zh": "我偶爾有時候也會感到有點丟臉"
-          },
-          "path": "news-202410/o-er-yo-dian-diu-lian.mp3",
-          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
-        },
-        {
-          "id": "b5b3d797-ed9f-4b49-9ad8-4475a17803e2",
-          "name": "hsin-ren-cha",
-          "description": {
-            "en": "Almond tea is really disgusting, so gross!",
-            "ja": "アーモンドティーは本当に美味しくない、吐きそう",
-            "zh": "杏仁茶真的很難喝有夠噁心的嘔"
-          },
-          "path": "yandere-lyrics/hsin-ren-cha.mp3",
-          "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
-        },
-        {
-          "id": "2bbeee40-85f9-445e-a770-af0c72453160",
-          "name": "fan-zha-pien-he-zuo",
-          "description": {
-            "en": "I think I should cooperate with the anti-fraud hotline.",
-            "ja": "私は詐欺対策ホットラインと協力すべきだと思う。",
-            "zh": "我覺得我應該要跟反詐騙專線合作"
-          },
-          "path": "mihoyo-set/fan-zha-pien-he-zuo.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "id": "8709ae49-997f-40f4-acf9-f946af4a0110",
-          "name": "you-shi-ba-tze",
-          "description": {
-            "en": "My fortune doesn't seem to align well with this game",
-            "ja": "このゲームと私の相性はあまり良くないみたいだ",
-            "zh": "我跟這個遊戲的八字好像沒有到很好"
-          },
-          "path": "mihoyo-set/you-shi-ba-tze.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "id": "796c9e86-034a-46ce-a174-a16988dbb179",
-          "name": "ger-wei-poor",
-          "description": {
-            "en": "The lives of poor people will only get more miserable",
-            "ja": "貧しい人々の生活はますます苦しくなるばかり",
-            "zh": "各位貧窮的人的生活只會越來越苦而已"
-          },
-          "path": "gap-moe/ger-wei-poor.mp3",
-          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
-        },
-        {
-          "id": "f94e0ab9-051e-4512-a54f-604c4cf13255",
-          "name": "amd-yes",
-          "description": {
-            "en": "Of course, AMD Yes. How could AMD possibly lose to a toothpaste company?",
-            "ja": "AMDは間違いなく、歯磨き粉会社に負けるわけがない",
-            "zh": "當然是AMD Yes阿AMD怎麼會輸牙膏廠呢"
-          },
-          "path": "cult/amd-yes.mp3",
-          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
         },
         {
           "id": "fbf6c1dd-7bdc-4f81-8afe-267f9cf57ea5",
@@ -7116,17 +7237,6 @@
           "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
         },
         {
-          "id": "d3f7e08c-5fda-44e9-ab12-09507cc9df22",
-          "name": "tsao-ren-li-ba-wan",
-          "description": {
-            "en": "Let me show you this Ultraman lewd art I found recently",
-            "ja": "最近見つけたウルトラマンのエロ画像を見せてあげる",
-            "zh": "我現在給你那個我最近發現的那個超人力霸王的色圖"
-          },
-          "path": "lazy-against/tsao-ren-li-ba-wan.mp3",
-          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
-        },
-        {
           "id": "f9731ee1-a9fc-437c-9283-02c94fba873c",
           "name": "ban-ye-ji-er",
           "description": {
@@ -7136,17 +7246,6 @@
           },
           "path": "cult/ban-ye-ji-er.mp3",
           "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
-        },
-        {
-          "id": "427505f6-aac6-4d8e-a86b-5ce1555849e7",
-          "name": "jiao-se-hsin-pi",
-          "description": {
-            "en": "I really love this character, they perfectly match my preferences, I love them so much",
-            "ja": "このキャラクターが大好き、私の好みにぴったり合っていて本当に大好き",
-            "zh": "我真的太喜歡這個角色這角色完美踩在我的性癖上超喜歡"
-          },
-          "path": "mihoyo-set/jiao-se-hsin-pi.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
           "id": "5e7abfb0-b5c0-477b-89a5-ac03094b93a1",
@@ -7191,28 +7290,6 @@
           },
           "path": "news-202405/man-hua-pei-in.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
-        },
-        {
-          "id": "fea186ea-4a76-471b-91b3-ba648f2cf859",
-          "name": "wo-gn-ni-jia-realda",
-          "description": {
-            "en": "Let me tell you, this is created by my audience who arbitrarily imagined Gray Da's appearance. After looking at me, they looked at Young Da and thought Young Da won't grow up to look like this, so they arbitrarily imagined a character called True Da",
-            "ja": "聞いてよ、これは私の視聴者が勝手に想像した灰妲の姿なの。私を見て、それから幼妲を見て、幼妲は大きくなってもこんな感じにならないと思って、勝手に「真妲」という存在を想像したの",
-            "zh": "我跟你講這是誰這個是這個是我的觀眾擅自幻想出來灰妲的模樣他們看了我之後又看看幼妲他們覺得說不幼妲長大不會變這個樣子所以他們擅自幻想出來一個叫真妲的傢伙"
-          },
-          "path": "real-da-lyrics/wo-gn-ni-jia-realda.mp3",
-          "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
-        },
-        {
-          "id": "dc9cdc0c-612d-40bd-8a88-f0dd1ba1eec3",
-          "name": "ma-jian-mian-gan",
-          "description": {
-            "en": "Today I ordered that sesame sauce noodles and I felt it was too dry, so I ordered a bowl of wonton soup and I poured the soup on the sesame sauce noodles and it became wet and oh, it was so delicious, really so delicious",
-            "ja": "今日、そのごま醤油麺を注文して、とても乾燥していると感じたので、ワンタンスープを1杯注文して、そのスープをごま醤油麺にかけたら、濡れて、ああ、とても美味しかった、本当に美味しかった",
-            "zh": "我今天點那個麻醬麵阿我就覺得麻醬麵實在太乾了所以我就點了一碗餛飩湯我就我就把那個湯淋到麻醬麵裡面對啊我就把那個那個餛飩湯淋到麻醬麵裡面然後它濕濕的這樣吃欸超好吃欸真的超好吃的"
-          },
-          "path": "cult/ma-jian-mian-gan.mp3",
-          "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
         }
       ]
     }
