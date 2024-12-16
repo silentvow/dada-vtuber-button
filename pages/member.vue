@@ -177,7 +177,7 @@ export default {
         this.$config.DISCORD_CLIENT_ID
       }&redirect_uri=${encodeURIComponent(
         this.$config.DISCORD_REDIRECT_URI
-      )}&response_type=token&scope=identify%20guilds%20guilds.members.read`;
+      )}&response_type=token&prompt=none&scope=identify%20guilds%20guilds.members.read`;
       window.location.href = discordAuthUrl;
     },
     logout() {
