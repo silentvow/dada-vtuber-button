@@ -55,6 +55,11 @@
     "stop": "Stop Playing"
   },
   "member": {
+    "error_authorization_required": "Discord account link has expired.",
+    "error_forbidden": "Failed to access Discord, please try again later.",
+    "error_get_member": "Failed to get member information, please try again later.",
+    "error_logout": "Logged out. Please re-authenticate.",
+    "error_not_found": "Member role not found.",
     "link_discord": "Link Discord Account",
     "loading": "Loading...",
     "member_area": "Member Area",

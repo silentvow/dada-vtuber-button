@@ -55,6 +55,11 @@
     "stop": "停止"
   },
   "member": {
+    "error_authorization_required": "Discord帳號未連結或連結已過期。",
+    "error_forbidden": "存取Discord失敗，請稍後再試。",
+    "error_get_member": "獲取會員資訊失敗，請稍後再試。",
+    "error_logout": "已登出，請重新連結Discord。",
+    "error_not_found": "找不到會員身分組。",
     "link_discord": "連結 Discord 帳號",
     "loading": "載入中...",
     "member_area": "會員專區",

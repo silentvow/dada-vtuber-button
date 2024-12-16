@@ -10,7 +10,7 @@
         </v-card-text>
 
         <v-card-text v-else-if="error">
-          <v-alert type="error" outlined>{{ error }}</v-alert>
+          <v-alert type="error" outlined>{{ $t(error) }}</v-alert>
           <v-btn
             v-if="account"
             large
@@ -150,25 +150,27 @@ export default {
 
         const accountRes = await fetch(`${this.$config.DISCORD_API_BASE}/users/@me`, { headers });
         if (accountRes.status === 401) {
-          throw new Error('Authorization required');
+          throw new Error('member.error_authorization_required');
         } else if (accountRes.status === 403) {
-          throw new Error('Forbidden');
+          throw new Error('member.error_forbidden');
         } else if (!accountRes.ok) {
-          throw new Error('Failed to fetch account info');
+          throw new Error('member.error_get_member');
         }
         this.account = await accountRes.json();
 
         const memberRes = await fetch(`${this.$config.DISCORD_API_BASE}/users/@me/guilds/959421169629560892/member`, {
           headers
         });
-        if (!memberRes.ok) {
-          throw new Error('Failed to fetch member info');
+        if (memberRes.status === 404) {
+          throw new Error('member.error_not_found');
+        } else if (!memberRes.ok) {
+          throw new Error('member.error_get_member');
         }
         this.member = await memberRes.json();
 
         this.loading = false;
       } catch (err) {
-        this.error = err.message || 'Authorization required';
+        this.error = err.message || 'member.error_authorization_required';
         this.loading = false;
       }
     },
@@ -184,7 +186,7 @@ export default {
       this.$cookies.remove('discord_token');
       this.account = null;
       this.member = null;
-      this.error = 'Logged out. Please re-authenticate.';
+      this.error = 'member.error_logout';
     },
     send_google_event(item) {
       if (process.client && process.env.NODE_ENV === 'production') {
