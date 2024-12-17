@@ -219,6 +219,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "fe2b39c3-3761-49f5-8105-2ec99319076a",
+          "name": "bye-za-jie-wan-an",
+          "description": {
+            "en": "Bye-bye~ Goodbye~ Good night~",
+            "ja": "バイバイ〜さようなら〜おやすみ〜",
+            "zh": "掰掰～再見～晚安～"
+          },
+          "path": "rainy-night/bye-za-jie-wan-an.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "3a173a6e-9724-4427-ac36-0566bb249be7",
           "name": "how-are-you",
           "description": {
@@ -283,6 +294,17 @@
           },
           "path": "find-lover-guide/ni-hao-hue-o.mp3",
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "356e3391-b4de-46a6-ae03-c617f47e5257",
+          "name": "very-very-good",
+          "description": {
+            "en": "You're also very, very, very great",
+            "ja": "あなたもとてもとてもとてもすごいよ",
+            "zh": "你也非常非常非常棒喔"
+          },
+          "path": "rainy-night/very-very-good.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         },
         {
           "id": "6ba2824e-e21a-4838-ad0e-6d0fe16524c4",
@@ -1308,6 +1330,17 @@
           "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
         },
         {
+          "id": "6da51ae3-0897-4b59-99ea-e607ea43fe47",
+          "name": "sleep-shan-bang",
+          "description": {
+            "en": "Sleep well~ Sleep well~ Still have to go to work tomorrow~",
+            "ja": "おとなしく眠れ〜ちゃんと眠れ〜明日もまた仕事だよ〜",
+            "zh": "乖乖睡～好好睡～明天還是要上班～"
+          },
+          "path": "rainy-night/sleep-shan-bang.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "a52ec862-6f82-4d34-80d4-ad204e957d01",
           "name": "ji-her-chan-ji-her",
           "description": {
@@ -1330,6 +1363,17 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "06a4643a-388c-4a80-9028-15eb32f5f28c",
+          "name": "boss-yo-yon",
+          "description": {
+            "en": "Fighting, office worker~ Keep being an office worker~ This way, the boss will think you're useful~",
+            "ja": "頑張れ、社畜〜社畜であり続けて〜そうすれば、上司はあなたが役に立つと思うよ〜",
+            "zh": "社畜加油～要繼續當社畜～這樣老闆才會覺得你很有用唷～"
+          },
+          "path": "rainy-night/boss-yo-yon.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "4ee40b6f-0cf5-4497-8005-38d6d7ec1c5a",
           "name": "nene-bu-gi-zan",
           "description": {
@@ -1350,6 +1394,17 @@
           },
           "path": "halloween-2022/4shen-yuan-wan.mp3",
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "59b99bf6-250e-4c2a-80e0-1b6aec806d3d",
+          "name": "zao-zan-dan",
+          "description": {
+            "en": "You're back, so do you want to clean the house first, or eat first, or pay the bills first?",
+            "ja": "帰ってきたから、先に家を掃除する？先に食べる？先に請求書を払う？",
+            "zh": "回來了那麼你想要先打掃家裡呢還是想要先吃飯呢還是想要先去繳帳單呢"
+          },
+          "path": "rainy-night/zao-zan-dan.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         },
         {
           "id": "896550a6-a2cf-4893-a09b-e71217c7059c",
@@ -1473,6 +1528,17 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "825bb0c7-598b-46af-bbc4-f263f47018b8",
+          "name": "zao-dian-sleep",
+          "description": {
+            "en": "Go to sleep early~ Go to sleep early~ Go to sleep early~",
+            "ja": "早く寝て〜早く寝て〜早く寝て〜",
+            "zh": "早點睡～早點睡～早點睡覺～"
+          },
+          "path": "rainy-night/zao-dian-sleep.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "8fd12915-06e0-416e-b9f0-1a711fe922b4",
           "name": "ye-bu-s-bu-hsin",
           "description": {
@@ -1526,6 +1592,17 @@
           },
           "path": "valentine-lyrics/spring-coming.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "64f3ed30-554a-4391-8eba-9bbb8ce8e89a",
+          "name": "bang-ni-hu-hu",
+          "description": {
+            "en": "Every day is so miserable, I'll comfort you~ Oh, poor thing, whimper whimper~",
+            "ja": "毎日そんなに惨めだから慰めてあげるね〜ああ、かわいそうに、むずむずむずむず〜",
+            "zh": "每天都過得那麼慘幫你呼呼喔～好可憐喔呼呼呼呼～"
+          },
+          "path": "rainy-night/bang-ni-hu-hu.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         },
         {
           "id": "0425fab1-bcb4-44f8-a481-c37b3d857ea6",
@@ -2087,6 +2164,17 @@
           },
           "path": "halloween-2022/wo-z4-tse-mo-hue.mp3",
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "4c80afec-1624-4b13-801b-95a565480f2a",
+          "name": "want-much-money",
+          "description": {
+            "en": "I want, I want lots of money~ Don't want to work overtime anymore~ Don't want to be an office worker anymore~ Don't want to clock in for help anymore~ Don't want to face annoying colleagues anymore~",
+            "ja": "欲しい、欲しい、たくさんのお金〜もう残業したくない〜社畜になりたくない〜打刻を手伝いたくない〜うざい同僚と向き合いたくない〜",
+            "zh": "我想要我想要好多的錢～不想再加班了～不想再被當社畜了～不想再被幫忙打卡了～不想再面對機車的同事了～"
+          },
+          "path": "rainy-night/want-much-money.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         }
       ]
     },
@@ -2452,6 +2540,17 @@
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
+          "id": "dfc5af69-5e00-44fb-990f-ec219b10f36d",
+          "name": "nai-zue",
+          "description": {
+            "en": "Sucking on a pacifier sound",
+            "ja": "おしゃぶりを吸う音",
+            "zh": "咬奶嘴叫聲"
+          },
+          "path": "rainy-night/nai-zue.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "fae6bf4b-b180-4e29-9292-4fe352fa4b55",
           "name": "miao-miao-miao",
           "description": {
@@ -2571,6 +2670,17 @@
           },
           "path": "full-endorsement/gu-lu-lin-bo.mp3",
           "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
+          "id": "94459f2e-c609-425b-b433-5385877c9e60",
+          "name": "pika-chu",
+          "description": {
+            "en": "Pika~ Chu~",
+            "ja": "ピカ〜チュ〜",
+            "zh": "皮卡～丘～"
+          },
+          "path": "rainy-night/pika-chu.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         },
         {
           "id": "6ef30e0a-877b-4d6c-ad36-86b75b4ca7ba",
@@ -2980,6 +3090,17 @@
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
+          "id": "e819ebaf-c082-43dc-81b9-5acf8bfc0e9b",
+          "name": "tsao-ker-ai",
+          "description": {
+            "en": "I know I'm super cute~",
+            "ja": "私が超かわいいこと、わかってるよ〜",
+            "zh": "我也知道我超可愛的～"
+          },
+          "path": "rainy-night/tsao-ker-ai.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "28d4e3c4-9592-4d28-9da3-cda254394a40",
           "name": "me-yo-la-jen4-der",
           "description": {
@@ -3112,6 +3233,17 @@
           "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
         },
         {
+          "id": "9fe73f1c-a197-4982-8c13-a3a77b1faeac",
+          "name": "tsao-piau-sa-ba-za",
+          "description": {
+            "en": "My dream is to win the lottery, get rich, and then slap the audience with cash",
+            "ja": "宝くじに当たって大金を稼いで、観客の顔に紙幣を叩きつけるのが夢",
+            "zh": "我的夢想是中威力彩發大財然後拿鈔票甩觀眾的巴掌"
+          },
+          "path": "rainy-night/tsao-piau-sa-ba-za.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "427505f6-aac6-4d8e-a86b-5ce1555849e7",
           "name": "jiao-se-hsin-pi",
           "description": {
@@ -3121,6 +3253,17 @@
           },
           "path": "mihoyo-set/jiao-se-hsin-pi.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "ca500285-640f-4748-9a16-483eab43aedd",
+          "name": "na-mo-sue-shiao",
+          "description": {
+            "en": "Sometimes before sleeping, I wonder why I'm so unlucky, you know?",
+            "ja": "寝る前に、なぜ自分がそんなに運が悪いのか考えることがあるんだ、わかる？",
+            "zh": "我有的時候在睡前我會我也在想說為什麼自己那麼衰小你知道嗎"
+          },
+          "path": "rainy-night/na-mo-sue-shiao.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         },
         {
           "id": "fea186ea-4a76-471b-91b3-ba648f2cf859",
@@ -3244,6 +3387,17 @@
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
+          "id": "2b3ac1b9-9660-4fc1-b02c-5e9a742156a1",
+          "name": "yoda-hello-hello",
+          "description": {
+            "en": "Hello~ Hello~",
+            "ja": "こんにちは〜こんにちは〜",
+            "zh": "哈囉～哈囉～"
+          },
+          "path": "rainy-night/yoda-hello-hello.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "2712bc85-e28e-45df-a59a-97e3c23ccb11",
           "name": "qin-duo-z-jiao",
           "description": {
@@ -3321,6 +3475,28 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "cd332f1f-e9cb-4cc8-b0ce-31d27448b0c2",
+          "name": "yoda-jie-jie",
+          "description": {
+            "en": "Sister~",
+            "ja": "お姉ちゃん〜",
+            "zh": "姐姐～"
+          },
+          "path": "rainy-night/yoda-jie-jie.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
+          "id": "c8e3c35e-d3ba-4967-90ab-26740415a44a",
+          "name": "yoda-wakeup",
+          "description": {
+            "en": "Wake up",
+            "ja": "起きて",
+            "zh": "醒醒吧"
+          },
+          "path": "rainy-night/yoda-wakeup.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "c0dcd888-61a9-4140-acb0-37aac8b3d971",
           "name": "weee",
           "description": {
@@ -3354,6 +3530,17 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "2efef231-e6e0-4dcd-b0d7-846b377035c8",
+          "name": "yoda-oni-chan",
+          "description": {
+            "en": "Onii-chan~",
+            "ja": "お兄ちゃん〜",
+            "zh": "歐尼醬～"
+          },
+          "path": "rainy-night/yoda-oni-chan.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "04bdc36b-8f01-4857-9862-44b4fe78552a",
           "name": "yoda-moe-moe-chu",
           "description": {
@@ -3385,6 +3572,17 @@
           },
           "path": "halloween-2022/pi-ka-chu.mp3",
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "5fb0064b-e79c-4777-8d85-c136a20e15a4",
+          "name": "yoda-pika-chu",
+          "description": {
+            "en": "Pika~ Chu~~",
+            "ja": "ピカ〜チュ〜〜",
+            "zh": "皮卡～丘～～"
+          },
+          "path": "rainy-night/yoda-pika-chu.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         },
         {
           "id": "2e9fab3a-06c4-481c-80cf-4134a73d2eb1",
@@ -3464,6 +3662,28 @@
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
+          "id": "e02b843e-b14e-4b9a-af6b-c22355f62ca2",
+          "name": "ai-ni-yo-5ma",
+          "description": {
+            "en": "Love you~5ma",
+            "ja": "愛してるよ〜5ma",
+            "zh": "愛你唷～5ma"
+          },
+          "path": "rainy-night/ai-ni-yo-5ma.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
+          "id": "16a1768b-90d4-4431-9a17-42df73312e3f",
+          "name": "yoda-not-you-bad",
+          "description": {
+            "en": "It's not your fault",
+            "ja": "あなたのせいじゃないよ",
+            "zh": "不是你的錯喔"
+          },
+          "path": "rainy-night/yoda-not-you-bad.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "05425082-2c65-4164-89a1-789fec42868b",
           "name": "zue-si-hua-da-jia",
           "description": {
@@ -3473,6 +3693,17 @@
           },
           "path": "yoda-new-clothes/zue-si-hua-da-jia.mp3",
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
+          "id": "c54376b2-2843-4472-80ec-0fe04e0045b9",
+          "name": "ni-hen-bang-ler",
+          "description": {
+            "en": "You're already great",
+            "ja": "あなたはもうすごいよ",
+            "zh": "你已經很棒了喔"
+          },
+          "path": "rainy-night/ni-hen-bang-ler.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         },
         {
           "id": "e299bc8f-1c7e-4c7d-8d01-d73d5446c6fb",
@@ -3550,6 +3781,17 @@
           },
           "path": "yoda-girlfriend/bu-yao-bu-yao.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "dae9fdf1-5924-4f62-b956-fbfb85413d25",
+          "name": "za-hua-bad",
+          "description": {
+            "en": "Bad words bad bad naughty",
+            "ja": "悪い言葉バッドバッド悪い",
+            "zh": "髒話bad bad壞壞"
+          },
+          "path": "rainy-night/za-hua-bad.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         },
         {
           "id": "204d9325-d987-4618-9b21-f46039f2d308",
@@ -3673,6 +3915,17 @@
       },
       "voice_list": [
         {
+          "id": "48d80a10-685a-4e37-980d-a90c242c49f4",
+          "name": "hao-gua-hao-gua",
+          "description": {
+            "en": "So good, so good",
+            "ja": "とてもいい、とてもいい",
+            "zh": "好乖好乖喔"
+          },
+          "path": "rainy-night/hao-gua-hao-gua.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "644420e2-c0e7-48ab-88d1-490541037b0b",
           "name": "lao-gon-ai-ni-o",
           "description": {
@@ -3695,6 +3948,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "8197e286-dd90-4d84-8fc6-473c87f9ccb8",
+          "name": "lucky-5ma",
+          "description": {
+            "en": "Be good, don't cry~ Here's lucky 5ma~ 5ma~",
+            "ja": "おとなしく、泣かないでね〜幸運の5maをあげるね〜5ma〜",
+            "zh": "乖乖不要哭喔～給你幸運的5ma～5ma～"
+          },
+          "path": "rainy-night/lucky-5ma.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "813c274e-699f-451b-873e-fee1078e84d7",
           "name": "sue-jiao-ou-ya",
           "description": {
@@ -3704,6 +3968,17 @@
           },
           "path": "yoda-girlfriend/sue-jiao-ou-ya.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "219bba23-cb8d-431e-91ef-ff1cff8f0c62",
+          "name": "now-bad-after-good",
+          "description": {
+            "en": "Things are a bit tough now~ But it'll get better later~ That means you've used up all your bad luck~ From now on, it'll be good luck~",
+            "ja": "今は少し大変〜でも後で良くなるよ〜つまり、あなたの不運はもう使い果たされたってこと〜これからは幸運だよ〜",
+            "zh": "現在過得比較不好～之後會變得比較好喔～那代表你的那個厄運已經花完了～接下來都會是好運喔～"
+          },
+          "path": "rainy-night/now-bad-after-good.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         }
       ]
     },
