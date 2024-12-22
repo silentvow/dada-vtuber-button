@@ -1297,6 +1297,17 @@
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
+          "id": "cceec2fb-bc74-44c2-8e93-4f061ac4829c",
+          "name": "na-wu-da-bo",
+          "description": {
+            "en": "Namo~ Great Buddha~",
+            "ja": "南無〜大仏様〜",
+            "zh": "南無～大波陀佛～"
+          },
+          "path": "self-chat/na-wu-da-bo.mp3",
+          "url": "https://www.youtube.com/watch?v=-2FM0ZN7Kys"
+        },
+        {
           "id": "9d141051-f69f-4d43-9e08-58053f89364a",
           "name": "sho-gan-ba",
           "description": {
@@ -1330,17 +1341,6 @@
           "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
         },
         {
-          "id": "6da51ae3-0897-4b59-99ea-e607ea43fe47",
-          "name": "sleep-shan-bang",
-          "description": {
-            "en": "Sleep well~ Sleep well~ Still have to go to work tomorrow~",
-            "ja": "おとなしく眠れ〜ちゃんと眠れ〜明日もまた仕事だよ〜",
-            "zh": "乖乖睡～好好睡～明天還是要上班～"
-          },
-          "path": "rainy-night/sleep-shan-bang.mp3",
-          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
-        },
-        {
           "id": "a52ec862-6f82-4d34-80d4-ad204e957d01",
           "name": "ji-her-chan-ji-her",
           "description": {
@@ -1361,17 +1361,6 @@
           },
           "path": "valentine-lyrics/don-liu-don-don.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
-          "id": "06a4643a-388c-4a80-9028-15eb32f5f28c",
-          "name": "boss-yo-yon",
-          "description": {
-            "en": "Fighting, office worker~ Keep being an office worker~ This way, the boss will think you're useful~",
-            "ja": "頑張れ、社畜〜社畜であり続けて〜そうすれば、上司はあなたが役に立つと思うよ〜",
-            "zh": "社畜加油～要繼續當社畜～這樣老闆才會覺得你很有用唷～"
-          },
-          "path": "rainy-night/boss-yo-yon.mp3",
-          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         },
         {
           "id": "4ee40b6f-0cf5-4497-8005-38d6d7ec1c5a",
@@ -2529,6 +2518,17 @@
       },
       "voice_list": [
         {
+          "id": "ad288691-f5db-4bdc-97c9-cf844e9d0493",
+          "name": "strange-sample",
+          "description": {
+            "en": "Sound effect example",
+            "ja": "音声効果例",
+            "zh": "怪聲範例"
+          },
+          "path": "self-chat/strange-sample.mp3",
+          "url": "https://www.youtube.com/watch?v=-2FM0ZN7Kys"
+        },
+        {
           "id": "45f6e420-cc92-44dc-adc8-e0b17a18e1f9",
           "name": "in-water-1",
           "description": {
@@ -3585,6 +3585,17 @@
           "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         },
         {
+          "id": "d3ad9104-9033-4e59-a5d7-7f0af06ee4c7",
+          "name": "eat-one-a",
+          "description": {
+            "en": "Want a bite? Aah~",
+            "ja": "一口食べる？あ〜ん",
+            "zh": "吃一口嗎？啊～"
+          },
+          "path": "yoda-dating/eat-one-a.mp3",
+          "url": "https://www.youtube.com/watch?v=gpTSvon5eL8"
+        },
+        {
           "id": "2e9fab3a-06c4-481c-80cf-4134a73d2eb1",
           "name": "yao-candy-ma",
           "description": {
@@ -3650,6 +3661,17 @@
         "zh": "幼妲：肯定"
       },
       "voice_list": [
+        {
+          "id": "b40b1707-e9ff-4a2f-8199-a5f0fdf6de9b",
+          "name": "yoda-ni-hao-ban",
+          "description": {
+            "en": "You're so great",
+            "ja": "あなたはとても素晴らしいね",
+            "zh": "你好棒喔"
+          },
+          "path": "yoda-dating/yoda-ni-hao-ban.mp3",
+          "url": "https://www.youtube.com/watch?v=gpTSvon5eL8"
+        },
         {
           "id": "829ce3fe-a0e3-4d87-9905-8a5921f68285",
           "name": "zue-si-hua-ni",
@@ -3772,6 +3794,28 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "68aa4520-6ee6-4c34-b0a2-a377f8308b6a",
+          "name": "you-too-bad",
+          "description": {
+            "en": "You're so bad~",
+            "ja": "あなたは悪い子ね〜",
+            "zh": "你好壞喔～"
+          },
+          "path": "yoda-dating/you-too-bad.mp3",
+          "url": "https://www.youtube.com/watch?v=gpTSvon5eL8"
+        },
+        {
+          "id": "b97a4138-bddb-4771-9a59-cc332489a243",
+          "name": "si-si-ser-chu",
+          "description": {
+            "en": "Wake up, office worker",
+            "ja": "目を覚ませ、社畜",
+            "zh": "醒醒吧社畜"
+          },
+          "path": "yoda-dating/si-si-ser-chu.mp3",
+          "url": "https://www.youtube.com/watch?v=gpTSvon5eL8"
+        },
+        {
           "id": "839acb9a-330b-4ece-a148-b26e344d1e90",
           "name": "bu-yao-bu-yao",
           "description": {
@@ -3792,6 +3836,17 @@
           },
           "path": "rainy-night/za-hua-bad.mp3",
           "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
+          "id": "7bd085e7-44e5-4a70-8119-205b562650c5",
+          "name": "this-dao-di4",
+          "description": {
+            "en": "What on earth is this?",
+            "ja": "これは一体何なの？",
+            "zh": "這個到底是什麼啊"
+          },
+          "path": "yoda-dating/this-dao-di4.mp3",
+          "url": "https://www.youtube.com/watch?v=gpTSvon5eL8"
         },
         {
           "id": "204d9325-d987-4618-9b21-f46039f2d308",
@@ -3871,6 +3926,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "66c5aabf-0875-47d8-bf80-1810a7c095fb",
+          "name": "bring-parrot-chicken",
+          "description": {
+            "en": "Who would take a parrot to eat fried chicken?",
+            "ja": "誰がオウムを連れて唐揚げを食べに行くの？",
+            "zh": "怎麼會有人帶鸚鵡去吃炸雞啦"
+          },
+          "path": "yoda-dating/bring-parrot-chicken.mp3",
+          "url": "https://www.youtube.com/watch?v=gpTSvon5eL8"
+        },
+        {
           "id": "86328bf1-5eb4-44c6-b37c-9db46b204559",
           "name": "lolicon-chu-sian-ler",
           "description": {
@@ -3948,6 +4014,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "42af5c7b-233d-4acc-99bf-2a822999a60b",
+          "name": "how-how-sleep",
+          "description": {
+            "en": "Sleep well~ Be good and sleep~",
+            "ja": "ゆっくり寝てね〜おとなしく寝てね〜",
+            "zh": "好好地睡覺吧～乖乖睡喔～"
+          },
+          "path": "yoda-dating/how-how-sleep.mp3",
+          "url": "https://www.youtube.com/watch?v=gpTSvon5eL8"
+        },
+        {
           "id": "8197e286-dd90-4d84-8fc6-473c87f9ccb8",
           "name": "lucky-5ma",
           "description": {
@@ -3957,6 +4034,17 @@
           },
           "path": "rainy-night/lucky-5ma.mp3",
           "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
+          "id": "6b46b0db-70e0-474c-9714-437a54be3e6a",
+          "name": "how-how-sleep-2",
+          "description": {
+            "en": "There, there, don't cry, don't cry, sleep well~ Sleep well~",
+            "ja": "よしよし、泣かないで、泣かないで、ゆっくり寝てね〜ゆっくり寝て〜",
+            "zh": "摸摸喔不要哭不要哭好好地睡覺吧～好好地睡～"
+          },
+          "path": "yoda-dating/how-how-sleep-2.mp3",
+          "url": "https://www.youtube.com/watch?v=gpTSvon5eL8"
         },
         {
           "id": "813c274e-699f-451b-873e-fee1078e84d7",
@@ -4729,6 +4817,17 @@
           "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
+          "id": "6da51ae3-0897-4b59-99ea-e607ea43fe47",
+          "name": "sleep-shan-bang",
+          "description": {
+            "en": "Sleep well~ Sleep well~ Still have to go to work tomorrow~",
+            "ja": "おとなしく眠れ〜ちゃんと眠れ〜明日もまた仕事だよ〜",
+            "zh": "乖乖睡～好好睡～明天還是要上班～"
+          },
+          "path": "rainy-night/sleep-shan-bang.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
           "id": "74cde809-8e72-496a-a910-e3b2b797fa51",
           "name": "yoda-tsu-chi-wan",
           "description": {
@@ -4804,6 +4903,17 @@
           },
           "path": "yoda-girlfriend/bu-zan-kan-sho-g.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "06a4643a-388c-4a80-9028-15eb32f5f28c",
+          "name": "boss-yo-yon",
+          "description": {
+            "en": "Fighting, office worker~ Keep being an office worker~ This way, the boss will think you're useful~",
+            "ja": "頑張れ、社畜〜社畜であり続けて〜そうすれば、上司はあなたが役に立つと思うよ〜",
+            "zh": "社畜加油～要繼續當社畜～這樣老闆才會覺得你很有用唷～"
+          },
+          "path": "rainy-night/boss-yo-yon.mp3",
+          "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         },
         {
           "id": "98467758-0ce5-4d66-8701-8b9c6b2b0d6b",
@@ -6093,6 +6203,17 @@
           "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
+          "id": "cc457565-02dd-4ef5-9382-db7923d6a84c",
+          "name": "fuck-you-la",
+          "description": {
+            "en": "Fuck you!",
+            "ja": "ファックユー！",
+            "zh": "Fuck you啦"
+          },
+          "path": "self-chat/fuck-you-la.mp3",
+          "url": "https://www.youtube.com/watch?v=-2FM0ZN7Kys"
+        },
+        {
           "id": "1f32a735-215a-4ed8-a04b-dd630d40685d",
           "name": "chi-ni-der-da-da-mian",
           "description": {
@@ -6861,6 +6982,17 @@
           },
           "path": "valentine-lyrics/lao-nia-chi-s-ba.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "6c27f61d-b126-4915-a966-50effa3a16f7",
+          "name": "ma-z-go",
+          "description": {
+            "en": "There's a pathetic simp here at the scene, quickly deal with him",
+            "ja": "ここに哀れなシンプがいるから、早く対処して",
+            "zh": "這裡有可悲的馬子狗出現在現場趕快處理他"
+          },
+          "path": "yoda-dating/ma-z-go.mp3",
+          "url": "https://www.youtube.com/watch?v=gpTSvon5eL8"
         },
         {
           "id": "8c430794-7498-420c-8a91-7617939f04c4",
