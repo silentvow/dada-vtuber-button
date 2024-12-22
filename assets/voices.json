@@ -241,6 +241,17 @@
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         },
         {
+          "id": "50feaabf-5d1a-4da0-aa8c-76a04e254ce1",
+          "name": "wo4-gray-da",
+          "description": {
+            "en": "Hello hello everyone, Miho-san here, I'm Huida",
+            "ja": "ハローハロー皆さん、ミホさんです、私はフイダです",
+            "zh": "哈囉哈囉大家好米乎咪桑我是灰妲"
+          },
+          "path": "new-clothes-2-year/wo4-gray-da.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
           "id": "4289b7cb-5619-48d0-8508-3676ec1c0eff",
           "name": "self-intro-1",
           "description": {
@@ -1341,6 +1352,17 @@
           "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
         },
         {
+          "id": "4eb1ab66-d32a-4736-a8d7-39c0eb9a7c45",
+          "name": "da-wo-a",
+          "description": {
+            "en": "Go ahead and hit me lalala~ Come hit me~ la~",
+            "ja": "どうせなら私を叩いてよララ〜来て叩いてよ〜ラ〜",
+            "zh": "大不了打我啊咧咧咧～來打我啊～咧～"
+          },
+          "path": "new-clothes-2-year/da-wo-a.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
           "id": "a52ec862-6f82-4d34-80d4-ad204e957d01",
           "name": "ji-her-chan-ji-her",
           "description": {
@@ -1559,6 +1581,17 @@
           },
           "path": "valentine-lyrics/chocolate-so-gon.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "c7a2ddb9-5741-48da-9eb3-95ed642a4914",
+          "name": "hsin-zo-zue-zuan",
+          "description": {
+            "en": "Really now, everyone is of course the softest spot in my heart",
+            "ja": "まったく、皆さんはもちろん私の心の中で一番柔らかい部分ですよ",
+            "zh": "真是的大家當然都是我心中最軟的那一塊囉"
+          },
+          "path": "new-clothes-2-year/hsin-zo-zue-zuan.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
         },
         {
           "id": "9ee43524-c3ae-418a-8663-e86491231e3d",
@@ -2034,6 +2067,17 @@
           "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
         },
         {
+          "id": "ea42d9ea-24e7-45f2-b271-5d79f9ab0aeb",
+          "name": "girl-who-why",
+          "description": {
+            "en": "Why are you with that girl? Who is that girl anyway? Why why why are you always always with her?",
+            "ja": "なぜあの女の子と一緒にいるの？あの子は一体誰なの？どうしてどうしてどうしていつもいつも彼女と一緒にいるの？",
+            "zh": "為什麼你要跟那個女生在一起呢那個女生到底是誰啊為什麼為什麼為什麼一直一直都跟她在一起呢"
+          },
+          "path": "new-clothes-2-year/girl-who-why.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
           "id": "e1f09008-657c-4def-b405-5d7349925cba",
           "name": "why3-ni-bu-ai-wo",
           "description": {
@@ -2055,6 +2099,17 @@
         "zh": "哭腔"
       },
       "voice_list": [
+        {
+          "id": "9a22ef3f-e498-430e-bb2a-d37db5cf422a",
+          "name": "cry-1",
+          "description": {
+            "en": "Crying sound -1",
+            "ja": "泣き声-1",
+            "zh": "哭泣聲-1"
+          },
+          "path": "new-clothes-2-year/cry-1.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
         {
           "id": "fb8c4f01-2f23-4c0d-9530-f178b1675b9c",
           "name": "bian-g-tue",
@@ -2098,6 +2153,17 @@
           },
           "path": "chicken-club-ad/yi-be-tze-tse-zu.mp3",
           "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
+          "id": "a0bfbbb2-0ec1-45b7-880c-7de7c04372db",
+          "name": "aaa-why-aaa",
+          "description": {
+            "en": "Ah, why is it like this ah~ ah~",
+            "ja": "ああ、どうしてこうなるの〜ああ〜",
+            "zh": "啊為什麼會這樣啊～啊～"
+          },
+          "path": "new-clothes-2-year/aaa-why-aaa.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
         },
         {
           "id": "7ed69f40-3118-47cb-997e-a3d76e99d314",
@@ -2694,6 +2760,17 @@
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
+          "id": "1e71848d-53f7-4169-b862-d5c0d5315b05",
+          "name": "ha-mi-ha",
+          "description": {
+            "en": "Do you want to eat some cantaloupe?",
+            "ja": "ハミハ食べる？",
+            "zh": "你要不要吃哈密哈"
+          },
+          "path": "new-clothes-2-year/ha-mi-ha.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
           "id": "3207e5e2-de15-4c47-b622-84b5d1e6df11",
           "name": "miao8",
           "description": {
@@ -3101,6 +3178,17 @@
           "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         },
         {
+          "id": "5cf7c460-742c-4fc5-873c-55bfc01962ed",
+          "name": "wo-hen-bang",
+          "description": {
+            "en": "I'm amazing, right! Praise me!",
+            "ja": "私って素晴らしいでしょ！褒めて褒めて！",
+            "zh": "我很棒吧！快稱讚我！"
+          },
+          "path": "new-clothes-2-year/wo-hen-bang.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
           "id": "28d4e3c4-9592-4d28-9da3-cda254394a40",
           "name": "me-yo-la-jen4-der",
           "description": {
@@ -3264,6 +3352,17 @@
           },
           "path": "rainy-night/na-mo-sue-shiao.mp3",
           "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
+          "id": "36e0485a-c3a9-4265-ba58-441282e25827",
+          "name": "dan-guo-chi",
+          "description": {
+            "en": "Sorry everyone, I really really really apologize because I thought it would be wasteful to throw away eggs that were only expired for one day, so I cooked and ate them",
+            "ja": "すみません皆さん、本当に本当に本当に申し訳ありません、卵が一日しか期限切れてないのがもったいないと思って、それを調理して食べてしまいました",
+            "zh": "抱歉各位我真的我真的我真的很抱歉我我因為因為覺得蛋只過期一天很浪費所以我就欸把它煮來吃"
+          },
+          "path": "new-clothes-2-year/dan-guo-chi.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
         },
         {
           "id": "fea186ea-4a76-471b-91b3-ba648f2cf859",
@@ -5983,6 +6082,17 @@
           "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
+          "id": "07f42354-355e-406c-adcc-c21edc5f0084",
+          "name": "hou-shen-shen-cheese",
+          "description": {
+            "en": "If you keep talking about chicken legs, I'll die of anger, I'll literally die of anger",
+            "ja": "チキンレッグのことをこれ以上話すと、私は怒り死んでしまう、本当に生きたまま怒り死んでしまうわ",
+            "zh": "你在繼續講雞腿什麼的我會氣死我會真的會活生生氣死"
+          },
+          "path": "new-clothes-2-year/hou-shen-shen-cheese.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
           "id": "0f796e70-536b-4adf-84cc-207a2d0da60b",
           "name": "parrot-keryi-kao-gtue",
           "description": {
@@ -6390,6 +6500,28 @@
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
+          "id": "ec336451-3244-487e-8bfa-97c30c8e43d6",
+          "name": "sua-chi-den-chan",
+          "description": {
+            "en": "Such elegance! Such grace! Such coolness! I have arrived!",
+            "ja": "なんという気品！なんという優雅さ！なんというかっこよさ！私の登場です！",
+            "zh": "如此氣質！如此高雅！如此帥氣的我登場啦！"
+          },
+          "path": "new-clothes-2-year/sua-chi-den-chan.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
+          "id": "d6a6fd92-4e96-49c5-a6a9-3f9931588dd4",
+          "name": "zan-da-chen-ren",
+          "description": {
+            "en": "From now on, I've grown into an adult, everyone needs to acknowledge that I'm an elegant VTuber, and you need to acknowledge my big parrot part",
+            "ja": "これからは私は大人になりました、皆さん気品のある女性Vtuberとしての私を認めてください、そして私の大きなオウムの部分も認めてくださいね",
+            "zh": "從今以後呢我已經長大成人了啊各位要好好承認我是氣質女V的部分要承認我是大波鸚的部分啊"
+          },
+          "path": "new-clothes-2-year/zan-da-chen-ren.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
           "id": "8e8546ef-1607-437b-8d8d-f0d69df0460d",
           "name": "wo-me-yo-gg",
           "description": {
@@ -6599,6 +6731,17 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "4e1631b2-7b9a-459a-9549-3f7f0000f049",
+          "name": "sister-drink-coffee",
+          "description": {
+            "en": "Ah, such a cute little sister, would you like to go for coffee together?",
+            "ja": "ああ、そんなに可愛い妹と一緒にコーヒーでも飲みに行きませんか？",
+            "zh": "啊如此可愛的妹妹要不要一起去喝杯咖啡呢"
+          },
+          "path": "new-clothes-2-year/sister-drink-coffee.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
           "id": "9c52c379-da69-4dde-849e-96d640be0353",
           "name": "loli-yo-zi-yuan",
           "description": {
@@ -6608,6 +6751,17 @@
           },
           "path": "gap-moe/loli-yo-zi-yuan.mp3",
           "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
+          "id": "9361ce09-e343-4fbf-ae0e-4116b2d76fed",
+          "name": "che-z-loli-hua",
+          "description": {
+            "en": "Our goal is to dominate all circles and make them all undergo lolification",
+            "ja": "私たちの目標は、全てのサークルを支配し、全てをロリ化することです",
+            "zh": "我們的目標呢就是要統治所有的圈子讓所有的圈子全部都進行蘿莉化"
+          },
+          "path": "new-clothes-2-year/che-z-loli-hua.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
         },
         {
           "id": "91c43e06-f5cf-4156-a55e-03d548a20e01",
