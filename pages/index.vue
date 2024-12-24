@@ -71,8 +71,9 @@
     <v-flex xs12 sm8 md6 style="min-width: 85%">
       <!-- 对每个按钮组生成一个Card -->
       <v-card v-for="group in groups" :key="group.name">
-        <v-card-title class="headline font-weight-bold" :class="dark_text">
+        <v-card-title class="headline font-weight-bold d-flex align-center" :class="dark_text">
           {{ group.group_description[current_locale] }}
+          <v-chip x-small class="mx-3" color="info" outlined>{{ group.voice_list.length }}</v-chip>
         </v-card-title>
         <v-card-text class="button-container">
           <voice-btn
@@ -96,6 +97,16 @@
             @click.native="showMore(group.id)"
           >
             {{ $t('action.show_more') }}
+          </v-btn>
+          <v-btn
+            v-if="opened_groups.has(group.id) && group.voice_list.length > voice_limit"
+            :id="`button-more-${group.id}`"
+            :aria-label="`button-more-${group.id}`"
+            class="align-self-end justify-self-end"
+            plain
+            @click.native="hideMore(group.id)"
+          >
+            {{ $t('action.show_less') }}
           </v-btn>
         </v-card-text>
       </v-card>
@@ -309,6 +320,10 @@ export default {
     },
     showMore(groupId) {
       this.opened_groups.add(groupId);
+      this.opened_groups = new Set(this.opened_groups);
+    },
+    hideMore(groupId) {
+      this.opened_groups.delete(groupId);
       this.opened_groups = new Set(this.opened_groups);
     },
     openModal(item) {
