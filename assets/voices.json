@@ -417,6 +417,17 @@
       },
       "voice_list": [
         {
+          "id": "26c97557-e273-4d4c-9112-05456b2baf98",
+          "name": "wo-tsao",
+          "description": {
+            "en": "Holy crap",
+            "ja": "マジかよ",
+            "zh": "臥曹"
+          },
+          "path": "thanksgiving/wo-tsao.mp3",
+          "url": "https://www.youtube.com/watch?v=Zku9b14Vw7o"
+        },
+        {
           "id": "3a2f8d2e-547f-4810-9438-a96b942b8ebe",
           "name": "sa-shiao-arr",
           "description": {
@@ -514,6 +525,17 @@
           },
           "path": "on-fire/wtf.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "id": "cc1d444a-bbee-4819-a476-7f4266addcef",
+          "name": "ni4-bai-chi",
+          "description": {
+            "en": "You're an idiot",
+            "ja": "あなたはバカね",
+            "zh": "你是白癡噢"
+          },
+          "path": "hell-gate/ni4-bai-chi.mp3",
+          "url": "https://www.youtube.com/watch?v=cK5T_RXsYE8"
         },
         {
           "id": "88ca9f86-cbed-4567-9316-97aeca9f815c",
@@ -734,6 +756,17 @@
           },
           "path": "draw-avatar-10/wo-yao-chon-fon.mp3",
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "id": "cb409615-9b1e-481a-960f-87a086e561b7",
+          "name": "niao-dan-pi-don-si",
+          "description": {
+            "en": "Goodbye to whatever bird egg nonsense this is",
+            "ja": "さようなら、この鳥の卵くそみたいなもの",
+            "zh": "再見了什麼鳥蛋屁東西啊"
+          },
+          "path": "hell-gate/niao-dan-pi-don-si.mp3",
+          "url": "https://www.youtube.com/watch?v=cK5T_RXsYE8"
         },
         {
           "id": "be1f16ab-95d7-4b9c-941e-a67b017d67f5",
@@ -2485,6 +2518,17 @@
           "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
         },
         {
+          "id": "33cf891e-7e73-4d70-8192-cb9ddd6aa19e",
+          "name": "ai-hao-7",
+          "description": {
+            "en": "Wailing sound -7",
+            "ja": "悲鳴-7",
+            "zh": "哀嚎聲-7"
+          },
+          "path": "thanksgiving/ai-hao-7.mp3",
+          "url": "https://www.youtube.com/watch?v=Zku9b14Vw7o"
+        },
+        {
           "id": "647dcdbd-494b-4b98-b163-2c70791fcda9",
           "name": "tsan-jiao-1",
           "description": {
@@ -2549,6 +2593,17 @@
           },
           "path": "halloween-2022/bu-yao-a-bu-yao.mp3",
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "c53ca299-2fa4-479e-81d5-26096e0a3bc7",
+          "name": "bie-da-ler",
+          "description": {
+            "en": "Okay okay stop hitting stop hitting",
+            "ja": "はいはい、もう叩かないで叩かないで",
+            "zh": "好了好了別打了別打了"
+          },
+          "path": "thanksgiving/bie-da-ler.mp3",
+          "url": "https://www.youtube.com/watch?v=Zku9b14Vw7o"
         },
         {
           "id": "6cfba02e-b3fc-4300-ac64-f508f139f69c",
@@ -5983,6 +6038,28 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "2af8167b-a129-4773-bdab-6f131cd1e139",
+          "name": "dai-yen-gtue",
+          "description": {
+            "en": "I don't want to I don't want to endorse chicken legs",
+            "ja": "私は嫌だ嫌だチキンレッグの宣伝はしたくない",
+            "zh": "我不要我不要代言雞腿啦"
+          },
+          "path": "thanksgiving/dai-yen-gtue.mp3",
+          "url": "https://www.youtube.com/watch?v=Zku9b14Vw7o"
+        },
+        {
+          "id": "9f8faa92-0537-425c-8c12-00195c9eb497",
+          "name": "jin-kao-shian",
+          "description": {
+            "en": "Can I finally go in the oven or not",
+            "ja": "私はいい加減オーブンに入れていいの？",
+            "zh": "我到底可不可以進烤箱了"
+          },
+          "path": "thanksgiving/jin-kao-shian.mp3",
+          "url": "https://www.youtube.com/watch?v=Zku9b14Vw7o"
+        },
+        {
           "id": "3fb26132-9efe-4959-b7a8-d9ceedd8d326",
           "name": "shu-lin-kao-gtue",
           "description": {
@@ -6025,6 +6102,17 @@
           },
           "path": "cult/gtue-ban-mie-diao.mp3",
           "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
+          "id": "d8ad35ef-3e08-403a-a842-e4bf8ae5104b",
+          "name": "chen-wei-kaog",
+          "description": {
+            "en": "I have become an excellent roasted chicken, thank you everyone",
+            "ja": "私は立派なローストチキンになりました、皆様ありがとうございます",
+            "zh": "我成為了一隻優秀的烤雞謝謝大家"
+          },
+          "path": "thanksgiving/chen-wei-kaog.mp3",
+          "url": "https://www.youtube.com/watch?v=Zku9b14Vw7o"
         },
         {
           "id": "dc5f9328-172e-411b-9077-ce293f97b31e",
@@ -6267,6 +6355,17 @@
           },
           "path": "yoda-girlfriend/fuck.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "a46fa788-fc72-40bf-8119-acf60bbcfe4a",
+          "name": "gan-li-nia",
+          "description": {
+            "en": "F*** off",
+            "ja": "くそったれ",
+            "zh": "幹恁娘"
+          },
+          "path": "thanksgiving/gan-li-nia.mp3",
+          "url": "https://www.youtube.com/watch?v=Zku9b14Vw7o"
         },
         {
           "id": "b3a1115a-85f7-4254-b116-57761ec08ca2",
@@ -6575,6 +6674,17 @@
           },
           "path": "mihoyo-set/jiao-zuo-da-nai.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "2d612327-df35-43c6-a385-340df97fc634",
+          "name": "wo-tsai4-da-boing",
+          "description": {
+            "en": "Shut up, I'm the big parrot",
+            "ja": "黙れ、私が大きなオウムだ",
+            "zh": "閉嘴我才是大波鸚"
+          },
+          "path": "hell-gate/wo-tsai4-da-boing.mp3",
+          "url": "https://www.youtube.com/watch?v=cK5T_RXsYE8"
         },
         {
           "id": "71c623db-ed99-4ab3-8db9-7a6942bd7fea",
@@ -7917,6 +8027,17 @@
           },
           "path": "full-endorsement/88-tian-lin-ga.mp3",
           "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
+          "id": "d91067f8-b21e-441d-902b-764baadce836",
+          "name": "za-ye-bu-du-bo",
+          "description": {
+            "en": "Never gambling again, never gambling again in this lifetime",
+            "ja": "もう二度と賭け事はしない、一生賭け事はしない",
+            "zh": "再也不賭博了這輩子再也不賭博了"
+          },
+          "path": "thanksgiving/za-ye-bu-du-bo.mp3",
+          "url": "https://www.youtube.com/watch?v=Zku9b14Vw7o"
         },
         {
           "id": "fbf6c1dd-7bdc-4f81-8afe-267f9cf57ea5",
