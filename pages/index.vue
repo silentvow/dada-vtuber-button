@@ -70,14 +70,14 @@
     </v-speed-dial>
     <v-flex xs12 sm8 md6 style="min-width: 85%">
       <!-- 对每个按钮组生成一个Card -->
-      <v-card v-for="group in groups" :key="group.name">
+      <v-card v-for="(group, groupIndex) in groups" :key="group.name">
         <v-card-title class="headline font-weight-bold d-flex align-center" :class="dark_text">
           {{ group.group_description[current_locale] }}
           <v-chip x-small class="mx-3" color="info" outlined>{{ group.voice_list.length }}</v-chip>
         </v-card-title>
         <v-card-text class="button-container">
           <voice-btn
-            v-for="item in opened_groups.has(group.id) ? group.voice_list : group.voice_list.slice(0, voice_limit)"
+            v-for="item in opened_group_set.has(group.id) ? group.voice_list : reduced_groups[groupIndex].voice_list"
             ref="voice_btn"
             :key="item.id"
             :voice-id="item.id"
@@ -89,7 +89,9 @@
             {{ item.description[current_locale] || item.description['zh'] }}
           </voice-btn>
           <v-btn
-            v-if="!opened_groups.has(group.id)"
+            v-if="
+              !opened_group_set.has(group.id) && group.voice_list.length > reduced_groups[groupIndex].voice_list.length
+            "
             :id="`button-more-${group.id}`"
             :aria-label="`button-more-${group.id}`"
             class="align-self-end justify-self-end"
@@ -99,7 +101,7 @@
             {{ $t('action.show_more') }}
           </v-btn>
           <v-btn
-            v-if="opened_groups.has(group.id) && group.voice_list.length > voice_limit"
+            v-if="opened_group_set.has(group.id)"
             :id="`button-more-${group.id}`"
             :aria-label="`button-more-${group.id}`"
             class="align-self-end justify-self-end"
@@ -200,12 +202,39 @@ export default {
     //SkeletonLoading
   },
   data() {
-    const voice_limit = 5;
-    const opened_groups = new Set();
-    voice_lists.groups.forEach(group => {
-      if (group.voice_list.length <= voice_limit) {
-        opened_groups.add(group.id);
+    function len(str) {
+      let length = 0;
+      for (let i = 0; i < str.length; i++) {
+        const code = str.charCodeAt(i);
+        // Check if the character is full-width based on its Unicode range
+        if (
+          (code >= 0x1100 && code <= 0x11ff) || // Hangul Jamo
+          (code >= 0x2e80 && code <= 0x2eff) || // CJK Radicals Supplement
+          (code >= 0x3000 && code <= 0x303f) || // CJK Symbols and Punctuation
+          (code >= 0x31c0 && code <= 0x9fff) || // CJK Strokes + Unified Ideographs
+          (code >= 0xac00 && code <= 0xd7af) || // Hangul Syllables
+          (code >= 0xff00 && code <= 0xffef) // Halfwidth and Fullwidth Forms
+        ) {
+          length += 1; // Full-width character
+        } else {
+          length += 0.5; // Half-width character
+        }
       }
+      return length;
+    }
+
+    const size_limit = 120;
+    const opened_group_set = new Set();
+    const reduced_groups = voice_lists.groups.map(group => {
+      let idx = 0;
+      for (let width = 0; idx < group.voice_list.length; ++idx) {
+        width += len(group.voice_list[idx].description['zh']) + 6.5;
+        if (width > size_limit) break;
+      }
+      return {
+        ...group,
+        voice_list: group.voice_list.slice(0, idx)
+      };
     });
     return {
       icons: {
@@ -223,8 +252,8 @@ export default {
       repeat: false,
       fab: false,
       groups: voice_lists.groups,
-      opened_groups,
-      voice_limit,
+      reduced_groups,
+      opened_group_set,
       now_playing: new Set(),
       upcoming_lives: [],
       lives: [],
@@ -319,12 +348,12 @@ export default {
       }
     },
     showMore(groupId) {
-      this.opened_groups.add(groupId);
-      this.opened_groups = new Set(this.opened_groups);
+      this.opened_group_set.add(groupId);
+      this.opened_group_set = new Set(this.opened_group_set);
     },
     hideMore(groupId) {
-      this.opened_groups.delete(groupId);
-      this.opened_groups = new Set(this.opened_groups);
+      this.opened_group_set.delete(groupId);
+      this.opened_group_set = new Set(this.opened_group_set);
     },
     openModal(item) {
       this.is_dialog_open = true;
