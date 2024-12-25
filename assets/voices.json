@@ -4,9 +4,9 @@
       "id": "77aeebd6-b79f-4cef-aa0d-ba3ae0225a97",
       "group_name": "catchphrase",
       "group_description": {
-        "en": "Catchphrase",
-        "ja": "口癖",
-        "zh": "口頭禪"
+        "en": "Huida: Catchphrase",
+        "ja": "フイダ：口癖",
+        "zh": "灰妲：口頭禪"
       },
       "voice_list": [
         {
@@ -70,9 +70,9 @@
       "id": "2c3d4e5f-6g7h-8i9j-0k1l-2m3n4o5p6q7r",
       "group_name": "greetings",
       "group_description": {
-        "en": "Greetings",
-        "ja": "あいさつ",
-        "zh": "問候"
+        "en": "Huida: Greetings",
+        "ja": "フイダ：挨拶",
+        "zh": "灰妲：問候"
       },
       "voice_list": [
         {
@@ -268,9 +268,9 @@
       "id": "62b7d30d-d5b8-4a9c-ada1-a16ae7909fa0",
       "group_name": "agree",
       "group_description": {
-        "en": "Agree",
-        "ja": "肯定",
-        "zh": "肯定"
+        "en": "Huida: Affirmation",
+        "ja": "フイダ：肯定",
+        "zh": "灰妲：肯定"
       },
       "voice_list": [
         {
@@ -411,9 +411,9 @@
       "id": "c5615961-1b79-4154-bf00-360507037daf",
       "group_name": "retort",
       "group_description": {
-        "en": "Retort",
-        "ja": "ッコミ",
-        "zh": "吐槽"
+        "en": "Huida: Tsukkomi",
+        "ja": "フイダ：ツッコミ",
+        "zh": "灰妲：吐槽"
       },
       "voice_list": [
         {
@@ -983,9 +983,9 @@
       "id": "9d8c7b6a-5f4e-3d2c-1b0a-9e8d7f6c5b4a",
       "group_name": "abuse",
       "group_description": {
-        "en": "Abuse",
-        "ja": "罵り",
-        "zh": "罵倒"
+        "en": "Huida: Scolding",
+        "ja": "フイダ：罵倒",
+        "zh": "灰妲：罵倒"
       },
       "voice_list": [
         {
@@ -1280,9 +1280,9 @@
       "id": "e41f632f-c046-43b1-baf9-42d3cf70274c",
       "group_name": "funny",
       "group_description": {
-        "en": "Funny",
-        "ja": "面白い",
-        "zh": "搞耍"
+        "en": "Huida: Playful",
+        "ja": "フイダ：ふざけ",
+        "zh": "灰妲：搞耍"
       },
       "voice_list": [
         {
@@ -1511,9 +1511,9 @@
       "id": "7a084520-4ec1-46ba-ade7-53b811414974",
       "group_name": "kind",
       "group_description": {
-        "en": "Kind",
-        "ja": "優しい",
-        "zh": "溫柔"
+        "en": "Huida: Gentle",
+        "ja": "フイダ：優しい",
+        "zh": "灰妲：溫柔"
       },
       "voice_list": [
         {
@@ -1720,9 +1720,9 @@
       "id": "ff6bd9e0-e0ee-4dd8-adc4-e4889481365a",
       "group_name": "tsundere",
       "group_description": {
-        "en": "Tsundere",
-        "ja": "ツンデレ",
-        "zh": "傲嬌"
+        "en": "Huida: Tsundere",
+        "ja": "フイダ：ツンデレ",
+        "zh": "灰妲：傲嬌"
       },
       "voice_list": [
         {
@@ -1797,9 +1797,9 @@
       "id": "4982f00c-b5db-46f1-b282-a57879528cff",
       "group_name": "yandere",
       "group_description": {
-        "en": "Yandare",
-        "ja": "ヤンデレ",
-        "zh": "病嬌"
+        "en": "Huida: Yandere",
+        "ja": "フイダ：ヤンデレ",
+        "zh": "灰妲：病嬌"
       },
       "voice_list": [
         {
@@ -2127,9 +2127,9 @@
       "id": "ef02cf43-f64e-4744-afbc-487538a00e3c",
       "group_name": "cry",
       "group_description": {
-        "en": "Tearful Tone",
-        "ja": "泣き声",
-        "zh": "哭腔"
+        "en": "Huida: Crying Voice",
+        "ja": "フイダ：泣き声",
+        "zh": "灰妲：哭腔"
       },
       "voice_list": [
         {
@@ -2270,9 +2270,9 @@
       "id": "fc7a13a3-49bb-4e3e-9c3d-eb990ac72ce9",
       "group_name": "laugh",
       "group_description": {
-        "en": "Laugh",
-        "ja": "笑い声",
-        "zh": "笑聲"
+        "en": "Huida: Laughter",
+        "ja": "フイダ：笑い声",
+        "zh": "灰妲：笑聲"
       },
       "voice_list": [
         {
@@ -2446,9 +2446,9 @@
       "id": "91c48be9-944b-42b3-b871-28b2f19ca67f",
       "group_name": "scream",
       "group_description": {
-        "en": "Scream",
-        "ja": "大叫",
-        "zh": "大叫"
+        "en": "Huida: Shouting",
+        "ja": "フイダ：叫び声",
+        "zh": "灰妲：大叫"
       },
       "voice_list": [
         {
@@ -2633,9 +2633,9 @@
       "id": "777a95d1-c96d-46a5-ab7b-dc9c86030cea",
       "group_name": "weird-cry",
       "group_description": {
-        "en": "Weird cry",
-        "ja": "奇妙な叫び声",
-        "zh": "怪叫"
+        "en": "Huida: Strange Sounds",
+        "ja": "フイダ：変な声",
+        "zh": "灰妲：怪聲"
       },
       "voice_list": [
         {
@@ -2754,9 +2754,9 @@
       "id": "04deb1ba-eda1-45f0-800c-841bccdc46a2",
       "group_name": "vivid",
       "group_description": {
-        "en": "Vivid",
-        "ja": "模仿",
-        "zh": "模仿"
+        "en": "Huida: Imitation",
+        "ja": "フイダ：物まね",
+        "zh": "灰妲：模仿"
       },
       "voice_list": [
         {
@@ -2930,9 +2930,9 @@
       "id": "247d20a6-389f-4f71-9757-768583efea11",
       "group_name": "singing",
       "group_description": {
-        "en": "Singing",
-        "ja": "歌唄",
-        "zh": "唱歌"
+        "en": "Huida: Singing",
+        "ja": "フイダ：歌唱",
+        "zh": "灰妲：唱歌"
       },
       "voice_list": [
         {
@@ -3183,9 +3183,9 @@
       "id": "ade7f2c8-17d2-4fd7-8eda-5ed4ceca7c6f",
       "group_name": "chat",
       "group_description": {
-        "en": "Chat",
-        "ja": "おしゃべり",
-        "zh": "閒聊"
+        "en": "Huida: Chatting",
+        "ja": "フイダ：雑談",
+        "zh": "灰妲：閒聊"
       },
       "voice_list": [
         {
@@ -3447,8 +3447,8 @@
       "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
       "group_name": "yoda_greetings",
       "group_description": {
-        "en": "Yoda: Greetings",
-        "ja": "ヨーダ：あいさつ",
+        "en": "Young Huida: Greetings",
+        "ja": "幼フイダ：挨拶",
         "zh": "幼妲：問候"
       },
       "voice_list": [
@@ -3612,8 +3612,8 @@
       "id": "6b933718-6821-4301-b82e-3a5d2f5bcee2",
       "group_name": "yoda_cute",
       "group_description": {
-        "en": "Yoda: Cute",
-        "ja": "ヨーダ：可愛",
+        "en": "Young Huida: Cute",
+        "ja": "幼フイダ：可愛い",
         "zh": "幼妲：可愛"
       },
       "voice_list": [
@@ -3810,8 +3810,8 @@
       "id": "7b6a5d4c-3f2e-1d0c-9b8a-7f6e5d4c3b2a",
       "group_name": "yoda_agree",
       "group_description": {
-        "en": "Yoda: Agree",
-        "ja": "ヨーダ：肯定",
+        "en": "Young Huida: Affirmation",
+        "ja": "幼フイダ：肯定",
         "zh": "幼妲：肯定"
       },
       "voice_list": [
@@ -3920,8 +3920,8 @@
       "id": "8b530892-1922-4b1f-8cc1-c389568588bb",
       "group_name": "yoda_retort",
       "group_description": {
-        "en": "Yoda: Retort",
-        "ja": "ヨーダ：吐槽",
+        "en": "Young Huida: Tsukkomi",
+        "ja": "幼フイダ：ツッコミ",
         "zh": "幼妲：吐槽"
       },
       "voice_list": [
@@ -4129,8 +4129,8 @@
       "id": "c3ca629c-0c90-4650-ac8d-51f2ad4d05aa",
       "group_name": "yoda_cure",
       "group_description": {
-        "en": "Yoda: Cure",
-        "ja": "ヨーダ：療癒",
+        "en": "Young Huida: Healing",
+        "ja": "幼フイダ：癒し",
         "zh": "幼妲：療癒"
       },
       "voice_list": [
@@ -4228,8 +4228,8 @@
       "id": "8f7d6e5c-4b3a-2f1d-9e8c-7b6a5d4c3f2e",
       "group_name": "yoda_abuse",
       "group_description": {
-        "en": "Yoda: Abuse",
-        "ja": "ヨーダ：罵倒",
+        "en": "Young Huida: Scolding",
+        "ja": "幼フイダ：罵倒",
         "zh": "幼妲：罵倒"
       },
       "voice_list": [
@@ -4646,8 +4646,8 @@
       "id": "9ed3795c-55e8-4b1e-9738-33733c940bee",
       "group_name": "yoda_yandere",
       "group_description": {
-        "en": "Yoda: Yandare",
-        "ja": "ヨーダ：ヤンデレ",
+        "en": "Young Huida: Yandere",
+        "ja": "幼フイダ：ヤンデレ",
         "zh": "幼妲：病嬌"
       },
       "voice_list": [
@@ -4855,8 +4855,8 @@
       "id": "4b8edf88-72e3-4546-855d-d4634558a96a",
       "group_name": "yoda_others",
       "group_description": {
-        "en": "Yoda: Others",
-        "ja": "ヨーダ：其他",
+        "en": "Young Huida: Others",
+        "ja": "幼フイダ：その他",
         "zh": "幼妲：其他"
       },
       "voice_list": [
@@ -5086,8 +5086,8 @@
       "id": "3b68d990-0c70-42f3-ad80-6f2ae26c58fb",
       "group_name": "realda_greetings",
       "group_description": {
-        "en": "Real Da: Greetings",
-        "ja": "ジンダ：あいさつ",
+        "en": "True Huida: Greetings",
+        "ja": "真フイダ：挨拶",
         "zh": "真妲：問候"
       },
       "voice_list": [
@@ -5163,8 +5163,8 @@
       "id": "e126b102-e339-49dc-9886-ace87a237cb6",
       "group_name": "realda_agree",
       "group_description": {
-        "en": "Real Da: Agree",
-        "ja": "ジンダ：肯定",
+        "en": "True Huida: Affirmation",
+        "ja": "真フイダ：肯定",
         "zh": "真妲：肯定"
       },
       "voice_list": [
@@ -5339,8 +5339,8 @@
       "id": "52863f7f-a008-4777-aa83-463fcf74a113",
       "group_name": "realda_retort",
       "group_description": {
-        "en": "Real Da: Retort",
-        "ja": "ジンダ：吐槽",
+        "en": "True Huida: Tsukkomi",
+        "ja": "真フイダ：ツッコミ",
         "zh": "真妲：吐槽"
       },
       "voice_list": [
@@ -5471,8 +5471,8 @@
       "id": "c7254a2a-920e-4c77-9a41-d477b6dc469e",
       "group_name": "realda_cure",
       "group_description": {
-        "en": "Real Da: Cure",
-        "ja": "ジンダ：療癒",
+        "en": "True Huida: Healing",
+        "ja": "真フイダ：癒し",
         "zh": "真妲：療癒"
       },
       "voice_list": [
@@ -5526,8 +5526,8 @@
       "id": "80182c6e-6d15-4e1c-aad7-14ad377656ac",
       "group_name": "realda_abuse",
       "group_description": {
-        "en": "Real Da: Abuse",
-        "ja": "ジンダ：罵倒",
+        "en": "True Huida: Scolding",
+        "ja": "真フイダ：罵倒",
         "zh": "真妲：罵倒"
       },
       "voice_list": [
@@ -5570,8 +5570,8 @@
       "id": "e125f408-740f-422e-a54b-f3a451ae3ff4",
       "group_name": "realda_chat",
       "group_description": {
-        "en": "Real Da: Chat",
-        "ja": "ジンダ：おしゃべり",
+        "en": "True Huida: Chatting",
+        "ja": "真フイダ：雑談",
         "zh": "真妲：閒聊"
       },
       "voice_list": [
@@ -5647,8 +5647,8 @@
       "id": "af1756fd-0941-4300-9602-2931d5c7a114",
       "group_name": "realda_others",
       "group_description": {
-        "en": "Real Da: Others",
-        "ja": "ジンダ：其他",
+        "en": "True Huida: Others",
+        "ja": "真フイダ：その他",
         "zh": "真妲：其他"
       },
       "voice_list": [
@@ -5801,8 +5801,8 @@
       "id": "47b69f5c-1a63-4ae4-8242-bdbc889aca81",
       "group_name": "brother-da",
       "group_description": {
-        "en": "Brother Da",
-        "ja": "ダー兄",
+        "en": "Huida Bro",
+        "ja": "フイダ兄貴",
         "zh": "妲哥"
       },
       "voice_list": [
@@ -5919,10 +5919,164 @@
       ]
     },
     {
+      "id": "67d8dc1c-1eb1-4bf3-84b3-6f08fc93650a",
+      "group_name": "female-vtuber",
+      "group_description": {
+        "en": "Female VTuber",
+        "ja": "女性VTuber",
+        "zh": "女V"
+      },
+      "voice_list": [
+        {
+          "id": "dab95629-21a1-468e-88e1-4bab546b144b",
+          "name": "se-qing-nv-v",
+          "description": {
+            "en": "I am the erotic girl V.",
+            "ja": "私はエロティックな女Vです。",
+            "zh": "我是色情女V"
+          },
+          "path": "dp-toys/se-qing-nv-v.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "id": "c1cc9537-00e0-4d11-90fd-80a5db1422db",
+          "name": "me-wo-shi-nu-v",
+          "description": {
+            "en": "I’m not one of those girl V’s, you know.",
+            "ja": "私は女Vじゃないよ。",
+            "zh": "沒有我是女V呀"
+          },
+          "path": "yoda-girlfriend/me-wo-shi-nu-v.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "e74593b8-131b-420b-9496-f4d9357c8202",
+          "name": "ni-men-yo-nu-v",
+          "description": {
+            "en": "Have you ever thought of me as a girl Vtuber?",
+            "ja": "私が女Vだと思ったことある？",
+            "zh": "你們有想過我是女V嗎！"
+          },
+          "path": "news-202405/ni-men-yo-nu-v.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "bc7dd5bb-988b-4603-8a08-f429c46ac66c",
+          "name": "wu-gu-nu-v",
+          "description": {
+            "en": "I'm just an innocent VTuber",
+            "ja": "私は無実のVTuberだよ",
+            "zh": "我只是個無辜的女V而已"
+          },
+          "path": "lazy-against/wu-gu-nu-v.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "12ea06ae-1f7a-4fc1-8409-29f8eb38cef1",
+          "name": "chen-wei-chi-zi-nu-v",
+          "description": {
+            "en": "I want to be a classy girl Vtuber.",
+            "ja": "私は気品ある女Vになりたいんだ。",
+            "zh": "我是想要成為氣質女V啦"
+          },
+          "path": "news-202405/chen-wei-chi-zi-nu-v.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "9cdce3b9-d07e-4cfe-84bf-cb8d50ac9f48",
+          "name": "bu4-nan-v",
+          "description": {
+            "en": "Oh my, I'm not a male VTuber, I'm a female VTuber!",
+            "ja": "あら、私は男性VTuberじゃなくて女性VTuberよ！",
+            "zh": "哎呀我不是男V我是女V啦"
+          },
+          "path": "valentine-lyrics-2/bu4-nan-v.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "7ef2fe0c-203a-4d1c-9554-22ee826f2ed3",
+          "name": "nu-v-guan-to",
+          "description": {
+            "en": "I'm a girl Vtuber! How can I be bald!",
+            "ja": "私は女Vだよ！どうしてハゲるの！？",
+            "zh": "我是女V欸怎麼可以光頭啦！"
+          },
+          "path": "news-202405/nu-v-guan-to.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "51c13639-f0c0-47bf-bc73-cc96fdac7733",
+          "name": "chin-chu-vtuber",
+          "description": {
+            "en": "I'm a clear-cut, clear-cut VTuber, okay?",
+            "ja": "私は明確無比、明確無比のVTuberよ、分かる?",
+            "zh": "我是清楚系清楚系Vtuber耶好不好"
+          },
+          "path": "gap-moe/chin-chu-vtuber.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
+          "id": "e6629c62-cae7-49d6-9dec-fb47bcba06ca",
+          "name": "nu-v-shen-ti-wo",
+          "description": {
+            "en": "I'm a female V, how could you kick me first? Are you crazy?",
+            "ja": "私は女性Vなのに、どうして先に蹴られるの？あなたたちは頭がおかしいの？",
+            "zh": "我可是女V怎麼會先踢我你們有病吧"
+          },
+          "path": "marshmarllow-202306/nu-v-shen-ti-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=t1QcF57c5pc"
+        },
+        {
+          "id": "413ebbad-8af1-4aea-89ac-0f04346dde41",
+          "name": "wo4-chi-zi-shi",
+          "description": {
+            "en": "Honestly, I was originally a classy type",
+            "ja": "正直に言えば、もともと上品なタイプだったんだ",
+            "zh": "其實老實說呢我本來就是氣質系的阿"
+          },
+          "path": "halloween-2022/wo4-chi-zi-shi.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "ec336451-3244-487e-8bfa-97c30c8e43d6",
+          "name": "sua-chi-den-chan",
+          "description": {
+            "en": "Such elegance! Such grace! Such coolness! I have arrived!",
+            "ja": "なんという気品！なんという優雅さ！なんというかっこよさ！私の登場です！",
+            "zh": "如此氣質！如此高雅！如此帥氣的我登場啦！"
+          },
+          "path": "new-clothes-2-year/sua-chi-den-chan.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
+          "id": "d6a6fd92-4e96-49c5-a6a9-3f9931588dd4",
+          "name": "zan-da-chen-ren",
+          "description": {
+            "en": "From now on, I've grown into an adult, everyone needs to acknowledge that I'm an elegant VTuber, and you need to acknowledge my big parrot part",
+            "ja": "これからは私は大人になりました、皆さん気品のある女性Vtuberとしての私を認めてください、そして私の大きなオウムの部分も認めてくださいね",
+            "zh": "從今以後呢我已經長大成人了啊各位要好好承認我是氣質女V的部分要承認我是大波鸚的部分啊"
+          },
+          "path": "new-clothes-2-year/zan-da-chen-ren.mp3",
+          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
+          "id": "8e8546ef-1607-437b-8d8d-f0d69df0460d",
+          "name": "wo-me-yo-gg",
+          "description": {
+            "en": "Dick? I don't have a dick. Fuck your mom, if I had a dick, I would set up a protrusion, I would fuck you until you bloom",
+            "ja": "ちんちん？持ってないよ。ファックしてやる、ちんちんがあったら、出っ張りを作って、お前を直接咲かせてやる",
+            "zh": "ㄐㄐ?我沒有ㄐㄐ操你媽的啦我要是有ㄐㄐ我就我就我就辦一個凸待我就一個一個捅fuck把你們捅到直接開花"
+          },
+          "path": "marshmarllow-202306/wo-me-yo-gg.mp3",
+          "url": "https://www.youtube.com/watch?v=t1QcF57c5pc"
+        }
+      ]
+    },
+    {
       "id": "b5e9e777-1dfb-4067-93b7-3625ebd2274b",
       "group_name": "drumstick",
       "group_description": {
-        "en": "Drumstick",
+        "en": "Chicken Leg",
         "ja": "チキンレッグ",
         "zh": "雞腿"
       },
@@ -6293,55 +6447,11 @@
       ]
     },
     {
-      "id": "d428f3be-0ef4-47a2-a6eb-9914697fdb47",
-      "group_name": "unicorn",
-      "group_description": {
-        "en": "Unicorn",
-        "ja": "ユニコーン",
-        "zh": "獨角獸"
-      },
-      "voice_list": [
-        {
-          "id": "12d61193-6a23-4f50-87b9-2bdd075de351",
-          "name": "fei-ji-bei-sen-lin",
-          "description": {
-            "en": "I am the unicorn of the dreamlike fleshlight forest.",
-            "ja": "私は夢のフレッシュライトの森のユニコーンです",
-            "zh": "我是夢幻飛機杯森林的獨角獸"
-          },
-          "path": "dp-toys/fei-ji-bei-sen-lin.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
-          "id": "10c14532-c82b-46a2-95ad-9d17299b2bd0",
-          "name": "wu-shang-kuai-le",
-          "description": {
-            "en": "Let's experience the ultimate joy of the GG unicorn together.",
-            "ja": "一緒にGGユニコーンの至高の喜びを体験しよう。",
-            "zh": "一起體會GG獨角獸的無上快樂吧"
-          },
-          "path": "dp-toys/wu-shang-kuai-le.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
-          "id": "66eb443c-e824-4e07-a6d3-2addf517b1b1",
-          "name": "unicorn-1",
-          "description": {
-            "en": "Why is this guy getting close to my oshi? I'm so upset and annoyed! I've been supporting them for so long, I attend every member's stream, I donate 3200 every month, but why, why can they just freely interact with my oshi? Who is this random guy, what kind of beast is he? Ahhh I want to bite him to death!",
-            "ja": "なぜこいつが私の推しに近づいてるの？むかつく、イライラする！私はずっと応援してきて、メン限も全部見て、毎月3200も投げてるのに、なぜ、なぜ勝手に私の推しと絡めるの？どこの野郎だ、どんな畜生だ？あーもう噛み殺してやりたい！",
-            "zh": "為什麼這個傢伙居然接近了我的推好不爽好煩燥喔明明明明我已經陪伴他那麼久我每個會限都會到我每個月都會固定斗3200可是為什麼為什麼他可以擅擅自跟就跟我的推連動到底是哪來的野男人哪來的畜生哪阿阿阿阿阿好想咬死他喔"
-          },
-          "path": "lazy-against/unicorn-1.mp3",
-          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
-        }
-      ]
-    },
-    {
       "id": "204def7b-24bc-4d28-b60e-da9c2f3cf672",
       "group_name": "elegance",
       "group_description": {
-        "en": "Abandoning Elegance",
-        "ja": "品位を捨てる",
+        "en": "Abandoned Quality",
+        "ja": "放棄クオリティ",
         "zh": "棄質"
       },
       "voice_list": [
@@ -6480,164 +6590,10 @@
       ]
     },
     {
-      "id": "67d8dc1c-1eb1-4bf3-84b3-6f08fc93650a",
-      "group_name": "female-vtuber",
-      "group_description": {
-        "en": "Female Vtuber",
-        "ja": "女V",
-        "zh": "女V"
-      },
-      "voice_list": [
-        {
-          "id": "dab95629-21a1-468e-88e1-4bab546b144b",
-          "name": "se-qing-nv-v",
-          "description": {
-            "en": "I am the erotic girl V.",
-            "ja": "私はエロティックな女Vです。",
-            "zh": "我是色情女V"
-          },
-          "path": "dp-toys/se-qing-nv-v.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
-          "id": "c1cc9537-00e0-4d11-90fd-80a5db1422db",
-          "name": "me-wo-shi-nu-v",
-          "description": {
-            "en": "I’m not one of those girl V’s, you know.",
-            "ja": "私は女Vじゃないよ。",
-            "zh": "沒有我是女V呀"
-          },
-          "path": "yoda-girlfriend/me-wo-shi-nu-v.mp3",
-          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
-          "id": "e74593b8-131b-420b-9496-f4d9357c8202",
-          "name": "ni-men-yo-nu-v",
-          "description": {
-            "en": "Have you ever thought of me as a girl Vtuber?",
-            "ja": "私が女Vだと思ったことある？",
-            "zh": "你們有想過我是女V嗎！"
-          },
-          "path": "news-202405/ni-men-yo-nu-v.mp3",
-          "url": "https://www.youtube.com/watch?v=594paetbGlU"
-        },
-        {
-          "id": "bc7dd5bb-988b-4603-8a08-f429c46ac66c",
-          "name": "wu-gu-nu-v",
-          "description": {
-            "en": "I'm just an innocent VTuber",
-            "ja": "私は無実のVTuberだよ",
-            "zh": "我只是個無辜的女V而已"
-          },
-          "path": "lazy-against/wu-gu-nu-v.mp3",
-          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
-        },
-        {
-          "id": "12ea06ae-1f7a-4fc1-8409-29f8eb38cef1",
-          "name": "chen-wei-chi-zi-nu-v",
-          "description": {
-            "en": "I want to be a classy girl Vtuber.",
-            "ja": "私は気品ある女Vになりたいんだ。",
-            "zh": "我是想要成為氣質女V啦"
-          },
-          "path": "news-202405/chen-wei-chi-zi-nu-v.mp3",
-          "url": "https://www.youtube.com/watch?v=594paetbGlU"
-        },
-        {
-          "id": "9cdce3b9-d07e-4cfe-84bf-cb8d50ac9f48",
-          "name": "bu4-nan-v",
-          "description": {
-            "en": "Oh my, I'm not a male VTuber, I'm a female VTuber!",
-            "ja": "あら、私は男性VTuberじゃなくて女性VTuberよ！",
-            "zh": "哎呀我不是男V我是女V啦"
-          },
-          "path": "valentine-lyrics-2/bu4-nan-v.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
-        },
-        {
-          "id": "7ef2fe0c-203a-4d1c-9554-22ee826f2ed3",
-          "name": "nu-v-guan-to",
-          "description": {
-            "en": "I'm a girl Vtuber! How can I be bald!",
-            "ja": "私は女Vだよ！どうしてハゲるの！？",
-            "zh": "我是女V欸怎麼可以光頭啦！"
-          },
-          "path": "news-202405/nu-v-guan-to.mp3",
-          "url": "https://www.youtube.com/watch?v=594paetbGlU"
-        },
-        {
-          "id": "51c13639-f0c0-47bf-bc73-cc96fdac7733",
-          "name": "chin-chu-vtuber",
-          "description": {
-            "en": "I'm a clear-cut, clear-cut VTuber, okay?",
-            "ja": "私は明確無比、明確無比のVTuberよ、分かる?",
-            "zh": "我是清楚系清楚系Vtuber耶好不好"
-          },
-          "path": "gap-moe/chin-chu-vtuber.mp3",
-          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
-        },
-        {
-          "id": "e6629c62-cae7-49d6-9dec-fb47bcba06ca",
-          "name": "nu-v-shen-ti-wo",
-          "description": {
-            "en": "I'm a female V, how could you kick me first? Are you crazy?",
-            "ja": "私は女性Vなのに、どうして先に蹴られるの？あなたたちは頭がおかしいの？",
-            "zh": "我可是女V怎麼會先踢我你們有病吧"
-          },
-          "path": "marshmarllow-202306/nu-v-shen-ti-wo.mp3",
-          "url": "https://www.youtube.com/watch?v=t1QcF57c5pc"
-        },
-        {
-          "id": "413ebbad-8af1-4aea-89ac-0f04346dde41",
-          "name": "wo4-chi-zi-shi",
-          "description": {
-            "en": "Honestly, I was originally a classy type",
-            "ja": "正直に言えば、もともと上品なタイプだったんだ",
-            "zh": "其實老實說呢我本來就是氣質系的阿"
-          },
-          "path": "halloween-2022/wo4-chi-zi-shi.mp3",
-          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
-        },
-        {
-          "id": "ec336451-3244-487e-8bfa-97c30c8e43d6",
-          "name": "sua-chi-den-chan",
-          "description": {
-            "en": "Such elegance! Such grace! Such coolness! I have arrived!",
-            "ja": "なんという気品！なんという優雅さ！なんというかっこよさ！私の登場です！",
-            "zh": "如此氣質！如此高雅！如此帥氣的我登場啦！"
-          },
-          "path": "new-clothes-2-year/sua-chi-den-chan.mp3",
-          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
-        },
-        {
-          "id": "d6a6fd92-4e96-49c5-a6a9-3f9931588dd4",
-          "name": "zan-da-chen-ren",
-          "description": {
-            "en": "From now on, I've grown into an adult, everyone needs to acknowledge that I'm an elegant VTuber, and you need to acknowledge my big parrot part",
-            "ja": "これからは私は大人になりました、皆さん気品のある女性Vtuberとしての私を認めてください、そして私の大きなオウムの部分も認めてくださいね",
-            "zh": "從今以後呢我已經長大成人了啊各位要好好承認我是氣質女V的部分要承認我是大波鸚的部分啊"
-          },
-          "path": "new-clothes-2-year/zan-da-chen-ren.mp3",
-          "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
-        },
-        {
-          "id": "8e8546ef-1607-437b-8d8d-f0d69df0460d",
-          "name": "wo-me-yo-gg",
-          "description": {
-            "en": "Dick? I don't have a dick. Fuck your mom, if I had a dick, I would set up a protrusion, I would fuck you until you bloom",
-            "ja": "ちんちん？持ってないよ。ファックしてやる、ちんちんがあったら、出っ張りを作って、お前を直接咲かせてやる",
-            "zh": "ㄐㄐ?我沒有ㄐㄐ操你媽的啦我要是有ㄐㄐ我就我就我就辦一個凸待我就一個一個捅fuck把你們捅到直接開花"
-          },
-          "path": "marshmarllow-202306/wo-me-yo-gg.mp3",
-          "url": "https://www.youtube.com/watch?v=t1QcF57c5pc"
-        }
-      ]
-    },
-    {
       "id": "2e56352f-19e7-490d-b2f2-f0b41e3806d9",
       "group_name": "breast",
       "group_description": {
-        "en": "Breast",
+        "en": "Boobs",
         "ja": "おっぱい",
         "zh": "奶子"
       },
@@ -6773,6 +6729,270 @@
           },
           "path": "cult/dada-yo-daboing-x4.mp3",
           "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        }
+      ]
+    },
+    {
+      "id": "546a028a-1bf3-44e0-b384-983380f85720",
+      "group_name": "shachiku",
+      "group_description": {
+        "en": "Corporate Slave",
+        "ja": "社畜",
+        "zh": "社畜"
+      },
+      "voice_list": [
+        {
+          "id": "d72596f5-c4ad-43e2-8d77-81d2ba91648a",
+          "name": "shan-fang-jia",
+          "description": {
+            "en": "Ah, I want a vacation too.",
+            "ja": "ああ、私も休みが欲しい",
+            "zh": "啊我也想放假"
+          },
+          "path": "draw-avatar-10/shan-fang-jia.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "id": "94338600-3077-47f2-8cbf-8584a72346ae",
+          "name": "bai-ye-goblin",
+          "description": {
+            "en": "I am a goblin who works at midnight",
+            "ja": "私は夜中に働くゴブリンです",
+            "zh": "我是半夜工作的好哥布林"
+          },
+          "path": "news-202410/bai-ye-goblin.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "64014e0b-450b-4ab1-8b15-c4b88dc02493",
+          "name": "today-der-di-shin",
+          "description": {
+            "en": "Today's low salary is for what? To let you accumulate more experience, whether it's failure or success, it's meant to teach you to bend down so you can raise your ass higher",
+            "ja": "今日の低賃金は何のため？失敗であれ成功であれ、より多くの経験を積むため、腰を曲げることを教え、お尻をより高く上げられるようにするため",
+            "zh": "今天的低薪是為了什麼為了讓你可以累積更多的經驗不管是失敗的還是成功的它就是要教你彎下腰才能夠屁股翹更高"
+          },
+          "path": "marshmarllow-202306/today-der-di-shin.mp3",
+          "url": "https://www.youtube.com/watch?v=t1QcF57c5pc"
+        },
+        {
+          "id": "84538932-d2f0-4900-83b3-2be4d7db0a2f",
+          "name": "sian-li-tze",
+          "description": {
+            "en": "When you want to quit your job, what should you do? Take out your passbook, look at the day you received your salary, remember the excitement of receiving your salary, then in your mind desperately Ctrl+C Ctrl+V Ctrl+C Ctrl+V, magnify that happiness several times, and if you copy that line thirty times, isn't that thirty times the happiness?",
+            "ja": "仕事を辞めたいと思ったとき、どうすればいいか？通帳を取り出し、給料日を見て、給料を受け取る喜びを思い出す。そして心の中で必死にCtrl+C Ctrl+V Ctrl+C Ctrl+V、その喜びを何倍にも拡大し、その行を30回コピーしたら、30倍の幸せにならないだろうか？",
+            "zh": "當你想離職的時候呢你該怎麼做呢阿拿起你的存摺翻到你領薪水的那一天想想你領薪水的那種悸動感覺對然後在腦中拼命的Ctrl+C Ctrl+V Ctrl+C Ctrl+V把那個時候的快樂放大到好幾倍然後把那一行複製到三十遍的話不就是三十倍的快樂了嗎"
+          },
+          "path": "marshmarllow-202306/sian-li-tze.mp3",
+          "url": "https://www.youtube.com/watch?v=t1QcF57c5pc"
+        }
+      ]
+    },
+    {
+      "id": "ab43f8ba-0586-4665-a9da-7a072f6b2eea",
+      "group_name": "genshin-impact",
+      "group_description": {
+        "en": "Genshin",
+        "ja": "原神",
+        "zh": "原神"
+      },
+      "voice_list": [
+        {
+          "id": "e8f4a0b7-a302-4237-977b-e66f67d7dd9a",
+          "name": "yuan-shen-chi-don",
+          "description": {
+            "en": "Genshin... Impact... Start...",
+            "ja": "原神...起動...",
+            "zh": "原神..啟動..."
+          },
+          "path": "mihoyo-set/yuan-shen-chi-don.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "5720ae44-aa4a-4740-96f5-5cc99b7211b5",
+          "name": "yuan-shen-chi-don-2",
+          "description": {
+            "en": "Gen... Gen... Genshin... Im... Impact... Start...",
+            "ja": "げ...げん...原神...き...起動...",
+            "zh": "原..原..原神...啟..啟動..."
+          },
+          "path": "mihoyo-set/yuan-shen-chi-don-2.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "d3891f0d-ded7-410b-a943-f5e07efb328d",
+          "name": "ke-li-wan-jia",
+          "description": {
+            "en": "I'm not just a Klee player, I also wear Klee's clothes",
+            "ja": "私はクレープレイヤーだけでなく、クレーの服も着ています",
+            "zh": "我不只是可莉玩家我還穿上了可莉的衣服"
+          },
+          "path": "mihoyo-set/ke-li-wan-jia.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "740252af-a3a8-46c7-ab87-851eb91236ac",
+          "name": "ke-li-wan-jia-2",
+          "description": {
+            "en": "Genshin Impact start! I love playing Genshin Impact the most, I'm a Klee player. Look, this is my newly bought Klee's Jumpy Dumpty clothes",
+            "ja": "原神、起動！原神をプレイするのが大好きです。クレープレイヤーです。見て、これが新しく買ったクレーのジャンピー爆弾の服です",
+            "zh": "原神啟動我最喜歡玩原神了我是可莉玩家你看這是我新買的衣服可莉蹦蹦炸彈"
+          },
+          "path": "mihoyo-set/ke-li-wan-jia-2.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        }
+      ]
+    },
+    {
+      "id": "30f5a154-6e16-4175-8316-a534e4906f28",
+      "group_name": "fff_team",
+      "group_description": {
+        "en": "FFF Group",
+        "ja": "FFF団",
+        "zh": "FFF團"
+      },
+      "voice_list": [
+        {
+          "id": "94ff6cac-9c4f-4a6c-823e-50fabe5b6bf6",
+          "name": "sao-bao-chin-ru",
+          "description": {
+            "en": "Burn the couples!",
+            "ja": "カップル焼き払え!",
+            "zh": "燒爆情侶！"
+          },
+          "path": "valentine-lyrics/sao-bao-chin-ru.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "2e553944-50ca-4cf0-a760-0b4d1c7a4e84",
+          "name": "bao-za-ba",
+          "description": {
+            "en": "Let them explode, normies. Explode!",
+            "ja": "ノーマルを爆破してやれ。爆弾だ!",
+            "zh": "爆炸吧現充們爆炸吧"
+          },
+          "path": "valentine-lyrics/bao-za-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "bc85bf6b-3830-45f7-a6df-1ea5d93e7f35",
+          "name": "chi-s-chi-s-tuan",
+          "description": {
+            "en": "Everyone, what are we? The \"Go Die\" Group!",
+            "ja": "みんな、私たちは何ですか?「死ね団」ですね!",
+            "zh": "各位我們是什麼？去死去死團！"
+          },
+          "path": "valentine-lyrics/chi-s-chi-s-tuan.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "22d63110-1ec2-400f-b26c-bbc085f60f16",
+          "name": "lao-nia-chi-s-ba",
+          "description": {
+            "en": "You damn couples, go die!",
+            "ja": "お前ら、カップルどもくたばれ!",
+            "zh": "你們這些該死的情侶，給老娘去死吧"
+          },
+          "path": "valentine-lyrics/lao-nia-chi-s-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "6c27f61d-b126-4915-a966-50effa3a16f7",
+          "name": "ma-z-go",
+          "description": {
+            "en": "There's a pathetic simp here at the scene, quickly deal with him",
+            "ja": "ここに哀れなシンプがいるから、早く対処して",
+            "zh": "這裡有可悲的馬子狗出現在現場趕快處理他"
+          },
+          "path": "yoda-dating/ma-z-go.mp3",
+          "url": "https://www.youtube.com/watch?v=gpTSvon5eL8"
+        },
+        {
+          "id": "8c430794-7498-420c-8a91-7617939f04c4",
+          "name": "chin-lu-chie-ka",
+          "description": {
+            "en": "Couples and the chocolates given to them should be crushed to pieces.",
+            "ja": "彼らなる愛する者と、贈られたチョコレートはすり潰されるべきだ。",
+            "zh": "情侶跟送給情侶的巧克力應該要被切開粉碎才對吧"
+          },
+          "path": "valentine-lyrics/chin-lu-chie-ka.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "38108d5b-e344-4b5c-9727-da95e8ad8718",
+          "name": "gai-s-der-chin-lu",
+          "description": {
+            "en": "Why the hell do you goddamn couples have to flaunt your relationships in front of this forever-single person?",
+            "ja": "なぜ、この独身者の前で、お前らカップルは関係をアピールしなきゃいけないんだ!",
+            "zh": "為什麼你們這些該死的情侶，要對我這個母胎單身放閃呢"
+          },
+          "path": "valentine-lyrics/gai-s-der-chin-lu.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "41f782b8-ba45-4002-98e6-a07ba285eaab",
+          "name": "yi-wei-ke-yi-tuo-dan",
+          "description": {
+            "en": "I've been thinking since last Valentine's Day on 2/14 that I'll be single this 2/14 again.",
+            "ja": "前のバレンタインデーの2/14以来、今年の2/14も独身のままだと思ってた。",
+            "zh": "我從上一次2/14號的時候我就一直以來都以為我明年的2/14會脫單"
+          },
+          "path": "valentine-lyrics/yi-wei-ke-yi-tuo-dan.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "6d4832e6-a66d-449e-88cc-57bdab9b50b5",
+          "name": "tin-z-chin-ren-jie",
+          "description": {
+            "en": "Please Taiwan government, call for a law to stop this torturous Valentine's Day holiday, leave us single people alone",
+            "ja": "台湾政府に法改正の呼びかけを、バレンタインデーなんて拷問する祝日は辞めさせてくれ、独身者を放っておいてくれ",
+            "zh": "請台灣政府呼籲修法停止情人節這種折磨人的節日放過我們單身放過我們單身族群好嗎"
+          },
+          "path": "valentine-lyrics/tin-z-chin-ren-jie.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        }
+      ]
+    },
+    {
+      "id": "d428f3be-0ef4-47a2-a6eb-9914697fdb47",
+      "group_name": "unicorn",
+      "group_description": {
+        "en": "Unicorn",
+        "ja": "ユニコーン",
+        "zh": "獨角獸"
+      },
+      "voice_list": [
+        {
+          "id": "12d61193-6a23-4f50-87b9-2bdd075de351",
+          "name": "fei-ji-bei-sen-lin",
+          "description": {
+            "en": "I am the unicorn of the dreamlike fleshlight forest.",
+            "ja": "私は夢のフレッシュライトの森のユニコーンです",
+            "zh": "我是夢幻飛機杯森林的獨角獸"
+          },
+          "path": "dp-toys/fei-ji-bei-sen-lin.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "id": "10c14532-c82b-46a2-95ad-9d17299b2bd0",
+          "name": "wu-shang-kuai-le",
+          "description": {
+            "en": "Let's experience the ultimate joy of the GG unicorn together.",
+            "ja": "一緒にGGユニコーンの至高の喜びを体験しよう。",
+            "zh": "一起體會GG獨角獸的無上快樂吧"
+          },
+          "path": "dp-toys/wu-shang-kuai-le.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "id": "66eb443c-e824-4e07-a6d3-2addf517b1b1",
+          "name": "unicorn-1",
+          "description": {
+            "en": "Why is this guy getting close to my oshi? I'm so upset and annoyed! I've been supporting them for so long, I attend every member's stream, I donate 3200 every month, but why, why can they just freely interact with my oshi? Who is this random guy, what kind of beast is he? Ahhh I want to bite him to death!",
+            "ja": "なぜこいつが私の推しに近づいてるの？むかつく、イライラする！私はずっと応援してきて、メン限も全部見て、毎月3200も投げてるのに、なぜ、なぜ勝手に私の推しと絡めるの？どこの野郎だ、どんな畜生だ？あーもう噛み殺してやりたい！",
+            "zh": "為什麼這個傢伙居然接近了我的推好不爽好煩燥喔明明明明我已經陪伴他那麼久我每個會限都會到我每個月都會固定斗3200可是為什麼為什麼他可以擅擅自跟就跟我的推連動到底是哪來的野男人哪來的畜生哪阿阿阿阿阿好想咬死他喔"
+          },
+          "path": "lazy-against/unicorn-1.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
         }
       ]
     },
@@ -6920,165 +7140,11 @@
       ]
     },
     {
-      "id": "546a028a-1bf3-44e0-b384-983380f85720",
-      "group_name": "shachiku",
-      "group_description": {
-        "en": "Corporate slave",
-        "ja": "社畜",
-        "zh": "社畜"
-      },
-      "voice_list": [
-        {
-          "id": "d72596f5-c4ad-43e2-8d77-81d2ba91648a",
-          "name": "shan-fang-jia",
-          "description": {
-            "en": "Ah, I want a vacation too.",
-            "ja": "ああ、私も休みが欲しい",
-            "zh": "啊我也想放假"
-          },
-          "path": "draw-avatar-10/shan-fang-jia.mp3",
-          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
-        },
-        {
-          "id": "94338600-3077-47f2-8cbf-8584a72346ae",
-          "name": "bai-ye-goblin",
-          "description": {
-            "en": "I am a goblin who works at midnight",
-            "ja": "私は夜中に働くゴブリンです",
-            "zh": "我是半夜工作的好哥布林"
-          },
-          "path": "news-202410/bai-ye-goblin.mp3",
-          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
-        },
-        {
-          "id": "64014e0b-450b-4ab1-8b15-c4b88dc02493",
-          "name": "today-der-di-shin",
-          "description": {
-            "en": "Today's low salary is for what? To let you accumulate more experience, whether it's failure or success, it's meant to teach you to bend down so you can raise your ass higher",
-            "ja": "今日の低賃金は何のため？失敗であれ成功であれ、より多くの経験を積むため、腰を曲げることを教え、お尻をより高く上げられるようにするため",
-            "zh": "今天的低薪是為了什麼為了讓你可以累積更多的經驗不管是失敗的還是成功的它就是要教你彎下腰才能夠屁股翹更高"
-          },
-          "path": "marshmarllow-202306/today-der-di-shin.mp3",
-          "url": "https://www.youtube.com/watch?v=t1QcF57c5pc"
-        },
-        {
-          "id": "84538932-d2f0-4900-83b3-2be4d7db0a2f",
-          "name": "sian-li-tze",
-          "description": {
-            "en": "When you want to quit your job, what should you do? Take out your passbook, look at the day you received your salary, remember the excitement of receiving your salary, then in your mind desperately Ctrl+C Ctrl+V Ctrl+C Ctrl+V, magnify that happiness several times, and if you copy that line thirty times, isn't that thirty times the happiness?",
-            "ja": "仕事を辞めたいと思ったとき、どうすればいいか？通帳を取り出し、給料日を見て、給料を受け取る喜びを思い出す。そして心の中で必死にCtrl+C Ctrl+V Ctrl+C Ctrl+V、その喜びを何倍にも拡大し、その行を30回コピーしたら、30倍の幸せにならないだろうか？",
-            "zh": "當你想離職的時候呢你該怎麼做呢阿拿起你的存摺翻到你領薪水的那一天想想你領薪水的那種悸動感覺對然後在腦中拼命的Ctrl+C Ctrl+V Ctrl+C Ctrl+V把那個時候的快樂放大到好幾倍然後把那一行複製到三十遍的話不就是三十倍的快樂了嗎"
-          },
-          "path": "marshmarllow-202306/sian-li-tze.mp3",
-          "url": "https://www.youtube.com/watch?v=t1QcF57c5pc"
-        }
-      ]
-    },
-    {
-      "id": "6de5d2b3-672c-4982-94aa-1d7eeec47524",
-      "group_name": "vtuber",
-      "group_description": {
-        "en": "Vtuber",
-        "ja": "Vtuber",
-        "zh": "Vtuber"
-      },
-      "voice_list": [
-        {
-          "id": "20023579-d07c-4bdf-9198-b6bec45631eb",
-          "name": "shan-meng-nu",
-          "description": {
-            "en": "Am I becoming more and more like a fujoshi?",
-            "ja": "私は今どんどん夢女子っぽくなっているのかな？",
-            "zh": "我現在是不是越來越像夢女"
-          },
-          "path": "draw-avatar-10/shan-meng-nu.mp3",
-          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
-        },
-        {
-          "id": "1ed10f49-e6b2-45f0-843c-a36dea22c766",
-          "name": "hon-se-peng-yo-yu-chi",
-          "description": {
-            "en": "Can my red friend lend me some luck?",
-            "ja": "赤い友達は私に少し運気を貸してくれるかな？",
-            "zh": "我的紅色朋友可不可以借我一下運氣"
-          },
-          "path": "mihoyo-set/hon-se-peng-yo-yu-chi.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "id": "667580bf-19f7-4f9a-b919-8403386ae0a3",
-          "name": "yidin-4-shi-huan-wo",
-          "description": {
-            "en": "Oh that female VTuber is so cute~ She must like me~",
-            "ja": "あぁその女性VTuberかわいい〜きっと私のことが好きなんだ〜",
-            "zh": "哦那個女V好可愛喔～他一定是喜歡我～"
-          },
-          "path": "valentine-lyrics-2/yidin-4-shi-huan-wo.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
-        },
-        {
-          "id": "bb558a4e-552e-4a5f-afb0-133fec65119a",
-          "name": "hon-se-peng-yo-wa-ken",
-          "description": {
-            "en": "Why on earth is my red friend digging a hole for me to jump into?",
-            "ja": "どうして私の赤い友達は、私が飛び込むための穴を掘っているんだ？",
-            "zh": "我的紅色朋友到底到底為什麼要挖坑給我跳咧"
-          },
-          "path": "mihoyo-set/hon-se-peng-yo-wa-ken.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "id": "62072b89-0894-4f77-afd9-3a87274df627",
-          "name": "wo-der-my-love",
-          "description": {
-            "en": "As expected of my my love, oh my love my love 5mmmmm",
-            "ja": "さすがは私のマイラブよ、おー マイラブ マイラブ 5mmmmm",
-            "zh": "真不愧是我的my love呢喔我my love my love 5mmmmm"
-          },
-          "path": "gap-moe/wo-der-my-love.mp3",
-          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
-        },
-        {
-          "id": "b31e54c7-0d75-4e1a-9440-39547888d825",
-          "name": "hua-sin-za",
-          "description": {
-            "en": "If I continue like this, people will say I'm a playboy, you know",
-            "ja": "このまま続けると、みんな私を浮気者だと言うわよ、分かる?",
-            "zh": "我再這樣繼續下去的話人家都要說我是個花心仔你知道嗎"
-          },
-          "path": "gap-moe/hua-sin-za.mp3",
-          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
-        },
-        {
-          "id": "4625f1a9-1622-4f65-b5be-2323bd45589c",
-          "name": "wo-der-chi-bang",
-          "description": {
-            "en": "I love all female VTubers the most, you are all my wings",
-            "ja": "私は全ての女性VTuberが大好き、あなたたちは私の翼",
-            "zh": "我最喜歡所有的女性Vtuber了，對我來說你們都是我的翅膀"
-          },
-          "path": "valentine-lyrics-2/wo-der-chi-bang.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
-        },
-        {
-          "id": "172268de-3cb1-45b4-a863-878eabcf7152",
-          "name": "goblin-sao-zao",
-          "description": {
-            "en": "So now there are rumors that there's a Gobuta in the forest who harasses passing streamers",
-            "ja": "今、森の中にゴブ太という配信者を困らせる者がいるという噂があります",
-            "zh": "所以現在大家都傳言說森林裡面有個哥布妲並且會去騷擾路過的主播"
-          },
-          "path": "news-202410/goblin-sao-zao.mp3",
-          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
-        }
-      ]
-    },
-    {
       "id": "a4c6922b-bdf6-4747-9050-4b2c0fe190a6",
       "group_name": "relive",
       "group_description": {
-        "en": "Relive",
-        "ja": "李賴虎",
+        "en": "Li Lai Hu",
+        "ja": "リライフ",
         "zh": "李賴虎"
       },
       "voice_list": [
@@ -7195,167 +7261,101 @@
       ]
     },
     {
-      "id": "30f5a154-6e16-4175-8316-a534e4906f28",
-      "group_name": "fff_team",
+      "id": "6de5d2b3-672c-4982-94aa-1d7eeec47524",
+      "group_name": "vtuber",
       "group_description": {
-        "en": "FFF Team",
-        "ja": "FFF団",
-        "zh": "FFF團"
+        "en": "VTuber",
+        "ja": "VTuber",
+        "zh": "Vtuber"
       },
       "voice_list": [
         {
-          "id": "94ff6cac-9c4f-4a6c-823e-50fabe5b6bf6",
-          "name": "sao-bao-chin-ru",
+          "id": "20023579-d07c-4bdf-9198-b6bec45631eb",
+          "name": "shan-meng-nu",
           "description": {
-            "en": "Burn the couples!",
-            "ja": "カップル焼き払え!",
-            "zh": "燒爆情侶！"
+            "en": "Am I becoming more and more like a fujoshi?",
+            "ja": "私は今どんどん夢女子っぽくなっているのかな？",
+            "zh": "我現在是不是越來越像夢女"
           },
-          "path": "valentine-lyrics/sao-bao-chin-ru.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+          "path": "draw-avatar-10/shan-meng-nu.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
-          "id": "2e553944-50ca-4cf0-a760-0b4d1c7a4e84",
-          "name": "bao-za-ba",
+          "id": "1ed10f49-e6b2-45f0-843c-a36dea22c766",
+          "name": "hon-se-peng-yo-yu-chi",
           "description": {
-            "en": "Let them explode, normies. Explode!",
-            "ja": "ノーマルを爆破してやれ。爆弾だ!",
-            "zh": "爆炸吧現充們爆炸吧"
+            "en": "Can my red friend lend me some luck?",
+            "ja": "赤い友達は私に少し運気を貸してくれるかな？",
+            "zh": "我的紅色朋友可不可以借我一下運氣"
           },
-          "path": "valentine-lyrics/bao-za-ba.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
-          "id": "bc85bf6b-3830-45f7-a6df-1ea5d93e7f35",
-          "name": "chi-s-chi-s-tuan",
-          "description": {
-            "en": "Everyone, what are we? The \"Go Die\" Group!",
-            "ja": "みんな、私たちは何ですか?「死ね団」ですね!",
-            "zh": "各位我們是什麼？去死去死團！"
-          },
-          "path": "valentine-lyrics/chi-s-chi-s-tuan.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
-          "id": "22d63110-1ec2-400f-b26c-bbc085f60f16",
-          "name": "lao-nia-chi-s-ba",
-          "description": {
-            "en": "You damn couples, go die!",
-            "ja": "お前ら、カップルどもくたばれ!",
-            "zh": "你們這些該死的情侶，給老娘去死吧"
-          },
-          "path": "valentine-lyrics/lao-nia-chi-s-ba.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
-          "id": "6c27f61d-b126-4915-a966-50effa3a16f7",
-          "name": "ma-z-go",
-          "description": {
-            "en": "There's a pathetic simp here at the scene, quickly deal with him",
-            "ja": "ここに哀れなシンプがいるから、早く対処して",
-            "zh": "這裡有可悲的馬子狗出現在現場趕快處理他"
-          },
-          "path": "yoda-dating/ma-z-go.mp3",
-          "url": "https://www.youtube.com/watch?v=gpTSvon5eL8"
-        },
-        {
-          "id": "8c430794-7498-420c-8a91-7617939f04c4",
-          "name": "chin-lu-chie-ka",
-          "description": {
-            "en": "Couples and the chocolates given to them should be crushed to pieces.",
-            "ja": "彼らなる愛する者と、贈られたチョコレートはすり潰されるべきだ。",
-            "zh": "情侶跟送給情侶的巧克力應該要被切開粉碎才對吧"
-          },
-          "path": "valentine-lyrics/chin-lu-chie-ka.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
-          "id": "38108d5b-e344-4b5c-9727-da95e8ad8718",
-          "name": "gai-s-der-chin-lu",
-          "description": {
-            "en": "Why the hell do you goddamn couples have to flaunt your relationships in front of this forever-single person?",
-            "ja": "なぜ、この独身者の前で、お前らカップルは関係をアピールしなきゃいけないんだ!",
-            "zh": "為什麼你們這些該死的情侶，要對我這個母胎單身放閃呢"
-          },
-          "path": "valentine-lyrics/gai-s-der-chin-lu.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
-          "id": "41f782b8-ba45-4002-98e6-a07ba285eaab",
-          "name": "yi-wei-ke-yi-tuo-dan",
-          "description": {
-            "en": "I've been thinking since last Valentine's Day on 2/14 that I'll be single this 2/14 again.",
-            "ja": "前のバレンタインデーの2/14以来、今年の2/14も独身のままだと思ってた。",
-            "zh": "我從上一次2/14號的時候我就一直以來都以為我明年的2/14會脫單"
-          },
-          "path": "valentine-lyrics/yi-wei-ke-yi-tuo-dan.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
-          "id": "6d4832e6-a66d-449e-88cc-57bdab9b50b5",
-          "name": "tin-z-chin-ren-jie",
-          "description": {
-            "en": "Please Taiwan government, call for a law to stop this torturous Valentine's Day holiday, leave us single people alone",
-            "ja": "台湾政府に法改正の呼びかけを、バレンタインデーなんて拷問する祝日は辞めさせてくれ、独身者を放っておいてくれ",
-            "zh": "請台灣政府呼籲修法停止情人節這種折磨人的節日放過我們單身放過我們單身族群好嗎"
-          },
-          "path": "valentine-lyrics/tin-z-chin-ren-jie.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        }
-      ]
-    },
-    {
-      "id": "ab43f8ba-0586-4665-a9da-7a072f6b2eea",
-      "group_name": "genshin-impact",
-      "group_description": {
-        "en": "Genshin",
-        "ja": "原神",
-        "zh": "原神"
-      },
-      "voice_list": [
-        {
-          "id": "e8f4a0b7-a302-4237-977b-e66f67d7dd9a",
-          "name": "yuan-shen-chi-don",
-          "description": {
-            "en": "Genshin... Impact... Start...",
-            "ja": "原神...起動...",
-            "zh": "原神..啟動..."
-          },
-          "path": "mihoyo-set/yuan-shen-chi-don.mp3",
+          "path": "mihoyo-set/hon-se-peng-yo-yu-chi.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
-          "id": "5720ae44-aa4a-4740-96f5-5cc99b7211b5",
-          "name": "yuan-shen-chi-don-2",
+          "id": "667580bf-19f7-4f9a-b919-8403386ae0a3",
+          "name": "yidin-4-shi-huan-wo",
           "description": {
-            "en": "Gen... Gen... Genshin... Im... Impact... Start...",
-            "ja": "げ...げん...原神...き...起動...",
-            "zh": "原..原..原神...啟..啟動..."
+            "en": "Oh that female VTuber is so cute~ She must like me~",
+            "ja": "あぁその女性VTuberかわいい〜きっと私のことが好きなんだ〜",
+            "zh": "哦那個女V好可愛喔～他一定是喜歡我～"
           },
-          "path": "mihoyo-set/yuan-shen-chi-don-2.mp3",
+          "path": "valentine-lyrics-2/yidin-4-shi-huan-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "bb558a4e-552e-4a5f-afb0-133fec65119a",
+          "name": "hon-se-peng-yo-wa-ken",
+          "description": {
+            "en": "Why on earth is my red friend digging a hole for me to jump into?",
+            "ja": "どうして私の赤い友達は、私が飛び込むための穴を掘っているんだ？",
+            "zh": "我的紅色朋友到底到底為什麼要挖坑給我跳咧"
+          },
+          "path": "mihoyo-set/hon-se-peng-yo-wa-ken.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
-          "id": "d3891f0d-ded7-410b-a943-f5e07efb328d",
-          "name": "ke-li-wan-jia",
+          "id": "62072b89-0894-4f77-afd9-3a87274df627",
+          "name": "wo-der-my-love",
           "description": {
-            "en": "I'm not just a Klee player, I also wear Klee's clothes",
-            "ja": "私はクレープレイヤーだけでなく、クレーの服も着ています",
-            "zh": "我不只是可莉玩家我還穿上了可莉的衣服"
+            "en": "As expected of my my love, oh my love my love 5mmmmm",
+            "ja": "さすがは私のマイラブよ、おー マイラブ マイラブ 5mmmmm",
+            "zh": "真不愧是我的my love呢喔我my love my love 5mmmmm"
           },
-          "path": "mihoyo-set/ke-li-wan-jia.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+          "path": "gap-moe/wo-der-my-love.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
-          "id": "740252af-a3a8-46c7-ab87-851eb91236ac",
-          "name": "ke-li-wan-jia-2",
+          "id": "b31e54c7-0d75-4e1a-9440-39547888d825",
+          "name": "hua-sin-za",
           "description": {
-            "en": "Genshin Impact start! I love playing Genshin Impact the most, I'm a Klee player. Look, this is my newly bought Klee's Jumpy Dumpty clothes",
-            "ja": "原神、起動！原神をプレイするのが大好きです。クレープレイヤーです。見て、これが新しく買ったクレーのジャンピー爆弾の服です",
-            "zh": "原神啟動我最喜歡玩原神了我是可莉玩家你看這是我新買的衣服可莉蹦蹦炸彈"
+            "en": "If I continue like this, people will say I'm a playboy, you know",
+            "ja": "このまま続けると、みんな私を浮気者だと言うわよ、分かる?",
+            "zh": "我再這樣繼續下去的話人家都要說我是個花心仔你知道嗎"
           },
-          "path": "mihoyo-set/ke-li-wan-jia-2.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+          "path": "gap-moe/hua-sin-za.mp3",
+          "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
+          "id": "4625f1a9-1622-4f65-b5be-2323bd45589c",
+          "name": "wo-der-chi-bang",
+          "description": {
+            "en": "I love all female VTubers the most, you are all my wings",
+            "ja": "私は全ての女性VTuberが大好き、あなたたちは私の翼",
+            "zh": "我最喜歡所有的女性Vtuber了，對我來說你們都是我的翅膀"
+          },
+          "path": "valentine-lyrics-2/wo-der-chi-bang.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "172268de-3cb1-45b4-a863-878eabcf7152",
+          "name": "goblin-sao-zao",
+          "description": {
+            "en": "So now there are rumors that there's a Gobuta in the forest who harasses passing streamers",
+            "ja": "今、森の中にゴブ太という配信者を困らせる者がいるという噂があります",
+            "zh": "所以現在大家都傳言說森林裡面有個哥布妲並且會去騷擾路過的主播"
+          },
+          "path": "news-202410/goblin-sao-zao.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         }
       ]
     },
@@ -7363,7 +7363,7 @@
       "id": "c17b9cb4-789a-43c1-ba71-5cf2287f9a5d",
       "group_name": "corny-love",
       "group_description": {
-        "en": "Corny Love Lines",
+        "en": "Cheesy Pick-up Lines",
         "ja": "ダサい口説き文句",
         "zh": "土味情話"
       },
@@ -7429,7 +7429,7 @@
       "id": "c1b53d3c-bc74-4c49-b1f9-2371df29717a",
       "group_name": "gacha-live",
       "group_description": {
-        "en": "Gacha Live",
+        "en": "Gacha Stream",
         "ja": "ガチャ配信",
         "zh": "抽卡實況"
       },
@@ -7506,7 +7506,7 @@
       "id": "d056af76-7d54-49aa-bd87-f000c9baa677",
       "group_name": "first-broadcast",
       "group_description": {
-        "en": "First Broadcast",
+        "en": "First Stream",
         "ja": "初配信",
         "zh": "初配信"
       },
@@ -7716,7 +7716,7 @@
       "group_name": "miscellaneous",
       "group_description": {
         "en": "Miscellaneous",
-        "ja": "その他",
+        "ja": "雑項",
         "zh": "雜項"
       },
       "voice_list": [

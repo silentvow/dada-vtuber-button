@@ -69,7 +69,30 @@
       </v-btn>
     </v-speed-dial>
     <v-flex xs12 sm8 md6 style="min-width: 85%">
-      <!-- 对每个按钮组生成一个Card -->
+      <v-expansion-panels v-model="panel" class="my-3" multiple>
+        <v-expansion-panel v-for="group in groups" :key="group.name">
+          <v-expansion-panel-header class="headline font-weight-bold" :class="dark_text">
+            {{ group.group_description[current_locale] }}
+            <v-chip x-small class="mx-3 flex-grow-0" color="info" outlined>{{ group.voice_list.length }}</v-chip>
+          </v-expansion-panel-header>
+          <v-expansion-panel-content class="button-panel">
+            <voice-btn
+              v-for="item in group.voice_list"
+              ref="voice_btn"
+              :key="item.id"
+              :voice-id="item.id"
+              :class="voice_button_color"
+              :from-youtube="Boolean(item.url)"
+              @on-play="play(item)"
+              @on-youtube="openModal(item)"
+            >
+              {{ item.description[current_locale] || item.description['zh'] }}
+            </voice-btn>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+      </v-expansion-panels>
+    </v-flex>
+    <!-- <v-flex xs12 sm8 md6 style="min-width: 85%">
       <v-card v-for="(group, groupIndex) in groups" :key="group.name">
         <v-card-title class="headline font-weight-bold d-flex align-center" :class="dark_text">
           {{ group.group_description[current_locale] }}
@@ -88,31 +111,9 @@
           >
             {{ item.description[current_locale] || item.description['zh'] }}
           </voice-btn>
-          <v-btn
-            v-if="
-              !opened_group_set.has(group.id) && group.voice_list.length > reduced_groups[groupIndex].voice_list.length
-            "
-            :id="`button-more-${group.id}`"
-            :aria-label="`button-more-${group.id}`"
-            class="align-self-end justify-self-end"
-            plain
-            @click.native="showMore(group.id)"
-          >
-            {{ $t('action.show_more') }}
-          </v-btn>
-          <v-btn
-            v-if="opened_group_set.has(group.id)"
-            :id="`button-more-${group.id}`"
-            :aria-label="`button-more-${group.id}`"
-            class="align-self-end justify-self-end"
-            plain
-            @click.native="hideMore(group.id)"
-          >
-            {{ $t('action.show_less') }}
-          </v-btn>
         </v-card-text>
       </v-card>
-    </v-flex>
+    </v-flex> -->
 
     <v-dialog v-model="is_dialog_open" max-width="600px">
       <v-card>
@@ -202,40 +203,6 @@ export default {
     //SkeletonLoading
   },
   data() {
-    function len(str) {
-      let length = 0;
-      for (let i = 0; i < str.length; i++) {
-        const code = str.charCodeAt(i);
-        // Check if the character is full-width based on its Unicode range
-        if (
-          (code >= 0x1100 && code <= 0x11ff) || // Hangul Jamo
-          (code >= 0x2e80 && code <= 0x2eff) || // CJK Radicals Supplement
-          (code >= 0x3000 && code <= 0x303f) || // CJK Symbols and Punctuation
-          (code >= 0x31c0 && code <= 0x9fff) || // CJK Strokes + Unified Ideographs
-          (code >= 0xac00 && code <= 0xd7af) || // Hangul Syllables
-          (code >= 0xff00 && code <= 0xffef) // Halfwidth and Fullwidth Forms
-        ) {
-          length += 1; // Full-width character
-        } else {
-          length += 0.5; // Half-width character
-        }
-      }
-      return length;
-    }
-
-    const size_limit = 120;
-    const opened_group_set = new Set();
-    const reduced_groups = voice_lists.groups.map(group => {
-      let idx = 0;
-      for (let width = 0; idx < group.voice_list.length; ++idx) {
-        width += len(group.voice_list[idx].description['zh']) + 6.5;
-        if (width > size_limit) break;
-      }
-      return {
-        ...group,
-        voice_list: group.voice_list.slice(0, idx)
-      };
-    });
     return {
       icons: {
         close: mdiClose,
@@ -252,8 +219,7 @@ export default {
       repeat: false,
       fab: false,
       groups: voice_lists.groups,
-      reduced_groups,
-      opened_group_set,
+      panel: [0],
       now_playing: new Set(),
       upcoming_lives: [],
       lives: [],
@@ -346,14 +312,6 @@ export default {
           eventLabel: item.name + ' ' + item.description['zh']
         });
       }
-    },
-    showMore(groupId) {
-      this.opened_group_set.add(groupId);
-      this.opened_group_set = new Set(this.opened_group_set);
-    },
-    hideMore(groupId) {
-      this.opened_group_set.delete(groupId);
-      this.opened_group_set = new Set(this.opened_group_set);
     },
     openModal(item) {
       this.is_dialog_open = true;

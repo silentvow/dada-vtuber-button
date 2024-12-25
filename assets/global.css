@@ -44,7 +44,30 @@
   background-color: #3A1212;
 }
 
+.v-application .theme--light.v-expansion-panels .v-expansion-panel {
+  background-color: #FFFFFF;
+}
+
+.v-application .theme--light.v-expansion-panels .v-expansion-panel:nth-child(even) {
+  background-color: #FFEDEE;
+}
+
+.v-application .theme--dark.v-expansion-panels .v-expansion-panel {
+  background-color: #1E1E1E;
+}
+
+.v-application .theme--dark.v-expansion-panels .v-expansion-panel:nth-child(even) {
+  background-color: #3A1212;
+}
+
 .button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.button-panel > div {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
