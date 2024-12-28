@@ -758,6 +758,17 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "b03a2985-8f70-4d10-88b6-db199e5a0587",
+          "name": "chi-pian-gan-chin",
+          "description": {
+            "en": "How could you deceive my feelings",
+            "ja": "よくも私の気持ちを裏切れたわね",
+            "zh": "你怎麼可以欺騙我的感情"
+          },
+          "path": "marshmarllow-202206/chi-pian-gan-chin.mp3",
+          "url": "https://www.youtube.com/watch?v=ezJiATmjoIQ"
+        },
+        {
           "id": "cb409615-9b1e-481a-960f-87a086e561b7",
           "name": "niao-dan-pi-don-si",
           "description": {
@@ -1020,6 +1031,17 @@
           },
           "path": "lazy-against/salary-thief.mp3",
           "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "96cbee77-d340-4703-a97a-79e1318ff0f9",
+          "name": "beast-ser-hue-di-tsen",
+          "description": {
+            "en": "You scum, you scum, society's failure, bottom feeder",
+            "ja": "このクズ、このクズ、社会の落伍者、底辺",
+            "zh": "畜生畜生社會敗類底層"
+          },
+          "path": "marshmarllow-202206/beast-ser-hue-di-tsen.mp3",
+          "url": "https://www.youtube.com/watch?v=ezJiATmjoIQ"
         },
         {
           "id": "25008c07-cc12-4f3b-82ee-3593b6e98e77",
@@ -1372,6 +1394,17 @@
           },
           "path": "valentine-lyrics-2/miska-moska.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "5ee48227-8068-472d-985e-c00c3194517a",
+          "name": "magical-girl",
+          "description": {
+            "en": "I want to become the cutest magical girl",
+            "ja": "私は一番かわいい魔法少女になりたい",
+            "zh": "我想成為最可愛的魔法少女"
+          },
+          "path": "marshmarllow-202206/magical-girl.mp3",
+          "url": "https://www.youtube.com/watch?v=ezJiATmjoIQ"
         },
         {
           "id": "8689b2bd-bcf6-4d9a-82f8-61f142232aad",
@@ -6456,6 +6489,17 @@
       },
       "voice_list": [
         {
+          "id": "981af139-5900-4246-bbed-bcf5212193b8",
+          "name": "gang",
+          "description": {
+            "en": "Fuck",
+            "ja": "くそ",
+            "zh": "幹"
+          },
+          "path": "marshmarllow-202206/gang.mp3",
+          "url": "https://www.youtube.com/watch?v=ezJiATmjoIQ"
+        },
+        {
           "id": "15247b78-f275-4fe7-930b-951cdfa4165e",
           "name": "fuck",
           "description": {
@@ -6531,6 +6575,17 @@
           },
           "path": "self-chat/fuck-you-la.mp3",
           "url": "https://www.youtube.com/watch?v=-2FM0ZN7Kys"
+        },
+        {
+          "id": "8df7823f-7421-48fe-920c-aff13f4ab1b8",
+          "name": "tsao-ni-ma-de",
+          "description": {
+            "en": "F*** you",
+            "ja": "くたばれ",
+            "zh": "操你媽的啦"
+          },
+          "path": "marshmarllow-202206/tsao-ni-ma-de.mp3",
+          "url": "https://www.youtube.com/watch?v=ezJiATmjoIQ"
         },
         {
           "id": "1f32a735-215a-4ed8-a04b-dd630d40685d",
@@ -7303,6 +7358,17 @@
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
+          "id": "20d5667b-17df-4f2e-b233-16629ec825f1",
+          "name": "zu-tue-yobai",
+          "description": {
+            "en": "Strictly speaking, among Taiwan VTubers, my main oshi should be considered Yuhaku",
+            "ja": "厳密に言えば、台湾VTuberの中で私の推しは悠白だと思う",
+            "zh": "嚴格說起來台V我的主推應該算是悠白啦"
+          },
+          "path": "marshmarllow-202206/zu-tue-yobai.mp3",
+          "url": "https://www.youtube.com/watch?v=ezJiATmjoIQ"
+        },
+        {
           "id": "bb558a4e-552e-4a5f-afb0-133fec65119a",
           "name": "hon-se-peng-yo-wa-ken",
           "description": {
@@ -7356,6 +7422,17 @@
           },
           "path": "news-202410/goblin-sao-zao.mp3",
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "d45d78b1-0a23-4c8e-81e0-d7544e3196d0",
+          "name": "lao-po-zu-tue",
+          "description": {
+            "en": "Whether it's a wife, you'll always think about her and keep her in your heart, right? An oshi you'll definitely go see at the venue - do you understand the difference between these two?",
+            "ja": "嫁はどんなときでも考えて心に留めているもので、推しは必ず会場に見に行くもの、この二つの違いが分かる？",
+            "zh": "老婆是不管怎麼樣都會想著的都會放在心上面想的好不好主推是一定會去看台的這兩個的區別你懂嗎"
+          },
+          "path": "marshmarllow-202206/lao-po-zu-tue.mp3",
+          "url": "https://www.youtube.com/watch?v=ezJiATmjoIQ"
         }
       ]
     },
@@ -7884,6 +7961,17 @@
           },
           "path": "yoda-girlfriend/fa-tsai-ler.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "fa147cf8-d3d3-4e34-a3f3-13976faceab6",
+          "name": "ka-wa-ii",
+          "description": {
+            "en": "Super cute kawaii~",
+            "ja": "超かわいい、カワイイ〜",
+            "zh": "超可愛的卡哇伊～"
+          },
+          "path": "marshmarllow-202206/ka-wa-ii.mp3",
+          "url": "https://www.youtube.com/watch?v=ezJiATmjoIQ"
         },
         {
           "id": "f944e103-58b6-4b7e-a1d9-8fa0d267f77d",
