@@ -1,5 +1,6 @@
 {
   "action": {
+    "download": "Download",
     "like": "Like",
     "like_success": "Liked",
     "play_option": "Play Option",

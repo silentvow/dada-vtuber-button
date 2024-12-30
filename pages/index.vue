@@ -85,6 +85,7 @@
               :from-youtube="Boolean(item.url)"
               @on-play="play(item)"
               @on-youtube="openModal(item)"
+              @on-download="download(item)"
             >
               {{ item.description[current_locale] || item.description['zh'] }}
             </voice-btn>
@@ -312,6 +313,12 @@ export default {
           eventLabel: item.name + ' ' + item.description['zh']
         });
       }
+    },
+    download(item) {
+      let a = document.createElement('a');
+      a.href = this.voice_host + item.path;
+      a.download = item.path.split('/').pop();
+      a.click();
     },
     openModal(item) {
       this.is_dialog_open = true;

@@ -1,5 +1,6 @@
 {
   "action": {
+    "download": "ダウンロード",
     "like": "お気に入り",
     "like_success": "お気に入り登録済み",
     "play_option": "再生オプション",

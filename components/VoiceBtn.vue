@@ -61,6 +61,14 @@
                 <v-list-item-title>{{ $t('action.view_stream') }}</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
+            <v-list-item @click="onDownload">
+              <v-list-item-icon class="mr-2">
+                <v-icon>{{ icons.download }}</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
+                <v-list-item-title>{{ $t('action.download') }}</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
           </v-list>
         </v-menu>
       </v-item-group>
@@ -88,7 +96,7 @@
   </v-hover>
 </template>
 <script>
-import { mdiHeartMinus, mdiHeartPlus, mdiMenu, mdiYoutube } from '@mdi/js';
+import { mdiDownload, mdiHeartMinus, mdiHeartPlus, mdiMenu, mdiYoutube } from '@mdi/js';
 import twemoji from 'twemoji';
 
 export default {
@@ -124,6 +132,7 @@ export default {
   data() {
     return {
       icons: {
+        download: mdiDownload,
         menu: mdiMenu,
         heartMinus: mdiHeartMinus,
         heartPlus: mdiHeartPlus,
@@ -167,6 +176,9 @@ export default {
     },
     onYoutube() {
       this.$emit('on-youtube');
+    },
+    onDownload() {
+      this.$emit('on-download');
     },
     onLike() {
       this.$store.commit('ADD_VOICE_FAVORITE', this.voiceId.slice(0, 13));

@@ -1,5 +1,6 @@
 {
   "action": {
+    "download": "下載語音",
     "like": "加入最愛",
     "like_success": "已加入最愛",
     "play_option": "播放選項",
