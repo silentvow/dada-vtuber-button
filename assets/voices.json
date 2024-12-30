@@ -2254,6 +2254,17 @@
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
+          "id": "590095c6-1d46-4847-af6c-acdc5562f517",
+          "name": "sorry-ser-hui-dazo",
+          "description": {
+            "en": "I'm really sorry to society, wuwu",
+            "ja": "本当に社会に申し訳ありません、うぅ",
+            "zh": "我真的很對不起社會大眾嗚嗚"
+          },
+          "path": "vtuber-choice/sorry-ser-hui-dazo.mp3",
+          "url": "https://www.youtube.com/watch?v=nJU0T6DhOHc"
+        },
+        {
           "id": "1960b3cd-b04b-4777-911b-ff56337feb70",
           "name": "ai-hue-shiao-shi",
           "description": {
@@ -2560,6 +2571,17 @@
           },
           "path": "thanksgiving/ai-hao-7.mp3",
           "url": "https://www.youtube.com/watch?v=Zku9b14Vw7o"
+        },
+        {
+          "id": "3af311b8-34e9-495d-9a29-54f7b0b9e341",
+          "name": "ai-hao-8",
+          "description": {
+            "en": "Wailing sound -8",
+            "ja": "悲鳴-8",
+            "zh": "哀嚎聲-8"
+          },
+          "path": "vtuber-choice/ai-hao-8.mp3",
+          "url": "https://www.youtube.com/watch?v=nJU0T6DhOHc"
         },
         {
           "id": "647dcdbd-494b-4b98-b163-2c70791fcda9",
@@ -6742,6 +6764,17 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "5dc110a9-58fb-4392-958b-a3b16f41990e",
+          "name": "nai-na-mo-da",
+          "description": {
+            "en": "Why does everyone's chest have to be so big?",
+            "ja": "なぜみんなの胸はそんなに大きいの？",
+            "zh": "為什麼大家奶都要那麼大啊？"
+          },
+          "path": "vtuber-choice/nai-na-mo-da.mp3",
+          "url": "https://www.youtube.com/watch?v=nJU0T6DhOHc"
+        },
+        {
           "id": "444d4769-7034-4b47-b6b0-81f156115864",
           "name": "hsin-yan-daboing",
           "description": {
@@ -6751,6 +6784,17 @@
           },
           "path": "cult/hsin-yan-daboing.mp3",
           "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
+          "id": "9149ccd0-1b9d-4768-8e2d-5938773ab08c",
+          "name": "nai-z-da-ken",
+          "description": {
+            "en": "Why does everyone's chest have to grow so big huh?",
+            "ja": "なぜみんなの胸はそんなに大きく育つの？",
+            "zh": "為什麼大家的奶都要長得那麼大ㄎ一ㄢ哪？"
+          },
+          "path": "vtuber-choice/nai-z-da-ken.mp3",
+          "url": "https://www.youtube.com/watch?v=nJU0T6DhOHc"
         },
         {
           "id": "3e7b14af-ba36-4ae7-bcfd-7b095a2595d2",
@@ -7424,6 +7468,17 @@
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
         },
         {
+          "id": "5a092316-bb6c-42f7-a00b-cf97415f872b",
+          "name": "da-jia-do-pin-den",
+          "description": {
+            "en": "Everyone in my heart is equal, charming, and the best - you are all my wings, all my most beloved VTubers, I will love you forever",
+            "ja": "皆さんは私の心の中で平等で、魅力的で、最高の存在です - 皆さんは私の翼であり、私の最愛のVTuberです、永遠に愛しています",
+            "zh": "大家在我心中都是平等的有魅力的最棒的你們都是我的翅膀都是我最愛的VTuber啊我永遠愛你們"
+          },
+          "path": "vtuber-choice/da-jia-do-pin-den.mp3",
+          "url": "https://www.youtube.com/watch?v=nJU0T6DhOHc"
+        },
+        {
           "id": "d45d78b1-0a23-4c8e-81e0-d7544e3196d0",
           "name": "lao-po-zu-tue",
           "description": {
@@ -7433,6 +7488,17 @@
           },
           "path": "marshmarllow-202206/lao-po-zu-tue.mp3",
           "url": "https://www.youtube.com/watch?v=ezJiATmjoIQ"
+        },
+        {
+          "id": "50de1c06-6e8f-48d9-b65d-b16f9a22a98a",
+          "name": "wo-hsin-mu-zon",
+          "description": {
+            "en": "In my heart, you are all equal, you are irreplaceable, you know? You know? I like you so much, your art and your singing voice, please believe me",
+            "ja": "私の心の中で皆さんは平等で、かけがえのない存在なんです、分かりますか？分かりますか？私はあなたのことがとても好きで、あなたのイラストと歌声を本当に信じています",
+            "zh": "在我心目中你們都是同等的你們無法被取代你知道嗎你知道嗎我是如此的喜歡你你的圖跟你的歌聲真的相信我"
+          },
+          "path": "vtuber-choice/wo-hsin-mu-zon.mp3",
+          "url": "https://www.youtube.com/watch?v=nJU0T6DhOHc"
         }
       ]
     },
