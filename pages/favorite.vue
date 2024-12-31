@@ -287,6 +287,7 @@ export default {
     },
     download(item) {
       let a = document.createElement('a');
+      a.target = '_blank';
       a.href = this.voice_host + item.path;
       a.download = item.path.split('/').pop();
       a.click();
