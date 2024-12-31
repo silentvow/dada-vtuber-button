@@ -3970,6 +3970,28 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "f720dfdb-fbc7-46eb-8776-620ac1dd4328",
+          "name": "yi-zz-hen-bang",
+          "description": {
+            "en": "You've been doing great all along",
+            "ja": "ずっとすごく頑張ってきましたね",
+            "zh": "你一直以來都表現地很棒喔"
+          },
+          "path": "yoda-cure-mama/yi-zz-hen-bang.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
+        },
+        {
+          "id": "97c9051e-17fa-4a4d-b8b4-c6a54b7bdd08",
+          "name": "hen-ban-de-ren",
+          "description": {
+            "en": "You are a really really great person",
+            "ja": "あなたはとってもとっても素晴らしい人ですよ",
+            "zh": "你是一個很棒很棒的很棒的人喔"
+          },
+          "path": "yoda-cure-mama/hen-ban-de-ren.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
+        },
+        {
           "id": "e9944944-d1a7-49d8-b993-b586c289515c",
           "name": "you-super-great",
           "description": {
@@ -3979,6 +4001,28 @@
           },
           "path": "halloween-2022/you-super-great.mp3",
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "cb8f44d4-4ff1-46ce-ae70-f4ae6ab1951b",
+          "name": "wu-lun-zz-tse",
+          "description": {
+            "en": "No matter what, I will support you and cheer you on~",
+            "ja": "どんなことがあっても、私はあなたを支持して応援していきますよ〜",
+            "zh": "無論如何呢我都會支持你會為你加油的喔～"
+          },
+          "path": "yoda-cure-mama/wu-lun-zz-tse.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
+        },
+        {
+          "id": "0cfee630-a6f2-4347-abd5-7e985ab5b293",
+          "name": "du-yi-wu-er",
+          "description": {
+            "en": "You're the best, you are unique, you're the best and most special existence~",
+            "ja": "あなたは最高よ、あなたはユニークで、最高で最も特別な存在なのよ〜",
+            "zh": "你最棒了你是獨一無二的是最棒最特別的存在唷"
+          },
+          "path": "yoda-cure-mama/du-yi-wu-er.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
         }
       ]
     },
@@ -4045,6 +4089,17 @@
           },
           "path": "yoda-girlfriend/bu-yao-bu-yao.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "2463319e-7f6f-4b04-9e12-e47033efdfb5",
+          "name": "hao-er-shin-ya",
+          "description": {
+            "en": "So gross, yucky meat",
+            "ja": "気持ち悪い、ヤダ、肉",
+            "zh": "好噁心喔亞咩肉"
+          },
+          "path": "yoda-cure-mama/hao-er-shin-ya.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
         },
         {
           "id": "dae9fdf1-5924-4f62-b956-fbfb85413d25",
@@ -4223,6 +4278,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "247b8233-5800-4a88-a876-d04d450d6848",
+          "name": "hao-sue-jiao-ba",
+          "description": {
+            "en": "Sleep well~",
+            "ja": "ゆっくり寝てね〜",
+            "zh": "好好地睡覺吧～"
+          },
+          "path": "yoda-cure-mama/hao-sue-jiao-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
+        },
+        {
           "id": "8a77a732-147a-4c28-869a-b097ad7c8c9b",
           "name": "hua-yi-hue-jia",
           "description": {
@@ -4232,6 +4298,39 @@
           },
           "path": "yoda-girlfriend/hua-yi-hue-jia.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "f1f018b5-27be-4b14-8b18-c9db8aac42f4",
+          "name": "jia-yo-yoda-ai-ni",
+          "description": {
+            "en": "Keep going, Young Huida loves you loves you yes",
+            "ja": "頑張って、幼フイダはあなたを愛してる愛してるよ",
+            "zh": "加油幼妲愛你愛你諾"
+          },
+          "path": "yoda-cure-mama/jia-yo-yoda-ai-ni.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
+        },
+        {
+          "id": "b92ee5d7-adbf-4a32-ae33-390b577795c7",
+          "name": "yoda-si-huan-master",
+          "description": {
+            "en": "Young Huida loves Master the most 5ma",
+            "ja": "幼フイダはご主人様が大好き5ma",
+            "zh": "幼妲最喜歡主人了5ma"
+          },
+          "path": "yoda-cure-mama/yoda-si-huan-master.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
+        },
+        {
+          "id": "896920f6-e4c4-4d40-84db-3fd55e228a61",
+          "name": "yoda-jia-yo",
+          "description": {
+            "en": "Young Huida will cheer for you~",
+            "ja": "幼フイダはあなたを応援しますよ〜",
+            "zh": "幼妲會為你加油的喔～"
+          },
+          "path": "yoda-cure-mama/yoda-jia-yo.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
         },
         {
           "id": "42af5c7b-233d-4acc-99bf-2a822999a60b",
@@ -4245,6 +4344,17 @@
           "url": "https://www.youtube.com/watch?v=gpTSvon5eL8"
         },
         {
+          "id": "414416b6-17ca-4f4b-a228-2f89184a089c",
+          "name": "yao-jia-yo-o",
+          "description": {
+            "en": "You who have been working so hard must definitely definitely keep going~",
+            "ja": "そんなに頑張ってきたあなたは、絶対に絶対に頑張り続けてね〜",
+            "zh": "一直那麼努力的你絕對絕對要加油喔～"
+          },
+          "path": "yoda-cure-mama/yao-jia-yo-o.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
+        },
+        {
           "id": "8197e286-dd90-4d84-8fc6-473c87f9ccb8",
           "name": "lucky-5ma",
           "description": {
@@ -4256,6 +4366,28 @@
           "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
         },
         {
+          "id": "4052fba7-739f-4d72-8e31-3bbcf04e97e1",
+          "name": "hsin-ku-bao-bao",
+          "description": {
+            "en": "Big brother, you worked hard today, let me give you a hug~ Huggy~",
+            "ja": "お兄ちゃん、今日はお疲れ様、ハグさせて〜ハグ〜",
+            "zh": "大哥哥今天辛苦了讓我來抱抱你吧～抱抱～"
+          },
+          "path": "yoda-cure-mama/hsin-ku-bao-bao.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
+        },
+        {
+          "id": "3744d1d3-3c1e-4769-ba8e-ee19cb96357d",
+          "name": "today-bu-yu-kuai",
+          "description": {
+            "en": "Today's unpleasantness is all over now~ You're the best~",
+            "ja": "今日の嫌なことは全部終わったよ〜あなたは最高だよ〜",
+            "zh": "今天的不愉快都已經過去了喔～你最棒了呢～"
+          },
+          "path": "yoda-cure-mama/today-bu-yu-kuai.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
+        },
+        {
           "id": "6b46b0db-70e0-474c-9714-437a54be3e6a",
           "name": "how-how-sleep-2",
           "description": {
@@ -4265,6 +4397,17 @@
           },
           "path": "yoda-dating/how-how-sleep-2.mp3",
           "url": "https://www.youtube.com/watch?v=gpTSvon5eL8"
+        },
+        {
+          "id": "09fc0468-01c3-49d7-81a7-128e6e38c78d",
+          "name": "nu-li-chi-zuo",
+          "description": {
+            "en": "As long as you start working hard, it will definitely definitely be better than not doing it at all",
+            "ja": "頑張り始めさえすれば、絶対に絶対に何もしないよりはましだよ",
+            "zh": "只要開始努力地去做，就絕對絕對比不去做還要強喔"
+          },
+          "path": "yoda-cure-mama/nu-li-chi-zuo.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
         },
         {
           "id": "813c274e-699f-451b-873e-fee1078e84d7",
@@ -4353,6 +4496,17 @@
           },
           "path": "two-loli-blame/chu-chon-bian-ta-ser-tsu.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "id": "4fee3b2f-1868-4d4a-9790-e794fe884465",
+          "name": "yoda-tsai-bi-ba",
+          "description": {
+            "en": "You! Noob!",
+            "ja": "この！雑魚が！",
+            "zh": "你這個！菜逼巴！"
+          },
+          "path": "yoda-cure-mama/yoda-tsai-bi-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
         },
         {
           "id": "i4jkl2m0-n9i1-2m6k-7l3j-1m5n6l8k9j0i",
@@ -4498,6 +4652,17 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "51b2abda-abf8-4c17-a122-e48166b20426",
+          "name": "chen-zua-sao",
+          "description": {
+            "en": "Big brother, how can you support me when you earn so little?",
+            "ja": "お兄ちゃん、そんなに少ない給料で私をどうやって養うの？",
+            "zh": "大哥哥你錢賺那麼少要怎麼去養我啊"
+          },
+          "path": "yoda-cure-mama/chen-zua-sao.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
+        },
+        {
           "id": "p1qrs9t7-u6p8-9t3r-4s0q-8t2u3s5r6q7p",
           "name": "jiao-hsin-se-tsu",
           "description": {
@@ -4619,6 +4784,28 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "01388774-622c-42a3-81bf-2f533e5c65e3",
+          "name": "yoda-tao-ye-gtue",
+          "description": {
+            "en": "Young Huida hates useless chicken leg big brothers and big sisters like this the most",
+            "ja": "幼フイダはこんなチキンレッグのお兄ちゃんお姉ちゃんが大嫌い、完全なる無能よ",
+            "zh": "幼妲最討厭像這樣的雞腿大哥哥大姊姊完全就是廢物嘛"
+          },
+          "path": "yoda-cure-mama/yoda-tao-ye-gtue.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
+        },
+        {
+          "id": "0230a146-82b3-4c5e-be03-6580384e7779",
+          "name": "ma-ma-ser-chu-dd",
+          "description": {
+            "en": "Why isn't this stupid corporate slave big brother working properly, DD-ing every day",
+            "ja": "このバカ社畜お兄ちゃんは、なぜちゃんと仕事をせずに毎日DDばかりしているの",
+            "zh": "這個笨蛋社畜大哥哥為什麼不好好的工作每天都在DD呢"
+          },
+          "path": "yoda-cure-mama/ma-ma-ser-chu-dd.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
+        },
+        {
           "id": "v7wxy5z3-a2v4-5z9x-0y6w-4z8a9y1x2w3v",
           "name": "me-nu-peng-yo-cho-jia",
           "description": {
@@ -4683,6 +4870,17 @@
           },
           "path": "yoda-girlfriend/dan-sen-yi-bei-tze.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "99c78970-1943-426f-ac49-7dae484f3d59",
+          "name": "ni4-lan-to-ler",
+          "description": {
+            "en": "I knew it was you! It's you again! You're the worst! You're rat-faced, monkey-jawed, with sores on your head and pus on your feet, you're absolutely terrible!",
+            "ja": "やっぱりあなただ！またあなたね！最低ね！ネズミみたいな顔に猿みたいな顎、頭は腫れ物だらけで足は膿だらけ、最悪よ！",
+            "zh": "我就知道是你！又是你！你最爛！你是獐頭鼠目、尖嘴猴腮、頭頂生瘡、腳底流膿，你是爛透了！"
+          },
+          "path": "yoda-cure-mama/ni4-lan-to-ler.mp3",
+          "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I"
         },
         {
           "id": "935715ef-ca0b-4b73-89e2-b7f175c6862e",
