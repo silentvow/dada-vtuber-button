@@ -153,6 +153,17 @@
           "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
         },
         {
+          "id": "0d1db6c9-52ea-48a5-81d2-c95ad0e8dd0d",
+          "name": "hua-yin-gua-lin",
+          "description": {
+            "en": "Welcome~",
+            "ja": "いらっしゃいませ〜",
+            "zh": "歡迎光臨～"
+          },
+          "path": "prompt-drama/hua-yin-gua-lin.mp3",
+          "url": "https://www.youtube.com/watch?v=sJFMrdsNtRE"
+        },
+        {
           "id": "3b4736d5-740c-4400-896d-3d21865fc5a4",
           "name": "i-m-coming",
           "description": {
@@ -217,6 +228,17 @@
           },
           "path": "yoda-girlfriend/she-she-da-jia.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "e9584928-5184-4fdd-b870-a4493f0077e2",
+          "name": "ni-hao-da-boing",
+          "description": {
+            "en": "Hi hello, I am the big parrot",
+            "ja": "はいこんにちは、私は大きなオウムです",
+            "zh": "嗨你好啊我是大波鸚"
+          },
+          "path": "prompt-drama/ni-hao-da-boing.mp3",
+          "url": "https://www.youtube.com/watch?v=sJFMrdsNtRE"
         },
         {
           "id": "fe2b39c3-3761-49f5-8105-2ec99319076a",
@@ -1407,6 +1429,17 @@
           "url": "https://www.youtube.com/watch?v=ezJiATmjoIQ"
         },
         {
+          "id": "fa458d11-5aa9-41e5-af69-d98b275df51d",
+          "name": "sian-san-wo-men",
+          "description": {
+            "en": "Offer up our blood! Offer up our liver!",
+            "ja": "血を捧げよ！肝臓を捧げよ！",
+            "zh": "獻上我們的血！獻上我們的肝！"
+          },
+          "path": "phasmophobia/sian-san-wo-men.mp3",
+          "url": "https://www.youtube.com/watch?v=UNtyZeR7w4E"
+        },
+        {
           "id": "8689b2bd-bcf6-4d9a-82f8-61f142232aad",
           "name": "dudu-chi-chan",
           "description": {
@@ -1427,6 +1460,17 @@
           },
           "path": "new-clothes-2-year/da-wo-a.mp3",
           "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
+          "id": "e1ea7479-b110-4268-b68a-ccfaec02c289",
+          "name": "gon-zuo-x6",
+          "description": {
+            "en": "Work! Work! Work! Work! Work! Work!",
+            "ja": "仕事！仕事！仕事！仕事！仕事！仕事！",
+            "zh": "工作！工作！工作！工作！工作！工作！"
+          },
+          "path": "phasmophobia/gon-zuo-x6.mp3",
+          "url": "https://www.youtube.com/watch?v=UNtyZeR7w4E"
         },
         {
           "id": "a52ec862-6f82-4d34-80d4-ad204e957d01",
@@ -2617,6 +2661,17 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "965d9b39-6023-4dfd-9151-481517b1dce1",
+          "name": "jo-min-a",
+          "description": {
+            "en": "Help me!",
+            "ja": "助けて！",
+            "zh": "救命啊！"
+          },
+          "path": "prompt-drama/jo-min-a.mp3",
+          "url": "https://www.youtube.com/watch?v=sJFMrdsNtRE"
+        },
+        {
           "id": "d1b08a71-135c-453e-b9cd-04725b4d9889",
           "name": "wo-yao-po-fang",
           "description": {
@@ -3167,6 +3222,17 @@
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
+          "id": "89678f87-d130-4e38-b605-a7e81b085df9",
+          "name": "taipei-somewhere",
+          "description": {
+            "en": "Somewhere in Taipei",
+            "ja": "台北のどこか",
+            "zh": "台北某個地方"
+          },
+          "path": "phasmophobia/taipei-somewhere.mp3",
+          "url": "https://www.youtube.com/watch?v=UNtyZeR7w4E"
+        },
+        {
           "id": "808ba513-13b2-4c2a-9a8e-cda83f50fb19",
           "name": "wei-fong-tan-tan",
           "description": {
@@ -3429,6 +3495,17 @@
           },
           "path": "math-class/zu-so-din-yi.mp3",
           "url": "https://www.youtube.com/watch?v=Qv6Ieb8Sh74"
+        },
+        {
+          "id": "12ce610c-42f5-43b5-a2fe-5e9eccd0c180",
+          "name": "sunday-min-tian",
+          "description": {
+            "en": "It's Sunday today and tomorrow is Monday, have to drag myself back to work",
+            "ja": "今日は日曜日で明日は月曜日、仕事に戻らないといけないよ",
+            "zh": "今天是禮拜天了明天就是禮拜一了要滾回去上班了阿"
+          },
+          "path": "prompt-drama/sunday-min-tian.mp3",
+          "url": "https://www.youtube.com/watch?v=sJFMrdsNtRE"
         },
         {
           "id": "d3f7e08c-5fda-44e9-ab12-09507cc9df22",
