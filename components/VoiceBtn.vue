@@ -171,7 +171,8 @@ export default {
     }
   },
   methods: {
-    onPlay() {
+    onPlay(event) {
+      event.stopPropagation();
       this.$emit('on-play');
     },
     onYoutube() {

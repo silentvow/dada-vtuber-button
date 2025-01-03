@@ -32,6 +32,28 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "98c7ed7e-63b8-4436-a4b1-1fdaa39cb921",
+          "name": "my-godd",
+          "description": {
+            "en": "Oh my goodness",
+            "ja": "なんてこった",
+            "zh": "我的天老爺阿"
+          },
+          "path": "bird-ball/my-godd.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
+        {
+          "id": "87d312d9-9153-4f7d-8aa9-95577dd176b4",
+          "name": "give-me-careful",
+          "description": {
+            "en": "Be careful!",
+            "ja": "気をつけなさい",
+            "zh": "給我小心一點"
+          },
+          "path": "bird-ball/give-me-careful.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
+        {
           "id": "3e528c90-5224-4715-a7e1-31518991a3d5",
           "name": "ge-wo-shiao-hsin",
           "description": {
@@ -43,26 +65,26 @@
           "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
         },
         {
-          "id": "6c479f3e-abce-48b6-9252-8606b6801cf4",
-          "name": "zhen-na-ni-mei-ban-fa",
-          "description": {
-            "en": "Alright, I really can't do anything about you guys.",
-            "ja": "まあ、君たちには本当に手をこまねいているよ。",
-            "zh": "好啦真拿你們沒辦法"
-          },
-          "path": "dp-toys/zhen-na-ni-mei-ban-fa.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
           "id": "9c74cfae-8366-4358-a422-e15a73cc1940",
           "name": "hao-ba-may-ban-fa",
           "description": {
             "en": "Alright, I really can't do anything about you.",
             "ja": "まあいいか、君たちにはどうしようもないね。",
-            "zh": "好吧真是拿你們沒辦法"
+            "zh": "好吧真是拿大家沒辦法"
           },
           "path": "mihoyo-set/hao-ba-may-ban-fa.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "6c479f3e-abce-48b6-9252-8606b6801cf4",
+          "name": "zhen-na-ni-mei-ban-fa",
+          "description": {
+            "en": "Alright, I really can't do anything about you guys.",
+            "ja": "まあ、君たちには本当に手をこまねいているよ。",
+            "zh": "好啦真真真拿你們沒辦法"
+          },
+          "path": "dp-toys/zhen-na-ni-mei-ban-fa.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         }
       ]
     },
@@ -85,6 +107,17 @@
           },
           "path": "news-202405/da-jia-hao.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "9b4cdf04-0584-4ed1-9395-dcc2862a7418",
+          "name": "thanks",
+          "description": {
+            "en": "Thank you~",
+            "ja": "ありがとう〜",
+            "zh": "謝謝～"
+          },
+          "path": "bird-ball/thanks.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
         },
         {
           "id": "0ce935f5-7adb-40e6-abde-5d8013a9828b",
@@ -802,6 +835,17 @@
           "url": "https://www.youtube.com/watch?v=cK5T_RXsYE8"
         },
         {
+          "id": "bc94de24-dcea-4054-8a9c-309d9a83b98b",
+          "name": "guan-zo-do4-jia",
+          "description": {
+            "en": "Are all my viewers simps?",
+            "ja": "私の視聴者って全員コミュ障？",
+            "zh": "我的觀眾是不是都是甲？"
+          },
+          "path": "bird-ball/guan-zo-do4-jia.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
+        {
           "id": "be1f16ab-95d7-4b9c-941e-a67b017d67f5",
           "name": "zen-chin-sian4",
           "description": {
@@ -833,6 +877,17 @@
           },
           "path": "two-loli-blame/ni-bu-yao-a-yi.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "id": "94f82fe4-88c9-48d8-87ba-cbbe55bc01ce",
+          "name": "me-be-zo-guo",
+          "description": {
+            "en": "Have you all really never been beaten up before?",
+            "ja": "本当に殴られたことないの？",
+            "zh": "你們是不是真的沒有被揍過啊"
+          },
+          "path": "bird-ball/me-be-zo-guo.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
         },
         {
           "id": "5508a243-5de5-4744-a020-0633541f2486",
@@ -1329,6 +1384,17 @@
         "zh": "灰妲：搞耍"
       },
       "voice_list": [
+        {
+          "id": "de765899-d2b6-4907-8d02-a4a0737053b0",
+          "name": "garbage-fat",
+          "description": {
+            "en": "Trash fatty",
+            "ja": "クズデブ",
+            "zh": "垃圾胖子"
+          },
+          "path": "bird-ball/garbage-fat.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
         {
           "id": "6584f4cf-49c9-4cfc-9dcc-e13edb6d382e",
           "name": "lai-dian-da-ling",
@@ -2538,6 +2604,17 @@
           },
           "path": "full-endorsement/hahaha-13.mp3",
           "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
+        },
+        {
+          "id": "52d20507-1eab-453d-adfb-db8bc7ac8c4b",
+          "name": "hahaha-14",
+          "description": {
+            "en": "Loud laugh -14",
+            "ja": "大笑い-14",
+            "zh": "大笑聲-14"
+          },
+          "path": "bird-ball/hahaha-14.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
         }
       ]
     },
@@ -2760,6 +2837,17 @@
       },
       "voice_list": [
         {
+          "id": "59a41f8e-dd7e-40c8-84be-7b9d984313db",
+          "name": "throw-up-fire",
+          "description": {
+            "en": "Fire breathing sound",
+            "ja": "火を吐く音",
+            "zh": "噴火聲"
+          },
+          "path": "bird-ball/throw-up-fire.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
+        {
           "id": "ad288691-f5db-4bdc-97c9-cf844e9d0493",
           "name": "strange-sample",
           "description": {
@@ -2868,6 +2956,17 @@
           },
           "path": "valentine-lyrics-2/beast-senpai.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "4d4942da-b9d8-4cbb-9096-92449a68b599",
+          "name": "hehehe-a",
+          "description": {
+            "en": "Hmph! Hmph! Hmph! Hmm~~~",
+            "ja": "フン！フン！フン！フンー〜〜〜",
+            "zh": "哼！哼！哼！哼嗯～～～"
+          },
+          "path": "bird-ball/hehehe-a.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
         }
       ]
     },
@@ -2880,6 +2979,17 @@
         "zh": "灰妲：模仿"
       },
       "voice_list": [
+        {
+          "id": "c11b1882-b060-45a2-8dbd-910bba0af2ce",
+          "name": "ju",
+          "description": {
+            "en": "Bird chirping sound",
+            "ja": "鳥の鳴き声",
+            "zh": "鳥叫聲"
+          },
+          "path": "bird-ball/ju.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
         {
           "id": "782f5382-0f48-4bd8-be73-0a62fef42b8b",
           "name": "ke-ke-wu",
@@ -2914,6 +3024,17 @@
           "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
         },
         {
+          "id": "d1b1d085-0869-433a-a2c7-a314c0957cce",
+          "name": "biu-biu-biu",
+          "description": {
+            "en": "Gun shooting sound",
+            "ja": "拳銃発射音",
+            "zh": "手槍射擊聲"
+          },
+          "path": "bird-ball/biu-biu-biu.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
+        {
           "id": "94459f2e-c609-425b-b433-5385877c9e60",
           "name": "pika-chu",
           "description": {
@@ -2923,6 +3044,17 @@
           },
           "path": "rainy-night/pika-chu.mp3",
           "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
+          "id": "26e2b6b6-9bfb-44af-8d58-933020d54e6a",
+          "name": "a-gon-rice",
+          "description": {
+            "en": "Grandpa, it's time to eat",
+            "ja": "おじいちゃん、ご飯ですよ",
+            "zh": "阿公吃飯囉"
+          },
+          "path": "bird-ball/a-gon-rice.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
         },
         {
           "id": "6ef30e0a-877b-4d6c-ad36-86b75b4ca7ba",
@@ -6260,6 +6392,83 @@
       ]
     },
     {
+      "id": "8f27998f-59c0-4616-a49c-ed4a373cd3f1",
+      "group_name": "egg-da",
+      "group_description": {
+        "en": "Egg Da",
+        "ja": "フイダ卵",
+        "zh": "蛋妲"
+      },
+      "voice_list": [
+        {
+          "id": "331f01be-2a0d-4ece-9ac0-cbd96aae2297",
+          "name": "a-ba",
+          "description": {
+            "en": "Aba!",
+            "ja": "アバ！",
+            "zh": "阿巴！"
+          },
+          "path": "bird-ball/a-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
+        {
+          "id": "7c98d644-e9e1-4813-98bc-1bc38b027584",
+          "name": "a-ba-q",
+          "description": {
+            "en": "Aba?",
+            "ja": "アバ？",
+            "zh": "阿巴？"
+          },
+          "path": "bird-ball/a-ba-q.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
+        {
+          "id": "292de986-8c79-445a-a53e-643b43738085",
+          "name": "a-ba-a-ba",
+          "description": {
+            "en": "Aba aba~",
+            "ja": "アバアバ〜",
+            "zh": "阿巴阿巴～"
+          },
+          "path": "bird-ball/a-ba-a-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
+        {
+          "id": "8231c543-76e9-4442-988a-866d616f3d4b",
+          "name": "abx3",
+          "description": {
+            "en": "Aba aba aba",
+            "ja": "アバアバアバ",
+            "zh": "阿巴阿巴阿巴"
+          },
+          "path": "bird-ball/abx3.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
+        {
+          "id": "aec4c59f-34c8-4a2e-aa2c-3f884a110658",
+          "name": "ba-aba-aba",
+          "description": {
+            "en": "Ba~ aba aba~",
+            "ja": "バ〜アバアバ〜",
+            "zh": "巴～阿巴阿巴～"
+          },
+          "path": "bird-ball/ba-aba-aba.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
+        {
+          "id": "42e8bb42-d195-4740-9820-84025b9514aa",
+          "name": "abax5",
+          "description": {
+            "en": "Aba aba aba aba aba",
+            "ja": "アバアバアバアバアバ",
+            "zh": "阿巴阿巴阿巴阿巴阿巴"
+          },
+          "path": "bird-ball/abax5.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        }
+      ]
+    },
+    {
       "id": "67d8dc1c-1eb1-4bf3-84b3-6f08fc93650a",
       "group_name": "female-vtuber",
       "group_description": {
@@ -6278,6 +6487,17 @@
           },
           "path": "dp-toys/se-qing-nv-v.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "id": "85e3becd-0bcc-44bb-b760-5a2bbf780e4c",
+          "name": "wo-ke4-nu-vye",
+          "description": {
+            "en": "I-I'm a female VTuber you know",
+            "ja": "私私は女性VTuberなんだよ",
+            "zh": "我我可是女V耶"
+          },
+          "path": "bird-ball/wo-ke4-nu-vye.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
         },
         {
           "id": "c1cc9537-00e0-4d11-90fd-80a5db1422db",
@@ -6432,6 +6652,17 @@
           },
           "path": "news-202405/se-shi-ji-a.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "bf24c192-6abd-441c-89cf-92701c5bcd56",
+          "name": "se4-fried-chicken",
+          "description": {
+            "en": "Who's the fried chicken?",
+            "ja": "誰がフライドチキンだよ",
+            "zh": "誰是炸雞阿"
+          },
+          "path": "bird-ball/se4-fried-chicken.mp3",
+          "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
         },
         {
           "id": "z1abc9d7-e6z8-9d3b-4c0a-8d2e3c5b6a7z",
