@@ -4,7 +4,7 @@
       "id": "77aeebd6-b79f-4cef-aa0d-ba3ae0225a97",
       "group_name": "catchphrase",
       "group_description": {
-        "en": "Huida: Catchphrase",
+        "en": "DaDa: Catchphrase",
         "ja": "フイダ：口癖",
         "zh": "灰妲：口頭禪"
       },
@@ -92,7 +92,7 @@
       "id": "2c3d4e5f-6g7h-8i9j-0k1l-2m3n4o5p6q7r",
       "group_name": "greetings",
       "group_description": {
-        "en": "Huida: Greetings",
+        "en": "DaDa: Greetings",
         "ja": "フイダ：挨拶",
         "zh": "灰妲：問候"
       },
@@ -323,7 +323,7 @@
       "id": "62b7d30d-d5b8-4a9c-ada1-a16ae7909fa0",
       "group_name": "agree",
       "group_description": {
-        "en": "Huida: Affirmation",
+        "en": "DaDa: Affirmation",
         "ja": "フイダ：肯定",
         "zh": "灰妲：肯定"
       },
@@ -466,7 +466,7 @@
       "id": "c5615961-1b79-4154-bf00-360507037daf",
       "group_name": "retort",
       "group_description": {
-        "en": "Huida: Tsukkomi",
+        "en": "DaDa: Tsukkomi",
         "ja": "フイダ：ツッコミ",
         "zh": "灰妲：吐槽"
       },
@@ -1071,7 +1071,7 @@
       "id": "9d8c7b6a-5f4e-3d2c-1b0a-9e8d7f6c5b4a",
       "group_name": "abuse",
       "group_description": {
-        "en": "Huida: Scolding",
+        "en": "DaDa: Scolding",
         "ja": "フイダ：罵倒",
         "zh": "灰妲：罵倒"
       },
@@ -1379,7 +1379,7 @@
       "id": "e41f632f-c046-43b1-baf9-42d3cf70274c",
       "group_name": "funny",
       "group_description": {
-        "en": "Huida: Playful",
+        "en": "DaDa: Playful",
         "ja": "フイダ：ふざけ",
         "zh": "灰妲：搞耍"
       },
@@ -1632,7 +1632,7 @@
       "id": "7a084520-4ec1-46ba-ade7-53b811414974",
       "group_name": "kind",
       "group_description": {
-        "en": "Huida: Gentle",
+        "en": "DaDa: Gentle",
         "ja": "フイダ：優しい",
         "zh": "灰妲：溫柔"
       },
@@ -1841,7 +1841,7 @@
       "id": "ff6bd9e0-e0ee-4dd8-adc4-e4889481365a",
       "group_name": "tsundere",
       "group_description": {
-        "en": "Huida: Tsundere",
+        "en": "DaDa: Tsundere",
         "ja": "フイダ：ツンデレ",
         "zh": "灰妲：傲嬌"
       },
@@ -1918,7 +1918,7 @@
       "id": "4982f00c-b5db-46f1-b282-a57879528cff",
       "group_name": "yandere",
       "group_description": {
-        "en": "Huida: Yandere",
+        "en": "DaDa: Yandere",
         "ja": "フイダ：ヤンデレ",
         "zh": "灰妲：病嬌"
       },
@@ -2248,7 +2248,7 @@
       "id": "ef02cf43-f64e-4744-afbc-487538a00e3c",
       "group_name": "cry",
       "group_description": {
-        "en": "Huida: Crying Voice",
+        "en": "DaDa: Crying Voice",
         "ja": "フイダ：泣き声",
         "zh": "灰妲：哭腔"
       },
@@ -2413,7 +2413,7 @@
       "id": "fc7a13a3-49bb-4e3e-9c3d-eb990ac72ce9",
       "group_name": "laugh",
       "group_description": {
-        "en": "Huida: Laughter",
+        "en": "DaDa: Laughter",
         "ja": "フイダ：笑い声",
         "zh": "灰妲：笑聲"
       },
@@ -2600,7 +2600,7 @@
       "id": "91c48be9-944b-42b3-b871-28b2f19ca67f",
       "group_name": "scream",
       "group_description": {
-        "en": "Huida: Shouting",
+        "en": "DaDa: Shouting",
         "ja": "フイダ：叫び声",
         "zh": "灰妲：大叫"
       },
@@ -2809,7 +2809,7 @@
       "id": "777a95d1-c96d-46a5-ab7b-dc9c86030cea",
       "group_name": "weird-cry",
       "group_description": {
-        "en": "Huida: Strange Sounds",
+        "en": "DaDa: Strange Sounds",
         "ja": "フイダ：変な声",
         "zh": "灰妲：怪聲"
       },
@@ -2974,7 +2974,7 @@
       "id": "04deb1ba-eda1-45f0-800c-841bccdc46a2",
       "group_name": "vivid",
       "group_description": {
-        "en": "Huida: Imitation",
+        "en": "DaDa: Imitation",
         "ja": "フイダ：物まね",
         "zh": "灰妲：模仿"
       },
@@ -3183,7 +3183,7 @@
       "id": "247d20a6-389f-4f71-9757-768583efea11",
       "group_name": "singing",
       "group_description": {
-        "en": "Huida: Singing",
+        "en": "DaDa: Singing",
         "ja": "フイダ：歌唱",
         "zh": "灰妲：唱歌"
       },
@@ -3447,7 +3447,7 @@
       "id": "ade7f2c8-17d2-4fd7-8eda-5ed4ceca7c6f",
       "group_name": "chat",
       "group_description": {
-        "en": "Huida: Chatting",
+        "en": "DaDa: Chatting",
         "ja": "フイダ：雑談",
         "zh": "灰妲：閒聊"
       },
@@ -3722,7 +3722,7 @@
       "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
       "group_name": "yoda_greetings",
       "group_description": {
-        "en": "Young Huida: Greetings",
+        "en": "YoDa: Greetings",
         "ja": "幼フイダ：挨拶",
         "zh": "幼妲：問候"
       },
@@ -3887,7 +3887,7 @@
       "id": "6b933718-6821-4301-b82e-3a5d2f5bcee2",
       "group_name": "yoda_cute",
       "group_description": {
-        "en": "Young Huida: Cute",
+        "en": "YoDa: Cute",
         "ja": "幼フイダ：可愛い",
         "zh": "幼妲：可愛"
       },
@@ -4085,7 +4085,7 @@
       "id": "7b6a5d4c-3f2e-1d0c-9b8a-7f6e5d4c3b2a",
       "group_name": "yoda_agree",
       "group_description": {
-        "en": "Young Huida: Affirmation",
+        "en": "YoDa: Affirmation",
         "ja": "幼フイダ：肯定",
         "zh": "幼妲：肯定"
       },
@@ -4239,7 +4239,7 @@
       "id": "8b530892-1922-4b1f-8cc1-c389568588bb",
       "group_name": "yoda_retort",
       "group_description": {
-        "en": "Young Huida: Tsukkomi",
+        "en": "YoDa: Tsukkomi",
         "ja": "幼フイダ：ツッコミ",
         "zh": "幼妲：吐槽"
       },
@@ -4459,7 +4459,7 @@
       "id": "c3ca629c-0c90-4650-ac8d-51f2ad4d05aa",
       "group_name": "yoda_cure",
       "group_description": {
-        "en": "Young Huida: Healing",
+        "en": "YoDa: Healing",
         "ja": "幼フイダ：癒し",
         "zh": "幼妲：療癒"
       },
@@ -4646,7 +4646,7 @@
       "id": "8f7d6e5c-4b3a-2f1d-9e8c-7b6a5d4c3f2e",
       "group_name": "yoda_abuse",
       "group_description": {
-        "en": "Young Huida: Scolding",
+        "en": "YoDa: Scolding",
         "ja": "幼フイダ：罵倒",
         "zh": "幼妲：罵倒"
       },
@@ -5119,7 +5119,7 @@
       "id": "9ed3795c-55e8-4b1e-9738-33733c940bee",
       "group_name": "yoda_yandere",
       "group_description": {
-        "en": "Young Huida: Yandere",
+        "en": "YoDa: Yandere",
         "ja": "幼フイダ：ヤンデレ",
         "zh": "幼妲：病嬌"
       },
@@ -5328,7 +5328,7 @@
       "id": "4b8edf88-72e3-4546-855d-d4634558a96a",
       "group_name": "yoda_others",
       "group_description": {
-        "en": "Young Huida: Others",
+        "en": "YoDa: Others",
         "ja": "幼フイダ：その他",
         "zh": "幼妲：其他"
       },
@@ -5559,7 +5559,7 @@
       "id": "3b68d990-0c70-42f3-ad80-6f2ae26c58fb",
       "group_name": "realda_greetings",
       "group_description": {
-        "en": "True Huida: Greetings",
+        "en": "JenDa: Greetings",
         "ja": "真フイダ：挨拶",
         "zh": "真妲：問候"
       },
@@ -5636,7 +5636,7 @@
       "id": "e126b102-e339-49dc-9886-ace87a237cb6",
       "group_name": "realda_agree",
       "group_description": {
-        "en": "True Huida: Affirmation",
+        "en": "JenDa: Affirmation",
         "ja": "真フイダ：肯定",
         "zh": "真妲：肯定"
       },
@@ -5812,7 +5812,7 @@
       "id": "52863f7f-a008-4777-aa83-463fcf74a113",
       "group_name": "realda_retort",
       "group_description": {
-        "en": "True Huida: Tsukkomi",
+        "en": "JenDa: Tsukkomi",
         "ja": "真フイダ：ツッコミ",
         "zh": "真妲：吐槽"
       },
@@ -5944,7 +5944,7 @@
       "id": "c7254a2a-920e-4c77-9a41-d477b6dc469e",
       "group_name": "realda_cure",
       "group_description": {
-        "en": "True Huida: Healing",
+        "en": "JenDa: Healing",
         "ja": "真フイダ：癒し",
         "zh": "真妲：療癒"
       },
@@ -5999,7 +5999,7 @@
       "id": "80182c6e-6d15-4e1c-aad7-14ad377656ac",
       "group_name": "realda_abuse",
       "group_description": {
-        "en": "True Huida: Scolding",
+        "en": "JenDa: Scolding",
         "ja": "真フイダ：罵倒",
         "zh": "真妲：罵倒"
       },
@@ -6043,7 +6043,7 @@
       "id": "e125f408-740f-422e-a54b-f3a451ae3ff4",
       "group_name": "realda_chat",
       "group_description": {
-        "en": "True Huida: Chatting",
+        "en": "JenDa: Chatting",
         "ja": "真フイダ：雑談",
         "zh": "真妲：閒聊"
       },
@@ -6120,7 +6120,7 @@
       "id": "af1756fd-0941-4300-9602-2931d5c7a114",
       "group_name": "realda_others",
       "group_description": {
-        "en": "True Huida: Others",
+        "en": "JenDa: Others",
         "ja": "真フイダ：その他",
         "zh": "真妲：其他"
       },
@@ -6274,7 +6274,7 @@
       "id": "47b69f5c-1a63-4ae4-8242-bdbc889aca81",
       "group_name": "brother-da",
       "group_description": {
-        "en": "Huida Bro",
+        "en": "Bro Da",
         "ja": "フイダ兄貴",
         "zh": "妲哥"
       },

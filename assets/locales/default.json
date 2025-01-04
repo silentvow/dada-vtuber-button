@@ -108,7 +108,7 @@
   "site": {
     "about": "關於",
     "challenge": "問妲挑戰",
-    "description": "歡迎來到灰妲語音按鈕收藏集！這裡收錄了灰妲的各種語音與獨特叫聲，讓粉絲可以隨時點擊按鈕播放，體驗她的魅力與個性。",
+    "description": "歡迎來到灰妲語音博物館！這裡收藏了灰妲的各種語音與獨特叫聲，粉絲可以隨時點擊播放，探索她迷人的聲音世界，感受她獨一無二的魅力。",
     "favorite": "我的最愛",
     "feedback": "意見回饋",
     "footer": {
@@ -125,7 +125,7 @@
     "source": "來源",
     "switch_dark_mode": "夜間模式開關",
     "switch_language": "切換語言",
-    "title": "灰妲語音按鈕收藏集",
+    "title": "灰妲語音博物館",
     "url": "https://dada-vtuber-button.vercel.app",
     "voice": "語音"
   }

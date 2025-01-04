@@ -108,7 +108,7 @@
   "site": {
     "about": "About",
     "challenge": "Da Challenge",
-    "description": "A collection of DaDa's voice buttons from ReLive Project.",
+    "description": "Welcome to the DaDa Voice Museum! Explore a collection of DaDa’s unique voice clips and iconic sounds. Fans can click to play anytime and immerse themselves in her charming and distinctive voice.",
     "favorite": "Favorite",
     "feedback": "Feedback",
     "footer": {
@@ -125,7 +125,7 @@
     "source": "Source",
     "switch_dark_mode": "Dark Mode",
     "switch_language": "Switch Language",
-    "title": "DaDa Voice Button Collection",
+    "title": "DaDa Voice Museum",
     "url": "https://dada-vtuber-button.vercel.app",
     "voice": "Voice"
   }
