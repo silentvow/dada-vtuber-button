@@ -1495,17 +1495,6 @@
           "url": "https://www.youtube.com/watch?v=ezJiATmjoIQ"
         },
         {
-          "id": "fa458d11-5aa9-41e5-af69-d98b275df51d",
-          "name": "sian-san-wo-men",
-          "description": {
-            "en": "Offer up our blood! Offer up our liver!",
-            "ja": "血を捧げよ！肝臓を捧げよ！",
-            "zh": "獻上我們的血！獻上我們的肝！"
-          },
-          "path": "phasmophobia/sian-san-wo-men.mp3",
-          "url": "https://www.youtube.com/watch?v=UNtyZeR7w4E"
-        },
-        {
           "id": "8689b2bd-bcf6-4d9a-82f8-61f142232aad",
           "name": "dudu-chi-chan",
           "description": {
@@ -1526,17 +1515,6 @@
           },
           "path": "new-clothes-2-year/da-wo-a.mp3",
           "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
-        },
-        {
-          "id": "e1ea7479-b110-4268-b68a-ccfaec02c289",
-          "name": "gon-zuo-x6",
-          "description": {
-            "en": "Work! Work! Work! Work! Work! Work!",
-            "ja": "仕事！仕事！仕事！仕事！仕事！仕事！",
-            "zh": "工作！工作！工作！工作！工作！工作！"
-          },
-          "path": "phasmophobia/gon-zuo-x6.mp3",
-          "url": "https://www.youtube.com/watch?v=UNtyZeR7w4E"
         },
         {
           "id": "a52ec862-6f82-4d34-80d4-ad204e957d01",
@@ -2279,9 +2257,9 @@
           "id": "9a22ef3f-e498-430e-bb2a-d37db5cf422a",
           "name": "cry-1",
           "description": {
-            "en": "Crying sound -1",
-            "ja": "泣き声-1",
-            "zh": "哭泣聲-1"
+            "en": "Crying sound",
+            "ja": "泣き声",
+            "zh": "哭泣聲"
           },
           "path": "new-clothes-2-year/cry-1.mp3",
           "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
@@ -2628,6 +2606,17 @@
       },
       "voice_list": [
         {
+          "id": "647dcdbd-494b-4b98-b163-2c70791fcda9",
+          "name": "tsan-jiao-1",
+          "description": {
+            "en": "Scream sound",
+            "ja": "叫び声",
+            "zh": "慘叫聲"
+          },
+          "path": "news-202405/tsan-jiao-1.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
           "id": "0c493574-1b5b-46cc-ad29-bb10c989dd95",
           "name": "ai-hao-1",
           "description": {
@@ -2714,17 +2703,6 @@
           },
           "path": "vtuber-choice/ai-hao-8.mp3",
           "url": "https://www.youtube.com/watch?v=nJU0T6DhOHc"
-        },
-        {
-          "id": "647dcdbd-494b-4b98-b163-2c70791fcda9",
-          "name": "tsan-jiao-1",
-          "description": {
-            "en": "Scream sound-1",
-            "ja": "叫び声-1",
-            "zh": "慘叫聲-1"
-          },
-          "path": "news-202405/tsan-jiao-1.mp3",
-          "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
           "id": "430c5e70-b716-4a23-8b14-8b48b2e31bf3",
@@ -2848,6 +2826,17 @@
           "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
         },
         {
+          "id": "45f6e420-cc92-44dc-adc8-e0b17a18e1f9",
+          "name": "in-water-1",
+          "description": {
+            "en": "Drowning sound",
+            "ja": "溺れる音",
+            "zh": "溺水聲"
+          },
+          "path": "find-lover-guide/in-water-1.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
           "id": "ad288691-f5db-4bdc-97c9-cf844e9d0493",
           "name": "strange-sample",
           "description": {
@@ -2857,17 +2846,6 @@
           },
           "path": "self-chat/strange-sample.mp3",
           "url": "https://www.youtube.com/watch?v=-2FM0ZN7Kys"
-        },
-        {
-          "id": "45f6e420-cc92-44dc-adc8-e0b17a18e1f9",
-          "name": "in-water-1",
-          "description": {
-            "en": "Drowning sound-1",
-            "ja": "溺れる音-1",
-            "zh": "溺水聲-1"
-          },
-          "path": "find-lover-guide/in-water-1.mp3",
-          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
           "id": "dfc5af69-5e00-44fb-990f-ec219b10f36d",
@@ -2958,6 +2936,17 @@
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
+          "id": "31d7d633-662a-4e54-8a89-6e889f7fe5a6",
+          "name": "guan-don-zu-biu",
+          "description": {
+            "en": "Oden beam! Biu~",
+            "ja": "おでんビーム！ビュー〜",
+            "zh": "關東煮光波！Biu~"
+          },
+          "path": "jk-dlc-6/guan-don-zu-biu.mp3",
+          "url": "https://www.youtube.com/watch?v=WR-J_YRF8tk"
+        },
+        {
           "id": "4d4942da-b9d8-4cbb-9096-92449a68b599",
           "name": "hehehe-a",
           "description": {
@@ -2967,6 +2956,17 @@
           },
           "path": "bird-ball/hehehe-a.mp3",
           "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
+        {
+          "id": "ff9a8551-a386-4275-8826-3def91076a73",
+          "name": "ai-guan-don-zu",
+          "description": {
+            "en": "Oden oden we all love oden hehehe",
+            "ja": "おでんおでん私たちはみんなおでんが大好きへへへ",
+            "zh": "關東煮關東煮我們都愛關東煮嘿嘿嘿"
+          },
+          "path": "jk-dlc-6/ai-guan-don-zu.mp3",
+          "url": "https://www.youtube.com/watch?v=WR-J_YRF8tk"
         }
       ]
     },
@@ -7378,6 +7378,28 @@
           },
           "path": "news-202410/bai-ye-goblin.mp3",
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "fa458d11-5aa9-41e5-af69-d98b275df51d",
+          "name": "sian-san-wo-men",
+          "description": {
+            "en": "Offer up our blood! Offer up our liver!",
+            "ja": "血を捧げよ！肝臓を捧げよ！",
+            "zh": "獻上我們的血！獻上我們的肝！"
+          },
+          "path": "phasmophobia/sian-san-wo-men.mp3",
+          "url": "https://www.youtube.com/watch?v=UNtyZeR7w4E"
+        },
+        {
+          "id": "e1ea7479-b110-4268-b68a-ccfaec02c289",
+          "name": "gon-zuo-x6",
+          "description": {
+            "en": "Work! Work! Work! Work! Work! Work!",
+            "ja": "仕事！仕事！仕事！仕事！仕事！仕事！",
+            "zh": "工作！工作！工作！工作！工作！工作！"
+          },
+          "path": "phasmophobia/gon-zuo-x6.mp3",
+          "url": "https://www.youtube.com/watch?v=UNtyZeR7w4E"
         },
         {
           "id": "64014e0b-450b-4ab1-8b15-c4b88dc02493",
