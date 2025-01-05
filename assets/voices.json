@@ -2892,6 +2892,17 @@
           "url": "https://www.youtube.com/watch?v=Qv6Ieb8Sh74"
         },
         {
+          "id": "4b988e81-198d-4fc9-96db-2f87e474ba93",
+          "name": "ai-yo-wei-wa",
+          "description": {
+            "en": "Ai yo wei wa",
+            "ja": "アイヨーウェイワ",
+            "zh": "哎哎哎哎嗚哇"
+          },
+          "path": "mihoyo-set/ai-yo-wei-wa.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
           "id": "ba4046d3-7777-4a5a-a182-63e06de10426",
           "name": "weird-miao4",
           "description": {
@@ -5356,6 +5367,17 @@
           "url": "https://www.youtube.com/watch?v=Qv6Ieb8Sh74"
         },
         {
+          "id": "740042e6-b2be-467c-bc8f-4a97f36a9301",
+          "name": "yoda-birth-zh",
+          "description": {
+            "en": "Happy Birthday Song",
+            "ja": "ハッピーバースデーソング",
+            "zh": "生日快樂歌"
+          },
+          "path": "yoda-japanese/yoda-birth-zh.mp3",
+          "url": "https://www.youtube.com/watch?v=0DlQLyMfehc"
+        },
+        {
           "id": "ee0d312a-f676-4f1b-9e4e-900b1856589e",
           "name": "yoda-arrrr",
           "description": {
@@ -5387,6 +5409,50 @@
           },
           "path": "yoda-girlfriend/marry-me-ok.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "b5da1351-73d7-4f11-8c77-ae3b8b87523c",
+          "name": "yoda-birth-ti",
+          "description": {
+            "en": "Happy Birthday Song - Taiwanese",
+            "ja": "ハッピーバースデーソング - 台湾語",
+            "zh": "生日快樂歌-台"
+          },
+          "path": "yoda-japanese/yoda-birth-ti.mp3",
+          "url": "https://www.youtube.com/watch?v=0DlQLyMfehc"
+        },
+        {
+          "id": "2ef36fd8-5104-4213-a203-d2cad23b824a",
+          "name": "yoda-birth-jp",
+          "description": {
+            "en": "Happy Birthday Song - Japanese",
+            "ja": "ハッピーバースデーソング - 日本語",
+            "zh": "生日快樂歌-日"
+          },
+          "path": "yoda-japanese/yoda-birth-jp.mp3",
+          "url": "https://www.youtube.com/watch?v=0DlQLyMfehc"
+        },
+        {
+          "id": "b76e496f-dae5-4ca1-9988-356c879608c4",
+          "name": "yoda-birth-en",
+          "description": {
+            "en": "Happy Birthday Song - English",
+            "ja": "ハッピーバースデーソング - 英語",
+            "zh": "生日快樂歌-英"
+          },
+          "path": "yoda-japanese/yoda-birth-en.mp3",
+          "url": "https://www.youtube.com/watch?v=0DlQLyMfehc"
+        },
+        {
+          "id": "af635484-8822-468d-ace2-a12ab4d6cf1f",
+          "name": "yoda-birth-ko",
+          "description": {
+            "en": "Happy Birthday Song - Korean",
+            "ja": "ハッピーバースデーソング - 韓国語",
+            "zh": "生日快樂歌-韓"
+          },
+          "path": "yoda-japanese/yoda-birth-ko.mp3",
+          "url": "https://www.youtube.com/watch?v=0DlQLyMfehc"
         },
         {
           "id": "e9f8b1a2-1234-4567-8912-abcdef123467",
@@ -8480,17 +8546,6 @@
           "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
         },
         {
-          "id": "4b988e81-198d-4fc9-96db-2f87e474ba93",
-          "name": "ai-yo-wei-wa",
-          "description": {
-            "en": "Ai yo wei wa",
-            "ja": "アイヨーウェイワ",
-            "zh": "哎哎哎哎嗚哇"
-          },
-          "path": "mihoyo-set/ai-yo-wei-wa.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
           "id": "8d1beda0-ac8c-43ac-80c6-f4bf41353f06",
           "name": "due-bu-chi-la",
           "description": {
@@ -8590,17 +8645,6 @@
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
-          "id": "544c4192-3e35-4055-bbe7-5e210f74eff1",
-          "name": "yao-so-shi-lin-na",
-          "description": {
-            "en": "Aiyo aiyo, what a troublesome kid",
-            "ja": "あいよあいよ、困った子だね",
-            "zh": "哎唷哎唷夭壽死囡仔"
-          },
-          "path": "mihoyo-set/yao-so-shi-lin-na.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
           "id": "471326ba-7ae9-4575-81c5-edee64b43f06",
           "name": "wo-bu-yao-dan-gu-er",
           "description": {
@@ -8689,17 +8733,6 @@
           "url": "https://www.youtube.com/watch?v=t1QcF57c5pc"
         },
         {
-          "id": "e5bea414-a5aa-471e-a8a8-22ae26c1e95b",
-          "name": "kao-yi-qiang",
-          "description": {
-            "en": "There's nothing that a good shot can't solve.",
-            "ja": "尻一発で解決できないことはない。",
-            "zh": "沒有什麼尻一槍無法解決的"
-          },
-          "path": "dp-toys/kao-yi-qiang.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
           "id": "62c59e5e-5078-4564-acd7-47cfe7c6525f",
           "name": "denx6",
           "description": {
@@ -8752,6 +8785,17 @@
             "zh": "各位要記得千萬千千萬萬不要不要賭博啊"
           },
           "path": "mihoyo-set/chen-wan-bu-yao-du-bo.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "544c4192-3e35-4055-bbe7-5e210f74eff1",
+          "name": "yao-so-shi-lin-na",
+          "description": {
+            "en": "Aiyo aiyo, what a troublesome kid",
+            "ja": "あいよあいよ、困った子だね",
+            "zh": "哎唷哎唷夭壽死囡仔噢噢，土著！土著！"
+          },
+          "path": "mihoyo-set/yao-so-shi-lin-na.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
@@ -8830,6 +8874,17 @@
           },
           "path": "chicken-club-ad/i-too-young.mp3",
           "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
+          "id": "e5bea414-a5aa-471e-a8a8-22ae26c1e95b",
+          "name": "kao-yi-qiang",
+          "description": {
+            "en": "There's nothing that a good shot can't solve.",
+            "ja": "尻一発で解決できないことはない。",
+            "zh": "上班勞累尻一槍心情不好也尻一槍輾轉難眠也尻一槍被上司釘也尻一槍沒錯沒錯沒有什麼尻一槍無法解決的"
+          },
+          "path": "dp-toys/kao-yi-qiang.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
           "id": "3b67aacc-3bc6-4375-b170-84704bb4cb1a",
