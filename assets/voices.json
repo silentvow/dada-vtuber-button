@@ -2705,6 +2705,17 @@
           "url": "https://www.youtube.com/watch?v=nJU0T6DhOHc"
         },
         {
+          "id": "ebe13e22-7562-482d-b543-e8e0eec009ea",
+          "name": "waaaa",
+          "description": {
+            "en": "Waaa~!",
+            "ja": "わあ～！",
+            "zh": "哇～～～"
+          },
+          "path": "yoda-new-clothes/waaaa.mp3",
+          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
+        },
+        {
           "id": "430c5e70-b716-4a23-8b14-8b48b2e31bf3",
           "name": "wo-bu-yao-x",
           "description": {
@@ -3935,17 +3946,6 @@
           },
           "path": "weee.mp3",
           "url": "https://www.youtube.com/watch?v=ZNcfLQtdEag"
-        },
-        {
-          "id": "ebe13e22-7562-482d-b543-e8e0eec009ea",
-          "name": "waaaa",
-          "description": {
-            "en": "Waaa~!",
-            "ja": "わあ～！",
-            "zh": "哇～～～"
-          },
-          "path": "yoda-new-clothes/waaaa.mp3",
-          "url": "https://www.youtube.com/watch?v=SPyPT8g3KXg"
         },
         {
           "id": "ae17b611-5502-4dfb-b2b8-7ac3ae1cca29",
@@ -6721,13 +6721,13 @@
         },
         {
           "id": "42f0ba3a-026d-475b-b8e6-1b7833e9ddf2",
-          "name": "gtue-ban-san-lian",
+          "name": "gtue-bang-wai-sue",
           "description": {
             "en": "Wow, how awesome! Chicken Leg Squad forever!",
             "ja": "わぁ、すごいね！チキンレッグ隊万歳！",
             "zh": "哇好棒噢雞腿幫萬歲"
           },
-          "path": "full-endorsement/gtue-ban-san-lian.mp3",
+          "path": "full-endorsement/gtue-bang-wai-sue.mp3",
           "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
         },
         {
@@ -6853,13 +6853,13 @@
         },
         {
           "id": "ce25e095-a538-408d-b0f8-c005cf9b4790",
-          "name": "gtue-bang-wai-sue",
+          "name": "gtue-ban-san-lian",
           "description": {
             "en": "Ah, there's no mistake that the Chicken Leg Squad is the kindest organization in the world",
             "ja": "間違いなく、チキンレッグ隊は世界一優しい組織だ",
             "zh": "啊沒有錯雞腿幫是全世界最善良的組織"
           },
-          "path": "full-endorsement/gtue-bang-wai-sue.mp3",
+          "path": "full-endorsement/gtue-ban-san-lian.mp3",
           "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
         },
         {
