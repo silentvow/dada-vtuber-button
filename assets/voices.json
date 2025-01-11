@@ -472,6 +472,17 @@
       },
       "voice_list": [
         {
+          "id": "2cd7c1a9-776b-4bdd-ad2f-897808362624",
+          "name": "zu-so",
+          "description": {
+            "en": "住手",
+            "ja": "住手",
+            "zh": "住手"
+          },
+          "path": "work-3-bus/zu-so.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
+        },
+        {
           "id": "26c97557-e273-4d4c-9112-05456b2baf98",
           "name": "wo-tsao",
           "description": {
@@ -536,6 +547,17 @@
           },
           "path": "gap-moe/ni-yo-bin-o.mp3",
           "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
+          "id": "f67a909c-c647-4477-a09b-39baa526c61a",
+          "name": "pin-shen-mo",
+          "description": {
+            "en": "憑什麼阿",
+            "ja": "憑什麼阿",
+            "zh": "憑什麼阿"
+          },
+          "path": "work-3-bus/pin-shen-mo.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
         },
         {
           "id": "7c250200-01f5-4a10-9b0b-8c767a79e604",
@@ -701,6 +723,17 @@
           },
           "path": "dp-toys/cow-bay-no-gg.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "id": "76dd6d90-1612-4359-be4f-2a0b40397c26",
+          "name": "shen-mo-la",
+          "description": {
+            "en": "什麼啦什麼意思啦",
+            "ja": "什麼啦什麼意思啦",
+            "zh": "什麼啦什麼意思啦"
+          },
+          "path": "work-3-bus/shen-mo-la.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
         },
         {
           "id": "da637b54-fa2b-4b92-ad8f-b711a2f4fcfb",
@@ -956,6 +989,17 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "eed4f756-ea0c-467f-8184-a98c49b1c06f",
+          "name": "sao-loli-ba-so",
+          "description": {
+            "en": "少囉嗦啦少囉哩巴嗦的你們這些人",
+            "ja": "少囉嗦啦少囉哩巴嗦的你們這些人",
+            "zh": "少囉嗦啦少囉哩巴嗦的你們這些人"
+          },
+          "path": "work-3-bus/sao-loli-ba-so.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
+        },
+        {
           "id": "41d63dc0-5cd8-4a9b-99ae-a8d0e0606d81",
           "name": "ze-shi-na-mou-dou-la",
           "description": {
@@ -1053,6 +1097,17 @@
           },
           "path": "lazy-against/wo-hai-yo-friend.mp3",
           "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "cacadb72-cdb9-462e-8fd0-c8ba88226e43",
+          "name": "zan-chu-gg-lai",
+          "description": {
+            "en": "什麼意思我本來就是女的阿不然呢我要長出一根ㄐㄐ來是不是",
+            "ja": "什麼意思我本來就是女的阿不然呢我要長出一根ㄐㄐ來是不是",
+            "zh": "什麼意思我本來就是女的阿不然呢我要長出一根ㄐㄐ來是不是"
+          },
+          "path": "work-3-bus/zan-chu-gg-lai.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
         },
         {
           "id": "0492153e-4972-4474-b44b-5e6c718d7df8",
@@ -1482,6 +1537,17 @@
           },
           "path": "valentine-lyrics-2/miska-moska.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "4ee7c01b-2c44-4726-b6b3-41325e6d3898",
+          "name": "chen-wei-nan-nia",
+          "description": {
+            "en": "也許我是想要成為男娘",
+            "ja": "也許我是想要成為男娘",
+            "zh": "也許我是想要成為男娘"
+          },
+          "path": "work-3-bus/chen-wei-nan-nia.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
         },
         {
           "id": "5ee48227-8068-472d-985e-c00c3194517a",
@@ -2980,6 +3046,17 @@
           "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
         },
         {
+          "id": "328acd9f-adae-4b0c-9202-e124b589a489",
+          "name": "bling-bong-mushroom",
+          "description": {
+            "en": "Bling-Bang-Bang-Born 奇諾比奧版",
+            "ja": "Bling-Bang-Bang-Born 奇諾比奧版",
+            "zh": "Bling-Bang-Bang-Born 奇諾比奧版"
+          },
+          "path": "work-3-bus/bling-bong-mushroom.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
+        },
+        {
           "id": "ff9a8551-a386-4275-8826-3def91076a73",
           "name": "ai-guan-don-zu",
           "description": {
@@ -3001,6 +3078,17 @@
         "zh": "灰妲：模仿"
       },
       "voice_list": [
+        {
+          "id": "354ebbfb-b282-48e4-a8f1-85686bba76d3",
+          "name": "line",
+          "description": {
+            "en": "Line",
+            "ja": "Line",
+            "zh": "Line"
+          },
+          "path": "work-3-bus/line.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
+        },
         {
           "id": "c11b1882-b060-45a2-8dbd-910bba0af2ce",
           "name": "ju",
@@ -3453,6 +3541,17 @@
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
         },
         {
+          "id": "af9f7a0c-8cf8-42d5-bb99-3d468f727d17",
+          "name": "salary-mushroom",
+          "description": {
+            "en": "蘑菇蘑菇 社畜版",
+            "ja": "蘑菇蘑菇 社畜版",
+            "zh": "蘑菇蘑菇 社畜版"
+          },
+          "path": "work-3-bus/salary-mushroom.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
+        },
+        {
           "id": "df0a971d-d2fe-4e23-93ba-1e82a996b14f",
           "name": "ai-you-x5",
           "description": {
@@ -3528,6 +3627,17 @@
           },
           "path": "new-clothes-2-year/wo-hen-bang.mp3",
           "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
+          "id": "5b977409-59d7-4592-8f05-a84e469e95e5",
+          "name": "open-coffee-shop",
+          "description": {
+            "en": "我想要開一個咖啡廳欸",
+            "ja": "我想要開一個咖啡廳欸",
+            "zh": "我想要開一個咖啡廳欸"
+          },
+          "path": "work-3-bus/open-coffee-shop.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
         },
         {
           "id": "28d4e3c4-9592-4d28-9da3-cda254394a40",
@@ -6599,6 +6709,17 @@
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
         },
         {
+          "id": "fcc0b712-f778-4c10-8968-3c42fa82532c",
+          "name": "hey-wo-nu-v",
+          "description": {
+            "en": "嘿我可是女V欸",
+            "ja": "嘿我可是女V欸",
+            "zh": "嘿我可是女V欸"
+          },
+          "path": "work-3-bus/hey-wo-nu-v.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
+        },
+        {
           "id": "85e3becd-0bcc-44bb-b760-5a2bbf780e4c",
           "name": "wo-ke4-nu-vye",
           "description": {
@@ -7125,6 +7246,17 @@
           },
           "path": "draw-avatar-10/wo-shi-chi-er.mp3",
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "id": "b3f7483b-6cad-429b-be2d-d2a57d0ec91b",
+          "name": "mon-chi-er",
+          "description": {
+            "en": "夢噢是在夢是不是哪來的企鵝根本本台就沒有企鵝",
+            "ja": "夢噢是在夢是不是哪來的企鵝根本本台就沒有企鵝",
+            "zh": "夢噢是在夢是不是哪來的企鵝根本本台就沒有企鵝"
+          },
+          "path": "work-3-bus/mon-chi-er.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
         }
       ]
     },
@@ -7402,6 +7534,17 @@
           "url": "https://www.youtube.com/watch?v=nJU0T6DhOHc"
         },
         {
+          "id": "61890129-a1dc-4a8a-a232-a79577928c1d",
+          "name": "na-4-jia-der",
+          "description": {
+            "en": "我就知道你的奶是假的！拖出去！",
+            "ja": "我就知道你的奶是假的！拖出去！",
+            "zh": "我就知道你的奶是假的！拖出去！"
+          },
+          "path": "work-3-bus/na-4-jia-der.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
+        },
+        {
           "id": "444d4769-7034-4b47-b6b0-81f156115864",
           "name": "hsin-yan-daboing",
           "description": {
@@ -7467,6 +7610,17 @@
         "zh": "社畜"
       },
       "voice_list": [
+        {
+          "id": "64659c6b-c285-4abd-aca5-027bb7bcf2eb",
+          "name": "gon-zo-gon-zo",
+          "description": {
+            "en": "工作 工作",
+            "ja": "工作 工作",
+            "zh": "工作 工作"
+          },
+          "path": "work-3-bus/gon-zo-gon-zo.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
+        },
         {
           "id": "d72596f5-c4ad-43e2-8d77-81d2ba91648a",
           "name": "shan-fang-jia",
