@@ -475,8 +475,8 @@
           "id": "2cd7c1a9-776b-4bdd-ad2f-897808362624",
           "name": "zu-so",
           "description": {
-            "en": "住手",
-            "ja": "住手",
+            "en": "Stop",
+            "ja": "やめて",
             "zh": "住手"
           },
           "path": "work-3-bus/zu-so.mp3",
@@ -552,8 +552,8 @@
           "id": "f67a909c-c647-4477-a09b-39baa526c61a",
           "name": "pin-shen-mo",
           "description": {
-            "en": "憑什麼阿",
-            "ja": "憑什麼阿",
+            "en": "Why should I?",
+            "ja": "なんでだよ",
             "zh": "憑什麼阿"
           },
           "path": "work-3-bus/pin-shen-mo.mp3",
@@ -728,8 +728,8 @@
           "id": "76dd6d90-1612-4359-be4f-2a0b40397c26",
           "name": "shen-mo-la",
           "description": {
-            "en": "什麼啦什麼意思啦",
-            "ja": "什麼啦什麼意思啦",
+            "en": "What? What do you mean?",
+            "ja": "なんだよ、どういう意味だよ",
             "zh": "什麼啦什麼意思啦"
           },
           "path": "work-3-bus/shen-mo-la.mp3",
@@ -992,8 +992,8 @@
           "id": "eed4f756-ea0c-467f-8184-a98c49b1c06f",
           "name": "sao-loli-ba-so",
           "description": {
-            "en": "少囉嗦啦少囉哩巴嗦的你們這些人",
-            "ja": "少囉嗦啦少囉哩巴嗦的你們這些人",
+            "en": "Shut up, shut up all of you",
+            "ja": "うるさい、うるさいってばこの人たち",
             "zh": "少囉嗦啦少囉哩巴嗦的你們這些人"
           },
           "path": "work-3-bus/sao-loli-ba-so.mp3",
@@ -1102,8 +1102,8 @@
           "id": "cacadb72-cdb9-462e-8fd0-c8ba88226e43",
           "name": "zan-chu-gg-lai",
           "description": {
-            "en": "什麼意思我本來就是女的阿不然呢我要長出一根ㄐㄐ來是不是",
-            "ja": "什麼意思我本來就是女的阿不然呢我要長出一根ㄐㄐ來是不是",
+            "en": "What do you mean? I was always female, or what, should I grow something else?",
+            "ja": "どういうこと？私は元々女性だよ、じゃなきゃ何？何か生やせっていうの？",
             "zh": "什麼意思我本來就是女的阿不然呢我要長出一根ㄐㄐ來是不是"
           },
           "path": "work-3-bus/zan-chu-gg-lai.mp3",
@@ -1542,8 +1542,8 @@
           "id": "4ee7c01b-2c44-4726-b6b3-41325e6d3898",
           "name": "chen-wei-nan-nia",
           "description": {
-            "en": "也許我是想要成為男娘",
-            "ja": "也許我是想要成為男娘",
+            "en": "Maybe I want to become a femboy",
+            "ja": "もしかして僕は男の娘になりたいのかも",
             "zh": "也許我是想要成為男娘"
           },
           "path": "work-3-bus/chen-wei-nan-nia.mp3",
@@ -3049,8 +3049,8 @@
           "id": "328acd9f-adae-4b0c-9202-e124b589a489",
           "name": "bling-bong-mushroom",
           "description": {
-            "en": "Bling-Bang-Bang-Born 奇諾比奧版",
-            "ja": "Bling-Bang-Bang-Born 奇諾比奧版",
+            "en": "Bling-Bang-Bang-Born Toad Version",
+            "ja": "ブリング・バング・バング・ボーン キノピオバージョン",
             "zh": "Bling-Bang-Bang-Born 奇諾比奧版"
           },
           "path": "work-3-bus/bling-bong-mushroom.mp3",
@@ -3083,7 +3083,7 @@
           "name": "line",
           "description": {
             "en": "Line",
-            "ja": "Line",
+            "ja": "ライン",
             "zh": "Line"
           },
           "path": "work-3-bus/line.mp3",
@@ -3544,8 +3544,8 @@
           "id": "af9f7a0c-8cf8-42d5-bb99-3d468f727d17",
           "name": "salary-mushroom",
           "description": {
-            "en": "蘑菇蘑菇 社畜版",
-            "ja": "蘑菇蘑菇 社畜版",
+            "en": "Mushroom mushroom - Corporate slave version",
+            "ja": "キノコキノコ 社畜バージョン",
             "zh": "蘑菇蘑菇 社畜版"
           },
           "path": "work-3-bus/salary-mushroom.mp3",
@@ -3632,8 +3632,8 @@
           "id": "5b977409-59d7-4592-8f05-a84e469e95e5",
           "name": "open-coffee-shop",
           "description": {
-            "en": "我想要開一個咖啡廳欸",
-            "ja": "我想要開一個咖啡廳欸",
+            "en": "I want to open a cafe",
+            "ja": "カフェを開きたいな",
             "zh": "我想要開一個咖啡廳欸"
           },
           "path": "work-3-bus/open-coffee-shop.mp3",
@@ -6712,8 +6712,8 @@
           "id": "fcc0b712-f778-4c10-8968-3c42fa82532c",
           "name": "hey-wo-nu-v",
           "description": {
-            "en": "嘿我可是女V欸",
-            "ja": "嘿我可是女V欸",
+            "en": "Hey, I'm a female VTuber you know",
+            "ja": "ねぇ、私は女性VTuberなんだよ",
             "zh": "嘿我可是女V欸"
           },
           "path": "work-3-bus/hey-wo-nu-v.mp3",
@@ -7251,8 +7251,8 @@
           "id": "b3f7483b-6cad-429b-be2d-d2a57d0ec91b",
           "name": "mon-chi-er",
           "description": {
-            "en": "夢噢是在夢是不是哪來的企鵝根本本台就沒有企鵝",
-            "ja": "夢噢是在夢是不是哪來的企鵝根本本台就沒有企鵝",
+            "en": "A dream, oh it's a dream, right? Where did this penguin come from, we never had penguins here",
+            "ja": "夢、ああ夢なんだよね、どこからペンギンが来たの？本当はペンギンなんていないはずなのに",
             "zh": "夢噢是在夢是不是哪來的企鵝根本本台就沒有企鵝"
           },
           "path": "work-3-bus/mon-chi-er.mp3",
@@ -7537,8 +7537,8 @@
           "id": "61890129-a1dc-4a8a-a232-a79577928c1d",
           "name": "na-4-jia-der",
           "description": {
-            "en": "我就知道你的奶是假的！拖出去！",
-            "ja": "我就知道你的奶是假的！拖出去！",
+            "en": "I knew your chest was fake! Take them away!",
+            "ja": "やっぱりその胸偽物だったんだ！連れて行け！",
             "zh": "我就知道你的奶是假的！拖出去！"
           },
           "path": "work-3-bus/na-4-jia-der.mp3",
@@ -7614,8 +7614,8 @@
           "id": "64659c6b-c285-4abd-aca5-027bb7bcf2eb",
           "name": "gon-zo-gon-zo",
           "description": {
-            "en": "工作 工作",
-            "ja": "工作 工作",
+            "en": "Work work",
+            "ja": "仕事 仕事",
             "zh": "工作 工作"
           },
           "path": "work-3-bus/gon-zo-gon-zo.mp3",
@@ -7941,6 +7941,17 @@
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
         },
         {
+          "id": "44b5564f-ec25-4107-b629-4c4d4461a375",
+          "name": "yonu-da-tue",
+          "description": {
+            "en": "Young girl thighs are the best!",
+            "ja": "幼女の太ももが最高！",
+            "zh": "幼女的大腿最棒了！"
+          },
+          "path": "locolost-3d/yonu-da-tue.mp3",
+          "url": "https://www.youtube.com/watch?v=cFrML3fEcmw"
+        },
+        {
           "id": "d8c8105f-54c4-4d07-ac00-e032fa434a32",
           "name": "loli-tai",
           "description": {
@@ -7950,6 +7961,17 @@
           },
           "path": "on-fire/loli-tai.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "id": "38120f3a-107f-4c0e-b897-59e1de72ee61",
+          "name": "super-like-loco",
+          "description": {
+            "en": "I super love Loco! peropero~~~",
+            "ja": "ロコ大好き！ペロペロ~~~",
+            "zh": "我超喜歡蘿可的！peropero~~~"
+          },
+          "path": "locolost-3d/super-like-loco.mp3",
+          "url": "https://www.youtube.com/watch?v=cFrML3fEcmw"
         },
         {
           "id": "996d2d9f-454e-479d-95ba-26f698d9ee37",
@@ -7963,6 +7985,28 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "3085163d-a702-40e4-8280-6e156a74b3bd",
+          "name": "yonu-si-zen",
+          "description": {
+            "en": "Young girl lap pillow! Lap pillow! Lap pillow!",
+            "ja": "幼女の膝枕！膝枕！膝枕！",
+            "zh": "幼女的大腿枕膝枕！膝枕！膝枕！"
+          },
+          "path": "locolost-3d/yonu-si-zen.mp3",
+          "url": "https://www.youtube.com/watch?v=cFrML3fEcmw"
+        },
+        {
+          "id": "f11974fa-ee44-4bc9-818f-8be6b7cea43d",
+          "name": "kua-dian-tsai",
+          "description": {
+            "en": "Step quickly! Quickly! Yes! That's right! Harder!",
+            "ja": "早く踏んで！早く！そう！そうだ！もっと強く！",
+            "zh": "快點踩！快點！對！沒錯！再用力一點！"
+          },
+          "path": "locolost-3d/kua-dian-tsai.mp3",
+          "url": "https://www.youtube.com/watch?v=cFrML3fEcmw"
+        },
+        {
           "id": "4e1631b2-7b9a-459a-9549-3f7f0000f049",
           "name": "sister-drink-coffee",
           "description": {
@@ -7972,6 +8016,28 @@
           },
           "path": "new-clothes-2-year/sister-drink-coffee.mp3",
           "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
+          "id": "9493e1e5-14a6-40ea-9c47-e3080f06e503",
+          "name": "ta-tue-soft",
+          "description": {
+            "en": "I'm so happy! The feeling of these thighs is so soft!",
+            "ja": "すごく嬉しい！この太ももの感触がとても柔らかい！",
+            "zh": "我好開心噢！這個大腿的觸感是如此的柔軟！"
+          },
+          "path": "locolost-3d/ta-tue-soft.mp3",
+          "url": "https://www.youtube.com/watch?v=cFrML3fEcmw"
+        },
+        {
+          "id": "453d3cd2-25ae-4ffc-ab07-5093912e3f1d",
+          "name": "eye-only-loco",
+          "description": {
+            "en": "My eyes can only see Loco now, I can't see anything else",
+            "ja": "もう目の前にロコしか見えない、他のものは何も見えない",
+            "zh": "我的眼前已經只有蘿可了我已經看不到其他的東西了"
+          },
+          "path": "locolost-3d/eye-only-loco.mp3",
+          "url": "https://www.youtube.com/watch?v=cFrML3fEcmw"
         },
         {
           "id": "9c52c379-da69-4dde-849e-96d640be0353",
@@ -7994,6 +8060,17 @@
           },
           "path": "new-clothes-2-year/che-z-loli-hua.mp3",
           "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
+        },
+        {
+          "id": "68b14509-c14b-49a1-ad71-04e1be0ba193",
+          "name": "be-tsai-jo-suan",
+          "description": {
+            "en": "Being... stepped on... even like this I still want to be stepped on... quickly step on me, hurry, I can't take it anymore~ Quickly step on me~",
+            "ja": "踏まれ...踏まれて...こんな状態でもまだ踏まれたい...早く踏んで、早く、もう我慢できない〜早く踏んで〜",
+            "zh": "被..被踩...就算這樣我還是想要被踩...快踩我快點我快要受不了了～快點踩我～"
+          },
+          "path": "locolost-3d/be-tsai-jo-suan.mp3",
+          "url": "https://www.youtube.com/watch?v=cFrML3fEcmw"
         },
         {
           "id": "91c43e06-f5cf-4156-a55e-03d548a20e01",
