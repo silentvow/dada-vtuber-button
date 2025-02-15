@@ -516,6 +516,17 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
+          "id": "795a2652-6f1e-48d1-96d8-abf563db4e2d",
+          "name": "wo-mei-yo",
+          "description": {
+            "en": "我沒有",
+            "ja": "我沒有",
+            "zh": "我沒有"
+          },
+          "path": "gugu-pizza/wo-mei-yo.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
+        },
+        {
           "id": "e0c91d71-ae59-43d5-91c2-9fdc8b5f0f22",
           "name": "wei-shen-mo",
           "description": {
@@ -1066,6 +1077,17 @@
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
+          "id": "9ac794d7-1b48-4145-b574-bce848440500",
+          "name": "hu-lan-tze-chi",
+          "description": {
+            "en": "你不要隨便就說出那種可怕的虎狼之詞好不好",
+            "ja": "你不要隨便就說出那種可怕的虎狼之詞好不好",
+            "zh": "你不要隨便就說出那種可怕的虎狼之詞好不好"
+          },
+          "path": "gugu-pizza/hu-lan-tze-chi.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
+        },
+        {
           "id": "00acb774-5475-4fdf-a998-919c6864a59c",
           "name": "na-mo-shen-ss",
           "description": {
@@ -1119,6 +1141,17 @@
           },
           "path": "mihoyo-set/ss-wan-ke-shi-dan.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "21a3573c-c448-42b0-b5e8-d6764e2941c9",
+          "name": "suck-game-finish",
+          "description": {
+            "en": "這個鳥蛋屁遊戲我爸爸剛剛看到的時候居然第一句話是讓我去通關？",
+            "ja": "這個鳥蛋屁遊戲我爸爸剛剛看到的時候居然第一句話是讓我去通關？",
+            "zh": "這個鳥蛋屁遊戲我爸爸剛剛看到的時候居然第一句話是讓我去通關？"
+          },
+          "path": "gugu-pizza/suck-game-finish.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
         }
       ]
     },
@@ -2804,6 +2837,28 @@
           "url": "https://www.youtube.com/watch?v=sJFMrdsNtRE"
         },
         {
+          "id": "31b7351c-f3a8-493b-98e8-3bb74169cbe4",
+          "name": "wtf-la",
+          "description": {
+            "en": "花惹發啦",
+            "ja": "花惹發啦",
+            "zh": "花惹發啦"
+          },
+          "path": "gugu-pizza/wtf-la.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
+        },
+        {
+          "id": "59af69d9-1a48-4e82-b55c-ced2dbe03e9b",
+          "name": "ho-yoooo",
+          "description": {
+            "en": "吼唷～～～",
+            "ja": "吼唷～～～",
+            "zh": "吼唷～～～"
+          },
+          "path": "gugu-pizza/ho-yoooo.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
+        },
+        {
           "id": "d1b08a71-135c-453e-b9cd-04725b4d9889",
           "name": "wo-yao-po-fang",
           "description": {
@@ -2815,6 +2870,17 @@
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
+          "id": "1ddbb61a-9fa7-4c7a-abf1-0f77453933a7",
+          "name": "ho-yo-wtf",
+          "description": {
+            "en": "吼唷～花惹發～",
+            "ja": "吼唷～花惹發～",
+            "zh": "吼唷～花惹發～"
+          },
+          "path": "gugu-pizza/ho-yo-wtf.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
+        },
+        {
           "id": "4ba3a3d4-cbe1-49cc-9862-8ac630261343",
           "name": "wo-der-tofa",
           "description": {
@@ -2824,6 +2890,17 @@
           },
           "path": "news-202405/wo-der-tofa.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "00931ffc-853a-4a13-95f3-46e5f2fad3c8",
+          "name": "i-hate-world",
+          "description": {
+            "en": "我恨這個世界！",
+            "ja": "我恨這個世界！",
+            "zh": "我恨這個世界！"
+          },
+          "path": "gugu-pizza/i-hate-world.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
         },
         {
           "id": "1406c8a3-87d6-401c-a269-07b625835844",
@@ -2848,6 +2925,17 @@
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
+          "id": "427f5c3c-bbeb-4050-b475-79f24ac273b1",
+          "name": "i-hate-world-2",
+          "description": {
+            "en": "我恨這個世界～～～",
+            "ja": "我恨這個世界～～～",
+            "zh": "我恨這個世界～～～"
+          },
+          "path": "gugu-pizza/i-hate-world-2.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
+        },
+        {
           "id": "c53ca299-2fa4-479e-81d5-26096e0a3bc7",
           "name": "bie-da-ler",
           "description": {
@@ -2857,6 +2945,17 @@
           },
           "path": "thanksgiving/bie-da-ler.mp3",
           "url": "https://www.youtube.com/watch?v=Zku9b14Vw7o"
+        },
+        {
+          "id": "1455b661-cbd0-4dad-88b7-dad6b3baf172",
+          "name": "let-me-die",
+          "description": {
+            "en": "讓我去死! Let me die!",
+            "ja": "讓我去死! Let me die!",
+            "zh": "讓我去死! Let me die!"
+          },
+          "path": "gugu-pizza/let-me-die.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
         },
         {
           "id": "6cfba02e-b3fc-4300-ac64-f508f139f69c",
@@ -7336,6 +7435,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "b3601a9e-631d-4120-a948-6178fb99c579",
+          "name": "oh-ga-ni-nia",
+          "description": {
+            "en": "喔幹恁娘",
+            "ja": "喔幹恁娘",
+            "zh": "喔幹恁娘"
+          },
+          "path": "gugu-pizza/oh-ga-ni-nia.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
+        },
+        {
           "id": "k6lmn4o2-p1k3-4o8m-9n5l-3o7p8n0m1l2k",
           "name": "gan-ni-nya-la",
           "description": {
@@ -7356,6 +7466,17 @@
           },
           "path": "gap-moe/kao-bay-pi-la.mp3",
           "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
+        },
+        {
+          "id": "81dcfb02-3f49-418c-bcfa-c11d02872de6",
+          "name": "gan-gan-gan",
+          "description": {
+            "en": "幹!幹!幹!",
+            "ja": "幹!幹!幹!",
+            "zh": "幹!幹!幹!"
+          },
+          "path": "gugu-pizza/gan-gan-gan.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
         },
         {
           "id": "cc457565-02dd-4ef5-9382-db7923d6a84c",
@@ -8148,6 +8269,17 @@
           },
           "path": "yoda-girlfriend/wei-ler-bu-lou.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "235c97ec-5886-48d7-92a4-1ff426e8bc6d",
+          "name": "relive-g8-ren",
+          "description": {
+            "en": "ReLive就是一群機掰人",
+            "ja": "ReLive就是一群機掰人",
+            "zh": "ReLive就是一群機掰人"
+          },
+          "path": "gugu-pizza/relive-g8-ren.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
         },
         {
           "id": "18d21bfc-fe83-4664-b7bb-8d4e38dc93d9",
@@ -8964,6 +9096,17 @@
           "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
         },
         {
+          "id": "ee9cbc67-15c5-4c14-b2bd-53bc96a63d59",
+          "name": "i-am-genius",
+          "description": {
+            "en": "喔天哪我其實是天才嗎",
+            "ja": "喔天哪我其實是天才嗎",
+            "zh": "喔天哪我其實是天才嗎"
+          },
+          "path": "gugu-pizza/i-am-genius.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
+        },
+        {
           "id": "4a9901d6-9072-491f-8ba3-009bdccbf4f3",
           "name": "tian-wo-der-jiao",
           "description": {
@@ -9138,6 +9281,17 @@
           },
           "path": "cult/ban-ye-ji-er.mp3",
           "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
+          "id": "55f9893f-ea33-466c-99e8-bbc3f6e164bf",
+          "name": "bu-yun-po-fei",
+          "description": {
+            "en": "我跟你講不用擔心破費當你在玩的那一瞬間我就收到我的費用了",
+            "ja": "我跟你講不用擔心破費當你在玩的那一瞬間我就收到我的費用了",
+            "zh": "我跟你講不用擔心破費當你在玩的那一瞬間我就收到我的費用了"
+          },
+          "path": "gugu-pizza/bu-yun-po-fei.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
         },
         {
           "id": "5e7abfb0-b5c0-477b-89a5-ac03094b93a1",
