@@ -10,6 +10,17 @@
       },
       "voice_list": [
         {
+          "id": "66dfc846-6093-40bd-b63b-9f118e2dc84e",
+          "name": "66dfc846-6093-40bd-b63b-9f118e2dc84e",
+          "description": {
+            "en": "怪聲",
+            "ja": "怪聲",
+            "zh": "怪聲"
+          },
+          "path": "discord-20250204/voice-message (18).ogg",
+          "url": ""
+        },
+        {
           "id": "abaf05b5-d536-40a2-b480-efc2a85df107",
           "name": "c48e2b0b",
           "description": {
@@ -154,6 +165,17 @@
           "url": ""
         },
         {
+          "id": "90bfc5ba-e61c-41f7-a688-850bd7668e99",
+          "name": "90bfc5ba-e61c-41f7-a688-850bd7668e99",
+          "description": {
+            "en": "喔押蘇咪",
+            "ja": "喔押蘇咪",
+            "zh": "喔押蘇咪"
+          },
+          "path": "discord-20250204/voice-message (12).ogg",
+          "url": ""
+        },
+        {
           "id": "e650a760-44fa-4c5c-98ab-bfe5a064d30f",
           "name": "2024-12-16_wx7zab",
           "description": {
@@ -184,6 +206,17 @@
             "zh": "我才不要"
           },
           "path": "discord/0c4cc230.ogg",
+          "url": ""
+        },
+        {
+          "id": "bbd31647-5761-4194-a1af-a49cacf89879",
+          "name": "bbd31647-5761-4194-a1af-a49cacf89879",
+          "description": {
+            "en": "早安哪～",
+            "ja": "早安哪～",
+            "zh": "早安哪～"
+          },
+          "path": "discord-20250204/voice-message (4).ogg",
           "url": ""
         },
         {
@@ -420,6 +453,17 @@
           "url": ""
         },
         {
+          "id": "b2e4534d-0a01-424f-b141-9a098e31b206",
+          "name": "b2e4534d-0a01-424f-b141-9a098e31b206",
+          "description": {
+            "en": "早～灣～灣～",
+            "ja": "早～灣～灣～",
+            "zh": "早～灣～灣～"
+          },
+          "path": "discord-20250204/voice-message (17).ogg",
+          "url": ""
+        },
+        {
           "id": "485d4459-5f87-42d7-8af7-108c8d3ababf",
           "name": "380a4264",
           "description": {
@@ -450,6 +494,17 @@
             "zh": "詐寢灰鸚鵡～"
           },
           "path": "discord/803852d0.ogg",
+          "url": ""
+        },
+        {
+          "id": "049ca57d-b951-48cf-a374-c5a98aff2cfe",
+          "name": "049ca57d-b951-48cf-a374-c5a98aff2cfe",
+          "description": {
+            "en": "該～起床嚕～",
+            "ja": "該～起床嚕～",
+            "zh": "該～起床嚕～"
+          },
+          "path": "discord-20250204/voice-message (2).ogg",
           "url": ""
         },
         {
@@ -633,6 +688,17 @@
           "url": ""
         },
         {
+          "id": "fdc2c730-1343-408e-a249-27451bdc6d32",
+          "name": "fdc2c730-1343-408e-a249-27451bdc6d32",
+          "description": {
+            "en": "ㄅㄅㄅㄅㄅㄅㄅㄅ",
+            "ja": "ㄅㄅㄅㄅㄅㄅㄅㄅ",
+            "zh": "ㄅㄅㄅㄅㄅㄅㄅㄅ"
+          },
+          "path": "discord-20250204/voice-message (11).ogg",
+          "url": ""
+        },
+        {
           "id": "51e51799-336f-49d4-8bf1-c06d31bd7eab",
           "name": "2e74499a",
           "description": {
@@ -767,6 +833,17 @@
           "TBD": true
         },
         {
+          "id": "03321510-78fd-4646-bc72-592272642048",
+          "name": "03321510-78fd-4646-bc72-592272642048",
+          "description": {
+            "en": "我正在起床的路上～",
+            "ja": "我正在起床的路上～",
+            "zh": "我正在起床的路上～"
+          },
+          "path": "discord-20250204/voice-message (3).ogg",
+          "url": ""
+        },
+        {
           "id": "42375225-416e-491f-804c-f18c33b7e857",
           "name": "4c4086e4",
           "description": {
@@ -775,6 +852,17 @@
             "zh": "拜託惹～拜託你惹～"
           },
           "path": "discord/4c4086e4.ogg",
+          "url": ""
+        },
+        {
+          "id": "02e10ef1-0899-48f8-b527-e77a676ab4ff",
+          "name": "02e10ef1-0899-48f8-b527-e77a676ab4ff",
+          "description": {
+            "en": "早安～午安～掰噗～",
+            "ja": "早安～午安～掰噗～",
+            "zh": "早安～午安～掰噗～"
+          },
+          "path": "discord-20250204/voice-message (1).ogg",
           "url": ""
         },
         {
@@ -857,6 +945,39 @@
           "url": ""
         },
         {
+          "id": "9bb9344c-0f6d-4adc-92f8-d6266ddc7f88",
+          "name": "9bb9344c-0f6d-4adc-92f8-d6266ddc7f88",
+          "description": {
+            "en": "??????????? (聽不懂)",
+            "ja": "??????????? (聽不懂)",
+            "zh": "??????????? (聽不懂)"
+          },
+          "path": "discord-20250204/voice-message (9).ogg",
+          "url": ""
+        },
+        {
+          "id": "ee8b55ea-443c-41f5-801c-efc624fe2925",
+          "name": "ee8b55ea-443c-41f5-801c-efc624fe2925",
+          "description": {
+            "en": "??????????? (聽不懂)",
+            "ja": "??????????? (聽不懂)",
+            "zh": "??????????? (聽不懂)"
+          },
+          "path": "discord-20250204/voice-message.ogg",
+          "url": ""
+        },
+        {
+          "id": "4d21024c-0368-4ef7-8a11-fa726ec0a24a",
+          "name": "4d21024c-0368-4ef7-8a11-fa726ec0a24a",
+          "description": {
+            "en": "bibibibibibibibibibi",
+            "ja": "bibibibibibibibibibi",
+            "zh": "bibibibibibibibibibi"
+          },
+          "path": "discord-20250204/voice-message (15).ogg",
+          "url": ""
+        },
+        {
           "id": "18d49baa-3222-42a3-9670-d22679e3cce8",
           "name": "b23232f8",
           "description": {
@@ -923,6 +1044,17 @@
           "url": ""
         },
         {
+          "id": "247d3f17-caac-463e-8ff5-aa66f0c02094",
+          "name": "247d3f17-caac-463e-8ff5-aa66f0c02094",
+          "description": {
+            "en": "叔叔好新年快樂紅包拿來",
+            "ja": "叔叔好新年快樂紅包拿來",
+            "zh": "叔叔好新年快樂紅包拿來"
+          },
+          "path": "discord-20250204/voice-message (10).ogg",
+          "url": ""
+        },
+        {
           "id": "280c3578-ab43-4694-afc5-94500eb8849e",
           "name": "2024-12-16_7kdzu9",
           "description": {
@@ -934,6 +1066,28 @@
           "url": ""
         },
         {
+          "id": "7b18c770-9ce9-451e-9fa9-fa9c8054cce7",
+          "name": "7b18c770-9ce9-451e-9fa9-fa9c8054cce7",
+          "description": {
+            "en": "我只會亂發這種語音而已",
+            "ja": "我只會亂發這種語音而已",
+            "zh": "我只會亂發這種語音而已"
+          },
+          "path": "discord-20250204/voice-message (5).ogg",
+          "url": ""
+        },
+        {
+          "id": "abc20599-5c32-4e79-b997-3f233241d831",
+          "name": "abc20599-5c32-4e79-b997-3f233241d831",
+          "description": {
+            "en": "我要去買刮刮樂囉! 哇～",
+            "ja": "我要去買刮刮樂囉! 哇～",
+            "zh": "我要去買刮刮樂囉! 哇～"
+          },
+          "path": "discord-20250204/voice-message (8).ogg",
+          "url": ""
+        },
+        {
           "id": "e2af8e33-120d-4e40-8019-6cb6c3b48545",
           "name": "775222e7",
           "description": {
@@ -942,6 +1096,17 @@
             "zh": "阿罵哩到底細咧公蝦毀～"
           },
           "path": "discord/775222e7.ogg",
+          "url": ""
+        },
+        {
+          "id": "46d65e6e-6855-4cd9-9d7b-d350abcfe628",
+          "name": "46d65e6e-6855-4cd9-9d7b-d350abcfe628",
+          "description": {
+            "en": "三號在土裡！三號在土裡！",
+            "ja": "三號在土裡！三號在土裡！",
+            "zh": "三號在土裡！三號在土裡！"
+          },
+          "path": "discord-20250204/voice-message (14).ogg",
           "url": ""
         },
         {
@@ -1245,6 +1410,17 @@
           "url": ""
         },
         {
+          "id": "05399951-00cc-424d-a034-c1402a4d0fa7",
+          "name": "05399951-00cc-424d-a034-c1402a4d0fa7",
+          "description": {
+            "en": "為什麼點進來這個聲音呢？新年快樂～",
+            "ja": "為什麼點進來這個聲音呢？新年快樂～",
+            "zh": "為什麼點進來這個聲音呢？新年快樂～"
+          },
+          "path": "discord-20250204/voice-message (7).ogg",
+          "url": ""
+        },
+        {
           "id": "4b290a83-9ff3-4a7e-8d0c-ddce68af7d92",
           "name": "a6cf3abc",
           "description": {
@@ -1380,6 +1556,17 @@
           "url": ""
         },
         {
+          "id": "e41ec9e7-2749-4e56-b643-09d787d2b374",
+          "name": "e41ec9e7-2749-4e56-b643-09d787d2b374",
+          "description": {
+            "en": "早彎彎彎～早安～早安～早安早安早安早安早～",
+            "ja": "早彎彎彎～早安～早安～早安早安早安早安早～",
+            "zh": "早彎彎彎～早安～早安～早安早安早安早安早～"
+          },
+          "path": "discord-20250204/voice-message (16).ogg",
+          "url": ""
+        },
+        {
           "id": "7f23f631-4a40-4f5f-9b8c-e18c1d74ef3f",
           "name": "2024-12-15_dxskac",
           "description": {
@@ -1421,6 +1608,17 @@
             "zh": "我去跳一跳我看到那個肉的大小我就決定去跳一跳"
           },
           "path": "discord-20241216/2024-12-16_luo17e.ogg",
+          "url": ""
+        },
+        {
+          "id": "d994a8b3-4fba-4cec-aa0d-d9689f2868b2",
+          "name": "d994a8b3-4fba-4cec-aa0d-d9689f2868b2",
+          "description": {
+            "en": "沒有沒有吧沒有什麼尬聊什麼的吧我都在工作哭阿",
+            "ja": "沒有沒有吧沒有什麼尬聊什麼的吧我都在工作哭阿",
+            "zh": "沒有沒有吧沒有什麼尬聊什麼的吧我都在工作哭阿"
+          },
+          "path": "discord-20250204/voice-message (6).ogg",
           "url": ""
         },
         {
