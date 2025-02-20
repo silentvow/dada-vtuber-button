@@ -11,7 +11,7 @@
       "voice_list": [
         {
           "id": "66dfc846-6093-40bd-b63b-9f118e2dc84e",
-          "name": "66dfc846-6093-40bd-b63b-9f118e2dc84e",
+          "name": "66dfc846-6093",
           "description": {
             "en": "怪聲",
             "ja": "怪聲",
@@ -166,7 +166,7 @@
         },
         {
           "id": "90bfc5ba-e61c-41f7-a688-850bd7668e99",
-          "name": "90bfc5ba-e61c-41f7-a688-850bd7668e99",
+          "name": "90bfc5ba-e61c",
           "description": {
             "en": "喔押蘇咪",
             "ja": "喔押蘇咪",
@@ -210,7 +210,7 @@
         },
         {
           "id": "bbd31647-5761-4194-a1af-a49cacf89879",
-          "name": "bbd31647-5761-4194-a1af-a49cacf89879",
+          "name": "bbd31647-5761",
           "description": {
             "en": "早安哪～",
             "ja": "早安哪～",
@@ -273,6 +273,66 @@
           },
           "path": "discord/b8f00953.ogg",
           "url": ""
+        },
+        {
+          "id": "002c3825-546b-4fbe-bcfd-316d8b889f35",
+          "name": "2024-12-15_vfaz2m",
+          "description": {
+            "en": "??????????? (Can't understand)",
+            "ja": "??????????? (理解できない)",
+            "zh": "(聽不懂)-1"
+          },
+          "path": "discord-20241215/2024-12-15_vfaz2m.ogg",
+          "url": "",
+          "TBD": true
+        },
+        {
+          "id": "9bb9344c-0f6d-4adc-92f8-d6266ddc7f88",
+          "name": "9bb9344c-0f6d",
+          "description": {
+            "en": "(聽不懂)-0",
+            "ja": "(聽不懂)-1",
+            "zh": "(聽不懂)-2"
+          },
+          "path": "discord-20250204/voice-message (9).ogg",
+          "url": "",
+          "TBD": true
+        },
+        {
+          "id": "ee8b55ea-443c-41f5-801c-efc624fe2925",
+          "name": "ee8b55ea-443c",
+          "description": {
+            "en": "(聽不懂)-1",
+            "ja": "(聽不懂)-2",
+            "zh": "(聽不懂)-3"
+          },
+          "path": "discord-20250204/voice-message.ogg",
+          "url": "",
+          "TBD": true
+        },
+        {
+          "id": "27c668b2-7c93-461c-ab5b-a5bbe30c028e",
+          "name": "27c668b2-7c93",
+          "description": {
+            "en": "(聽不懂)-2",
+            "ja": "(聽不懂)-3",
+            "zh": "(聽不懂)-4"
+          },
+          "path": "discord-20250220/voice-message (17).ogg",
+          "url": "",
+          "TBD": true
+        },
+        {
+          "id": "477dcd4c-88ae-487f-b3e4-e88b2f3a05fa",
+          "name": "477dcd4c-88ae",
+          "description": {
+            "en": "(聽不懂)-3",
+            "ja": "(聽不懂)-4",
+            "zh": "(聽不懂)-5"
+          },
+          "path": "discord-20250220/voice-message (22).ogg",
+          "url": "",
+          "TBD": true
         },
         {
           "id": "a2289ab1-ed14-4ff1-a13f-9ac654056bc2",
@@ -442,6 +502,17 @@
           "url": ""
         },
         {
+          "id": "0e0a11bd-c7bf-4a37-94e7-ab1d39895392",
+          "name": "0e0a11bd-c7bf",
+          "description": {
+            "en": "我想吃飯了～",
+            "ja": "我想吃飯了～",
+            "zh": "我想吃飯了～"
+          },
+          "path": "discord-20250220/voice-message (20).ogg",
+          "url": ""
+        },
+        {
           "id": "9a71e2a6-ea1a-4a1e-ba48-aa8a0e751362",
           "name": "2024-12-16_e0h4wd",
           "description": {
@@ -454,7 +525,7 @@
         },
         {
           "id": "b2e4534d-0a01-424f-b141-9a098e31b206",
-          "name": "b2e4534d-0a01-424f-b141-9a098e31b206",
+          "name": "b2e4534d-0a01",
           "description": {
             "en": "早～灣～灣～",
             "ja": "早～灣～灣～",
@@ -498,7 +569,7 @@
         },
         {
           "id": "049ca57d-b951-48cf-a374-c5a98aff2cfe",
-          "name": "049ca57d-b951-48cf-a374-c5a98aff2cfe",
+          "name": "049ca57d-b951",
           "description": {
             "en": "該～起床嚕～",
             "ja": "該～起床嚕～",
@@ -654,6 +725,17 @@
           "url": ""
         },
         {
+          "id": "3444e74f-a1c6-4ccf-b025-939267c67101",
+          "name": "3444e74f-a1c6",
+          "description": {
+            "en": "爽啦超好吃的啦",
+            "ja": "爽啦超好吃的啦",
+            "zh": "爽啦超好吃的啦"
+          },
+          "path": "discord-20250220/voice-message (4).ogg",
+          "url": ""
+        },
+        {
           "id": "2a14c478-cf25-47f5-95c5-935ecb6195a6",
           "name": "ded345ed",
           "description": {
@@ -689,7 +771,7 @@
         },
         {
           "id": "fdc2c730-1343-408e-a249-27451bdc6d32",
-          "name": "fdc2c730-1343-408e-a249-27451bdc6d32",
+          "name": "fdc2c730-1343",
           "description": {
             "en": "ㄅㄅㄅㄅㄅㄅㄅㄅ",
             "ja": "ㄅㄅㄅㄅㄅㄅㄅㄅ",
@@ -718,6 +800,17 @@
             "zh": "你要跟他鬥ㄐㄐ嗎"
           },
           "path": "discord-20241216/2024-12-16_y9opwf.ogg",
+          "url": ""
+        },
+        {
+          "id": "42e7bab7-2779-4065-9936-d394370b5364",
+          "name": "42e7bab7-2779",
+          "description": {
+            "en": "好想吃飯諾～～～",
+            "ja": "好想吃飯諾～～～",
+            "zh": "好想吃飯諾～～～"
+          },
+          "path": "discord-20250220/voice-message (21).ogg",
           "url": ""
         },
         {
@@ -777,6 +870,17 @@
           "url": ""
         },
         {
+          "id": "48d42e43-5cc3-464e-a67b-6e58b173f2c8",
+          "name": "48d42e43-5cc3",
+          "description": {
+            "en": "散了散了散了散了",
+            "ja": "散了散了散了散了",
+            "zh": "散了散了散了散了"
+          },
+          "path": "discord-20250220/voice-message (15).ogg",
+          "url": ""
+        },
+        {
           "id": "ab339ba3-e7fd-443f-b644-1ba185afb1e9",
           "name": "2024-12-15_kzx5o0",
           "description": {
@@ -821,6 +925,17 @@
           "url": ""
         },
         {
+          "id": "5d0e0a08-91dd-4d62-8994-9dd4f4498d7e",
+          "name": "5d0e0a08-91dd",
+          "description": {
+            "en": "嗚拉！嗚拉！嗚拉！",
+            "ja": "嗚拉！嗚拉！嗚拉！",
+            "zh": "嗚拉！嗚拉！嗚拉！"
+          },
+          "path": "discord-20250220/voice-message.ogg",
+          "url": ""
+        },
+        {
           "id": "d22a3e14-884e-416a-aed4-feea770e5ee5",
           "name": "7bee0172",
           "description": {
@@ -834,7 +949,7 @@
         },
         {
           "id": "03321510-78fd-4646-bc72-592272642048",
-          "name": "03321510-78fd-4646-bc72-592272642048",
+          "name": "03321510-78fd",
           "description": {
             "en": "我正在起床的路上～",
             "ja": "我正在起床的路上～",
@@ -856,7 +971,7 @@
         },
         {
           "id": "02e10ef1-0899-48f8-b527-e77a676ab4ff",
-          "name": "02e10ef1-0899-48f8-b527-e77a676ab4ff",
+          "name": "02e10ef1-0899",
           "description": {
             "en": "早安～午安～掰噗～",
             "ja": "早安～午安～掰噗～",
@@ -874,6 +989,17 @@
             "zh": "早安～早彎彎彎彎～"
           },
           "path": "discord-20241216/2024-12-16_c17oz4.ogg",
+          "url": ""
+        },
+        {
+          "id": "a7ceef0b-f6d4-4ede-929f-20d2e264560f",
+          "name": "a7ceef0b-f6d4",
+          "description": {
+            "en": "現在我就要去吃飯囉",
+            "ja": "現在我就要去吃飯囉",
+            "zh": "現在我就要去吃飯囉"
+          },
+          "path": "discord-20250220/voice-message (19).ogg",
           "url": ""
         },
         {
@@ -934,41 +1060,8 @@
           "url": ""
         },
         {
-          "id": "002c3825-546b-4fbe-bcfd-316d8b889f35",
-          "name": "2024-12-15_vfaz2m",
-          "description": {
-            "en": "??????????? (Can't understand)",
-            "ja": "??????????? (理解できない)",
-            "zh": "??????????? (聽不懂)"
-          },
-          "path": "discord-20241215/2024-12-15_vfaz2m.ogg",
-          "url": ""
-        },
-        {
-          "id": "9bb9344c-0f6d-4adc-92f8-d6266ddc7f88",
-          "name": "9bb9344c-0f6d-4adc-92f8-d6266ddc7f88",
-          "description": {
-            "en": "??????????? (聽不懂)",
-            "ja": "??????????? (聽不懂)",
-            "zh": "??????????? (聽不懂)"
-          },
-          "path": "discord-20250204/voice-message (9).ogg",
-          "url": ""
-        },
-        {
-          "id": "ee8b55ea-443c-41f5-801c-efc624fe2925",
-          "name": "ee8b55ea-443c-41f5-801c-efc624fe2925",
-          "description": {
-            "en": "??????????? (聽不懂)",
-            "ja": "??????????? (聽不懂)",
-            "zh": "??????????? (聽不懂)"
-          },
-          "path": "discord-20250204/voice-message.ogg",
-          "url": ""
-        },
-        {
           "id": "4d21024c-0368-4ef7-8a11-fa726ec0a24a",
-          "name": "4d21024c-0368-4ef7-8a11-fa726ec0a24a",
+          "name": "4d21024c-0368",
           "description": {
             "en": "bibibibibibibibibibi",
             "ja": "bibibibibibibibibibi",
@@ -1045,7 +1138,7 @@
         },
         {
           "id": "247d3f17-caac-463e-8ff5-aa66f0c02094",
-          "name": "247d3f17-caac-463e-8ff5-aa66f0c02094",
+          "name": "247d3f17-caac",
           "description": {
             "en": "叔叔好新年快樂紅包拿來",
             "ja": "叔叔好新年快樂紅包拿來",
@@ -1053,6 +1146,18 @@
           },
           "path": "discord-20250204/voice-message (10).ogg",
           "url": ""
+        },
+        {
+          "id": "a2ece343-09f2-4fe8-b757-0586c993756a",
+          "name": "a2ece343-09f2",
+          "description": {
+            "en": "幼妲來吃飯～晚點見唷～",
+            "ja": "幼妲來吃飯～晚點見唷～",
+            "zh": "幼妲來吃飯～晚點見唷～"
+          },
+          "path": "discord-20250220/voice-message (10).ogg",
+          "url": "",
+          "TBD": true
         },
         {
           "id": "280c3578-ab43-4694-afc5-94500eb8849e",
@@ -1067,7 +1172,7 @@
         },
         {
           "id": "7b18c770-9ce9-451e-9fa9-fa9c8054cce7",
-          "name": "7b18c770-9ce9-451e-9fa9-fa9c8054cce7",
+          "name": "7b18c770-9ce9",
           "description": {
             "en": "我只會亂發這種語音而已",
             "ja": "我只會亂發這種語音而已",
@@ -1078,7 +1183,7 @@
         },
         {
           "id": "abc20599-5c32-4e79-b997-3f233241d831",
-          "name": "abc20599-5c32-4e79-b997-3f233241d831",
+          "name": "abc20599-5c32",
           "description": {
             "en": "我要去買刮刮樂囉! 哇～",
             "ja": "我要去買刮刮樂囉! 哇～",
@@ -1100,7 +1205,7 @@
         },
         {
           "id": "46d65e6e-6855-4cd9-9d7b-d350abcfe628",
-          "name": "46d65e6e-6855-4cd9-9d7b-d350abcfe628",
+          "name": "46d65e6e-6855",
           "description": {
             "en": "三號在土裡！三號在土裡！",
             "ja": "三號在土裡！三號在土裡！",
@@ -1118,6 +1223,17 @@
             "zh": "好吧那我繼續睡了晚安掰掰"
           },
           "path": "discord/hao-ba.ogg",
+          "url": ""
+        },
+        {
+          "id": "ca0981c6-4b1c-4aa5-bb8d-4feb6478b5da",
+          "name": "ca0981c6-4b1c",
+          "description": {
+            "en": "我就是想要吃薄荷巧克力呀",
+            "ja": "我就是想要吃薄荷巧克力呀",
+            "zh": "我就是想要吃薄荷巧克力呀"
+          },
+          "path": "discord-20250220/voice-message (5).ogg",
           "url": ""
         },
         {
@@ -1151,6 +1267,17 @@
             "zh": "噢你在幹嘛～謝謝你的綠界～"
           },
           "path": "discord/5b4cc017.ogg",
+          "url": ""
+        },
+        {
+          "id": "fb34821a-b5ce-49a7-8eb1-f0587c42b774",
+          "name": "fb34821a-b5ce",
+          "description": {
+            "en": "幼妲要好好在這邊待著唷好嗎",
+            "ja": "幼妲要好好在這邊待著唷好嗎",
+            "zh": "幼妲要好好在這邊待著唷好嗎"
+          },
+          "path": "discord-20250220/voice-message (12).ogg",
           "url": ""
         },
         {
@@ -1197,6 +1324,17 @@
           "path": "discord/2b7da1fd.ogg",
           "url": "",
           "TBD": true
+        },
+        {
+          "id": "c942bfe8-1bdb-48cc-b620-3d428f7d94a8",
+          "name": "c942bfe8-1bdb",
+          "description": {
+            "en": "外面又下雨了～我恨這個世界～",
+            "ja": "外面又下雨了～我恨這個世界～",
+            "zh": "外面又下雨了～我恨這個世界～"
+          },
+          "path": "discord-20250220/voice-message (3).ogg",
+          "url": ""
         },
         {
           "id": "bc074bc6-a8f3-4be3-b329-3b430fe16776",
@@ -1273,7 +1411,8 @@
             "zh": "阿不拉巴拉??????????? (聽不懂)"
           },
           "path": "discord-20241215/2024-12-15_o15xcs.ogg",
-          "url": ""
+          "url": "",
+          "TBD": true
         },
         {
           "id": "ab0e30e2-fceb-41b5-90c3-adb4e0f32fd5",
@@ -1318,6 +1457,17 @@
             "zh": "早早早早早～早早早早早～早早早～"
           },
           "path": "discord-20241216/2024-12-16_impnwv.ogg",
+          "url": ""
+        },
+        {
+          "id": "e74bd364-1a0c-47e2-a451-2a18c120c2ba",
+          "name": "e74bd364-1a0c",
+          "description": {
+            "en": "沒有薄荷巧克力的火鍋沒有吃的必要",
+            "ja": "沒有薄荷巧克力的火鍋沒有吃的必要",
+            "zh": "沒有薄荷巧克力的火鍋沒有吃的必要"
+          },
+          "path": "discord-20250220/voice-message (9).ogg",
           "url": ""
         },
         {
@@ -1366,6 +1516,17 @@
           "TBD": true
         },
         {
+          "id": "1d97353d-9226-4cc3-8450-0e348b623b05",
+          "name": "1d97353d-9226",
+          "description": {
+            "en": "只要有冰淇淋櫃就應該要有薄荷巧克力",
+            "ja": "只要有冰淇淋櫃就應該要有薄荷巧克力",
+            "zh": "只要有冰淇淋櫃就應該要有薄荷巧克力"
+          },
+          "path": "discord-20250220/voice-message (8).ogg",
+          "url": ""
+        },
+        {
           "id": "0465b00c-dc4b-4cea-860e-28137a26eaba",
           "name": "855fb9e3",
           "description": {
@@ -1411,7 +1572,7 @@
         },
         {
           "id": "05399951-00cc-424d-a034-c1402a4d0fa7",
-          "name": "05399951-00cc-424d-a034-c1402a4d0fa7",
+          "name": "05399951-00cc",
           "description": {
             "en": "為什麼點進來這個聲音呢？新年快樂～",
             "ja": "為什麼點進來這個聲音呢？新年快樂～",
@@ -1444,6 +1605,17 @@
           "url": ""
         },
         {
+          "id": "6ac7018a-71e2-45ad-b12b-2fb06fb048f8",
+          "name": "6ac7018a-71e2",
+          "description": {
+            "en": "幼妲有人找你欸你可以從地下室出來了喔",
+            "ja": "幼妲有人找你欸你可以從地下室出來了喔",
+            "zh": "幼妲有人找你欸你可以從地下室出來了喔"
+          },
+          "path": "discord-20250220/voice-message (13).ogg",
+          "url": ""
+        },
+        {
           "id": "99670f3a-08b7-461c-96d0-92b63304ac56",
           "name": "763ee63f",
           "description": {
@@ -1452,6 +1624,17 @@
             "zh": "怎麼有那麼香的Nice body跟Nice Butt阿"
           },
           "path": "discord/763ee63f.ogg",
+          "url": ""
+        },
+        {
+          "id": "be0cb10f-6ccb-460b-8d15-2db73c32b464",
+          "name": "be0cb10f-6ccb",
+          "description": {
+            "en": "欸你怎麼可以從地下室出來回去啦真是的",
+            "ja": "欸你怎麼可以從地下室出來回去啦真是的",
+            "zh": "欸你怎麼可以從地下室出來回去啦真是的"
+          },
+          "path": "discord-20250220/voice-message (11).ogg",
           "url": ""
         },
         {
@@ -1486,6 +1669,17 @@
             "zh": "你是在吵啥～哩系咧淦喔～真是受不了捏～"
           },
           "path": "discord/eb0d35cb.ogg",
+          "url": ""
+        },
+        {
+          "id": "a459b1c0-5402-40a8-bb49-b39aa5db13cf",
+          "name": "a459b1c0-5402",
+          "description": {
+            "en": "我都已經吃冰淇淋了難道我還在乎纖維質嗎",
+            "ja": "我都已經吃冰淇淋了難道我還在乎纖維質嗎",
+            "zh": "我都已經吃冰淇淋了難道我還在乎纖維質嗎"
+          },
+          "path": "discord-20250220/voice-message (6).ogg",
           "url": ""
         },
         {
@@ -1556,8 +1750,19 @@
           "url": ""
         },
         {
+          "id": "4af96839-172d-4cbb-9316-fcfef67399db",
+          "name": "4af96839-172d",
+          "description": {
+            "en": "所以一句話那到底是不是約會你是不是脫單了",
+            "ja": "所以一句話那到底是不是約會你是不是脫單了",
+            "zh": "所以一句話那到底是不是約會你是不是脫單了"
+          },
+          "path": "discord-20250220/voice-message (16).ogg",
+          "url": ""
+        },
+        {
           "id": "e41ec9e7-2749-4e56-b643-09d787d2b374",
-          "name": "e41ec9e7-2749-4e56-b643-09d787d2b374",
+          "name": "e41ec9e7-2749",
           "description": {
             "en": "早彎彎彎～早安～早安～早安早安早安早安早～",
             "ja": "早彎彎彎～早安～早安～早安早安早安早安早～",
@@ -1612,7 +1817,7 @@
         },
         {
           "id": "d994a8b3-4fba-4cec-aa0d-d9689f2868b2",
-          "name": "d994a8b3-4fba-4cec-aa0d-d9689f2868b2",
+          "name": "d994a8b3-4fba",
           "description": {
             "en": "沒有沒有吧沒有什麼尬聊什麼的吧我都在工作哭阿",
             "ja": "沒有沒有吧沒有什麼尬聊什麼的吧我都在工作哭阿",
@@ -1686,6 +1891,17 @@
             "zh": ".........哦？你說怎麼沒有聲音？因為他在土裡～ (三號)"
           },
           "path": "discord/29825a77.ogg",
+          "url": ""
+        },
+        {
+          "id": "a9223e19-8b7d-4c26-98c9-459f05307e45",
+          "name": "a9223e19-8b7d",
+          "description": {
+            "en": "但是首先呢我要先去把幼妲放出來～開個門～幼妲？幼妲？",
+            "ja": "但是首先呢我要先去把幼妲放出來～開個門～幼妲？幼妲？",
+            "zh": "但是首先呢我要先去把幼妲放出來～開個門～幼妲？幼妲？"
+          },
+          "path": "discord-20250220/voice-message (18).ogg",
           "url": ""
         },
         {
@@ -1782,9 +1998,20 @@
           "description": {
             "en": "(Lobster) Hmm, this really requires skills, the one Ah Shu cooked before was really delicious, I really want to eat it again",
             "ja": "(ロブスター) うーん、これは本当に技術が必要だね。以前、阿鼠が作ったのは本当においしかった。もう一度食べたい",
-            "zh": "(龍蝦) 嗯這個真的很我覺得很看技術欸，之前阿鼠煮的真的好好吃喦好想再吃"
+            "zh": "(龍蝦) 嗯這個真的很我覺得很看技術欸，之前阿鼠煮的真的好好吃喔好想再吃"
           },
           "path": "discord-20241216/2024-12-16_6rumen.ogg",
+          "url": ""
+        },
+        {
+          "id": "bb5a1d36-ed00-4439-8978-ca7d825f7bc6",
+          "name": "bb5a1d36-ed00",
+          "description": {
+            "en": "濃湯噗嚕嚕～噗嚕嚕～濃湯～濃湯～濃湯～濃湯！濃湯濃湯噗嚕嚕嚕嚕嚕嚕嚕嚕～",
+            "ja": "濃湯噗嚕嚕～噗嚕嚕～濃湯～濃湯～濃湯～濃湯！濃湯濃湯噗嚕嚕嚕嚕嚕嚕嚕嚕～",
+            "zh": "濃湯噗嚕嚕～噗嚕嚕～濃湯～濃湯～濃湯～濃湯！濃湯濃湯噗嚕嚕嚕嚕嚕嚕嚕嚕～"
+          },
+          "path": "discord-20250220/voice-message (1).ogg",
           "url": ""
         },
         {
@@ -1799,6 +2026,17 @@
           "url": ""
         },
         {
+          "id": "594ffa89-81ff-43ab-8bc8-5a1bff95ebcb",
+          "name": "594ffa89-81ff",
+          "description": {
+            "en": "我實在搞不懂為什麼有一些冰淇淋櫃全部都要水果口味我既然都已經要吃冰淇淋了難道我還要在乎健康嗎",
+            "ja": "我實在搞不懂為什麼有一些冰淇淋櫃全部都要水果口味我既然都已經要吃冰淇淋了難道我還要在乎健康嗎",
+            "zh": "我實在搞不懂為什麼有一些冰淇淋櫃全部都要水果口味我既然都已經要吃冰淇淋了難道我還要在乎健康嗎"
+          },
+          "path": "discord-20250220/voice-message (7).ogg",
+          "url": ""
+        },
+        {
           "id": "64a18f0b-c1b5-42e0-872c-db82f0baffc4",
           "name": "2024-12-15_d2k6uz",
           "description": {
@@ -1810,6 +2048,17 @@
           "url": ""
         },
         {
+          "id": "b0f1a6f4-4d8a-4d25-94c7-8b9079f2020a",
+          "name": "b0f1a6f4-4d8a",
+          "description": {
+            "en": "我跟你們說唷我呢前幾天叫了一個飲料的外送結果他們居然不是只有飲料來我也沒有加價購他居然送了我一個保冷袋太誇張",
+            "ja": "我跟你們說唷我呢前幾天叫了一個飲料的外送結果他們居然不是只有飲料來我也沒有加價購他居然送了我一個保冷袋太誇張",
+            "zh": "我跟你們說唷我呢前幾天叫了一個飲料的外送結果他們居然不是只有飲料來我也沒有加價購他居然送了我一個保冷袋太誇張"
+          },
+          "path": "discord-20250220/voice-message (2).ogg",
+          "url": ""
+        },
+        {
           "id": "122d9e69-7dd4-4741-9297-9bb526827267",
           "name": "c32badbb",
           "description": {
@@ -1818,6 +2067,17 @@
             "zh": "你你知道嗎，這是我在幫阿鼠做他的夢天堂文宣的時候，因為那個時候我閒閒沒事做我就幫忙做了一下，可是我覺得在做的途中有一種深深的罪惡感我不知道你怎麼想"
           },
           "path": "discord/c32badbb.ogg",
+          "url": ""
+        },
+        {
+          "id": "bc5e8ae8-69c0-4431-8c76-90414e3734f9",
+          "name": "bc5e8ae8-69c0",
+          "description": {
+            "en": "好了啦甭提了啦沒有告白就是白講嘛你是不是就應該要趁3/14的時候直接一舉出山洞了好不好不要在那邊思春了好嗎你多大了阿是男人就應該勇往直前勇往直前現在就跟她約",
+            "ja": "好了啦甭提了啦沒有告白就是白講嘛你是不是就應該要趁3/14的時候直接一舉出山洞了好不好不要在那邊思春了好嗎你多大了阿是男人就應該勇往直前勇往直前現在就跟她約",
+            "zh": "好了啦甭提了啦沒有告白就是白講嘛你是不是就應該要趁3/14的時候直接一舉出山洞了好不好不要在那邊思春了好嗎你多大了阿是男人就應該勇往直前勇往直前現在就跟她約"
+          },
+          "path": "discord-20250220/voice-message (14).ogg",
           "url": ""
         },
         {
