@@ -307,6 +307,17 @@
           "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
         },
         {
+          "id": "e54917ea-16e1-4884-9138-94e2d2ba3db9",
+          "name": "ed-gen-da-jia-bye",
+          "description": {
+            "en": "那我們就直接ED了大家再見啦晚安",
+            "ja": "那我們就直接ED了大家再見啦晚安",
+            "zh": "那我們就直接ED了大家再見啦晚安"
+          },
+          "path": "man-stretch/ed-gen-da-jia-bye.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
+        },
+        {
           "id": "4289b7cb-5619-48d0-8508-3676ec1c0eff",
           "name": "self-intro-1",
           "description": {
@@ -505,6 +516,17 @@
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
+          "id": "5c15eab4-4301-4616-a7f1-e863dd4c839a",
+          "name": "zu-so-a",
+          "description": {
+            "en": "住手阿",
+            "ja": "住手阿",
+            "zh": "住手阿"
+          },
+          "path": "man-stretch/zu-so-a.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
+        },
+        {
           "id": "1c0e811c-a623-497d-b3ad-dfe4f0e93e6b",
           "name": "bie-hu-sow",
           "description": {
@@ -527,6 +549,17 @@
           "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
         },
         {
+          "id": "b6eee5eb-241d-4308-904d-f9efb0f1f246",
+          "name": "mei-li-mao",
+          "description": {
+            "en": "沒禮貌",
+            "ja": "沒禮貌",
+            "zh": "沒禮貌"
+          },
+          "path": "man-stretch/mei-li-mao.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
+        },
+        {
           "id": "e0c91d71-ae59-43d5-91c2-9fdc8b5f0f22",
           "name": "wei-shen-mo",
           "description": {
@@ -536,6 +569,17 @@
           },
           "path": "news-202405/wei-shen-mo.mp3",
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "f5883241-fffb-4522-bedc-eac79ced2ee4",
+          "name": "zao-to-ler",
+          "description": {
+            "en": "糟透了",
+            "ja": "糟透了",
+            "zh": "糟透了"
+          },
+          "path": "man-stretch/zao-to-ler.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
         },
         {
           "id": "b3d9d0fb-1852-4120-aee5-2acc09737a8c",
@@ -615,6 +659,17 @@
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
         },
         {
+          "id": "f98286b6-01c3-4bd9-9733-609653e05b6c",
+          "name": "ni-bu-nen-ze-yan",
+          "description": {
+            "en": "你不能這樣",
+            "ja": "你不能這樣",
+            "zh": "你不能這樣"
+          },
+          "path": "man-stretch/ni-bu-nen-ze-yan.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
+        },
+        {
           "id": "cc1d444a-bbee-4819-a476-7f4266addcef",
           "name": "ni4-bai-chi",
           "description": {
@@ -626,6 +681,17 @@
           "url": "https://www.youtube.com/watch?v=cK5T_RXsYE8"
         },
         {
+          "id": "f473df5f-55af-48c7-b889-44e9ce6263ed",
+          "name": "how-ler-ni4-so",
+          "description": {
+            "en": "好了你是受",
+            "ja": "好了你是受",
+            "zh": "好了你是受"
+          },
+          "path": "man-stretch/how-ler-ni4-so.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
+        },
+        {
           "id": "88ca9f86-cbed-4567-9316-97aeca9f815c",
           "name": "ni-nya-ka-hao",
           "description": {
@@ -635,6 +701,17 @@
           },
           "path": "news-202410/ni-nya-ka-hao.mp3",
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "4ffae53c-0343-4eeb-8507-abb418ac81fb",
+          "name": "wo-der-ten-na",
+          "description": {
+            "en": "我我的天哪",
+            "ja": "我我的天哪",
+            "zh": "我我的天哪"
+          },
+          "path": "man-stretch/wo-der-ten-na.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
         },
         {
           "id": "7bee3398-dc11-401b-ae85-a06e75f116fa",
@@ -668,6 +745,17 @@
           },
           "path": "draw-avatar-10/ni-men-yao-cho-hao-duo.mp3",
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "id": "4c8adcfa-dde9-43ae-bbfd-ad03ee694733",
+          "name": "bro-bu-yao-ze-yang",
+          "description": {
+            "en": "兄弟不要這樣",
+            "ja": "兄弟不要這樣",
+            "zh": "兄弟不要這樣"
+          },
+          "path": "man-stretch/bro-bu-yao-ze-yang.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
         },
         {
           "id": "ecd8163c-f327-4c02-a4af-801d13a6f99b",
@@ -747,6 +835,17 @@
           "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
         },
         {
+          "id": "25a5694e-2f35-4ba9-b0bf-8c6810d4b974",
+          "name": "bro-zai-gan-ma",
+          "description": {
+            "en": "兄弟你到底在幹嘛",
+            "ja": "兄弟你到底在幹嘛",
+            "zh": "兄弟你到底在幹嘛"
+          },
+          "path": "man-stretch/bro-zai-gan-ma.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
+        },
+        {
           "id": "da637b54-fa2b-4b92-ad8f-b711a2f4fcfb",
           "name": "cheat-phone-call",
           "description": {
@@ -756,6 +855,17 @@
           },
           "path": "marshmarllow-202306/cheat-phone-call.mp3",
           "url": "https://www.youtube.com/watch?v=t1QcF57c5pc"
+        },
+        {
+          "id": "369aeb16-41be-4271-87c1-939ab2146716",
+          "name": "wo-bu-yao-know",
+          "description": {
+            "en": "我不要知道這個～",
+            "ja": "我不要知道這個～",
+            "zh": "我不要知道這個～"
+          },
+          "path": "man-stretch/wo-bu-yao-know.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
         },
         {
           "id": "c5615101-f18e-4df6-8f77-6c06d072c163",
@@ -890,6 +1000,28 @@
           "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
         },
         {
+          "id": "59ae5536-3ab8-4e31-ac40-bb92b0e32496",
+          "name": "zzuo-ni-zzuo",
+          "description": {
+            "en": "自重你自重你給我自重！",
+            "ja": "自重你自重你給我自重！",
+            "zh": "自重你自重你給我自重！"
+          },
+          "path": "man-stretch/zzuo-ni-zzuo.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
+        },
+        {
+          "id": "f7f19902-28e2-4de9-bc24-cbd9bb3ea0eb",
+          "name": "air-hen-gua",
+          "description": {
+            "en": "你不覺得這裡的空氣很怪嗎",
+            "ja": "你不覺得這裡的空氣很怪嗎",
+            "zh": "你不覺得這裡的空氣很怪嗎"
+          },
+          "path": "man-stretch/air-hen-gua.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
+        },
+        {
           "id": "be1f16ab-95d7-4b9c-941e-a67b017d67f5",
           "name": "zen-chin-sian4",
           "description": {
@@ -932,6 +1064,17 @@
           },
           "path": "bird-ball/me-be-zo-guo.mp3",
           "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
+        {
+          "id": "583cfcb6-96f2-4c54-a326-eb7120444532",
+          "name": "gan-kua-jie-su",
+          "description": {
+            "en": "我現在只想趕快結束這個企劃",
+            "ja": "我現在只想趕快結束這個企劃",
+            "zh": "我現在只想趕快結束這個企劃"
+          },
+          "path": "man-stretch/gan-kua-jie-su.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
         },
         {
           "id": "5508a243-5de5-4744-a020-0633541f2486",
@@ -1031,6 +1174,17 @@
           },
           "path": "on-fire/se-ji-du-a.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "id": "afca221f-6e3a-461d-a890-de7e02d486c0",
+          "name": "zzuo-tiger-wolf",
+          "description": {
+            "en": "請你自重不要說一些虎狼之詞好嗎",
+            "ja": "請你自重不要說一些虎狼之詞好嗎",
+            "zh": "請你自重不要說一些虎狼之詞好嗎"
+          },
+          "path": "man-stretch/zzuo-tiger-wolf.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
         },
         {
           "id": "u6vwx4y2-z1u3-4y8w-9x5v-3y7z8x0w1v2u",
@@ -3244,6 +3398,17 @@
           "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
         },
         {
+          "id": "fe9c7b43-75dd-4289-81cc-a9b7c834c9ae",
+          "name": "syo-ze-yang",
+          "description": {
+            "en": "是又怎麼樣",
+            "ja": "是又怎麼樣",
+            "zh": "是又怎麼樣"
+          },
+          "path": "man-stretch/syo-ze-yang.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
+        },
+        {
           "id": "94459f2e-c609-425b-b433-5385877c9e60",
           "name": "pika-chu",
           "description": {
@@ -3739,6 +3904,17 @@
           "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
         },
         {
+          "id": "4ae43295-12d7-4f5d-aa0b-d69e06bdfd5b",
+          "name": "jie-yi-toilet",
+          "description": {
+            "en": "你們介意我先去上個廁所嗎",
+            "ja": "你們介意我先去上個廁所嗎",
+            "zh": "你們介意我先去上個廁所嗎"
+          },
+          "path": "man-stretch/jie-yi-toilet.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
+        },
+        {
           "id": "28d4e3c4-9592-4d28-9da3-cda254394a40",
           "name": "me-yo-la-jen4-der",
           "description": {
@@ -3836,6 +4012,17 @@
           },
           "path": "cult/amd-yes.mp3",
           "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
+          "id": "f541c574-7aa2-4901-aaf2-c412eb70319e",
+          "name": "jia-luo-dao-se",
+          "description": {
+            "en": "好那我們來看一下等會要降落到哪邊去哈",
+            "ja": "好那我們來看一下等會要降落到哪邊去哈",
+            "zh": "好那我們來看一下等會要降落到哪邊去哈"
+          },
+          "path": "man-stretch/jia-luo-dao-se.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
         },
         {
           "id": "147e3161-bed4-43bf-acae-2279269b654e",
@@ -7468,17 +7655,6 @@
           "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
-          "id": "81dcfb02-3f49-418c-bcfa-c11d02872de6",
-          "name": "gan-gan-gan",
-          "description": {
-            "en": "幹!幹!幹!",
-            "ja": "幹!幹!幹!",
-            "zh": "幹!幹!幹!"
-          },
-          "path": "gugu-pizza/gan-gan-gan.mp3",
-          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
-        },
-        {
           "id": "cc457565-02dd-4ef5-9382-db7923d6a84c",
           "name": "fuck-you-la",
           "description": {
@@ -7521,6 +7697,17 @@
           },
           "path": "chicken-club-ad/fucku-hahaha.mp3",
           "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
+          "id": "81dcfb02-3f49-418c-bcfa-c11d02872de6",
+          "name": "gan-gan-gan",
+          "description": {
+            "en": "幹～幹～幹～",
+            "ja": "幹～幹～幹～",
+            "zh": "幹～幹～幹～"
+          },
+          "path": "gugu-pizza/gan-gan-gan.mp3",
+          "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
         },
         {
           "id": "72231691-f5e3-42dc-bd06-194ff97583f3",
