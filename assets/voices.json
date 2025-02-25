@@ -3398,17 +3398,6 @@
           "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
         },
         {
-          "id": "fe9c7b43-75dd-4289-81cc-a9b7c834c9ae",
-          "name": "syo-ze-yang",
-          "description": {
-            "en": "是又怎麼樣",
-            "ja": "是又怎麼樣",
-            "zh": "是又怎麼樣"
-          },
-          "path": "man-stretch/syo-ze-yang.mp3",
-          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
-        },
-        {
           "id": "94459f2e-c609-425b-b433-5385877c9e60",
           "name": "pika-chu",
           "description": {
@@ -8566,6 +8555,149 @@
           },
           "path": "marshmarllow-202306/noe-little-fairy.mp3",
           "url": "https://www.youtube.com/watch?v=t1QcF57c5pc"
+        }
+      ]
+    },
+    {
+      "id": "fdad2073-8208-4191-bbfa-70d4956c6950",
+      "group_name": "mygo",
+      "group_description": {
+        "en": "MyGO",
+        "ja": "MyGO",
+        "zh": "MyGO"
+      },
+      "voice_list": [
+        {
+          "id": "f24a07c8-c6d5-4e0b-801b-f4347c25a885",
+          "name": "bu-yao-zo",
+          "description": {
+            "en": "不要走",
+            "ja": "不要走",
+            "zh": "不要走"
+          },
+          "path": "watch-mygo/bu-yao-zo.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "0473f22c-3f43-4177-925c-023a261f6836",
+          "name": "de-su-wa",
+          "description": {
+            "en": "爹蘇娃",
+            "ja": "爹蘇娃",
+            "zh": "爹蘇娃"
+          },
+          "path": "watch-mygo/de-su-wa.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "01d9adc4-d0fd-4be7-831a-73bc384e4761",
+          "name": "bu-yau-ho-wo",
+          "description": {
+            "en": "不要吼我啦",
+            "ja": "不要吼我啦",
+            "zh": "不要吼我啦"
+          },
+          "path": "watch-mygo/bu-yau-ho-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "fe9c7b43-75dd-4289-81cc-a9b7c834c9ae",
+          "name": "syo-ze-yang",
+          "description": {
+            "en": "是又怎麼樣",
+            "ja": "是又怎麼樣",
+            "zh": "是又怎麼樣"
+          },
+          "path": "man-stretch/syo-ze-yang.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
+        },
+        {
+          "id": "b4742321-72d7-4b5e-942b-9a50dd70fd90",
+          "name": "ai-mu-shi-zo",
+          "description": {
+            "en": "我愛慕虛榮啦",
+            "ja": "我愛慕虛榮啦",
+            "zh": "我愛慕虛榮啦"
+          },
+          "path": "watch-mygo/ai-mu-shi-zo.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "9e49d8ee-50da-43fb-af74-182b57b30970",
+          "name": "sh-cin-jia-yi",
+          "description": {
+            "en": "真是虛情假意呢",
+            "ja": "真是虛情假意呢",
+            "zh": "真是虛情假意呢"
+          },
+          "path": "watch-mygo/sh-cin-jia-yi.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "e8d6ad9b-860d-42c3-8ff1-3c31977a4f2f",
+          "name": "last-warning",
+          "description": {
+            "en": "這是最後的警告",
+            "ja": "這是最後的警告",
+            "zh": "這是最後的警告"
+          },
+          "path": "watch-mygo/last-warning.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "deb7d099-0f8d-4e20-b415-9d9d588fe95f",
+          "name": "wu4-tomorin",
+          "description": {
+            "en": "那傢伙居然無視燈",
+            "ja": "那傢伙居然無視燈",
+            "zh": "那傢伙居然無視燈"
+          },
+          "path": "watch-mygo/wu4-tomorin.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "5a5f4fe0-b7aa-4048-8d2f-090940015440",
+          "name": "ue-hao-yi-bez",
+          "description": {
+            "en": "他跟我約好一輩子了",
+            "ja": "他跟我約好一輩子了",
+            "zh": "他跟我約好一輩子了"
+          },
+          "path": "watch-mygo/ue-hao-yi-bez.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "44e3812d-b60a-45da-b44a-d2ebb950fdc2",
+          "name": "mang-nao-z2",
+          "description": {
+            "en": "滿腦子都想著自己呢",
+            "ja": "滿腦子都想著自己呢",
+            "zh": "滿腦子都想著自己呢"
+          },
+          "path": "watch-mygo/mang-nao-z2.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "f4f5e870-954b-40f6-929d-8274c78366fb",
+          "name": "why-chun-zyin",
+          "description": {
+            "en": "為什麼要演奏春日影",
+            "ja": "為什麼要演奏春日影",
+            "zh": "為什麼要演奏春日影"
+          },
+          "path": "watch-mygo/why-chun-zyin.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "1cbdbb93-eb94-48d3-a554-7ad636b2290d",
+          "name": "play-band-joy",
+          "description": {
+            "en": "我從來都不覺得玩樂團開心",
+            "ja": "我從來都不覺得玩樂團開心",
+            "zh": "我從來都不覺得玩樂團開心"
+          },
+          "path": "watch-mygo/play-band-joy.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
         }
       ]
     },
