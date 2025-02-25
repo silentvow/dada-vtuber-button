@@ -98,6 +98,28 @@
       },
       "voice_list": [
         {
+          "id": "68d19387-0b42-4e5c-96d5-5d7cb80579da",
+          "name": "hello",
+          "description": {
+            "en": "Hello",
+            "ja": "こんにちは",
+            "zh": "哈囉"
+          },
+          "path": "quick-answer/hello.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
+        {
+          "id": "c2376e2f-a28d-42ee-97c5-1f7c8e7867ae",
+          "name": "an-an",
+          "description": {
+            "en": "Hi",
+            "ja": "やあ",
+            "zh": "安安"
+          },
+          "path": "quick-answer/an-an.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
+        {
           "id": "81de6bc0-26a3-432b-83a3-9e345aade0e7",
           "name": "da-jia-hao",
           "description": {
@@ -184,6 +206,17 @@
           },
           "path": "yandere-lyrics/da-jia-wan-shan-hao.mp3",
           "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
+        },
+        {
+          "id": "45fedb89-3a0e-47eb-9c2e-c6d558ddbb73",
+          "name": "an-an-na",
+          "description": {
+            "en": "Hi there, hi",
+            "ja": "やあ、やあ",
+            "zh": "安安吶安安"
+          },
+          "path": "quick-answer/an-an-na.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
         },
         {
           "id": "0d1db6c9-52ea-48a5-81d2-c95ad0e8dd0d",
@@ -310,8 +343,8 @@
           "id": "e54917ea-16e1-4884-9138-94e2d2ba3db9",
           "name": "ed-gen-da-jia-bye",
           "description": {
-            "en": "那我們就直接ED了大家再見啦晚安",
-            "ja": "那我們就直接ED了大家再見啦晚安",
+            "en": "Then we'll just go straight to the ending, goodbye everyone, good night",
+            "ja": "じゃあ、そのままエンディングに行くね、みんなさようなら、おやすみ",
             "zh": "那我們就直接ED了大家再見啦晚安"
           },
           "path": "man-stretch/ed-gen-da-jia-bye.mp3",
@@ -519,8 +552,8 @@
           "id": "5c15eab4-4301-4616-a7f1-e863dd4c839a",
           "name": "zu-so-a",
           "description": {
-            "en": "住手阿",
-            "ja": "住手阿",
+            "en": "Stop it",
+            "ja": "やめて",
             "zh": "住手阿"
           },
           "path": "man-stretch/zu-so-a.mp3",
@@ -541,8 +574,8 @@
           "id": "795a2652-6f1e-48d1-96d8-abf563db4e2d",
           "name": "wo-mei-yo",
           "description": {
-            "en": "我沒有",
-            "ja": "我沒有",
+            "en": "I don't have",
+            "ja": "持ってないよ",
             "zh": "我沒有"
           },
           "path": "gugu-pizza/wo-mei-yo.mp3",
@@ -552,8 +585,8 @@
           "id": "b6eee5eb-241d-4308-904d-f9efb0f1f246",
           "name": "mei-li-mao",
           "description": {
-            "en": "沒禮貌",
-            "ja": "沒禮貌",
+            "en": "That's rude",
+            "ja": "失礼だ",
             "zh": "沒禮貌"
           },
           "path": "man-stretch/mei-li-mao.mp3",
@@ -574,8 +607,8 @@
           "id": "f5883241-fffb-4522-bedc-eac79ced2ee4",
           "name": "zao-to-ler",
           "description": {
-            "en": "糟透了",
-            "ja": "糟透了",
+            "en": "This is terrible",
+            "ja": "最悪だ",
             "zh": "糟透了"
           },
           "path": "man-stretch/zao-to-ler.mp3",
@@ -662,8 +695,8 @@
           "id": "f98286b6-01c3-4bd9-9733-609653e05b6c",
           "name": "ni-bu-nen-ze-yan",
           "description": {
-            "en": "你不能這樣",
-            "ja": "你不能這樣",
+            "en": "You can't do that",
+            "ja": "そんなことしちゃダメだよ",
             "zh": "你不能這樣"
           },
           "path": "man-stretch/ni-bu-nen-ze-yan.mp3",
@@ -681,11 +714,22 @@
           "url": "https://www.youtube.com/watch?v=cK5T_RXsYE8"
         },
         {
+          "id": "8f28c4c8-c702-47ad-a951-d6274cf5d527",
+          "name": "ni4-loli-kon",
+          "description": {
+            "en": "You're a lolicon",
+            "ja": "お前はロリコンだ",
+            "zh": "你是蘿莉控"
+          },
+          "path": "quick-answer/ni4-loli-kon.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
+        {
           "id": "f473df5f-55af-48c7-b889-44e9ce6263ed",
           "name": "how-ler-ni4-so",
           "description": {
-            "en": "好了你是受",
-            "ja": "好了你是受",
+            "en": "Alright, you're the bottom",
+            "ja": "はいはい、お前が受けだよ",
             "zh": "好了你是受"
           },
           "path": "man-stretch/how-ler-ni4-so.mp3",
@@ -706,8 +750,8 @@
           "id": "4ffae53c-0343-4eeb-8507-abb418ac81fb",
           "name": "wo-der-ten-na",
           "description": {
-            "en": "我我的天哪",
-            "ja": "我我的天哪",
+            "en": "Oh my goodness",
+            "ja": "なんてこった",
             "zh": "我我的天哪"
           },
           "path": "man-stretch/wo-der-ten-na.mp3",
@@ -747,11 +791,33 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "9456d1a2-ce27-494a-b95a-8a326f79ed12",
+          "name": "ni4-demon",
+          "description": {
+            "en": "You're a devil-1",
+            "ja": "お前は悪魔だな-1",
+            "zh": "你是惡魔吧-1"
+          },
+          "path": "quick-answer/ni4-demon.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
+        {
+          "id": "f3eba372-8535-4183-bfdd-829aa9e13a62",
+          "name": "ni4-demon-2",
+          "description": {
+            "en": "You're a devil-2",
+            "ja": "お前は悪魔だな-2",
+            "zh": "你是惡魔吧-2"
+          },
+          "path": "quick-answer/ni4-demon-2.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
+        {
           "id": "4c8adcfa-dde9-43ae-bbfd-ad03ee694733",
           "name": "bro-bu-yao-ze-yang",
           "description": {
-            "en": "兄弟不要這樣",
-            "ja": "兄弟不要這樣",
+            "en": "Brother, don't be like this",
+            "ja": "兄弟、そんなことしないでよ",
             "zh": "兄弟不要這樣"
           },
           "path": "man-stretch/bro-bu-yao-ze-yang.mp3",
@@ -838,8 +904,8 @@
           "id": "25a5694e-2f35-4ba9-b0bf-8c6810d4b974",
           "name": "bro-zai-gan-ma",
           "description": {
-            "en": "兄弟你到底在幹嘛",
-            "ja": "兄弟你到底在幹嘛",
+            "en": "Brother, what exactly are you doing?",
+            "ja": "兄弟、一体何してるの？",
             "zh": "兄弟你到底在幹嘛"
           },
           "path": "man-stretch/bro-zai-gan-ma.mp3",
@@ -860,8 +926,8 @@
           "id": "369aeb16-41be-4271-87c1-939ab2146716",
           "name": "wo-bu-yao-know",
           "description": {
-            "en": "我不要知道這個～",
-            "ja": "我不要知道這個～",
+            "en": "I don't want to know this~",
+            "ja": "知りたくないよ～",
             "zh": "我不要知道這個～"
           },
           "path": "man-stretch/wo-bu-yao-know.mp3",
@@ -921,6 +987,17 @@
           },
           "path": "on-fire/sau-ro-sol.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "id": "cf7ef346-c6bf-4f24-bcde-7cb06677537b",
+          "name": "me-yo-love-fan",
+          "description": {
+            "en": "Where do we have romance fans in Taiwan?",
+            "ja": "台湾に恋愛ファンなんているの？",
+            "zh": "我們台哪有戀愛粉哪"
+          },
+          "path": "quick-answer/me-yo-love-fan.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
         },
         {
           "id": "cf750c06-ef8d-4cd1-a1eb-3674c5d7d08c",
@@ -1003,8 +1080,8 @@
           "id": "59ae5536-3ab8-4e31-ac40-bb92b0e32496",
           "name": "zzuo-ni-zzuo",
           "description": {
-            "en": "自重你自重你給我自重！",
-            "ja": "自重你自重你給我自重！",
+            "en": "Control yourself, control yourself, I'm telling you to control yourself!",
+            "ja": "自重しろ、自重しろ、自重しろと言ってるんだ！",
             "zh": "自重你自重你給我自重！"
           },
           "path": "man-stretch/zzuo-ni-zzuo.mp3",
@@ -1014,8 +1091,8 @@
           "id": "f7f19902-28e2-4de9-bc24-cbd9bb3ea0eb",
           "name": "air-hen-gua",
           "description": {
-            "en": "你不覺得這裡的空氣很怪嗎",
-            "ja": "你不覺得這裡的空氣很怪嗎",
+            "en": "Don't you think the air feels strange here?",
+            "ja": "ここの空気、変だと思わない？",
             "zh": "你不覺得這裡的空氣很怪嗎"
           },
           "path": "man-stretch/air-hen-gua.mp3",
@@ -1069,8 +1146,8 @@
           "id": "583cfcb6-96f2-4c54-a326-eb7120444532",
           "name": "gan-kua-jie-su",
           "description": {
-            "en": "我現在只想趕快結束這個企劃",
-            "ja": "我現在只想趕快結束這個企劃",
+            "en": "Right now I just want to finish this project quickly",
+            "ja": "今はこのプロジェクトを早く終わらせたいだけ",
             "zh": "我現在只想趕快結束這個企劃"
           },
           "path": "man-stretch/gan-kua-jie-su.mp3",
@@ -1179,8 +1256,8 @@
           "id": "afca221f-6e3a-461d-a890-de7e02d486c0",
           "name": "zzuo-tiger-wolf",
           "description": {
-            "en": "請你自重不要說一些虎狼之詞好嗎",
-            "ja": "請你自重不要說一些虎狼之詞好嗎",
+            "en": "Please control yourself and refrain from saying obscenities, will you?",
+            "ja": "自重して下さい、卑猥な言葉を言わないで頂けますか？",
             "zh": "請你自重不要說一些虎狼之詞好嗎"
           },
           "path": "man-stretch/zzuo-tiger-wolf.mp3",
@@ -1234,8 +1311,8 @@
           "id": "9ac794d7-1b48-4145-b574-bce848440500",
           "name": "hu-lan-tze-chi",
           "description": {
-            "en": "你不要隨便就說出那種可怕的虎狼之詞好不好",
-            "ja": "你不要隨便就說出那種可怕的虎狼之詞好不好",
+            "en": "Don't casually say such terrible obscenities, okay?",
+            "ja": "そんな恐ろしい卑猥な言葉を軽々しく言わないでくれる？",
             "zh": "你不要隨便就說出那種可怕的虎狼之詞好不好"
           },
           "path": "gugu-pizza/hu-lan-tze-chi.mp3",
@@ -1300,8 +1377,8 @@
           "id": "21a3573c-c448-42b0-b5e8-d6764e2941c9",
           "name": "suck-game-finish",
           "description": {
-            "en": "這個鳥蛋屁遊戲我爸爸剛剛看到的時候居然第一句話是讓我去通關？",
-            "ja": "這個鳥蛋屁遊戲我爸爸剛剛看到的時候居然第一句話是讓我去通關？",
+            "en": "When my father first saw this crappy game, his first words were actually asking me to beat it?",
+            "ja": "父が最初にこのくだらないゲームを見たとき、最初の言葉が「クリアしてみろ」だったなんて？",
             "zh": "這個鳥蛋屁遊戲我爸爸剛剛看到的時候居然第一句話是讓我去通關？"
           },
           "path": "gugu-pizza/suck-game-finish.mp3",
@@ -2529,6 +2606,17 @@
           "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
         },
         {
+          "id": "b96a9e53-44ce-4374-b620-d168bdcce823",
+          "name": "wo4-tso-dd",
+          "description": {
+            "en": "I am, I am a dirty otaku who likes multiple idols",
+            "ja": "私は、私はあれこれ推しする汚いオタクだ",
+            "zh": "我是我是臭DD"
+          },
+          "path": "quick-answer/wo4-tso-dd.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
+        {
           "id": "2a5c0470-6903-4a32-bc7d-d5a3cf57d81b",
           "name": "be-olda-jue-jiao",
           "description": {
@@ -2994,8 +3082,8 @@
           "id": "31b7351c-f3a8-493b-98e8-3bb74169cbe4",
           "name": "wtf-la",
           "description": {
-            "en": "花惹發啦",
-            "ja": "花惹發啦",
+            "en": "What the hell",
+            "ja": "なんてこった",
             "zh": "花惹發啦"
           },
           "path": "gugu-pizza/wtf-la.mp3",
@@ -3005,8 +3093,8 @@
           "id": "59af69d9-1a48-4e82-b55c-ced2dbe03e9b",
           "name": "ho-yoooo",
           "description": {
-            "en": "吼唷～～～",
-            "ja": "吼唷～～～",
+            "en": "Oh my~~~",
+            "ja": "もう～～～",
             "zh": "吼唷～～～"
           },
           "path": "gugu-pizza/ho-yoooo.mp3",
@@ -3027,8 +3115,8 @@
           "id": "1ddbb61a-9fa7-4c7a-abf1-0f77453933a7",
           "name": "ho-yo-wtf",
           "description": {
-            "en": "吼唷～花惹發～",
-            "ja": "吼唷～花惹發～",
+            "en": "Oh my~ What the hell~",
+            "ja": "もう～なんてこった～",
             "zh": "吼唷～花惹發～"
           },
           "path": "gugu-pizza/ho-yo-wtf.mp3",
@@ -3049,8 +3137,8 @@
           "id": "00931ffc-853a-4a13-95f3-46e5f2fad3c8",
           "name": "i-hate-world",
           "description": {
-            "en": "我恨這個世界！",
-            "ja": "我恨這個世界！",
+            "en": "I hate this world!",
+            "ja": "この世界が嫌い！",
             "zh": "我恨這個世界！"
           },
           "path": "gugu-pizza/i-hate-world.mp3",
@@ -3079,11 +3167,22 @@
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
+          "id": "604da79b-5c55-4d60-9838-c73b6114db9e",
+          "name": "not-unsubscribe",
+          "description": {
+            "en": "Don't unsubscribe, don't unsubscribe",
+            "ja": "登録解除しないで、登録解除しないで",
+            "zh": "不要退訂阿不要退訂"
+          },
+          "path": "quick-answer/not-unsubscribe.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
+        {
           "id": "427f5c3c-bbeb-4050-b475-79f24ac273b1",
           "name": "i-hate-world-2",
           "description": {
-            "en": "我恨這個世界～～～",
-            "ja": "我恨這個世界～～～",
+            "en": "I hate this world~~~",
+            "ja": "この世界が嫌い～～～",
             "zh": "我恨這個世界～～～"
           },
           "path": "gugu-pizza/i-hate-world-2.mp3",
@@ -3104,8 +3203,8 @@
           "id": "1455b661-cbd0-4dad-88b7-dad6b3baf172",
           "name": "let-me-die",
           "description": {
-            "en": "讓我去死! Let me die!",
-            "ja": "讓我去死! Let me die!",
+            "en": "Let me die! Let me die!",
+            "ja": "死なせてくれ！Let me die!",
             "zh": "讓我去死! Let me die!"
           },
           "path": "gugu-pizza/let-me-die.mp3",
@@ -3860,6 +3959,17 @@
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
+          "id": "f27925c9-f694-4c75-8805-8aedfb857e58",
+          "name": "like-steak",
+          "description": {
+            "en": "I love eating steak the most",
+            "ja": "一番好きな食べ物はステーキだ",
+            "zh": "我最喜歡吃牛排"
+          },
+          "path": "quick-answer/like-steak.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
+        {
           "id": "e819ebaf-c082-43dc-81b9-5acf8bfc0e9b",
           "name": "tsao-ker-ai",
           "description": {
@@ -3893,11 +4003,22 @@
           "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
         },
         {
+          "id": "104e6163-2a05-4fe5-91fb-1182f3aaa30e",
+          "name": "yi-yi4-chien",
+          "description": {
+            "en": "The meaning of life is money! Money!",
+            "ja": "人生の意味はお金だ！お金だ！",
+            "zh": "生命的意義是錢！錢！"
+          },
+          "path": "quick-answer/yi-yi4-chien.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
+        {
           "id": "4ae43295-12d7-4f5d-aa0b-d69e06bdfd5b",
           "name": "jie-yi-toilet",
           "description": {
-            "en": "你們介意我先去上個廁所嗎",
-            "ja": "你們介意我先去上個廁所嗎",
+            "en": "Do you mind if I go to the bathroom first?",
+            "ja": "先にトイレに行ってもいい？",
             "zh": "你們介意我先去上個廁所嗎"
           },
           "path": "man-stretch/jie-yi-toilet.mp3",
@@ -4006,8 +4127,8 @@
           "id": "f541c574-7aa2-4901-aaf2-c412eb70319e",
           "name": "jia-luo-dao-se",
           "description": {
-            "en": "好那我們來看一下等會要降落到哪邊去哈",
-            "ja": "好那我們來看一下等會要降落到哪邊去哈",
+            "en": "Okay, let's check where we'll be landing next",
+            "ja": "じゃあ、次どこに降りるか見てみよう",
             "zh": "好那我們來看一下等會要降落到哪邊去哈"
           },
           "path": "man-stretch/jia-luo-dao-se.mp3",
@@ -4089,6 +4210,17 @@
           },
           "path": "rainy-night/na-mo-sue-shiao.mp3",
           "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
+          "id": "335d167f-f553-4b08-83ad-9d4a45a0daa5",
+          "name": "zer-o-tiao-jian",
+          "description": {
+            "en": "Marriage criteria? Um, someone who knows PR, AE, and is proficient in PS, and also works overtime on weekends, who can produce a video in three days",
+            "ja": "結婚条件？えっと、PRとAEができて、PSに精通していて、それに休日も残業して、3日間で動画を一本仕上げられる人",
+            "zh": "擇偶條件阿那個呃會PR會AE然後PS精通然後而且他那個假日會加班三天就可以趕出一隻片"
+          },
+          "path": "quick-answer/zer-o-tiao-jian.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
         },
         {
           "id": "36e0485a-c3a9-4265-ba58-441282e25827",
@@ -4435,8 +4567,8 @@
           "id": "7b412d48-2811-40aa-a243-30c8b982b13a",
           "name": "to-ga-wa-gu",
           "description": {
-            "en": "豐～川～集～團～",
-            "ja": "豐～川～集～團～",
+            "en": "Fong~ River~ Group~",
+            "ja": "フォン～リバー～グループ～",
             "zh": "豐～川～集～團～"
           },
           "path": "to-ga-wa-gu.mp3",
@@ -7116,6 +7248,17 @@
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
+          "id": "b528f30b-2dad-4699-814c-eef7d81282d5",
+          "name": "ser-chi-dan-dang",
+          "description": {
+            "en": "None of your business! I can be sexy, I'm the sexy one!",
+            "ja": "関係ないだろ！セクシーになれるし、セクシー担当だぞ！",
+            "zh": "關你屁事啊我色得起來我色氣擔當啦"
+          },
+          "path": "quick-answer/ser-chi-dan-dang.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
+        {
           "id": "ec336451-3244-487e-8bfa-97c30c8e43d6",
           "name": "sua-chi-den-chan",
           "description": {
@@ -7334,6 +7477,17 @@
           },
           "path": "valentine-lyrics/gtue-gtue-san-shiao.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "33cfcbe6-d93e-47f6-8dc6-d62415ce94a4",
+          "name": "ne-wei-du5",
+          "description": {
+            "en": "I'm not a chicken leg, so my deliciousness level should be 5",
+            "ja": "僕はチキンレッグじゃないから、美味しさレベルは5くらいかな",
+            "zh": "我就不是雞腿嘛美味度應該是5吧"
+          },
+          "path": "quick-answer/ne-wei-du5.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
         },
         {
           "id": "e9732e87-2fa3-47e6-9d65-53ca6c582213",
@@ -7611,11 +7765,22 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "c9f24d37-4fa7-48ad-b8ba-52c5371ed286",
+          "name": "ni-ta-ma-la",
+          "description": {
+            "en": "Damn you",
+            "ja": "くそったれ",
+            "zh": "你他媽啦"
+          },
+          "path": "quick-answer/ni-ta-ma-la.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
+        {
           "id": "b3601a9e-631d-4120-a948-6178fb99c579",
           "name": "oh-ga-ni-nia",
           "description": {
-            "en": "喔幹恁娘",
-            "ja": "喔幹恁娘",
+            "en": "Oh damn your mother",
+            "ja": "くそ、お前の母ちゃん",
             "zh": "喔幹恁娘"
           },
           "path": "gugu-pizza/oh-ga-ni-nia.mp3",
@@ -7691,8 +7856,8 @@
           "id": "81dcfb02-3f49-418c-bcfa-c11d02872de6",
           "name": "gan-gan-gan",
           "description": {
-            "en": "幹～幹～幹～",
-            "ja": "幹～幹～幹～",
+            "en": "Damn~ Damn~ Damn~",
+            "ja": "くそ～くそ～くそ～",
             "zh": "幹～幹～幹～"
           },
           "path": "gugu-pizza/gan-gan-gan.mp3",
@@ -7730,6 +7895,17 @@
           },
           "path": "valentine-lyrics/fuck-you-all-la.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "b73d91ef-8633-445f-8e54-b1ccec28958e",
+          "name": "da-dao-ni-ma",
+          "description": {
+            "en": "Screw you, I'll beat you until your mother won't recognize you",
+            "ja": "くたばれ、お前の母ちゃんも見分けがつかないくらいボコボコにしてやる",
+            "zh": "去你媽的我會把你打到你媽都認不出來"
+          },
+          "path": "quick-answer/da-dao-ni-ma.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
         }
       ]
     },
@@ -7961,6 +8137,17 @@
           },
           "path": "phasmophobia/sian-san-wo-men.mp3",
           "url": "https://www.youtube.com/watch?v=UNtyZeR7w4E"
+        },
+        {
+          "id": "841ee59d-3952-4ce4-ad33-0d6c025db0b8",
+          "name": "wo-jo4-se-tsu",
+          "description": {
+            "en": "I'm just a corporate slave, I'm at the bottom, wuwuwuwu",
+            "ja": "私は社畜だ、底辺だ、うううう",
+            "zh": "我就是社畜我就是底層嗚嗚嗚嗚嗚"
+          },
+          "path": "quick-answer/wo-jo4-se-tsu.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
         },
         {
           "id": "e1ea7479-b110-4268-b68a-ccfaec02c289",
@@ -8450,8 +8637,8 @@
           "id": "235c97ec-5886-48d7-92a4-1ff426e8bc6d",
           "name": "relive-g8-ren",
           "description": {
-            "en": "ReLive就是一群機掰人",
-            "ja": "ReLive就是一群機掰人",
+            "en": "ReLive is just a bunch of assholes",
+            "ja": "ReLiveはクソ野郎の集まりだ",
             "zh": "ReLive就是一群機掰人"
           },
           "path": "gugu-pizza/relive-g8-ren.mp3",
@@ -8524,6 +8711,17 @@
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
         },
         {
+          "id": "037d89fa-209c-4a40-8dac-968d25ef5176",
+          "name": "wo-ai-relive",
+          "description": {
+            "en": "No, I love everyone in ReLive, I love everyone in ReLive, thank you",
+            "ja": "違う、ReLiveの皆を愛してる、ReLiveの皆を愛してる、ありがとう",
+            "zh": "沒有我愛ReLive的大家我愛所有ReLive的大家謝謝"
+          },
+          "path": "quick-answer/wo-ai-relive.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
+        {
           "id": "6b40bd87-6d69-451a-ab66-bdb44d4b0ede",
           "name": "noe-bu-shi-idol",
           "description": {
@@ -8571,8 +8769,8 @@
           "id": "f24a07c8-c6d5-4e0b-801b-f4347c25a885",
           "name": "bu-yao-zo",
           "description": {
-            "en": "不要走",
-            "ja": "不要走",
+            "en": "Don't go",
+            "ja": "行かないで",
             "zh": "不要走"
           },
           "path": "watch-mygo/bu-yao-zo.mp3",
@@ -8582,8 +8780,8 @@
           "id": "0473f22c-3f43-4177-925c-023a261f6836",
           "name": "de-su-wa",
           "description": {
-            "en": "爹蘇娃",
-            "ja": "爹蘇娃",
+            "en": "That's sweet",
+            "ja": "それはいいね",
             "zh": "爹蘇娃"
           },
           "path": "watch-mygo/de-su-wa.mp3",
@@ -8593,8 +8791,8 @@
           "id": "01d9adc4-d0fd-4be7-831a-73bc384e4761",
           "name": "bu-yau-ho-wo",
           "description": {
-            "en": "不要吼我啦",
-            "ja": "不要吼我啦",
+            "en": "Don't yell at me",
+            "ja": "怒鳴らないでよ",
             "zh": "不要吼我啦"
           },
           "path": "watch-mygo/bu-yau-ho-wo.mp3",
@@ -8604,8 +8802,8 @@
           "id": "fe9c7b43-75dd-4289-81cc-a9b7c834c9ae",
           "name": "syo-ze-yang",
           "description": {
-            "en": "是又怎麼樣",
-            "ja": "是又怎麼樣",
+            "en": "So what if I am?",
+            "ja": "そうだとしてどうした？",
             "zh": "是又怎麼樣"
           },
           "path": "man-stretch/syo-ze-yang.mp3",
@@ -8615,8 +8813,8 @@
           "id": "b4742321-72d7-4b5e-942b-9a50dd70fd90",
           "name": "ai-mu-shi-zo",
           "description": {
-            "en": "我愛慕虛榮啦",
-            "ja": "我愛慕虛榮啦",
+            "en": "I'm just vain!",
+            "ja": "虚栄心の塊だよ！",
             "zh": "我愛慕虛榮啦"
           },
           "path": "watch-mygo/ai-mu-shi-zo.mp3",
@@ -8626,8 +8824,8 @@
           "id": "9e49d8ee-50da-43fb-af74-182b57b30970",
           "name": "sh-cin-jia-yi",
           "description": {
-            "en": "真是虛情假意呢",
-            "ja": "真是虛情假意呢",
+            "en": "How insincere",
+            "ja": "なんて不誠実なんだ",
             "zh": "真是虛情假意呢"
           },
           "path": "watch-mygo/sh-cin-jia-yi.mp3",
@@ -8637,8 +8835,8 @@
           "id": "e8d6ad9b-860d-42c3-8ff1-3c31977a4f2f",
           "name": "last-warning",
           "description": {
-            "en": "這是最後的警告",
-            "ja": "這是最後的警告",
+            "en": "This is the final warning",
+            "ja": "これは最後の警告だ",
             "zh": "這是最後的警告"
           },
           "path": "watch-mygo/last-warning.mp3",
@@ -8648,8 +8846,8 @@
           "id": "deb7d099-0f8d-4e20-b415-9d9d588fe95f",
           "name": "wu4-tomorin",
           "description": {
-            "en": "那傢伙居然無視燈",
-            "ja": "那傢伙居然無視燈",
+            "en": "That guy actually ignored the lights",
+            "ja": "あいつ、信号無視したんだぞ",
             "zh": "那傢伙居然無視燈"
           },
           "path": "watch-mygo/wu4-tomorin.mp3",
@@ -8659,8 +8857,8 @@
           "id": "5a5f4fe0-b7aa-4048-8d2f-090940015440",
           "name": "ue-hao-yi-bez",
           "description": {
-            "en": "他跟我約好一輩子了",
-            "ja": "他跟我約好一輩子了",
+            "en": "He promised to be with me for life",
+            "ja": "彼は一生を共にすると約束してくれた",
             "zh": "他跟我約好一輩子了"
           },
           "path": "watch-mygo/ue-hao-yi-bez.mp3",
@@ -8670,8 +8868,8 @@
           "id": "44e3812d-b60a-45da-b44a-d2ebb950fdc2",
           "name": "mang-nao-z2",
           "description": {
-            "en": "滿腦子都想著自己呢",
-            "ja": "滿腦子都想著自己呢",
+            "en": "You only think about yourself",
+            "ja": "自分のことばかり考えている",
             "zh": "滿腦子都想著自己呢"
           },
           "path": "watch-mygo/mang-nao-z2.mp3",
@@ -8681,8 +8879,8 @@
           "id": "f4f5e870-954b-40f6-929d-8274c78366fb",
           "name": "why-chun-zyin",
           "description": {
-            "en": "為什麼要演奏春日影",
-            "ja": "為什麼要演奏春日影",
+            "en": "Why play \"Kasuga Shadow\"?",
+            "ja": "なぜ「春日影」を演奏するの？",
             "zh": "為什麼要演奏春日影"
           },
           "path": "watch-mygo/why-chun-zyin.mp3",
@@ -8692,8 +8890,8 @@
           "id": "1cbdbb93-eb94-48d3-a554-7ad636b2290d",
           "name": "play-band-joy",
           "description": {
-            "en": "我從來都不覺得玩樂團開心",
-            "ja": "我從來都不覺得玩樂團開心",
+            "en": "I never thought being in a band was fun",
+            "ja": "バンドをやるのが楽しいと思ったことは一度もない",
             "zh": "我從來都不覺得玩樂團開心"
           },
           "path": "watch-mygo/play-band-joy.mp3",
@@ -8710,6 +8908,17 @@
         "zh": "Vtuber"
       },
       "voice_list": [
+        {
+          "id": "28adb5c1-5ac1-42c1-a145-44dab7a4a031",
+          "name": "lao-po-hen-duo",
+          "description": {
+            "en": "I have many wives",
+            "ja": "奥さんがたくさんいるんだ",
+            "zh": "我老婆很多"
+          },
+          "path": "quick-answer/lao-po-hen-duo.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
         {
           "id": "20023579-d07c-4bdf-9198-b6bec45631eb",
           "name": "shan-meng-nu",
@@ -9418,8 +9627,8 @@
           "id": "ee9cbc67-15c5-4c14-b2bd-53bc96a63d59",
           "name": "i-am-genius",
           "description": {
-            "en": "喔天哪我其實是天才嗎",
-            "ja": "喔天哪我其實是天才嗎",
+            "en": "Oh my god, am I actually a genius?",
+            "ja": "なんてこった、私って実は天才なの？",
             "zh": "喔天哪我其實是天才嗎"
           },
           "path": "gugu-pizza/i-am-genius.mp3",
@@ -9605,12 +9814,23 @@
           "id": "55f9893f-ea33-466c-99e8-bbc3f6e164bf",
           "name": "bu-yun-po-fei",
           "description": {
-            "en": "我跟你講不用擔心破費當你在玩的那一瞬間我就收到我的費用了",
-            "ja": "我跟你講不用擔心破費當你在玩的那一瞬間我就收到我的費用了",
+            "en": "Let me tell you, don't worry about the cost, I received my payment the moment you started playing",
+            "ja": "言っておくけど、費用を心配しなくていいよ、あなたが遊び始めた瞬間に私は支払いを受け取ったから",
             "zh": "我跟你講不用擔心破費當你在玩的那一瞬間我就收到我的費用了"
           },
           "path": "gugu-pizza/bu-yun-po-fei.mp3",
           "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
+        },
+        {
+          "id": "5fc91fe5-d17a-43d2-b73c-9a625ad0ecc8",
+          "name": "ni4-dian-ni4-guan",
+          "description": {
+            "en": "You're great, you're great, you're a star in the sky, you're the universe, you're electricity, you're light, you're the only myth",
+            "ja": "あなたは素晴らしい、あなたは素晴らしい、あなたは空の星、あなたは宇宙、あなたは電気、あなたは光、あなたは唯一の神話",
+            "zh": "你很棒你很棒你是天上星星你是宇宙你是電你是光你是唯一的神話"
+          },
+          "path": "quick-answer/ni4-dian-ni4-guan.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
         },
         {
           "id": "5e7abfb0-b5c0-477b-89a5-ac03094b93a1",
