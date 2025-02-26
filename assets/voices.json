@@ -98,6 +98,17 @@
       },
       "voice_list": [
         {
+          "id": "1b307b82-a83f-4cc9-8061-98b002ef8eaf",
+          "name": "ni-hao",
+          "description": {
+            "en": "你好",
+            "ja": "你好",
+            "zh": "你好"
+          },
+          "path": "talk-vtuber/ni-hao.mp3",
+          "url": "https://www.youtube.com/watch?v=9DGOCY9TpX4"
+        },
+        {
           "id": "68d19387-0b42-4e5c-96d5-5d7cb80579da",
           "name": "hello",
           "description": {
@@ -725,6 +736,17 @@
           "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
         },
         {
+          "id": "7add0d3f-a4d1-48a5-8c68-e1f3704c55f6",
+          "name": "piu-piu-piu",
+          "description": {
+            "en": "呸呸呸呸呸",
+            "ja": "呸呸呸呸呸",
+            "zh": "呸呸呸呸呸"
+          },
+          "path": "talk-vtuber/piu-piu-piu.mp3",
+          "url": "https://www.youtube.com/watch?v=9DGOCY9TpX4"
+        },
+        {
           "id": "f473df5f-55af-48c7-b889-44e9ce6263ed",
           "name": "how-ler-ni4-so",
           "description": {
@@ -976,6 +998,17 @@
           },
           "path": "on-fire/ni-men-zhe-she-shua-min.mp3",
           "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "id": "faa7ef3c-e001-48aa-bb65-32f8b9307077",
+          "name": "taiwan-ba-ma",
+          "description": {
+            "en": "你是傳統台灣爸媽嗎",
+            "ja": "你是傳統台灣爸媽嗎",
+            "zh": "你是傳統台灣爸媽嗎"
+          },
+          "path": "talk-vtuber/taiwan-ba-ma.mp3",
+          "url": "https://www.youtube.com/watch?v=9DGOCY9TpX4"
         },
         {
           "id": "89175929-ba99-4e6f-b7bb-f6d12471c688",
@@ -4102,6 +4135,17 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "0055ecfd-cd1b-436b-8022-253e53d7f863",
+          "name": "gg-hua-tu",
+          "description": {
+            "en": "每個繪師都是為了自己的ㄐㄐ在畫圖",
+            "ja": "每個繪師都是為了自己的ㄐㄐ在畫圖",
+            "zh": "每個繪師都是為了自己的ㄐㄐ在畫圖"
+          },
+          "path": "talk-vtuber/gg-hua-tu.mp3",
+          "url": "https://www.youtube.com/watch?v=9DGOCY9TpX4"
+        },
+        {
           "id": "796c9e86-034a-46ce-a174-a16988dbb179",
           "name": "ger-wei-poor",
           "description": {
@@ -4157,6 +4201,17 @@
           "url": "https://www.youtube.com/watch?v=Qv6Ieb8Sh74"
         },
         {
+          "id": "59736a1b-fe7b-4364-9b5a-f9957b989019",
+          "name": "jin-yi-bu4-obs",
+          "description": {
+            "en": "經營不是你打開OBS然後點開開始直播你就可以經營",
+            "ja": "經營不是你打開OBS然後點開開始直播你就可以經營",
+            "zh": "經營不是你打開OBS然後點開開始直播你就可以經營"
+          },
+          "path": "talk-vtuber/jin-yi-bu4-obs.mp3",
+          "url": "https://www.youtube.com/watch?v=9DGOCY9TpX4"
+        },
+        {
           "id": "12ce610c-42f5-43b5-a2fe-5e9eccd0c180",
           "name": "sunday-min-tian",
           "description": {
@@ -4201,6 +4256,17 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "e4fb9a91-f76e-4823-9c19-5eb786bc26a5",
+          "name": "if-work-no-see",
+          "description": {
+            "en": "如果你的作品連給人家看都不敢的話，那為什麼要做這個作品？",
+            "ja": "如果你的作品連給人家看都不敢的話，那為什麼要做這個作品？",
+            "zh": "如果你的作品連給人家看都不敢的話，那為什麼要做這個作品？"
+          },
+          "path": "talk-vtuber/if-work-no-see.mp3",
+          "url": "https://www.youtube.com/watch?v=9DGOCY9TpX4"
+        },
+        {
           "id": "ca500285-640f-4748-9a16-483eab43aedd",
           "name": "na-mo-sue-shiao",
           "description": {
@@ -4210,6 +4276,17 @@
           },
           "path": "rainy-night/na-mo-sue-shiao.mp3",
           "url": "https://www.youtube.com/watch?v=--F5u7TLLYg"
+        },
+        {
+          "id": "280b5c71-85fc-48bf-b03e-5261e25fa8f4",
+          "name": "company-zuo-she-mo",
+          "description": {
+            "en": "不要問企業可以為你做什麼，而是應該說企業有了你之後它可以得到什麼",
+            "ja": "不要問企業可以為你做什麼，而是應該說企業有了你之後它可以得到什麼",
+            "zh": "不要問企業可以為你做什麼，而是應該說企業有了你之後它可以得到什麼"
+          },
+          "path": "talk-vtuber/company-zuo-she-mo.mp3",
+          "url": "https://www.youtube.com/watch?v=9DGOCY9TpX4"
         },
         {
           "id": "335d167f-f553-4b08-83ad-9d4a45a0daa5",
@@ -7897,6 +7974,17 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "2b33f527-d11d-4f39-a9ef-96a67444586a",
+          "name": "fuck-you-fb",
+          "description": {
+            "en": "Fuck you啦Facebook Fuck you",
+            "ja": "Fuck you啦Facebook Fuck you",
+            "zh": "Fuck you啦Facebook Fuck you"
+          },
+          "path": "talk-vtuber/fuck-you-fb.mp3",
+          "url": "https://www.youtube.com/watch?v=9DGOCY9TpX4"
+        },
+        {
           "id": "b73d91ef-8633-445f-8e54-b1ccec28958e",
           "name": "da-dao-ni-ma",
           "description": {
@@ -8038,6 +8126,17 @@
           },
           "path": "cult/hsin-yan-daboing.mp3",
           "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
+        },
+        {
+          "id": "a81c4389-7082-4be7-8c7b-a53b4f318c67",
+          "name": "ma-la-da-boing",
+          "description": {
+            "en": "媽啦你們是笨蛋吧哈哈哈哈我就是大波鸚啦",
+            "ja": "媽啦你們是笨蛋吧哈哈哈哈我就是大波鸚啦",
+            "zh": "媽啦你們是笨蛋吧哈哈哈哈我就是大波鸚啦"
+          },
+          "path": "talk-vtuber/ma-la-da-boing.mp3",
+          "url": "https://www.youtube.com/watch?v=9DGOCY9TpX4"
         },
         {
           "id": "9149ccd0-1b9d-4768-8e2d-5938773ab08c",
@@ -8346,6 +8445,149 @@
           },
           "path": "valentine-lyrics/tin-z-chin-ren-jie.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        }
+      ]
+    },
+    {
+      "id": "fdad2073-8208-4191-bbfa-70d4956c6950",
+      "group_name": "mygo",
+      "group_description": {
+        "en": "MyGO",
+        "ja": "MyGO",
+        "zh": "MyGO"
+      },
+      "voice_list": [
+        {
+          "id": "f24a07c8-c6d5-4e0b-801b-f4347c25a885",
+          "name": "bu-yao-zo",
+          "description": {
+            "en": "Don't go",
+            "ja": "行かないで",
+            "zh": "不要走"
+          },
+          "path": "watch-mygo/bu-yao-zo.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "0473f22c-3f43-4177-925c-023a261f6836",
+          "name": "de-su-wa",
+          "description": {
+            "en": "That's sweet",
+            "ja": "それはいいね",
+            "zh": "爹蘇娃"
+          },
+          "path": "watch-mygo/de-su-wa.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "01d9adc4-d0fd-4be7-831a-73bc384e4761",
+          "name": "bu-yau-ho-wo",
+          "description": {
+            "en": "Don't yell at me",
+            "ja": "怒鳴らないでよ",
+            "zh": "不要吼我啦"
+          },
+          "path": "watch-mygo/bu-yau-ho-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "fe9c7b43-75dd-4289-81cc-a9b7c834c9ae",
+          "name": "syo-ze-yang",
+          "description": {
+            "en": "So what if I am?",
+            "ja": "そうだとしてどうした？",
+            "zh": "是又怎麼樣"
+          },
+          "path": "man-stretch/syo-ze-yang.mp3",
+          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
+        },
+        {
+          "id": "b4742321-72d7-4b5e-942b-9a50dd70fd90",
+          "name": "ai-mu-shi-zo",
+          "description": {
+            "en": "I'm just vain!",
+            "ja": "虚栄心の塊だよ！",
+            "zh": "我愛慕虛榮啦"
+          },
+          "path": "watch-mygo/ai-mu-shi-zo.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "9e49d8ee-50da-43fb-af74-182b57b30970",
+          "name": "sh-cin-jia-yi",
+          "description": {
+            "en": "How insincere",
+            "ja": "なんて不誠実なんだ",
+            "zh": "真是虛情假意呢"
+          },
+          "path": "watch-mygo/sh-cin-jia-yi.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "e8d6ad9b-860d-42c3-8ff1-3c31977a4f2f",
+          "name": "last-warning",
+          "description": {
+            "en": "This is the final warning",
+            "ja": "これは最後の警告だ",
+            "zh": "這是最後的警告"
+          },
+          "path": "watch-mygo/last-warning.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "deb7d099-0f8d-4e20-b415-9d9d588fe95f",
+          "name": "wu4-tomorin",
+          "description": {
+            "en": "That guy actually ignored the lights",
+            "ja": "あいつ、信号無視したんだぞ",
+            "zh": "那傢伙居然無視燈"
+          },
+          "path": "watch-mygo/wu4-tomorin.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "5a5f4fe0-b7aa-4048-8d2f-090940015440",
+          "name": "ue-hao-yi-bez",
+          "description": {
+            "en": "He promised to be with me for life",
+            "ja": "彼は一生を共にすると約束してくれた",
+            "zh": "他跟我約好一輩子了"
+          },
+          "path": "watch-mygo/ue-hao-yi-bez.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "44e3812d-b60a-45da-b44a-d2ebb950fdc2",
+          "name": "mang-nao-z2",
+          "description": {
+            "en": "You only think about yourself",
+            "ja": "自分のことばかり考えている",
+            "zh": "滿腦子都想著自己呢"
+          },
+          "path": "watch-mygo/mang-nao-z2.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "f4f5e870-954b-40f6-929d-8274c78366fb",
+          "name": "why-chun-zyin",
+          "description": {
+            "en": "Why play \"Kasuga Shadow\"?",
+            "ja": "なぜ「春日影」を演奏するの？",
+            "zh": "為什麼要演奏春日影"
+          },
+          "path": "watch-mygo/why-chun-zyin.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "1cbdbb93-eb94-48d3-a554-7ad636b2290d",
+          "name": "play-band-joy",
+          "description": {
+            "en": "I never thought being in a band was fun",
+            "ja": "バンドをやるのが楽しいと思ったことは一度もない",
+            "zh": "我從來都不覺得玩樂團開心"
+          },
+          "path": "watch-mygo/play-band-joy.mp3",
+          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
         }
       ]
     },
@@ -8689,6 +8931,17 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "39b01e64-3ace-4fc6-8992-6bd9f0eb4389",
+          "name": "winnie-to-tso",
+          "description": {
+            "en": "薇妮我沒有偷臭你但二期真的比較爽",
+            "ja": "薇妮我沒有偷臭你但二期真的比較爽",
+            "zh": "薇妮我沒有偷臭你但二期真的比較爽"
+          },
+          "path": "talk-vtuber/winnie-to-tso.mp3",
+          "url": "https://www.youtube.com/watch?v=9DGOCY9TpX4"
+        },
+        {
           "id": "2ee120ab-6ab6-443b-b54c-49122895cfdd",
           "name": "z-nen-tza-wo",
           "description": {
@@ -8757,149 +9010,6 @@
       ]
     },
     {
-      "id": "fdad2073-8208-4191-bbfa-70d4956c6950",
-      "group_name": "mygo",
-      "group_description": {
-        "en": "MyGO",
-        "ja": "MyGO",
-        "zh": "MyGO"
-      },
-      "voice_list": [
-        {
-          "id": "f24a07c8-c6d5-4e0b-801b-f4347c25a885",
-          "name": "bu-yao-zo",
-          "description": {
-            "en": "Don't go",
-            "ja": "行かないで",
-            "zh": "不要走"
-          },
-          "path": "watch-mygo/bu-yao-zo.mp3",
-          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
-        },
-        {
-          "id": "0473f22c-3f43-4177-925c-023a261f6836",
-          "name": "de-su-wa",
-          "description": {
-            "en": "That's sweet",
-            "ja": "それはいいね",
-            "zh": "爹蘇娃"
-          },
-          "path": "watch-mygo/de-su-wa.mp3",
-          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
-        },
-        {
-          "id": "01d9adc4-d0fd-4be7-831a-73bc384e4761",
-          "name": "bu-yau-ho-wo",
-          "description": {
-            "en": "Don't yell at me",
-            "ja": "怒鳴らないでよ",
-            "zh": "不要吼我啦"
-          },
-          "path": "watch-mygo/bu-yau-ho-wo.mp3",
-          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
-        },
-        {
-          "id": "fe9c7b43-75dd-4289-81cc-a9b7c834c9ae",
-          "name": "syo-ze-yang",
-          "description": {
-            "en": "So what if I am?",
-            "ja": "そうだとしてどうした？",
-            "zh": "是又怎麼樣"
-          },
-          "path": "man-stretch/syo-ze-yang.mp3",
-          "url": "https://www.youtube.com/watch?v=p_K3DiU8PQc"
-        },
-        {
-          "id": "b4742321-72d7-4b5e-942b-9a50dd70fd90",
-          "name": "ai-mu-shi-zo",
-          "description": {
-            "en": "I'm just vain!",
-            "ja": "虚栄心の塊だよ！",
-            "zh": "我愛慕虛榮啦"
-          },
-          "path": "watch-mygo/ai-mu-shi-zo.mp3",
-          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
-        },
-        {
-          "id": "9e49d8ee-50da-43fb-af74-182b57b30970",
-          "name": "sh-cin-jia-yi",
-          "description": {
-            "en": "How insincere",
-            "ja": "なんて不誠実なんだ",
-            "zh": "真是虛情假意呢"
-          },
-          "path": "watch-mygo/sh-cin-jia-yi.mp3",
-          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
-        },
-        {
-          "id": "e8d6ad9b-860d-42c3-8ff1-3c31977a4f2f",
-          "name": "last-warning",
-          "description": {
-            "en": "This is the final warning",
-            "ja": "これは最後の警告だ",
-            "zh": "這是最後的警告"
-          },
-          "path": "watch-mygo/last-warning.mp3",
-          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
-        },
-        {
-          "id": "deb7d099-0f8d-4e20-b415-9d9d588fe95f",
-          "name": "wu4-tomorin",
-          "description": {
-            "en": "That guy actually ignored the lights",
-            "ja": "あいつ、信号無視したんだぞ",
-            "zh": "那傢伙居然無視燈"
-          },
-          "path": "watch-mygo/wu4-tomorin.mp3",
-          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
-        },
-        {
-          "id": "5a5f4fe0-b7aa-4048-8d2f-090940015440",
-          "name": "ue-hao-yi-bez",
-          "description": {
-            "en": "He promised to be with me for life",
-            "ja": "彼は一生を共にすると約束してくれた",
-            "zh": "他跟我約好一輩子了"
-          },
-          "path": "watch-mygo/ue-hao-yi-bez.mp3",
-          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
-        },
-        {
-          "id": "44e3812d-b60a-45da-b44a-d2ebb950fdc2",
-          "name": "mang-nao-z2",
-          "description": {
-            "en": "You only think about yourself",
-            "ja": "自分のことばかり考えている",
-            "zh": "滿腦子都想著自己呢"
-          },
-          "path": "watch-mygo/mang-nao-z2.mp3",
-          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
-        },
-        {
-          "id": "f4f5e870-954b-40f6-929d-8274c78366fb",
-          "name": "why-chun-zyin",
-          "description": {
-            "en": "Why play \"Kasuga Shadow\"?",
-            "ja": "なぜ「春日影」を演奏するの？",
-            "zh": "為什麼要演奏春日影"
-          },
-          "path": "watch-mygo/why-chun-zyin.mp3",
-          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
-        },
-        {
-          "id": "1cbdbb93-eb94-48d3-a554-7ad636b2290d",
-          "name": "play-band-joy",
-          "description": {
-            "en": "I never thought being in a band was fun",
-            "ja": "バンドをやるのが楽しいと思ったことは一度もない",
-            "zh": "我從來都不覺得玩樂團開心"
-          },
-          "path": "watch-mygo/play-band-joy.mp3",
-          "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
-        }
-      ]
-    },
-    {
       "id": "6de5d2b3-672c-4982-94aa-1d7eeec47524",
       "group_name": "vtuber",
       "group_description": {
@@ -8929,6 +9039,28 @@
           },
           "path": "draw-avatar-10/shan-meng-nu.mp3",
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "id": "5932cfd7-2f5d-4f6c-b28b-b60fd9562956",
+          "name": "na-ger-tai-v",
+          "description": {
+            "en": "哪個台V不是遊戲雜談歌回！",
+            "ja": "哪個台V不是遊戲雜談歌回！",
+            "zh": "哪個台V不是遊戲雜談歌回！"
+          },
+          "path": "talk-vtuber/na-ger-tai-v.mp3",
+          "url": "https://www.youtube.com/watch?v=9DGOCY9TpX4"
+        },
+        {
+          "id": "e787fe62-e35d-439a-8b9b-9dcf152607e3",
+          "name": "9chen-tai-v",
+          "description": {
+            "en": "九成以上的台V都是遊戲雜談歌回",
+            "ja": "九成以上的台V都是遊戲雜談歌回",
+            "zh": "九成以上的台V都是遊戲雜談歌回"
+          },
+          "path": "talk-vtuber/9chen-tai-v.mp3",
+          "url": "https://www.youtube.com/watch?v=9DGOCY9TpX4"
         },
         {
           "id": "1ed10f49-e6b2-45f0-843c-a36dea22c766",
@@ -9017,6 +9149,17 @@
           },
           "path": "news-202410/goblin-sao-zao.mp3",
           "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "81712d01-fff0-428d-811d-49aa39a2adc6",
+          "name": "vt-gon-zo-ren-wu",
+          "description": {
+            "en": "當VTuber其實意味著你就是半公眾人物了其實你把它當自己個版是很不妥的事情",
+            "ja": "當VTuber其實意味著你就是半公眾人物了其實你把它當自己個版是很不妥的事情",
+            "zh": "當VTuber其實意味著你就是半公眾人物了其實你把它當自己個版是很不妥的事情"
+          },
+          "path": "talk-vtuber/vt-gon-zo-ren-wu.mp3",
+          "url": "https://www.youtube.com/watch?v=9DGOCY9TpX4"
         },
         {
           "id": "5a092316-bb6c-42f7-a00b-cf97415f872b",
