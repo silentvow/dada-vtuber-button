@@ -231,6 +231,17 @@
           "url": ""
         },
         {
+          "id": "ce0aa531-ea55-48c2-bd58-ad090a755d03",
+          "name": "ce0aa531-ea55",
+          "description": {
+            "en": "都洗得諾",
+            "ja": "都洗得諾",
+            "zh": "都洗得諾"
+          },
+          "path": "discord-20250304/voice-message (3).ogg",
+          "url": ""
+        },
+        {
           "id": "fce5412d-c1c0-42c6-8a65-cdb69ed5173b",
           "name": "73cb740f",
           "description": {
@@ -398,6 +409,17 @@
             "zh": "PADORU (歌)"
           },
           "path": "discord/05384112.ogg",
+          "url": ""
+        },
+        {
+          "id": "fde6acb6-3117-427b-8b08-1b25b6a78bd5",
+          "name": "fde6acb6-3117",
+          "description": {
+            "en": "三號不存在～",
+            "ja": "三號不存在～",
+            "zh": "三號不存在～"
+          },
+          "path": "discord-20250304/voice-message (16).ogg",
           "url": ""
         },
         {
@@ -658,6 +680,17 @@
           "url": ""
         },
         {
+          "id": "421a8606-9f68-4632-a26b-88637042ef5b",
+          "name": "421a8606-9f68",
+          "description": {
+            "en": "(奇諾比奧怪叫)",
+            "ja": "(奇諾比奧怪叫)",
+            "zh": "(奇諾比奧怪叫)"
+          },
+          "path": "discord-20250304/voice-message (20).ogg",
+          "url": ""
+        },
+        {
           "id": "d6b2742f-6844-46c0-a9a5-b66ed8196a4e",
           "name": "89927261",
           "description": {
@@ -689,6 +722,28 @@
             "zh": "哇噢，你是懂的"
           },
           "path": "discord/bcabe6fa.ogg",
+          "url": ""
+        },
+        {
+          "id": "389841e1-7f5f-45ef-845b-4c251e240d36",
+          "name": "389841e1-7f5f",
+          "description": {
+            "en": "好欸可以出道啦",
+            "ja": "好欸可以出道啦",
+            "zh": "好欸可以出道啦"
+          },
+          "path": "discord-20250304/voice-message (12).ogg",
+          "url": ""
+        },
+        {
+          "id": "4ffd6a80-f5a5-4400-89fc-f2c6b824ce0a",
+          "name": "4ffd6a80-f5a5",
+          "description": {
+            "en": "幼妲唱吉伊卡哇",
+            "ja": "幼妲唱吉伊卡哇",
+            "zh": "幼妲唱吉伊卡哇"
+          },
+          "path": "discord-20250304/voice-message (24).ogg",
           "url": ""
         },
         {
@@ -903,6 +958,17 @@
           "url": ""
         },
         {
+          "id": "9d66e527-ec2f-4afa-8c95-9b65d5038162",
+          "name": "9d66e527-ec2f",
+          "description": {
+            "en": "白癡喔什麼C8人啦",
+            "ja": "白癡喔什麼C8人啦",
+            "zh": "白癡喔什麼C8人啦"
+          },
+          "path": "discord-20250304/voice-message (1).ogg",
+          "url": ""
+        },
+        {
           "id": "f309d5bb-2c2d-481b-9a1e-d42f0d7c1264",
           "name": "efd47579",
           "description": {
@@ -922,6 +988,28 @@
             "zh": "(哭) 可是～可是～"
           },
           "path": "discord-20241216/2024-12-16_uwlazc.ogg",
+          "url": ""
+        },
+        {
+          "id": "4f430fd9-1771-41de-8d33-288bf934d32e",
+          "name": "4f430fd9-1771",
+          "description": {
+            "en": "今天～沒有～開台～",
+            "ja": "今天～沒有～開台～",
+            "zh": "今天～沒有～開台～"
+          },
+          "path": "discord-20250304/voice-message (6).ogg",
+          "url": ""
+        },
+        {
+          "id": "21075c62-7e8e-478c-8aec-28f4c0959d88",
+          "name": "21075c62-7e8e",
+          "description": {
+            "en": "咖咖哩咖哩咖哩咖哩",
+            "ja": "咖咖哩咖哩咖哩咖哩",
+            "zh": "咖咖哩咖哩咖哩咖哩"
+          },
+          "path": "discord-20250304/voice-message (7).ogg",
           "url": ""
         },
         {
@@ -1026,6 +1114,17 @@
           "url": ""
         },
         {
+          "id": "63c699f2-29dd-4b67-a4df-ad7f2e726e76",
+          "name": "63c699f2-29dd",
+          "description": {
+            "en": "那麼哪裡才買得到呢",
+            "ja": "那麼哪裡才買得到呢",
+            "zh": "那麼哪裡才買得到呢"
+          },
+          "path": "discord-20250304/voice-message.ogg",
+          "url": ""
+        },
+        {
           "id": "e52456d9-00d1-494b-96f0-296a087cbd17",
           "name": "e9a0cf29",
           "description": {
@@ -1046,6 +1145,17 @@
             "zh": "體重是母鸚鵡的秘密"
           },
           "path": "discord/3e58cc7d.ogg",
+          "url": ""
+        },
+        {
+          "id": "a7f0efeb-48f5-4165-ba66-af8d7b2f31bc",
+          "name": "a7f0efeb-48f5",
+          "description": {
+            "en": "(幼妲) 雜魚～雜魚～",
+            "ja": "(幼妲) 雜魚～雜魚～",
+            "zh": "(幼妲) 雜魚～雜魚～"
+          },
+          "path": "discord-20250304/voice-message (22).ogg",
           "url": ""
         },
         {
@@ -1079,6 +1189,17 @@
             "zh": "嘿嘿嘿嘿～嘿嘿嘿嘿～"
           },
           "path": "discord/b23232f8.ogg",
+          "url": ""
+        },
+        {
+          "id": "afc48a5f-11a9-4d9d-9b4a-1a9ab4c10116",
+          "name": "afc48a5f-11a9",
+          "description": {
+            "en": "我出遠門啦再見啦大家",
+            "ja": "我出遠門啦再見啦大家",
+            "zh": "我出遠門啦再見啦大家"
+          },
+          "path": "discord-20250304/voice-message (5).ogg",
           "url": ""
         },
         {
@@ -1303,6 +1424,28 @@
           "url": ""
         },
         {
+          "id": "5ce81c5b-9b81-456c-b08d-a4902af7a893",
+          "name": "5ce81c5b-9b81",
+          "description": {
+            "en": "我才是大波我才是我明明才是",
+            "ja": "我才是大波我才是我明明才是",
+            "zh": "我才是大波我才是我明明才是"
+          },
+          "path": "discord-20250304/voice-message (8).ogg",
+          "url": ""
+        },
+        {
+          "id": "e3e39651-bafa-40ee-952b-ff375e3efe45",
+          "name": "e3e39651-bafa",
+          "description": {
+            "en": "正要出去吃飯然後外面在下雨",
+            "ja": "正要出去吃飯然後外面在下雨",
+            "zh": "正要出去吃飯然後外面在下雨"
+          },
+          "path": "discord-20250304/voice-message (19).ogg",
+          "url": ""
+        },
+        {
           "id": "2bf3e39c-1c2d-4800-919b-45fc415f7d11",
           "name": "916bbacc",
           "description": {
@@ -1311,6 +1454,17 @@
             "zh": "沒有欸我覺得我唱得爛透了～"
           },
           "path": "discord/916bbacc.ogg",
+          "url": ""
+        },
+        {
+          "id": "31502f22-32c0-465f-81ee-e323400fcf82",
+          "name": "31502f22-32c0",
+          "description": {
+            "en": "給我錢～給我錢～我就教你～",
+            "ja": "給我錢～給我錢～我就教你～",
+            "zh": "給我錢～給我錢～我就教你～"
+          },
+          "path": "discord-20250304/voice-message (11).ogg",
           "url": ""
         },
         {
@@ -1326,6 +1480,17 @@
           "TBD": true
         },
         {
+          "id": "b8aad421-d66b-49b6-a103-8318b41179e4",
+          "name": "b8aad421-d66b",
+          "description": {
+            "en": "切切切切切恩就按切場景就好啦",
+            "ja": "切切切切切恩就按切場景就好啦",
+            "zh": "切切切切切恩就按切場景就好啦"
+          },
+          "path": "discord-20250304/voice-message (10).ogg",
+          "url": ""
+        },
+        {
           "id": "c942bfe8-1bdb-48cc-b620-3d428f7d94a8",
           "name": "c942bfe8-1bdb",
           "description": {
@@ -1334,6 +1499,28 @@
             "zh": "外面又下雨了～我恨這個世界～"
           },
           "path": "discord-20250220/voice-message (3).ogg",
+          "url": ""
+        },
+        {
+          "id": "7094dcd5-b892-4dfc-81bd-b63bd42803d1",
+          "name": "7094dcd5-b892",
+          "description": {
+            "en": "好了幼妲該回地下室囉走吧走吧",
+            "ja": "好了幼妲該回地下室囉走吧走吧",
+            "zh": "好了幼妲該回地下室囉走吧走吧"
+          },
+          "path": "discord-20250304/voice-message (21).ogg",
+          "url": ""
+        },
+        {
+          "id": "55ec4ee1-71bc-4cfc-a03d-2db366faca27",
+          "name": "55ec4ee1-71bc",
+          "description": {
+            "en": "按右鍵～打開它～系統管理員～",
+            "ja": "按右鍵～打開它～系統管理員～",
+            "zh": "按右鍵～打開它～系統管理員～"
+          },
+          "path": "discord-20250304/voice-message (13).ogg",
           "url": ""
         },
         {
@@ -1389,6 +1576,17 @@
             "zh": "我起床了～我要去吃好吃的～飯～"
           },
           "path": "discord/2024-12-30.ogg",
+          "url": ""
+        },
+        {
+          "id": "0c1c9db2-27c9-46bb-a690-d50849549c65",
+          "name": "0c1c9db2-27c9",
+          "description": {
+            "en": "為什麼你沒有追隨李賴虎的官推呢",
+            "ja": "為什麼你沒有追隨李賴虎的官推呢",
+            "zh": "為什麼你沒有追隨李賴虎的官推呢"
+          },
+          "path": "discord-20250304/voice-message (4).ogg",
           "url": ""
         },
         {
@@ -1538,6 +1736,17 @@
           "url": ""
         },
         {
+          "id": "29b488fe-82a6-4d0b-a6e4-4af16b602618",
+          "name": "29b488fe-82a6",
+          "description": {
+            "en": "好冷外面有夠冷我快凍死了我快凍死了",
+            "ja": "好冷外面有夠冷我快凍死了我快凍死了",
+            "zh": "好冷外面有夠冷我快凍死了我快凍死了"
+          },
+          "path": "discord-20250304/voice-message (15).ogg",
+          "url": ""
+        },
+        {
           "id": "ab89e8ef-d3d7-436f-ba77-4a07121633b6",
           "name": "2024-12-15_9caleo",
           "description": {
@@ -1650,6 +1859,17 @@
           "TBD": true
         },
         {
+          "id": "653a2185-4b80-40b9-8bae-a6481a35c280",
+          "name": "653a2185-4b80",
+          "description": {
+            "en": "這樣子不太好諾現在就應該要去追隨一下",
+            "ja": "這樣子不太好諾現在就應該要去追隨一下",
+            "zh": "這樣子不太好諾現在就應該要去追隨一下"
+          },
+          "path": "discord-20250304/voice-message (2).ogg",
+          "url": ""
+        },
+        {
           "id": "c6e9af8f-d745-4543-8c1c-71813f55b66b",
           "name": "2024-12-15_sftq57",
           "description": {
@@ -1669,6 +1889,17 @@
             "zh": "你是在吵啥～哩系咧淦喔～真是受不了捏～"
           },
           "path": "discord/eb0d35cb.ogg",
+          "url": ""
+        },
+        {
+          "id": "d7136f3a-02a6-494a-9017-37eaa0802cc5",
+          "name": "d7136f3a-02a6",
+          "description": {
+            "en": "外面居然在下雨外面居然在下雨我要起肖了",
+            "ja": "外面居然在下雨外面居然在下雨我要起肖了",
+            "zh": "外面居然在下雨外面居然在下雨我要起肖了"
+          },
+          "path": "discord-20250304/voice-message (18).ogg",
           "url": ""
         },
         {
@@ -1739,6 +1970,17 @@
           "url": ""
         },
         {
+          "id": "5a4dfc9a-2d2c-42e5-98bc-a1977e679857",
+          "name": "5a4dfc9a-2d2c",
+          "description": {
+            "en": "噗啾噗啾噗啾噗啾噗～噗啾噗啾噗啾噗啾噗～",
+            "ja": "噗啾噗啾噗啾噗啾噗～噗啾噗啾噗啾噗啾噗～",
+            "zh": "噗啾噗啾噗啾噗啾噗～噗啾噗啾噗啾噗啾噗～"
+          },
+          "path": "discord-20250304/voice-message (14).ogg",
+          "url": ""
+        },
+        {
           "id": "6e50c74c-fad8-4e81-aa87-ec5952caf8b9",
           "name": "a5ce63f2",
           "description": {
@@ -1791,6 +2033,17 @@
             "zh": "什麼雞腿！根本就沒有人要唱那種歌！什麼雞腿！"
           },
           "path": "discord/7d80473f.ogg",
+          "url": ""
+        },
+        {
+          "id": "bf35fe13-ca9d-4220-b5ff-a9bc81572a7b",
+          "name": "bf35fe13-ca9d",
+          "description": {
+            "en": "好了幼妲不要再偷偷跑出來了該回家囉來往這裡走",
+            "ja": "好了幼妲不要再偷偷跑出來了該回家囉來往這裡走",
+            "zh": "好了幼妲不要再偷偷跑出來了該回家囉來往這裡走"
+          },
+          "path": "discord-20250304/voice-message (17).ogg",
           "url": ""
         },
         {
@@ -1870,6 +2123,17 @@
           "path": "discord/71652321.ogg",
           "url": "",
           "TBD": true
+        },
+        {
+          "id": "d58e20d6-2b37-4ad8-b8c9-02e59b746a53",
+          "name": "d58e20d6-2b37",
+          "description": {
+            "en": "(幼妲) 喔押蘇咪～晚安～大家晚安囉～明天見～ㄅㄅ～",
+            "ja": "(幼妲) 喔押蘇咪～晚安～大家晚安囉～明天見～ㄅㄅ～",
+            "zh": "(幼妲) 喔押蘇咪～晚安～大家晚安囉～明天見～ㄅㄅ～"
+          },
+          "path": "discord-20250304/voice-message (23).ogg",
+          "url": ""
         },
         {
           "id": "299ab933-edb9-4302-8bdf-c4347457ff1a",
@@ -1979,6 +2243,17 @@
             "zh": "100萬 200萬 300萬 400萬 500萬 600萬 700萬 800萬 900萬 哇呼依～"
           },
           "path": "discord/912c801c.ogg",
+          "url": ""
+        },
+        {
+          "id": "864fd527-01f5-4a5d-a018-ea8d37ed5c54",
+          "name": "864fd527-01f5",
+          "description": {
+            "en": "阿娘喂我現在已經擁有(大奶)了你不能拿我已經擁有的東西給我當酬勞啦",
+            "ja": "阿娘喂我現在已經擁有(大奶)了你不能拿我已經擁有的東西給我當酬勞啦",
+            "zh": "阿娘喂我現在已經擁有(大奶)了你不能拿我已經擁有的東西給我當酬勞啦"
+          },
+          "path": "discord-20250304/voice-message (9).ogg",
           "url": ""
         },
         {
