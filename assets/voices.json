@@ -1792,6 +1792,39 @@
           "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
+          "id": "fc0b8702-c50e-4af6-9518-d960d7813439",
+          "name": "sit-dance-fuyela",
+          "description": {
+            "en": "坐坐舞-給小芙",
+            "ja": "坐坐舞-給小芙",
+            "zh": "坐坐舞-給小芙"
+          },
+          "path": "japan-kanban/sit-dance-fuyela.mp3",
+          "url": "https://www.youtube.com/watch?v=S_ZsfF9QfZc"
+        },
+        {
+          "id": "617b6e60-dd60-418b-88f8-1f0e061f3472",
+          "name": "sit-dance-loco",
+          "description": {
+            "en": "坐坐舞-給洛可",
+            "ja": "坐坐舞-給洛可",
+            "zh": "坐坐舞-給洛可"
+          },
+          "path": "japan-kanban/sit-dance-loco.mp3",
+          "url": "https://www.youtube.com/watch?v=S_ZsfF9QfZc"
+        },
+        {
+          "id": "42a9e110-1c44-4e06-b19e-cef85c8f606b",
+          "name": "sit-dance-tejia",
+          "description": {
+            "en": "坐坐舞-給鐵匠",
+            "ja": "坐坐舞-給鐵匠",
+            "zh": "坐坐舞-給鐵匠"
+          },
+          "path": "japan-kanban/sit-dance-tejia.mp3",
+          "url": "https://www.youtube.com/watch?v=S_ZsfF9QfZc"
+        },
+        {
           "id": "c819cbef-f95e-4b39-8730-7abab2898e93",
           "name": "na-ger-candy",
           "description": {
