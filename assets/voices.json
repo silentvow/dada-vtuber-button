@@ -101,8 +101,8 @@
           "id": "1b307b82-a83f-4cc9-8061-98b002ef8eaf",
           "name": "ni-hao",
           "description": {
-            "en": "你好",
-            "ja": "你好",
+            "en": "Hello",
+            "ja": "こんにちは",
             "zh": "你好"
           },
           "path": "talk-vtuber/ni-hao.mp3",
@@ -739,8 +739,8 @@
           "id": "7add0d3f-a4d1-48a5-8c68-e1f3704c55f6",
           "name": "piu-piu-piu",
           "description": {
-            "en": "呸呸呸呸呸",
-            "ja": "呸呸呸呸呸",
+            "en": "Peh peh peh peh peh",
+            "ja": "ぺぺぺぺぺ",
             "zh": "呸呸呸呸呸"
           },
           "path": "talk-vtuber/piu-piu-piu.mp3",
@@ -1003,8 +1003,8 @@
           "id": "faa7ef3c-e001-48aa-bb65-32f8b9307077",
           "name": "taiwan-ba-ma",
           "description": {
-            "en": "你是傳統台灣爸媽嗎",
-            "ja": "你是傳統台灣爸媽嗎",
+            "en": "Are you a traditional Taiwanese parent?",
+            "ja": "あなたは伝統的な台湾の親ですか？",
             "zh": "你是傳統台灣爸媽嗎"
           },
           "path": "talk-vtuber/taiwan-ba-ma.mp3",
@@ -1262,6 +1262,17 @@
           },
           "path": "work-3-bus/sao-loli-ba-so.mp3",
           "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
+        },
+        {
+          "id": "faed921a-43d5-41b6-a513-51160c7b49a1",
+          "name": "to-san-shi-bin-kuan",
+          "description": {
+            "en": "Whoever voted for this must be insane.",
+            "ja": "これに投票した人、正気か？",
+            "zh": "投這一個東西的人是不是喪心病狂"
+          },
+          "path": "whine/to-san-shi-bin-kuan.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
         },
         {
           "id": "41d63dc0-5cd8-4a9b-99ae-a8d0e0606d81",
@@ -1795,8 +1806,8 @@
           "id": "fc0b8702-c50e-4af6-9518-d960d7813439",
           "name": "sit-dance-fuyela",
           "description": {
-            "en": "坐坐舞-給小芙",
-            "ja": "坐坐舞-給小芙",
+            "en": "Sit-sit dance - for Xiaofu",
+            "ja": "座座舞 - 小芙へ",
             "zh": "坐坐舞-給小芙"
           },
           "path": "japan-kanban/sit-dance-fuyela.mp3",
@@ -1806,8 +1817,8 @@
           "id": "617b6e60-dd60-418b-88f8-1f0e061f3472",
           "name": "sit-dance-loco",
           "description": {
-            "en": "坐坐舞-給洛可",
-            "ja": "坐坐舞-給洛可",
+            "en": "Sit-sit dance - for Loco",
+            "ja": "座座舞 - ロコへ",
             "zh": "坐坐舞-給洛可"
           },
           "path": "japan-kanban/sit-dance-loco.mp3",
@@ -1817,8 +1828,8 @@
           "id": "42a9e110-1c44-4e06-b19e-cef85c8f606b",
           "name": "sit-dance-tejia",
           "description": {
-            "en": "坐坐舞-給鐵匠",
-            "ja": "坐坐舞-給鐵匠",
+            "en": "Sit-sit dance - for the blacksmith",
+            "ja": "座座舞 - 鍛冶屋へ",
             "zh": "坐坐舞-給鐵匠"
           },
           "path": "japan-kanban/sit-dance-tejia.mp3",
@@ -2078,6 +2089,17 @@
           "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
+          "id": "ae818211-4141-4af1-85c8-61d1ed787b85",
+          "name": "tonight-i-su",
+          "description": {
+            "en": "Tonight... I belong to you.",
+            "ja": "今夜…私はあなたのもの。",
+            "zh": "今晚...我是屬於你的喔"
+          },
+          "path": "whine/tonight-i-su.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
           "id": "7097267d-5acd-4dc5-86f2-b78e5186275a",
           "name": "chin-ren-jie-kua-ler",
           "description": {
@@ -2144,6 +2166,17 @@
           "url": "https://www.youtube.com/watch?v=IWoAVT75io8"
         },
         {
+          "id": "22aea271-6545-475a-9bb9-91a452b7de6d",
+          "name": "babe-love-you",
+          "description": {
+            "en": "Baby loves you the most, rest well, you've worked hard today~",
+            "ja": "ベイビーはあなたが大好きだよ、ゆっくり休んでね、今日もお疲れ様～",
+            "zh": "寶貝最愛你了，好好休息哦，今天辛苦了呢～"
+          },
+          "path": "whine/babe-love-you.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
           "id": "9ee43524-c3ae-418a-8663-e86491231e3d",
           "name": "wo-z-shi-shian-yao",
           "description": {
@@ -2208,6 +2241,28 @@
           },
           "path": "lazy-against/self-hen-ban.mp3",
           "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
+        },
+        {
+          "id": "7d3b5526-9962-4778-b94b-6e623dfe0a5d",
+          "name": "back-san-s-ma",
+          "description": {
+            "en": "You're home~ Hm? What? Your boss scolded you again? It's okay~ Come here for a hug~ Don't be mad~",
+            "ja": "おかえり～ん？何？また上司に怒られたの？大丈夫だよ～こっち来てハグしよう～怒らないで～",
+            "zh": "你回家了啊～嗯？什麼？你又被上司罵了啊？沒事啦～過來抱一個嘛～別生氣了～"
+          },
+          "path": "whine/back-san-s-ma.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "5c2b32f4-eb80-453a-973a-7f338340da86",
+          "name": "cute-miren-laupo",
+          "description": {
+            "en": "Parrot gang, chicken leg gang, you're back! I'm your cute and charming wife. Do you want to eat first? Take a bath? Or eat me? 5ma~",
+            "ja": "オウム団、チキンレッグ団、帰ってきたね！私はあなたたちのかわいくて魅力的な嫁だよ！ご飯にする？お風呂にする？それとも私を食べる？5ma~",
+            "zh": "鸚鵡幫們雞腿幫們你們回來了啊，我是你們可愛又迷人的老婆，你們要先吃飯？還是先洗澡？還是先吃我呢？5ma~"
+          },
+          "path": "whine/cute-miren-laupo.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
         },
         {
           "id": "43f307e0-e689-484a-b4bd-350068b11e69",
@@ -2307,6 +2362,479 @@
           },
           "path": "valentine-lyrics-2/choco-na-chi.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        }
+      ]
+    },
+    {
+      "id": "ceb4c982-174a-46d6-93cc-58e7c8fbd683",
+      "group_name": "whine",
+      "group_description": {
+        "en": "DaDa: Whine",
+        "ja": "フイダ：撒嬌",
+        "zh": "灰妲：撒嬌"
+      },
+      "voice_list": [
+        {
+          "id": "b31b1980-ada9-4b12-b09a-92448abe8853",
+          "name": "lao-gon-9",
+          "description": {
+            "en": "Husband~",
+            "ja": "だんな～",
+            "zh": "老公～"
+          },
+          "path": "whine/lao-gon-9.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "1f809b0a-6a0f-4d6c-b203-20d231d1131d",
+          "name": "ben-dang",
+          "description": {
+            "en": "Dum~my~",
+            "ja": "ば～か～",
+            "zh": "笨～蛋～"
+          },
+          "path": "whine/ben-dang.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "362523d1-0b93-4c35-b5ec-c3b155c4959f",
+          "name": "lao-gon-5",
+          "description": {
+            "en": "Hus! Band!",
+            "ja": "だ！んな！",
+            "zh": "老！公！"
+          },
+          "path": "whine/lao-gon-5.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "53f5af06-58ff-4418-a4fe-3b35447ccf92",
+          "name": "lao-gon-1",
+          "description": {
+            "en": "Hus~band!",
+            "ja": "だ～んな！",
+            "zh": "老～公！"
+          },
+          "path": "whine/lao-gon-1.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "eb626103-f5b8-488d-aa36-365dfe08b429",
+          "name": "shan-yao-bao-bao",
+          "description": {
+            "en": "I want a hug.",
+            "ja": "ハグしたい。",
+            "zh": "我想要抱抱"
+          },
+          "path": "whine/shan-yao-bao-bao.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "356badcb-cbba-41fb-8c98-9765f1d9b41b",
+          "name": "lao-gon-3",
+          "description": {
+            "en": "Hus...band",
+            "ja": "だ…んな",
+            "zh": "老...公..."
+          },
+          "path": "whine/lao-gon-3.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "97bd5704-6904-44e1-823f-0520f2b15bc0",
+          "name": "lao-gon-5ma",
+          "description": {
+            "en": "Husband husband 5ma",
+            "ja": "だんなだんな5ma",
+            "zh": "老公老公5ma"
+          },
+          "path": "whine/lao-gon-5ma.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "c8f2ca92-4c32-44ff-aa98-90440e392ba6",
+          "name": "pe-wo-chat",
+          "description": {
+            "en": "Chat with me~",
+            "ja": "私とおしゃべりしよ～",
+            "zh": "陪我聊天嘛～"
+          },
+          "path": "whine/pe-wo-chat.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "58a6fa38-de81-402b-b934-7e6da29c42ff",
+          "name": "lao-gon-4",
+          "description": {
+            "en": "Ugh... Husband!",
+            "ja": "うぅ…だんな！",
+            "zh": "吼唷...老公！"
+          },
+          "path": "whine/lao-gon-4.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "e2f10d5d-d9a3-49e5-befc-bdb4b5c84692",
+          "name": "lao-gon-7",
+          "description": {
+            "en": "Mmm... Hus~band~",
+            "ja": "む…だ～んな～",
+            "zh": "姆...老～公～"
+          },
+          "path": "whine/lao-gon-7.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "ddb86a40-a895-4645-a841-1dde622ebc9e",
+          "name": "lao-gon-8",
+          "description": {
+            "en": "Husband♡ Good good husband~",
+            "ja": "だんな♡ いいいい旦那～",
+            "zh": "老公♡老公公公～"
+          },
+          "path": "whine/lao-gon-8.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "8a0a95cc-ba28-4554-ad3f-5873acbf19e8",
+          "name": "love-you-5ma",
+          "description": {
+            "en": "I love you the most, 5ma~",
+            "ja": "あなたが一番大好き、5ma～",
+            "zh": "我最愛你了呢5ma~"
+          },
+          "path": "whine/love-you-5ma.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "bbc06300-6941-409b-8552-97e918d96ee5",
+          "name": "lao-gon-10",
+          "description": {
+            "en": "Hmm! Husband!",
+            "ja": "ん！だんな！",
+            "zh": "嗯！老公！老～公～"
+          },
+          "path": "whine/lao-gon-10.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "3dc3a4f5-92ec-45e0-af1b-e2b667189e84",
+          "name": "shia-yao-ba-yao",
+          "description": {
+            "en": "I really miss Hachiyo~",
+            "ja": "八曜にすごく会いたい～",
+            "zh": "真的好想要八曜喔～"
+          },
+          "path": "whine/shia-yao-ba-yao.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "e5db8f31-2bd0-49b7-950e-2277d981ed22",
+          "name": "lao-gon-6",
+          "description": {
+            "en": "Ah... Husband, Husband!?",
+            "ja": "あ…だんな、だんな！？",
+            "zh": "啊...老公，老公！？"
+          },
+          "path": "whine/lao-gon-6.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "c87a1f13-0d13-40df-80c7-4af2e71ef8ce",
+          "name": "lao-gon-2",
+          "description": {
+            "en": "Hmm? Husband? Husband...?",
+            "ja": "ん？だんな？だんな…？",
+            "zh": "嗯？老公？老公...？"
+          },
+          "path": "whine/lao-gon-2.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "d63e7fa4-70f7-4655-aff5-e3ef0d1af565",
+          "name": "bro-bao-bao",
+          "description": {
+            "en": "Big brother~ I want a hug!",
+            "ja": "お兄ちゃん～ハグしたい！",
+            "zh": "哥哥～人家要抱抱嘛！"
+          },
+          "path": "whine/bro-bao-bao.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "c7e49f76-1467-442d-b28b-8c22ecbec5e0",
+          "name": "dear-pe-wo",
+          "description": {
+            "en": "Darling~ Please stay with me~",
+            "ja": "ダーリン～お願いだから一緒にいて～",
+            "zh": "親愛的～拜託你陪一下我嘛～"
+          },
+          "path": "whine/dear-pe-wo.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "05788c53-1cf1-426c-93b5-b19791c48409",
+          "name": "eat-pan-lao-de",
+          "description": {
+            "en": "Husband, I want to eat Fat Daddy’s Fried Chicken~ Can we eat together?",
+            "ja": "旦那様、ファットダディのフライドチキン食べたい～一緒に食べよう？",
+            "zh": "老公我想要吃胖老爹～我們可以一起吃嗎？"
+          },
+          "path": "whine/eat-pan-lao-de.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "38d6065c-bfe6-48bb-98f5-6d712905ba90",
+          "name": "yon-yuan-pei-ban",
+          "description": {
+            "en": "Hey! Hey! Can you always stay with me... and never leave?",
+            "ja": "ねえ！ねえ！ずっと私と一緒にいて…離れないでくれる？",
+            "zh": "吶！吶！可以永遠陪伴我...不要離開我嗎？"
+          },
+          "path": "whine/yon-yuan-pei-ban.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "39235b46-57dd-4610-8dd7-37c89b529867",
+          "name": "dian-lia-bu-zu",
+          "description": {
+            "en": "I'm out of battery today~ Only your hugs can recharge me.",
+            "ja": "今日は電池切れ～あなたのハグだけが私の充電になるの。",
+            "zh": "人家今天電量不足啦～只能靠你的抱抱來充電了"
+          },
+          "path": "whine/dian-lia-bu-zu.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "184a28e1-e0cd-4640-a804-6fcfcdf38382",
+          "name": "aiyou-jen-tan-shin",
+          "description": {
+            "en": "Oh... please pay attention to me... mwah... so greedy...",
+            "ja": "あぅ...お願いだからかまってよ...ちゅっ...欲張りすぎ...",
+            "zh": "唉唷...拜託你理一下人家嘛...啾...真貪心..."
+          },
+          "path": "whine/aiyou-jen-tan-shin.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "62a6e39f-237f-49c4-9679-0d0deee7746e",
+          "name": "that-is-not-kfc",
+          "description": {
+            "en": "This is not KFC! This is not KFC! This is not KFC!",
+            "ja": "これはケンタッキーじゃない！これはケンタッキーじゃない！これはケンタッキーじゃない！",
+            "zh": "這不是肯德基！這不是肯德基！這不是肯德基！"
+          },
+          "path": "whine/that-is-not-kfc.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "8c24f9e4-3f5b-48df-9b84-ad22aafb5112",
+          "name": "no-work-bao-bao",
+          "description": {
+            "en": "Mmm~ stop working! I want a hug! Lots of hugs!",
+            "ja": "ん～もう仕事やめて！ハグして！たくさんのハグ！",
+            "zh": "嗯～不要再work了啦！人家想要抱抱！很多的抱抱！"
+          },
+          "path": "whine/no-work-bao-bao.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "ebef9d65-39a5-49d6-886b-780d5b5593aa",
+          "name": "fun-guo-wo-ba",
+          "description": {
+            "en": "What did I do wrong! I never want to spin the wheel again! Please let me go~",
+            "ja": "何を間違えたの！もうルーレットなんてやらない！お願いだから許して～",
+            "zh": "我到底做錯了什麼！我再也不要轉盤了！放過我吧～"
+          },
+          "path": "whine/fun-guo-wo-ba.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "45390f6f-6a8d-4577-800d-f70292a3e5ec",
+          "name": "you-know-chin-ren",
+          "description": {
+            "en": "Why did you come home so late today! Do you know it's Valentine's Day?!",
+            "ja": "今日なんでこんなに帰りが遅いの！今日はバレンタインだって知ってる！？",
+            "zh": "你今天為什麼那麼晚回來啊！你知道今天是情人節嗎！"
+          },
+          "path": "whine/you-know-chin-ren.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "6d1ae3b6-ae6c-4431-a41c-ad4420f5c1e2",
+          "name": "chien-so-gua-jie",
+          "description": {
+            "en": "I want to hold your hand and walk around! That way, it really feels like love!",
+            "ja": "手をつないで街を歩きたい！それが恋愛の感じだよ！",
+            "zh": "人家想要牽你的手逛街嘛！這樣這樣才有戀愛的感覺啦！"
+          },
+          "path": "whine/chien-so-gua-jie.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "7d3f85ef-5a19-4fe5-953a-3e6d03745298",
+          "name": "why-reject-cute",
+          "description": {
+            "en": "How can you refuse me?! How can you bear to make someone as cute as me sad?!",
+            "ja": "どうして私を断れるの！？こんなに可愛い私を悲しませられるの！？",
+            "zh": "你怎麼可以拒絕我啊！你怎麼忍心讓這麼可愛的我難過啊"
+          },
+          "path": "whine/why-reject-cute.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "96de1d67-6ef4-4301-aa41-6b0f8911ea24",
+          "name": "er-er-bao-bao",
+          "description": {
+            "en": "I'm so hungry, I want allowance money, I want to buy delicious food to eat!",
+            "ja": "お腹すいた、お小遣い欲しい、美味しいものを買って食べたい！",
+            "zh": "我好餓餓噢，想要零用錢錢，想要買好吃的食物來吃飽飽"
+          },
+          "path": "whine/er-er-bao-bao.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "a047b8b0-b991-4238-a334-c94e6d0a50c1",
+          "name": "me-yo-ba-yao",
+          "description": {
+            "en": "Today is another day without Hachiyo, would you be willing to give Dada some food?",
+            "ja": "今日はまた八曜のいない日ですね、妲妲に少しご飯をくれませんか？",
+            "zh": "今天也是沒有八曜的一天，你是否願意給妲妲一點溫飽呢？"
+          },
+          "path": "whine/me-yo-ba-yao.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "4f5841cc-b55f-4332-be10-31cc0f62d7bd",
+          "name": "only-mine-no-other",
+          "description": {
+            "en": "You're mine! You can only be mine! No one else can come near you, got it?",
+            "ja": "あなたは私のもの！私だけのもの！誰も近づいちゃダメ、わかった？",
+            "zh": "你是我的！你只能是我的！別人都不准靠近你，知道了嗎？"
+          },
+          "path": "whine/only-mine-no-other.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "e673cf57-f69f-4e7f-a4c8-60491720d666",
+          "name": "ultra-sa-jiao-mode",
+          "description": {
+            "en": "If you don't agree, hmm~~ I'll activate my ultimate spoiled mode!",
+            "ja": "もし断ったら、ん～～～究極の甘えモードを発動するよ！",
+            "zh": "要是你不答應的話，嗯～～～我就要開啟究級撒嬌模式了喔！"
+          },
+          "path": "whine/ultra-sa-jiao-mode.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "d6fdd7a5-151d-4704-98fc-8dd193f0e57f",
+          "name": "la-di-sha-bu-zuo",
+          "description": {
+            "en": "If you don’t hug me, I’ll just lay on the ground here and never leave! Hmph!",
+            "ja": "ハグしてくれなきゃ、ここに寝転んで絶対動かないから！ぷん！",
+            "zh": "你要是不抱抱我，我就...我就要在這裡賴在地上不走了啦！哼！"
+          },
+          "path": "whine/la-di-sha-bu-zuo.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "6cf9fa7b-d2a5-49f5-99fb-38345edacf45",
+          "name": "ni-ze-bei-z",
+          "description": {
+            "en": "You're mine! In this life! In the next life! And the one after that! Forever mine! No running away!",
+            "ja": "あなたは私のもの！この人生も！来世も！その次も！ずっと私のもの！逃げちゃダメ！",
+            "zh": "你是我的！這輩子！下輩子！下下輩子！全部都是我的！不准跑！"
+          },
+          "path": "whine/ni-ze-bei-z.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "1e64be5d-c48f-4bee-a096-f0d15a564160",
+          "name": "bai-to-to",
+          "description": {
+            "en": "If you don't help me, I'm doomed! Please help me, I beg you!",
+            "ja": "助けてくれなきゃ、私は終わりだよ！お願いだから助けて！",
+            "zh": "如果你不幫我的話我就死定了啦，求求你幫助我吧，拜託啦，拜託託了"
+          },
+          "path": "whine/bai-to-to.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "b5b851b9-3b63-4907-9fe2-5c626de1496a",
+          "name": "nan-guo-g-mi-hua",
+          "description": {
+            "en": "Don't ignore me... I'll be so sad... I'll be so sad that I'll curl up in the corner like a little popcorn chicken!",
+            "ja": "無視しないで…すごく悲しいよ…悲しくてチキンポップコーンみたいに隅で丸まっちゃう！",
+            "zh": "你不要不理我啦，我會難過的喔...我會難過到變成小雞米花縮在角落的！"
+          },
+          "path": "whine/nan-guo-g-mi-hua.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "512203ad-b822-4934-a8f7-bb18d4cc5a53",
+          "name": "ku-ku-bao-bao",
+          "description": {
+            "en": "Uuuu... if you do this, I'll cry! I really know I was wrong! Hug me, okay?",
+            "ja": "うぅぅ…そんなことされたら泣いちゃうよ！本当に反省してるから、ハグして？",
+            "zh": "嗚嗚嗚...你這樣子我會哭哭的啦！人家真的知道錯了啦！不然你抱抱我嘛！"
+          },
+          "path": "whine/ku-ku-bao-bao.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "15e700e7-7d0b-4c6f-951f-58e0d34ee0e2",
+          "name": "dd-nuv-wo-jo",
+          "description": {
+            "en": "If you keep flirting with other female VTubers, then I... I... I'll just stick to you and never leave!",
+            "ja": "もしずっと他の女VをDDするなら、私…私…もうあなたにくっついて離れないよ！",
+            "zh": "如果你再整天去DD別的女V的話，那我...那我...那我就我就直接賴在你身上不走了噢！"
+          },
+          "path": "whine/dd-nuv-wo-jo.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "f9c0d38f-a9e2-4280-96bd-3d038d9eca8e",
+          "name": "horror-game-deal",
+          "description": {
+            "en": "This game isn’t scary at all! If you play a round with me, I’ll let you hug me all night! That’s a great deal, right?!",
+            "ja": "このゲーム全然怖くないよ！一緒に一回やってくれたら、一晩中抱っこさせてあげる！お得でしょ！？",
+            "zh": "這遊戲一點都不恐怖啦，不然你陪我玩一局，我就讓你抱我抱一晚，這交易超划算的對吧！"
+          },
+          "path": "whine/horror-game-deal.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "171f2ede-9fe2-48cb-93f7-58fe40bc294d",
+          "name": "couple-clothes",
+          "description": {
+            "en": "Ah, look! That couple is wearing matching outfits! Do you think... we can do that too? Please, I really want to wear matching outfits with you!",
+            "ja": "あ、見て！あのカップル、お揃いの服着てる！ねえ、私たちもできる？お願い、お揃いの服着たい！",
+            "zh": "啊你看那邊有人穿情侶裝耶！你覺得...我們也可以嗎？拜託嘛我好想要跟你一起穿情侶裝喔～"
+          },
+          "path": "whine/couple-clothes.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "b6958823-f890-432a-a0d4-ae4582c6ef6a",
+          "name": "help-me-order-meal",
+          "description": {
+            "en": "This is my first time at Torikizoku, can you order for me? I don’t know how to order... and... and... if you order, I feel like it’ll taste better!",
+            "ja": "初めて鳥貴族に来たよ！注文してくれる？自分で選べないし…あなたが選んだらもっと美味しく感じる気がする！",
+            "zh": "我第一次來鳥貴族耶，你幫我點嘛！人家不知道該怎麼點嘛！而且...而且...而且...如果你點的話，人家會覺得更好吃的"
+          },
+          "path": "whine/help-me-order-meal.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "11feb73b-1c57-48a5-afe1-4b0db3d8e658",
+          "name": "wan-ge-wo-kang",
+          "description": {
+            "en": "Please, just try playing it~ If you play for me, and stream it too, then I'll... I'll reward you with a hug, or maybe... a 5ma?",
+            "ja": "お願い、試しにプレイしてみて～配信でもしてくれたら…ご褒美にハグ、または…5ma？",
+            "zh": "拜託啦你玩玩看嘛～玩玩看，如果你玩給我看的話，而且還開台玩給我看的話，我就...我就獎勵你一個擁抱，或者是...一個...5ma？"
+          },
+          "path": "whine/wan-ge-wo-kang.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
         }
       ]
     },
@@ -2907,7 +3435,7 @@
           "name": "hahaha-8",
           "description": {
             "en": "laughing sound-8",
-            "ja": "笑い声-8",
+            "ja": "大笑い-8",
             "zh": "大笑聲-8"
           },
           "path": "news-202410/hahaha-8.mp3",
@@ -2918,7 +3446,7 @@
           "name": "hahaha-9",
           "description": {
             "en": "Loud laughter -9",
-            "ja": "大笑声-9",
+            "ja": "大笑い-9",
             "zh": "大笑聲-9"
           },
           "path": "valentine-lyrics/hahaha-9.mp3",
@@ -2984,7 +3512,7 @@
           "name": "hahaha-13",
           "description": {
             "en": "Loud Laughter -13",
-            "ja": "大笑声 -13",
+            "ja": "大笑い -13",
             "zh": "大笑聲-13"
           },
           "path": "full-endorsement/hahaha-13.mp3",
@@ -4171,8 +4699,8 @@
           "id": "0055ecfd-cd1b-436b-8022-253e53d7f863",
           "name": "gg-hua-tu",
           "description": {
-            "en": "每個繪師都是為了自己的ㄐㄐ在畫圖",
-            "ja": "每個繪師都是為了自己的ㄐㄐ在畫圖",
+            "en": "Every artist draws for their own d***.",
+            "ja": "すべての絵師は自分の○○のために絵を描いています。",
             "zh": "每個繪師都是為了自己的ㄐㄐ在畫圖"
           },
           "path": "talk-vtuber/gg-hua-tu.mp3",
@@ -4237,8 +4765,8 @@
           "id": "59736a1b-fe7b-4364-9b5a-f9957b989019",
           "name": "jin-yi-bu4-obs",
           "description": {
-            "en": "經營不是你打開OBS然後點開開始直播你就可以經營",
-            "ja": "經營不是你打開OBS然後點開開始直播你就可以經營",
+            "en": "Running a channel isn't just turning on OBS and hitting the stream button.",
+            "ja": "配信を始めるだけで運営ができるわけではありません。",
             "zh": "經營不是你打開OBS然後點開開始直播你就可以經營"
           },
           "path": "talk-vtuber/jin-yi-bu4-obs.mp3",
@@ -4292,8 +4820,8 @@
           "id": "e4fb9a91-f76e-4823-9c19-5eb786bc26a5",
           "name": "if-work-no-see",
           "description": {
-            "en": "如果你的作品連給人家看都不敢的話，那為什麼要做這個作品？",
-            "ja": "如果你的作品連給人家看都不敢的話，那為什麼要做這個作品？",
+            "en": "If you're too afraid to show your work, why make it at all?",
+            "ja": "自分の作品を人に見せるのが怖いなら、なぜ作るのですか？",
             "zh": "如果你的作品連給人家看都不敢的話，那為什麼要做這個作品？"
           },
           "path": "talk-vtuber/if-work-no-see.mp3",
@@ -4314,8 +4842,8 @@
           "id": "280b5c71-85fc-48bf-b03e-5261e25fa8f4",
           "name": "company-zuo-she-mo",
           "description": {
-            "en": "不要問企業可以為你做什麼，而是應該說企業有了你之後它可以得到什麼",
-            "ja": "不要問企業可以為你做什麼，而是應該說企業有了你之後它可以得到什麼",
+            "en": "Don't ask what a company can do for you, ask what the company can gain from having you.",
+            "ja": "企業があなたに何をしてくれるかではなく、あなたが企業に何をもたらせるかを考えるべきです。",
             "zh": "不要問企業可以為你做什麼，而是應該說企業有了你之後它可以得到什麼"
           },
           "path": "talk-vtuber/company-zuo-she-mo.mp3",
@@ -5787,6 +6315,127 @@
       ]
     },
     {
+      "id": "ece45234-689e-44d4-9fb5-ce655ec757cd",
+      "group_name": "yoda_whine",
+      "group_description": {
+        "en": "YoDa: Whine",
+        "ja": "幼フイダ：撒嬌",
+        "zh": "幼妲：撒嬌"
+      },
+      "voice_list": [
+        {
+          "id": "1bcffc9d-daef-40c1-b05c-65135cfe1332",
+          "name": "yoda-lao-gon-5",
+          "description": {
+            "en": "Hus! Band!",
+            "ja": "だ！んな！",
+            "zh": "老公！"
+          },
+          "path": "whine/yoda-lao-gon-5.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "91314b95-9df7-4dd5-bffd-71d735db494b",
+          "name": "yoda-lao-gon-9",
+          "description": {
+            "en": "Husband~",
+            "ja": "だんな～",
+            "zh": "老公～"
+          },
+          "path": "whine/yoda-lao-gon-9.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "bd3304c6-f1e3-4451-86bb-852be0fe53a1",
+          "name": "yoda-lao-gon-1",
+          "description": {
+            "en": "Hus~band!",
+            "ja": "だ～んな！",
+            "zh": "老～公！"
+          },
+          "path": "whine/yoda-lao-gon-1.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "6e8aae0e-d79b-49ba-a2d0-0d5ddb6cfffa",
+          "name": "yoda-lao-gon-3",
+          "description": {
+            "en": "Hus...band",
+            "ja": "だ…んな",
+            "zh": "老...公..."
+          },
+          "path": "whine/yoda-lao-gon-3.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "f1332d14-43f2-47a4-b4cc-9ae504dbfa4e",
+          "name": "yoda-lao-gon-7",
+          "description": {
+            "en": "Mmm... Hus~band~",
+            "ja": "む…だ～んな～",
+            "zh": "姆...老公～"
+          },
+          "path": "whine/yoda-lao-gon-7.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "3e29c689-d248-4285-bb7c-6c70fc952274",
+          "name": "yoda-lao-gon-4",
+          "description": {
+            "en": "Ugh... Husband!",
+            "ja": "うぅ…だんな！",
+            "zh": "吼唷...老公！"
+          },
+          "path": "whine/yoda-lao-gon-4.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "649faadf-236f-4d8c-a08a-18817b8d5f5c",
+          "name": "yoda-lao-gon-8",
+          "description": {
+            "en": "Husband♡ Good good husband~",
+            "ja": "だんな♡ いいいい旦那～",
+            "zh": "老公♡老公公公～"
+          },
+          "path": "whine/yoda-lao-gon-8.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "93409c2e-5f3a-4d2e-bfc1-34a330c839d6",
+          "name": "yoda-lao-gon-10",
+          "description": {
+            "en": "Hmm! Husband!",
+            "ja": "ん！だんな！",
+            "zh": "嗯？老公！老～公～"
+          },
+          "path": "whine/yoda-lao-gon-10.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "dcc48972-c595-419c-b31f-27e8c874dd76",
+          "name": "yoda-lao-gon-6",
+          "description": {
+            "en": "Ah... Husband, Husband!?",
+            "ja": "あ…だんな、だんな！？",
+            "zh": "啊...老公，老公！？"
+          },
+          "path": "whine/yoda-lao-gon-6.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "48e64840-0123-412f-bf6e-bd79987d6091",
+          "name": "yoda-lao-gon-2",
+          "description": {
+            "en": "Hmm? Husband? Husband...?",
+            "ja": "ん？だんな？だんな…？",
+            "zh": "嗯？老公？老公...？"
+          },
+          "path": "whine/yoda-lao-gon-2.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        }
+      ]
+    },
+    {
       "id": "9ed3795c-55e8-4b1e-9738-33733c940bee",
       "group_name": "yoda_yandere",
       "group_description": {
@@ -6146,6 +6795,17 @@
           },
           "path": "yoda-girlfriend/g-tue-bian-dan.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "09feef13-6830-4aba-84e9-29cc85ee1d76",
+          "name": "yoda-valentine-happy",
+          "description": {
+            "en": "Happy Valentine's Day to you~",
+            "ja": "バレンタインおめでとう～",
+            "zh": "祝你今天情人節快樂呢～"
+          },
+          "path": "whine/yoda-valentine-happy.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
         },
         {
           "id": "5544cc2f-c265-4dcd-a4a1-2dba6893af9d",
@@ -7479,6 +8139,17 @@
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
         },
         {
+          "id": "f418755a-0cb7-42f6-9b21-b12c23a596b1",
+          "name": "wo-eat-g-tue",
+          "description": {
+            "en": "I want to eat a chicken leg!",
+            "ja": "チキンレッグ食べたい！",
+            "zh": "我要吃雞腿啦～"
+          },
+          "path": "whine/wo-eat-g-tue.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
           "id": "3500d089-b893-414e-96fd-1f33d6ad2673",
           "name": "hi-hi-chicken",
           "description": {
@@ -7576,6 +8247,17 @@
           },
           "path": "mihoyo-set/ge-wo-g-zuo.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "ae09bc52-1309-4364-9af6-a51c782fafd8",
+          "name": "g-tue-ren-half",
+          "description": {
+            "en": "Shall we share this chicken leg half and half?",
+            "ja": "このチキンレッグを半分こしよう？",
+            "zh": "這隻雞腿我們一人一半好不好嘛"
+          },
+          "path": "whine/g-tue-ren-half.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
         },
         {
           "id": "9ac56ac5-c2c4-4f02-8434-4ca40e17cf6f",
@@ -7699,6 +8381,17 @@
           "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
+          "id": "9630756a-e291-4722-9eb7-e23ec217775b",
+          "name": "bath-meal-g-tue",
+          "description": {
+            "en": "Welcome back~ Do you want to eat first? Take a bath? Or have a chicken leg?",
+            "ja": "おかえり～ご飯にする？お風呂にする？それともチキンレッグ？",
+            "zh": "歡迎回來～你要先吃飯？還是先洗澡？還是先吃雞腿呢？"
+          },
+          "path": "whine/bath-meal-g-tue.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
           "id": "795990d9-8a38-448a-b783-9a5ebc4bc1de",
           "name": "jin-wan-tse-ji-tue",
           "description": {
@@ -7798,6 +8491,17 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
+          "id": "7cd49bf2-bfa0-4017-9441-7261c820ba29",
+          "name": "penguin-buy-me",
+          "description": {
+            "en": "I really want a penguin~ Please... buy me one~",
+            "ja": "ペンギンが本当に欲しい～お願い…買って～",
+            "zh": "我好想要一隻企鵝喔～拜託嘛...買給我嘛～"
+          },
+          "path": "whine/penguin-buy-me.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
           "id": "b3f7483b-6cad-429b-be2d-d2a57d0ec91b",
           "name": "mon-chi-er",
           "description": {
@@ -7807,6 +8511,17 @@
           },
           "path": "work-3-bus/mon-chi-er.mp3",
           "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
+        },
+        {
+          "id": "8d9f3084-8b50-4b56-b820-5f1569cb8924",
+          "name": "penguin-will-cry",
+          "description": {
+            "en": "Oh no, how can you be mad? Your little penguin baby is about to cry!",
+            "ja": "あれれ、怒っちゃダメだよ？あなたのペンギンベイビーが泣いちゃうよ！",
+            "zh": "哎呀你怎麼能夠生氣呢？你的企鵝寶貝都快要哭出來了噢！"
+          },
+          "path": "whine/penguin-will-cry.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
         }
       ]
     },
@@ -8007,11 +8722,22 @@
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
+          "id": "e6295bb5-dac4-4c6f-93c5-a858f38ed71f",
+          "name": "pi-yen-rainbow",
+          "description": {
+            "en": "Damn it, does your asshole shoot rainbows?",
+            "ja": "くそっ、お前のケツから虹でも出るのか？",
+            "zh": "幹恁娘你的屁眼是會噴彩虹喔"
+          },
+          "path": "whine/pi-yen-rainbow.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
           "id": "2b33f527-d11d-4f39-a9ef-96a67444586a",
           "name": "fuck-you-fb",
           "description": {
-            "en": "Fuck you啦Facebook Fuck you",
-            "ja": "Fuck you啦Facebook Fuck you",
+            "en": "Fuck you, Facebook, fuck you.",
+            "ja": "くたばれFacebook、くたばれ。",
             "zh": "Fuck you啦Facebook Fuck you"
           },
           "path": "talk-vtuber/fuck-you-fb.mp3",
@@ -8082,6 +8808,17 @@
           },
           "path": "hell-gate/wo-tsai4-da-boing.mp3",
           "url": "https://www.youtube.com/watch?v=cK5T_RXsYE8"
+        },
+        {
+          "id": "02c60846-5fe9-4117-88b6-4b9c0a76967c",
+          "name": "wo-yi-do-na-tai",
+          "description": {
+            "en": "I always thought I was a booba streamer.",
+            "ja": "ずっと私はおっぱい配信者だと思ってた。",
+            "zh": "我以為我一直都是奶台欸"
+          },
+          "path": "whine/wo-yi-do-na-tai.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
         },
         {
           "id": "71c623db-ed99-4ab3-8db9-7a6942bd7fea",
@@ -8161,11 +8898,33 @@
           "url": "https://www.youtube.com/watch?v=lNimNnas4l0"
         },
         {
+          "id": "30cc762f-23c6-4581-b9c2-1cf1fa2e472f",
+          "name": "pi-shon-bu-ai",
+          "description": {
+            "en": "Just because I'm flat, you don't love me anymore?",
+            "ja": "貧乳だからって、もう愛してくれないの？",
+            "zh": "就因為我是平胸，你就不愛我了嗎？"
+          },
+          "path": "whine/pi-shon-bu-ai.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
+          "id": "2909b47c-8670-4273-b8a0-fd2524ce9942",
+          "name": "da-po-ue-yi",
+          "description": {
+            "en": "As long as everyone calls me Big Bo, I'll do anything.",
+            "ja": "みんなが私を“大波”と呼んでくれるなら、私は何でもするよ。",
+            "zh": "只要大家能夠說我是大波，我什麼都願意做"
+          },
+          "path": "whine/da-po-ue-yi.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
+        },
+        {
           "id": "a81c4389-7082-4be7-8c7b-a53b4f318c67",
           "name": "ma-la-da-boing",
           "description": {
-            "en": "媽啦你們是笨蛋吧哈哈哈哈我就是大波鸚啦",
-            "ja": "媽啦你們是笨蛋吧哈哈哈哈我就是大波鸚啦",
+            "en": "Damn, are you guys idiots? Hahaha, I'm Big Bo Parrot!",
+            "ja": "お前らバカか？ハハハ、私は大波オウムだぞ！",
             "zh": "媽啦你們是笨蛋吧哈哈哈哈我就是大波鸚啦"
           },
           "path": "talk-vtuber/ma-la-da-boing.mp3",
@@ -8368,6 +9127,17 @@
           },
           "path": "mihoyo-set/ke-li-wan-jia-2.mp3",
           "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "05219bc7-5aae-4d64-82af-95fee4080f3e",
+          "name": "genshin-add-friend",
+          "description": {
+            "en": "I've been grinding hard in Genshin Impact lately! Praise me! Or else... or else I won't add you as a friend!",
+            "ja": "最近めっちゃ原神頑張ってるの！褒めて！じゃないと…フレンド追加してあげないよ！",
+            "zh": "人家最近超認真打原神的啦，快誇我一下啦！不然...不然我不給你加好友了噢！"
+          },
+          "path": "whine/genshin-add-friend.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
         }
       ]
     },
@@ -8621,6 +9391,17 @@
           },
           "path": "watch-mygo/play-band-joy.mp3",
           "url": "https://www.youtube.com/watch?v=jcC2bcvluQc"
+        },
+        {
+          "id": "afc18057-57f9-4b80-a4db-dabd23814001",
+          "name": "all-i-can-do",
+          "description": {
+            "en": "As long as it's something I can do, I'm willing to do anything.",
+            "ja": "私にできることなら、何でもやるよ。",
+            "zh": "只要是我能做的，我什麼都願意做"
+          },
+          "path": "whine/all-i-can-do.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
         }
       ]
     },
@@ -8967,8 +9748,8 @@
           "id": "39b01e64-3ace-4fc6-8992-6bd9f0eb4389",
           "name": "winnie-to-tso",
           "description": {
-            "en": "薇妮我沒有偷臭你但二期真的比較爽",
-            "ja": "薇妮我沒有偷臭你但二期真的比較爽",
+            "en": "Wini, I'm not badmouthing you, but the second generation is really better.",
+            "ja": "ウィニー、悪口ではないけど、二期の方が本当に楽しい。",
             "zh": "薇妮我沒有偷臭你但二期真的比較爽"
           },
           "path": "talk-vtuber/winnie-to-tso.mp3",
@@ -9077,8 +9858,8 @@
           "id": "5932cfd7-2f5d-4f6c-b28b-b60fd9562956",
           "name": "na-ger-tai-v",
           "description": {
-            "en": "哪個台V不是遊戲雜談歌回！",
-            "ja": "哪個台V不是遊戲雜談歌回！",
+            "en": "Which Taiwanese Vtuber doesn't do gaming, chatting, and singing streams?!",
+            "ja": "どの台湾Vもゲーム、雑談、歌枠だよね！",
             "zh": "哪個台V不是遊戲雜談歌回！"
           },
           "path": "talk-vtuber/na-ger-tai-v.mp3",
@@ -9088,8 +9869,8 @@
           "id": "e787fe62-e35d-439a-8b9b-9dcf152607e3",
           "name": "9chen-tai-v",
           "description": {
-            "en": "九成以上的台V都是遊戲雜談歌回",
-            "ja": "九成以上的台V都是遊戲雜談歌回",
+            "en": "More than 90% of Taiwanese Vtubers focus on gaming, chatting, and singing streams.",
+            "ja": "台湾のVtuberの9割以上はゲーム、雑談、歌枠です。",
             "zh": "九成以上的台V都是遊戲雜談歌回"
           },
           "path": "talk-vtuber/9chen-tai-v.mp3",
@@ -9187,8 +9968,8 @@
           "id": "81712d01-fff0-428d-811d-49aa39a2adc6",
           "name": "vt-gon-zo-ren-wu",
           "description": {
-            "en": "當VTuber其實意味著你就是半公眾人物了其實你把它當自己個版是很不妥的事情",
-            "ja": "當VTuber其實意味著你就是半公眾人物了其實你把它當自己個版是很不妥的事情",
+            "en": "Being a VTuber means you're half a public figure; treating it like your private space is inappropriate.",
+            "ja": "VTuberであることは半分公人であり、個人の空間のように扱うのは不適切です。",
             "zh": "當VTuber其實意味著你就是半公眾人物了其實你把它當自己個版是很不妥的事情"
           },
           "path": "talk-vtuber/vt-gon-zo-ren-wu.mp3",
@@ -9292,6 +10073,17 @@
           },
           "path": "valentine-lyrics-2/ni-gun-monkey.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "555e51a5-c521-4752-a60d-13eaf9379738",
+          "name": "yi-we-left-heart",
+          "description": {
+            "en": "Do you know why I like to lean on your left side? Because... the left side is closest to your heart.",
+            "ja": "なぜ私はあなたの左側に寄りかかるのが好きかわかる？それは…左側があなたの心臓に一番近いから。",
+            "zh": "你知道為什麼我喜歡依偎在你的左邊嗎？因為...左邊離你的心最近"
+          },
+          "path": "whine/yi-we-left-heart.mp3",
+          "url": "https://www.youtube.com/watch?v=V1MvPOIpXOI"
         }
       ]
     },
