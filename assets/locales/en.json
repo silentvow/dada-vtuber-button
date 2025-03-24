@@ -128,5 +128,9 @@
     "title": "DaDa Voice Museum",
     "url": "https://dada-vtuber-button.vercel.app",
     "voice": "Voice"
+  },
+  "tab": {
+    "classic": "Display by Category",
+    "stream": "Display by Stream"
   }
 }

@@ -128,5 +128,9 @@
     "title": "灰妲語音博物館",
     "url": "https://dada-vtuber-button.vercel.app",
     "voice": "語音"
+  },
+  "tab": {
+    "classic": "依分類顯示",
+    "stream": "依直播顯示"
   }
 }

@@ -69,29 +69,63 @@
       </v-btn>
     </v-speed-dial>
     <v-flex xs12 sm8 md6 style="min-width: 85%">
-      <v-expansion-panels v-model="panel" class="my-3" multiple>
-        <v-expansion-panel v-for="group in groups" :key="group.name">
-          <v-expansion-panel-header class="headline font-weight-bold" :class="dark_text">
-            {{ group.group_description[current_locale] }}
-            <v-chip x-small class="mx-3 flex-grow-0" color="info" outlined>{{ group.voice_list.length }}</v-chip>
-          </v-expansion-panel-header>
-          <v-expansion-panel-content class="button-panel">
-            <voice-btn
-              v-for="item in group.voice_list"
-              ref="voice_btn"
-              :key="item.id"
-              :voice-id="item.id"
-              :class="voice_button_color"
-              :from-youtube="Boolean(item.url)"
-              @on-play="play(item)"
-              @on-youtube="openModal(item)"
-              @on-download="download(item)"
-            >
-              {{ item.description[current_locale] || item.description['zh'] }}
-            </voice-btn>
-          </v-expansion-panel-content>
-        </v-expansion-panel>
-      </v-expansion-panels>
+      <v-tabs v-model="group_type" class="group-tabs" grow>
+        <v-tab key="classic">{{ $t('tab.classic') }}</v-tab>
+        <v-tab key="stream">{{ $t('tab.stream') }}</v-tab>
+      </v-tabs>
+
+      <v-tabs-items v-model="group_type" class="group-tab-items">
+        <v-tab-item key="classic">
+          <v-expansion-panels v-model="panel" class="my-3" multiple>
+            <v-expansion-panel v-for="group in groups" :key="group.name">
+              <v-expansion-panel-header class="headline font-weight-bold" :class="dark_text">
+                {{ group.group_description[current_locale] }}
+                <v-chip x-small class="mx-3 flex-grow-0" color="info" outlined>{{ group.voice_list.length }}</v-chip>
+              </v-expansion-panel-header>
+              <v-expansion-panel-content class="button-panel">
+                <voice-btn
+                  v-for="item in group.voice_list"
+                  ref="voice_btn"
+                  :key="item.id"
+                  :voice-id="item.id"
+                  :class="voice_button_color"
+                  :from-youtube="Boolean(item.url)"
+                  @on-play="play(item)"
+                  @on-youtube="openModal(item)"
+                  @on-download="download(item)"
+                >
+                  {{ item.description[current_locale] || item.description['zh'] }}
+                </voice-btn>
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+          </v-expansion-panels>
+        </v-tab-item>
+        <v-tab-item key="stream">
+          <v-expansion-panels v-model="s_panel" class="my-3" multiple>
+            <v-expansion-panel v-for="group in s_groups" :key="group.name">
+              <v-expansion-panel-header class="headline font-weight-bold" :class="dark_text">
+                {{ group.group_description[current_locale] }}
+                <v-chip x-small class="mx-3 flex-grow-0" color="info" outlined>{{ group.voice_list.length }}</v-chip>
+              </v-expansion-panel-header>
+              <v-expansion-panel-content class="button-panel">
+                <voice-btn
+                  v-for="item in group.voice_list"
+                  ref="voice_btn"
+                  :key="item.id"
+                  :voice-id="item.id"
+                  :class="voice_button_color"
+                  :from-youtube="Boolean(item.url)"
+                  @on-play="play(item)"
+                  @on-youtube="openModal(item)"
+                  @on-download="download(item)"
+                >
+                  {{ item.description[current_locale] || item.description['zh'] }}
+                </voice-btn>
+              </v-expansion-panel-content>
+            </v-expansion-panel>
+          </v-expansion-panels>
+        </v-tab-item>
+      </v-tabs-items>
     </v-flex>
     <!-- <v-flex xs12 sm8 md6 style="min-width: 85%">
       <v-card v-for="(group, groupIndex) in groups" :key="group.name">
@@ -148,6 +182,17 @@
 
 <style lang="scss" scoped>
 $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
+.group-tabs {
+  margin-top: 16px;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+    0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+}
+
+.group-tab-items {
+  background: transparent;
+}
+
 .v-card {
   margin: 8px auto;
 }
@@ -185,6 +230,7 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 
 <script>
 import voice_lists from '~/assets/voices.json';
+import stream_voice_lists from '~/assets/voices2.json';
 import VoiceBtn from '../components/VoiceBtn';
 //import SkeletonLoading from '../components/SkeletonLoading';
 import {
@@ -219,8 +265,11 @@ export default {
       random: false,
       repeat: false,
       fab: false,
+      group_type: 'classic',
       groups: voice_lists.groups,
       panel: [0],
+      s_groups: stream_voice_lists.groups,
+      s_panel: [],
       now_playing: new Set(),
       upcoming_lives: [],
       lives: [],
