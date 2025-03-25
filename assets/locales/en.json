@@ -1,5 +1,6 @@
 {
   "action": {
+    "copy_link": "Link Copied",
     "download": "Download",
     "like": "Like",
     "like_success": "Liked",

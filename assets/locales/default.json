@@ -1,5 +1,6 @@
 {
   "action": {
+    "copy_link": "連結已複製到剪貼簿",
     "download": "下載語音",
     "like": "加入最愛",
     "like_success": "已加入最愛",

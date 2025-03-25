@@ -77,10 +77,13 @@
       <v-tabs-items v-model="group_type" class="group-tab-items">
         <v-tab-item key="classic">
           <v-expansion-panels v-model="panel" class="my-3" multiple>
-            <v-expansion-panel v-for="group in groups" :key="group.name">
+            <v-expansion-panel v-for="group in groups" :id="`panel-${group.id}`" :key="group.name">
               <v-expansion-panel-header class="headline font-weight-bold" :class="dark_text">
                 {{ group.group_description[current_locale] }}
                 <v-chip x-small class="mx-3 flex-grow-0" color="info" outlined>{{ group.voice_list.length }}</v-chip>
+                <v-btn class="flex-grow-0" icon depressed plain @click.stop="copyLink(group.id)">
+                  <v-icon>{{ icons.link }}</v-icon>
+                </v-btn>
               </v-expansion-panel-header>
               <v-expansion-panel-content class="button-panel">
                 <voice-btn
@@ -102,10 +105,13 @@
         </v-tab-item>
         <v-tab-item key="stream">
           <v-expansion-panels v-model="s_panel" class="my-3" multiple>
-            <v-expansion-panel v-for="group in s_groups" :key="group.name">
+            <v-expansion-panel v-for="group in s_groups" :id="`panel-${group.id}`" :key="group.name">
               <v-expansion-panel-header class="headline font-weight-bold" :class="dark_text">
                 {{ group.group_description[current_locale] }}
                 <v-chip x-small class="mx-3 flex-grow-0" color="info" outlined>{{ group.voice_list.length }}</v-chip>
+                <v-btn class="flex-grow-0" icon depressed plain @click.stop="copyLink(group.id)">
+                  <v-icon>{{ icons.link }}</v-icon>
+                </v-btn>
               </v-expansion-panel-header>
               <v-expansion-panel-content class="button-panel">
                 <voice-btn
@@ -236,6 +242,7 @@ import VoiceBtn from '../components/VoiceBtn';
 import {
   mdiClockOutline,
   mdiClose,
+  mdiLink,
   mdiPlay,
   mdiRepeat,
   mdiSelectionEllipseArrowInside,
@@ -253,6 +260,7 @@ export default {
     return {
       icons: {
         close: mdiClose,
+        link: mdiLink,
         play: mdiPlay,
         stop: mdiStop,
         selection_ellipse_arrow_inside: mdiSelectionEllipseArrowInside,
@@ -265,7 +273,7 @@ export default {
       random: false,
       repeat: false,
       fab: false,
-      group_type: 'classic',
+      group_type: 0,
       groups: voice_lists.groups,
       panel: [0],
       s_groups: stream_voice_lists.groups,
@@ -328,8 +336,44 @@ export default {
   },
   async mounted() {
     this.$vuetify.theme.dark = this.$store.state.dark === 'true';
+
+    // Jump to the group if the hash is set
+    const hash = window.location.hash.replace('#', '');
+    if (hash) {
+      const groupIndex = this.groups.findIndex(group => group.id === hash);
+      if (groupIndex !== -1) {
+        this.$nextTick(() => {
+          const interval = setInterval(() => {
+            const el = document.getElementById(`panel-${hash}`);
+            if (el) {
+              clearInterval(interval);
+              this.panel = [groupIndex];
+              const y = el.getBoundingClientRect().top + window.scrollY - 64;
+              window.scrollTo({ top: y });
+            }
+          }, 100);
+        });
+      }
+
+      const sGroupIndex = this.s_groups.findIndex(group => group.id === hash);
+      if (sGroupIndex !== -1) {
+        this.$nextTick(() => {
+          this.group_type = 1;
+          const interval = setInterval(() => {
+            const el = document.getElementById(`panel-${hash}`);
+            if (el) {
+              clearInterval(interval);
+              this.s_panel = [sGroupIndex];
+              const y = el.getBoundingClientRect().top + window.scrollY - 64;
+              window.scrollTo({ top: y });
+            }
+          }, 100);
+        });
+      }
+    }
+
     await this.fetch_live_data();
-    //Media Session Metadata
+    // Media Session Metadata
     if ('mediaSession' in navigator) {
       navigator.mediaSession.setActionHandler('nexttrack', () => {
         this.play_random_voice();
@@ -369,6 +413,12 @@ export default {
       a.href = this.voice_host + item.path;
       a.download = item.path.split('/').pop();
       a.click();
+    },
+    copyLink(groupId) {
+      const url = window.location.host + '/#' + groupId;
+      navigator.clipboard.writeText(url).then(() => {
+        this.$root.$emit('show-snackbar', this.$t('action.copy_link'));
+      });
     },
     openModal(item) {
       this.is_dialog_open = true;
