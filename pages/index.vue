@@ -69,69 +69,32 @@
       </v-btn>
     </v-speed-dial>
     <v-flex xs12 sm8 md6 style="min-width: 85%">
-      <v-tabs v-model="group_type" class="group-tabs" grow>
-        <v-tab key="classic">{{ $t('tab.classic') }}</v-tab>
-        <v-tab key="stream">{{ $t('tab.stream') }}</v-tab>
-      </v-tabs>
-
-      <v-tabs-items v-model="group_type" class="group-tab-items">
-        <v-tab-item key="classic">
-          <v-expansion-panels v-model="panel" class="my-3" multiple>
-            <v-expansion-panel v-for="group in groups" :id="`panel-${group.id}`" :key="group.name">
-              <v-expansion-panel-header class="headline font-weight-bold" :class="dark_text">
-                {{ group.group_description[current_locale] }}
-                <v-chip x-small class="mx-3 flex-grow-0" color="info" outlined>{{ group.voice_list.length }}</v-chip>
-                <v-btn class="flex-grow-0" icon depressed plain @click.stop="copyLink(group.id)">
-                  <v-icon>{{ icons.link }}</v-icon>
-                </v-btn>
-              </v-expansion-panel-header>
-              <v-expansion-panel-content class="button-panel">
-                <voice-btn
-                  v-for="item in group.voice_list"
-                  ref="voice_btn"
-                  :key="item.id"
-                  :voice-id="item.id"
-                  :class="voice_button_color"
-                  :from-youtube="Boolean(item.url)"
-                  @on-play="play(item)"
-                  @on-youtube="openModal(item)"
-                  @on-download="download(item)"
-                >
-                  {{ item.description[current_locale] || item.description['zh'] }}
-                </voice-btn>
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-          </v-expansion-panels>
-        </v-tab-item>
-        <v-tab-item key="stream">
-          <v-expansion-panels v-model="s_panel" class="my-3" multiple>
-            <v-expansion-panel v-for="group in s_groups" :id="`panel-${group.id}`" :key="group.name">
-              <v-expansion-panel-header class="headline font-weight-bold" :class="dark_text">
-                {{ group.group_description[current_locale] }}
-                <v-chip x-small class="mx-3 flex-grow-0" color="info" outlined>{{ group.voice_list.length }}</v-chip>
-                <v-btn class="flex-grow-0" icon depressed plain @click.stop="copyLink(group.id)">
-                  <v-icon>{{ icons.link }}</v-icon>
-                </v-btn>
-              </v-expansion-panel-header>
-              <v-expansion-panel-content class="button-panel">
-                <voice-btn
-                  v-for="item in group.voice_list"
-                  ref="voice_btn"
-                  :key="item.id"
-                  :voice-id="item.id"
-                  :class="voice_button_color"
-                  :from-youtube="Boolean(item.url)"
-                  @on-play="play(item)"
-                  @on-youtube="openModal(item)"
-                  @on-download="download(item)"
-                >
-                  {{ item.description[current_locale] || item.description['zh'] }}
-                </voice-btn>
-              </v-expansion-panel-content>
-            </v-expansion-panel>
-          </v-expansion-panels>
-        </v-tab-item>
-      </v-tabs-items>
+      <v-expansion-panels v-model="panel" class="my-3" multiple>
+        <v-expansion-panel v-for="group in groups" :id="`panel-${group.id}`" :key="group.name">
+          <v-expansion-panel-header class="headline font-weight-bold" :class="dark_text">
+            {{ group.group_description[current_locale] }}
+            <v-chip x-small class="mx-3 flex-grow-0" color="info" outlined>{{ group.voice_list.length }}</v-chip>
+            <v-btn class="flex-grow-0" icon depressed plain @click.stop="copyLink(group.id)">
+              <v-icon>{{ icons.link }}</v-icon>
+            </v-btn>
+          </v-expansion-panel-header>
+          <v-expansion-panel-content class="button-panel">
+            <voice-btn
+              v-for="item in group.voice_list"
+              ref="voice_btn"
+              :key="item.id"
+              :voice-id="item.id"
+              :class="voice_button_color"
+              :from-youtube="Boolean(item.url)"
+              @on-play="play(item)"
+              @on-youtube="openModal(item)"
+              @on-download="download(item)"
+            >
+              {{ item.description[current_locale] || item.description['zh'] }}
+            </voice-btn>
+          </v-expansion-panel-content>
+        </v-expansion-panel>
+      </v-expansion-panels>
     </v-flex>
     <!-- <v-flex xs12 sm8 md6 style="min-width: 85%">
       <v-card v-for="(group, groupIndex) in groups" :key="group.name">
@@ -236,9 +199,9 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 
 <script>
 import voice_lists from '~/assets/voices.json';
-import stream_voice_lists from '~/assets/voices2.json';
 import VoiceBtn from '../components/VoiceBtn';
-//import SkeletonLoading from '../components/SkeletonLoading';
+// import SkeletonLoading from '../components/SkeletonLoading';
+
 import {
   mdiClockOutline,
   mdiClose,
@@ -276,8 +239,6 @@ export default {
       group_type: 0,
       groups: voice_lists.groups,
       panel: [0],
-      s_groups: stream_voice_lists.groups,
-      s_panel: [],
       now_playing: new Set(),
       upcoming_lives: [],
       lives: [],
@@ -348,22 +309,6 @@ export default {
             if (el) {
               clearInterval(interval);
               this.panel = [groupIndex];
-              const y = el.getBoundingClientRect().top + window.scrollY - 64;
-              window.scrollTo({ top: y });
-            }
-          }, 100);
-        });
-      }
-
-      const sGroupIndex = this.s_groups.findIndex(group => group.id === hash);
-      if (sGroupIndex !== -1) {
-        this.$nextTick(() => {
-          this.group_type = 1;
-          const interval = setInterval(() => {
-            const el = document.getElementById(`panel-${hash}`);
-            if (el) {
-              clearInterval(interval);
-              this.s_panel = [sGroupIndex];
               const y = el.getBoundingClientRect().top + window.scrollY - 64;
               window.scrollTo({ top: y });
             }
