@@ -3528,6 +3528,17 @@
           },
           "path": "bird-ball/hahaha-14.mp3",
           "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
+        },
+        {
+          "id": "64076da3-fbf5-49a3-86e8-4887b03d3277",
+          "name": "until-then-lol",
+          "description": {
+            "en": "玩Until Then最終章出Bug狂笑",
+            "ja": "玩Until Then最終章出Bug狂笑",
+            "zh": "玩Until Then最終章出Bug狂笑"
+          },
+          "path": "_mixed/until-then-lol.mp3",
+          "url": "https://www.youtube.com/watch?v=J7SB2aTF7Dw"
         }
       ]
     },
@@ -9084,6 +9095,17 @@
         "zh": "原神"
       },
       "voice_list": [
+        {
+          "id": "610b18b4-469f-4db8-9cd1-b0cf28de2bb1",
+          "name": "genshin-impact-on",
+          "description": {
+            "en": "原神啟動",
+            "ja": "原神啟動",
+            "zh": "原神啟動"
+          },
+          "path": "_mixed/genshin-impact-on.mp3",
+          "url": "https://www.youtube.com/watch?v=mB8E5cNlEC4"
+        },
         {
           "id": "e8f4a0b7-a302-4237-977b-e66f67d7dd9a",
           "name": "yuan-shen-chi-don",
