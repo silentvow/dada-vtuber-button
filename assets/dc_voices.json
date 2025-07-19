@@ -384,6 +384,17 @@
           },
           "path": "discord-20250304/voice-message (23).ogg",
           "url": ""
+        },
+        {
+          "id": "859f189d-49d1-4fb6-950b-01b39ad4bcbb",
+          "name": "yoda-mihumisang",
+          "description": {
+            "en": "(幼妲) 米乎咪桑! 米乎咪桑~ 米乎咪桑～ 早安～ 掰噗～",
+            "ja": "(幼妲) 米乎咪桑! 米乎咪桑~ 米乎咪桑～ 早安～ 掰噗～",
+            "zh": "(幼妲) 米乎咪桑! 米乎咪桑~ 米乎咪桑～ 早安～ 掰噗～"
+          },
+          "path": "discord/yoda-mihumisang.mp3",
+          "url": ""
         }
       ]
     },
