@@ -1,5 +1,6 @@
 import csv
 import json
+import re
 import sys
 import unicodedata
 
@@ -24,6 +25,10 @@ def convert_csv_to_json(groups_file, voices_file):
     # Read both CSV files
     groups = read_csv_file(groups_file)
     voices = read_csv_file(voices_file)
+
+    # Format description -1 to -01
+    for voice in voices:
+        voice["description_zh"] = re.sub(r'-(\d)$', r'-0\1', voice["description_zh"])
 
     # Sort the list of dictionaries by the length of the 'description_zh' field
     voices = sorted(voices, key=lambda x: (get_display_length(x["description_zh"]), x["description_zh"]))

@@ -813,28 +813,6 @@
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
         },
         {
-          "id": "9456d1a2-ce27-494a-b95a-8a326f79ed12",
-          "name": "ni4-demon",
-          "description": {
-            "en": "You're a devil-1",
-            "ja": "お前は悪魔だな-1",
-            "zh": "你是惡魔吧-1"
-          },
-          "path": "quick-answer/ni4-demon.mp3",
-          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
-        },
-        {
-          "id": "f3eba372-8535-4183-bfdd-829aa9e13a62",
-          "name": "ni4-demon-2",
-          "description": {
-            "en": "You're a devil-2",
-            "ja": "お前は悪魔だな-2",
-            "zh": "你是惡魔吧-2"
-          },
-          "path": "quick-answer/ni4-demon-2.mp3",
-          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
-        },
-        {
           "id": "4c8adcfa-dde9-43ae-bbfd-ad03ee694733",
           "name": "bro-bu-yao-ze-yang",
           "description": {
@@ -866,6 +844,28 @@
           },
           "path": "draw-avatar-10/san-shiao.mp3",
           "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "id": "9456d1a2-ce27-494a-b95a-8a326f79ed12",
+          "name": "ni4-demon",
+          "description": {
+            "en": "You're a devil-1",
+            "ja": "お前は悪魔だな-1",
+            "zh": "你是惡魔吧-01"
+          },
+          "path": "quick-answer/ni4-demon.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
+        },
+        {
+          "id": "f3eba372-8535-4183-bfdd-829aa9e13a62",
+          "name": "ni4-demon-2",
+          "description": {
+            "en": "You're a devil-2",
+            "ja": "お前は悪魔だな-2",
+            "zh": "你是惡魔吧-02"
+          },
+          "path": "quick-answer/ni4-demon-2.mp3",
+          "url": "https://www.youtube.com/watch?v=RT7G8RMKFy4"
         },
         {
           "id": "8987ab82-e040-4998-8f59-141e7b809a84",
@@ -1759,12 +1759,23 @@
           "url": "https://www.youtube.com/watch?v=2KtdzYGUSws"
         },
         {
+          "id": "526815fb-c129-4edb-ab18-e71d1611fb41",
+          "name": "fly-universe",
+          "description": {
+            "en": "Flying towards the universe~",
+            "ja": "宇宙へ飛んでいく〜",
+            "zh": "飛向宇宙～"
+          },
+          "path": "halloween-2022/fly-universe.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
           "id": "6584f4cf-49c9-4cfc-9dcc-e13edb6d382e",
           "name": "lai-dian-da-ling",
           "description": {
             "en": "Incoming Call Daling -1",
             "ja": "着信 ダーリン -1",
-            "zh": "來電妲鈴-1"
+            "zh": "來電妲鈴-01"
           },
           "path": "full-endorsement/lai-dian-da-ling.mp3",
           "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
@@ -1775,21 +1786,10 @@
           "description": {
             "en": "Incoming Call Daling -2",
             "ja": "着信 ダーリン -2",
-            "zh": "來電妲鈴-2"
+            "zh": "來電妲鈴-02"
           },
           "path": "full-endorsement/lai-dian-da-ling-2.mp3",
           "url": "https://www.youtube.com/watch?v=d1jjrW1iI0k"
-        },
-        {
-          "id": "526815fb-c129-4edb-ab18-e71d1611fb41",
-          "name": "fly-universe",
-          "description": {
-            "en": "Flying towards the universe~",
-            "ja": "宇宙へ飛んでいく〜",
-            "zh": "飛向宇宙～"
-          },
-          "path": "halloween-2022/fly-universe.mp3",
-          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
         },
         {
           "id": "5aa9dca5-22f4-42be-8034-e7bd69a11134",
@@ -2864,7 +2864,7 @@
           "description": {
             "en": "Yandere Laugh-1",
             "ja": "病んでる笑い-1",
-            "zh": "病嬌笑聲-1"
+            "zh": "病嬌笑聲-01"
           },
           "path": "valentine-lyrics-2/yandere-laugh-1.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
@@ -2875,7 +2875,7 @@
           "description": {
             "en": "Yandere Laugh-2",
             "ja": "病んでる笑い-2",
-            "zh": "病嬌笑聲-2"
+            "zh": "病嬌笑聲-02"
           },
           "path": "valentine-lyrics-2/yandere-laugh-2.mp3",
           "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
@@ -2886,7 +2886,7 @@
           "description": {
             "en": "Yandere Laugh #3",
             "ja": "病的な笑い声-3",
-            "zh": "病嬌笑聲-3"
+            "zh": "病嬌笑聲-03"
           },
           "path": "yandere-lyrics/yandere-laugh-3.mp3",
           "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
@@ -2897,7 +2897,7 @@
           "description": {
             "en": "Yandere Laugh #4",
             "ja": "病的な笑い声-4",
-            "zh": "病嬌笑聲-4"
+            "zh": "病嬌笑聲-04"
           },
           "path": "yandere-lyrics/yandere-laugh-4.mp3",
           "url": "https://www.youtube.com/watch?v=tjwJIB18U_I"
@@ -3354,105 +3354,6 @@
       },
       "voice_list": [
         {
-          "id": "a9af9a18-ad1e-4025-a169-41af54af0430",
-          "name": "ha-ha-ha-1",
-          "description": {
-            "en": "hahaha-1",
-            "ja": "ぎゃはは-1",
-            "zh": "大笑聲-1"
-          },
-          "path": "dp-toys/ha-ha-ha.mp3",
-          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
-        },
-        {
-          "id": "a159d779-f80b-4be9-91b9-540ece9a2f11",
-          "name": "ha-ha-ha-2",
-          "description": {
-            "en": "hahaha-2",
-            "ja": "ぎゃはは-2",
-            "zh": "大笑聲-2"
-          },
-          "path": "on-fire/ha-ha-ha-ha.mp3",
-          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
-        },
-        {
-          "id": "e910026b-e273-407a-b6d1-50acfa2b3e8c",
-          "name": "ha-ha-ha-3",
-          "description": {
-            "en": "hahaha-3",
-            "ja": "ぎゃはは-3",
-            "zh": "大笑聲-3"
-          },
-          "path": "draw-avatar-10/ha-ha-ha.mp3",
-          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
-        },
-        {
-          "id": "b915e76f-0c9b-4427-9802-2741c1dd2201",
-          "name": "ha-ha-ha-4",
-          "description": {
-            "en": "Hahaha -4",
-            "ja": "ぎゃはは-4",
-            "zh": "大笑聲-4"
-          },
-          "path": "mihoyo-set/ha-ha-ha-4.mp3",
-          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
-        },
-        {
-          "id": "m8nop6q4-r3m5-6q0o-1p7n-5q9r0p2o3n4m",
-          "name": "ha-ha-ha-5",
-          "description": {
-            "en": "Hahaha-5",
-            "ja": "ぎゃはは-5",
-            "zh": "大笑聲-5"
-          },
-          "path": "two-loli-blame/ha-ha-ha-5.mp3",
-          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
-        },
-        {
-          "id": "6e5924e2-0912-4c56-a1f8-8b987437b598",
-          "name": "ha-ha-ha-6",
-          "description": {
-            "en": "Big laugh sound-6",
-            "ja": "大笑い-6",
-            "zh": "大笑聲-6"
-          },
-          "path": "yoda-girlfriend/ha-ha-ha-6.mp3",
-          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
-        },
-        {
-          "id": "4d9ac706-f713-4314-9798-fbd1b2b9d8b0",
-          "name": "ha-ha-ha-7",
-          "description": {
-            "en": "Big laugh sound-7",
-            "ja": "大笑い-7",
-            "zh": "大笑聲-7"
-          },
-          "path": "news-202405/ha-ha-ha-7.mp3",
-          "url": "https://www.youtube.com/watch?v=594paetbGlU"
-        },
-        {
-          "id": "9534f479-3e58-41a8-84fe-9fca9e3950ad",
-          "name": "hahaha-8",
-          "description": {
-            "en": "laughing sound-8",
-            "ja": "大笑い-8",
-            "zh": "大笑聲-8"
-          },
-          "path": "news-202410/hahaha-8.mp3",
-          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
-        },
-        {
-          "id": "0068d000-4833-460c-842e-70a2615f2095",
-          "name": "hahaha-9",
-          "description": {
-            "en": "Loud laughter -9",
-            "ja": "大笑い-9",
-            "zh": "大笑聲-9"
-          },
-          "path": "valentine-lyrics/hahaha-9.mp3",
-          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
-        },
-        {
           "id": "8ef6baae-47a3-4c86-b9aa-0c05f389577d",
           "name": "witch-laugh",
           "description": {
@@ -3472,6 +3373,105 @@
             "zh": "邪惡笑聲"
           },
           "path": "valentine-lyrics/evil-ha-ha-ha.mp3",
+          "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
+        },
+        {
+          "id": "a9af9a18-ad1e-4025-a169-41af54af0430",
+          "name": "ha-ha-ha-1",
+          "description": {
+            "en": "hahaha-1",
+            "ja": "ぎゃはは-1",
+            "zh": "大笑聲-01"
+          },
+          "path": "dp-toys/ha-ha-ha.mp3",
+          "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
+        },
+        {
+          "id": "a159d779-f80b-4be9-91b9-540ece9a2f11",
+          "name": "ha-ha-ha-2",
+          "description": {
+            "en": "hahaha-2",
+            "ja": "ぎゃはは-2",
+            "zh": "大笑聲-02"
+          },
+          "path": "on-fire/ha-ha-ha-ha.mp3",
+          "url": "https://www.youtube.com/watch?v=OHux4hsZbjA"
+        },
+        {
+          "id": "e910026b-e273-407a-b6d1-50acfa2b3e8c",
+          "name": "ha-ha-ha-3",
+          "description": {
+            "en": "hahaha-3",
+            "ja": "ぎゃはは-3",
+            "zh": "大笑聲-03"
+          },
+          "path": "draw-avatar-10/ha-ha-ha.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E"
+        },
+        {
+          "id": "b915e76f-0c9b-4427-9802-2741c1dd2201",
+          "name": "ha-ha-ha-4",
+          "description": {
+            "en": "Hahaha -4",
+            "ja": "ぎゃはは-4",
+            "zh": "大笑聲-04"
+          },
+          "path": "mihoyo-set/ha-ha-ha-4.mp3",
+          "url": "https://www.youtube.com/watch?v=Ae4C1NN65u0"
+        },
+        {
+          "id": "m8nop6q4-r3m5-6q0o-1p7n-5q9r0p2o3n4m",
+          "name": "ha-ha-ha-5",
+          "description": {
+            "en": "Hahaha-5",
+            "ja": "ぎゃはは-5",
+            "zh": "大笑聲-05"
+          },
+          "path": "two-loli-blame/ha-ha-ha-5.mp3",
+          "url": "https://www.youtube.com/watch?v=iBZEDORzo0c"
+        },
+        {
+          "id": "6e5924e2-0912-4c56-a1f8-8b987437b598",
+          "name": "ha-ha-ha-6",
+          "description": {
+            "en": "Big laugh sound-6",
+            "ja": "大笑い-6",
+            "zh": "大笑聲-06"
+          },
+          "path": "yoda-girlfriend/ha-ha-ha-6.mp3",
+          "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
+        },
+        {
+          "id": "4d9ac706-f713-4314-9798-fbd1b2b9d8b0",
+          "name": "ha-ha-ha-7",
+          "description": {
+            "en": "Big laugh sound-7",
+            "ja": "大笑い-7",
+            "zh": "大笑聲-07"
+          },
+          "path": "news-202405/ha-ha-ha-7.mp3",
+          "url": "https://www.youtube.com/watch?v=594paetbGlU"
+        },
+        {
+          "id": "9534f479-3e58-41a8-84fe-9fca9e3950ad",
+          "name": "hahaha-8",
+          "description": {
+            "en": "laughing sound-8",
+            "ja": "大笑い-8",
+            "zh": "大笑聲-08"
+          },
+          "path": "news-202410/hahaha-8.mp3",
+          "url": "https://www.youtube.com/watch?v=oxaq7PuAOiU"
+        },
+        {
+          "id": "0068d000-4833-460c-842e-70a2615f2095",
+          "name": "hahaha-9",
+          "description": {
+            "en": "Loud laughter -9",
+            "ja": "大笑い-9",
+            "zh": "大笑聲-09"
+          },
+          "path": "valentine-lyrics/hahaha-9.mp3",
           "url": "https://www.youtube.com/watch?v=LgBPSDeT8Ls"
         },
         {
@@ -3563,94 +3563,6 @@
           "url": "https://www.youtube.com/watch?v=594paetbGlU"
         },
         {
-          "id": "0c493574-1b5b-46cc-ad29-bb10c989dd95",
-          "name": "ai-hao-1",
-          "description": {
-            "en": "Wail/Cry of Anguish-1",
-            "ja": "うめき声-1",
-            "zh": "哀嚎聲-1"
-          },
-          "path": "valentine-lyrics-2/ai-hao-1.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
-        },
-        {
-          "id": "b60314fe-09c2-470c-a466-4b3b8b1676d3",
-          "name": "arrrr-2",
-          "description": {
-            "en": "Wail/Cry of Anguish-2",
-            "ja": "うめき声-2",
-            "zh": "哀嚎聲-2"
-          },
-          "path": "valentine-lyrics-2/arrrr-2.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
-        },
-        {
-          "id": "720c9924-b0e3-4a6b-9810-49d505a67c04",
-          "name": "ai-hao-3",
-          "description": {
-            "en": "Wailing sound-3",
-            "ja": "悲鳴の音-3",
-            "zh": "哀嚎聲-3"
-          },
-          "path": "find-lover-guide/ai-hao-3.mp3",
-          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
-        },
-        {
-          "id": "74720273-8397-4d0f-80ec-75f2416b7d2f",
-          "name": "ai-hao-4",
-          "description": {
-            "en": "Wailing Sound -4",
-            "ja": "苦悶の声 -4",
-            "zh": "哀嚎聲-4"
-          },
-          "path": "halloween-2022/ai-hao-4.mp3",
-          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
-        },
-        {
-          "id": "3e6f2a1c-6333-452e-b101-4610d4e0e8c0",
-          "name": "ai-hao-5",
-          "description": {
-            "en": "Wailing sound -5",
-            "ja": "うめき声 -5",
-            "zh": "哀嚎聲-5"
-          },
-          "path": "chicken-club-ad/ai-hao-5.mp3",
-          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
-        },
-        {
-          "id": "85a73fb8-2b1f-43e5-bc53-d71f20705980",
-          "name": "ai-hao-6",
-          "description": {
-            "en": "Wailing sound -6",
-            "ja": "うめき声 -6",
-            "zh": "哀嚎聲-6"
-          },
-          "path": "chicken-club-ad/ai-hao-6.mp3",
-          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
-        },
-        {
-          "id": "33cf891e-7e73-4d70-8192-cb9ddd6aa19e",
-          "name": "ai-hao-7",
-          "description": {
-            "en": "Wailing sound -7",
-            "ja": "悲鳴-7",
-            "zh": "哀嚎聲-7"
-          },
-          "path": "thanksgiving/ai-hao-7.mp3",
-          "url": "https://www.youtube.com/watch?v=Zku9b14Vw7o"
-        },
-        {
-          "id": "3af311b8-34e9-495d-9a29-54f7b0b9e341",
-          "name": "ai-hao-8",
-          "description": {
-            "en": "Wailing sound -8",
-            "ja": "悲鳴-8",
-            "zh": "哀嚎聲-8"
-          },
-          "path": "vtuber-choice/ai-hao-8.mp3",
-          "url": "https://www.youtube.com/watch?v=nJU0T6DhOHc"
-        },
-        {
           "id": "ebe13e22-7562-482d-b543-e8e0eec009ea",
           "name": "waaaa",
           "description": {
@@ -3693,6 +3605,94 @@
           },
           "path": "gugu-pizza/wtf-la.mp3",
           "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8"
+        },
+        {
+          "id": "0c493574-1b5b-46cc-ad29-bb10c989dd95",
+          "name": "ai-hao-1",
+          "description": {
+            "en": "Wail/Cry of Anguish-1",
+            "ja": "うめき声-1",
+            "zh": "哀嚎聲-01"
+          },
+          "path": "valentine-lyrics-2/ai-hao-1.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "b60314fe-09c2-470c-a466-4b3b8b1676d3",
+          "name": "arrrr-2",
+          "description": {
+            "en": "Wail/Cry of Anguish-2",
+            "ja": "うめき声-2",
+            "zh": "哀嚎聲-02"
+          },
+          "path": "valentine-lyrics-2/arrrr-2.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
+          "id": "720c9924-b0e3-4a6b-9810-49d505a67c04",
+          "name": "ai-hao-3",
+          "description": {
+            "en": "Wailing sound-3",
+            "ja": "悲鳴の音-3",
+            "zh": "哀嚎聲-03"
+          },
+          "path": "find-lover-guide/ai-hao-3.mp3",
+          "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
+        },
+        {
+          "id": "74720273-8397-4d0f-80ec-75f2416b7d2f",
+          "name": "ai-hao-4",
+          "description": {
+            "en": "Wailing Sound -4",
+            "ja": "苦悶の声 -4",
+            "zh": "哀嚎聲-04"
+          },
+          "path": "halloween-2022/ai-hao-4.mp3",
+          "url": "https://www.youtube.com/watch?v=9oB8Q9j6ZR8"
+        },
+        {
+          "id": "3e6f2a1c-6333-452e-b101-4610d4e0e8c0",
+          "name": "ai-hao-5",
+          "description": {
+            "en": "Wailing sound -5",
+            "ja": "うめき声 -5",
+            "zh": "哀嚎聲-05"
+          },
+          "path": "chicken-club-ad/ai-hao-5.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
+          "id": "85a73fb8-2b1f-43e5-bc53-d71f20705980",
+          "name": "ai-hao-6",
+          "description": {
+            "en": "Wailing sound -6",
+            "ja": "うめき声 -6",
+            "zh": "哀嚎聲-06"
+          },
+          "path": "chicken-club-ad/ai-hao-6.mp3",
+          "url": "https://www.youtube.com/watch?v=lMDvApKUkms"
+        },
+        {
+          "id": "33cf891e-7e73-4d70-8192-cb9ddd6aa19e",
+          "name": "ai-hao-7",
+          "description": {
+            "en": "Wailing sound -7",
+            "ja": "悲鳴-7",
+            "zh": "哀嚎聲-07"
+          },
+          "path": "thanksgiving/ai-hao-7.mp3",
+          "url": "https://www.youtube.com/watch?v=Zku9b14Vw7o"
+        },
+        {
+          "id": "3af311b8-34e9-495d-9a29-54f7b0b9e341",
+          "name": "ai-hao-8",
+          "description": {
+            "en": "Wailing sound -8",
+            "ja": "悲鳴-8",
+            "zh": "哀嚎聲-08"
+          },
+          "path": "vtuber-choice/ai-hao-8.mp3",
+          "url": "https://www.youtube.com/watch?v=nJU0T6DhOHc"
         },
         {
           "id": "59af69d9-1a48-4e82-b55c-ced2dbe03e9b",
@@ -3937,12 +3937,23 @@
           "url": "https://www.youtube.com/watch?v=2EhvSPILfU8"
         },
         {
+          "id": "9159d931-e24c-40e0-8bd2-b33315237b31",
+          "name": "beast-senpai",
+          "description": {
+            "en": "Senpai Beast's Roar",
+            "ja": "野獣先輩の咆哮",
+            "zh": "野獸前輩嘶吼"
+          },
+          "path": "valentine-lyrics-2/beast-senpai.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
+        },
+        {
           "id": "bc4ff100-772f-4fb0-a5d0-682f33629e7e",
           "name": "du-jiao-shou-jiao",
           "description": {
             "en": "Unicorn sound 1",
             "ja": "ユニコーンの鳴き声1",
-            "zh": "獨角獸叫聲-1"
+            "zh": "獨角獸叫聲-01"
           },
           "path": "dp-toys/du-jiao-shou-jiao.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
@@ -3953,7 +3964,7 @@
           "description": {
             "en": "Unicorn sound 2",
             "ja": "ユニコーンの鳴き声2",
-            "zh": "獨角獸叫聲-2"
+            "zh": "獨角獸叫聲-02"
           },
           "path": "dp-toys/du-jiao-shou-jiao-2.mp3",
           "url": "https://www.youtube.com/watch?v=tSFsDLqfUkI"
@@ -3964,21 +3975,10 @@
           "description": {
             "en": "Unicorn Sound 3",
             "ja": "ユニコーンの鳴き声3",
-            "zh": "獨角獸叫聲-3"
+            "zh": "獨角獸叫聲-03"
           },
           "path": "lazy-against/unicorn-scream-2.mp3",
           "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI"
-        },
-        {
-          "id": "9159d931-e24c-40e0-8bd2-b33315237b31",
-          "name": "beast-senpai",
-          "description": {
-            "en": "Senpai Beast's Roar",
-            "ja": "野獣先輩の咆哮",
-            "zh": "野獸前輩嘶吼"
-          },
-          "path": "valentine-lyrics-2/beast-senpai.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w"
         },
         {
           "id": "31d7d633-662a-4e54-8a89-6e889f7fe5a6",
@@ -4465,12 +4465,23 @@
           "url": "https://www.youtube.com/watch?v=uduc7-GuIV8"
         },
         {
+          "id": "af9f7a0c-8cf8-42d5-bb99-3d468f727d17",
+          "name": "salary-mushroom",
+          "description": {
+            "en": "Mushroom mushroom - Corporate slave version",
+            "ja": "キノコキノコ 社畜バージョン",
+            "zh": "蘑菇蘑菇 社畜版"
+          },
+          "path": "work-3-bus/salary-mushroom.mp3",
+          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
+        },
+        {
           "id": "2ecc1fde-8b5d-4d53-9d94-6ece668b1b48",
           "name": "rainy-love",
           "description": {
             "en": "Rain Love Lyrics Remix - 1",
             "ja": "雨愛歌詞アレンジ - 1",
-            "zh": "雨愛歌詞改編-1"
+            "zh": "雨愛歌詞改編-01"
           },
           "path": "real-da-agree/rainy-love.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
@@ -4481,7 +4492,7 @@
           "description": {
             "en": "Rain Love Lyrics Remix - 2",
             "ja": "雨愛歌詞アレンジ - 2",
-            "zh": "雨愛歌詞改編-2"
+            "zh": "雨愛歌詞改編-02"
           },
           "path": "real-da-agree/rainy-love-2.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
@@ -4492,21 +4503,10 @@
           "description": {
             "en": "Rain Love Lyrics Remix - 3",
             "ja": "雨愛歌詞アレンジ - 3",
-            "zh": "雨愛歌詞改編-3"
+            "zh": "雨愛歌詞改編-03"
           },
           "path": "real-da-agree/rainy-love-3.mp3",
           "url": "https://www.youtube.com/watch?v=tx7TsAZvM4w"
-        },
-        {
-          "id": "af9f7a0c-8cf8-42d5-bb99-3d468f727d17",
-          "name": "salary-mushroom",
-          "description": {
-            "en": "Mushroom mushroom - Corporate slave version",
-            "ja": "キノコキノコ 社畜バージョン",
-            "zh": "蘑菇蘑菇 社畜版"
-          },
-          "path": "work-3-bus/salary-mushroom.mp3",
-          "url": "https://www.youtube.com/watch?v=aOgFt02YhNM"
         },
         {
           "id": "df0a971d-d2fe-4e23-93ba-1e82a996b14f",
@@ -5889,7 +5889,7 @@
           "description": {
             "en": "Three consecutive dinggongs.",
             "ja": "釘宮三連-2",
-            "zh": "釘宮三連-2"
+            "zh": "釘宮三連-02"
           },
           "path": "yoda-girlfriend/din-gon-san-lian-2.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
@@ -6472,7 +6472,7 @@
           "description": {
             "en": "Yandere laugh-1",
             "ja": "ヤンデレの笑い声-1",
-            "zh": "病嬌笑聲-1"
+            "zh": "病嬌笑聲-01"
           },
           "path": "yoda-girlfriend/yoda-bin-jiao-shiao.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0"
@@ -6483,7 +6483,7 @@
           "description": {
             "en": "Yandere laugh -2",
             "ja": "ヤンデレ笑い -2",
-            "zh": "病嬌笑聲-2"
+            "zh": "病嬌笑聲-02"
           },
           "path": "yoda-yandere/yoda-yandere-laugh-2.mp3",
           "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
@@ -6494,7 +6494,7 @@
           "description": {
             "en": "Yandere laugh -3",
             "ja": "ヤンデレ笑い -3",
-            "zh": "病嬌笑聲-3"
+            "zh": "病嬌笑聲-03"
           },
           "path": "yoda-yandere/yoda-yandere-laugh-3.mp3",
           "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
@@ -6505,7 +6505,7 @@
           "description": {
             "en": "Yandere laugh -4",
             "ja": "ヤンデレ笑い -4",
-            "zh": "病嬌笑聲-4"
+            "zh": "病嬌笑聲-04"
           },
           "path": "yoda-yandere/yoda-yandere-laugh-4.mp3",
           "url": "https://www.youtube.com/watch?v=TUoFqWW7XRw"
