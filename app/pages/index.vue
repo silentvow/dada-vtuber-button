@@ -1,6 +1,26 @@
 <template>
-  <v-container class="d-flex flex-column align-center px-0" fluid>
+  <v-container class="d-flex flex-column align-center px-0 pt-0" fluid>
     <v-col cols="12" class="pa-0" style="min-width: 85%">
+      <div class="d-flex mb-4">
+        <v-chip-group
+          v-model="selectedYear"
+          mandatory
+          selected-class="selected-year"
+        >
+          <v-chip
+            v-for="year in availableYears"
+            :key="year"
+            :value="year"
+            label
+            size="x-large"
+            variant="outlined"
+            class="font-weight-bold px-6"
+          >
+            {{ year === 'All' ? allYearLabel : year }}
+          </v-chip>
+        </v-chip-group>
+      </div>
+
       <v-expansion-panels v-model="panel" multiple>
         <v-expansion-panel v-for="group in groups" :id="`panel-${group.id}`" :key="group.name">
           <v-expansion-panel-title class="font-bold" :class="dark_text">
@@ -76,10 +96,47 @@ const snackbar = useSnackbar();
 const { gtag } = useGtag();
 
 // 狀態變數
-const groups = ref(voice_lists.groups);
 const panel = ref([0]);
 const is_dialog_open = ref(false);
 const dialog_item = ref({ description: {}, url: '' });
+
+const selectedYear = ref('All');
+
+// 💡 2. 動態從 json 提取所有年份，並由新到舊排序
+const availableYears = computed(() => {
+  const years = new Set();
+  voice_lists.groups.forEach(g => {
+    g.voice_list.forEach(v => {
+      if (v.year) years.add(v.year);
+    });
+  });
+  // 回傳 ['All', '2024', '2023', ...]
+  return ['All', ...Array.from(years).sort((a, b) => b.localeCompare(a))];
+});
+
+// 💡 3. 多語系「全部」按鈕的顯示文字
+const allYearLabel = computed(() => {
+  if (current_locale.value === 'ja') return 'すべて';
+  if (current_locale.value === 'en') return 'All';
+  return '全部';
+});
+
+// 💡 4. 【關鍵】將原本寫死的 groups 改成 Computed，自動根據年份過濾
+const groups = computed(() => {
+  return voice_lists.groups.map(group => {
+    // 過濾該群組的聲音列表
+    const filteredVoices = group.voice_list.filter(voice => {
+      if (selectedYear.value === 'All') return true;
+      return voice.year === selectedYear.value;
+    });
+
+    // 回傳新的群組物件，且只包含符合年份的聲音
+    return {
+      ...group,
+      voice_list: filteredVoices
+    };
+  }).filter(group => group.voice_list.length > 0); // 若該群組過濾後沒有聲音，整個群組就不顯示
+});
 
 // 計算屬性
 const current_locale = computed(() => locale.value);
@@ -212,5 +269,14 @@ useHead({
 
 .gap-2 {
   gap: 8px;
+}
+
+.selected-year {
+  background-color: rgb(var(--v-theme-primary)) !important;
+  color: rgba(0, 0, 0,  0.87);
+}
+
+.v-theme--dark.selected-year {
+  color: white;
 }
 </style>

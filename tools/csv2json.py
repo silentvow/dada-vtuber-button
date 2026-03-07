@@ -70,6 +70,7 @@ def convert_csv_to_json(groups_file, voices_file):
                     },
                     "path": voice["path"],
                     "url": voice["url"],
+                    "year": voice[""][0:4],
                 }
                 if voice.get("TBD") == "*":
                     voice_data["TBD"] = True
