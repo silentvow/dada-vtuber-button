@@ -1,0 +1,42 @@
+[
+  {
+    "icon": "/img/youtube-fill.svg",
+    "title": "YouTube",
+    "to": "https://www.youtube.com/@ReLiveDaDa"
+  },
+  {
+    "icon": "/img/twitter-fill.svg",
+    "title": "X (Twitter)",
+    "to": "https://x.com/DadaRelive"
+  },
+  {
+    "icon": "/img/twitch-fill.svg",
+    "title": "Twitch",
+    "to": "https://www.twitch.tv/grayda0105"
+  },
+  {
+    "icon": "/img/facebook-fill.svg",
+    "title": "Facebook",
+    "to": "https://www.facebook.com/ParrotDaRelive"
+  },
+  {
+    "icon": "/img/instagram-fill.svg",
+    "title": "Instagram",
+    "to": "https://www.instagram.com/grayda0105"
+  },
+  {
+    "icon": "/img/threads-fill.svg",
+    "title": "Threads",
+    "to": "https://www.threads.com/@grayda0105"
+  },
+  {
+    "icon": "/img/plurk-fill.svg",
+    "title": "Plurk",
+    "to": "https://www.plurk.com/grayda0105"
+  },
+  {
+    "icon": "/img/bsky-fill.svg",
+    "title": "Bluesky",
+    "to": "https://bsky.app/profile/dadarelive.bsky.social"
+  }
+]

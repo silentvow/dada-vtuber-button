@@ -1,11 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
-/logs
+logs
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
 
 # Runtime data
 pids
@@ -56,8 +54,10 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
-# dotenv environment variables file
+# Local env files
 .env
+.env.*
+!.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -65,10 +65,12 @@ typings/
 # next.js build output
 .next
 
-# nuxt.js build output
+# Nuxt dev/build outputs
+.output
+.data
 .nuxt
-
-# Nuxt generate
+.nitro
+.cache
 dist
 
 # vuepress build output
@@ -84,8 +86,10 @@ dist
 # Service worker
 sw.*
 
-# macOS
+# Misc
 .DS_Store
+.fleet
+.idea
 
 # Windows
 Thumbs.db

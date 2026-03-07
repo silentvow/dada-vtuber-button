@@ -1,65 +1,78 @@
-.v-application .elevation-2.theme--dark {
-  box-shadow: 
-  0px 1px 2px rgba(255, 255, 255, 0.1),  /* 輕微白色 */
-  0px 1px 3px rgba(0, 0, 0, 0.2),        /* 基本陰影 */
-  0px 0px 4px rgba(255, 255, 255, 0.04) !important; /* 模擬環境光 */
+/* =========================================
+   1. 深色模式下的客製化陰影 (Elevation)
+========================================= */
+/* 讓帶有 elevation-x 的元件在深色模式下發光 */
+.v-theme--dark.elevation-2,
+.v-theme--dark .elevation-2 {
+  box-shadow:
+    0px 1px 2px rgba(255, 255, 255, 0.1),
+    /* 輕微白色 */ 0px 1px 3px rgba(0, 0, 0, 0.2),
+    /* 基本陰影 */ 0px 0px 4px rgba(255, 255, 255, 0.04) !important; /* 模擬環境光 */
 }
 
-.v-application .elevation-4.theme--dark {
-  box-shadow: 
-  0px 2px 4px rgba(255, 255, 255, 0.08), /* 柔和白光 */
-  0px 3px 6px rgba(0, 0, 0, 0.24),       /* 深色陰影 */
-  0px 0px 6px rgba(255, 255, 255, 0.05) !important; /* 輕微的白光暈 */
-
+.v-theme--dark.elevation-4,
+.v-theme--dark .elevation-4 {
+  box-shadow:
+    0px 2px 4px rgba(255, 255, 255, 0.08),
+    /* 柔和白光 */ 0px 3px 6px rgba(0, 0, 0, 0.24),
+    /* 深色陰影 */ 0px 0px 6px rgba(255, 255, 255, 0.05) !important; /* 輕微的白光暈 */
 }
 
-.v-application .elevation-6.theme--dark {
-  box-shadow: 
-  0px 4px 8px rgba(255, 255, 255, 0.06), /* 白色擴散光 */
-  0px 6px 12px rgba(0, 0, 0, 0.3),       /* 黑色陰影主體 */
-  0px 0px 10px rgba(255, 255, 255, 0.04) !important; /* 高亮環境光 */
+.v-theme--dark.elevation-6,
+.v-theme--dark .elevation-6 {
+  box-shadow:
+    0px 4px 8px rgba(255, 255, 255, 0.06),
+    /* 白色擴散光 */ 0px 6px 12px rgba(0, 0, 0, 0.3),
+    /* 黑色陰影主體 */ 0px 0px 10px rgba(255, 255, 255, 0.04) !important; /* 高亮環境光 */
 }
 
-.v-application .v-card.theme--light {
-  background-color: #FFFFFF;
+/* =========================================
+   2. 卡片 (v-card) 的交替背景色
+========================================= */
+/* 淺色模式 */
+.v-theme--light.v-card {
+  background-color: #ffffff !important;
+}
+.v-theme--light.v-card:nth-child(even) {
+  background-color: #ffedee !important;
+}
+.v-card .v-theme--light.v-card {
+  background-color: #ffedee !important;
 }
 
-.v-application .v-card.theme--light:nth-child(even) {
-  background-color: #FFEDEE;
+/* 深色模式 */
+.v-theme--dark.v-card {
+  background-color: #1e1e1e !important;
+}
+.v-theme--dark.v-card:nth-child(even) {
+  background-color: #3a1212 !important;
+}
+.v-card .v-theme--dark.v-card {
+  background-color: #3a1212 !important;
 }
 
-.v-application .v-card .v-card.theme--light {
-  background-color: #FFEDEE;
+/* =========================================
+   3. 展開面板 (v-expansion-panel) 的交替背景色
+========================================= */
+/* 淺色模式 */
+.v-theme--light.v-expansion-panels .v-expansion-panel {
+  background-color: #ffffff !important;
+}
+.v-theme--light.v-expansion-panels .v-expansion-panel:nth-child(even) {
+  background-color: #ffedee !important;
 }
 
-.v-application .v-card.theme--dark {
-  background-color: #1E1E1E;
+/* 深色模式 */
+.v-theme--dark.v-expansion-panels .v-expansion-panel {
+  background-color: #1e1e1e !important;
+}
+.v-theme--dark.v-expansion-panels .v-expansion-panel:nth-child(even) {
+  background-color: #3a1212 !important;
 }
 
-.v-application .v-card.theme--dark:nth-child(even) {
-  background-color: #3A1212;
-}
-
-.v-application .v-card .v-card.theme--dark {
-  background-color: #3A1212;
-}
-
-.v-application .theme--light.v-expansion-panels .v-expansion-panel {
-  background-color: #FFFFFF;
-}
-
-.v-application .theme--light.v-expansion-panels .v-expansion-panel:nth-child(even) {
-  background-color: #FFEDEE;
-}
-
-.v-application .theme--dark.v-expansion-panels .v-expansion-panel {
-  background-color: #1E1E1E;
-}
-
-.v-application .theme--dark.v-expansion-panels .v-expansion-panel:nth-child(even) {
-  background-color: #3A1212;
-}
-
+/* =========================================
+   4. 自訂按鈕排版與全局變數
+========================================= */
 .button-container {
   display: flex;
   flex-wrap: wrap;

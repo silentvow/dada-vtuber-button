@@ -1,26 +1,50 @@
 <template>
-  <v-layout column justify-center align-center app>
-    <v-card class="readme-card">
-      <v-card-text>
-        <div class="markdown-body" v-html="about_md"></div>
-      </v-card-text>
-    </v-card>
-  </v-layout>
+  <v-container fluid class="px-2">
+    <v-row justify="center" class="ma-0">
+      <v-col cols="12" sm="10" md="8" lg="8">
+        <v-card class="readme-card pa-4 rounded-lg elevation-2">
+          <v-card-text>
+            <div class="markdown-body" v-html="about_md"></div>
+          </v-card-text>
+        </v-card>
+      </v-col>
+    </v-row>
+  </v-container>
 </template>
-<script>
-import privacy from '../PRIVACY.md';
-export default {
-  data: function () {
-    return {
-      about_md: privacy
-    };
-  }
-};
+
+<script setup>
+import { computed } from 'vue';
+import MarkdownIt from 'markdown-it';
+// 關鍵：使用 ?raw 讓 Vite 將 Markdown 檔案作為純字串讀取
+import privacyRaw from '~~/PRIVACY.md?raw';
+
+const { t } = useI18n();
+
+// 初始化 Markdown 解析器 (保留你舊版 nuxt.config 的參數設定)
+const md = new MarkdownIt({
+  html: true,
+  linkify: true,
+  breaks: false
+});
+
+// 將純字串轉換為 HTML
+const about_md = computed(() => md.render(privacyRaw));
+
+useHead({
+  title: computed(() => `${t('site.privacy')} - ${t('site.title')}`)
+});
 </script>
-<style lang="css">
+
+<style>
+/* 保留原本無 scoped 的 <style> 標籤！
+  因為 v-html 渲染出來的內容，如果是 scoped 的 CSS 會無法穿透並套用。
+  你原本寫的 CSS 都有 .markdown-body 前綴，所以不用擔心會污染到其他頁面。
+*/
+
 .readme-card {
   margin-bottom: 16px;
 }
+
 .markdown-body .octicon {
   display: inline-block;
   fill: currentColor;
@@ -84,7 +108,14 @@ export default {
   -webkit-text-size-adjust: 100%;
   line-height: 1.5;
   /*color: #24292e;*/
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji,
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Helvetica,
+    Arial,
+    sans-serif,
+    Apple Color Emoji,
     Segoe UI Emoji;
   font-size: 16px;
   line-height: 1.5;
@@ -207,14 +238,19 @@ export default {
   padding: 0;
 }
 
-.markdown-body details summary {
+.markdo w n-body details summa r y {
   cursor: pointer;
 }
 
 .markdown-body kbd {
   display: inline-block;
   padding: 3px 5px;
-  font: 11px SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font:
+    11px SFMono-Regular,
+    Consolas,
+    Liberation Mono,
+    Menlo,
+    monospace;
   line-height: 10px;
   color: #444d56;
   vertical-align: middle;
@@ -307,7 +343,12 @@ export default {
 
 .markdown-body code,
 .markdown-body pre {
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-family:
+    SFMono-Regular,
+    Consolas,
+    Liberation Mono,
+    Menlo,
+    monospace;
   font-size: 12px;
 }
 
@@ -626,7 +667,12 @@ export default {
 .markdown-body kbd {
   display: inline-block;
   padding: 3px 5px;
-  font: 11px SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font:
+    11px SFMono-Regular,
+    Consolas,
+    Liberation Mono,
+    Menlo,
+    monospace;
   line-height: 10px;
   color: #444d56;
   vertical-align: middle;
@@ -850,7 +896,8 @@ export default {
 
 .markdown-body .highlight pre,
 .markdown-body pre {
-  padding: 16px;
+  padding: 16p x;
+
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
@@ -872,7 +919,12 @@ export default {
 
 .markdown-body .commit-tease-sha {
   display: inline-block;
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-family:
+    SFMono-Regular,
+    Consolas,
+    Liberation Mono,
+    Menlo,
+    monospace;
   font-size: 90%;
   color: #444d56;
 }
@@ -897,7 +949,13 @@ export default {
   min-width: 50px;
   padding-right: 10px;
   padding-left: 10px;
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-family:
+    SFMono-Regular,
+    Consolas,
+    Liberation Mono,
+    Menlo,
+    monospace;
+
   font-size: 12px;
   line-height: 20px;
   color: rgba(27, 31, 35, 0.3);
@@ -929,7 +987,12 @@ export default {
 
 .markdown-body .blob-code-inner {
   overflow: visible;
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-family:
+    SFMono-Regular,
+    Consolas,
+    Liberation Mono,
+    Menlo,
+    monospace;
   font-size: 12px;
   /*color: #24292e;*/
   word-wrap: normal;
@@ -977,7 +1040,7 @@ export default {
   tab-size: 7;
 }
 
-.markdown-body .tab-size[data-tab-size='8'] {
+.markdow n-body .tab-size[data-tab-size='8'] {
   -moz-tab-size: 8;
   tab-size: 8;
 }

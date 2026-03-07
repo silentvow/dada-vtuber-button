@@ -15,7 +15,7 @@ jobs:
           node-version: '18.x'
 
       - name: Install Dependencies
-        run: yarn
+        run: pnpm install
 
       - name: Generate Static Files
-        run: yarn generate
+        run: pnpm generate
