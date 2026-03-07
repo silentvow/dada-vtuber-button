@@ -155,7 +155,7 @@ const play = item => {
     voice_host.value,
     item.description[current_locale.value],
     t('control.full_name'),
-    t('site.favorite'),
+    t('site.title'),
     play_random_voice
   );
   send_google_event(item);

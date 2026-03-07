@@ -63,7 +63,6 @@
               <VoiceBtn
                 v-for="item in group.voice_list"
                 :key="item.id"
-                :ref="el => setVoiceBtnRef(el, item.id)"
                 :voice-id="item.id"
                 :from-youtube="false"
                 @on-play="play(item)"
@@ -81,30 +80,26 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue';
 import voice_lists from '~~/assets/dc_voices.json';
+// 💡 引入 AudioStore 與 Snackbar
+import { useAudioStore } from '~/stores/audio';
+import { useSnackbar } from '~/composables/useSnackbar';
 
 const { t, locale } = useI18n();
 const settings = useSettingsStore();
-// 使用 Nuxt 4 內建的環境變數設定
+const audioStore = useAudioStore();
+const snackbar = useSnackbar();
 const config = useRuntimeConfig();
-// 使用 Nuxt 4 內建的 Cookie 管理 (取代原本的 cookie-universal-nuxt)
 const discordCookie = useCookie('discord_token');
 const { gtag } = useGtag();
 
 // 狀態變數
 const groups = ref(voice_lists.groups);
-const now_playing = ref(new Set());
+// 💡 移除了 `now_playing` 與 `voiceBtnRefs` 等舊版手動管理的狀態
 const loading = ref(true);
 const error = ref(null);
 const account = ref(null);
 const member = ref(null);
 const panel = ref([]);
-
-// Refs for VoiceBtn
-const voiceBtnRefs = ref(new Map());
-const setVoiceBtnRef = (el, id) => {
-  if (el) voiceBtnRefs.value.set(id, el);
-  else voiceBtnRefs.value.delete(id);
-};
 
 // 計算屬性
 const dark_text = computed(() => ({
@@ -132,12 +127,10 @@ onMounted(() => {
     const token = params.get('access_token');
     if (token) {
       discordCookie.value = token;
-      // 清理網址欄，不讓 token 留在畫面上
       window.history.replaceState(null, '', window.location.pathname);
     }
   }
 
-  // 延遲 1 秒後開始取得帳號資訊
   setTimeout(() => fetchAccountInfo(), 1000);
 });
 
@@ -147,12 +140,11 @@ const fetchAccountInfo = async () => {
   error.value = null;
   try {
     const token = discordCookie.value;
-    if (!token) throw new Error(''); // 沒有 Token，觸發未登入 UI
+    if (!token) throw new Error('');
 
     const headers = { Authorization: `Bearer ${token}` };
     const apiBase = config.public.DISCORD_API_BASE || 'https://discord.com/api';
 
-    // 使用原生的 fetch 取代 axios
     const accountRes = await fetch(`${apiBase}/users/@me`, { headers });
     if (accountRes.status === 401) throw new Error('member.error_authorization_required');
     else if (accountRes.status === 403) throw new Error('member.error_forbidden');
@@ -180,10 +172,19 @@ const redirectToDiscordAuth = () => {
 };
 
 const logout = () => {
-  discordCookie.value = null; // 刪除 Cookie
+  discordCookie.value = null;
   account.value = null;
   member.value = null;
   error.value = 'member.error_logout';
+};
+
+// 💡 補上 Template 裡呼叫但遺失的 copyLink 函數
+const copyLink = (id) => {
+  const url = `${window.location.origin}${window.location.pathname}#panel-${id}`;
+  navigator.clipboard.writeText(url).then(() => {
+    // 假設你的翻譯檔有 action.copy_success，若沒有會回退顯示預設文字
+    snackbar.show(t('action.copy_success') || '連結已複製');
+  });
 };
 
 const send_google_event = item => {
@@ -196,72 +197,14 @@ const send_google_event = item => {
 };
 
 const play = item => {
-  const btnRef = voiceBtnRefs.value.get(item.id);
-  let timer = null;
-
-  // 中斷目前正在播放的語音
-  now_playing.value.forEach(audio => {
-    audio.pause();
-    now_playing.value.delete(audio);
-  });
-
-  const clear_timer = () => {
-    if (timer) clearInterval(timer);
-    timer = null;
-  };
-
-  const setup_timer = audio => {
-    clear_timer();
-    timer = setInterval(() => {
-      const prog = Number(((audio.currentTime / audio.duration) * 100).toFixed(2));
-      if (btnRef) btnRef.progress = prog !== Infinity && !isNaN(prog) ? prog : 0;
-    }, 50);
-  };
-
-  const smooth_end = () => {
-    if (btnRef) {
-      btnRef.progress = 0;
-      btnRef.playing = false;
-    }
-  };
-
-  const audio = new Audio(voice_host.value + item.path);
-  audio.load();
-
-  if ('mediaSession' in navigator) {
-    const metadata = {
-      title: item.description[current_locale.value],
-      artist: t('control.full_name'),
-      album: t('site.title'),
-      artwork: [{ src: '/img/media-cover.png', sizes: '128x128', type: 'image/png' }]
-    };
-    navigator.mediaSession.metadata = new window.MediaMetadata(metadata);
-    navigator.mediaSession.playbackState = 'playing';
-  }
-
-  audio.addEventListener('canplay', () => {
-    audio.volume = settings.volume * 0.01;
-    audio.play();
-    now_playing.value.add(audio);
-    send_google_event(item);
-    if (btnRef) btnRef.playing = true;
-    setup_timer(audio);
-  });
-
-  audio.addEventListener('ended', () => {
-    smooth_end();
-    clear_timer();
-    now_playing.value.delete(audio);
-  });
-
-  audio.addEventListener('pause', () => {
-    smooth_end();
-    clear_timer();
-    now_playing.value.delete(audio);
-    if ('mediaSession' in navigator) {
-      navigator.mediaSession.playbackState = 'paused';
-    }
-  });
+  audioStore.play(
+    item,
+    voice_host.value,
+    item.description[current_locale.value],
+    t('control.full_name'),
+    t('site.title')
+  );
+  send_google_event(item);
 };
 
 useHead({

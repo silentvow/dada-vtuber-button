@@ -265,12 +265,13 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
   text-align: start;
   padding-left: 12px;
   padding-right: 12px;
+  position: relative;
 }
 
 .vo-btn div:after {
   content: var(--hover-content);
   position: absolute;
-  right: 0px;
+  right: -10px;
   opacity: 0;
   transition: 0.5s $nonlinear-transition;
   width: 20px;
@@ -284,7 +285,7 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
 
 .vo-btn:hover div:after {
   opacity: 1;
-  right: 10px;
+  right: 0px;
   text-align: center;
 }
 
