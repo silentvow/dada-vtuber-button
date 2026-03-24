@@ -89,6 +89,12 @@ export const useAudioStore = defineStore('audio', {
         }
       });
 
+      audio.addEventListener('error', () => {
+        cleanup();
+        const { $i18n } = useNuxtApp();
+        useSnackbar().show($i18n.t('action.audio_error'));
+      });
+
       // 綁定自訂的 abort 方法到物件上
       (audio as any).abort_play = () => {
         audio.pause();

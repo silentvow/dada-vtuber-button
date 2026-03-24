@@ -1,5 +1,6 @@
 {
   "action": {
+    "audio_error": "Failed to load audio, please try again later.",
     "copy_link": "Link Copied",
     "download": "Download",
     "like": "Like",
@@ -71,6 +72,9 @@
     "refresh": "Refresh",
     "unlink": "Unlink",
     "welcome": "Welcome"
+  },
+  "favorite": {
+    "empty": "No voices have been favorited yet! Go to the home page and click the heart icon."
   },
   "site": {
     "about": "About",

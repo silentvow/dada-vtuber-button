@@ -896,7 +896,7 @@ useHead({
 
 .markdown-body .highlight pre,
 .markdown-body pre {
-  padding: 16p x;
+  padding: 16px;
 
   overflow: auto;
   font-size: 85%;

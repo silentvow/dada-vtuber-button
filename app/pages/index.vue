@@ -2,11 +2,7 @@
   <v-container class="d-flex flex-column align-center px-0 pt-0" fluid>
     <v-col cols="12" class="pa-0" style="min-width: 85%">
       <div class="d-flex mb-4">
-        <v-chip-group
-          v-model="selectedYear"
-          mandatory
-          selected-class="selected-year"
-        >
+        <v-chip-group v-model="selectedYear" mandatory selected-class="selected-year">
           <v-chip
             v-for="year in availableYears"
             :key="year"
@@ -123,19 +119,21 @@ const allYearLabel = computed(() => {
 
 // 💡 4. 【關鍵】將原本寫死的 groups 改成 Computed，自動根據年份過濾
 const groups = computed(() => {
-  return voice_lists.groups.map(group => {
-    // 過濾該群組的聲音列表
-    const filteredVoices = group.voice_list.filter(voice => {
-      if (selectedYear.value === 'All') return true;
-      return voice.year === selectedYear.value;
-    });
+  return voice_lists.groups
+    .map(group => {
+      // 過濾該群組的聲音列表
+      const filteredVoices = group.voice_list.filter(voice => {
+        if (selectedYear.value === 'All') return true;
+        return voice.year === selectedYear.value;
+      });
 
-    // 回傳新的群組物件，且只包含符合年份的聲音
-    return {
-      ...group,
-      voice_list: filteredVoices
-    };
-  }).filter(group => group.voice_list.length > 0); // 若該群組過濾後沒有聲音，整個群組就不顯示
+      // 回傳新的群組物件，且只包含符合年份的聲音
+      return {
+        ...group,
+        voice_list: filteredVoices
+      };
+    })
+    .filter(group => group.voice_list.length > 0); // 若該群組過濾後沒有聲音，整個群組就不顯示
 });
 
 // 計算屬性
@@ -168,15 +166,14 @@ onMounted(() => {
     const groupIndex = groups.value.findIndex(g => g.id === hash);
     if (groupIndex !== -1) {
       nextTick(() => {
-        const interval = setInterval(() => {
+        requestAnimationFrame(() => {
           const el = document.getElementById(`panel-${hash}`);
           if (el) {
-            clearInterval(interval);
             panel.value = [groupIndex];
             const y = el.getBoundingClientRect().top + window.scrollY - 64;
             window.scrollTo({ top: y });
           }
-        }, 100);
+        });
       });
     }
   }
@@ -273,7 +270,7 @@ useHead({
 
 .selected-year {
   background-color: rgb(var(--v-theme-primary)) !important;
-  color: rgba(0, 0, 0,  0.87);
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .v-theme--dark.selected-year {

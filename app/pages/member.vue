@@ -78,7 +78,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue';
+import { ref, computed, onMounted, onUnmounted } from 'vue';
 import voice_lists from '~~/assets/dc_voices.json';
 // 💡 引入 AudioStore 與 Snackbar
 import { useAudioStore } from '~/stores/audio';
@@ -100,6 +100,7 @@ const error = ref(null);
 const account = ref(null);
 const member = ref(null);
 const panel = ref([]);
+const abortController = ref(null);
 
 // 計算屬性
 const dark_text = computed(() => ({
@@ -131,11 +132,16 @@ onMounted(() => {
     }
   }
 
-  setTimeout(() => fetchAccountInfo(), 1000);
+  abortController.value = new AbortController();
+  fetchAccountInfo(abortController.value.signal);
+});
+
+onUnmounted(() => {
+  abortController.value?.abort();
 });
 
 // 方法
-const fetchAccountInfo = async () => {
+const fetchAccountInfo = async signal => {
   loading.value = true;
   error.value = null;
   try {
@@ -145,22 +151,23 @@ const fetchAccountInfo = async () => {
     const headers = { Authorization: `Bearer ${token}` };
     const apiBase = config.public.DISCORD_API_BASE || 'https://discord.com/api';
 
-    const accountRes = await fetch(`${apiBase}/users/@me`, { headers });
+    const accountRes = await fetch(`${apiBase}/users/@me`, { headers, signal });
     if (accountRes.status === 401) throw new Error('member.error_authorization_required');
     else if (accountRes.status === 403) throw new Error('member.error_forbidden');
     else if (!accountRes.ok) throw new Error('member.error_get_member');
 
     account.value = await accountRes.json();
 
-    const memberRes = await fetch(`${apiBase}/users/@me/guilds/959421169629560892/member`, { headers });
+    const memberRes = await fetch(`${apiBase}/users/@me/guilds/959421169629560892/member`, { headers, signal });
     if (memberRes.status === 404) throw new Error('member.error_not_found');
     else if (!memberRes.ok) throw new Error('member.error_get_member');
 
     member.value = await memberRes.json();
   } catch (err) {
+    if (err.name === 'AbortError') return;
     error.value = err.message || 'member.error_authorization_required';
   } finally {
-    loading.value = false;
+    if (!signal?.aborted) loading.value = false;
   }
 };
 
@@ -179,11 +186,10 @@ const logout = () => {
 };
 
 // 💡 補上 Template 裡呼叫但遺失的 copyLink 函數
-const copyLink = (id) => {
+const copyLink = id => {
   const url = `${window.location.origin}${window.location.pathname}#panel-${id}`;
   navigator.clipboard.writeText(url).then(() => {
-    // 假設你的翻譯檔有 action.copy_success，若沒有會回退顯示預設文字
-    snackbar.show(t('action.copy_success') || '連結已複製');
+    snackbar.show(t('action.copy_link'));
   });
 };
 

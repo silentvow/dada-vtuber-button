@@ -1,6 +1,6 @@
 <template>
   <v-hover>
-    <template #default="{ isHovering, props: hoverProps }">
+    <template #default="{ isHovering }">
       <v-btn-group
         v-if="fromYoutube"
         density="compact"
@@ -8,11 +8,10 @@
         class="vo-btn-group"
         :class="isHovering ? 'elevation-6' : 'elevation-2'"
         v-bind="$attrs"
-        v-bind:="hoverProps"
       >
         <v-btn
           :id="`button-${computedButtonId}`"
-          :aria-label="`button-${computedButtonId}`"
+          :aria-label="slotText || computedButtonId"
           class="vo-btn pa-2"
           :class="v_btn_classes"
           color="primary"
@@ -32,7 +31,7 @@
           <template #activator="{ props: menuProps }">
             <v-btn
               :id="`button-menu-${computedButtonId}`"
-              :aria-label="`button-menu-${computedButtonId}`"
+              :aria-label="$t('action.play_option')"
               v-bind="menuProps"
               height="auto"
               class="vo-menu-btn-bg"
@@ -58,13 +57,12 @@
       <v-btn
         v-else
         :id="`button-${computedButtonId}`"
-        :aria-label="`button-${computedButtonId}`"
+        :aria-label="slotText || computedButtonId"
         class="vo-btn full-width px-2"
         :class="v_btn_classes"
         color="primary"
         rounded="xl"
         v-bind="$attrs"
-        v-bind:="hoverProps"
         :style="{
           borderRadius: '16px',
           '--hover-content': 'url(\'' + emoji_url + '\')',
@@ -82,7 +80,7 @@
 </template>
 
 <script setup>
-import { computed } from 'vue';
+import { computed, useSlots } from 'vue';
 import { useTheme } from 'vuetify';
 import twemoji from 'twemoji';
 
@@ -104,6 +102,7 @@ const props = defineProps({
 const emit = defineEmits(['on-play', 'on-youtube', 'on-download']);
 
 // 取得全域狀態與工具
+const slots = useSlots();
 const audioStore = useAudioStore();
 const favoriteStore = useFavoriteStore();
 const snackbar = useSnackbar();
@@ -120,6 +119,11 @@ const twe_para = {
 
 // 計算屬性
 const computedButtonId = computed(() => props.buttonId || props.voiceId);
+
+const slotText = computed(() => {
+  const vnodes = slots.default?.() || [];
+  return vnodes.join('').trim();
+});
 
 const in_favorite = computed(() => favoriteStore.isFavorite(props.voiceId));
 

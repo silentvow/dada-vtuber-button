@@ -1,5 +1,6 @@
 {
   "action": {
+    "audio_error": "語音載入失敗，請稍後再試。",
     "copy_link": "連結已複製到剪貼簿",
     "download": "下載語音",
     "like": "加入最愛",
@@ -71,6 +72,9 @@
     "refresh": "重新整理",
     "unlink": "解除連結",
     "welcome": "歡迎"
+  },
+  "favorite": {
+    "empty": "目前還沒有收藏任何語音喔！快去首頁點擊愛心吧。"
   },
   "site": {
     "about": "關於",

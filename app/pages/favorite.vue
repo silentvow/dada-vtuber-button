@@ -9,7 +9,7 @@
 
           <v-card-text class="button-panel pt-2">
             <div v-if="group.voice_list.length === 0" class="text-center py-6 text-grey">
-              目前還沒有收藏任何語音喔！快去首頁點擊愛心吧。
+              {{ $t('favorite.empty') }}
             </div>
 
             <div v-else class="d-flex flex-wrap gap-2">
