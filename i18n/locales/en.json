@@ -76,6 +76,19 @@
   "favorite": {
     "empty": "No voices have been favorited yet! Go to the home page and click the heart icon."
   },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "Who is DaDa?",
+    "a1": "DaDa (灰妲 / フイダ) is a Taiwanese Vtuber affiliated with ReLive Project, who debuted on March 26, 2021. She streams in Mandarin Chinese with content covering gameplay, chat, and karaoke.",
+    "q2": "Where does DaDa stream?",
+    "a2": "DaDa's official channel is on YouTube (youtube.com/{'@'}ReLiveDaDa). Streams are primarily in Mandarin Chinese. Her X handle is {'@'}DadaRelive.",
+    "q3": "Is this site official?",
+    "a3": "No. This is a fan-made site, unaffiliated with ReLive Project or DaDa officially. All voice clips are excerpts from publicly available stream archives.",
+    "q4": "Can I download the voice clips?",
+    "a4": "Yes. Click the menu next to any voice button and select \"Download\".",
+    "q5": "Why don't I hear any sound when I click?",
+    "a5": "Check that your browser allows autoplay audio and that the volume icon in the top-right is turned up. Some mobile devices require an initial user interaction before audio can play."
+  },
   "site": {
     "about": "About",
     "challenge": "Da Challenge",

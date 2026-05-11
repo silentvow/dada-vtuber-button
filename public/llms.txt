@@ -1,0 +1,41 @@
+# DaDa Voice Museum (灰妲語音博物館)
+
+> Fan-made voice button site for Taiwanese Vtuber DaDa (灰妲 / フイダ),
+> ReLive Project affiliate. 937 voice clips across 52 stream categories.
+
+## About DaDa
+
+- Full names: 灰妲 (zh) / フイダ (ja) / DaDa or Gray Da (en)
+- Affiliation: ReLive Project (https://relive-project0.com/)
+- Debut: 2021-03-26
+- Genre: Vtuber, gaming, chat, comedy, karaoke
+- YouTube: https://www.youtube.com/@ReLiveDaDa
+- X: https://x.com/DadaRelive
+
+## Site purpose
+
+Browse and play short voice clips sliced from DaDa's public YouTube
+livestream archives. Audience: viewers of Vtuber content, audio drama
+fans, and entertainment/comedy YouTube fans looking for soundboard-style
+fan engagement. Supports three languages: zh-TW (default), ja-JP, en-US.
+
+## Sections
+
+- / — Full voice library, browse by stream category (52 groups, 937 clips)
+- /challenge — Voice attribution quiz game ("DaDa Challenge")
+- /favorite — User-saved clips (stored locally in browser)
+- /privacy — Privacy policy
+
+## URL conventions
+
+- Default locale (zh-TW): no prefix — e.g. /favorite
+- Japanese (ja-JP): /ja prefix — e.g. /ja/favorite
+- English (en-US): /en prefix — e.g. /en/favorite
+
+## Not affiliated
+
+Fan project, not associated with ReLive Project or DaDa officially.
+Maintained by @tn604000 (https://x.com/tn604000).
+Source code: https://github.com/silentvow/dada-vtuber-button (MIT licensed).
+Voice clips are excerpts from publicly available streams,
+used under fair use for fan engagement.
