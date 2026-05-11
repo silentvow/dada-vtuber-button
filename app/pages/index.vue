@@ -100,7 +100,13 @@
 <script setup>
 import { ref, computed, watch, onMounted, nextTick } from 'vue';
 import { mdiLink } from '@mdi/js';
-import voice_lists from '~~/assets/voices.json';
+
+// voices.json (~500KB) 改走 /api/voices server route,不再內聯進 client JS bundle
+// SSG prerender: server route 用 import 讀檔 → useAsyncData 結果寫入 _payload.json
+// Client hydration: 從 payload 反序列化,不重複 fetch
+const { data: voice_lists } = await useAsyncData('voices', () => $fetch('/api/voices'), {
+  default: () => ({ groups: [] })
+});
 
 // 全域工具
 const { t, locale } = useI18n();
@@ -120,7 +126,7 @@ const selectedYear = ref('All');
 // 💡 2. 動態從 json 提取所有年份，並由新到舊排序
 const availableYears = computed(() => {
   const years = new Set();
-  voice_lists.groups.forEach(g => {
+  voice_lists.value.groups.forEach(g => {
     g.voice_list.forEach(v => {
       if (v.year) years.add(v.year);
     });
@@ -138,7 +144,7 @@ const allYearLabel = computed(() => {
 
 // 💡 4. 【關鍵】將原本寫死的 groups 改成 Computed，自動根據年份過濾
 const groups = computed(() => {
-  return voice_lists.groups
+  return voice_lists.value.groups
     .map(group => {
       // 過濾該群組的聲音列表
       const filteredVoices = group.voice_list.filter(voice => {

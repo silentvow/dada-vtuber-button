@@ -176,15 +176,21 @@
 <script setup>
 import { ref, computed, watch } from 'vue';
 import { mdiCheckCircle, mdiCloseCircle } from '@mdi/js';
-import voice_lists from '~~/assets/voices.json';
 import VoiceBtn from '../components/VoiceBtn.vue';
+
+// voices.json runtime fetch (見 index.vue 註解)
+const { data: voice_lists } = await useAsyncData('voices', () => $fetch('/api/voices'), {
+  default: () => ({ groups: [] })
+});
 
 const { t, locale } = useI18n();
 const audioStore = useAudioStore();
 
-// 準備原始題庫資料
-const voices = voice_lists.groups.filter(group => group.group_name !== 'singing').flatMap(group => group.voice_list);
-const long_voices = voices.filter(voice => voice.description.zh.length > 7);
+// 準備原始題庫資料 (改 computed,因為 voice_lists 是 ref)
+const voices = computed(() =>
+  voice_lists.value.groups.filter(group => group.group_name !== 'singing').flatMap(group => group.voice_list)
+);
+const long_voices = computed(() => voices.value.filter(voice => voice.description.zh.length > 7));
 
 // 狀態管理
 const questions = ref([]);
@@ -338,7 +344,7 @@ const generateQuestions = () => {
 };
 
 const generateSinglePositiveQuestion = () => {
-  const rawVoiceList = level.value === 'normal' ? long_voices : voices;
+  const rawVoiceList = level.value === 'normal' ? long_voices.value : voices.value;
   const voiceList = rawVoiceList.filter(voice => questions.value.every(q => q.url !== voice.url));
 
   const targetVoice = voiceList[Math.floor(Math.random() * voiceList.length)];
@@ -358,7 +364,7 @@ const generateSinglePositiveQuestion = () => {
 };
 
 const generateSingleNegativeQuestion = () => {
-  const rawVoiceList = level.value === 'normal' ? long_voices : voices;
+  const rawVoiceList = level.value === 'normal' ? long_voices.value : voices.value;
   const voiceList = rawVoiceList.filter(voice => questions.value.every(q => q.url !== voice.url));
 
   const otherIndex = Math.floor(Math.random() * voiceList.length);
@@ -383,7 +389,7 @@ const generateSingleNegativeQuestion = () => {
 };
 
 const generateMultiChoiceQuestion = (retry = 10) => {
-  const voiceList = level.value === 'normal' ? long_voices : voices;
+  const voiceList = level.value === 'normal' ? long_voices.value : voices.value;
   const possibleAnswerCounts = [1, 2, 3, 4];
   const answerCount = possibleAnswerCounts[Math.floor(Math.random() * possibleAnswerCounts.length)];
 
