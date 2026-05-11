@@ -48,6 +48,24 @@
       </v-expansion-panels>
     </v-col>
 
+    <v-col cols="12" class="pa-0 mt-12" style="min-width: 85%">
+      <section aria-labelledby="faq-heading" class="faq-section">
+        <h2 id="faq-heading" class="text-2xl font-bold mb-4" :class="dark_text">
+          {{ $t('faq.title') }}
+        </h2>
+        <v-expansion-panels variant="accordion">
+          <v-expansion-panel v-for="i in 5" :key="`faq-${i}`">
+            <v-expansion-panel-title class="font-bold" :class="dark_text">
+              <h3 class="faq-question text-lg ma-0">{{ $t(`faq.q${i}`) }}</h3>
+            </v-expansion-panel-title>
+            <v-expansion-panel-text>
+              <p class="faq-answer">{{ $t(`faq.a${i}`) }}</p>
+            </v-expansion-panel-text>
+          </v-expansion-panel>
+        </v-expansion-panels>
+      </section>
+    </v-col>
+
     <v-dialog v-model="is_dialog_open" max-width="600px">
       <v-card>
         <v-card-title>
@@ -248,6 +266,21 @@ useSeoMeta({
   description: () => t('site.description'),
   ogDescription: () => t('site.description')
 });
+
+// FAQPage 結構化資料 — 對應頁面下方可見的 FAQ 區塊 (Google 規範要求)
+useSchemaOrg([
+  {
+    '@type': 'FAQPage',
+    mainEntity: Array.from({ length: 5 }, (_, i) => ({
+      '@type': 'Question',
+      name: t(`faq.q${i + 1}`),
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: t(`faq.a${i + 1}`)
+      }
+    }))
+  }
+]);
 </script>
 
 <style scoped>
@@ -277,5 +310,18 @@ useSeoMeta({
 
 .v-theme--dark.selected-year {
   color: white;
+}
+
+/* FAQ 區塊 — 視覺輕量,避免搶語音清單焦點 */
+.faq-section :deep(.v-expansion-panel-title) {
+  min-height: 56px;
+}
+.faq-question {
+  display: inline-block;
+  font-weight: 600;
+}
+.faq-answer {
+  line-height: 1.7;
+  white-space: pre-wrap;
 }
 </style>

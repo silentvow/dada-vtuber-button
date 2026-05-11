@@ -155,7 +155,10 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
         { rel: 'manifest', href: '/site.webmanifest' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' }
+        { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
+        // 預連線到 jsDelivr — 語音檔與 twemoji 都從這個 CDN 抓
+        { rel: 'preconnect', href: 'https://cdn.jsdelivr.net', crossorigin: '' },
+        { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' }
       ]
     }
   }
