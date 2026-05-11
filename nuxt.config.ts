@@ -1,9 +1,44 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { createRequire } from 'node:module';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+
+// 解析 pinia 安裝路徑 (透過 pnpm 也能正確找到),並指向其 ESM build
+// 解決 Pinia 3 在 production NODE_ENV 下會解析到 pinia.prod.cjs,導致 SSR 失敗的問題
+const require$ = createRequire(import.meta.url);
+const piniaPkgPath = require$.resolve('pinia/package.json');
+const piniaEsm = resolve(dirname(piniaPkgPath), 'dist/pinia.mjs');
+
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   // 匯入全域 CSS
   css: ['~~/assets/global.css'],
-  ssr: false,
+  ssr: true,
+
+  // SSG: 預先產生所有靜態路由 (排除 /member,因走 Discord OAuth)
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/', '/favorite', '/challenge', '/feedback', '/privacy'],
+      ignore: ['/member']
+    }
+  },
+
+  // 強制 pinia 解析到 ESM build (絕對路徑,因 pinia 套件的 exports 未對外曝露 dist 子路徑)
+  alias: {
+    pinia: piniaEsm
+  },
+
+  // Vuetify SSR 需要被 Vite 內聯處理
+  vite: {
+    ssr: {
+      noExternal: ['vuetify']
+    }
+  },
+
+  build: {
+    transpile: ['vuetify']
+  },
 
   modules: [
     'vuetify-nuxt-module',
@@ -60,7 +95,9 @@ export default defineNuxtConfig({
     public: {
       DISCORD_CLIENT_ID: process.env.DISCORD_CLIENT_ID,
       DISCORD_REDIRECT_URI: process.env.DISCORD_REDIRECT_URI,
-      DISCORD_API_BASE: process.env.DISCORD_API_BASE
+      DISCORD_API_BASE: process.env.DISCORD_API_BASE,
+      // 站點正式網址,給 canonical / og:url / sitemap 使用
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://dada-vtuber-button.vercel.app'
     }
   },
 
@@ -76,40 +113,21 @@ export default defineNuxtConfig({
     strategy: 'no_prefix'
   },
 
+  // 僅放靜態、跨頁共用的基礎 head;SEO 動態欄位 (title/description/og/canonical) 由 app.vue 使用 useSeoMeta 設定
   app: {
     head: {
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        {
-          name: 'description',
-          content:
-            '歡迎來到灰妲語音博物館！這裡收藏了灰妲的各種語音與獨特叫聲，粉絲可以隨時點擊播放，探索她迷人的聲音世界，感受她獨一無二的魅力。'
-        },
-        {
-          name: 'keywords',
-          content: '灰妲,Vtuber,台V,語音按鈕,ReLive Project'
-        },
-        { property: 'og:site_name', content: '灰妲語音博物館' },
-        { property: 'og:type', content: 'website' },
-        { property: 'og:url', content: '灰妲語音博物館' },
-        { property: 'og:title', content: '灰妲語音博物館' },
-        {
-          property: 'og:description',
-          content:
-            '歡迎來到灰妲語音博物館！這裡收藏了灰妲的各種語音與獨特叫聲，粉絲可以隨時點擊播放，探索她迷人的聲音世界，感受她獨一無二的魅力。'
-        },
-        { property: 'og:image', content: 'https://dada-vtuber-button.vercel.app/img/og_common.png' },
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:site', content: '@tn604000' }
+        { name: 'theme-color', content: '#bd133d' }
       ],
       link: [
-        { rel: 'apple-touch-icon', sizes: '180x180', href: 'apple-touch-icon.png' },
-        { rel: 'icon', type: 'image/png', sizes: '32x32', href: 'favicon-32x32.png' },
-        { rel: 'icon', type: 'image/png', sizes: '16x16', href: 'favicon-16x16.png' },
-        { rel: 'manifest', href: 'site.webmanifest' },
-        { rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' },
-        { rel: 'shortcut icon', type: 'image/x-icon', href: 'favicon.ico' }
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+        { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+        { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+        { rel: 'manifest', href: '/site.webmanifest' },
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' }
       ]
     }
   }

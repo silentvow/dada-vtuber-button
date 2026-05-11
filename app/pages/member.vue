@@ -84,6 +84,11 @@ import voice_lists from '~~/assets/dc_voices.json';
 import { useAudioStore } from '~/stores/audio';
 import { useSnackbar } from '~/composables/useSnackbar';
 
+// 會員頁走 Discord OAuth (client-only),不參與 SSG 預渲染
+definePageMeta({
+  ssr: false
+});
+
 const { t, locale } = useI18n();
 const settings = useSettingsStore();
 const audioStore = useAudioStore();
@@ -213,8 +218,9 @@ const play = item => {
   send_google_event(item);
 };
 
-useHead({
-  title: computed(() => `${t('member.member_area')} - ${t('site.title')}`)
+useSeoMeta({
+  title: () => t('member.member_area'),
+  robots: 'noindex, nofollow' // 會員專區需 Discord OAuth,不應被索引
 });
 </script>
 

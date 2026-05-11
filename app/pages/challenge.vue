@@ -410,9 +410,11 @@ const generateMultiChoiceQuestion = (retry = 10) => {
   };
 };
 
-// SEO 與標題
-useHead({
-  title: computed(() => `${t('site.challenge')} - ${t('site.title')}`)
+// SEO 與標題 (套用 app.vue 的 titleTemplate)
+useSeoMeta({
+  title: () => t('site.challenge'),
+  description: () => t('challenge.description'),
+  ogDescription: () => t('challenge.description')
 });
 </script>
 

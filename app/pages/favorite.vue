@@ -173,9 +173,9 @@ const play_random_voice = () => {
 
 const stop_all = () => audioStore.stopAll();
 
-// Meta 標籤設定
-useHead({
-  title: computed(() => `${t('site.favorite')} - ${t('site.title')}`)
+// Meta 標籤設定 (套用 app.vue 的 titleTemplate)
+useSeoMeta({
+  title: () => t('site.favorite')
 });
 </script>
 
