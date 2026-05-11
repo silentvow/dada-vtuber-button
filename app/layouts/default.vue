@@ -12,25 +12,25 @@
         <v-list-item
           :to="localePath('/favorite')"
           exact
-          prepend-icon="mdi-heart-outline"
+          :prepend-icon="mdiHeartOutline"
           :title="$t('site.favorite')"
         ></v-list-item>
         <v-list-item
           :to="localePath('/challenge')"
           exact
-          prepend-icon="mdi-head-question-outline"
+          :prepend-icon="mdiHeadQuestionOutline"
           :title="$t('site.challenge')"
         ></v-list-item>
         <v-list-item
           :to="localePath('/feedback')"
           exact
-          prepend-icon="mdi-message-alert-outline"
+          :prepend-icon="mdiMessageAlertOutline"
           :title="$t('site.feedback')"
         ></v-list-item>
         <v-list-item
           :to="localePath('/member')"
           exact
-          prepend-icon="mdi-account-group"
+          :prepend-icon="mdiAccountGroup"
           :title="$t('member.member_area')"
         ></v-list-item>
       </v-list>
@@ -74,11 +74,11 @@
       <v-menu :close-on-content-click="false">
         <template #activator="{ props }">
           <v-btn icon variant="plain" v-bind="props">
-            <v-icon icon="mdi-volume-high"></v-icon>
+            <v-icon :icon="mdiVolumeHigh"></v-icon>
           </v-btn>
         </template>
         <v-sheet class="pa-2 align-center" width="256" style="display: flex">
-          <v-icon icon="mdi-volume-low" color="primary" class="mr-2"></v-icon>
+          <v-icon :icon="mdiVolumeLow" color="primary" class="mr-2"></v-icon>
           <v-slider
             v-model="volume"
             :min="0"
@@ -88,14 +88,14 @@
             color="#ff8a80"
             @update:model-value="onVolumeChange"
           ></v-slider>
-          <v-icon icon="mdi-volume-high" color="primary" class="ml-2"></v-icon>
+          <v-icon :icon="mdiVolumeHigh" color="primary" class="ml-2"></v-icon>
         </v-sheet>
       </v-menu>
 
       <v-tooltip location="bottom">
         <template #activator="{ props }">
           <v-btn icon variant="plain" v-bind="props" @click="toggleTheme">
-            <v-icon icon="mdi-brightness-2"></v-icon>
+            <v-icon :icon="mdiBrightness2"></v-icon>
           </v-btn>
         </template>
         <span>{{ $t('site.switch_dark_mode') }}</span>
@@ -106,7 +106,7 @@
           <v-tooltip location="bottom">
             <template #activator="{ props: tooltipProps }">
               <v-btn icon variant="plain" v-bind="mergeProps(menuProps, tooltipProps)">
-                <v-icon icon="mdi-translate"></v-icon>
+                <v-icon :icon="mdiTranslate"></v-icon>
               </v-btn>
             </template>
             <span>{{ $t('site.switch_language') }}</span>
@@ -161,6 +161,16 @@
 <script setup>
 import { ref, computed, onMounted, watch, mergeProps } from 'vue';
 import { useTheme } from 'vuetify';
+import {
+  mdiHeartOutline,
+  mdiHeadQuestionOutline,
+  mdiMessageAlertOutline,
+  mdiAccountGroup,
+  mdiVolumeHigh,
+  mdiVolumeLow,
+  mdiBrightness2,
+  mdiTranslate
+} from '@mdi/js';
 import { useSettingsStore } from '~/stores/settings';
 import { useSnackbar } from '~/composables/useSnackbar';
 import navigatorItems from '~~/assets/navigator.json';

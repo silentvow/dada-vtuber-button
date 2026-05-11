@@ -100,6 +100,11 @@ export default defineNuxtConfig({
       /* 模組選項 */
     },
     vuetifyOptions: {
+      // 使用 SVG icon set (從 @mdi/js 個別 import,只 bundle 用到的 icon)
+      // 取代原本的 mdi-font webfont (403KB woff2)
+      icons: {
+        defaultSet: 'mdi-svg'
+      },
       theme: {
         defaultTheme: 'dark',
         themes: {

@@ -12,6 +12,7 @@
     "lint": "eslint ./app"
   },
   "dependencies": {
+    "@mdi/js": "^7.4.47",
     "markdown-it": "^14.1.1",
     "nuxt": "^4.3.1",
     "twemoji": "^14.0.2",
@@ -21,7 +22,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@mdi/font": "^7.4.47",
     "@nuxt/image": "^2.0.0",
     "@nuxtjs/i18n": "^10.2.3",
     "@nuxtjs/seo": "^5.1.3",

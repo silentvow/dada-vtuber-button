@@ -98,12 +98,12 @@
                     </VoiceBtn>
 
                     <div v-if="show_result" class="ml-3">
-                      <v-icon v-if="option.correct" color="success" size="24" icon="mdi-check-circle"></v-icon>
+                      <v-icon v-if="option.correct" color="success" size="24" :icon="mdiCheckCircle"></v-icon>
                       <v-icon
                         v-else-if="answers[question.id] === option.id"
                         color="error"
                         size="24"
-                        icon="mdi-close-circle"
+                        :icon="mdiCloseCircle"
                       ></v-icon>
                     </div>
                   </div>
@@ -136,9 +136,9 @@
                         v-if="isCorrect(question, option)"
                         color="success"
                         size="24"
-                        icon="mdi-check-circle"
+                        :icon="mdiCheckCircle"
                       ></v-icon>
-                      <v-icon v-else color="error" size="24" icon="mdi-close-circle"></v-icon>
+                      <v-icon v-else color="error" size="24" :icon="mdiCloseCircle"></v-icon>
                     </div>
                   </div>
                 </template>
@@ -175,6 +175,7 @@
 
 <script setup>
 import { ref, computed, watch } from 'vue';
+import { mdiCheckCircle, mdiCloseCircle } from '@mdi/js';
 import voice_lists from '~~/assets/voices.json';
 import VoiceBtn from '../components/VoiceBtn.vue';
 
