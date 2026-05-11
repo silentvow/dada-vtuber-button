@@ -1,6 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { createRequire } from 'node:module';
-import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 
 // 解析 pinia 安裝路徑 (透過 pnpm 也能正確找到),並指向其 ESM build
@@ -15,12 +14,17 @@ export default defineNuxtConfig({
   css: ['~~/assets/global.css'],
   ssr: true,
 
-  // SSG: 預先產生所有靜態路由 (排除 /member,因走 Discord OAuth)
+  // SSG: 預先產生所有靜態路由 (含三語系,排除 /member 走 Discord OAuth)
+  // i18n strategy = prefix_except_default 之後,日/英語版會有 /ja /en 前綴
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/favorite', '/challenge', '/feedback', '/privacy'],
-      ignore: ['/member']
+      routes: [
+        '/', '/favorite', '/challenge', '/feedback', '/privacy',
+        '/ja', '/ja/favorite', '/ja/challenge', '/ja/feedback', '/ja/privacy',
+        '/en', '/en/favorite', '/en/challenge', '/en/feedback', '/en/privacy'
+      ],
+      ignore: ['/member', '/ja/member', '/en/member']
     }
   },
 
@@ -46,8 +50,30 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
     'nuxt-gtag',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    // SEO 主套件:整合 sitemap / robots / schema-org / og-image / link-checker
+    '@nuxtjs/seo'
   ],
+
+  // @nuxtjs/seo 共用的站點設定 (sitemap / canonical / og:url / robots 都會用)
+  site: {
+    url: 'https://dada-vtuber-button.vercel.app',
+    name: '灰妲語音博物館',
+    description:
+      '歡迎來到灰妲語音博物館!這裡收藏了灰妲的各種語音與獨特叫聲,粉絲可以隨時點擊播放,探索她迷人的聲音世界,感受她獨一無二的魅力。',
+    defaultLocale: 'zh-TW'
+  },
+
+  // robots.txt 由模組產生,取代 public/robots.txt
+  robots: {
+    disallow: ['/member'],
+    blockNonSeoBots: true // 自動封鎖 Ahrefs / MJ12 等非搜尋引擎爬蟲
+  },
+
+  // 自動產生 sitemap.xml,含 i18n hreflang
+  sitemap: {
+    exclude: ['/member', '/feedback', '/*/member', '/*/feedback']
+  },
 
   gtag: {
     id: 'G-JHW2E0H1PQ'
@@ -101,16 +127,18 @@ export default defineNuxtConfig({
     }
   },
 
-  // i18n 配置
+  // i18n 配置:三語系各自獨立 URL,SEO 友善
   i18n: {
     locales: [
-      { code: 'en', iso: 'en-US', file: 'en.json' },
-      { code: 'ja', iso: 'ja-JP', file: 'ja.json' },
-      { code: 'zh', iso: 'zh-TW', file: 'default.json' } // 原本的預設語系
+      { code: 'en', language: 'en-US', file: 'en.json' },
+      { code: 'ja', language: 'ja-JP', file: 'ja.json' },
+      { code: 'zh', language: 'zh-TW', file: 'default.json' } // 預設語系,無 URL prefix
     ],
     defaultLocale: 'zh',
-    langDir: 'locales/', // 指向原本的翻譯檔目錄
-    strategy: 'no_prefix'
+    langDir: 'locales/',
+    strategy: 'prefix_except_default',
+    detectBrowserLanguage: false, // 關閉自動偵測,避免 SSG/canonical 與 i18n 衝突
+    baseUrl: 'https://dada-vtuber-button.vercel.app'
   },
 
   // 僅放靜態、跨頁共用的基礎 head;SEO 動態欄位 (title/description/og/canonical) 由 app.vue 使用 useSeoMeta 設定

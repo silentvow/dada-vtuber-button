@@ -2,28 +2,33 @@
   <v-app>
     <v-navigation-drawer v-model="drawer" :mobile-breakpoint="1024" class="elevation-3">
       <v-list style="padding-top: 0">
-        <v-list-item to="/" exact>
+        <v-list-item :to="localePath('/')" exact>
           <template #prepend>
             <v-img alt="home-icon" src="/icon.png" width="24" class="mr-8" />
           </template>
           <v-list-item-title>{{ $t('site.index') }}</v-list-item-title>
         </v-list-item>
 
-        <v-list-item to="/favorite" exact prepend-icon="mdi-heart-outline" :title="$t('site.favorite')"></v-list-item>
         <v-list-item
-          to="/challenge"
+          :to="localePath('/favorite')"
+          exact
+          prepend-icon="mdi-heart-outline"
+          :title="$t('site.favorite')"
+        ></v-list-item>
+        <v-list-item
+          :to="localePath('/challenge')"
           exact
           prepend-icon="mdi-head-question-outline"
           :title="$t('site.challenge')"
         ></v-list-item>
         <v-list-item
-          to="/feedback"
+          :to="localePath('/feedback')"
           exact
           prepend-icon="mdi-message-alert-outline"
           :title="$t('site.feedback')"
         ></v-list-item>
         <v-list-item
-          to="/member"
+          :to="localePath('/member')"
           exact
           prepend-icon="mdi-account-group"
           :title="$t('member.member_area')"
@@ -124,7 +129,7 @@
             $t('site.footer.author')
           }}</a>
           <span>&nbsp;|&nbsp;</span>
-          <NuxtLink to="/privacy" class="text-decoration-underline">{{ $t('site.privacy') }}</NuxtLink>
+          <NuxtLink :to="localePath('/privacy')" class="text-decoration-underline">{{ $t('site.privacy') }}</NuxtLink>
         </div>
         <div class="text-center mt-1" v-html="footerContent"></div>
       </v-footer>
@@ -143,12 +148,13 @@ const settings = useSettingsStore();
 const snackbar = useSnackbar();
 const theme = useTheme();
 const { t, setLocale } = useI18n();
+const localePath = useLocalePath();
 
 const drawer = ref(false);
 const volume = ref(settings.volume);
 
 const footerContent = computed(() => {
-  const styledName = `<a href="/feedback" class="text-decoration-underline">${t('site.feedback')}</a>`;
+  const styledName = `<a href="${localePath('/feedback')}" class="text-decoration-underline">${t('site.feedback')}</a>`;
   return t('site.footer.content').replace('{feedback}', styledName);
 });
 
@@ -177,7 +183,8 @@ onMounted(() => {
     drawer.value = true;
   }
 
-  setLocale(settings.lang);
+  // 注意:不在 onMounted 主動 setLocale(settings.lang)
+  // URL prefix 是語系的真實來源,主動切換會導致 Google 索引 /ja 的訪客被踢回 /
 });
 
 const toggleTheme = () => {

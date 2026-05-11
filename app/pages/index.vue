@@ -208,7 +208,8 @@ const download = item => {
 };
 
 const copyLink = groupId => {
-  const url = window.location.host + '/#' + groupId;
+  // 帶上當前語系 path,讓接收連結的人看到的是分享者當下的語系
+  const url = window.location.origin + window.location.pathname.replace(/\/$/, '') + '/#' + groupId;
   navigator.clipboard.writeText(url).then(() => {
     snackbar.show(t('action.copy_link'));
   });
