@@ -30,8 +30,8 @@ const md = new MarkdownIt({
 // 將純字串轉換為 HTML
 const about_md = computed(() => md.render(privacyRaw));
 
-useHead({
-  title: computed(() => `${t('site.privacy')} - ${t('site.title')}`)
+useSeoMeta({
+  title: () => t('site.privacy')
 });
 </script>
 

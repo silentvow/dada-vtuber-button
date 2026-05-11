@@ -23,9 +23,10 @@ import { computed } from 'vue';
 
 const { t } = useI18n();
 
-// SEO 標籤設定 (取代舊版的 head())
-useHead({
-  title: computed(() => `${t('site.feedback')} - ${t('site.title')}`)
+// SEO 標籤設定 (套用 app.vue 的 titleTemplate)
+useSeoMeta({
+  title: () => t('site.feedback'),
+  robots: 'noindex, follow' // 純 Google Form iframe,無索引價值
 });
 </script>
 

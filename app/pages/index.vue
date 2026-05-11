@@ -242,9 +242,10 @@ const play_random_voice = () => {
 
 const stop_all = () => audioStore.stopAll();
 
-// Meta 標籤設定
-useHead({
-  title: computed(() => t('site.title'))
+// Meta 標籤設定 (基礎 SEO 由 app.vue 設定;此頁為根頁面,不另設定標題前綴)
+useSeoMeta({
+  description: () => t('site.description'),
+  ogDescription: () => t('site.description')
 });
 </script>
 
