@@ -97,7 +97,11 @@
         </v-sheet>
       </v-menu>
 
-      <v-tooltip location="bottom">
+      <v-tooltip
+        location="bottom"
+        :text="$t('site.switch_dark_mode')"
+        :aria-label="$t('site.switch_dark_mode')"
+      >
         <template #activator="{ props }">
           <v-btn
             icon
@@ -109,12 +113,15 @@
             <v-icon :icon="mdiBrightness2"></v-icon>
           </v-btn>
         </template>
-        <span>{{ $t('site.switch_dark_mode') }}</span>
       </v-tooltip>
 
       <v-menu>
         <template #activator="{ props: menuProps }">
-          <v-tooltip location="bottom">
+          <v-tooltip
+            location="bottom"
+            :text="$t('site.switch_language')"
+            :aria-label="$t('site.switch_language')"
+          >
             <template #activator="{ props: tooltipProps }">
               <v-btn
                 icon
@@ -125,7 +132,6 @@
                 <v-icon :icon="mdiTranslate"></v-icon>
               </v-btn>
             </template>
-            <span>{{ $t('site.switch_language') }}</span>
           </v-tooltip>
         </template>
         <v-list>
