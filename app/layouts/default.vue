@@ -1,7 +1,7 @@
 <template>
   <v-app>
-    <v-navigation-drawer v-model="drawer" :mobile-breakpoint="1024" class="elevation-3">
-      <v-list style="padding-top: 0">
+    <v-navigation-drawer v-model="drawer" :mobile-breakpoint="1024" class="elevation-3" tag="nav">
+      <v-list style="padding-top: 0" role="none">
         <v-list-item :to="localePath('/')" exact>
           <template #prepend>
             <v-img alt="home-icon" src="/icon.png" width="24" class="mr-8" />
@@ -36,7 +36,7 @@
       </v-list>
       <v-divider></v-divider>
 
-      <v-list>
+      <v-list role="none">
         <v-list-item
           v-for="(item, i) in navigatorItems"
           :key="i"
@@ -67,13 +67,17 @@
     </v-navigation-drawer>
 
     <v-app-bar class="text-white" color="primary" density="compact">
-      <v-app-bar-nav-icon variant="text" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon
+        variant="text"
+        :aria-label="$t('site.switch_menu')"
+        @click.stop="drawer = !drawer"
+      ></v-app-bar-nav-icon>
       <v-toolbar-title>{{ $t('site.title') }}</v-toolbar-title>
       <v-spacer></v-spacer>
 
       <v-menu :close-on-content-click="false">
         <template #activator="{ props }">
-          <v-btn icon variant="plain" v-bind="props">
+          <v-btn icon variant="plain" :aria-label="$t('control.volume')" v-bind="props">
             <v-icon :icon="mdiVolumeHigh"></v-icon>
           </v-btn>
         </template>
@@ -86,6 +90,7 @@
             hide-details
             track-color="#bdbdbd"
             color="#ff8a80"
+            :aria-label="$t('control.volume')"
             @update:model-value="onVolumeChange"
           ></v-slider>
           <v-icon :icon="mdiVolumeHigh" color="primary" class="ml-2"></v-icon>
@@ -94,7 +99,13 @@
 
       <v-tooltip location="bottom">
         <template #activator="{ props }">
-          <v-btn icon variant="plain" v-bind="props" @click="toggleTheme">
+          <v-btn
+            icon
+            variant="plain"
+            :aria-label="$t('site.switch_dark_mode')"
+            v-bind="props"
+            @click="toggleTheme"
+          >
             <v-icon :icon="mdiBrightness2"></v-icon>
           </v-btn>
         </template>
@@ -105,7 +116,12 @@
         <template #activator="{ props: menuProps }">
           <v-tooltip location="bottom">
             <template #activator="{ props: tooltipProps }">
-              <v-btn icon variant="plain" v-bind="mergeProps(menuProps, tooltipProps)">
+              <v-btn
+                icon
+                variant="plain"
+                :aria-label="$t('site.switch_language')"
+                v-bind="mergeProps(menuProps, tooltipProps)"
+              >
                 <v-icon :icon="mdiTranslate"></v-icon>
               </v-btn>
             </template>

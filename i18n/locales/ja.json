@@ -56,7 +56,8 @@
     "random": "自動ランダム再生",
     "repeat": "ループ",
     "self": "コントロール",
-    "stop": "再生停止"
+    "stop": "再生停止",
+    "volume": "音量"
   },
   "member": {
     "error_authorization_required": "Discordアカウントのリンクが期限切れです。",
@@ -109,6 +110,7 @@
     "source": "ソース",
     "switch_dark_mode": "ナイトモードスイッチ",
     "switch_language": "言語を切り替える",
+    "switch_menu": "メニュー切り替え",
     "title": "灰妲ボイス博物館",
     "url": "https://dada-vtuber-button.vercel.app",
     "voice": "音声"

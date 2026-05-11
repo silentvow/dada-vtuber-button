@@ -56,7 +56,8 @@
     "random": "隨機撥放",
     "repeat": "重複播放",
     "self": "播放控制",
-    "stop": "停止"
+    "stop": "停止",
+    "volume": "音量"
   },
   "member": {
     "error_authorization_required": "Discord帳號未連結或連結已過期。",
@@ -109,6 +110,7 @@
     "source": "來源",
     "switch_dark_mode": "夜間模式開關",
     "switch_language": "切換語言",
+    "switch_menu": "切換選單",
     "title": "灰妲語音博物館",
     "url": "https://dada-vtuber-button.vercel.app",
     "voice": "語音"
