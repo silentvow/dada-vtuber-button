@@ -181,6 +181,8 @@ const theme = useTheme();
 const { t, setLocale } = useI18n();
 const localePath = useLocalePath();
 
+// drawer 初始 false (SSG 友善,所有 client 一致);桌面在 onMounted 才打開
+// 桌面 v-main 的 256px 空間由 critical CSS @media 預留,所以 onMounted 開 drawer 不會造成 CLS
 const drawer = ref(false);
 const volume = ref(settings.volume);
 
@@ -210,6 +212,7 @@ onMounted(() => {
   updateVh();
   window.addEventListener('resize', updateVh);
 
+  // 桌面打開 drawer (256px 空間已由 critical CSS @media 預留,不會觸發 CLS)
   if (window.innerWidth >= 1024) {
     drawer.value = true;
   }

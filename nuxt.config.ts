@@ -169,6 +169,15 @@ export default defineNuxtConfig({
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'theme-color', content: '#bd133d' }
       ],
+      // Critical CSS:在 entry.css 載入前就預留 v-app-bar (48px) 與 v-navigation-drawer (256px)
+      // 的空間,避免 hydration 時 v-main 位移造成 CLS。
+      // - 預設 (mobile):只 reserve toolbar 高度,不 reserve drawer (mobile 為 temporary overlay)
+      // - 桌面 (>=1024px):額外 reserve drawer 寬度 256px
+      style: [
+        {
+          innerHTML: `.v-main{padding-top:48px!important}@media (min-width:1024px){.v-main{padding-left:256px!important}}`
+        }
+      ],
       link: [
         { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
