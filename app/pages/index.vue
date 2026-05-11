@@ -261,8 +261,10 @@ const play_random_voice = () => {
 
 const stop_all = () => audioStore.stopAll();
 
-// Meta 標籤設定 (基礎 SEO 由 app.vue 設定;此頁為根頁面,不另設定標題前綴)
+// Meta 標籤設定 (基礎 SEO 由 app.vue 設定;此頁為根頁面)
+// title 顯式設空字串,避免 nuxt-seo-utils 從 i18n route name (ja/en) 自動帶 "Ja"/"En" 前綴
 useSeoMeta({
+  title: '',
   description: () => t('site.description'),
   ogDescription: () => t('site.description')
 });

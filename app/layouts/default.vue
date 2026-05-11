@@ -133,7 +133,6 @@
           quality="80"
           loading="eager"
           fetchpriority="high"
-          preload
           style="max-height: 360px; width: 100%; object-fit: cover"
         />
 
