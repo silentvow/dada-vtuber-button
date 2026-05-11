@@ -19,8 +19,8 @@
 
       <v-expansion-panels v-model="panel" multiple>
         <v-expansion-panel v-for="group in groups" :id="`panel-${group.id}`" :key="group.name">
-          <v-expansion-panel-title class="font-bold" :class="dark_text">
-            <span class="text-2xl">{{ group.group_description[current_locale] }}</span>
+          <v-expansion-panel-title class="font-weight-bold" :class="dark_text">
+            <span class="text-h5">{{ group.group_description[current_locale] }}</span>
             <v-chip size="x-small" class="mx-3 flex-grow-0" color="info" variant="outlined">
               {{ group.voice_list.length }}
             </v-chip>
@@ -50,13 +50,13 @@
 
     <v-col cols="12" class="pa-0 mt-12" style="min-width: 85%">
       <section aria-labelledby="faq-heading" class="faq-section">
-        <h2 id="faq-heading" class="text-2xl font-bold mb-4" :class="dark_text">
+        <h2 id="faq-heading" class="text-h5 font-weight-bold mb-4" :class="dark_text">
           {{ $t('faq.title') }}
         </h2>
         <v-expansion-panels variant="accordion">
           <v-expansion-panel v-for="i in 5" :key="`faq-${i}`">
-            <v-expansion-panel-title class="font-bold" :class="dark_text">
-              <h3 class="faq-question text-lg ma-0">{{ $t(`faq.q${i}`) }}</h3>
+            <v-expansion-panel-title class="font-weight-bold" :class="dark_text">
+              <h3 class="faq-question text-h6 ma-0">{{ $t(`faq.q${i}`) }}</h3>
             </v-expansion-panel-title>
             <v-expansion-panel-text>
               <p class="faq-answer">{{ $t(`faq.a${i}`) }}</p>
@@ -261,8 +261,10 @@ const play_random_voice = () => {
 
 const stop_all = () => audioStore.stopAll();
 
-// Meta 標籤設定 (基礎 SEO 由 app.vue 設定;此頁為根頁面,不另設定標題前綴)
+// Meta 標籤設定 (基礎 SEO 由 app.vue 設定;此頁為根頁面)
+// title 顯式設空字串,避免 nuxt-seo-utils 從 i18n route name (ja/en) 自動帶 "Ja"/"En" 前綴
 useSeoMeta({
+  title: '',
   description: () => t('site.description'),
   ogDescription: () => t('site.description')
 });

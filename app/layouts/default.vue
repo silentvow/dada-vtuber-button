@@ -53,7 +53,16 @@
       </v-list>
 
       <template #append>
-        <v-img alt="i-m-female-vtuber" style="width: 100%; height: auto" src="/img/woman.png" />
+        <NuxtImg
+          src="/img/woman.png"
+          alt="灰妲側欄圖"
+          width="256"
+          format="webp"
+          quality="80"
+          loading="lazy"
+          sizes="256px"
+          style="width: 100%; height: auto"
+        />
       </template>
     </v-navigation-drawer>
 
@@ -113,7 +122,19 @@
 
     <v-main>
       <v-container class="page">
-        <v-img class="rounded mb-4" max-height="360" alt="banner" src="/banner.jpg" cover />
+        <NuxtImg
+          class="rounded mb-4 d-block"
+          src="/banner.jpg"
+          alt="灰妲語音博物館橫幅"
+          width="1920"
+          height="480"
+          sizes="100vw md:1024px lg:1280px xl:1920px"
+          format="webp"
+          quality="80"
+          loading="eager"
+          fetchpriority="high"
+          style="max-height: 360px; width: 100%; object-fit: cover"
+        />
 
         <slot />
 
