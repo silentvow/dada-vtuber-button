@@ -59,10 +59,14 @@
 
 <script setup>
 import { ref, computed, watch, onMounted } from 'vue';
-import voice_lists from '~~/assets/voices.json';
 import { useAudioStore } from '~/stores/audio';
 import { useSettingsStore } from '~/stores/settings';
 import { useFavoriteStore } from '~/stores/favorite';
+
+// voices.json runtime fetch (見 index.vue 註解)
+const { data: voice_lists } = await useAsyncData('voices', () => $fetch('/api/voices'), {
+  default: () => ({ groups: [] })
+});
 
 const { t, locale } = useI18n();
 const audioStore = useAudioStore();
@@ -74,8 +78,10 @@ const { gtag } = useGtag();
 const is_dialog_open = ref(false);
 const dialog_item = ref({ description: {}, url: '' });
 
-// 建立全域 Voice Map 以供快速查找
-const voiceMap = new Map(voice_lists.groups.flatMap(i => i.voice_list.map(v => [v.id.slice(0, 13), v])));
+// 建立全域 Voice Map 以供快速查找 (改 computed,因為 voice_lists 是 ref)
+const voiceMap = computed(
+  () => new Map(voice_lists.value.groups.flatMap(i => i.voice_list.map(v => [v.id.slice(0, 13), v])))
+);
 
 // 計算屬性
 const current_locale = computed(() => locale.value);
@@ -91,7 +97,7 @@ const groups = computed(() => {
         en: 'Favorite',
         ja: 'お気に入り'
       },
-      voice_list: favoriteStore.favorites.map(id => voiceMap.get(id)).filter(v => !!v)
+      voice_list: favoriteStore.favorites.map(id => voiceMap.value.get(id)).filter(v => !!v)
     }
   ];
 });

@@ -80,7 +80,6 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { mdiLink } from '@mdi/js';
-import voice_lists from '~~/assets/dc_voices.json';
 // 💡 引入 AudioStore 與 Snackbar
 import { useAudioStore } from '~/stores/audio';
 import { useSnackbar } from '~/composables/useSnackbar';
@@ -88,6 +87,11 @@ import { useSnackbar } from '~/composables/useSnackbar';
 // 會員頁走 Discord OAuth (client-only),不參與 SSG 預渲染
 definePageMeta({
   ssr: false
+});
+
+// dc_voices.json (~400KB) 改走 /api/dc_voices server route,避免內聯進 client JS bundle
+const { data: voice_lists } = await useAsyncData('dc_voices', () => $fetch('/api/dc_voices'), {
+  default: () => ({ groups: [] })
 });
 
 const { t, locale } = useI18n();
@@ -98,8 +102,8 @@ const config = useRuntimeConfig();
 const discordCookie = useCookie('discord_token');
 const { gtag } = useGtag();
 
-// 狀態變數
-const groups = ref(voice_lists.groups);
+// 狀態變數 (改 computed 跟著 voice_lists ref 變動)
+const groups = computed(() => voice_lists.value.groups);
 // 💡 移除了 `now_playing` 與 `voiceBtnRefs` 等舊版手動管理的狀態
 const loading = ref(true);
 const error = ref(null);
