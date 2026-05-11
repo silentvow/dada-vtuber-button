@@ -71,7 +71,7 @@
         }"
         @click="onPlay"
       >
-        <div class="my-2 w-full whitespace-normal" style="z-index: 2">
+        <div class="my-2 w-100 voice-btn-text" style="z-index: 2">
           <slot></slot>
         </div>
       </v-btn>
@@ -167,6 +167,11 @@ const onUnlike = () => {
 
 <style lang="scss" scoped>
 $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
+
+/* 替代 Tailwind 的 whitespace-normal */
+.voice-btn-text {
+  white-space: normal;
+}
 
 .vo-btn-group {
   height: max-content !important;

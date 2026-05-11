@@ -49,8 +49,8 @@
 
         <v-expansion-panels v-if="isAuthorized" v-model="panel" multiple>
           <v-expansion-panel v-for="group in groups" :id="`panel-${group.id}`" :key="group.name">
-            <v-expansion-panel-title class="font-bold" :class="dark_text">
-              <span class="text-2xl">{{ group.group_description[current_locale] }}</span>
+            <v-expansion-panel-title class="font-weight-bold" :class="dark_text">
+              <span class="text-h5">{{ group.group_description[current_locale] }}</span>
               <v-chip size="x-small" class="mx-3 flex-grow-0" color="info" variant="outlined">
                 {{ group.voice_list.length }}
               </v-chip>

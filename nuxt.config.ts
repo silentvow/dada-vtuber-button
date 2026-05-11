@@ -50,10 +50,25 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
     'nuxt-gtag',
-    '@nuxtjs/tailwindcss',
     // SEO 主套件:整合 sitemap / robots / schema-org / og-image / link-checker
-    '@nuxtjs/seo'
+    '@nuxtjs/seo',
+    // 圖片優化:自動 WebP/AVIF、lazy、srcset
+    '@nuxt/image'
   ],
+
+  // @nuxt/image 設定
+  image: {
+    format: ['webp', 'jpg'],
+    quality: 80,
+    // 預先在 build 時就把 banner 壓好 (Vercel static hosting,無 runtime IPX server)
+    densities: [1, 2],
+    screens: {
+      sm: 640,
+      md: 1024,
+      lg: 1280,
+      xl: 1920
+    }
+  },
 
   // @nuxtjs/seo 共用的站點設定 (sitemap / canonical / og:url / robots 都會用)
   site: {
