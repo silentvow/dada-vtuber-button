@@ -121,9 +121,19 @@ const twe_para = {
 // 計算屬性
 const computedButtonId = computed(() => props.buttonId || props.voiceId);
 
+// 從 default slot 萃取純文字 (給 aria-label 用)
+// 原本寫法 `vnodes.join('')` 會把 VNode 物件變成字串 "[object Object]",造成 a11y 失敗
+function extractText(input) {
+  if (input == null) return '';
+  if (typeof input === 'string' || typeof input === 'number') return String(input);
+  if (Array.isArray(input)) return input.map(extractText).join('');
+  if (typeof input === 'object') return extractText(input.children);
+  return '';
+}
+
 const slotText = computed(() => {
   const vnodes = slots.default?.() || [];
-  return vnodes.join('').trim();
+  return extractText(vnodes).trim();
 });
 
 const in_favorite = computed(() => favoriteStore.isFavorite(props.voiceId));

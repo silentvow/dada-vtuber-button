@@ -56,7 +56,8 @@
     "random": "Random Mode",
     "repeat": "Repeat Mode",
     "self": "Player Control",
-    "stop": "Stop Playing"
+    "stop": "Stop Playing",
+    "volume": "Volume"
   },
   "member": {
     "error_authorization_required": "Discord account link has expired.",
@@ -109,6 +110,7 @@
     "source": "Source",
     "switch_dark_mode": "Dark Mode",
     "switch_language": "Switch Language",
+    "switch_menu": "Toggle Menu",
     "title": "DaDa Voice Museum",
     "url": "https://dada-vtuber-button.vercel.app",
     "voice": "Voice"
