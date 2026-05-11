@@ -37,19 +37,19 @@
               class="vo-menu-btn-bg"
               :class="{ liked: in_favorite }"
             >
-              <v-icon icon="mdi-menu" color="white"></v-icon>
+              <v-icon :icon="mdiMenu" color="white"></v-icon>
             </v-btn>
           </template>
           <v-list density="compact">
             <v-list-item
               v-if="in_favorite"
-              prepend-icon="mdi-heart-minus"
+              :prepend-icon="mdiHeartMinus"
               :title="$t('action.unlike')"
               @click="onUnlike"
             ></v-list-item>
-            <v-list-item v-else prepend-icon="mdi-heart-plus" :title="$t('action.like')" @click="onLike"></v-list-item>
-            <v-list-item prepend-icon="mdi-youtube" :title="$t('action.view_stream')" @click="onYoutube"></v-list-item>
-            <v-list-item prepend-icon="mdi-download" :title="$t('action.download')" @click="onDownload"></v-list-item>
+            <v-list-item v-else :prepend-icon="mdiHeartPlus" :title="$t('action.like')" @click="onLike"></v-list-item>
+            <v-list-item :prepend-icon="mdiYoutube" :title="$t('action.view_stream')" @click="onYoutube"></v-list-item>
+            <v-list-item :prepend-icon="mdiDownload" :title="$t('action.download')" @click="onDownload"></v-list-item>
           </v-list>
         </v-menu>
       </v-btn-group>
@@ -82,6 +82,7 @@
 <script setup>
 import { computed, useSlots } from 'vue';
 import { useTheme } from 'vuetify';
+import { mdiMenu, mdiHeartMinus, mdiHeartPlus, mdiYoutube, mdiDownload } from '@mdi/js';
 import twemoji from 'twemoji';
 
 defineOptions({

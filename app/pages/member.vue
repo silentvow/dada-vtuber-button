@@ -55,7 +55,7 @@
                 {{ group.voice_list.length }}
               </v-chip>
               <v-btn tag="span" class="flex-grow-0" icon variant="plain" @click.stop="copyLink(group.id)">
-                <v-icon icon="mdi-link"></v-icon>
+                <v-icon :icon="mdiLink"></v-icon>
               </v-btn>
             </v-expansion-panel-title>
 
@@ -79,6 +79,7 @@
 
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue';
+import { mdiLink } from '@mdi/js';
 import voice_lists from '~~/assets/dc_voices.json';
 // 💡 引入 AudioStore 與 Snackbar
 import { useAudioStore } from '~/stores/audio';
