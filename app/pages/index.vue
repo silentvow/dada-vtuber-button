@@ -1,18 +1,28 @@
 <template>
   <v-container class="d-flex flex-column align-center px-0 pt-0" fluid>
     <v-col cols="12" class="pa-0" style="min-width: 85%">
-      <v-text-field
-        :model-value="searchInput"
-        :placeholder="$t('search.placeholder')"
-        :aria-label="$t('search.placeholder')"
-        :prepend-inner-icon="mdiMagnify"
-        :clearable="true"
-        variant="outlined"
-        density="comfortable"
-        hide-details
-        class="mb-4"
-        @update:model-value="v => (searchInput = v ?? '')"
-      ></v-text-field>
+      <div class="d-flex align-center mb-4 gap-2">
+        <v-text-field
+          :model-value="searchInput"
+          :placeholder="$t('search.placeholder')"
+          :aria-label="$t('search.placeholder')"
+          :prepend-inner-icon="mdiMagnify"
+          :clearable="true"
+          variant="outlined"
+          density="comfortable"
+          hide-details
+          class="flex-grow-1"
+          @update:model-value="v => (searchInput = v ?? '')"
+        ></v-text-field>
+        <v-btn
+          :icon="mdiShuffle"
+          :aria-label="$t('control.random')"
+          color="primary"
+          variant="tonal"
+          size="large"
+          @click="play_random_voice"
+        ></v-btn>
+      </div>
 
       <div class="d-flex mb-4">
         <v-chip-group v-model="selectedYear" mandatory selected-class="selected-year">
@@ -116,7 +126,7 @@
 
 <script setup>
 import { ref, computed, watch, onMounted, nextTick } from 'vue';
-import { mdiLink, mdiMagnify } from '@mdi/js';
+import { mdiLink, mdiMagnify, mdiShuffle } from '@mdi/js';
 
 // voices.json (~500KB) 改走 /api/voices server route,不再內聯進 client JS bundle
 // SSG prerender: server route 用 import 讀檔 → useAsyncData 結果寫入 _payload.json
@@ -287,12 +297,11 @@ const play = item => {
   send_google_event(item);
 };
 
-const get_random_int = max => Math.floor(Math.random() * Math.floor(max));
-
+// 全域隨機:不受搜尋/年份 filter 影響,從所有 voices 挑一個 (使用者選 A)
+// pickRandomVoice util 從 app/utils/pickRandomVoice.ts auto-import
 const play_random_voice = () => {
-  const random_list = groups.value[get_random_int(groups.value.length)];
-  const random_item = random_list.voice_list[get_random_int(random_list.voice_list.length)];
-  play(random_item);
+  const random_item = pickRandomVoice(voice_lists.value.groups);
+  if (random_item) play(random_item);
 };
 
 const stop_all = () => audioStore.stopAll();

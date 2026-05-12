@@ -66,6 +66,68 @@ test.describe('User flows', () => {
     await expect(page).toHaveURL(/\/ja\/?$/);
   });
 
+  test('random play button triggers audio playback (PR12)', async ({ page }) => {
+    await page.addInitScript(() => {
+      (window as any).__audioPlayCalls = [];
+      HTMLAudioElement.prototype.play = function () {
+        (window as any).__audioPlayCalls.push(this.src);
+        return Promise.resolve();
+      };
+      HTMLAudioElement.prototype.load = function () {
+        setTimeout(() => this.dispatchEvent(new Event('canplay')), 0);
+      };
+    });
+
+    await page.goto('/');
+    await page.waitForLoadState('networkidle');
+
+    await page.locator('button[aria-label="隨機撥放"]').click();
+
+    await expect
+      .poll(async () => (await page.evaluate(() => (window as any).__audioPlayCalls?.length || 0)) > 0, {
+        timeout: 3000,
+        intervals: [100, 200, 500]
+      })
+      .toBe(true);
+
+    const calls = await page.evaluate(() => (window as any).__audioPlayCalls || []);
+    expect(calls[0]).toMatch(/\.mp3$/);
+  });
+
+  test('random play uses ALL voices, not filter-restricted (PR12)', async ({ page }) => {
+    // 即使搜尋過濾掉大部分,隨機按鈕應該還是從全部 937 條挑
+    await page.addInitScript(() => {
+      (window as any).__audioPlayCalls = [];
+      HTMLAudioElement.prototype.play = function () {
+        (window as any).__audioPlayCalls.push(this.src);
+        return Promise.resolve();
+      };
+      HTMLAudioElement.prototype.load = function () {
+        setTimeout(() => this.dispatchEvent(new Event('canplay')), 0);
+      };
+    });
+
+    await page.goto('/');
+    await page.waitForLoadState('networkidle');
+
+    // 搜尋一個只命中 1~2 個語音的字串
+    await page.locator('input[placeholder*="搜尋"]').fill('天老爺');
+    await page.waitForTimeout(400);
+
+    // 連點隨機 10 次,應該至少有一次播到非"天老爺..."(即超出 filter 範圍)
+    const playedUrls = new Set<string>();
+    for (let i = 0; i < 10; i++) {
+      await page.locator('button[aria-label="隨機撥放"]').click();
+      await page.waitForTimeout(50);
+    }
+    const calls = await page.evaluate(() => (window as any).__audioPlayCalls || []);
+    expect(calls.length).toBeGreaterThanOrEqual(10);
+    calls.forEach((u: string) => playedUrls.add(u));
+    // 10 次播放在 937 條池子裡,撞同一個的機率極低 (碰撞 ≈ 10²/937 ≈ 1%)
+    // 至少要有 5 種不同的 URL 才合理 (容許一點重複)
+    expect(playedUrls.size).toBeGreaterThanOrEqual(5);
+  });
+
   test('drawer toggles on hamburger click (mobile)', async ({ page }) => {
     await page.setViewportSize({ width: 375, height: 812 });
     await page.goto('/');
