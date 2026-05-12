@@ -32,8 +32,7 @@ useSeoMeta({
   ogDescription: () => t('site.description'),
   ogImage: `${siteUrl}/img/og_common.png`,
   ogUrl: () => canonicalUrl.value,
-  ogLocale: () =>
-    ({ zh: 'zh_TW', ja: 'ja_JP', en: 'en_US' }[locale.value] || 'zh_TW'),
+  ogLocale: () => ({ zh: 'zh_TW', ja: 'ja_JP', en: 'en_US' })[locale.value] || 'zh_TW',
   twitterCard: 'summary_large_image',
   twitterSite: '@tn604000',
   twitterTitle: () => t('site.title'),
@@ -56,8 +55,7 @@ useHead({
 useSchemaOrg([
   defineWebSite({
     name: '灰妲語音博物館',
-    description:
-      '收藏台V「灰妲」(ReLive Project) 的各種語音與獨特叫聲,點擊即可播放。',
+    description: '收藏台V「灰妲」(ReLive Project) 的各種語音與獨特叫聲,點擊即可播放。',
     inLanguage: ['zh-TW', 'ja-JP', 'en-US']
   }),
   defineOrganization({
@@ -69,14 +67,10 @@ useSchemaOrg([
     '@id': '#dada',
     name: '灰妲',
     alternateName: ['フイダ', 'DaDa', 'Gray Da'],
-    description:
-      'ReLive Project 旗下台灣 Vtuber,2021 年 3 月 26 日出道。',
+    description: 'ReLive Project 旗下台灣 Vtuber,2021 年 3 月 26 日出道。',
     image: `${siteUrl}/banner.jpg`,
     birthDate: '2021-03-26',
-    sameAs: [
-      'https://www.youtube.com/@ReLiveDaDa',
-      'https://x.com/DadaRelive'
-    ],
+    sameAs: ['https://www.youtube.com/@ReLiveDaDa', 'https://x.com/DadaRelive'],
     memberOf: { '@id': '#relive-project' }
   })
 ]);

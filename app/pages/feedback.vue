@@ -19,8 +19,6 @@
 </template>
 
 <script setup>
-import { computed } from 'vue';
-
 const { t } = useI18n();
 
 // SEO 標籤設定 (套用 app.vue 的 titleTemplate)
