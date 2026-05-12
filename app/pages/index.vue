@@ -1,18 +1,33 @@
 <template>
   <v-container class="d-flex flex-column align-center px-0 pt-0" fluid>
     <v-col cols="12" class="pa-0" style="min-width: 85%">
-      <v-text-field
-        :model-value="searchInput"
-        :placeholder="$t('search.placeholder')"
-        :aria-label="$t('search.placeholder')"
-        :prepend-inner-icon="mdiMagnify"
-        :clearable="true"
-        variant="outlined"
-        density="comfortable"
-        hide-details
-        class="mb-4"
-        @update:model-value="v => (searchInput = v ?? '')"
-      ></v-text-field>
+      <div class="d-flex align-center mb-4 gap-2">
+        <v-text-field
+          :model-value="searchInput"
+          :placeholder="$t('search.placeholder')"
+          :aria-label="$t('search.placeholder')"
+          :prepend-inner-icon="mdiMagnify"
+          :clearable="true"
+          variant="outlined"
+          density="comfortable"
+          hide-details
+          class="flex-grow-1"
+          @update:model-value="v => (searchInput = v ?? '')"
+        ></v-text-field>
+        <v-btn
+          :prepend-icon="mdiShuffle"
+          :aria-label="$t('control.random')"
+          :loading="isRandomLoading"
+          :disabled="isRandomLoading"
+          color="primary"
+          rounded="lg"
+          height="48"
+          class="text-none"
+          @click="play_random_voice"
+        >
+          {{ $t('control.random') }}
+        </v-btn>
+      </div>
 
       <div class="d-flex mb-4">
         <v-chip-group v-model="selectedYear" mandatory selected-class="selected-year">
@@ -111,12 +126,18 @@
         </v-card-actions>
       </v-card>
     </v-dialog>
+
+    <!-- 隨機播放專用 snackbar:由 audio onStart/onEnd 控制顯隱,
+         timeout=-1 表示不自動消失 (audio ended/error 時才隱藏) -->
+    <v-snackbar v-model="showRandomSnackbar" :timeout="-1" location="top" color="success" elevation="6">
+      {{ randomSnackbarText }}
+    </v-snackbar>
   </v-container>
 </template>
 
 <script setup>
 import { ref, computed, watch, onMounted, nextTick } from 'vue';
-import { mdiLink, mdiMagnify } from '@mdi/js';
+import { mdiLink, mdiMagnify, mdiShuffle } from '@mdi/js';
 
 // voices.json (~500KB) 改走 /api/voices server route,不再內聯進 client JS bundle
 // SSG prerender: server route 用 import 讀檔 → useAsyncData 結果寫入 _payload.json
@@ -139,6 +160,11 @@ const is_dialog_open = ref(false);
 const dialog_item = ref({ description: {}, url: '' });
 
 const selectedYear = ref('All');
+
+// 隨機播放按鈕 loading state + 自製 snackbar (由 audio 事件控制,不用全域 useSnackbar)
+const isRandomLoading = ref(false);
+const showRandomSnackbar = ref(false);
+const randomSnackbarText = ref('');
 
 // 搜尋分兩個 ref:input 給 v-model 即時更新 (responsive UI),
 // query 是 debounced 過的值,觸發 voice list filter (~200ms 後才重新算)
@@ -287,12 +313,48 @@ const play = item => {
   send_google_event(item);
 };
 
-const get_random_int = max => Math.floor(Math.random() * Math.floor(max));
-
+// 全域隨機:不受搜尋/年份 filter 影響,從所有 voices 挑一個 (使用者選 A)
+// pickRandomVoice util 從 app/utils/pickRandomVoice.ts auto-import
+//
+// 流程:
+// 1. 按下按鈕 → isRandomLoading=true (button 進入 loading,disabled 防連點)
+// 2. audio canplay 事件 → onStart → 彈 snackbar (時間點是「真的開始播」而非「按下去」)
+// 3. audio ended/error → onEnd/onError → loading=false + snackbar 收起
+//    (snackbar timeout=-1,只靠這裡控制,跟著音檔長度顯示)
 const play_random_voice = () => {
-  const random_list = groups.value[get_random_int(groups.value.length)];
-  const random_item = random_list.voice_list[get_random_int(random_list.voice_list.length)];
-  play(random_item);
+  const pick = pickRandomVoice(voice_lists.value.groups);
+  if (!pick) return;
+
+  isRandomLoading.value = true;
+  showRandomSnackbar.value = false; // 收掉前一個 snackbar (若有)
+
+  const groupName = pick.group.group_description?.[current_locale.value] || pick.group.group_name || '';
+  const voiceText = pick.voice.description?.[current_locale.value] || pick.voice.description?.zh || pick.voice.name;
+  const snackbarText = t('action.now_playing', { group: groupName, voice: voiceText });
+
+  audioStore.play(
+    pick.voice,
+    voice_host.value,
+    pick.voice.description?.[current_locale.value] || pick.voice.name,
+    t('control.full_name'),
+    t('site.title'),
+    play_random_voice, // onRandomNext (audio store 隨機模式 hook,目前無 UI 切換)
+    {
+      onStart: () => {
+        randomSnackbarText.value = snackbarText;
+        showRandomSnackbar.value = true;
+      },
+      onEnd: () => {
+        isRandomLoading.value = false;
+        showRandomSnackbar.value = false;
+      },
+      onError: () => {
+        isRandomLoading.value = false;
+        showRandomSnackbar.value = false;
+      }
+    }
+  );
+  send_google_event(pick.voice);
 };
 
 const stop_all = () => audioStore.stopAll();

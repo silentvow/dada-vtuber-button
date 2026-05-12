@@ -5,6 +5,7 @@
     "download": "ダウンロード",
     "like": "お気に入り",
     "like_success": "お気に入り登録済み",
+    "now_playing": "再生中:{group} - {voice}",
     "play_option": "再生オプション",
     "show_less": "もっと少なく表示",
     "show_more": "もっと見る",
