@@ -77,6 +77,11 @@
   "favorite": {
     "empty": "目前還沒有收藏任何語音喔！快去首頁點擊愛心吧。"
   },
+  "search": {
+    "placeholder": "搜尋語音(中/日/英)",
+    "clear": "清除",
+    "no_results": "找不到符合「{query}」的語音"
+  },
   "faq": {
     "title": "常見問題",
     "q1": "灰妲是誰？",
