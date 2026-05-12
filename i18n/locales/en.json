@@ -77,6 +77,11 @@
   "favorite": {
     "empty": "No voices have been favorited yet! Go to the home page and click the heart icon."
   },
+  "search": {
+    "placeholder": "Search voices (zh/ja/en)",
+    "clear": "Clear",
+    "no_results": "No voices found for \"{query}\""
+  },
   "faq": {
     "title": "Frequently Asked Questions",
     "q1": "Who is DaDa?",

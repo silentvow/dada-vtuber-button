@@ -1,6 +1,19 @@
 <template>
   <v-container class="d-flex flex-column align-center px-0 pt-0" fluid>
     <v-col cols="12" class="pa-0" style="min-width: 85%">
+      <v-text-field
+        :model-value="searchInput"
+        :placeholder="$t('search.placeholder')"
+        :aria-label="$t('search.placeholder')"
+        :prepend-inner-icon="mdiMagnify"
+        :clearable="true"
+        variant="outlined"
+        density="comfortable"
+        hide-details
+        class="mb-4"
+        @update:model-value="v => (searchInput = v ?? '')"
+      ></v-text-field>
+
       <div class="d-flex mb-4">
         <v-chip-group v-model="selectedYear" mandatory selected-class="selected-year">
           <v-chip
@@ -16,6 +29,10 @@
           </v-chip>
         </v-chip-group>
       </div>
+
+      <v-alert v-if="searchInput.trim() && groups.length === 0" type="info" variant="tonal" class="mb-4">
+        {{ $t('search.no_results', { query: searchInput.trim() }) }}
+      </v-alert>
 
       <v-expansion-panels v-model="panel" multiple>
         <v-expansion-panel v-for="group in groups" :id="`panel-${group.id}`" :key="group.name">
@@ -99,7 +116,7 @@
 
 <script setup>
 import { ref, computed, watch, onMounted, nextTick } from 'vue';
-import { mdiLink } from '@mdi/js';
+import { mdiLink, mdiMagnify } from '@mdi/js';
 
 // voices.json (~500KB) 改走 /api/voices server route,不再內聯進 client JS bundle
 // SSG prerender: server route 用 import 讀檔 → useAsyncData 結果寫入 _payload.json
@@ -123,6 +140,19 @@ const dialog_item = ref({ description: {}, url: '' });
 
 const selectedYear = ref('All');
 
+// 搜尋分兩個 ref:input 給 v-model 即時更新 (responsive UI),
+// query 是 debounced 過的值,觸發 voice list filter (~200ms 後才重新算)
+// 937 條 client filter 雖快,但 Vue 重 render 整批 voice-button 在中低階機型上會卡
+const searchInput = ref('');
+const searchQuery = ref('');
+let searchDebounceTimer = null;
+watch(searchInput, val => {
+  clearTimeout(searchDebounceTimer);
+  searchDebounceTimer = setTimeout(() => {
+    searchQuery.value = val;
+  }, 200);
+});
+
 // 💡 2. 動態從 json 提取所有年份，並由新到舊排序
 const availableYears = computed(() => {
   const years = new Set();
@@ -142,23 +172,22 @@ const allYearLabel = computed(() => {
   return '全部';
 });
 
-// 💡 4. 【關鍵】將原本寫死的 groups 改成 Computed，自動根據年份過濾
-const groups = computed(() => {
-  return voice_lists.value.groups
-    .map(group => {
-      // 過濾該群組的聲音列表
-      const filteredVoices = group.voice_list.filter(voice => {
-        if (selectedYear.value === 'All') return true;
-        return voice.year === selectedYear.value;
-      });
+// 💡 4. 群組過濾:年份 + 搜尋 (filterVoiceGroups util 處理)
+const groups = computed(() =>
+  filterVoiceGroups(voice_lists.value.groups, {
+    year: selectedYear.value,
+    query: searchQuery.value
+  })
+);
 
-      // 回傳新的群組物件，且只包含符合年份的聲音
-      return {
-        ...group,
-        voice_list: filteredVoices
-      };
-    })
-    .filter(group => group.voice_list.length > 0); // 若該群組過濾後沒有聲音，整個群組就不顯示
+// debounced query 變動後再展開有命中的群組
+// (用 searchQuery 不用 searchInput,避免打字過程不停 expand/collapse)
+watch(searchQuery, val => {
+  if (val.trim()) {
+    panel.value = groups.value.map((_, idx) => idx);
+  } else {
+    panel.value = [0];
+  }
 });
 
 // 計算屬性
