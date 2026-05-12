@@ -100,3 +100,8 @@ desktop.ini
 
 .vercel
 .gstack/
+
+# Test artifacts
+playwright-report/
+test-results/
+.lighthouseci/
