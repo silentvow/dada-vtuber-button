@@ -52,6 +52,28 @@ test.describe('Voice search', () => {
     expect(after).toBe(before);
   });
 
+  // Regression:Vuetify clearable 點 X 後 v-model 被設成 null,searchInput.trim() 噴
+  // TypeError 把整個 v-col 連 panels 一起 wipe 掉。修法:@update:model-value 強制 v ?? ''
+  test('clicking clear (X) restores panels, does NOT wipe page', async ({ page }) => {
+    await page.goto('/');
+    await page.waitForLoadState('networkidle');
+
+    const searchInput = page.locator('input[placeholder*="搜尋"]');
+    await searchInput.fill('天老爺');
+    await page.waitForTimeout(400);
+
+    const panelsAfterType = await page.locator('.v-expansion-panels').first().locator('.v-expansion-panel').count();
+    expect(panelsAfterType).toBeGreaterThan(0);
+
+    const clearBtn = page.locator('.v-text-field .v-field__clearable').first();
+    await clearBtn.click();
+    await page.waitForTimeout(400);
+
+    const panelsAfterClear = await page.locator('.v-expansion-panels').first().locator('.v-expansion-panel').count();
+    expect(panelsAfterClear).toBeGreaterThan(panelsAfterType);
+    await expect(searchInput).toBeVisible();
+  });
+
   test('search across Japanese description (Japanese user can find Chinese voice)', async ({ page }) => {
     await page.goto('/');
     await page.waitForLoadState('networkidle');

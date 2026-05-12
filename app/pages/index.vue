@@ -2,7 +2,7 @@
   <v-container class="d-flex flex-column align-center px-0 pt-0" fluid>
     <v-col cols="12" class="pa-0" style="min-width: 85%">
       <v-text-field
-        v-model="searchInput"
+        :model-value="searchInput"
         :placeholder="$t('search.placeholder')"
         :aria-label="$t('search.placeholder')"
         :prepend-inner-icon="mdiMagnify"
@@ -11,6 +11,7 @@
         density="comfortable"
         hide-details
         class="mb-4"
+        @update:model-value="v => (searchInput = v ?? '')"
       ></v-text-field>
 
       <div class="d-flex mb-4">
