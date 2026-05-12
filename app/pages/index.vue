@@ -2,7 +2,7 @@
   <v-container class="d-flex flex-column align-center px-0 pt-0" fluid>
     <v-col cols="12" class="pa-0" style="min-width: 85%">
       <v-text-field
-        v-model="searchQuery"
+        v-model="searchInput"
         :placeholder="$t('search.placeholder')"
         :aria-label="$t('search.placeholder')"
         :prepend-inner-icon="mdiMagnify"
@@ -29,8 +29,8 @@
         </v-chip-group>
       </div>
 
-      <v-alert v-if="searchQuery.trim() && groups.length === 0" type="info" variant="tonal" class="mb-4">
-        {{ $t('search.no_results', { query: searchQuery.trim() }) }}
+      <v-alert v-if="searchInput.trim() && groups.length === 0" type="info" variant="tonal" class="mb-4">
+        {{ $t('search.no_results', { query: searchInput.trim() }) }}
       </v-alert>
 
       <v-expansion-panels v-model="panel" multiple>
@@ -138,7 +138,19 @@ const is_dialog_open = ref(false);
 const dialog_item = ref({ description: {}, url: '' });
 
 const selectedYear = ref('All');
+
+// 搜尋分兩個 ref:input 給 v-model 即時更新 (responsive UI),
+// query 是 debounced 過的值,觸發 voice list filter (~200ms 後才重新算)
+// 937 條 client filter 雖快,但 Vue 重 render 整批 voice-button 在中低階機型上會卡
+const searchInput = ref('');
 const searchQuery = ref('');
+let searchDebounceTimer = null;
+watch(searchInput, val => {
+  clearTimeout(searchDebounceTimer);
+  searchDebounceTimer = setTimeout(() => {
+    searchQuery.value = val;
+  }, 200);
+});
 
 // 💡 2. 動態從 json 提取所有年份，並由新到舊排序
 const availableYears = computed(() => {
@@ -167,8 +179,8 @@ const groups = computed(() =>
   })
 );
 
-// 使用者輸入搜尋時自動展開所有有命中的群組
-// 清空搜尋時恢復預設 (只開第一個)
+// debounced query 變動後再展開有命中的群組
+// (用 searchQuery 不用 searchInput,避免打字過程不停 expand/collapse)
 watch(searchQuery, val => {
   if (val.trim()) {
     panel.value = groups.value.map((_, idx) => idx);

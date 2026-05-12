@@ -10,7 +10,7 @@ test.describe('Voice search', () => {
     await searchInput.fill('天老爺');
 
     // 等過濾結果穩定
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(400); // 等 200ms debounce + 200ms margin
 
     // 至少要有結果 (panel 數量 > 0)
     const visiblePanels = await page.locator('.v-expansion-panel').count();
@@ -27,7 +27,7 @@ test.describe('Voice search', () => {
 
     const searchInput = page.locator('input[placeholder*="搜尋"]');
     await searchInput.fill('xxxNonExistentVoiceQuery');
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(400); // 等 200ms debounce + 200ms margin
 
     // 應顯示「找不到符合...的語音」alert
     await expect(page.locator('.v-alert')).toContainText('xxxNonExistentVoiceQuery');
@@ -44,9 +44,9 @@ test.describe('Voice search', () => {
 
     const searchInput = page.locator('input[placeholder*="搜尋"]');
     await searchInput.fill('天老爺');
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(400); // 等 200ms debounce + 200ms margin
     await searchInput.fill('');
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(400); // 等 200ms debounce + 200ms margin
 
     const after = await page.locator('.v-expansion-panel').count();
     expect(after).toBe(before);
@@ -59,7 +59,7 @@ test.describe('Voice search', () => {
     // 用日文搜尋 (voices.json 三語系都有 description)
     const searchInput = page.locator('input[placeholder*="搜尋"]');
     await searchInput.fill('神様');
-    await page.waitForTimeout(300);
+    await page.waitForTimeout(400); // 等 200ms debounce + 200ms margin
 
     expect(await page.locator('.v-expansion-panel').count()).toBeGreaterThan(0);
   });

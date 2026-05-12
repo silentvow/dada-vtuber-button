@@ -131,7 +131,7 @@
     <v-main>
       <v-container class="page">
         <NuxtImg
-          class="rounded mb-4 d-block"
+          class="rounded mb-4 d-block banner-hero"
           src="/banner.jpg"
           alt="灰妲語音博物館橫幅"
           width="1920"
@@ -141,7 +141,6 @@
           quality="80"
           loading="eager"
           fetchpriority="high"
-          style="max-height: 360px; width: 100%; object-fit: cover"
         />
 
         <slot />
@@ -263,5 +262,20 @@ const onVolumeChange = val => {
 }
 .v-theme--dark.v-application {
   background-color: #43404b;
+}
+
+/* Banner hero:桌面保持原 4:1 寬幅,行動裝置改 16:9 比例 (~211px on 375px viewport)
+   讓 mobile 也能看清楚角色,跟 desktop 視覺份量接近 */
+.banner-hero {
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+  object-position: center;
+}
+@media (max-width: 768px) {
+  .banner-hero {
+    aspect-ratio: 16 / 9;
+    max-height: none;
+  }
 }
 </style>
