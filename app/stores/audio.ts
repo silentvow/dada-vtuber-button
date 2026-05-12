@@ -26,7 +26,8 @@ export const useAudioStore = defineStore('audio', {
       metaTitle: string,
       fullTitle: string,
       albumTitle: string,
-      onRandomNext?: () => void
+      onRandomNext?: () => void,
+      callbacks?: { onStart?: () => void; onEnd?: () => void; onError?: () => void }
     ) {
       const settings = useSettingsStore();
       const audioUrl = voiceHost + item.path;
@@ -50,11 +51,18 @@ export const useAudioStore = defineStore('audio', {
         navigator.mediaSession.playbackState = 'playing';
       }
 
+      // 兩種「結束」狀態都要呼叫 onEnd:正常結束 + paused (stopAll 觸發)
+      // 用 flag 避免 onStart 失敗、onEnd 仍被呼叫等矛盾狀態
+      let started = false;
       const cleanup = () => {
         this.progressMap[item.id] = 0;
         this.playingMap[item.id] = false;
         clearInterval(this.timers[item.id]);
         this.activeAudios.delete(audio);
+        if (started) {
+          started = false;
+          callbacks?.onEnd?.();
+        }
       };
 
       audio.addEventListener('canplay', () => {
@@ -62,6 +70,8 @@ export const useAudioStore = defineStore('audio', {
         audio.play();
         this.activeAudios.add(audio);
         this.playingMap[item.id] = true;
+        started = true;
+        callbacks?.onStart?.();
 
         // 設定進度條計時器
         clearInterval(this.timers[item.id]);
@@ -91,6 +101,7 @@ export const useAudioStore = defineStore('audio', {
 
       audio.addEventListener('error', () => {
         cleanup();
+        callbacks?.onError?.();
         const { $i18n } = useNuxtApp();
         useSnackbar().show($i18n.t('action.audio_error'));
       });
