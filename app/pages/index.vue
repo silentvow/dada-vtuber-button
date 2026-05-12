@@ -20,7 +20,6 @@
           :loading="isRandomLoading"
           :disabled="isRandomLoading"
           color="primary"
-          variant="tonal"
           rounded="lg"
           height="48"
           class="text-none"
