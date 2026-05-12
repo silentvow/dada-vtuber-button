@@ -15,13 +15,17 @@
           @update:model-value="v => (searchInput = v ?? '')"
         ></v-text-field>
         <v-btn
-          :icon="mdiShuffle"
+          :prepend-icon="mdiShuffle"
           :aria-label="$t('control.random')"
           color="primary"
           variant="tonal"
-          size="large"
+          rounded="lg"
+          height="48"
+          class="text-none"
           @click="play_random_voice"
-        ></v-btn>
+        >
+          {{ $t('control.random') }}
+        </v-btn>
       </div>
 
       <div class="d-flex mb-4">
@@ -299,9 +303,14 @@ const play = item => {
 
 // 全域隨機:不受搜尋/年份 filter 影響,從所有 voices 挑一個 (使用者選 A)
 // pickRandomVoice util 從 app/utils/pickRandomVoice.ts auto-import
+// 播放後彈 snackbar 顯示「播放中:類別 - 名稱」讓使用者知道隨機到什麼
 const play_random_voice = () => {
-  const random_item = pickRandomVoice(voice_lists.value.groups);
-  if (random_item) play(random_item);
+  const pick = pickRandomVoice(voice_lists.value.groups);
+  if (!pick) return;
+  play(pick.voice);
+  const groupName = pick.group.group_description?.[current_locale.value] || pick.group.group_name || '';
+  const voiceText = pick.voice.description?.[current_locale.value] || pick.voice.description?.zh || pick.voice.name;
+  snackbar.show(t('action.now_playing', { group: groupName, voice: voiceText }));
 };
 
 const stop_all = () => audioStore.stopAll();

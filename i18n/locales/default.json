@@ -5,6 +5,7 @@
     "download": "下載語音",
     "like": "加入最愛",
     "like_success": "已加入最愛",
+    "now_playing": "播放中:{group} - {voice}",
     "play_option": "播放選項",
     "show_less": "顯示較少",
     "show_more": "顯示更多",

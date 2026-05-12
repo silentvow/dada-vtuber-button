@@ -66,7 +66,7 @@ test.describe('User flows', () => {
     await expect(page).toHaveURL(/\/ja\/?$/);
   });
 
-  test('random play button triggers audio playback (PR12)', async ({ page }) => {
+  test('random play button triggers audio playback + shows now_playing snackbar (PR12)', async ({ page }) => {
     await page.addInitScript(() => {
       (window as any).__audioPlayCalls = [];
       HTMLAudioElement.prototype.play = function () {
@@ -92,6 +92,9 @@ test.describe('User flows', () => {
 
     const calls = await page.evaluate(() => (window as any).__audioPlayCalls || []);
     expect(calls[0]).toMatch(/\.mp3$/);
+
+    // 應該彈出 "播放中:<group> - <voice>" snackbar
+    await expect(page.locator('.v-snackbar')).toContainText('播放中');
   });
 
   test('random play uses ALL voices, not filter-restricted (PR12)', async ({ page }) => {
