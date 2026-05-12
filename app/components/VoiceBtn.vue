@@ -122,15 +122,7 @@ const twe_para = {
 const computedButtonId = computed(() => props.buttonId || props.voiceId);
 
 // 從 default slot 萃取純文字 (給 aria-label 用)
-// 原本寫法 `vnodes.join('')` 會把 VNode 物件變成字串 "[object Object]",造成 a11y 失敗
-function extractText(input) {
-  if (input == null) return '';
-  if (typeof input === 'string' || typeof input === 'number') return String(input);
-  if (Array.isArray(input)) return input.map(extractText).join('');
-  if (typeof input === 'object') return extractText(input.children);
-  return '';
-}
-
+// extractText 從 app/utils/extractText.ts auto-import (Nuxt 4 auto-import)
 const slotText = computed(() => {
   const vnodes = slots.default?.() || [];
   return extractText(vnodes).trim();

@@ -197,12 +197,17 @@ useSeoMeta({
 }
 
 .markdown-body a {
-  color: #0366d6;
-  text-decoration: none;
+  /* 原 GFM 色 #0366d6 在 dark theme 對比度 3.07 (WCAG AA 不通過)。
+     改用較亮的 #79b8ff (對比度 vs dark bg ~6.4)。
+     另外 axe 要求 link 必須 visually distinguish from 周圍文字 (不能只靠顏色),
+     加 underline 確保 a11y 通過 */
+  color: #79b8ff;
+  text-decoration: underline;
 }
 
 .markdown-body a:hover {
   text-decoration: underline;
+  opacity: 0.85;
 }
 
 .markdown-body strong {
