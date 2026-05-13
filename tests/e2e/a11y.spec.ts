@@ -26,7 +26,10 @@ const paths = [
 for (const path of paths) {
   test(`a11y: ${path}`, async ({ page }) => {
     await page.goto(path);
-    await page.waitForLoadState('domcontentloaded');
+    // 用 networkidle 而非 domcontentloaded — 後者會在 entry.css (preload+swap 延遲載入) 還沒套用前 fire,
+    // 導致 .v-footer 背景仍是透明,axe 會看到 .v-application 底色 (#43404b),link 對比掉到 4.17:1 而 flake。
+    // networkidle 等所有資源 (含 entry.css) 載完。
+    await page.waitForLoadState('networkidle');
 
     const results = await new AxeBuilder({ page })
       // 排除 WCAG AAA 等過嚴等級,只跑 A 跟 AA

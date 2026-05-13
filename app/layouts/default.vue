@@ -153,11 +153,18 @@
       <v-footer class="footer d-flex flex-column align-middle" style="align-items: flex-start">
         <div class="text-center">
           <span>&copy; {{ new Date().getFullYear() }}&nbsp;</span>
-          <a :href="$t('site.footer.author_link')" target="_blank" rel="noreferrer" class="text-decoration-underline">{{
-            $t('site.footer.author')
-          }}</a>
+          <!-- text-accent (#ff8a80) 不論 footer bg (#212121) 或 app fallback bg (#43404b) 都過 WCAG AA -->
+          <a
+            :href="$t('site.footer.author_link')"
+            target="_blank"
+            rel="noreferrer"
+            class="text-decoration-underline text-accent"
+            >{{ $t('site.footer.author') }}</a
+          >
           <span>&nbsp;|&nbsp;</span>
-          <NuxtLink :to="localePath('/privacy')" class="text-decoration-underline">{{ $t('site.privacy') }}</NuxtLink>
+          <NuxtLink :to="localePath('/privacy')" class="text-decoration-underline text-accent">{{
+            $t('site.privacy')
+          }}</NuxtLink>
         </div>
         <div class="text-center mt-1" v-html="footerContent"></div>
       </v-footer>
@@ -194,7 +201,8 @@ const drawer = ref(false);
 const volume = ref(settings.volume);
 
 const footerContent = computed(() => {
-  const styledName = `<a href="${localePath('/feedback')}" class="text-decoration-underline">${t('site.feedback')}</a>`;
+  // text-accent 對 footer 兩種可能背景 (CSS 載入後 #212121 / 未載入 fallback #43404b) 都過 AA
+  const styledName = `<a href="${localePath('/feedback')}" class="text-decoration-underline text-accent">${t('site.feedback')}</a>`;
   return t('site.footer.content').replace('{feedback}', styledName);
 });
 

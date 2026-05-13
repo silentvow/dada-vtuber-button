@@ -171,11 +171,12 @@ export default defineNuxtConfig({
       ],
       // Critical CSS:在 entry.css 載入前就預留 v-app-bar (48px) 與 v-navigation-drawer (256px)
       // 的空間,避免 hydration 時 v-main 位移造成 CLS。
+      // - body{margin:0} — 蓋掉 browser 預設 8px margin (Vuetify 的 *{margin:0} 在 entry.css 裡而 entry.css 是 preload+swap)
       // - 預設 (mobile):只 reserve toolbar 高度,不 reserve drawer (mobile 為 temporary overlay)
       // - 桌面 (>=1024px):額外 reserve drawer 寬度 256px
       style: [
         {
-          innerHTML: `.v-main{padding-top:48px!important}@media (min-width:1024px){.v-main{padding-left:256px!important}}`
+          innerHTML: `body{margin:0}.v-main{padding-top:48px!important}@media (min-width:1024px){.v-main{padding-left:256px!important}}`
         }
       ],
       link: [
