@@ -39,6 +39,7 @@ test.describe('User flows', () => {
   test('VoiceBtn aria-label is the description text (not [object Object])', async ({ page }) => {
     // 對應 PR7 修的核心 bug
     await page.goto('/');
+    await page.waitForLoadState('networkidle');
     const btns = page.locator('.vo-btn[aria-label]');
     const count = Math.min(await btns.count(), 10); // 抽前 10 個
     for (let i = 0; i < count; i++) {
@@ -50,16 +51,22 @@ test.describe('User flows', () => {
 
   test('challenge page can be started', async ({ page }) => {
     await page.goto('/challenge');
+    // 等 Vuetify hydration 完成 — 否則「開始挑戰」按鈕雖然 SSR 渲染了但 click handler 還沒掛
+    await page.waitForLoadState('networkidle');
     // 點 "開始挑戰" (普通難度)
     await page.getByRole('button', { name: /開始挑戰/ }).first().click();
     // 載入問題後 voice buttons 應該出現
-    await page.waitForSelector('.vo-btn', { timeout: 5000 });
+    // state: 'attached' 而非 'visible' — 因為 click 後會塞 15 個 YouTube iframe 進來,
+    // layout 抖動期間 Playwright 的 visible 判定不穩。我們只要驗 challenge 模式 render 出按鈕即可。
+    await page.waitForSelector('.vo-btn', { state: 'attached', timeout: 5000 });
     const btnCount = await page.locator('.vo-btn').count();
     expect(btnCount).toBeGreaterThan(0);
   });
 
   test('language switcher navigates to localized URL', async ({ page }) => {
     await page.goto('/');
+    // 等 hydration — v-menu 觸發按鈕需要 client-side handler 才能展開 dropdown
+    await page.waitForLoadState('networkidle');
     // 點翻譯 icon button (用 aria-label 找)
     await page.locator('button[aria-label="切換語言"]').click();
     await page.getByText('日本語').click();
@@ -235,6 +242,8 @@ test.describe('User flows', () => {
   test('drawer toggles on hamburger click (mobile)', async ({ page }) => {
     await page.setViewportSize({ width: 375, height: 812 });
     await page.goto('/');
+    // 等 hydration — hamburger 按鈕的 click handler 在 client 才掛
+    await page.waitForLoadState('networkidle');
     // 預設關閉 (mobile)
     const drawer = page.locator('.v-navigation-drawer');
     // 點 hamburger 開啟
