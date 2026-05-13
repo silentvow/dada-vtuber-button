@@ -219,14 +219,6 @@ watch(searchQuery, val => {
 // 計算屬性
 const current_locale = computed(() => locale.value);
 
-const voice_host = computed(() => {
-  // Vite 環境變數判斷 (取代舊版的 process.env)
-  if (import.meta.env.PROD) {
-    return 'https://cdn.jsdelivr.net/gh/silentvow/dada-vtuber-button@master/public/voices/';
-  }
-  return '/voices/';
-});
-
 const dark_text = computed(() => ({
   'text-grey-lighten-2': settings.dark
 }));
@@ -282,7 +274,7 @@ const send_google_event = item => {
 const download = item => {
   const a = document.createElement('a');
   a.target = '_blank';
-  a.href = voice_host.value + item.path;
+  a.href = getPrimaryVoiceUrl(item.path);
   a.download = item.path.split('/').pop();
   a.click();
 };
@@ -304,7 +296,6 @@ const openModal = item => {
 const play = item => {
   audioStore.play(
     item,
-    voice_host.value,
     item.description[current_locale.value],
     t('control.full_name'),
     t('site.title'),
@@ -334,7 +325,6 @@ const play_random_voice = () => {
 
   audioStore.play(
     pick.voice,
-    voice_host.value,
     pick.voice.description?.[current_locale.value] || pick.voice.name,
     t('control.full_name'),
     t('site.title'),

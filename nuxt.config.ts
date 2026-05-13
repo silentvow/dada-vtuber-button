@@ -187,7 +187,10 @@ export default defineNuxtConfig({
         { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
         // 預連線到 jsDelivr — 語音檔與 twemoji 都從這個 CDN 抓
         { rel: 'preconnect', href: 'https://cdn.jsdelivr.net', crossorigin: '' },
-        { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' }
+        { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' },
+        // 預連線到 statically.io — 語音播放會跟 jsdelivr 平行 race
+        { rel: 'preconnect', href: 'https://cdn.statically.io', crossorigin: '' },
+        { rel: 'dns-prefetch', href: 'https://cdn.statically.io' }
       ]
     }
   }

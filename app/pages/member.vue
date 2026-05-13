@@ -119,13 +119,6 @@ const dark_text = computed(() => ({
 
 const current_locale = computed(() => locale.value);
 
-const voice_host = computed(() => {
-  if (import.meta.env.PROD) {
-    return 'https://cdn.jsdelivr.net/gh/silentvow/dada-vtuber-button@master/public/voices/';
-  }
-  return '/voices/';
-});
-
 const isAuthorized = computed(() => {
   return member.value?.roles && member.value.roles.length > 0;
 });
@@ -213,13 +206,7 @@ const send_google_event = item => {
 };
 
 const play = item => {
-  audioStore.play(
-    item,
-    voice_host.value,
-    item.description[current_locale.value],
-    t('control.full_name'),
-    t('site.title')
-  );
+  audioStore.play(item, item.description[current_locale.value], t('control.full_name'), t('site.title'));
   send_google_event(item);
 };
 

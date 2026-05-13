@@ -162,6 +162,74 @@ test.describe('User flows', () => {
     expect(playedUrls.size).toBeGreaterThanOrEqual(5);
   });
 
+  test('CDN race: both URLs are requested, only one play() call per click (PR13)', async ({ page }) => {
+    // E2E 跑在 prod build 上 → audioStore 應對 jsdelivr + statically 同時發 race
+    // 兩個 Audio 都會 load(),但 declareWinner 內有 guard → 只有一個 play()
+    await page.addInitScript(() => {
+      (window as any).__loadedUrls = [];
+      (window as any).__playCalls = [];
+      HTMLAudioElement.prototype.play = function () {
+        (window as any).__playCalls.push(this.src);
+        return Promise.resolve();
+      };
+      HTMLAudioElement.prototype.load = function () {
+        (window as any).__loadedUrls.push(this.src);
+        // 同步觸發 canplay,確保第一個 (jsdelivr) 贏 race
+        setTimeout(() => this.dispatchEvent(new Event('canplay')), 0);
+      };
+    });
+
+    await page.goto('/');
+    await page.waitForLoadState('networkidle');
+    const firstBtn = page.locator('.vo-btn').first();
+    await firstBtn.waitFor({ state: 'visible' });
+    await firstBtn.click();
+
+    await expect
+      .poll(async () => (await page.evaluate(() => (window as any).__playCalls?.length || 0)) > 0, {
+        timeout: 3000,
+        intervals: [100, 200, 500]
+      })
+      .toBe(true);
+
+    const loaded = await page.evaluate(() => (window as any).__loadedUrls || []);
+    const played = await page.evaluate(() => (window as any).__playCalls || []);
+
+    // load() 應該被叫多次:race 階段每個 racer 各一次,winner 宣告後 loser abort 又一次
+    expect(loaded.length).toBeGreaterThanOrEqual(2);
+    // 但 play() 只應該被叫一次 (winner)
+    expect(played.length).toBe(1);
+    // winner URL 應該是 jsdelivr (race 中第一個 canplay)
+    expect(played[0]).toMatch(/cdn\.jsdelivr\.net/);
+  });
+
+  test('CDN race: both racers fail → error snackbar shown (PR13)', async ({ page }) => {
+    // 所有 racer 都 error 才視為真的失敗 → 跑 errorSnackbar 路徑
+    await page.addInitScript(() => {
+      (window as any).__playCalls = [];
+      HTMLAudioElement.prototype.play = function () {
+        (window as any).__playCalls.push(this.src);
+        return Promise.resolve();
+      };
+      HTMLAudioElement.prototype.load = function () {
+        // 不觸發 canplay,改觸發 error
+        setTimeout(() => this.dispatchEvent(new Event('error')), 0);
+      };
+    });
+
+    await page.goto('/');
+    await page.waitForLoadState('networkidle');
+    const firstBtn = page.locator('.vo-btn').first();
+    await firstBtn.waitFor({ state: 'visible' });
+    await firstBtn.click();
+
+    // 兩個 racer 都 error → 應該出現錯誤 snackbar
+    await expect(page.locator('.v-snackbar--active')).toBeVisible({ timeout: 3000 });
+    // play() 不應該被呼叫 (沒有 winner)
+    const played = await page.evaluate(() => (window as any).__playCalls || []);
+    expect(played.length).toBe(0);
+  });
+
   test('drawer toggles on hamburger click (mobile)', async ({ page }) => {
     await page.setViewportSize({ width: 375, height: 812 });
     await page.goto('/');
