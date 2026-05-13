@@ -188,9 +188,12 @@ export default defineNuxtConfig({
         // 預連線到 jsDelivr — 語音檔與 twemoji 都從這個 CDN 抓
         { rel: 'preconnect', href: 'https://cdn.jsdelivr.net', crossorigin: '' },
         { rel: 'dns-prefetch', href: 'https://cdn.jsdelivr.net' },
-        // 預連線到 statically.io — 語音播放會跟 jsdelivr 平行 race
-        { rel: 'preconnect', href: 'https://cdn.statically.io', crossorigin: '' },
-        { rel: 'dns-prefetch', href: 'https://cdn.statically.io' }
+        // 預連線到 raw.githubusercontent — 語音播放會跟 jsdelivr 平行 race
+        { rel: 'preconnect', href: 'https://raw.githubusercontent.com', crossorigin: '' },
+        { rel: 'dns-prefetch', href: 'https://raw.githubusercontent.com' },
+        // 預連線到 GitHub Pages — 第三條 race 路線,任一可用就播
+        { rel: 'preconnect', href: 'https://silentvow.github.io', crossorigin: '' },
+        { rel: 'dns-prefetch', href: 'https://silentvow.github.io' }
       ]
     }
   }

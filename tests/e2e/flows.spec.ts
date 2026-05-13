@@ -95,19 +95,21 @@ test.describe('User flows', () => {
     // snackbar 還沒出現 (因為 canplay 還沒觸發)
     await expect(page.locator('.v-snackbar--active')).toHaveCount(0);
 
-    // 模擬 canplay 觸發
+    // 模擬 canplay 觸發 — 給 audios[0] (jsdelivr,第一個 racer) 讓它贏 race
+    // (PR13 race 之後 audios array 會被 loser abort 的 load() 再 push,
+    //  audios[length-1] 不一定是 winner;audios[0] 是穩定的第一個 racer)
     await page.evaluate(() => {
       const audios = (window as any).__audioElements;
-      audios[audios.length - 1]?.dispatchEvent(new Event('canplay'));
+      audios[0]?.dispatchEvent(new Event('canplay'));
     });
 
     // 現在 snackbar 應該出現,含「播放中」
     await expect(page.locator('.v-snackbar--active')).toContainText('播放中');
 
-    // 模擬 audio ended
+    // 模擬 audio ended (對 winner = audios[0] 派發)
     await page.evaluate(() => {
       const audios = (window as any).__audioElements;
-      audios[audios.length - 1]?.dispatchEvent(new Event('ended'));
+      audios[0]?.dispatchEvent(new Event('ended'));
     });
 
     // button loading 退出, snackbar 消失
@@ -162,9 +164,9 @@ test.describe('User flows', () => {
     expect(playedUrls.size).toBeGreaterThanOrEqual(5);
   });
 
-  test('CDN race: both URLs are requested, only one play() call per click (PR13)', async ({ page }) => {
-    // E2E 跑在 prod build 上 → audioStore 應對 jsdelivr + statically 同時發 race
-    // 兩個 Audio 都會 load(),但 declareWinner 內有 guard → 只有一個 play()
+  test('CDN race: all URLs are requested, only one play() call per click (PR13)', async ({ page }) => {
+    // E2E 跑在 prod build 上 → audioStore 應對 jsdelivr + raw.github + gh-pages 同時發 race
+    // 三個 Audio 都會 load(),但 declareWinner 內有 guard → 只有一個 play()
     await page.addInitScript(() => {
       (window as any).__loadedUrls = [];
       (window as any).__playCalls = [];
@@ -195,15 +197,15 @@ test.describe('User flows', () => {
     const loaded = await page.evaluate(() => (window as any).__loadedUrls || []);
     const played = await page.evaluate(() => (window as any).__playCalls || []);
 
-    // load() 應該被叫多次:race 階段每個 racer 各一次,winner 宣告後 loser abort 又一次
-    expect(loaded.length).toBeGreaterThanOrEqual(2);
+    // load() 應該被叫多次:race 階段每個 racer 各一次,winner 宣告後 losers abort 又各一次
+    expect(loaded.length).toBeGreaterThanOrEqual(3);
     // 但 play() 只應該被叫一次 (winner)
     expect(played.length).toBe(1);
     // winner URL 應該是 jsdelivr (race 中第一個 canplay)
     expect(played[0]).toMatch(/cdn\.jsdelivr\.net/);
   });
 
-  test('CDN race: both racers fail → error snackbar shown (PR13)', async ({ page }) => {
+  test('CDN race: all racers fail → error snackbar shown (PR13)', async ({ page }) => {
     // 所有 racer 都 error 才視為真的失敗 → 跑 errorSnackbar 路徑
     await page.addInitScript(() => {
       (window as any).__playCalls = [];
@@ -223,7 +225,7 @@ test.describe('User flows', () => {
     await firstBtn.waitFor({ state: 'visible' });
     await firstBtn.click();
 
-    // 兩個 racer 都 error → 應該出現錯誤 snackbar
+    // 全部 racer 都 error → 應該出現錯誤 snackbar
     await expect(page.locator('.v-snackbar--active')).toBeVisible({ timeout: 3000 });
     // play() 不應該被呼叫 (沒有 winner)
     const played = await page.evaluate(() => (window as any).__playCalls || []);

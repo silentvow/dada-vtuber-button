@@ -7,17 +7,19 @@ describe('getVoiceUrls', () => {
     expect(urls).toEqual(['/voices/foo/bar.mp3']);
   });
 
-  it('returns two CDN URLs in prod mode (jsdelivr + statically)', () => {
+  it('returns three CDN URLs in prod mode (jsdelivr + raw.githubusercontent + gh-pages)', () => {
     const urls = getVoiceUrls('foo/bar.mp3', { isProd: true });
-    expect(urls).toHaveLength(2);
+    expect(urls).toHaveLength(3);
     expect(urls[0]).toMatch(/^https:\/\/cdn\.jsdelivr\.net\/.+\/foo\/bar\.mp3$/);
-    expect(urls[1]).toMatch(/^https:\/\/cdn\.statically\.io\/.+\/foo\/bar\.mp3$/);
+    expect(urls[1]).toMatch(/^https:\/\/raw\.githubusercontent\.com\/.+\/foo\/bar\.mp3$/);
+    expect(urls[2]).toMatch(/^https:\/\/silentvow\.github\.io\/.+\/foo\/bar\.mp3$/);
   });
 
   it('jsdelivr URL is listed first (primary)', () => {
     const urls = getVoiceUrls('x.mp3', { isProd: true });
     expect(urls[0]).toContain('jsdelivr');
-    expect(urls[1]).toContain('statically');
+    expect(urls[1]).toContain('raw.githubusercontent');
+    expect(urls[2]).toContain('github.io');
   });
 
   it('builds correct path for nested folders', () => {
