@@ -1,28 +1,36 @@
 import { defineStore } from 'pinia';
 import { useSettingsStore } from './settings';
+import { getVoiceUrls } from '~/utils/voiceUrls';
+
+// 一個正在進行 race 的 audio 取消控制器
+interface RaceController {
+  abort: () => void;
+}
 
 export const useAudioStore = defineStore('audio', {
   state: () => ({
-    // 儲存目前正在播放的 Audio 實體
+    // 儲存目前正在播放的 Audio 實體 (winners)
     activeAudios: new Set<HTMLAudioElement>(),
+    // 儲存正在 race 中的 controllers,讓 stopAll 可以打斷 race
+    activeRaces: new Set<RaceController>(),
     // 記錄每個按鈕的播放進度 { 'voice-id': 50 }
     progressMap: {} as Record<string, number>,
     // 記錄每個按鈕是否正在播放 { 'voice-id': true }
     playingMap: {} as Record<string, boolean>,
 
-    // 控制面板狀態 (從頁面移過來)
+    // 控制面板狀態
     overlap: false,
     random: false,
     repeat: false,
 
-    // 存放計時器 ID，用來清除進度條更新
+    // 存放計時器 ID,用來清除進度條更新
     timers: {} as Record<string, ReturnType<typeof setInterval>>
   }),
 
   actions: {
+    // play 不再接受 voiceHost 參數 — URL 由 getVoiceUrls 內部處理 (prod 雙 CDN race,dev 單 URL)
     play(
       item: any,
-      voiceHost: string,
       metaTitle: string,
       fullTitle: string,
       albumTitle: string,
@@ -30,15 +38,12 @@ export const useAudioStore = defineStore('audio', {
       callbacks?: { onStart?: () => void; onEnd?: () => void; onError?: () => void }
     ) {
       const settings = useSettingsStore();
-      const audioUrl = voiceHost + item.path;
+      const urls = getVoiceUrls(item.path);
 
-      // 如果不允許重疊，先暫停所有正在播放的
+      // 如果不允許重疊,先暫停所有正在播放/race 的
       if (!this.overlap) {
         this.stopAll();
       }
-
-      const audio = new Audio(audioUrl);
-      audio.load();
 
       // 設定 Media Session
       if ('mediaSession' in navigator) {
@@ -51,21 +56,62 @@ export const useAudioStore = defineStore('audio', {
         navigator.mediaSession.playbackState = 'playing';
       }
 
-      // 兩種「結束」狀態都要呼叫 onEnd:正常結束 + paused (stopAll 觸發)
-      // 用 flag 避免 onStart 失敗、onEnd 仍被呼叫等矛盾狀態
+      // === Race 階段 ===
+      // 同時對所有 CDN 發起 audio load,first 'canplay' 贏家成為實際播放對象。
+      // 其他輸家被 abort (src='' + load() 中斷下載) 省頻寬。
+      // 全部都 error 才視為播放失敗。
+
+      const racers = urls.map(url => new Audio(url));
+      let winner: HTMLAudioElement | null = null;
+      let aborted = false;
       let started = false;
+      let errorCount = 0;
+
+      // 共用 cleanup:winner 結束 (ended/pause/error/abort) 時清狀態
       const cleanup = () => {
+        if (!winner) return;
         this.progressMap[item.id] = 0;
         this.playingMap[item.id] = false;
         clearInterval(this.timers[item.id]);
-        this.activeAudios.delete(audio);
+        this.activeAudios.delete(winner);
         if (started) {
           started = false;
           callbacks?.onEnd?.();
         }
       };
 
-      audio.addEventListener('canplay', () => {
+      // race controller: stopAll 用它打斷未決勝的 race
+      const raceCtl: RaceController = {
+        abort: () => {
+          aborted = true;
+          racers.forEach(a => {
+            a.src = '';
+            a.load(); // 中斷下載
+          });
+          cleanup();
+        }
+      };
+      this.activeRaces.add(raceCtl);
+
+      const finishRace = () => {
+        this.activeRaces.delete(raceCtl);
+      };
+
+      // 宣告贏家 — 第一個 canplay 的 racer 贏
+      const declareWinner = (audio: HTMLAudioElement) => {
+        if (winner || aborted) return;
+        winner = audio;
+        finishRace();
+
+        // 中斷其他 racer 下載
+        racers.forEach(a => {
+          if (a !== winner) {
+            a.src = '';
+            a.load();
+          }
+        });
+
+        // 開始實際播放
         audio.volume = settings.volume * 0.01;
         audio.play();
         this.activeAudios.add(audio);
@@ -73,47 +119,72 @@ export const useAudioStore = defineStore('audio', {
         started = true;
         callbacks?.onStart?.();
 
-        // 設定進度條計時器
+        // 進度條計時器
         clearInterval(this.timers[item.id]);
         this.timers[item.id] = setInterval(() => {
           const prog = Number(((audio.currentTime / audio.duration) * 100).toFixed(2));
           this.progressMap[item.id] = prog !== Infinity && !isNaN(prog) ? prog : 0;
         }, 50);
-      });
 
-      audio.addEventListener('ended', () => {
-        if (this.repeat) {
-          audio.currentTime = 0;
-          audio.play();
-        } else if (this.random && onRandomNext) {
-          onRandomNext();
-        } else {
+        // Winner-only listeners
+        audio.addEventListener('ended', () => {
+          if (this.repeat) {
+            audio.currentTime = 0;
+            audio.play();
+          } else if (this.random && onRandomNext) {
+            onRandomNext();
+          } else {
+            cleanup();
+          }
+        });
+
+        audio.addEventListener('pause', () => {
           cleanup();
-        }
-      });
+          if ('mediaSession' in navigator) {
+            navigator.mediaSession.playbackState = 'paused';
+          }
+        });
 
-      audio.addEventListener('pause', () => {
-        cleanup();
-        if ('mediaSession' in navigator) {
-          navigator.mediaSession.playbackState = 'paused';
-        }
-      });
+        // 中途錯誤 (winner 播一半 CDN 出包):不重試,直接顯示錯誤
+        // 重試需要記錄 currentTime + 重新 load 切換 src,複雜度高,ROI 低
+        audio.addEventListener('error', () => {
+          cleanup();
+          callbacks?.onError?.();
+          const { $i18n } = useNuxtApp();
+          useSnackbar().show($i18n.t('action.audio_error'));
+        });
 
-      audio.addEventListener('error', () => {
-        cleanup();
-        callbacks?.onError?.();
-        const { $i18n } = useNuxtApp();
-        useSnackbar().show($i18n.t('action.audio_error'));
-      });
-
-      // 綁定自訂的 abort 方法到物件上
-      (audio as any).abort_play = () => {
-        audio.pause();
-        cleanup();
+        // 自訂 abort 方法 (給 stopAll 用)
+        (audio as any).abort_play = () => {
+          audio.pause();
+          cleanup();
+        };
       };
+
+      // 全部 race 失敗才當作真的失敗
+      const onRacerError = () => {
+        errorCount++;
+        if (errorCount === racers.length && !winner && !aborted) {
+          finishRace();
+          callbacks?.onError?.();
+          const { $i18n } = useNuxtApp();
+          useSnackbar().show($i18n.t('action.audio_error'));
+        }
+      };
+
+      // 對每個 racer 掛 race-only listeners (once,觸發後自動移除)
+      racers.forEach(a => {
+        a.addEventListener('canplay', () => declareWinner(a), { once: true });
+        a.addEventListener('error', onRacerError, { once: true });
+        a.load();
+      });
     },
 
     stopAll() {
+      // 先打斷 race 中的
+      this.activeRaces.forEach(r => r.abort());
+      this.activeRaces.clear();
+      // 再停 winner audios
       this.activeAudios.forEach(audio => {
         if ((audio as any).abort_play) {
           (audio as any).abort_play();

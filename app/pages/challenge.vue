@@ -221,13 +221,6 @@ const score_text = computed(() => {
   return t('challenge.score0');
 });
 
-const voice_host = computed(() => {
-  if (import.meta.env.PROD) {
-    return 'https://cdn.jsdelivr.net/gh/silentvow/dada-vtuber-button@master/public/voices/';
-  }
-  return '/voices/';
-});
-
 // 監聽結果頁，儲存最高分並重置狀態
 watch(show_result, value => {
   if (value) return;
@@ -314,7 +307,7 @@ const submitAnswer = () => {
 // 播放與音效管理 (直接呼叫 AudioStore，程式碼銳減！)
 const play = item => {
   // 將選項名稱與描述丟給 Store 記錄與播放
-  audioStore.play(item, voice_host.value, current_locale.value);
+  audioStore.play(item, current_locale.value);
 };
 
 // 題庫生成邏輯
