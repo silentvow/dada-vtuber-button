@@ -282,7 +282,7 @@ const onVolumeChange = val => {
 }
 @media (max-width: 768px) {
   .banner-hero {
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 21 / 9;
     height: auto;
     max-height: none;
   }
