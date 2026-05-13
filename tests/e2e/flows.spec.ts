@@ -214,15 +214,18 @@ test.describe('User flows', () => {
 
   test('CDN race: all racers fail → error snackbar shown (PR13)', async ({ page }) => {
     // 所有 racer 都 error 才視為真的失敗 → 跑 errorSnackbar 路徑
+    //
+    // 用 page.route 在 network 層 abort 三個 CDN 的 mp3 請求,讓真實 audio element
+    // 真的拿不到資料,自然 fire error 事件。
+    // (不可以只 mock HTMLAudioElement.prototype.load:new Audio(url) 建構時瀏覽器
+    //  就已經開始 fetch,我們的 mock 不會擋掉真實 fetch → CI 上 jsdelivr 通常會回成功
+    //  → canplay fire → 變成有 1 個 play call,test fail。)
+    await page.route(/\.(mp3|wav|ogg)(\?.*)?$/, route => route.abort('failed'));
     await page.addInitScript(() => {
       (window as any).__playCalls = [];
       HTMLAudioElement.prototype.play = function () {
         (window as any).__playCalls.push(this.src);
         return Promise.resolve();
-      };
-      HTMLAudioElement.prototype.load = function () {
-        // 不觸發 canplay,改觸發 error
-        setTimeout(() => this.dispatchEvent(new Event('error')), 0);
       };
     });
 
