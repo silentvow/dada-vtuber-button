@@ -14,15 +14,18 @@ export default defineNuxtConfig({
   css: ['~~/assets/global.css'],
   ssr: true,
 
-  // SSG: 預先產生所有靜態路由 (含三語系,排除 /member 走 Discord OAuth)
+  // SSG: 預先產生所有靜態路由 (含三語系)
   // i18n strategy = prefix_except_default 之後,日/英語版會有 /ja /en 前綴
+  // /compose 跟 /member 雖然 ssr:false,還是 prerender 一份 HTML stub,
+  // 讓使用者直接打 URL 進來時 hosting (Vercel SSG) 能 serve 而不是 404。
+  // stub 是空殼 + 全部 JS,進來後 client-side 自己 hydrate 整頁。
   nitro: {
     prerender: {
       crawlLinks: true,
       routes: [
-        '/', '/favorite', '/challenge', '/feedback', '/privacy',
-        '/ja', '/ja/favorite', '/ja/challenge', '/ja/feedback', '/ja/privacy',
-        '/en', '/en/favorite', '/en/challenge', '/en/feedback', '/en/privacy'
+        '/', '/favorite', '/compose', '/challenge', '/feedback', '/privacy',
+        '/ja', '/ja/favorite', '/ja/compose', '/ja/challenge', '/ja/feedback', '/ja/privacy',
+        '/en', '/en/favorite', '/en/compose', '/en/challenge', '/en/feedback', '/en/privacy'
       ],
       ignore: ['/member', '/ja/member', '/en/member']
     }

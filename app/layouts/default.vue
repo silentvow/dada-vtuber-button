@@ -16,6 +16,12 @@
           :title="$t('site.favorite')"
         ></v-list-item>
         <v-list-item
+          :to="localePath('/compose')"
+          exact
+          :prepend-icon="mdiPlaylistMusic"
+          :title="$t('site.compose')"
+        ></v-list-item>
+        <v-list-item
           :to="localePath('/challenge')"
           exact
           :prepend-icon="mdiHeadQuestionOutline"
@@ -180,6 +186,7 @@ import {
   mdiHeadQuestionOutline,
   mdiMessageAlertOutline,
   mdiAccountGroup,
+  mdiPlaylistMusic,
   mdiVolumeHigh,
   mdiVolumeLow,
   mdiBrightness2,

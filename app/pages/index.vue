@@ -1,83 +1,32 @@
 <template>
   <v-container class="d-flex flex-column align-center px-0 pt-0" fluid>
     <v-col cols="12" class="pa-0" style="min-width: 85%">
-      <div class="d-flex align-center mb-4 gap-2">
-        <v-text-field
-          :model-value="searchInput"
-          :placeholder="$t('search.placeholder')"
-          :aria-label="$t('search.placeholder')"
-          :prepend-inner-icon="mdiMagnify"
-          :clearable="true"
-          variant="outlined"
-          density="comfortable"
-          hide-details
-          class="flex-grow-1"
-          @update:model-value="v => (searchInput = v ?? '')"
-        ></v-text-field>
-        <v-btn
-          :prepend-icon="mdiShuffle"
-          :aria-label="$t('control.random')"
-          :loading="isRandomLoading"
-          :disabled="isRandomLoading"
-          color="primary"
-          rounded="lg"
-          height="48"
-          class="text-none"
-          @click="play_random_voice"
-        >
-          {{ $t('control.random') }}
-        </v-btn>
-      </div>
-
-      <div class="d-flex mb-4">
-        <v-chip-group v-model="selectedYear" mandatory selected-class="selected-year">
-          <v-chip
-            v-for="year in availableYears"
-            :key="year"
-            :value="year"
-            label
-            size="x-large"
-            variant="outlined"
-            class="font-weight-bold px-6"
+      <VoiceListWithSearch
+        ref="voiceListRef"
+        v-model:panel="panel"
+        :groups="voice_lists.groups"
+        :show-group-copy-link="true"
+        @play="play"
+        @youtube="openModal"
+        @download="download"
+        @copy-link="copyLink"
+      >
+        <template #header-actions>
+          <v-btn
+            :prepend-icon="mdiShuffle"
+            :aria-label="$t('control.random')"
+            :loading="isRandomLoading"
+            :disabled="isRandomLoading"
+            color="primary"
+            rounded="lg"
+            height="48"
+            class="text-none"
+            @click="play_random_voice"
           >
-            {{ year === 'All' ? allYearLabel : year }}
-          </v-chip>
-        </v-chip-group>
-      </div>
-
-      <v-alert v-if="searchInput.trim() && groups.length === 0" type="info" variant="tonal" class="mb-4">
-        {{ $t('search.no_results', { query: searchInput.trim() }) }}
-      </v-alert>
-
-      <v-expansion-panels v-model="panel" multiple>
-        <v-expansion-panel v-for="group in groups" :id="`panel-${group.id}`" :key="group.name">
-          <v-expansion-panel-title class="font-weight-bold" :class="dark_text">
-            <span class="text-h5">{{ group.group_description[current_locale] }}</span>
-            <v-chip size="x-small" class="mx-3 flex-grow-0" color="info" variant="outlined">
-              {{ group.voice_list.length }}
-            </v-chip>
-            <v-btn tag="span" class="flex-grow-0" icon variant="plain" @click.stop="copyLink(group.id)">
-              <v-icon :icon="mdiLink"></v-icon>
-            </v-btn>
-          </v-expansion-panel-title>
-
-          <v-expansion-panel-text class="button-panel">
-            <!-- <div class="d-flex flex-wrap gap-2 pt-2"> -->
-            <VoiceBtn
-              v-for="item in group.voice_list"
-              :key="item.id"
-              :voice-id="item.id"
-              :from-youtube="Boolean(item.url)"
-              @on-play="play(item)"
-              @on-youtube="openModal(item)"
-              @on-download="download(item)"
-            >
-              {{ item.description[current_locale] || item.description['zh'] }}
-            </VoiceBtn>
-            <!-- </div> -->
-          </v-expansion-panel-text>
-        </v-expansion-panel>
-      </v-expansion-panels>
+            {{ $t('control.random') }}
+          </v-btn>
+        </template>
+      </VoiceListWithSearch>
     </v-col>
 
     <v-col cols="12" class="pa-0 mt-12" style="min-width: 85%">
@@ -137,7 +86,7 @@
 
 <script setup>
 import { ref, computed, watch, onMounted, nextTick } from 'vue';
-import { mdiLink, mdiMagnify, mdiShuffle } from '@mdi/js';
+import { mdiShuffle } from '@mdi/js';
 
 // voices.json (~500KB) 改走 /api/voices server route,不再內聯進 client JS bundle
 // SSG prerender: server route 用 import 讀檔 → useAsyncData 結果寫入 _payload.json
@@ -155,66 +104,15 @@ const snackbar = useSnackbar();
 const { gtag } = useGtag();
 
 // 狀態變數
+const voiceListRef = ref(null);
 const panel = ref([0]);
 const is_dialog_open = ref(false);
 const dialog_item = ref({ description: {}, url: '' });
-
-const selectedYear = ref('All');
 
 // 隨機播放按鈕 loading state + 自製 snackbar (由 audio 事件控制,不用全域 useSnackbar)
 const isRandomLoading = ref(false);
 const showRandomSnackbar = ref(false);
 const randomSnackbarText = ref('');
-
-// 搜尋分兩個 ref:input 給 v-model 即時更新 (responsive UI),
-// query 是 debounced 過的值,觸發 voice list filter (~200ms 後才重新算)
-// 937 條 client filter 雖快,但 Vue 重 render 整批 voice-button 在中低階機型上會卡
-const searchInput = ref('');
-const searchQuery = ref('');
-let searchDebounceTimer = null;
-watch(searchInput, val => {
-  clearTimeout(searchDebounceTimer);
-  searchDebounceTimer = setTimeout(() => {
-    searchQuery.value = val;
-  }, 200);
-});
-
-// 💡 2. 動態從 json 提取所有年份，並由新到舊排序
-const availableYears = computed(() => {
-  const years = new Set();
-  voice_lists.value.groups.forEach(g => {
-    g.voice_list.forEach(v => {
-      if (v.year) years.add(v.year);
-    });
-  });
-  // 回傳 ['All', '2024', '2023', ...]
-  return ['All', ...Array.from(years).sort((a, b) => b.localeCompare(a))];
-});
-
-// 💡 3. 多語系「全部」按鈕的顯示文字
-const allYearLabel = computed(() => {
-  if (current_locale.value === 'ja') return 'すべて';
-  if (current_locale.value === 'en') return 'All';
-  return '全部';
-});
-
-// 💡 4. 群組過濾:年份 + 搜尋 (filterVoiceGroups util 處理)
-const groups = computed(() =>
-  filterVoiceGroups(voice_lists.value.groups, {
-    year: selectedYear.value,
-    query: searchQuery.value
-  })
-);
-
-// debounced query 變動後再展開有命中的群組
-// (用 searchQuery 不用 searchInput,避免打字過程不停 expand/collapse)
-watch(searchQuery, val => {
-  if (val.trim()) {
-    panel.value = groups.value.map((_, idx) => idx);
-  } else {
-    panel.value = [0];
-  }
-});
 
 // 計算屬性
 const current_locale = computed(() => locale.value);
@@ -232,22 +130,23 @@ watch(is_dialog_open, newVal => {
 
 // 生命週期與初始化
 onMounted(() => {
-  // Hash 滾動跳轉邏輯
+  // Hash 滾動跳轉邏輯:用 ref 取 voiceListRef 暴露的 filteredGroups
   const hash = window.location.hash.replace('#', '');
   if (hash) {
-    const groupIndex = groups.value.findIndex(g => g.id === hash);
-    if (groupIndex !== -1) {
-      nextTick(() => {
-        requestAnimationFrame(() => {
+    nextTick(() => {
+      requestAnimationFrame(() => {
+        const filteredGroups = voiceListRef.value?.filteredGroups || [];
+        const groupIndex = filteredGroups.findIndex(g => g.id === hash);
+        if (groupIndex !== -1) {
           const el = document.getElementById(`panel-${hash}`);
           if (el) {
             panel.value = [groupIndex];
             const y = el.getBoundingClientRect().top + window.scrollY - 64;
             window.scrollTo({ top: y });
           }
-        });
+        }
       });
-    }
+    });
   }
 
   // Media Session Metadata 整合
@@ -374,34 +273,6 @@ useSchemaOrg([
 </script>
 
 <style scoped>
-/* 模擬 v-speed-dial 的排版 */
-.speed-dial-container {
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
-  z-index: 100;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.speed-dial-actions {
-  gap: 8px;
-}
-
-.gap-2 {
-  gap: 8px;
-}
-
-.selected-year {
-  background-color: rgb(var(--v-theme-primary)) !important;
-  color: rgba(0, 0, 0, 0.87);
-}
-
-.v-theme--dark.selected-year {
-  color: white;
-}
-
 /* FAQ 區塊 — 視覺輕量,避免搶語音清單焦點 */
 .faq-section :deep(.v-expansion-panel-title) {
   min-height: 56px;

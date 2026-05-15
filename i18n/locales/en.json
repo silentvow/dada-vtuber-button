@@ -1,5 +1,6 @@
 {
   "action": {
+    "add": "Add",
     "audio_error": "Failed to load audio, please try again later.",
     "copy_link": "Link Copied",
     "download": "Download",
@@ -78,6 +79,33 @@
   "favorite": {
     "empty": "No voices have been favorited yet! Go to the home page and click the heart icon."
   },
+  "compose": {
+    "title": "Voice Compose",
+    "description": "Add voices to the editor, reorder them, and play them all in sequence with one click. You can add the same voice multiple times for fun combinations.",
+    "count": "{count} / {max} selected",
+    "empty_hint": "No voices selected yet. Pick one from the list below to start!",
+    "full_message": "Reached the {max}-item limit",
+    "play_all": "Play All",
+    "stop": "Stop",
+    "loop": "Loop",
+    "loop_on": "Looping",
+    "reset": "Reset",
+    "reset_confirm_title": "Clear the editor?",
+    "reset_confirm_message": "There are {count} voices currently. This cannot be undone.",
+    "reset_confirm_yes": "Clear",
+    "reset_confirm_no": "Cancel",
+    "add_to_editor": "Add",
+    "added": "Added \"{name}\"",
+    "remove_item": "Remove",
+    "editing_locked_during_play": "Cannot edit while playing. Stop first.",
+    "drag_handle": "Drag to reorder",
+    "item_position": "Position {pos}",
+    "preview": "Preview",
+    "now_playing_item": "Now playing",
+    "pick_from_below": "Pick voices from the list below",
+    "added_count": "Added {count} times",
+    "drag_tip": "Drag the handle on the left to reorder"
+  },
   "search": {
     "placeholder": "Search voices (zh/ja/en)",
     "clear": "Clear",
@@ -108,6 +136,7 @@
       "content": "This site is a fan work and is not associated with the ReLive Project official. For staff and more information, please see {feedback} page.",
       "repo_link": "https://github.com/silentvow/dada-vtuber-button"
     },
+    "compose": "Compose",
     "index": "Index",
     "keywords": "DaDa,Vtuber,Taiwan,Voice Button,ReLive Project",
     "links": "Links",

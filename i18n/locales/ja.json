@@ -1,5 +1,6 @@
 {
   "action": {
+    "add": "追加",
     "audio_error": "音声の読み込みに失敗しました。後でもう一度お試しください。",
     "copy_link": "リンクをコピー",
     "download": "ダウンロード",
@@ -78,6 +79,33 @@
   "favorite": {
     "empty": "まだお気に入りの音声がありません！ホームページでハートアイコンをクリックしてください。"
   },
+  "compose": {
+    "title": "ボイス編曲",
+    "description": "音声を編集エリアに追加し、順番に並べてワンクリックで再生できます。同じ音声を何度でも追加して面白い組み合わせを作れます。",
+    "count": "{count} / {max} 選択中",
+    "empty_hint": "まだ音声が選ばれていません。下の一覧から選んでみましょう！",
+    "full_message": "上限の {max} 件に達しました",
+    "play_all": "再生",
+    "stop": "停止",
+    "loop": "ループ",
+    "loop_on": "ループ中",
+    "reset": "リセット",
+    "reset_confirm_title": "編集エリアをクリアしますか？",
+    "reset_confirm_message": "現在 {count} 件の音声があります。クリアすると元に戻せません。",
+    "reset_confirm_yes": "クリアする",
+    "reset_confirm_no": "キャンセル",
+    "add_to_editor": "追加",
+    "added": "「{name}」を追加しました",
+    "remove_item": "削除",
+    "editing_locked_during_play": "再生中は編集できません。先に停止してください",
+    "drag_handle": "ドラッグで順番変更",
+    "item_position": "{pos} 番目",
+    "preview": "試聴",
+    "now_playing_item": "再生中",
+    "pick_from_below": "下の一覧から音声を選ぶ",
+    "added_count": "{count} 回追加済み",
+    "drag_tip": "左のハンドルをドラッグして並び替え"
+  },
   "search": {
     "placeholder": "音声を検索(中/日/英)",
     "clear": "クリア",
@@ -108,6 +136,7 @@
       "content": "本サイトはファン作品であり、ReLive Projectの公式とは関係ありません。プロジェクトの参加方法やフィードバックについては、{feedback}ページをご覧ください。",
       "repo_link": "https://github.com/silentvow/dada-vtuber-button"
     },
+    "compose": "ボイス編曲",
     "index": "ホームページ",
     "keywords": "灰妲,Vtuber,Taiwan,Voice Button,ReLive Project",
     "links": "友情リンク",
