@@ -23,9 +23,9 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       routes: [
-        '/', '/favorite', '/compose', '/challenge', '/feedback', '/privacy',
-        '/ja', '/ja/favorite', '/ja/compose', '/ja/challenge', '/ja/feedback', '/ja/privacy',
-        '/en', '/en/favorite', '/en/compose', '/en/challenge', '/en/feedback', '/en/privacy'
+        '/', '/favorite', '/compose', '/soundboard', '/challenge', '/feedback', '/privacy',
+        '/ja', '/ja/favorite', '/ja/compose', '/ja/soundboard', '/ja/challenge', '/ja/feedback', '/ja/privacy',
+        '/en', '/en/favorite', '/en/compose', '/en/soundboard', '/en/challenge', '/en/feedback', '/en/privacy'
       ],
       ignore: ['/member', '/ja/member', '/en/member']
     }
@@ -90,7 +90,8 @@ export default defineNuxtConfig({
 
   // 自動產生 sitemap.xml,含 i18n hreflang
   sitemap: {
-    exclude: ['/member', '/feedback', '/*/member', '/*/feedback']
+    // soundboard 是給實況主的工具,robots noindex,sitemap 也不列
+    exclude: ['/member', '/feedback', '/soundboard', '/*/member', '/*/feedback', '/*/soundboard']
   },
 
   gtag: {

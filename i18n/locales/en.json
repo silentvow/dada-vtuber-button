@@ -106,6 +106,24 @@
     "added_count": "Added {count} times",
     "drag_tip": "Drag the handle on the left to reorder"
   },
+  "soundboard": {
+    "title": "DaDa Soundboard",
+    "subtitle": "A quick-play tool for streamers — press 1~9 to fire pinned voices",
+    "back_to_home": "Back to home",
+    "overlap": "Overlap",
+    "overlap_hint": "Repeated clicks layer the same voice on top of each other",
+    "pinned_section": "Keyboard shortcuts",
+    "pinned_hint": "Drag voices from below into the slots to assign keys 1~9",
+    "empty_slot": "Drop a voice here",
+    "clear_slot": "Clear this slot",
+    "clear_all": "Clear all",
+    "search_placeholder": "Search voices (zh/ja/en)...",
+    "no_pinned": "No shortcuts yet — drag voices from below, or click any voice to play it",
+    "voice_list_section": "All voices",
+    "mobile_hint_title": "Desktop browser recommended",
+    "mobile_hint_body": "The soundboard is designed for streamers using keyboard shortcuts. Drag-and-drop and 1~9 keys don't work on mobile. Go back to home for the standard experience.",
+    "streamer_tool": "Streamer tools"
+  },
   "search": {
     "placeholder": "Search voices (zh/ja/en)",
     "clear": "Clear",

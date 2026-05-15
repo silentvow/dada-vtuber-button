@@ -106,6 +106,24 @@
     "added_count": "{count} 回追加済み",
     "drag_tip": "左のハンドルをドラッグして並び替え"
   },
+  "soundboard": {
+    "title": "灰妲 Soundboard",
+    "subtitle": "配信者向けクイック再生ツール、1〜9 キーで即時再生",
+    "back_to_home": "ホームへ戻る",
+    "overlap": "重ね再生",
+    "overlap_hint": "同じ音声を連打すると重なって再生されます",
+    "pinned_section": "キーボードショートカット",
+    "pinned_hint": "下の音声をドラッグして 1〜9 のショートカットに設定",
+    "empty_slot": "音声をここにドラッグ",
+    "clear_slot": "このスロットをクリア",
+    "clear_all": "全てクリア",
+    "search_placeholder": "音声を検索(中/日/英)...",
+    "no_pinned": "ショートカット未設定 — 下の音声をドラッグするか、直接クリックで再生",
+    "voice_list_section": "すべての音声",
+    "mobile_hint_title": "デスクトップブラウザ推奨",
+    "mobile_hint_body": "Soundboard は配信者がキーボードで操作することを想定しており、モバイルではドラッグや 1〜9 キーが使えません。ホームへ戻って通常版をご利用ください。",
+    "streamer_tool": "配信ツール"
+  },
   "search": {
     "placeholder": "音声を検索(中/日/英)",
     "clear": "クリア",
