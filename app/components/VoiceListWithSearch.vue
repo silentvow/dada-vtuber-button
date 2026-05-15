@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- 搜尋列 + header-actions slot (給首頁隨機按鈕用,compose 頁可不填) -->
-    <div class="d-flex align-center mb-4 gap-2">
+    <div class="d-flex align-center mb-4 ga-2">
       <v-text-field
         :model-value="searchInput"
         :placeholder="$t('search.placeholder')"

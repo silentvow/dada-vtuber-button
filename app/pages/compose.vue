@@ -8,194 +8,199 @@
       </div>
 
       <!-- ============== 編輯區 ============== -->
-      <v-card variant="flat" class="mb-6 rounded-lg composer-card">
-        <!-- Control bar:flex 直接寫 (不用 v-toolbar) 因為 v-toolbar 內部的 flex
-             覆蓋外層 gap-2,跟首頁 layout/menu 一樣手動排比較好控制。
-             所有按鈕統一 outlined variant;disabled state 視覺差大,不會被誤判成「能按沒反應」。 -->
-        <div class="d-flex align-center flex-wrap composer-toolbar px-4 py-3">
-          <!-- 主動作:一鍵播放 / 停止 -->
-          <v-btn
-            v-if="!composer.isPlaying"
-            :prepend-icon="mdiPlayCircleOutline"
-            :disabled="composer.isEmpty"
-            color="primary"
-            variant="outlined"
-            rounded="lg"
-            class="text-none me-2"
-            @click="onPlayAll"
-          >
-            {{ $t('compose.play_all') }}
-          </v-btn>
-          <v-btn
-            v-else
-            :prepend-icon="mdiStopCircleOutline"
-            color="primary"
-            variant="outlined"
-            rounded="lg"
-            class="text-none me-2"
-            @click="onStop"
-          >
-            {{ $t('compose.stop') }}
-          </v-btn>
+      <div>
+        <v-card variant="flat" class="mb-6 rounded-lg composer-card">
+          <!-- Control bar:flex + ga-2 (Vuetify 3 gap utility 是 `ga-N` 不是 `gap-N`,
+             後者寫了會 silently 無效,只有 `ga-` 才會套上 css gap: 8px)。
+             不用 v-toolbar 是因為它內部 flex 會干擾外層 layout。
+             所有按鈕統一 outlined;disabled 視覺跟 enabled 差很大,不會被誤判成「能按沒反應」。 -->
+          <div class="d-flex align-center flex-wrap ga-2 composer-toolbar px-4 py-3">
+            <!-- 主動作:一鍵播放 / 停止 -->
+            <v-btn
+              v-if="!composer.isPlaying"
+              :prepend-icon="mdiPlayCircleOutline"
+              :disabled="composer.isEmpty"
+              color="primary"
+              variant="outlined"
+              rounded="lg"
+              class="text-none"
+              @click="onPlayAll"
+            >
+              {{ $t('compose.play_all') }}
+            </v-btn>
+            <v-btn
+              v-else
+              :prepend-icon="mdiStopCircleOutline"
+              color="primary"
+              variant="outlined"
+              rounded="lg"
+              class="text-none"
+              @click="onStop"
+            >
+              {{ $t('compose.stop') }}
+            </v-btn>
 
-          <!-- Loop toggle:不改 variant,改用 color 表示 on/off (primary 紅 = on,空色 = off) -->
-          <v-btn
-            :prepend-icon="mdiRepeat"
-            variant="outlined"
-            :color="composer.loop ? 'primary' : ''"
-            rounded="lg"
-            class="text-none me-2"
-            :aria-pressed="composer.loop"
-            @click="composer.toggleLoop"
-          >
-            {{ composer.loop ? $t('compose.loop_on') : $t('compose.loop') }}
-          </v-btn>
+            <!-- Loop toggle:不改 variant,改用 color 表示 on/off (primary 紅 = on,空色 = off) -->
+            <v-btn
+              :prepend-icon="mdiRepeat"
+              variant="outlined"
+              :color="composer.loop ? 'primary' : ''"
+              rounded="lg"
+              class="text-none"
+              :aria-pressed="composer.loop"
+              @click="composer.toggleLoop"
+            >
+              {{ composer.loop ? $t('compose.loop_on') : $t('compose.loop') }}
+            </v-btn>
 
-          <v-spacer></v-spacer>
+            <v-spacer></v-spacer>
 
-          <!-- 計數:用 v-chip variant=text (純文字,沒填充沒邊框),達上限變紅提醒 -->
-          <v-chip
-            :color="composer.isFull ? 'error' : ''"
-            variant="text"
-            size="default"
-            class="font-weight-bold flex-grow-0 me-2"
-            :aria-label="$t('compose.count', { count: composer.count, max: MAX_ITEMS })"
-          >
-            {{ $t('compose.count', { count: composer.count, max: MAX_ITEMS }) }}
-          </v-chip>
+            <!-- 計數:用 v-chip variant=text (純文字,沒填充沒邊框),達上限變紅提醒 -->
+            <v-chip
+              :color="composer.isFull ? 'error' : ''"
+              variant="text"
+              size="default"
+              class="font-weight-bold flex-grow-0"
+              :aria-label="$t('compose.count', { count: composer.count, max: MAX_ITEMS })"
+            >
+              {{ $t('compose.count', { count: composer.count, max: MAX_ITEMS }) }}
+            </v-chip>
 
-          <!-- 重置:也 outlined,但顏色用 error 提示破壞性 -->
-          <v-btn
-            :prepend-icon="mdiTrashCanOutline"
-            :disabled="composer.isEmpty || composer.isPlaying"
-            color="error"
-            variant="outlined"
-            rounded="lg"
-            class="text-none"
-            @click="showResetConfirm = true"
-          >
-            {{ $t('compose.reset') }}
-          </v-btn>
-        </div>
-
-        <v-divider opacity="0.12"></v-divider>
-
-        <!-- 編輯區內容:空 / draggable list -->
-        <v-card-text class="pa-3 composer-list-area" style="min-height: 120px">
-          <div
-            v-if="composer.isEmpty"
-            class="d-flex flex-column align-center justify-center text-medium-emphasis py-8"
-            style="text-align: center"
-          >
-            <v-icon :icon="mdiMusicBoxMultipleOutline" size="48" class="mb-2 opacity-50"></v-icon>
-            <p class="text-body-1">{{ $t('compose.empty_hint') }}</p>
+            <!-- 重置:也 outlined,但顏色用 error 提示破壞性 -->
+            <v-btn
+              :prepend-icon="mdiTrashCanOutline"
+              :disabled="composer.isEmpty || composer.isPlaying"
+              color="error"
+              variant="outlined"
+              rounded="lg"
+              class="text-none"
+              @click="showResetConfirm = true"
+            >
+              {{ $t('compose.reset') }}
+            </v-btn>
           </div>
 
-          <v-alert
-            v-else-if="composer.isPlaying"
-            type="info"
-            variant="tonal"
-            density="compact"
-            class="mb-3"
-            :icon="mdiInformationOutline"
-          >
-            {{ $t('compose.editing_locked_during_play') }}
-          </v-alert>
+          <v-divider opacity="0.12"></v-divider>
 
-          <!-- 拖曳教學:有 2 條以上 + 非播放中時顯示,輕量字級避免擋住主內容 -->
-          <p
-            v-if="composer.items.length >= 2 && !composer.isPlaying"
-            class="text-caption text-medium-emphasis mb-2 px-2 d-flex align-center gap-1"
-          >
-            <v-icon :icon="mdiGestureTap" size="x-small"></v-icon>
-            {{ $t('compose.drag_tip') }}
-          </p>
+          <!-- 編輯區內容:空 / draggable list -->
+          <v-card-text class="pa-3 composer-list-area" style="min-height: 120px">
+            <div
+              v-if="composer.isEmpty"
+              class="d-flex flex-column align-center justify-center text-medium-emphasis py-8"
+              style="text-align: center"
+            >
+              <v-icon :icon="mdiMusicBoxMultipleOutline" size="48" class="mb-2 opacity-50"></v-icon>
+              <p class="text-body-1">{{ $t('compose.empty_hint') }}</p>
+            </div>
 
-          <draggable
-            v-if="!composer.isEmpty"
-            :model-value="composer.items"
-            item-key="instanceId"
-            handle=".drag-handle"
-            :animation="200"
-            :force-fallback="true"
-            :disabled="composer.isPlaying"
-            ghost-class="composer-item-ghost"
-            tag="ul"
-            class="composer-list pa-0 ma-0"
-            @update:model-value="newItems => composer.reorder(newItems)"
-          >
-            <template #item="{ element, index }">
-              <li
-                class="composer-item d-flex align-center gap-2 px-2 py-2 mb-2 rounded"
-                :class="{ 'composer-item-playing': composer.currentIndex === index }"
-              >
-                <!-- Drag handle (subtle but cursor 指示可拖) -->
-                <v-btn
-                  :icon="mdiDragVertical"
-                  :aria-label="$t('compose.drag_handle')"
-                  variant="text"
-                  density="comfortable"
-                  size="small"
-                  class="drag-handle flex-grow-0"
-                  :disabled="composer.isPlaying"
-                ></v-btn>
+            <v-alert
+              v-else-if="composer.isPlaying"
+              type="info"
+              variant="tonal"
+              density="compact"
+              class="mb-3"
+              :icon="mdiInformationOutline"
+            >
+              {{ $t('compose.editing_locked_during_play') }}
+            </v-alert>
 
-                <!-- 編號 (圓形 badge 風格) -->
-                <span class="composer-item-index" :aria-label="$t('compose.item_position', { pos: index + 1 })">
-                  {{ index + 1 }}
-                </span>
+            <!-- 拖曳教學:有 2 條以上 + 非播放中時顯示,輕量字級避免擋住主內容 -->
+            <p
+              v-if="composer.items.length >= 2 && !composer.isPlaying"
+              class="text-caption text-medium-emphasis mb-2 px-2 d-flex align-center ga-1"
+            >
+              <v-icon :icon="mdiGestureTap" size="x-small"></v-icon>
+              {{ $t('compose.drag_tip') }}
+            </p>
 
-                <!-- 名稱 + 群組標 -->
-                <div class="flex-grow-1 d-flex flex-column" style="min-width: 0">
-                  <span class="text-caption text-medium-emphasis composer-item-group">
-                    {{ groupNameOf(element.voiceId) }}
-                  </span>
-                  <span class="text-body-1 composer-item-name" :class="dark_text">
-                    {{ element.description[current_locale] || element.description.zh || element.name }}
-                  </span>
-                </div>
-
-                <!-- 播放中的視覺指示 (文字 + 動畫,不只靠顏色 — a11y) -->
-                <span
-                  v-if="composer.currentIndex === index"
-                  class="d-flex align-center gap-1 text-caption text-primary font-weight-bold flex-grow-0 mr-2"
-                  aria-live="polite"
+            <draggable
+              v-if="!composer.isEmpty"
+              :model-value="composer.items"
+              item-key="instanceId"
+              handle=".drag-handle"
+              :animation="200"
+              :force-fallback="true"
+              :disabled="composer.isPlaying"
+              ghost-class="composer-item-ghost"
+              tag="ul"
+              class="composer-list pa-0 ma-0"
+              @update:model-value="newItems => composer.reorder(newItems)"
+            >
+              <template #item="{ element, index }">
+                <li
+                  class="composer-item d-flex align-center ga-2 px-2 py-2 mb-2 rounded"
+                  :class="{ 'composer-item-playing': composer.currentIndex === index }"
                 >
-                  <v-icon :icon="mdiVolumeHigh" size="small" class="composer-playing-pulse"></v-icon>
-                  {{ $t('compose.now_playing_item') }}
-                </span>
+                  <!-- Drag handle (subtle but cursor 指示可拖) -->
+                  <v-btn
+                    :icon="mdiDragVertical"
+                    :aria-label="$t('compose.drag_handle')"
+                    variant="text"
+                    density="comfortable"
+                    size="small"
+                    class="drag-handle flex-grow-0"
+                    :disabled="composer.isPlaying"
+                  ></v-btn>
 
-                <!-- 試聽 (icon-only secondary action) -->
-                <v-btn
-                  :icon="mdiPlayOutline"
-                  :aria-label="$t('compose.preview') + '：' + (element.description[current_locale] || element.name)"
-                  variant="text"
-                  density="comfortable"
-                  size="small"
-                  class="flex-grow-0"
-                  :disabled="composer.isPlaying"
-                  @click="previewItem(element)"
-                ></v-btn>
+                  <!-- 編號 (圓形 badge 風格) -->
+                  <!-- <span class="composer-item-index" :aria-label="$t('compose.item_position', { pos: index + 1 })">
+                    {{ index + 1 }}
+                  </span> -->
 
-                <!-- 移除 (icon-only,hover 才變紅) -->
-                <v-btn
-                  :icon="mdiCloseCircleOutline"
-                  :aria-label="$t('compose.remove_item') + '：' + (element.description[current_locale] || element.name)"
-                  variant="text"
-                  density="comfortable"
-                  size="small"
-                  class="flex-grow-0 composer-item-remove"
-                  :disabled="composer.isPlaying"
-                  @click="composer.remove(element.instanceId)"
-                ></v-btn>
-              </li>
-            </template>
-          </draggable>
-        </v-card-text>
-      </v-card>
+                  <!-- 名稱 + 群組標 -->
+                  <div class="flex-grow-1 d-flex flex-column" style="min-width: 0">
+                    <span class="text-caption text-medium-emphasis composer-item-group">
+                      {{ groupNameOf(element.voiceId) }}
+                    </span>
+                    <span class="text-body-1 composer-item-name" :class="dark_text">
+                      {{ element.description[current_locale] || element.description.zh || element.name }}
+                    </span>
+                  </div>
+
+                  <!-- 播放中的視覺指示 (文字 + 動畫,不只靠顏色 — a11y) -->
+                  <span
+                    v-if="composer.currentIndex === index"
+                    class="d-flex align-center ga-1 text-caption text-primary font-weight-bold flex-grow-0 mr-2"
+                    aria-live="polite"
+                  >
+                    <v-icon :icon="mdiVolumeHigh" size="small" class="composer-playing-pulse"></v-icon>
+                    {{ $t('compose.now_playing_item') }}
+                  </span>
+
+                  <!-- 試聽 (icon-only secondary action) -->
+                  <v-btn
+                    :icon="mdiPlayOutline"
+                    :aria-label="$t('compose.preview') + '：' + (element.description[current_locale] || element.name)"
+                    variant="text"
+                    density="comfortable"
+                    size="small"
+                    class="flex-grow-0"
+                    :disabled="composer.isPlaying"
+                    @click="previewItem(element)"
+                  ></v-btn>
+
+                  <!-- 移除 (icon-only,hover 才變紅) -->
+                  <v-btn
+                    :icon="mdiCloseCircleOutline"
+                    :aria-label="
+                      $t('compose.remove_item') + '：' + (element.description[current_locale] || element.name)
+                    "
+                    variant="text"
+                    density="comfortable"
+                    size="small"
+                    class="flex-grow-0 composer-item-remove"
+                    :disabled="composer.isPlaying"
+                    @click="composer.remove(element.instanceId)"
+                  ></v-btn>
+                </li>
+              </template>
+            </draggable>
+          </v-card-text>
+        </v-card>
+      </div>
 
       <!-- ============== 區隔 + 語音列表標題 ============== -->
-      <div class="d-flex align-center gap-3 mb-2 mt-8 compose-divider">
+      <div class="d-flex align-center ga-3 mb-2 mt-8 compose-divider">
         <v-divider class="flex-grow-1" opacity="0.3"></v-divider>
         <span class="text-body-2 text-medium-emphasis font-weight-medium compose-divider-label">
           {{ $t('compose.pick_from_below') }}
