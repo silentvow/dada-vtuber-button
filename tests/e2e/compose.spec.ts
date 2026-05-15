@@ -5,8 +5,8 @@ import { test, expect } from '@playwright/test';
 // 注意:
 // - composer store 用 @pinia-plugin-persistedstate/nuxt 持久化 (SSR-friendly)
 //   預設 storage 是 cookies (不是 localStorage),測試重置要用 context.clearCookies()。
-// - 語音列表用首頁同款的 VoiceBtn (class .vo-btn),沒有「加入：」aria-label,
-//   所以 add 按鈕用 .vo-btn css selector 抓 (跟首頁的 e2e 一致)。
+// - 語音列表用 VoiceBtn addMode:左 .vo-btn = 試聽,右 #button-add-* = 加入到編輯區。
+//   tests 抓 add 動作用 [id^="button-add-"] selector。
 // - 拖曳排序本身 Playwright 很難可靠模擬,改用 unit test 驗 reorder() 行為。
 
 test.describe('Voice Compose page', () => {
@@ -26,7 +26,7 @@ test.describe('Voice Compose page', () => {
     await page.goto('/compose');
     await page.waitForLoadState('networkidle');
 
-    const addBtn = page.locator('.vo-btn').first();
+    const addBtn = page.locator('[id^="button-add-"]').first();
     await addBtn.click();
 
     await expect(page.getByText('1 / 50')).toBeVisible();
@@ -39,7 +39,7 @@ test.describe('Voice Compose page', () => {
     await page.goto('/compose');
     await page.waitForLoadState('networkidle');
 
-    const addBtn = page.locator('.vo-btn').first();
+    const addBtn = page.locator('[id^="button-add-"]').first();
     await addBtn.click();
     await page.waitForTimeout(200);
     await addBtn.click();
@@ -53,9 +53,9 @@ test.describe('Voice Compose page', () => {
     await page.goto('/compose');
     await page.waitForLoadState('networkidle');
 
-    await page.locator('.vo-btn').nth(0).click();
+    await page.locator('[id^="button-add-"]').nth(0).click();
     await page.waitForTimeout(100);
-    await page.locator('.vo-btn').nth(1).click();
+    await page.locator('[id^="button-add-"]').nth(1).click();
     await page.waitForTimeout(100);
     await expect(page.locator('.composer-item')).toHaveCount(2);
 
@@ -69,7 +69,7 @@ test.describe('Voice Compose page', () => {
     await page.goto('/compose');
     await page.waitForLoadState('networkidle');
 
-    await page.locator('.vo-btn').first().click();
+    await page.locator('[id^="button-add-"]').first().click();
     await page.waitForTimeout(100);
     await expect(page.locator('.composer-item')).toHaveCount(1);
 
@@ -86,7 +86,7 @@ test.describe('Voice Compose page', () => {
     await page.goto('/compose');
     await page.waitForLoadState('networkidle');
 
-    await page.locator('.vo-btn').first().click();
+    await page.locator('[id^="button-add-"]').first().click();
     await page.waitForTimeout(100);
     await page.getByRole('button', { name: /^重置/ }).click();
     await page.getByRole('button', { name: '取消' }).click();
@@ -97,7 +97,7 @@ test.describe('Voice Compose page', () => {
     await context.clearCookies();
     await page.goto('/compose');
     await page.waitForLoadState('networkidle');
-    await page.locator('.vo-btn').first().click();
+    await page.locator('[id^="button-add-"]').first().click();
     await page.waitForTimeout(200);
     await expect(page.locator('.composer-item')).toHaveCount(1);
 
@@ -127,9 +127,9 @@ test.describe('Voice Compose page', () => {
     await page.waitForLoadState('networkidle');
 
     // 加 2 條
-    await page.locator('.vo-btn').nth(0).click();
+    await page.locator('[id^="button-add-"]').nth(0).click();
     await page.waitForTimeout(100);
-    await page.locator('.vo-btn').nth(1).click();
+    await page.locator('[id^="button-add-"]').nth(1).click();
     await page.waitForTimeout(100);
     await expect(page.locator('.composer-item')).toHaveCount(2);
 
@@ -158,7 +158,7 @@ test.describe('Voice Compose page', () => {
     await page.waitForLoadState('networkidle');
 
     // 連點 3 次同一個 add (允許重複)
-    const addBtn = page.locator('.vo-btn').first();
+    const addBtn = page.locator('[id^="button-add-"]').first();
     for (let i = 0; i < 3; i++) {
       await addBtn.click();
       await page.waitForTimeout(150);

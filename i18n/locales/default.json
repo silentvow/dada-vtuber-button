@@ -1,5 +1,6 @@
 {
   "action": {
+    "add": "加入",
     "audio_error": "語音載入失敗，請稍後再試。",
     "copy_link": "連結已複製到剪貼簿",
     "download": "下載語音",

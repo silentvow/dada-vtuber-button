@@ -9,74 +9,74 @@
 
       <!-- ============== 編輯區 ============== -->
       <v-card variant="flat" class="mb-6 rounded-lg composer-card">
-        <!-- Control bar:左 = 主動作 / 右 = 破壞性動作 + 計數 -->
-        <v-toolbar density="comfortable" color="transparent" class="px-3 composer-toolbar">
-          <div class="d-flex align-center gap-2 flex-wrap py-2 w-100">
-            <!-- 主動作:一鍵播放 / 停止 (explicit variant=flat 確保是最顯眼的實心紅) -->
-            <v-btn
-              v-if="!composer.isPlaying"
-              :prepend-icon="mdiPlayCircleOutline"
-              :disabled="composer.isEmpty"
-              color="primary"
-              variant="flat"
-              rounded="lg"
-              class="text-none"
-              @click="onPlayAll"
-            >
-              {{ $t('compose.play_all') }}
-            </v-btn>
-            <v-btn
-              v-else
-              :prepend-icon="mdiStopCircleOutline"
-              color="primary"
-              variant="flat"
-              rounded="lg"
-              class="text-none"
-              @click="onStop"
-            >
-              {{ $t('compose.stop') }}
-            </v-btn>
+        <!-- Control bar:flex 直接寫 (不用 v-toolbar) 因為 v-toolbar 內部的 flex
+             覆蓋外層 gap-2,跟首頁 layout/menu 一樣手動排比較好控制。
+             所有按鈕統一 outlined variant;disabled state 視覺差大,不會被誤判成「能按沒反應」。 -->
+        <div class="d-flex align-center flex-wrap composer-toolbar px-4 py-3">
+          <!-- 主動作:一鍵播放 / 停止 -->
+          <v-btn
+            v-if="!composer.isPlaying"
+            :prepend-icon="mdiPlayCircleOutline"
+            :disabled="composer.isEmpty"
+            color="primary"
+            variant="outlined"
+            rounded="lg"
+            class="text-none me-2"
+            @click="onPlayAll"
+          >
+            {{ $t('compose.play_all') }}
+          </v-btn>
+          <v-btn
+            v-else
+            :prepend-icon="mdiStopCircleOutline"
+            color="primary"
+            variant="outlined"
+            rounded="lg"
+            class="text-none me-2"
+            @click="onStop"
+          >
+            {{ $t('compose.stop') }}
+          </v-btn>
 
-            <!-- Loop toggle:outlined (off) → flat primary (on),清楚但不要 tonal -->
-            <v-btn
-              :prepend-icon="mdiRepeat"
-              :variant="composer.loop ? 'flat' : 'outlined'"
-              :color="composer.loop ? 'primary' : ''"
-              rounded="lg"
-              class="text-none"
-              :aria-pressed="composer.loop"
-              @click="composer.toggleLoop"
-            >
-              {{ composer.loop ? $t('compose.loop_on') : $t('compose.loop') }}
-            </v-btn>
+          <!-- Loop toggle:不改 variant,改用 color 表示 on/off (primary 紅 = on,空色 = off) -->
+          <v-btn
+            :prepend-icon="mdiRepeat"
+            variant="outlined"
+            :color="composer.loop ? 'primary' : ''"
+            rounded="lg"
+            class="text-none me-2"
+            :aria-pressed="composer.loop"
+            @click="composer.toggleLoop"
+          >
+            {{ composer.loop ? $t('compose.loop_on') : $t('compose.loop') }}
+          </v-btn>
 
-            <v-spacer></v-spacer>
+          <v-spacer></v-spacer>
 
-            <!-- 計數 chip,從頭就顯示 (達上限變紅) -->
-            <v-chip
-              :color="composer.isFull ? 'error' : ''"
-              :variant="composer.isFull ? 'elevated' : 'outlined'"
-              size="default"
-              label
-              class="font-weight-bold flex-grow-0"
-              :aria-label="$t('compose.count', { count: composer.count, max: MAX_ITEMS })"
-            >
-              {{ $t('compose.count', { count: composer.count, max: MAX_ITEMS }) }}
-            </v-chip>
+          <!-- 計數:用 v-chip variant=text (純文字,沒填充沒邊框),達上限變紅提醒 -->
+          <v-chip
+            :color="composer.isFull ? 'error' : ''"
+            variant="text"
+            size="default"
+            class="font-weight-bold flex-grow-0 me-2"
+            :aria-label="$t('compose.count', { count: composer.count, max: MAX_ITEMS })"
+          >
+            {{ $t('compose.count', { count: composer.count, max: MAX_ITEMS }) }}
+          </v-chip>
 
-            <!-- 重置:文字按鈕、灰調,刻意視覺降階 + 跟主動作隔開 -->
-            <v-btn
-              :prepend-icon="mdiTrashCanOutline"
-              :disabled="composer.isEmpty || composer.isPlaying"
-              variant="text"
-              rounded="lg"
-              class="text-none text-medium-emphasis"
-              @click="showResetConfirm = true"
-            >
-              {{ $t('compose.reset') }}
-            </v-btn>
-          </div>
-        </v-toolbar>
+          <!-- 重置:也 outlined,但顏色用 error 提示破壞性 -->
+          <v-btn
+            :prepend-icon="mdiTrashCanOutline"
+            :disabled="composer.isEmpty || composer.isPlaying"
+            color="error"
+            variant="outlined"
+            rounded="lg"
+            class="text-none"
+            @click="showResetConfirm = true"
+          >
+            {{ $t('compose.reset') }}
+          </v-btn>
+        </div>
 
         <v-divider opacity="0.12"></v-divider>
 
@@ -203,21 +203,19 @@
         <v-divider class="flex-grow-1" opacity="0.3"></v-divider>
       </div>
 
-      <!-- 語音列表:直接用 VoiceBtn (跟首頁一樣的元件),from-youtube 也跟首頁同條件,
-           背景色/文字/icon 顏色/border radius/margin 全部繼承首頁一致風格。
-           Click 主按鈕 = 加入編輯區 (這頁的核心動作);
-           ≡ 選單裡的「最愛 / YouTube / 下載」沿用首頁行為,試聽請從編輯區的 ▶ 圖示。 -->
+      <!-- 語音列表:VoiceBtn 開 addMode — 左側跟首頁一樣的 voice button (點擊試聽),
+           右側不是 ≡ 選單,而是 + 按鈕 (點擊加入編輯區,不彈選單)。 -->
       <VoiceListWithSearch :groups="voice_lists.groups">
         <template #voice="{ group }">
           <VoiceBtn
             v-for="item in group.voice_list"
             :key="item.id"
             :voice-id="item.id"
-            :from-youtube="Boolean(item.url)"
+            :from-youtube="false"
+            :add-mode="true"
             :disabled="composer.isFull || composer.isPlaying"
-            @on-play="onAddVoice(item)"
-            @on-youtube="openYouTube(item)"
-            @on-download="download(item)"
+            @on-play="previewItem(item)"
+            @on-add="onAddVoice(item)"
           >
             {{ item.description[current_locale] || item.description.zh || item.name }}
           </VoiceBtn>
@@ -358,24 +356,10 @@ const onAddVoice = item => {
   }
 };
 
-// 試聽 (單獨播一條,不會進入順序播流程)
+// 試聽 (單獨播一條,不會進入順序播流程) — VoiceBtn 主按鈕按下時觸發
 const previewItem = item => {
   if (composer.isPlaying) return; // 順序播放中不允許試聽
   audioStore.play(item, item.description?.[current_locale.value] || item.name, t('control.full_name'), t('site.title'));
-};
-
-// VoiceBtn ≡ 選單 — YouTube 來源:直接開新分頁 (compose 頁沒像首頁有 modal,簡化)
-const openYouTube = item => {
-  if (item.url) window.open(item.url, '_blank', 'noreferrer');
-};
-
-// VoiceBtn ≡ 選單 — 下載 (跟首頁邏輯一致,getPrimaryVoiceUrl auto-import)
-const download = item => {
-  const a = document.createElement('a');
-  a.target = '_blank';
-  a.href = getPrimaryVoiceUrl(item.path);
-  a.download = item.path.split('/').pop();
-  a.click();
 };
 
 const onPlayAll = () => composer.playAll();

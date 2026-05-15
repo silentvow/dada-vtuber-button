@@ -1,8 +1,15 @@
 <template>
   <v-hover>
     <template #default="{ isHovering }">
+      <!--
+        Group 變種:
+          - 預設 (fromYoutube=true, addMode=false): 左 = 播放 / 右 = ≡ 選單 (like/youtube/download)
+          - addMode=true: 左 = 播放 (試聽) / 右 = + 圖示按鈕,點擊直接 emit on-add (不彈選單)
+        addMode 給「語音編曲」頁面使用 — 主動作從「播放」變成「加入編輯區」,
+        但 visual 跟首頁完全一致 (同一個 v-btn-group + 同樣的 vo-btn 樣式)。
+      -->
       <v-btn-group
-        v-if="fromYoutube"
+        v-if="fromYoutube || addMode"
         density="compact"
         rounded="xl"
         class="vo-btn-group"
@@ -27,7 +34,20 @@
           </div>
         </v-btn>
 
-        <v-menu offset="4">
+        <!-- addMode: 直接 + 按鈕,點擊 emit on-add (不彈選單) -->
+        <v-btn
+          v-if="addMode"
+          :id="`button-add-${computedButtonId}`"
+          :aria-label="$t('action.add') + (slotText ? '：' + slotText : '')"
+          height="auto"
+          class="vo-menu-btn-bg"
+          @click="onAdd"
+        >
+          <v-icon :icon="mdiPlus" color="white"></v-icon>
+        </v-btn>
+
+        <!-- 預設:≡ 選單 (首頁用) -->
+        <v-menu v-else offset="4">
           <template #activator="{ props: menuProps }">
             <v-btn
               :id="`button-menu-${computedButtonId}`"
@@ -82,7 +102,7 @@
 <script setup>
 import { computed, useSlots } from 'vue';
 import { useTheme } from 'vuetify';
-import { mdiMenu, mdiHeartMinus, mdiHeartPlus, mdiYoutube, mdiDownload } from '@mdi/js';
+import { mdiMenu, mdiHeartMinus, mdiHeartPlus, mdiYoutube, mdiDownload, mdiPlus } from '@mdi/js';
 import twemoji from 'twemoji';
 
 defineOptions({
@@ -96,11 +116,14 @@ const props = defineProps({
   voiceId: { type: String, default: '#' },
   buttonId: { type: String, default: '' },
   fromYoutube: { type: Boolean, default: false },
-  link: { type: Boolean, default: false }
+  link: { type: Boolean, default: false },
+  // addMode=true: 右側 ≡ 選單改成 + 圖示按鈕,點擊直接 emit on-add (不彈選單)
+  // 給「語音編曲」頁專用 — 主動作從「播放」變成「加入編輯區」
+  addMode: { type: Boolean, default: false }
 });
 
 // 定義 Emits
-const emit = defineEmits(['on-play', 'on-youtube', 'on-download']);
+const emit = defineEmits(['on-play', 'on-youtube', 'on-download', 'on-add']);
 
 // 取得全域狀態與工具
 const slots = useSlots();
@@ -152,6 +175,11 @@ const emoji_url = computed(() => {
 const onPlay = event => {
   event.stopPropagation();
   emit('on-play');
+};
+
+const onAdd = event => {
+  event.stopPropagation();
+  emit('on-add');
 };
 
 const onYoutube = () => emit('on-youtube');
