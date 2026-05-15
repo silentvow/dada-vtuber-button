@@ -19,7 +19,11 @@ export default defineNuxtConfig({
   // /compose 跟 /member 雖然 ssr:false,還是 prerender 一份 HTML stub,
   // 讓使用者直接打 URL 進來時 hosting (Vercel SSG) 能 serve 而不是 404。
   // stub 是空殼 + 全部 JS,進來後 client-side 自己 hydrate 整頁。
+  // preset=vercel:讓 nitro server routes (/api/discord/token, /api/discord/refresh)
+  // 變成 Vercel serverless functions,可以在 runtime 拿 DISCORD_CLIENT_SECRET 跟 Discord 換 token。
+  // prerendered pages 還是 prerender (純靜態 CDN),只有 /api/* 走 function。
   nitro: {
+    preset: 'vercel',
     prerender: {
       crawlLinks: true,
       routes: [
@@ -142,6 +146,9 @@ export default defineNuxtConfig({
   },
 
   runtimeConfig: {
+    // server-only (不出貨到 client bundle):Discord OAuth Authorization Code Grant
+    // 需要 client_secret 跟 Discord 換 token,只能放後端
+    DISCORD_CLIENT_SECRET: process.env.DISCORD_CLIENT_SECRET,
     public: {
       DISCORD_CLIENT_ID: process.env.DISCORD_CLIENT_ID,
       DISCORD_REDIRECT_URI: process.env.DISCORD_REDIRECT_URI,
