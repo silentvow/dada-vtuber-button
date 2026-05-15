@@ -102,7 +102,8 @@
     "preview": "試聽",
     "now_playing_item": "播放中",
     "pick_from_below": "從下方選擇語音",
-    "added_count": "已加入 {count} 次"
+    "added_count": "已加入 {count} 次",
+    "drag_tip": "拖曳左側握把可調整播放順序"
   },
   "search": {
     "placeholder": "搜尋語音(中/日/英)",

@@ -102,7 +102,8 @@
     "preview": "試聴",
     "now_playing_item": "再生中",
     "pick_from_below": "下の一覧から音声を選ぶ",
-    "added_count": "{count} 回追加済み"
+    "added_count": "{count} 回追加済み",
+    "drag_tip": "左のハンドルをドラッグして並び替え"
   },
   "search": {
     "placeholder": "音声を検索(中/日/英)",

@@ -12,12 +12,13 @@
         <!-- Control bar:左 = 主動作 / 右 = 破壞性動作 + 計數 -->
         <v-toolbar density="comfortable" color="transparent" class="px-3 composer-toolbar">
           <div class="d-flex align-center gap-2 flex-wrap py-2 w-100">
-            <!-- 主動作:一鍵播放 / 停止 -->
+            <!-- 主動作:一鍵播放 / 停止 (explicit variant=flat 確保是最顯眼的實心紅) -->
             <v-btn
               v-if="!composer.isPlaying"
               :prepend-icon="mdiPlayCircleOutline"
               :disabled="composer.isEmpty"
               color="primary"
+              variant="flat"
               rounded="lg"
               class="text-none"
               @click="onPlayAll"
@@ -28,6 +29,7 @@
               v-else
               :prepend-icon="mdiStopCircleOutline"
               color="primary"
+              variant="flat"
               rounded="lg"
               class="text-none"
               @click="onStop"
@@ -35,10 +37,10 @@
               {{ $t('compose.stop') }}
             </v-btn>
 
-            <!-- Loop toggle:outlined → 開啟後變 tonal primary -->
+            <!-- Loop toggle:outlined (off) → flat primary (on),清楚但不要 tonal -->
             <v-btn
               :prepend-icon="mdiRepeat"
-              :variant="composer.loop ? 'tonal' : 'outlined'"
+              :variant="composer.loop ? 'flat' : 'outlined'"
               :color="composer.loop ? 'primary' : ''"
               rounded="lg"
               class="text-none"
@@ -53,7 +55,7 @@
             <!-- 計數 chip,從頭就顯示 (達上限變紅) -->
             <v-chip
               :color="composer.isFull ? 'error' : ''"
-              :variant="composer.isFull ? 'elevated' : 'tonal'"
+              :variant="composer.isFull ? 'elevated' : 'outlined'"
               size="default"
               label
               class="font-weight-bold flex-grow-0"
@@ -99,6 +101,15 @@
           >
             {{ $t('compose.editing_locked_during_play') }}
           </v-alert>
+
+          <!-- 拖曳教學:有 2 條以上 + 非播放中時顯示,輕量字級避免擋住主內容 -->
+          <p
+            v-if="composer.items.length >= 2 && !composer.isPlaying"
+            class="text-caption text-medium-emphasis mb-2 px-2 d-flex align-center gap-1"
+          >
+            <v-icon :icon="mdiGestureTap" size="x-small"></v-icon>
+            {{ $t('compose.drag_tip') }}
+          </p>
 
           <draggable
             v-if="!composer.isEmpty"
@@ -293,7 +304,8 @@ import {
   mdiPlus,
   mdiMusicBoxMultipleOutline,
   mdiInformationOutline,
-  mdiVolumeHigh
+  mdiVolumeHigh,
+  mdiGestureTap
 } from '@mdi/js';
 import { useComposerStore, MAX_ITEMS } from '~/stores/composer';
 

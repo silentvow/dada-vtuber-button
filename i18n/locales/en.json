@@ -102,7 +102,8 @@
     "preview": "Preview",
     "now_playing_item": "Now playing",
     "pick_from_below": "Pick voices from the list below",
-    "added_count": "Added {count} times"
+    "added_count": "Added {count} times",
+    "drag_tip": "Drag the handle on the left to reorder"
   },
   "search": {
     "placeholder": "Search voices (zh/ja/en)",
