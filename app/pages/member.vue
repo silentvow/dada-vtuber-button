@@ -89,8 +89,12 @@ definePageMeta({
   ssr: false
 });
 
-// dc_voices.json (~400KB) 改走 /api/dc_voices server route,避免內聯進 client JS bundle
-const { data: voice_lists } = await useAsyncData('dc_voices', () => $fetch('/api/dc_voices'), {
+// dc_voices.json (~400KB) 直接從 public/ 靜態檔抓 (避免內聯進 client JS bundle)。
+// 重要:不能用 $fetch('/api/dc_voices') — 那是 nitro server route,只在 prerender
+// (SSR) 階段被內部命中。member 頁是 ssr:false + 不被 prerender (在 nitro.ignore),
+// 所以 client 端 runtime 真的會打 /api/dc_voices,SSG 靜態 hosting 沒這 endpoint → 404。
+// /dc_voices.json 是 public/ 下的 static file,SSG output 直接 copy 過去,runtime 抓得到。
+const { data: voice_lists } = await useAsyncData('dc_voices', () => $fetch('/dc_voices.json'), {
   default: () => ({ groups: [] })
 });
 
