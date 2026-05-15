@@ -78,6 +78,28 @@
   "favorite": {
     "empty": "目前還沒有收藏任何語音喔！快去首頁點擊愛心吧。"
   },
+  "compose": {
+    "title": "語音編曲",
+    "description": "把語音加進編輯區，排序後一鍵照順序播放。可以重複加入同一條來組合有趣的效果。",
+    "count": "{count} / {max} 已選",
+    "empty_hint": "還沒挑選語音，從下方列表挑一個開始吧！",
+    "full_message": "已達 {max} 條上限",
+    "play_all": "一鍵播放",
+    "stop": "停止",
+    "loop": "循環",
+    "loop_on": "循環中",
+    "reset": "重置",
+    "reset_confirm_title": "確定要清空編輯區？",
+    "reset_confirm_message": "目前已有 {count} 條語音，清空後無法復原。",
+    "reset_confirm_yes": "確定清空",
+    "reset_confirm_no": "取消",
+    "add_to_editor": "加入",
+    "added": "已加入「{name}」",
+    "remove_item": "移除",
+    "editing_locked_during_play": "播放中無法編輯，請先停止",
+    "drag_handle": "拖曳調整順序",
+    "item_position": "第 {pos} 條"
+  },
   "search": {
     "placeholder": "搜尋語音(中/日/英)",
     "clear": "清除",
@@ -108,6 +130,7 @@
       "content": "本站為愛好者作品，和ReLive Project官方沒有關聯，項目參與方式與問題回報請查看{feedback}頁面",
       "repo_link": "https://github.com/silentvow/dada-vtuber-button"
     },
+    "compose": "語音編曲",
     "index": "首頁",
     "keywords": "灰妲,Vtuber,台V,語音按鈕,ReLive Project",
     "links": "友情連結",
