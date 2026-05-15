@@ -39,7 +39,15 @@ export const useComposerStore = defineStore('composer', {
   getters: {
     count: state => state.items.length,
     isFull: state => state.items.length >= MAX_ITEMS,
-    isEmpty: state => state.items.length === 0
+    isEmpty: state => state.items.length === 0,
+    // 某個 voiceId 在編輯區出現幾次 (給語音列表的「×N」角標用)
+    countByVoiceId: state => {
+      const map: Record<string, number> = {};
+      for (const it of state.items) {
+        map[it.voiceId] = (map[it.voiceId] || 0) + 1;
+      }
+      return (voiceId: string) => map[voiceId] || 0;
+    }
   },
 
   actions: {

@@ -98,7 +98,11 @@
     "remove_item": "移除",
     "editing_locked_during_play": "播放中無法編輯，請先停止",
     "drag_handle": "拖曳調整順序",
-    "item_position": "第 {pos} 條"
+    "item_position": "第 {pos} 條",
+    "preview": "試聽",
+    "now_playing_item": "播放中",
+    "pick_from_below": "從下方選擇語音",
+    "added_count": "已加入 {count} 次"
   },
   "search": {
     "placeholder": "搜尋語音(中/日/英)",

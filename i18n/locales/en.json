@@ -98,7 +98,11 @@
     "remove_item": "Remove",
     "editing_locked_during_play": "Cannot edit while playing. Stop first.",
     "drag_handle": "Drag to reorder",
-    "item_position": "Position {pos}"
+    "item_position": "Position {pos}",
+    "preview": "Preview",
+    "now_playing_item": "Now playing",
+    "pick_from_below": "Pick voices from the list below",
+    "added_count": "Added {count} times"
   },
   "search": {
     "placeholder": "Search voices (zh/ja/en)",

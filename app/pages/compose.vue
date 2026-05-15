@@ -1,29 +1,18 @@
 <template>
   <v-container class="d-flex flex-column align-center px-0 pt-0" fluid>
     <v-col cols="12" class="pa-0" style="min-width: 85%">
-      <!-- Header:標題 + 計數 -->
-      <div class="d-flex align-end justify-space-between flex-wrap mb-2 gap-2">
-        <div>
-          <h1 class="text-h4 font-weight-bold" :class="dark_text">{{ $t('compose.title') }}</h1>
-          <p class="text-body-2 mt-1 mb-0 text-medium-emphasis">{{ $t('compose.description') }}</p>
-        </div>
-        <v-chip
-          :color="composer.isFull ? 'error' : 'info'"
-          variant="elevated"
-          size="large"
-          label
-          class="font-weight-bold"
-          :aria-label="$t('compose.count', { count: composer.count, max: MAX_ITEMS })"
-        >
-          {{ $t('compose.count', { count: composer.count, max: MAX_ITEMS }) }}
-        </v-chip>
+      <!-- Header:標題 + 描述 (計數移到編輯區 toolbar 內) -->
+      <div class="mb-3">
+        <h1 class="text-h4 font-weight-bold" :class="dark_text">{{ $t('compose.title') }}</h1>
+        <p class="text-body-2 mt-1 mb-0 text-medium-emphasis">{{ $t('compose.description') }}</p>
       </div>
 
-      <!-- 編輯區 -->
-      <v-card variant="outlined" class="mb-6 rounded-lg" elevation="2">
-        <!-- Control bar:播放 / 循環 / 重置 -->
-        <v-toolbar density="comfortable" color="surface" class="px-3 rounded-t-lg">
-          <div class="d-flex gap-2 flex-wrap py-2">
+      <!-- ============== 編輯區 ============== -->
+      <v-card variant="flat" class="mb-6 rounded-lg composer-card">
+        <!-- Control bar:左 = 主動作 / 右 = 破壞性動作 + 計數 -->
+        <v-toolbar density="comfortable" color="transparent" class="px-3 composer-toolbar">
+          <div class="d-flex align-center gap-2 flex-wrap py-2 w-100">
+            <!-- 主動作:一鍵播放 / 停止 -->
             <v-btn
               v-if="!composer.isPlaying"
               :prepend-icon="mdiPlayCircleOutline"
@@ -38,7 +27,7 @@
             <v-btn
               v-else
               :prepend-icon="mdiStopCircleOutline"
-              color="error"
+              color="primary"
               rounded="lg"
               class="text-none"
               @click="onStop"
@@ -46,8 +35,10 @@
               {{ $t('compose.stop') }}
             </v-btn>
 
+            <!-- Loop toggle:outlined → 開啟後變 tonal primary -->
             <v-btn
               :prepend-icon="mdiRepeat"
+              :variant="composer.loop ? 'tonal' : 'outlined'"
               :color="composer.loop ? 'primary' : ''"
               rounded="lg"
               class="text-none"
@@ -57,13 +48,27 @@
               {{ composer.loop ? $t('compose.loop_on') : $t('compose.loop') }}
             </v-btn>
 
+            <v-spacer></v-spacer>
+
+            <!-- 計數 chip,從頭就顯示 (達上限變紅) -->
+            <v-chip
+              :color="composer.isFull ? 'error' : ''"
+              :variant="composer.isFull ? 'elevated' : 'tonal'"
+              size="default"
+              label
+              class="font-weight-bold flex-grow-0"
+              :aria-label="$t('compose.count', { count: composer.count, max: MAX_ITEMS })"
+            >
+              {{ $t('compose.count', { count: composer.count, max: MAX_ITEMS }) }}
+            </v-chip>
+
+            <!-- 重置:文字按鈕、灰調,刻意視覺降階 + 跟主動作隔開 -->
             <v-btn
               :prepend-icon="mdiTrashCanOutline"
               :disabled="composer.isEmpty || composer.isPlaying"
-              color="error"
+              variant="text"
               rounded="lg"
-              variant="outlined"
-              class="text-none"
+              class="text-none text-medium-emphasis"
               @click="showResetConfirm = true"
             >
               {{ $t('compose.reset') }}
@@ -71,10 +76,10 @@
           </div>
         </v-toolbar>
 
-        <v-divider></v-divider>
+        <v-divider opacity="0.12"></v-divider>
 
         <!-- 編輯區內容:空 / draggable list -->
-        <v-card-text class="pa-3" style="min-height: 120px">
+        <v-card-text class="pa-3 composer-list-area" style="min-height: 120px">
           <div
             v-if="composer.isEmpty"
             class="d-flex flex-column align-center justify-center text-medium-emphasis py-8"
@@ -110,10 +115,10 @@
           >
             <template #item="{ element, index }">
               <li
-                class="composer-item d-flex align-center gap-2 pa-2 mb-2 rounded"
+                class="composer-item d-flex align-center gap-2 px-2 py-2 mb-2 rounded"
                 :class="{ 'composer-item-playing': composer.currentIndex === index }"
               >
-                <!-- Drag handle -->
+                <!-- Drag handle (subtle but cursor 指示可拖) -->
                 <v-btn
                   :icon="mdiDragVertical"
                   :aria-label="$t('compose.drag_handle')"
@@ -124,83 +129,123 @@
                   :disabled="composer.isPlaying"
                 ></v-btn>
 
-                <!-- 順序編號 -->
-                <span class="text-body-1 font-weight-bold text-medium-emphasis" style="min-width: 2.5rem">
-                  {{ index + 1 }}.
+                <!-- 編號 (圓形 badge 風格) -->
+                <span class="composer-item-index" :aria-label="$t('compose.item_position', { pos: index + 1 })">
+                  {{ index + 1 }}
                 </span>
 
-                <!-- 語音名稱 -->
-                <span class="text-body-1 flex-grow-1" :class="dark_text">
-                  {{ element.description[current_locale] || element.description.zh || element.name }}
+                <!-- 名稱 + 群組標 -->
+                <div class="flex-grow-1 d-flex flex-column" style="min-width: 0">
+                  <span class="text-caption text-medium-emphasis composer-item-group">
+                    {{ groupNameOf(element.voiceId) }}
+                  </span>
+                  <span class="text-body-1 composer-item-name" :class="dark_text">
+                    {{ element.description[current_locale] || element.description.zh || element.name }}
+                  </span>
+                </div>
+
+                <!-- 播放中的視覺指示 (文字 + 動畫,不只靠顏色 — a11y) -->
+                <span
+                  v-if="composer.currentIndex === index"
+                  class="d-flex align-center gap-1 text-caption text-primary font-weight-bold flex-grow-0 mr-2"
+                  aria-live="polite"
+                >
+                  <v-icon :icon="mdiVolumeHigh" size="small" class="composer-playing-pulse"></v-icon>
+                  {{ $t('compose.now_playing_item') }}
                 </span>
 
-                <!-- 試聽 -->
+                <!-- 試聽 (icon-only secondary action) -->
                 <v-btn
-                  :prepend-icon="mdiPlayOutline"
-                  :aria-label="$t('action.play_option')"
+                  :icon="mdiPlayOutline"
+                  :aria-label="$t('compose.preview') + '：' + (element.description[current_locale] || element.name)"
+                  variant="text"
+                  density="comfortable"
                   size="small"
-                  rounded="lg"
-                  class="text-none flex-grow-0"
+                  class="flex-grow-0"
                   :disabled="composer.isPlaying"
                   @click="previewItem(element)"
-                >
-                  {{ $t('action.play_option') }}
-                </v-btn>
+                ></v-btn>
 
-                <!-- 移除 -->
+                <!-- 移除 (icon-only,hover 才變紅) -->
                 <v-btn
-                  :prepend-icon="mdiCloseCircleOutline"
+                  :icon="mdiCloseCircleOutline"
                   :aria-label="$t('compose.remove_item') + '：' + (element.description[current_locale] || element.name)"
-                  color="error"
+                  variant="text"
+                  density="comfortable"
                   size="small"
-                  rounded="lg"
-                  variant="outlined"
-                  class="text-none flex-grow-0"
+                  class="flex-grow-0 composer-item-remove"
                   :disabled="composer.isPlaying"
                   @click="composer.remove(element.instanceId)"
-                >
-                  {{ $t('compose.remove_item') }}
-                </v-btn>
+                ></v-btn>
               </li>
             </template>
           </draggable>
         </v-card-text>
       </v-card>
 
-      <!-- 語音列表 (沿用首頁元件,差別在 voice slot 改成 play+add) -->
+      <!-- ============== 區隔 + 語音列表標題 ============== -->
+      <div class="d-flex align-center gap-3 mb-2 mt-8 compose-divider">
+        <v-divider class="flex-grow-1" opacity="0.3"></v-divider>
+        <span class="text-body-2 text-medium-emphasis font-weight-medium compose-divider-label">
+          {{ $t('compose.pick_from_below') }}
+        </span>
+        <v-divider class="flex-grow-1" opacity="0.3"></v-divider>
+      </div>
+
+      <!-- 語音列表 (沿用首頁元件) -->
       <VoiceListWithSearch :groups="voice_lists.groups" @play="previewItem">
         <template #voice="{ group }">
           <div class="d-flex flex-wrap gap-2 pt-2">
-            <div v-for="item in group.voice_list" :key="item.id" class="d-flex gap-1 align-center">
-              <v-btn
-                :prepend-icon="mdiPlayOutline"
-                :aria-label="$t('action.play_option') + '：' + (item.description[current_locale] || item.name)"
-                size="default"
-                rounded="lg"
-                class="text-none"
-                @click="previewItem(item)"
-              >
-                {{ item.description[current_locale] || item.description.zh || item.name }}
-              </v-btn>
-              <v-btn
-                :prepend-icon="mdiPlusCircleOutline"
-                :aria-label="$t('compose.add_to_editor') + '：' + (item.description[current_locale] || item.name)"
+            <div
+              v-for="item in group.voice_list"
+              :key="item.id"
+              class="voice-pick-wrap"
+              :class="{ 'voice-pick-disabled': composer.isFull || composer.isPlaying }"
+            >
+              <!-- 把「加入」跟「試聽」合併成 v-btn-group,左主動作右 icon。
+                   primary 動作明顯,試聽從屬於它,視覺上是一個 unit。 -->
+              <v-btn-group rounded="lg" variant="outlined" divided density="comfortable" class="voice-pick-group">
+                <v-btn
+                  :prepend-icon="mdiPlus"
+                  :aria-label="
+                    composer.isFull
+                      ? $t('compose.full_message', { max: MAX_ITEMS })
+                      : $t('compose.add_to_editor') + '：' + (item.description[current_locale] || item.name)
+                  "
+                  color="primary"
+                  class="text-none voice-pick-add"
+                  :disabled="composer.isFull || composer.isPlaying"
+                  @click="onAddVoice(item)"
+                >
+                  <span class="voice-pick-name">{{
+                    item.description[current_locale] || item.description.zh || item.name
+                  }}</span>
+                </v-btn>
+                <v-btn
+                  :icon="mdiPlayOutline"
+                  :aria-label="$t('compose.preview') + '：' + (item.description[current_locale] || item.name)"
+                  class="voice-pick-preview"
+                  @click.stop="previewItem(item)"
+                ></v-btn>
+              </v-btn-group>
+
+              <!-- 已加入次數角標 (>0 才顯示),提示使用者「這條已選過」 -->
+              <v-badge
+                v-if="composer.countByVoiceId(item.id) > 0"
+                :content="`×${composer.countByVoiceId(item.id)}`"
                 color="primary"
-                size="default"
-                rounded="lg"
-                class="text-none"
-                :disabled="composer.isFull || composer.isPlaying"
-                @click="onAddVoice(item)"
-              >
-                {{ composer.isFull ? $t('compose.full_message', { max: MAX_ITEMS }) : $t('compose.add_to_editor') }}
-              </v-btn>
+                offset-x="-4"
+                offset-y="6"
+                class="voice-pick-badge"
+                :aria-label="$t('compose.added_count', { count: composer.countByVoiceId(item.id) })"
+              ></v-badge>
             </div>
           </div>
         </template>
       </VoiceListWithSearch>
     </v-col>
 
-    <!-- Reset 確認 dialog (一律 confirm,不分項目數) -->
+    <!-- Reset 確認 dialog (一律 confirm) -->
     <v-dialog v-model="showResetConfirm" max-width="480px">
       <v-card class="rounded-lg">
         <v-card-title class="text-h6 font-weight-bold pt-4">
@@ -211,7 +256,7 @@
         </v-card-text>
         <v-card-actions class="px-4 pb-4">
           <v-spacer></v-spacer>
-          <v-btn rounded="lg" class="text-none" @click="showResetConfirm = false">
+          <v-btn rounded="lg" variant="text" class="text-none" @click="showResetConfirm = false">
             {{ $t('compose.reset_confirm_no') }}
           </v-btn>
           <v-btn
@@ -235,7 +280,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue';
+import { ref, computed, onMounted, onBeforeUnmount, watch, nextTick } from 'vue';
 import draggable from 'vuedraggable';
 import {
   mdiPlayCircleOutline,
@@ -245,13 +290,14 @@ import {
   mdiDragVertical,
   mdiPlayOutline,
   mdiCloseCircleOutline,
-  mdiPlusCircleOutline,
+  mdiPlus,
   mdiMusicBoxMultipleOutline,
-  mdiInformationOutline
+  mdiInformationOutline,
+  mdiVolumeHigh
 } from '@mdi/js';
 import { useComposerStore, MAX_ITEMS } from '~/stores/composer';
 
-// 純互動頁,不參與 SSG 預渲染 (狀態本來就在 client localStorage)
+// 純互動頁,不參與 SSG 預渲染 (狀態本來就在 client cookies/localStorage)
 definePageMeta({
   ssr: false
 });
@@ -273,6 +319,24 @@ const dark_text = computed(() => ({ 'text-grey-lighten-2': settings.dark }));
 const showResetConfirm = ref(false);
 const showAddSnackbar = ref(false);
 const addSnackbarText = ref('');
+
+// voiceId → group description 反查表 (給編輯區 item 顯示來源群組標籤用)
+// 編輯區 items 是 localStorage 還原的,可能比 voices.json 慢一拍,所以做 computed
+const voiceIdToGroup = computed(() => {
+  const map = {};
+  for (const g of voice_lists.value.groups) {
+    for (const v of g.voice_list) {
+      map[v.id] = g.group_description;
+    }
+  }
+  return map;
+});
+
+const groupNameOf = voiceId => {
+  const desc = voiceIdToGroup.value[voiceId];
+  if (!desc) return '';
+  return desc[current_locale.value] || desc.zh || '';
+};
 
 // 載入後處理:
 // 1. reset 播放狀態 (persist 把 isPlaying / currentIndex 也存進去了,
@@ -344,37 +408,107 @@ watch(
 useSeoMeta({
   title: () => t('compose.title'),
   description: () => t('compose.description'),
-  // 純互動頁,不需要被搜尋引擎收錄太重 (但 nav 進得來,不擋 index)
   robots: 'index, nofollow'
 });
 </script>
 
 <style scoped>
+/* ===== 編輯區卡片:用中性 bg 取代 elevation overlay 帶來的紅色 tint ===== */
+.composer-card {
+  background-color: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.composer-toolbar {
+  background-color: transparent !important;
+}
+.composer-list-area {
+  background-color: transparent;
+}
+
+/* ===== 編輯區 item:中性灰底 + 細邊框,hover 才微亮 ===== */
 .composer-list {
   list-style: none;
 }
-
 .composer-item {
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.06);
   transition:
-    background-color 0.2s,
-    border-color 0.2s,
-    transform 0.2s;
+    background-color 0.18s,
+    border-color 0.18s;
+  min-height: 56px;
 }
-
 .composer-item:hover {
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.06);
 }
 
-/* 播放中當前條的 highlight */
+/* 播放中的當前條:primary tinted bg + 左邊框條,跟其他 item 明顯區隔 */
 .composer-item-playing {
-  background-color: rgba(189, 19, 61, 0.18) !important; /* primary tint */
+  background-color: rgba(189, 19, 61, 0.14) !important;
   border-color: rgb(var(--v-theme-primary)) !important;
-  box-shadow: 0 0 0 1px rgb(var(--v-theme-primary));
+  border-left-width: 4px !important;
 }
 
-/* vuedraggable 拖曳中的 placeholder 樣式 */
+/* 「播放中」icon 的脈動動畫 — 多一層 a11y 視覺指示 */
+.composer-playing-pulse {
+  animation: composer-pulse 1.2s ease-in-out infinite;
+}
+@keyframes composer-pulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.55;
+    transform: scale(0.92);
+  }
+}
+
+/* 編號小圓 badge */
+.composer-item-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.08);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.75);
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.composer-item-playing .composer-item-index {
+  background-color: rgb(var(--v-theme-primary));
+  color: white;
+}
+
+.composer-item-group {
+  line-height: 1.2;
+  font-size: 0.7rem;
+  opacity: 0.6;
+}
+.composer-item-name {
+  line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 移除按鈕 hover 才變紅,不要 idle 就一片紅 */
+.composer-item-remove {
+  opacity: 0.6;
+  transition:
+    opacity 0.15s,
+    color 0.15s;
+}
+.composer-item-remove:hover {
+  opacity: 1;
+  color: rgb(var(--v-theme-error)) !important;
+}
+
+/* vuedraggable 拖曳中的 placeholder */
 .composer-item-ghost {
   opacity: 0.4;
   background-color: rgba(189, 19, 61, 0.2);
@@ -382,8 +516,52 @@ useSeoMeta({
 
 .drag-handle {
   cursor: grab;
+  opacity: 0.5;
+  transition: opacity 0.15s;
+}
+.composer-item:hover .drag-handle {
+  opacity: 1;
 }
 .drag-handle:active {
   cursor: grabbing;
+}
+
+/* ===== Divider 「從下方選擇語音」 ===== */
+.compose-divider-label {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ===== 語音列表:每條 voice 是一個 unit (加入 + 試聽 合併 btn-group) ===== */
+.voice-pick-wrap {
+  position: relative;
+  display: inline-flex;
+}
+/* 達上限 / 播放中:整個 wrap 加灰調暗,提示不可加 */
+.voice-pick-disabled {
+  opacity: 0.55;
+}
+.voice-pick-group :deep(.v-btn) {
+  text-transform: none;
+}
+.voice-pick-add :deep(.v-btn__content) {
+  max-width: 220px;
+}
+.voice-pick-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* 試聽 icon button 在 btn-group 裡:稍微弱於主動作 (加入),但仍清楚可點 */
+.voice-pick-preview {
+  opacity: 0.85;
+}
+.voice-pick-preview:hover {
+  opacity: 1;
+}
+
+/* 已加入角標:v-badge 預設位置在右上,微調避免擋按鈕角 */
+.voice-pick-badge {
+  pointer-events: none;
 }
 </style>

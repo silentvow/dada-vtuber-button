@@ -98,7 +98,11 @@
     "remove_item": "削除",
     "editing_locked_during_play": "再生中は編集できません。先に停止してください",
     "drag_handle": "ドラッグで順番変更",
-    "item_position": "{pos} 番目"
+    "item_position": "{pos} 番目",
+    "preview": "試聴",
+    "now_playing_item": "再生中",
+    "pick_from_below": "下の一覧から音声を選ぶ",
+    "added_count": "{count} 回追加済み"
   },
   "search": {
     "placeholder": "音声を検索(中/日/英)",
