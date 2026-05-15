@@ -106,6 +106,24 @@
     "added_count": "已加入 {count} 次",
     "drag_tip": "拖曳左側握把可調整播放順序"
   },
+  "soundboard": {
+    "title": "灰妲 Soundboard",
+    "subtitle": "給實況主的快速播放工具,按鍵盤 1~9 即時播放",
+    "back_to_home": "回主站",
+    "overlap": "疊播",
+    "overlap_hint": "連點同一條會疊播 (適合連發迷因)",
+    "pinned_section": "鍵盤快捷鍵",
+    "pinned_hint": "拖曳下方的語音到格子設定 1~9 快捷鍵",
+    "empty_slot": "拖曳語音到此",
+    "clear_slot": "清空此格",
+    "clear_all": "全部清空",
+    "search_placeholder": "搜尋語音(中/日/英)...",
+    "no_pinned": "還沒設定任何快捷鍵 — 拖曳下方語音到格子,或直接點擊播放",
+    "voice_list_section": "全部語音",
+    "mobile_hint_title": "建議使用桌面瀏覽器",
+    "mobile_hint_body": "Soundboard 設計給實況主用鍵盤快捷鍵操作,行動裝置不支援拖曳和 1~9 鍵。回主站使用一般版本。",
+    "streamer_tool": "實況工具"
+  },
   "search": {
     "placeholder": "搜尋語音(中/日/英)",
     "clear": "清除",

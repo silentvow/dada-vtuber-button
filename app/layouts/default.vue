@@ -171,6 +171,10 @@
           <NuxtLink :to="localePath('/privacy')" class="text-decoration-underline text-accent">{{
             $t('site.privacy')
           }}</NuxtLink>
+          <span>&nbsp;|&nbsp;</span>
+          <NuxtLink :to="localePath('/soundboard')" class="text-decoration-underline text-accent">{{
+            $t('soundboard.streamer_tool')
+          }}</NuxtLink>
         </div>
         <div class="text-center mt-1" v-html="footerContent"></div>
       </v-footer>
