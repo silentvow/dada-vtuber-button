@@ -36,7 +36,7 @@
               </v-alert>
             </div>
 
-            <div class="d-flex gap-2 mt-6">
+            <div class="d-flex ga-2 mt-6">
               <v-btn v-if="!isAuthorized" color="success" size="large" class="px-8" @click="fetchAccountInfo">
                 {{ $t('member.refresh') }}
               </v-btn>
@@ -80,7 +80,6 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { mdiLink } from '@mdi/js';
-// 💡 引入 AudioStore 與 Snackbar
 import { useAudioStore } from '~/stores/audio';
 import { useSnackbar } from '~/composables/useSnackbar';
 
@@ -89,11 +88,7 @@ definePageMeta({
   ssr: false
 });
 
-// dc_voices.json (~400KB) 直接從 public/ 靜態檔抓 (避免內聯進 client JS bundle)。
-// 重要:不能用 $fetch('/api/dc_voices') — 那是 nitro server route,只在 prerender
-// (SSR) 階段被內部命中。member 頁是 ssr:false + 不被 prerender (在 nitro.ignore),
-// 所以 client 端 runtime 真的會打 /api/dc_voices,SSG 靜態 hosting 沒這 endpoint → 404。
-// /dc_voices.json 是 public/ 下的 static file,SSG output 直接 copy 過去,runtime 抓得到。
+// dc_voices.json 走 public/ 靜態檔 (PR17 修)
 const { data: voice_lists } = await useAsyncData('dc_voices', () => $fetch('/dc_voices.json'), {
   default: () => ({ groups: [] })
 });
@@ -103,12 +98,22 @@ const settings = useSettingsStore();
 const audioStore = useAudioStore();
 const snackbar = useSnackbar();
 const config = useRuntimeConfig();
-const discordCookie = useCookie('discord_token');
 const { gtag } = useGtag();
 
-// 狀態變數 (改 computed 跟著 voice_lists ref 變動)
+// === Discord OAuth state (cookies) ===
+// PR18: 從 Implicit Grant 換成 Authorization Code Grant + refresh token。
+// 三個 cookies 一起管:
+//   discord_access_token   — 7 天有效,呼叫 Discord API 用
+//   discord_refresh_token  — 長效,access 過期時用來換新的
+//   discord_token_expires_at — ms unix timestamp,client 端判斷是否該 refresh
+// 設 maxAge 30 天 (refresh 通常比 access 長壽,可以更長)
+const COOKIE_OPTS = { maxAge: 60 * 60 * 24 * 30 };
+const accessTokenCookie = useCookie('discord_access_token', COOKIE_OPTS);
+const refreshTokenCookie = useCookie('discord_refresh_token', COOKIE_OPTS);
+const expiresAtCookie = useCookie('discord_token_expires_at', COOKIE_OPTS);
+
+// 狀態變數
 const groups = computed(() => voice_lists.value.groups);
-// 💡 移除了 `now_playing` 與 `voiceBtnRefs` 等舊版手動管理的狀態
 const loading = ref(true);
 const error = ref(null);
 const account = ref(null);
@@ -117,58 +122,154 @@ const panel = ref([]);
 const abortController = ref(null);
 
 // 計算屬性
-const dark_text = computed(() => ({
-  'text-grey-lighten-2': settings.dark
-}));
-
+const dark_text = computed(() => ({ 'text-grey-lighten-2': settings.dark }));
 const current_locale = computed(() => locale.value);
+const isAuthorized = computed(() => member.value?.roles && member.value.roles.length > 0);
 
-const isAuthorized = computed(() => {
-  return member.value?.roles && member.value.roles.length > 0;
-});
+// === Token helpers ===
 
-// 生命週期：擷取網址 Hash 中的 Token
-onMounted(() => {
-  const hash = window.location.hash;
-  if (hash && hash.includes('access_token')) {
-    const params = new URLSearchParams(hash.substring(1));
-    const token = params.get('access_token');
-    if (token) {
-      discordCookie.value = token;
-      window.history.replaceState(null, '', window.location.pathname);
+// 把 server 回傳的 token bundle 存進 cookies
+const saveTokens = bundle => {
+  accessTokenCookie.value = bundle.access_token;
+  refreshTokenCookie.value = bundle.refresh_token;
+  expiresAtCookie.value = String(bundle.expires_at);
+};
+
+const clearTokens = () => {
+  accessTokenCookie.value = null;
+  refreshTokenCookie.value = null;
+  expiresAtCookie.value = null;
+};
+
+// Access token 是否快到期 (預留 1 分鐘 buffer)
+const isAccessTokenExpiring = () => {
+  if (!expiresAtCookie.value) return false;
+  const expiresAt = parseInt(expiresAtCookie.value, 10);
+  if (isNaN(expiresAt)) return true;
+  return Date.now() >= expiresAt - 60_000;
+};
+
+// 用 refresh_token 跟 server 換新的 access token,失敗回 false (代表需要重新授權)
+const tryRefresh = async () => {
+  if (!refreshTokenCookie.value) return false;
+  try {
+    const bundle = await $fetch('/api/discord/refresh', {
+      method: 'POST',
+      body: { refresh_token: refreshTokenCookie.value }
+    });
+    saveTokens(bundle);
+    return true;
+  } catch (err) {
+    console.warn('[member] refresh failed', err);
+    clearTokens();
+    return false;
+  }
+};
+
+// 取得有效的 access token:過期就先 refresh,還是失敗就回 null
+const getValidAccessToken = async () => {
+  if (!accessTokenCookie.value) return null;
+  if (isAccessTokenExpiring()) {
+    const ok = await tryRefresh();
+    if (!ok) return null;
+  }
+  return accessTokenCookie.value;
+};
+
+// === Lifecycle / Auth flow ===
+
+// 進頁時:處理 OAuth callback (URL 帶 ?code=...) 或直接用既有 token
+onMounted(async () => {
+  abortController.value = new AbortController();
+
+  const url = new URL(window.location.href);
+  const code = url.searchParams.get('code');
+  const state = url.searchParams.get('state');
+  const oauthError = url.searchParams.get('error');
+
+  if (oauthError) {
+    // Discord 端拒絕授權 (例如使用者點 cancel)
+    cleanUrl();
+    error.value = 'member.error_authorization_required';
+    loading.value = false;
+    return;
+  }
+
+  if (code) {
+    // CSRF 防護:驗證 state 跟我們 redirect 前存的一致
+    const expectedState = sessionStorage.getItem('discord_oauth_state');
+    sessionStorage.removeItem('discord_oauth_state');
+    if (!expectedState || state !== expectedState) {
+      cleanUrl();
+      error.value = 'member.error_state_mismatch';
+      loading.value = false;
+      return;
+    }
+    // 把 code 送給 server 換 token
+    try {
+      const bundle = await $fetch('/api/discord/token', {
+        method: 'POST',
+        body: { code }
+      });
+      saveTokens(bundle);
+      cleanUrl();
+    } catch (err) {
+      console.error('[member] token exchange failed', err);
+      cleanUrl();
+      error.value = 'member.error_authorization_required';
+      loading.value = false;
+      return;
     }
   }
 
-  abortController.value = new AbortController();
-  fetchAccountInfo(abortController.value.signal);
+  await fetchAccountInfo(abortController.value.signal);
 });
 
 onUnmounted(() => {
   abortController.value?.abort();
 });
 
-// 方法
+// 清掉 URL 的 ?code=&state= (不要留在歷史紀錄)
+const cleanUrl = () => {
+  window.history.replaceState(null, '', window.location.pathname);
+};
+
+// === Fetch account / member info ===
+// 內建 reactive refresh:第一次 401 就試 refresh 後 retry 一次,還失敗就放棄
 const fetchAccountInfo = async signal => {
   loading.value = true;
   error.value = null;
   try {
-    const token = discordCookie.value;
+    const token = await getValidAccessToken();
     if (!token) throw new Error('');
 
-    const headers = { Authorization: `Bearer ${token}` };
     const apiBase = config.public.DISCORD_API_BASE || 'https://discord.com/api';
+    const guildId = '959421169629560892';
 
-    const accountRes = await fetch(`${apiBase}/users/@me`, { headers, signal });
+    // 包一個帶 retry 的 fetch:401 → refresh → 重打一次
+    const callDiscord = async (path, retried = false) => {
+      const accessToken = accessTokenCookie.value;
+      const res = await fetch(`${apiBase}${path}`, {
+        headers: { Authorization: `Bearer ${accessToken}` },
+        signal
+      });
+      if (res.status === 401 && !retried) {
+        // access token 在這幾毫秒間剛好失效 (or expires_at 算錯),試 refresh 再來一次
+        const ok = await tryRefresh();
+        if (ok) return callDiscord(path, true);
+      }
+      return res;
+    };
+
+    const accountRes = await callDiscord('/users/@me');
     if (accountRes.status === 401) throw new Error('member.error_authorization_required');
     else if (accountRes.status === 403) throw new Error('member.error_forbidden');
     else if (!accountRes.ok) throw new Error('member.error_get_member');
-
     account.value = await accountRes.json();
 
-    const memberRes = await fetch(`${apiBase}/users/@me/guilds/959421169629560892/member`, { headers, signal });
+    const memberRes = await callDiscord(`/users/@me/guilds/${guildId}/member`);
     if (memberRes.status === 404) throw new Error('member.error_not_found');
     else if (!memberRes.ok) throw new Error('member.error_get_member');
-
     member.value = await memberRes.json();
   } catch (err) {
     if (err.name === 'AbortError') return;
@@ -178,15 +279,41 @@ const fetchAccountInfo = async signal => {
   }
 };
 
+// === Redirect 到 Discord 授權 ===
 const redirectToDiscordAuth = () => {
   const clientId = config.public.DISCORD_CLIENT_ID;
   const redirectUri = config.public.DISCORD_REDIRECT_URI;
-  const discordAuthUrl = `https://discord.com/oauth2/authorize?client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&response_type=token&prompt=none&scope=identify%20guilds%20guilds.members.read`;
-  window.location.href = discordAuthUrl;
+
+  // CSRF state:在 sessionStorage 存隨機字串,callback 時驗證
+  const state = crypto.randomUUID();
+  sessionStorage.setItem('discord_oauth_state', state);
+
+  const params = new URLSearchParams({
+    client_id: clientId,
+    redirect_uri: redirectUri,
+    response_type: 'code', // ← PR18: implicit 'token' → code grant 'code'
+    scope: 'identify guilds guilds.members.read',
+    state
+  });
+
+  window.location.href = `https://discord.com/oauth2/authorize?${params.toString()}`;
 };
 
-const logout = () => {
-  discordCookie.value = null;
+// === Logout: revoke + clear ===
+const logout = async () => {
+  // 通知 Discord 把 token 作廢 (失敗也沒關係,本地 cookie 反正要清)
+  const accessToken = accessTokenCookie.value;
+  if (accessToken) {
+    try {
+      await $fetch('/api/discord/revoke', {
+        method: 'POST',
+        body: { token: accessToken, token_type_hint: 'access_token' }
+      });
+    } catch {
+      // ignore — revoke 失敗不擋 logout
+    }
+  }
+  clearTokens();
   account.value = null;
   member.value = null;
   error.value = 'member.error_logout';
@@ -216,12 +343,6 @@ const play = item => {
 
 useSeoMeta({
   title: () => t('member.member_area'),
-  robots: 'noindex, nofollow' // 會員專區需 Discord OAuth,不應被索引
+  robots: 'noindex, nofollow'
 });
 </script>
-
-<style scoped>
-.gap-2 {
-  gap: 8px;
-}
-</style>

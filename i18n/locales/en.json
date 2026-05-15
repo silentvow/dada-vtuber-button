@@ -67,6 +67,7 @@
     "error_get_member": "Failed to get member information, please try again later.",
     "error_logout": "Logged out. Please re-authenticate.",
     "error_not_found": "Member role not found.",
+    "error_state_mismatch": "Authorization verification failed (state mismatch). Please try linking again.",
     "link_discord": "Link Discord Account",
     "loading": "Loading...",
     "member_area": "Member Area",
