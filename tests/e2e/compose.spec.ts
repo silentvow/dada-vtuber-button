@@ -2,10 +2,12 @@ import { test, expect } from '@playwright/test';
 
 // 語音編曲頁 (PR15) — 編輯區 + draggable + 控制列 + 順序播放
 //
-// 注意:composer store 用 @pinia-plugin-persistedstate/nuxt 持久化 (SSR-friendly)
-// 預設 storage 是 cookies (不是 localStorage),所以測試重置要用 context.clearCookies()。
-// 拖曳排序本身 Playwright 很難可靠模擬 (vuedraggable + Sortable.js 用 mouse events),
-// 改用 unit test 驗 reorder() 行為,e2e 不覆蓋拖曳。
+// 注意:
+// - composer store 用 @pinia-plugin-persistedstate/nuxt 持久化 (SSR-friendly)
+//   預設 storage 是 cookies (不是 localStorage),測試重置要用 context.clearCookies()。
+// - 語音列表用首頁同款的 VoiceBtn (class .vo-btn),沒有「加入：」aria-label,
+//   所以 add 按鈕用 .vo-btn css selector 抓 (跟首頁的 e2e 一致)。
+// - 拖曳排序本身 Playwright 很難可靠模擬,改用 unit test 驗 reorder() 行為。
 
 test.describe('Voice Compose page', () => {
   test('initial state: empty editor + count 0/50', async ({ page, context }) => {
@@ -24,7 +26,7 @@ test.describe('Voice Compose page', () => {
     await page.goto('/compose');
     await page.waitForLoadState('networkidle');
 
-    const addBtn = page.getByRole('button', { name: /加入：/ }).first();
+    const addBtn = page.locator('.vo-btn').first();
     await addBtn.click();
 
     await expect(page.getByText('1 / 50')).toBeVisible();
@@ -37,7 +39,7 @@ test.describe('Voice Compose page', () => {
     await page.goto('/compose');
     await page.waitForLoadState('networkidle');
 
-    const addBtn = page.getByRole('button', { name: /加入：/ }).first();
+    const addBtn = page.locator('.vo-btn').first();
     await addBtn.click();
     await page.waitForTimeout(200);
     await addBtn.click();
@@ -51,9 +53,9 @@ test.describe('Voice Compose page', () => {
     await page.goto('/compose');
     await page.waitForLoadState('networkidle');
 
-    await page.getByRole('button', { name: /加入：/ }).first().click();
+    await page.locator('.vo-btn').nth(0).click();
     await page.waitForTimeout(100);
-    await page.getByRole('button', { name: /加入：/ }).nth(1).click();
+    await page.locator('.vo-btn').nth(1).click();
     await page.waitForTimeout(100);
     await expect(page.locator('.composer-item')).toHaveCount(2);
 
@@ -67,7 +69,7 @@ test.describe('Voice Compose page', () => {
     await page.goto('/compose');
     await page.waitForLoadState('networkidle');
 
-    await page.getByRole('button', { name: /加入：/ }).first().click();
+    await page.locator('.vo-btn').first().click();
     await page.waitForTimeout(100);
     await expect(page.locator('.composer-item')).toHaveCount(1);
 
@@ -84,7 +86,7 @@ test.describe('Voice Compose page', () => {
     await page.goto('/compose');
     await page.waitForLoadState('networkidle');
 
-    await page.getByRole('button', { name: /加入：/ }).first().click();
+    await page.locator('.vo-btn').first().click();
     await page.waitForTimeout(100);
     await page.getByRole('button', { name: /^重置/ }).click();
     await page.getByRole('button', { name: '取消' }).click();
@@ -95,7 +97,7 @@ test.describe('Voice Compose page', () => {
     await context.clearCookies();
     await page.goto('/compose');
     await page.waitForLoadState('networkidle');
-    await page.getByRole('button', { name: /加入：/ }).first().click();
+    await page.locator('.vo-btn').first().click();
     await page.waitForTimeout(200);
     await expect(page.locator('.composer-item')).toHaveCount(1);
 
@@ -125,9 +127,9 @@ test.describe('Voice Compose page', () => {
     await page.waitForLoadState('networkidle');
 
     // 加 2 條
-    await page.getByRole('button', { name: /加入：/ }).first().click();
+    await page.locator('.vo-btn').nth(0).click();
     await page.waitForTimeout(100);
-    await page.getByRole('button', { name: /加入：/ }).nth(1).click();
+    await page.locator('.vo-btn').nth(1).click();
     await page.waitForTimeout(100);
     await expect(page.locator('.composer-item')).toHaveCount(2);
 
@@ -156,7 +158,7 @@ test.describe('Voice Compose page', () => {
     await page.waitForLoadState('networkidle');
 
     // 連點 3 次同一個 add (允許重複)
-    const addBtn = page.getByRole('button', { name: /^加入：/ }).first();
+    const addBtn = page.locator('.vo-btn').first();
     for (let i = 0; i < 3; i++) {
       await addBtn.click();
       await page.waitForTimeout(150);

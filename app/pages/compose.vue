@@ -203,55 +203,24 @@
         <v-divider class="flex-grow-1" opacity="0.3"></v-divider>
       </div>
 
-      <!-- 語音列表 (沿用首頁元件) -->
-      <VoiceListWithSearch :groups="voice_lists.groups" @play="previewItem">
+      <!-- 語音列表:直接用 VoiceBtn (跟首頁一樣的元件),from-youtube 也跟首頁同條件,
+           背景色/文字/icon 顏色/border radius/margin 全部繼承首頁一致風格。
+           Click 主按鈕 = 加入編輯區 (這頁的核心動作);
+           ≡ 選單裡的「最愛 / YouTube / 下載」沿用首頁行為,試聽請從編輯區的 ▶ 圖示。 -->
+      <VoiceListWithSearch :groups="voice_lists.groups">
         <template #voice="{ group }">
-          <div class="d-flex flex-wrap gap-2 pt-2">
-            <div
-              v-for="item in group.voice_list"
-              :key="item.id"
-              class="voice-pick-wrap"
-              :class="{ 'voice-pick-disabled': composer.isFull || composer.isPlaying }"
-            >
-              <!-- 把「加入」跟「試聽」合併成 v-btn-group,左主動作右 icon。
-                   primary 動作明顯,試聽從屬於它,視覺上是一個 unit。 -->
-              <v-btn-group rounded="lg" variant="outlined" divided density="comfortable" class="voice-pick-group">
-                <v-btn
-                  :prepend-icon="mdiPlus"
-                  :aria-label="
-                    composer.isFull
-                      ? $t('compose.full_message', { max: MAX_ITEMS })
-                      : $t('compose.add_to_editor') + '：' + (item.description[current_locale] || item.name)
-                  "
-                  color="primary"
-                  class="text-none voice-pick-add"
-                  :disabled="composer.isFull || composer.isPlaying"
-                  @click="onAddVoice(item)"
-                >
-                  <span class="voice-pick-name">{{
-                    item.description[current_locale] || item.description.zh || item.name
-                  }}</span>
-                </v-btn>
-                <v-btn
-                  :icon="mdiPlayOutline"
-                  :aria-label="$t('compose.preview') + '：' + (item.description[current_locale] || item.name)"
-                  class="voice-pick-preview"
-                  @click.stop="previewItem(item)"
-                ></v-btn>
-              </v-btn-group>
-
-              <!-- 已加入次數角標 (>0 才顯示),提示使用者「這條已選過」 -->
-              <v-badge
-                v-if="composer.countByVoiceId(item.id) > 0"
-                :content="`×${composer.countByVoiceId(item.id)}`"
-                color="primary"
-                offset-x="-4"
-                offset-y="6"
-                class="voice-pick-badge"
-                :aria-label="$t('compose.added_count', { count: composer.countByVoiceId(item.id) })"
-              ></v-badge>
-            </div>
-          </div>
+          <VoiceBtn
+            v-for="item in group.voice_list"
+            :key="item.id"
+            :voice-id="item.id"
+            :from-youtube="Boolean(item.url)"
+            :disabled="composer.isFull || composer.isPlaying"
+            @on-play="onAddVoice(item)"
+            @on-youtube="openYouTube(item)"
+            @on-download="download(item)"
+          >
+            {{ item.description[current_locale] || item.description.zh || item.name }}
+          </VoiceBtn>
         </template>
       </VoiceListWithSearch>
     </v-col>
@@ -301,7 +270,6 @@ import {
   mdiDragVertical,
   mdiPlayOutline,
   mdiCloseCircleOutline,
-  mdiPlus,
   mdiMusicBoxMultipleOutline,
   mdiInformationOutline,
   mdiVolumeHigh,
@@ -394,6 +362,20 @@ const onAddVoice = item => {
 const previewItem = item => {
   if (composer.isPlaying) return; // 順序播放中不允許試聽
   audioStore.play(item, item.description?.[current_locale.value] || item.name, t('control.full_name'), t('site.title'));
+};
+
+// VoiceBtn ≡ 選單 — YouTube 來源:直接開新分頁 (compose 頁沒像首頁有 modal,簡化)
+const openYouTube = item => {
+  if (item.url) window.open(item.url, '_blank', 'noreferrer');
+};
+
+// VoiceBtn ≡ 選單 — 下載 (跟首頁邏輯一致,getPrimaryVoiceUrl auto-import)
+const download = item => {
+  const a = document.createElement('a');
+  a.target = '_blank';
+  a.href = getPrimaryVoiceUrl(item.path);
+  a.download = item.path.split('/').pop();
+  a.click();
 };
 
 const onPlayAll = () => composer.playAll();
@@ -542,38 +524,5 @@ useSeoMeta({
 .compose-divider-label {
   white-space: nowrap;
   flex-shrink: 0;
-}
-
-/* ===== 語音列表:每條 voice 是一個 unit (加入 + 試聽 合併 btn-group) ===== */
-.voice-pick-wrap {
-  position: relative;
-  display: inline-flex;
-}
-/* 達上限 / 播放中:整個 wrap 加灰調暗,提示不可加 */
-.voice-pick-disabled {
-  opacity: 0.55;
-}
-.voice-pick-group :deep(.v-btn) {
-  text-transform: none;
-}
-.voice-pick-add :deep(.v-btn__content) {
-  max-width: 220px;
-}
-.voice-pick-name {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-/* 試聽 icon button 在 btn-group 裡:稍微弱於主動作 (加入),但仍清楚可點 */
-.voice-pick-preview {
-  opacity: 0.85;
-}
-.voice-pick-preview:hover {
-  opacity: 1;
-}
-
-/* 已加入角標:v-badge 預設位置在右上,微調避免擋按鈕角 */
-.voice-pick-badge {
-  pointer-events: none;
 }
 </style>
