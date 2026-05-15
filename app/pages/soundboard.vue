@@ -445,7 +445,6 @@ useSeoMeta({
   transition:
     background-color 0.12s,
     border-color 0.12s;
-  max-width: 240px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
