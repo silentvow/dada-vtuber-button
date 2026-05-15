@@ -80,6 +80,7 @@
 <script setup>
 import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { mdiLink } from '@mdi/js';
+import dcVoices from '~~/public/dc_voices.json';
 import { useAudioStore } from '~/stores/audio';
 import { useSnackbar } from '~/composables/useSnackbar';
 
@@ -88,10 +89,17 @@ definePageMeta({
   ssr: false
 });
 
-// dc_voices.json 走 public/ 靜態檔 (PR17 修)
-const { data: voice_lists } = await useAsyncData('dc_voices', () => $fetch('/dc_voices.json'), {
-  default: () => ({ groups: [] })
-});
+// dc_voices.json (~400KB) 直接 import,讓 Vite 內聯進 member 頁的 chunk。
+//
+// 歷史:
+//   PR8 改成 $fetch('/api/dc_voices') server route (不出貨進 client bundle)
+//   PR17 因為 SSG 靜態 hosting 沒 runtime api,改成 $fetch('/dc_voices.json')
+//   PR19 (本次) 因 useAsyncData('dc_voices', $fetch('/dc_voices.json')) 在
+//        ssr:false + Vercel preset + SPA navigation 路徑下 voice_lists.value
+//        會變空 object {} (花了一小時 debug 找不到原因),直接 import 最可靠。
+//
+// 代價:member 頁的 chunk 多 ~400KB,但 member 是低流量頁 (有 Discord 才看),
+//      初次載入慢一點 OK。
 
 const { t, locale } = useI18n();
 const settings = useSettingsStore();
@@ -112,8 +120,8 @@ const accessTokenCookie = useCookie('discord_access_token', COOKIE_OPTS);
 const refreshTokenCookie = useCookie('discord_refresh_token', COOKIE_OPTS);
 const expiresAtCookie = useCookie('discord_token_expires_at', COOKIE_OPTS);
 
-// 狀態變數
-const groups = computed(() => voice_lists.value.groups);
+// 狀態變數 — groups 直接從 import 來,不需 reactive
+const groups = dcVoices.groups;
 const loading = ref(true);
 const error = ref(null);
 const account = ref(null);
