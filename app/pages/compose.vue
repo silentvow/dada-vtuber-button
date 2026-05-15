@@ -413,7 +413,8 @@ useSeoMeta({
   list-style: none;
 }
 .composer-item {
-  background-color: rgba(255, 255, 255, 0.03);
+  /* 不透明背景,比 card 底 (#43404b + 微亮 overlay) 暗一些,呈現「卡片內的次層級 item」感 */
+  background-color: #2a2730;
   border: 1px solid rgba(255, 255, 255, 0.06);
   transition:
     background-color 0.18s,
@@ -421,12 +422,12 @@ useSeoMeta({
   min-height: 56px;
 }
 .composer-item:hover {
-  background-color: rgba(255, 255, 255, 0.06);
+  background-color: #353140;
 }
 
-/* 播放中的當前條:primary tinted bg + 左邊框條,跟其他 item 明顯區隔 */
+/* 播放中的當前條:不透明 primary tinted bg + 左邊框條 */
 .composer-item-playing {
-  background-color: rgba(189, 19, 61, 0.14) !important;
+  background-color: #4a1f2e !important; /* opaque primary-tinted dark */
   border-color: rgb(var(--v-theme-primary)) !important;
   border-left-width: 4px !important;
 }
