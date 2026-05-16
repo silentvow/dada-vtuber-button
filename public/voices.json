@@ -1018,6 +1018,221 @@
       ]
     },
     {
+      "id": "bc3e7c12-1667-438f-91ae-82d49c17ad10",
+      "group_name": "shut-up",
+      "group_description": {
+        "en": "DaDa: Shut Up",
+        "ja": "フイダ：閉嘴",
+        "zh": "灰妲：閉嘴"
+      },
+      "voice_list": [
+        {
+          "id": "f7a79f75-43a7-44ac-8641-ebef42016de8",
+          "name": "bi-zui-wo-pian-ke-la",
+          "description": {
+            "en": "Shut up!",
+            "ja": "黙れ！",
+            "zh": "閉嘴！"
+          },
+          "path": "20251112-exam-vote-morning/bi-zui-wo-pian-ke-la.mp3",
+          "url": "https://www.youtube.com/watch?v=8FTVOYkYulE",
+          "year": "2025"
+        },
+        {
+          "id": "7e8cbddd-e324-4d0e-ac3c-496d4fe6ea7c",
+          "name": "wo-yi-jing-hen-nu-li-le",
+          "description": {
+            "en": "Shut up!",
+            "ja": "うるさい！",
+            "zh": "閉嘴！"
+          },
+          "path": "20251205-singing-practice-stream/wo-yi-jing-hen-nu-li-le.mp3",
+          "url": "https://www.youtube.com/watch?v=Km1pyE8r3lk",
+          "year": "2025"
+        },
+        {
+          "id": "5eab07bb-a566-4dd8-9f29-c253ead36723",
+          "name": "bi-tsue-bi-tsue",
+          "description": {
+            "en": "Shut up, shut up.",
+            "ja": "黙れ、黙れ",
+            "zh": "閉嘴閉嘴"
+          },
+          "path": "draw-avatar-10/bi-tsue-bi-tsue.mp3",
+          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E",
+          "year": "2024"
+        },
+        {
+          "id": "75789d17-cd8f-413f-852a-d06ddfbbbcb3",
+          "name": "bi-shang-ni-de-zui-zui",
+          "description": {
+            "en": "Close your mouthy-mouth.",
+            "ja": "そのお口を閉じなさい。",
+            "zh": "閉上你的嘴嘴。"
+          },
+          "path": "20260101-new-year-wishes/bi-shang-ni-de-zui-zui.mp3",
+          "url": "https://www.youtube.com/watch?v=tuvrIgrzhg8",
+          "year": "2026"
+        },
+        {
+          "id": "e17fc4f5-bb33-423f-9a00-598fac5e81ba",
+          "name": "hao-qiong-bi-zui",
+          "description": {
+            "en": "So poor... How am I so poor? Shut up!",
+            "ja": "貧乏…なんでそんなに貧乏なの？黙れ！",
+            "zh": "什麼好窮！閉嘴！"
+          },
+          "path": "20260101-new-year-wishes/hao-qiong-bi-zui.mp3",
+          "url": "https://www.youtube.com/watch?v=tuvrIgrzhg8",
+          "year": "2026"
+        },
+        {
+          "id": "e980aafe-e72c-4b52-8b9f-54ee88a75830",
+          "name": "bi-zui-la-ni-men-bi-zui",
+          "description": {
+            "en": "Shut up, you all shut up! You can't just reveal people's private information like that!",
+            "ja": "黙れ、あんたたち黙れ！そんな風に人のプライバシーを公開しちゃダメでしょ！",
+            "zh": "閉嘴啦，你們閉嘴！"
+          },
+          "path": "20260217-cny-old-songs/bi-zui-la-ni-men-bi-zui.mp3",
+          "url": "https://www.youtube.com/watch?v=bULd_XWBz-8",
+          "year": "2026"
+        },
+        {
+          "id": "7c5b8f4f-9153-48b1-8a2c-c12434423bf4",
+          "name": "bi-shang-zui-zui",
+          "description": {
+            "en": "Close your little mouth!",
+            "ja": "その口を閉じなさい！",
+            "zh": "閉閉上你的嘴嘴啦！"
+          },
+          "path": "20260319-recovery-chat/bi-shang-zui-zui.mp3",
+          "url": "https://www.youtube.com/watch?v=WLhvOQYKZP4",
+          "year": "2026"
+        },
+        {
+          "id": "71891571-7be5-48fa-9729-9946d4766bb7",
+          "name": "bi-shang-ni-de-zui-zui",
+          "description": {
+            "en": "Shut up, shut your little mouth!",
+            "ja": "黙れ、その口を閉じなさい！",
+            "zh": "閉嘴，閉上你的嘴嘴！"
+          },
+          "path": "20251127-news-november/bi-shang-ni-de-zui-zui.mp3",
+          "url": "https://www.youtube.com/watch?v=_oSO6lLAv1Y",
+          "year": "2025"
+        },
+        {
+          "id": "ec22c698-24f4-452c-abac-240872f5c09e",
+          "name": "qing-ni-bi-zui",
+          "description": {
+            "en": "Please shut up, close your mouth",
+            "ja": "黙れ、その口を閉じろ",
+            "zh": "請你閉嘴，閉上你的嘴巴"
+          },
+          "path": "20260108-routine-singing-practice/qing-ni-bi-zui.mp3",
+          "url": "https://www.youtube.com/watch?v=n_els00Ajr8",
+          "year": "2026"
+        },
+        {
+          "id": "f7c6078a-75b4-4f2e-80ba-154a7f18dfaa",
+          "name": "bi-zui-la-ku-yao",
+          "description": {
+            "en": "Shut up, you guys are just whining.",
+            "ja": "黙れ、グダグダ文句言うなよお前ら。",
+            "zh": "閉嘴啦，在哭腰吧這些人。"
+          },
+          "path": "20251227-pre-holiday-singing/bi-zui-la-ku-yao.mp3",
+          "url": "https://www.youtube.com/watch?v=h891ziEigqg",
+          "year": "2026"
+        },
+        {
+          "id": "0f1039a4-75b3-4e31-82e0-63db5def1ff1",
+          "name": "bi-shang-ni-xiao-qiao-de-zui-zui",
+          "description": {
+            "en": "Alright, shut up. Shut your tiny little mouth.",
+            "ja": "はいはい、黙れ。その小さくて可愛いお口を閉じなさい。",
+            "zh": "好了，閉嘴，閉上你小巧的嘴嘴。"
+          },
+          "path": "20251102-marshmallow-reunion/bi-shang-ni-xiao-qiao-de-zui-zui.mp3",
+          "url": "https://www.youtube.com/watch?v=wyNsMoPBsjQ",
+          "year": "2025"
+        },
+        {
+          "id": "9b751cd5-bd19-47f6-84f0-fdafab2aeee5",
+          "name": "bizui-kfc-leave",
+          "description": {
+            "en": "Shut up, Colonel Sanders, leave my channel!",
+            "ja": "黙れカーネル・サンダース、私のチャンネルから出ていけ！",
+            "zh": "閉嘴啦肯德基爺爺，離開我的頻道！"
+          },
+          "path": "20260319-recovery-chat/bizui-kfc-leave.mp3",
+          "url": "https://www.youtube.com/watch?v=WLhvOQYKZP4",
+          "year": "2026"
+        },
+        {
+          "id": "546fc67c-9ab9-4300-bdb4-fc51e8fa6304",
+          "name": "bi-zui-bi-zui",
+          "description": {
+            "en": "Shut up, shut up, please close your mouth, thank you.",
+            "ja": "黙れ、黙れ、お口を閉じてください、ありがとう。",
+            "zh": "閉嘴，閉嘴，請閉上你的嘴巴，謝謝。"
+          },
+          "path": "20260104-birthday-marshmallow/bi-zui-bi-zui.mp3",
+          "url": "https://www.youtube.com/watch?v=izmoGMeL4Po",
+          "year": "2026"
+        },
+        {
+          "id": "aa41bb2b-0c05-45d6-bf28-335e2e5ab4de",
+          "name": "bi-shang-ke-ai-zui-zui",
+          "description": {
+            "en": "Shut your small and cute little mouth.",
+            "ja": "その小さくて可愛いお口を閉じなさい。",
+            "zh": "閉閉，閉上你的，閉上你小巧可愛的嘴嘴。"
+          },
+          "path": "20251102-marshmallow-reunion/bi-shang-ke-ai-zui-zui.mp3",
+          "url": "https://www.youtube.com/watch?v=wyNsMoPBsjQ",
+          "year": "2025"
+        },
+        {
+          "id": "daa43368-e46c-4758-a9d3-f2a4ee10044e",
+          "name": "bizue-bu-tsun-siao",
+          "description": {
+            "en": "Shut up shut up shut up no laughing no laughing no laughing",
+            "ja": "黙れ黙れ黙れ笑うな笑うな笑うな",
+            "zh": "閉嘴閉嘴閉嘴閉嘴不准笑不准笑不准笑不准笑"
+          },
+          "path": "valentine-lyrics-2/bizue-bu-tsun-siao.mp3",
+          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w",
+          "year": "2023"
+        },
+        {
+          "id": "7e386626-05d5-46a3-8148-b809347a390a",
+          "name": "wo-hai-yo-friend",
+          "description": {
+            "en": "Of course I have friends! What nonsense are you talking about? Damn it, shut up!",
+            "ja": "もちろん友達いるよ！何を言ってるの？もう、黙れ！",
+            "zh": "我當然有朋友阿你在胡說八道什麼阿可惡給我給我閉嘴"
+          },
+          "path": "lazy-against/wo-hai-yo-friend.mp3",
+          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI",
+          "year": "2023"
+        },
+        {
+          "id": "bd23a29c-bea3-44c6-9a6a-8d13ce66da94",
+          "name": "bi-shang-xiu-qi-de-zui-zui",
+          "description": {
+            "en": "Shut up. Shut your gentle, elegant, delicate little mouths, okay?",
+            "ja": "黙れ。その優しくて、軽やかで、秀麗なお口を閉じていただけますか？",
+            "zh": "閉嘴。閉上你們溫溫柔柔、輕輕巧巧的閉上你們秀氣的嘴嘴，好嗎？"
+          },
+          "path": "20260118-agreeee/bi-shang-xiu-qi-de-zui-zui.mp3",
+          "url": "https://www.youtube.com/watch?v=8rzrEFsn4Vw",
+          "year": "2026"
+        }
+      ]
+    },
+    {
       "id": "c5615961-1b79-4154-bf00-360507037daf",
       "group_name": "retort",
       "group_description": {
@@ -1171,30 +1386,6 @@
           "year": "2025"
         },
         {
-          "id": "f7a79f75-43a7-44ac-8641-ebef42016de8",
-          "name": "bi-zui-wo-pian-ke-la",
-          "description": {
-            "en": "Shut up!",
-            "ja": "黙れ！",
-            "zh": "閉嘴！"
-          },
-          "path": "20251112-exam-vote-morning/bi-zui-wo-pian-ke-la.mp3",
-          "url": "https://www.youtube.com/watch?v=8FTVOYkYulE",
-          "year": "2025"
-        },
-        {
-          "id": "7e8cbddd-e324-4d0e-ac3c-496d4fe6ea7c",
-          "name": "wo-yi-jing-hen-nu-li-le",
-          "description": {
-            "en": "Shut up!",
-            "ja": "うるさい！",
-            "zh": "閉嘴！"
-          },
-          "path": "20251205-singing-practice-stream/wo-yi-jing-hen-nu-li-le.mp3",
-          "url": "https://www.youtube.com/watch?v=Km1pyE8r3lk",
-          "year": "2025"
-        },
-        {
           "id": "b3d9d0fb-1852-4120-aee5-2acc09737a8c",
           "name": "ni4-gue-ba",
           "description": {
@@ -1313,18 +1504,6 @@
           "path": "two-loli-blame/tse-sa-shio-la.mp3",
           "url": "https://www.youtube.com/watch?v=iBZEDORzo0c",
           "year": "2022"
-        },
-        {
-          "id": "5eab07bb-a566-4dd8-9f29-c253ead36723",
-          "name": "bi-tsue-bi-tsue",
-          "description": {
-            "en": "Shut up, shut up.",
-            "ja": "黙れ、黙れ",
-            "zh": "閉嘴閉嘴"
-          },
-          "path": "draw-avatar-10/bi-tsue-bi-tsue.mp3",
-          "url": "https://www.youtube.com/watch?v=rTkSGEuEY1E",
-          "year": "2024"
         },
         {
           "id": "5858b8d8-7224-4322-8014-7da2a4350406",
@@ -1807,18 +1986,6 @@
           "year": "2025"
         },
         {
-          "id": "75789d17-cd8f-413f-852a-d06ddfbbbcb3",
-          "name": "bi-shang-ni-de-zui-zui",
-          "description": {
-            "en": "Close your mouthy-mouth.",
-            "ja": "そのお口を閉じなさい。",
-            "zh": "閉上你的嘴嘴。"
-          },
-          "path": "20260101-new-year-wishes/bi-shang-ni-de-zui-zui.mp3",
-          "url": "https://www.youtube.com/watch?v=tuvrIgrzhg8",
-          "year": "2026"
-        },
-        {
           "id": "ff124e40-e8fb-4361-b211-2cc1a587f6d9",
           "name": "cow-bay-no-gg",
           "description": {
@@ -1877,18 +2044,6 @@
           "path": "work-3-bus/shen-mo-la.mp3",
           "url": "https://www.youtube.com/watch?v=aOgFt02YhNM",
           "year": "2024"
-        },
-        {
-          "id": "e17fc4f5-bb33-423f-9a00-598fac5e81ba",
-          "name": "hao-qiong-bi-zui",
-          "description": {
-            "en": "So poor... How am I so poor? Shut up!",
-            "ja": "貧乏…なんでそんなに貧乏なの？黙れ！",
-            "zh": "什麼好窮！閉嘴！"
-          },
-          "path": "20260101-new-year-wishes/hao-qiong-bi-zui.mp3",
-          "url": "https://www.youtube.com/watch?v=tuvrIgrzhg8",
-          "year": "2026"
         },
         {
           "id": "0187a295-a85b-4af0-a5ed-df430d1ec467",
@@ -2239,30 +2394,6 @@
           "year": "2022"
         },
         {
-          "id": "e980aafe-e72c-4b52-8b9f-54ee88a75830",
-          "name": "bi-zui-la-ni-men-bi-zui",
-          "description": {
-            "en": "Shut up, you all shut up! You can't just reveal people's private information like that!",
-            "ja": "黙れ、あんたたち黙れ！そんな風に人のプライバシーを公開しちゃダメでしょ！",
-            "zh": "閉嘴啦，你們閉嘴！"
-          },
-          "path": "20260217-cny-old-songs/bi-zui-la-ni-men-bi-zui.mp3",
-          "url": "https://www.youtube.com/watch?v=bULd_XWBz-8",
-          "year": "2026"
-        },
-        {
-          "id": "7c5b8f4f-9153-48b1-8a2c-c12434423bf4",
-          "name": "bi-shang-zui-zui",
-          "description": {
-            "en": "Close your little mouth!",
-            "ja": "その口を閉じなさい！",
-            "zh": "閉閉上你的嘴嘴啦！"
-          },
-          "path": "20260319-recovery-chat/bi-shang-zui-zui.mp3",
-          "url": "https://www.youtube.com/watch?v=WLhvOQYKZP4",
-          "year": "2026"
-        },
-        {
           "id": "02539e97-66e6-4760-b6b7-99e5f2543dff",
           "name": "ni-you-shen-me-problem",
           "description": {
@@ -2417,18 +2548,6 @@
           "path": "20251231-new-year-eve-minecraft/xiao-wang-ba-dan.mp3",
           "url": "https://www.youtube.com/watch?v=7LI3xY9VilQ",
           "year": "2026"
-        },
-        {
-          "id": "71891571-7be5-48fa-9729-9946d4766bb7",
-          "name": "bi-shang-ni-de-zui-zui",
-          "description": {
-            "en": "Shut up, shut your little mouth!",
-            "ja": "黙れ、その口を閉じなさい！",
-            "zh": "閉嘴，閉上你的嘴嘴！"
-          },
-          "path": "20251127-news-november/bi-shang-ni-de-zui-zui.mp3",
-          "url": "https://www.youtube.com/watch?v=_oSO6lLAv1Y",
-          "year": "2025"
         },
         {
           "id": "e9ce122e-9814-4a3f-bbec-b71e28dc7204",
@@ -2680,18 +2799,6 @@
           },
           "path": "20260101-new-year-wishes/bai-he-nao-shou-yi-shou.mp3",
           "url": "https://www.youtube.com/watch?v=tuvrIgrzhg8",
-          "year": "2026"
-        },
-        {
-          "id": "f7c6078a-75b4-4f2e-80ba-154a7f18dfaa",
-          "name": "bi-zui-la-ku-yao",
-          "description": {
-            "en": "Shut up, you guys are just whining.",
-            "ja": "黙れ、グダグダ文句言うなよお前ら。",
-            "zh": "閉嘴啦，在哭腰吧這些人。"
-          },
-          "path": "20251227-pre-holiday-singing/bi-zui-la-ku-yao.mp3",
-          "url": "https://www.youtube.com/watch?v=h891ziEigqg",
           "year": "2026"
         },
         {
@@ -3043,18 +3150,6 @@
           "year": "2026"
         },
         {
-          "id": "0f1039a4-75b3-4e31-82e0-63db5def1ff1",
-          "name": "bi-shang-ni-xiao-qiao-de-zui-zui",
-          "description": {
-            "en": "Alright, shut up. Shut your tiny little mouth.",
-            "ja": "はいはい、黙れ。その小さくて可愛いお口を閉じなさい。",
-            "zh": "好了，閉嘴，閉上你小巧的嘴嘴。"
-          },
-          "path": "20251102-marshmallow-reunion/bi-shang-ni-xiao-qiao-de-zui-zui.mp3",
-          "url": "https://www.youtube.com/watch?v=wyNsMoPBsjQ",
-          "year": "2025"
-        },
-        {
           "id": "eed4f756-ea0c-467f-8184-a98c49b1c06f",
           "name": "sao-loli-ba-so",
           "description": {
@@ -3211,18 +3306,6 @@
           "year": "2025"
         },
         {
-          "id": "9b751cd5-bd19-47f6-84f0-fdafab2aeee5",
-          "name": "bizui-kfc-leave",
-          "description": {
-            "en": "Shut up, Colonel Sanders, leave my channel!",
-            "ja": "黙れカーネル・サンダース、私のチャンネルから出ていけ！",
-            "zh": "閉嘴啦肯德基爺爺，離開我的頻道！"
-          },
-          "path": "20260319-recovery-chat/bizui-kfc-leave.mp3",
-          "url": "https://www.youtube.com/watch?v=WLhvOQYKZP4",
-          "year": "2026"
-        },
-        {
           "id": "8ba22f0a-b7c1-47ad-bc72-9e91338d4965",
           "name": "shen-me-yi-si",
           "description": {
@@ -3269,18 +3352,6 @@
           "path": "yoda-girlfriend/hsian-tza-hsian-da-jia.mp3",
           "url": "https://www.youtube.com/watch?v=yfJwjKqQFf0",
           "year": "2023"
-        },
-        {
-          "id": "546fc67c-9ab9-4300-bdb4-fc51e8fa6304",
-          "name": "bi-zui-bi-zui",
-          "description": {
-            "en": "Shut up, shut up, please close your mouth, thank you.",
-            "ja": "黙れ、黙れ、お口を閉じてください、ありがとう。",
-            "zh": "閉嘴，閉嘴，請閉上你的嘴巴，謝謝。"
-          },
-          "path": "20260104-birthday-marshmallow/bi-zui-bi-zui.mp3",
-          "url": "https://www.youtube.com/watch?v=izmoGMeL4Po",
-          "year": "2026"
         },
         {
           "id": "e0446469-f157-4d1a-8d7d-de6b63ef9ded",
@@ -3415,18 +3486,6 @@
           "year": "2026"
         },
         {
-          "id": "aa41bb2b-0c05-45d6-bf28-335e2e5ab4de",
-          "name": "bi-shang-ke-ai-zui-zui",
-          "description": {
-            "en": "Shut your small and cute little mouth.",
-            "ja": "その小さくて可愛いお口を閉じなさい。",
-            "zh": "閉閉，閉上你的，閉上你小巧可愛的嘴嘴。"
-          },
-          "path": "20251102-marshmallow-reunion/bi-shang-ke-ai-zui-zui.mp3",
-          "url": "https://www.youtube.com/watch?v=wyNsMoPBsjQ",
-          "year": "2025"
-        },
-        {
           "id": "8993d52f-17ba-482b-a4ea-a28a98b4e234",
           "name": "mu-tang-de-shi-qing",
           "description": {
@@ -3485,18 +3544,6 @@
           "path": "20260101-new-year-wishes/wa-ka-sai.mp3",
           "url": "https://www.youtube.com/watch?v=tuvrIgrzhg8",
           "year": "2026"
-        },
-        {
-          "id": "daa43368-e46c-4758-a9d3-f2a4ee10044e",
-          "name": "bizue-bu-tsun-siao",
-          "description": {
-            "en": "Shut up shut up shut up no laughing no laughing no laughing",
-            "ja": "黙れ黙れ黙れ笑うな笑うな笑うな",
-            "zh": "閉嘴閉嘴閉嘴閉嘴不准笑不准笑不准笑不准笑"
-          },
-          "path": "valentine-lyrics-2/bizue-bu-tsun-siao.mp3",
-          "url": "https://www.youtube.com/watch?v=GBIdMVGc2_w",
-          "year": "2023"
         },
         {
           "id": "e448146b-76de-465e-a245-daed750b3b2b",
@@ -3655,18 +3702,6 @@
           "year": "2026"
         },
         {
-          "id": "7e386626-05d5-46a3-8148-b809347a390a",
-          "name": "wo-hai-yo-friend",
-          "description": {
-            "en": "Of course I have friends! What nonsense are you talking about? Damn it, shut up!",
-            "ja": "もちろん友達いるよ！何を言ってるの？もう、黙れ！",
-            "zh": "我當然有朋友阿你在胡說八道什麼阿可惡給我給我閉嘴"
-          },
-          "path": "lazy-against/wo-hai-yo-friend.mp3",
-          "url": "https://www.youtube.com/watch?v=zSk3_NqoYkI",
-          "year": "2023"
-        },
-        {
           "id": "1c9935fd-87d5-4a89-a0a2-aaa6f2470cf0",
           "name": "da-ge-ge-da-jie-jie-gai-shui-jiao",
           "description": {
@@ -3749,18 +3784,6 @@
           "path": "gugu-pizza/suck-game-finish.mp3",
           "url": "https://www.youtube.com/watch?v=UNkjzpB1Nk8",
           "year": "2025"
-        },
-        {
-          "id": "bd23a29c-bea3-44c6-9a6a-8d13ce66da94",
-          "name": "bi-shang-xiu-qi-de-zui-zui",
-          "description": {
-            "en": "Shut up. Shut your gentle, elegant, delicate little mouths, okay?",
-            "ja": "黙れ。その優しくて、軽やかで、秀麗なお口を閉じていただけますか？",
-            "zh": "閉嘴。閉上你們溫溫柔柔、輕輕巧巧的閉上你們秀氣的嘴嘴，好嗎？"
-          },
-          "path": "20260118-agreeee/bi-shang-xiu-qi-de-zui-zui.mp3",
-          "url": "https://www.youtube.com/watch?v=8rzrEFsn4Vw",
-          "year": "2026"
         },
         {
           "id": "36e8dcda-282f-4bfb-b3a7-773348c52026",
@@ -4000,18 +4023,6 @@
           "path": "marshmarllow-202206/beast-ser-hue-di-tsen.mp3",
           "url": "https://www.youtube.com/watch?v=ezJiATmjoIQ",
           "year": "2022"
-        },
-        {
-          "id": "ec22c698-24f4-452c-abac-240872f5c09e",
-          "name": "qing-ni-bi-zui",
-          "description": {
-            "en": "Please shut up, close your mouth",
-            "ja": "黙れ、その口を閉じろ",
-            "zh": "請你閉嘴，閉上你的嘴巴"
-          },
-          "path": "20260108-routine-singing-practice/qing-ni-bi-zui.mp3",
-          "url": "https://www.youtube.com/watch?v=n_els00Ajr8",
-          "year": "2026"
         },
         {
           "id": "aa6b46b3-a09c-4d27-9697-e5b10b59e2e9",
