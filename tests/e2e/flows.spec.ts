@@ -1,9 +1,26 @@
 import { test, expect } from '@playwright/test';
 
+// CRITICAL helper:override Audio 建構子設 preload="none",防止「natural metadata fetch
+// 從網路觸發 canplay/error」干擾測試。
+// 沒有這個,CI 上慢一點時 r1/r2 的真實網路 canplay 可能比 test 手動 dispatch 早 fire,
+// 造成 winner 不是 audios[0],test 對 audios[0] 操作就 noop → flaky 失敗。
+const disableAudioPreloadScript = `
+  const _Audio = window.Audio;
+  window.Audio = function (url) {
+    const a = new _Audio();
+    a.preload = 'none';
+    if (url) a.src = url;
+    return a;
+  };
+  Object.setPrototypeOf(window.Audio, _Audio);
+  window.Audio.prototype = _Audio.prototype;
+`;
+
 // 使用者流程 smoke test —— 不深入測互動細節,只驗主要 path 沒壞
 test.describe('User flows', () => {
   test('voice button click triggers audio playback attempt', async ({ page }) => {
     // 攔截 audio element 的 play() / load(),不實際抓檔但記錄 src
+    await page.addInitScript(disableAudioPreloadScript);
     await page.addInitScript(() => {
       (window as any).__audioPlayCalls = [];
       HTMLAudioElement.prototype.play = function () {
@@ -78,6 +95,7 @@ test.describe('User flows', () => {
     // - 按下後到 canplay 之間 button 顯示 loading
     // - canplay 之後 snackbar 才出現 (不是按下就出現)
     // - audio ended 之後 button 退出 loading + snackbar 消失
+    await page.addInitScript(disableAudioPreloadScript);
     await page.addInitScript(() => {
       (window as any).__audioPlayCalls = [];
       (window as any).__audioElements = [];
@@ -174,6 +192,7 @@ test.describe('User flows', () => {
   test('CDN race: all URLs are requested, only one play() call per click (PR13)', async ({ page }) => {
     // E2E 跑在 prod build 上 → audioStore 應對 jsdelivr + raw.github + gh-pages 同時發 race
     // 三個 Audio 都會 load(),但 declareWinner 內有 guard → 只有一個 play()
+    await page.addInitScript(disableAudioPreloadScript);
     await page.addInitScript(() => {
       (window as any).__loadedUrls = [];
       (window as any).__playCalls = [];
