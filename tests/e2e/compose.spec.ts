@@ -168,15 +168,17 @@ test.describe('Voice Compose page', () => {
     await expect(addBtn).toBeEnabled();
   });
 
-  test('loop toggle changes button label', async ({ page, context }) => {
+  test('loop switch toggles state', async ({ page, context }) => {
     await context.clearCookies();
     await page.goto('/compose');
     await page.waitForLoadState('networkidle');
 
-    const loopBtn = page.getByRole('button', { name: /^循環$/ });
-    await expect(loopBtn).toBeVisible();
-    await loopBtn.click();
-    await expect(page.getByRole('button', { name: /^循環中$/ })).toBeVisible();
+    // 循環現在是 v-switch (Vuetify 渲染成 input[type=checkbox])
+    const loopSwitch = page.getByRole('checkbox', { name: /循環/ });
+    await expect(loopSwitch).toBeVisible();
+    await expect(loopSwitch).not.toBeChecked();
+    await loopSwitch.click();
+    await expect(loopSwitch).toBeChecked();
   });
 });
 
