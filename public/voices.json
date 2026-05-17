@@ -9162,6 +9162,18 @@
           "year": "2023"
         },
         {
+          "id": "e4347982-27dd-4367-a57f-2e381c5e3620",
+          "name": "mijado-ju-ju-ju",
+          "description": {
+            "en": "帝雉啾啾啾",
+            "ja": "帝雉啾啾啾",
+            "zh": "帝雉啾啾啾"
+          },
+          "path": "_mixed/mijado-ju-ju-ju.mp3",
+          "url": "https://www.youtube.com/watch?v=l5om860jQQU",
+          "year": "2023"
+        },
+        {
           "id": "0e96309e-cb42-4f16-afaa-775aae5751b7",
           "name": "man-man-si-hua-ni",
           "description": {
@@ -11424,6 +11436,18 @@
       },
       "voice_list": [
         {
+          "id": "8b5701c9-1e46-4e84-a816-35e45b60888d",
+          "name": "yoda-jigglypuff-song",
+          "description": {
+            "en": "胖丁之歌",
+            "ja": "胖丁之歌",
+            "zh": "胖丁之歌"
+          },
+          "path": "_mixed/yoda-jigglypuff-song.mp3",
+          "url": "https://www.youtube.com/watch?v=Wkv0VXlNd6g",
+          "year": "2025"
+        },
+        {
           "id": "48d80a10-685a-4e37-980d-a90c242c49f4",
           "name": "hao-gua-hao-gua",
           "description": {
@@ -11493,6 +11517,18 @@
           },
           "path": "yoda-cure-mama/hao-sue-jiao-ba.mp3",
           "url": "https://www.youtube.com/watch?v=hqvnZeGCq-I",
+          "year": "2024"
+        },
+        {
+          "id": "ce580889-34c6-4b7f-bc6b-1575c55a4c80",
+          "name": "yoda-sleep-song",
+          "description": {
+            "en": "寶寶睡，快快睡",
+            "ja": "寶寶睡，快快睡",
+            "zh": "寶寶睡，快快睡"
+          },
+          "path": "_mixed/yoda-sleep-song.mp3",
+          "url": "https://www.youtube.com/watch?v=1Wn-cBBRNFo",
           "year": "2024"
         },
         {
@@ -12845,6 +12881,18 @@
           },
           "path": "yoda-japanese/yoda-birth-ko.mp3",
           "url": "https://www.youtube.com/watch?v=0DlQLyMfehc",
+          "year": "2024"
+        },
+        {
+          "id": "27f95321-d08c-4778-b46d-0bec0b8e2655",
+          "name": "yoda-loligod-huh",
+          "description": {
+            "en": "哼蘿莉神鎮魂曲",
+            "ja": "哼蘿莉神鎮魂曲",
+            "zh": "哼蘿莉神鎮魂曲"
+          },
+          "path": "_mixed/yoda-loligod-huh.mp3",
+          "url": "https://www.youtube.com/watch?v=dZMtz37hK3k",
           "year": "2024"
         },
         {
