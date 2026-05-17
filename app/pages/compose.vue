@@ -261,7 +261,6 @@ import draggable from 'vuedraggable';
 import {
   mdiPlayCircleOutline,
   mdiStopCircleOutline,
-  mdiRepeat,
   mdiTrashCanOutline,
   mdiDragVertical,
   mdiPlayOutline,
@@ -389,10 +388,11 @@ useSeoMeta({
 </script>
 
 <style scoped>
-/* ===== 編輯區卡片:用中性 bg 取代 elevation overlay 帶來的紅色 tint ===== */
+/* ===== 編輯區卡片:用 on-surface 的低 alpha tint,light/dark 自動反向 ===== */
 .composer-card {
-  background-color: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  /* on-surface = 文字色,在 dark 是白、light 是黑,做 0.04 alpha overlay 都能微微「升一階」 */
+  background-color: rgba(var(--v-theme-on-surface), 0.04);
+  border: 1px solid rgba(var(--v-theme-on-surface), 0.08);
 }
 .composer-toolbar {
   background-color: transparent !important;
@@ -401,28 +401,35 @@ useSeoMeta({
   background-color: transparent;
 }
 
-/* ===== 編輯區 item:中性灰底 + 細邊框,hover 才微亮 ===== */
+/* ===== 編輯區 item:用 Vuetify surface 變數 (opaque + theme-aware) ===== */
 .composer-list {
   list-style: none;
 }
 .composer-item {
-  /* 不透明背景,比 card 底 (#43404b + 微亮 overlay) 暗一些,呈現「卡片內的次層級 item」感 */
-  background-color: #2a2730;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  /* 不透明背景。Dark: surface=#212121 (比 card 暗,呈下凹);
+     Light: surface=#ffffff (比 page bg #a29db3 亮,呈卡片浮起)。兩 mode 都自然分層 */
+  background-color: rgb(var(--v-theme-surface));
+  border: 1px solid rgba(var(--v-theme-on-surface), 0.08);
   transition:
     background-color 0.18s,
     border-color 0.18s;
   min-height: 56px;
 }
 .composer-item:hover {
-  background-color: #353140;
+  background-color: rgb(var(--v-theme-surface-light));
 }
 
-/* 播放中的當前條:不透明 primary tinted bg + 左邊框條 */
+/* 播放中當前條:primary tinted bg + 左邊框條。
+   用 theme-specific 蓋掉,保持不透明 (使用者要求 opaque) */
 .composer-item-playing {
-  background-color: #4a1f2e !important; /* opaque primary-tinted dark */
   border-color: rgb(var(--v-theme-primary)) !important;
   border-left-width: 4px !important;
+}
+.v-theme--dark .composer-item-playing {
+  background-color: #4a1f2e !important; /* 暗紅色,跟 dark surface 對比夠 */
+}
+.v-theme--light .composer-item-playing {
+  background-color: #fde7ec !important; /* 淺粉色,跟 light surface (白) 對比夠 */
 }
 
 /* 「播放中」icon 的脈動動畫 — 多一層 a11y 視覺指示 */
@@ -441,7 +448,7 @@ useSeoMeta({
   }
 }
 
-/* 編號小圓 badge */
+/* 編號小圓 badge (註:目前 template 沒在用,留著當參考) */
 .composer-item-index {
   display: inline-flex;
   align-items: center;
@@ -449,10 +456,10 @@ useSeoMeta({
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.08);
+  background-color: rgba(var(--v-theme-on-surface), 0.08);
   font-size: 0.75rem;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(var(--v-theme-on-surface), 0.75);
   flex-grow: 0;
   flex-shrink: 0;
 }
