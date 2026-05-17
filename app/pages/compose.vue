@@ -135,11 +135,6 @@
                     :disabled="composer.isPlaying"
                   ></v-btn>
 
-                  <!-- 編號 (圓形 badge 風格) -->
-                  <!-- <span class="composer-item-index" :aria-label="$t('compose.item_position', { pos: index + 1 })">
-                    {{ index + 1 }}
-                  </span> -->
-
                   <!-- 名稱 + 群組標 -->
                   <div class="flex-grow-1 d-flex flex-column" style="min-width: 0">
                     <span class="text-caption text-medium-emphasis composer-item-group">
@@ -367,7 +362,8 @@ const onResetConfirm = () => {
   showResetConfirm.value = false;
 };
 
-// 播放中 currentIndex 變動時自動 scroll 到當前條 (讓使用者跟得上)
+// 播放中 currentIndex 變動時,如果當前條不在 viewport 才 scroll (避免在使用者已能看到的
+// 情況下還強制 scroll,反而干擾)
 watch(
   () => composer.currentIndex,
   idx => {
@@ -375,7 +371,14 @@ watch(
     nextTick(() => {
       const items = document.querySelectorAll('.composer-item');
       const target = items[idx];
-      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      if (!target) return;
+      const rect = target.getBoundingClientRect();
+      const viewportH = window.innerHeight || document.documentElement.clientHeight;
+      // 完全在 viewport 內 = 上下邊都在範圍內就不 scroll
+      const isFullyInView = rect.top >= 0 && rect.bottom <= viewportH;
+      if (!isFullyInView) {
+        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
     });
   }
 );
@@ -446,26 +449,6 @@ useSeoMeta({
     opacity: 0.55;
     transform: scale(0.92);
   }
-}
-
-/* 編號小圓 badge (註:目前 template 沒在用,留著當參考) */
-.composer-item-index {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  background-color: rgba(var(--v-theme-on-surface), 0.08);
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: rgba(var(--v-theme-on-surface), 0.75);
-  flex-grow: 0;
-  flex-shrink: 0;
-}
-.composer-item-playing .composer-item-index {
-  background-color: rgb(var(--v-theme-primary));
-  color: white;
 }
 
 .composer-item-group {
