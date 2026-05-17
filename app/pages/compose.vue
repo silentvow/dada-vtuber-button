@@ -14,14 +14,13 @@
              後者寫了會 silently 無效,只有 `ga-` 才會套上 css gap: 8px)。
              不用 v-toolbar 是因為它內部 flex 會干擾外層 layout。
              所有按鈕統一 outlined;disabled 視覺跟 enabled 差很大,不會被誤判成「能按沒反應」。 -->
-          <div class="d-flex align-center flex-wrap ga-2 composer-toolbar px-4 py-3">
+          <div class="d-flex align-center flex-wrap ga-4 composer-toolbar px-4 py-3">
             <!-- 主動作:一鍵播放 / 停止 -->
             <v-btn
               v-if="!composer.isPlaying"
               :prepend-icon="mdiPlayCircleOutline"
               :disabled="composer.isEmpty"
               color="primary"
-              variant="outlined"
               rounded="lg"
               class="text-none"
               @click="onPlayAll"
@@ -32,7 +31,6 @@
               v-else
               :prepend-icon="mdiStopCircleOutline"
               color="primary"
-              variant="outlined"
               rounded="lg"
               class="text-none"
               @click="onStop"
@@ -40,18 +38,14 @@
               {{ $t('compose.stop') }}
             </v-btn>
 
-            <!-- Loop toggle:不改 variant,改用 color 表示 on/off (primary 紅 = on,空色 = off) -->
-            <v-btn
-              :prepend-icon="mdiRepeat"
-              variant="outlined"
-              :color="composer.loop ? 'primary' : ''"
-              rounded="lg"
-              class="text-none"
-              :aria-pressed="composer.loop"
-              @click="composer.toggleLoop"
-            >
-              {{ composer.loop ? $t('compose.loop_on') : $t('compose.loop') }}
-            </v-btn>
+            <v-switch
+              color="primary"
+              density="compact"
+              :label="$t('compose.loop')"
+              :model-value="composer.loop"
+              hide-details
+              @update:model-value="composer.toggleLoop"
+            />
 
             <v-spacer></v-spacer>
 
@@ -71,7 +65,6 @@
               :prepend-icon="mdiTrashCanOutline"
               :disabled="composer.isEmpty || composer.isPlaying"
               color="error"
-              variant="outlined"
               rounded="lg"
               class="text-none"
               @click="showResetConfirm = true"
