@@ -60,7 +60,9 @@ export default defineNuxtConfig({
     // SEO 主套件:整合 sitemap / robots / schema-org / og-image / link-checker
     '@nuxtjs/seo',
     // 圖片優化:自動 WebP/AVIF、lazy、srcset
-    '@nuxt/image'
+    '@nuxt/image',
+    // Vercel Web Analytics — 自動 inject `_vercel/insights/script.js` 並追蹤 pageview/route
+    '@vercel/analytics/nuxt'
   ],
 
   // @nuxt/image 設定

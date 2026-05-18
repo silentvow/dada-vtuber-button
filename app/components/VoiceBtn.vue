@@ -249,7 +249,10 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
   border-color: rgba(255, 255, 255, 0.12) !important;
 }
 
-:deep(.vo-btn) {
+// 不用 :deep() — :deep(.vo-btn) 會編譯成 `[data-v-x] .vo-btn`,在 v-else 的 standalone
+// branch 沒有帶 data-v 的祖先 (v-hover 不 render 根),這些規則就吃不到,長文字會被
+// Vuetify 預設 height:36px / inline-grid 卡住而溢出。.vo-btn 自己有 scope,直接寫即可。
+.vo-btn {
   display: inline-block;
   height: max-content !important;
   min-height: 36px;
@@ -257,17 +260,18 @@ $nonlinear-transition: cubic-bezier(0.25, 0.8, 0.5, 1);
   z-index: 2;
 }
 
-:deep(.vo-btn .v-btn__content) {
+.vo-btn.full-width {
+  max-width: 100%;
+}
+
+// .v-btn__content 是 Vuetify 內部 render,沒有我們的 scope,需要 :deep。
+.vo-btn :deep(.v-btn__content) {
   word-wrap: break-word !important;
   word-break: break-all !important;
   white-space: normal !important;
   text-transform: none !important;
   font-weight: 400;
   text-align: center;
-}
-
-.vo-btn.full-width {
-  max-width: 100%;
 }
 
 .vo-btn-bg-light {
