@@ -30,6 +30,8 @@ export default defineNuxtConfig({
         '/', '/favorite', '/compose', '/soundboard', '/challenge', '/feedback', '/privacy',
         '/ja', '/ja/favorite', '/ja/compose', '/ja/soundboard', '/ja/challenge', '/ja/feedback', '/ja/privacy',
         '/en', '/en/favorite', '/en/compose', '/en/soundboard', '/en/challenge', '/en/feedback', '/en/privacy'
+        // /sitemap.xml 也會 prerender,由下方的 inline module 在 modules:done 階段
+        // 加回去 (因為 @nuxtjs/sitemap 預設會把它從 prerender 清單裡 filter 掉)。
       ],
       ignore: ['/member', '/ja/member', '/en/member']
     }
@@ -62,7 +64,37 @@ export default defineNuxtConfig({
     // 圖片優化:自動 WebP/AVIF、lazy、srcset
     '@nuxt/image',
     // Vercel Web Analytics — 自動 inject `_vercel/insights/script.js` 並追蹤 pageview/route
-    '@vercel/analytics/nuxt'
+    '@vercel/analytics/nuxt',
+    // 把 @nuxtjs/sitemap 預設加在 /sitemap.xml 的 redirect / handler 清掉,
+    // 改由 server/routes/sitemap.xml.ts 直接吐 XML。
+    // 必須放在 '@nuxtjs/seo' (內含 sitemap 模組) 之後才能對 serverHandlers 做後置處理。
+    (_options, nuxt) => {
+      nuxt.hook('modules:done', () => {
+        // 1) 移除 routeRules 的 307 redirect (Vercel preset 會把這條 routeRule 變成 edge redirect)
+        const rules = nuxt.options.nitro?.routeRules;
+        if (rules?.['/sitemap.xml'] && 'redirect' in rules['/sitemap.xml']) {
+          delete rules['/sitemap.xml'];
+        }
+        // 2) 移除 sitemap 模組注入的 /sitemap.xml handler (它會 sendRedirect 到 sitemap_index.xml),
+        //    保留我們自己的 server/routes/sitemap.xml.ts (那條是 Nitro 自動掃 server/ 進來,
+        //    不會出現在這個 serverHandlers 陣列裡)。
+        if (Array.isArray(nuxt.options.serverHandlers)) {
+          nuxt.options.serverHandlers = nuxt.options.serverHandlers.filter((h) => {
+            return !(h?.route === '/sitemap.xml' && typeof h?.handler === 'string' && h.handler.includes('@nuxtjs/sitemap'));
+          });
+        }
+        // 3) sitemap 模組會在 setupPrerenderHandler 裡把 /sitemap.xml 從 nitro.prerender.routes
+        //    filter 掉 (它預設假設 /sitemap.xml 是 redirect,不應該被 prerender)。
+        //    我們現在改成真的 serve XML 了,需要把它加回去,Vercel 才能 serve 成靜態檔。
+        const prerender = nuxt.options.nitro?.prerender;
+        if (prerender) {
+          prerender.routes = prerender.routes || [];
+          if (!prerender.routes.includes('/sitemap.xml')) {
+            prerender.routes.push('/sitemap.xml');
+          }
+        }
+      });
+    }
   ],
 
   // @nuxt/image 設定
