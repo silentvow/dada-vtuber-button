@@ -43,7 +43,7 @@
           <v-card-subtitle class="text-subtitle-1">{{ $t('challenge.result_desc') }}</v-card-subtitle>
 
           <v-card-text class="py-6">
-            <div class="text-h2 font-weight-bold text-secondary mb-2">{{ score }} / 100</div>
+            <div class="text-h2 font-weight-bold mb-2">{{ score }} / 100</div>
             <div class="text-h6 text-primary">{{ score_text }}</div>
           </v-card-text>
 
