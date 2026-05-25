@@ -138,7 +138,7 @@
       <v-container class="page">
         <NuxtImg
           class="rounded mb-4 d-block banner-hero"
-          src="/banner.jpg"
+          :src="currentBanner"
           alt="灰妲語音博物館橫幅"
           width="1920"
           height="480"
@@ -183,7 +183,7 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch, mergeProps } from 'vue';
+import { ref, computed, onMounted, onBeforeUnmount, watch, mergeProps } from 'vue';
 import { useTheme } from 'vuetify';
 import {
   mdiHeartOutline,
@@ -210,6 +210,11 @@ const localePath = useLocalePath();
 // 桌面 v-main 的 256px 空間由 critical CSS @media 預留,所以 onMounted 開 drawer 不會造成 CLS
 const drawer = ref(false);
 const volume = ref(settings.volume);
+
+const bannerImages = ['/banner2.png', '/banner.jpg'];
+const bannerIndex = ref(0);
+const currentBanner = computed(() => bannerImages[bannerIndex.value]);
+let bannerTimer = null;
 
 const footerContent = computed(() => {
   // text-accent 對 footer 兩種可能背景 (CSS 載入後 #212121 / 未載入 fallback #43404b) 都過 AA
@@ -243,8 +248,19 @@ onMounted(() => {
     drawer.value = true;
   }
 
+  bannerTimer = window.setInterval(() => {
+    bannerIndex.value = (bannerIndex.value + 1) % bannerImages.length;
+  }, 10000);
+
   // 注意:不在 onMounted 主動 setLocale(settings.lang)
   // URL prefix 是語系的真實來源,主動切換會導致 Google 索引 /ja 的訪客被踢回 /
+});
+
+onBeforeUnmount(() => {
+  if (bannerTimer !== null) {
+    clearInterval(bannerTimer);
+    bannerTimer = null;
+  }
 });
 
 const toggleTheme = () => {
