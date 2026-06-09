@@ -23,8 +23,7 @@ const { t } = useI18n();
 
 // SEO 標籤設定 (套用 app.vue 的 titleTemplate)
 useSeoMeta({
-  title: () => t('site.feedback'),
-  robots: 'noindex, follow' // 純 Google Form iframe,無索引價值
+  title: () => t('site.feedback')
 });
 </script>
 

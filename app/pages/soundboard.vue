@@ -324,8 +324,7 @@ onBeforeUnmount(() => {
 
 useSeoMeta({
   title: () => t('soundboard.title'),
-  description: () => t('soundboard.subtitle'),
-  robots: 'noindex, nofollow'
+  description: () => t('soundboard.subtitle')
 });
 </script>
 

@@ -27,9 +27,27 @@ export default defineNuxtConfig({
     prerender: {
       crawlLinks: true,
       routes: [
-        '/', '/favorite', '/compose', '/soundboard', '/challenge', '/feedback', '/privacy',
-        '/ja', '/ja/favorite', '/ja/compose', '/ja/soundboard', '/ja/challenge', '/ja/feedback', '/ja/privacy',
-        '/en', '/en/favorite', '/en/compose', '/en/soundboard', '/en/challenge', '/en/feedback', '/en/privacy'
+        '/',
+        '/favorite',
+        '/compose',
+        '/soundboard',
+        '/challenge',
+        '/feedback',
+        '/privacy',
+        '/ja',
+        '/ja/favorite',
+        '/ja/compose',
+        '/ja/soundboard',
+        '/ja/challenge',
+        '/ja/feedback',
+        '/ja/privacy',
+        '/en',
+        '/en/favorite',
+        '/en/compose',
+        '/en/soundboard',
+        '/en/challenge',
+        '/en/feedback',
+        '/en/privacy'
         // /sitemap.xml 也會 prerender,由下方的 inline module 在 modules:done 階段
         // 加回去 (因為 @nuxtjs/sitemap 預設會把它從 prerender 清單裡 filter 掉)。
       ],
@@ -79,8 +97,12 @@ export default defineNuxtConfig({
         //    保留我們自己的 server/routes/sitemap.xml.ts (那條是 Nitro 自動掃 server/ 進來,
         //    不會出現在這個 serverHandlers 陣列裡)。
         if (Array.isArray(nuxt.options.serverHandlers)) {
-          nuxt.options.serverHandlers = nuxt.options.serverHandlers.filter((h) => {
-            return !(h?.route === '/sitemap.xml' && typeof h?.handler === 'string' && h.handler.includes('@nuxtjs/sitemap'));
+          nuxt.options.serverHandlers = nuxt.options.serverHandlers.filter(h => {
+            return !(
+              h?.route === '/sitemap.xml' &&
+              typeof h?.handler === 'string' &&
+              h.handler.includes('@nuxtjs/sitemap')
+            );
           });
         }
         // 3) sitemap 模組會在 setupPrerenderHandler 裡把 /sitemap.xml 從 nitro.prerender.routes
@@ -122,7 +144,7 @@ export default defineNuxtConfig({
 
   // robots.txt 由模組產生,取代 public/robots.txt
   robots: {
-    disallow: ['/member'],
+    disallow: [],
     blockNonSeoBots: true // 自動封鎖 Ahrefs / MJ12 等非搜尋引擎爬蟲
   },
 

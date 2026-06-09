@@ -385,8 +385,7 @@ watch(
 
 useSeoMeta({
   title: () => t('compose.title'),
-  description: () => t('compose.description'),
-  robots: 'index, nofollow'
+  description: () => t('compose.description')
 });
 </script>
 
