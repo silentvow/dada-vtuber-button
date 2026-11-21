@@ -14,18 +14,24 @@
       <h1 class="text-h4 font-weight-bold mb-2" :class="dark_text">{{ groupName }}</h1>
       <p class="mb-6" :class="dark_text">{{ summary }}</p>
 
-      <div class="d-flex flex-wrap ga-2">
-        <VoiceBtn
-          v-for="item in group.voice_list"
-          :key="item.id"
-          :voice-id="item.id"
-          :from-youtube="Boolean(item.url)"
-          @on-play="play(item)"
-          @on-youtube="openModal(item)"
-          @on-download="download(item)"
-        >
-          {{ item.description[current_locale] || item.description['zh'] }}
-        </VoiceBtn>
+      <!-- 放在 card 上,按鈕底色才不會跟頁面背景糊在一起 (首頁是放在展開面板的 surface 上) -->
+      <!-- 包一層 div:global.css 依兄弟順序交替卡片底色 (偶數個會變暗紅),讓這張卡片固定是第一個子元素 -->
+      <div>
+        <v-card class="rounded-lg" elevation="0">
+          <v-card-text class="d-flex flex-wrap ga-2">
+            <VoiceBtn
+              v-for="item in group.voice_list"
+              :key="item.id"
+              :voice-id="item.id"
+              :from-youtube="Boolean(item.url)"
+              @on-play="play(item)"
+              @on-youtube="openModal(item)"
+              @on-download="download(item)"
+            >
+              {{ item.description[current_locale] || item.description['zh'] }}
+            </VoiceBtn>
+          </v-card-text>
+        </v-card>
       </div>
     </v-col>
 

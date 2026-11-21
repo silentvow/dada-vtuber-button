@@ -56,22 +56,25 @@
           >
             <v-icon :icon="mdiLink"></v-icon>
           </v-btn>
+          <!-- 分類獨立頁 (可被索引、有專屬 OG 圖)。跟複製連結一樣用 tag="span":
+               <a> / tabindex 元素巢狀在標題 <button> 裡會被 axe 判定為 nested-interactive。
+               爬蟲改由 sitemap 與各頁 hreflang 發現這些頁面 -->
+          <v-btn
+            v-if="showGroupCopyLink"
+            tag="span"
+            role="link"
+            class="flex-grow-0"
+            icon
+            variant="plain"
+            :aria-label="$t('group.open_page')"
+            :title="$t('group.open_page')"
+            @click.stop="navigateTo(localePath(`/group/${groupSlug(group.group_name)}`))"
+          >
+            <v-icon :icon="mdiOpenInNew"></v-icon>
+          </v-btn>
         </v-expansion-panel-title>
 
         <v-expansion-panel-text class="button-panel">
-          <!-- 分類獨立頁:可被搜尋引擎索引、每頁有專屬 OG 圖。
-               放在面板內容而不是標題列,避免 <a> 巢狀在標題 <button> 裡 (a11y nested-interactive) -->
-          <div v-if="showGroupCopyLink" class="mb-3">
-            <v-btn
-              :to="localePath(`/group/${groupSlug(group.group_name)}`)"
-              :prepend-icon="mdiOpenInNew"
-              variant="text"
-              size="small"
-              class="text-none px-0"
-            >
-              {{ $t('group.open_page') }}
-            </v-btn>
-          </div>
           <!-- 每條語音的按鈕區。default slot:跟首頁一樣完整;
                compose 頁覆寫 slot 用 play+add 兩顆按鈕 -->
           <slot name="voice" :group="group" :group-index="groupIdx">
