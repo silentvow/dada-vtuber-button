@@ -161,6 +161,7 @@
     "keywords": "灰妲,ダダ,VTuber,台湾,ボイスボタン,ReLive Project",
     "links": "リンク集",
     "privacy": "プライバシーポリシー",
+    "sidebar_alt": "灰妲のイラスト",
     "social_image": "https://dada-vtuber-button.vercel.app/img/og_common.png",
     "source": "ソース",
     "switch_dark_mode": "ダークモード切り替え",
@@ -175,6 +176,8 @@
     "stream": "配信別表示"
   },
   "schema": {
+    "dada_name": "灰妲",
+    "dada_alt_names": "ダダ;フイダ;DaDa;Gray Da",
     "site_description": "灰妲ボイス博物館は、台湾 VTuber「灰妲」(ReLive Project) の多彩な声をクリックで再生できるファンサイトです。",
     "dada_description": "ReLive Project 所属の台湾 VTuber。2021 年 3 月 26 日デビュー。"
   }

@@ -159,7 +159,8 @@ export default defineNuxtConfig({
 
   // robots.txt 由模組產生,取代 public/robots.txt
   robots: {
-    disallow: [],
+    // Content-Signal (IETF aipref):不給 AI 訓練,允許搜尋與 AI 回答時引用。聲明性質,守規矩的爬蟲才會遵守
+    groups: [{ userAgent: ['*'], disallow: [], contentSignal: 'ai-train=no, search=yes, ai-input=yes' }],
     blockNonSeoBots: true // 自動封鎖 Ahrefs / MJ12 等非搜尋引擎爬蟲
   },
 
