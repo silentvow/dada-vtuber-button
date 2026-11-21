@@ -161,6 +161,7 @@
     "keywords": "DaDa,Vtuber,Taiwan,Voice Button,ReLive Project",
     "links": "Links",
     "privacy": "Privacy Policy",
+    "sidebar_alt": "Illustration of DaDa",
     "social_image": "https://dada-vtuber-button.vercel.app/img/og_common.png",
     "source": "Source",
     "switch_dark_mode": "Dark Mode",
@@ -175,6 +176,8 @@
     "stream": "Display by Stream"
   },
   "schema": {
+    "dada_name": "DaDa",
+    "dada_alt_names": "灰妲;ダダ;フイダ;Gray Da",
     "site_description": "DaDa Voice Museum is a fan site collecting the voice clips of Taiwanese Vtuber DaDa (ReLive Project), playable with one click.",
     "dada_description": "Taiwanese Vtuber affiliated with ReLive Project, debuted on March 26, 2021."
   }

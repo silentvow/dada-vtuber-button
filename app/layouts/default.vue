@@ -61,7 +61,7 @@
       <template #append>
         <NuxtImg
           src="/img/woman.png"
-          alt=""
+          :alt="$t('site.sidebar_alt')"
           width="256"
           format="webp"
           quality="80"

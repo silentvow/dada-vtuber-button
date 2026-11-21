@@ -78,8 +78,8 @@ useSchemaOrg([
   }),
   definePerson({
     '@id': '#dada',
-    name: '灰妲',
-    alternateName: ['フイダ', 'DaDa', 'Gray Da'],
+    name: computed(() => t('schema.dada_name')),
+    alternateName: computed(() => t('schema.dada_alt_names').split(';')),
     description: computed(() => t('schema.dada_description')),
     image: `${siteUrl}/banner.jpg`,
     birthDate: '2021-03-26',

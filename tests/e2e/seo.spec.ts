@@ -121,6 +121,21 @@ test.describe('Robots / Sitemap', () => {
     expect(summary).toContain(`${total} voice clips across ${voices.groups.length}`);
   });
 
+  test('robots.txt declares Content-Signal', async ({ request }) => {
+    const body = await (await request.get('/robots.txt')).text();
+    expect(body).toContain('Content-Signal: ai-train=no, search=yes, ai-input=yes');
+  });
+
+  test('en JSON-LD Person is English with other-language aliases', async ({ page }) => {
+    await page.goto('/en');
+    const lds = await page.locator('script[type="application/ld+json"]').allTextContents();
+    const graph = JSON.parse(lds[0])['@graph'];
+    const person = graph.find((n: any) => n['@type'] === 'Person');
+    expect(person.name).toBe('DaDa');
+    expect(person.alternateName).toContain('灰妲');
+    expect(person.alternateName).not.toContain('DaDa');
+  });
+
   test('JSON-LD is localized and exposes SearchAction', async ({ page }) => {
     await page.goto('/ja');
     const ld = await page.locator('script[type="application/ld+json"]').first().textContent();
