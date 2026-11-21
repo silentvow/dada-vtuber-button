@@ -5,7 +5,7 @@
       "group_name": "catchphrase",
       "group_description": {
         "en": "DaDa: Catchphrase",
-        "ja": "フイダ：口癖",
+        "ja": "ダダ：口癖",
         "zh": "灰妲：口頭禪"
       },
       "voice_list": [
@@ -232,7 +232,7 @@
       "group_name": "greetings",
       "group_description": {
         "en": "DaDa: Greetings",
-        "ja": "フイダ：挨拶",
+        "ja": "ダダ：挨拶",
         "zh": "灰妲：問候"
       },
       "voice_list": [
@@ -289,7 +289,7 @@
           "name": "bu-bu-bu-bu",
           "description": {
             "en": "晚安～",
-            "ja": "晚安～",
+            "ja": "おやすみ〜",
             "zh": "晚安～"
           },
           "path": "20251203-adviser-debut/bu-bu-bu-bu.mp3",
@@ -565,7 +565,7 @@
           "name": "bi-bi-bi-bi",
           "description": {
             "en": "晚安～晚安晚安～",
-            "ja": "晚安～晚安晚安～",
+            "ja": "おやすみ〜おやすみおやすみ〜",
             "zh": "晚安～晚安晚安～"
           },
           "path": "20260101-new-year-wishes/bi-bi-bi-bi.mp3",
@@ -709,7 +709,7 @@
           "name": "wo4-gray-da",
           "description": {
             "en": "Hello hello everyone, Miho-san here, I'm Huida",
-            "ja": "ハローハロー皆さん、ミホさんです、私はフイダです",
+            "ja": "ハローハロー皆さん、ミホさんです、私はダダです",
             "zh": "哈囉哈囉大家好米乎咪桑我是灰妲"
           },
           "path": "new-clothes-2-year/wo4-gray-da.mp3",
@@ -795,7 +795,7 @@
       "group_name": "agree",
       "group_description": {
         "en": "DaDa: Affirmation",
-        "ja": "フイダ：肯定",
+        "ja": "ダダ：肯定",
         "zh": "灰妲：肯定"
       },
       "voice_list": [
@@ -1022,7 +1022,7 @@
       "group_name": "shut-up",
       "group_description": {
         "en": "DaDa: Shut Up",
-        "ja": "フイダ：閉嘴",
+        "ja": "ダダ：黙れ",
         "zh": "灰妲：閉嘴"
       },
       "voice_list": [
@@ -1237,7 +1237,7 @@
       "group_name": "retort",
       "group_description": {
         "en": "DaDa: Tsukkomi",
-        "ja": "フイダ：ツッコミ",
+        "ja": "ダダ：ツッコミ",
         "zh": "灰妲：吐槽"
       },
       "voice_list": [
@@ -1246,7 +1246,7 @@
           "name": "zun-zhong-cheng-gong-ren-shi-de-yin-yue",
           "description": {
             "en": "呸",
-            "ja": "呸",
+            "ja": "ぺっ",
             "zh": "呸"
           },
           "path": "20251203-adviser-debut/zun-zhong-cheng-gong-ren-shi-de-yin-yue.mp3",
@@ -1774,7 +1774,7 @@
           "name": "realda-bu-cun-zai",
           "description": {
             "en": "Real-Da does not exist.",
-            "ja": "真妲は存在しない。",
+            "ja": "真ダダは存在しない。",
             "zh": "真妲又不存在"
           },
           "path": "20251102-marshmallow-reunion/realda-bu-cun-zai.mp3",
@@ -2302,7 +2302,7 @@
           "name": "bi-zui",
           "description": {
             "en": "少囉嗦啦！少囉嗦！",
-            "ja": "少囉嗦啦！少囉嗦！",
+            "ja": "うるさい！うるさいってば！",
             "zh": "少囉嗦啦！少囉嗦！"
           },
           "path": "20260207-goblin-da/bi-zui.mp3",
@@ -2914,7 +2914,7 @@
           "name": "no-no-no-no-no",
           "description": {
             "en": "我膚淺？我怎麼會是膚淺呢？",
-            "ja": "我膚淺？我怎麼會是膚淺呢？",
+            "ja": "私が浅はか？私が浅はかなわけないでしょ？",
             "zh": "我膚淺？我怎麼會是膚淺呢？"
           },
           "path": "20260313-vtuber-fans/no-no-no-no-no.mp3",
@@ -3478,7 +3478,7 @@
           "name": "zhe-shen-me-dong-xi",
           "description": {
             "en": "What is this stuff! What kind of 'Danda' fanatic is this!",
-            "ja": "何これ！何の「蛋妲」狂信者だよ！",
+            "ja": "何これ！何の「ダダ卵」狂信者だよ！",
             "zh": "這什麼東西啦！這什麼蛋妲狂熱愛好者啊！"
           },
           "path": "20260104-birthday-marshmallow/zhe-shen-me-dong-xi.mp3",
@@ -3754,7 +3754,7 @@
           "name": "wo-na-me-ke-ai-ni-zen-me-she-de",
           "description": {
             "en": "I'm so cute, how could you bear to let me become 2.5-Da and turn into EXP?",
-            "ja": "こんなに可愛いのに、よく私を2.5妲にして経験値に変えようとするね",
+            "ja": "こんなに可愛いのに、よく私を2.5ダダにして経験値に変えようとするね",
             "zh": "我那麼可愛你怎麼捨得你們怎麼捨得讓我變成2.5妲變經驗值的"
           },
           "path": "20260207-goblin-da/wo-na-me-ke-ai-ni-zen-me-she-de.mp3",
@@ -3900,7 +3900,7 @@
       "group_name": "abuse",
       "group_description": {
         "en": "DaDa: Scolding",
-        "ja": "フイダ：罵倒",
+        "ja": "ダダ：罵倒",
         "zh": "灰妲：罵倒"
       },
       "voice_list": [
@@ -4343,7 +4343,7 @@
       "group_name": "funny",
       "group_description": {
         "en": "DaDa: Playful",
-        "ja": "フイダ：ふざけ",
+        "ja": "ダダ：ふざけ",
         "zh": "灰妲：搞耍"
       },
       "voice_list": [
@@ -4856,7 +4856,7 @@
           "name": "hao-kelian-o",
           "description": {
             "en": "So pitiful, always trapped in your own fantasy, always thinking 'Real-da' is real.",
-            "ja": "かわいそうに、ずっと自分の幻想の中に閉じこもって、真妲が実在するって思い込んでるんだ。",
+            "ja": "かわいそうに、ずっと自分の幻想の中に閉じこもって、真ダダが実在するって思い込んでるんだ。",
             "zh": "好可憐喔，一直困在自己的幻想裡面，一直覺得真妲是真的。"
           },
           "path": "20260127-news-january/hao-kelian-o.mp3",
@@ -5134,7 +5134,7 @@
       "group_name": "kind",
       "group_description": {
         "en": "DaDa: Gentle",
-        "ja": "フイダ：優しい",
+        "ja": "ダダ：優しい",
         "zh": "灰妲：溫柔"
       },
       "voice_list": [
@@ -5155,7 +5155,7 @@
           "name": "hsin-hwun-san-wen",
           "description": {
             "en": "The three questions for newlyweds",
-            "ja": "新婚三問",
+            "ja": "新婚の三択",
             "zh": "新婚三問"
           },
           "path": "valentine-lyrics/hsin-hwun-san-wen.mp3",
@@ -5517,7 +5517,7 @@
       "group_name": "tsundere",
       "group_description": {
         "en": "DaDa: Tsundere",
-        "ja": "フイダ：ツンデレ",
+        "ja": "ダダ：ツンデレ",
         "zh": "灰妲：傲嬌"
       },
       "voice_list": [
@@ -5612,7 +5612,7 @@
       "group_name": "whine",
       "group_description": {
         "en": "DaDa: Whine",
-        "ja": "フイダ：撒嬌",
+        "ja": "ダダ：甘え",
         "zh": "灰妲：撒嬌"
       },
       "voice_list": [
@@ -6041,7 +6041,7 @@
           "name": "me-yo-ba-yao",
           "description": {
             "en": "Today is another day without Hachiyo, would you be willing to give Dada some food?",
-            "ja": "今日はまた八曜のいない日ですね、妲妲に少しご飯をくれませんか？",
+            "ja": "今日はまた八曜のいない日ですね、ダダに少しご飯をくれませんか？",
             "zh": "今天也是沒有八曜的一天，你是否願意給妲妲一點溫飽呢？"
           },
           "path": "whine/me-yo-ba-yao.mp3",
@@ -6199,7 +6199,7 @@
       "group_name": "yandere",
       "group_description": {
         "en": "DaDa: Yandere",
-        "ja": "フイダ：ヤンデレ",
+        "ja": "ダダ：ヤンデレ",
         "zh": "灰妲：病嬌"
       },
       "voice_list": [
@@ -6558,7 +6558,7 @@
       "group_name": "cry",
       "group_description": {
         "en": "DaDa: Crying Voice",
-        "ja": "フイダ：泣き声",
+        "ja": "ダダ：泣き声",
         "zh": "灰妲：哭腔"
       },
       "voice_list": [
@@ -6881,7 +6881,7 @@
       "group_name": "laugh",
       "group_description": {
         "en": "DaDa: Laughter",
-        "ja": "フイダ：笑い声",
+        "ja": "ダダ：笑い声",
         "zh": "灰妲：笑聲"
       },
       "voice_list": [
@@ -7094,7 +7094,7 @@
           "name": "ha-ha-ha-ha-30s",
           "description": {
             "en": "大笑聲-16",
-            "ja": "大笑聲-16",
+            "ja": "大笑い-16",
             "zh": "大笑聲-16"
           },
           "path": "20260105-seventh-birthday/ha-ha-ha-ha-30s.mp3",
@@ -7106,7 +7106,7 @@
           "name": "super-long-laugh",
           "description": {
             "en": "大笑聲-17",
-            "ja": "大笑聲-17",
+            "ja": "大笑い-17",
             "zh": "大笑聲-17"
           },
           "path": "20260109-year-recap/super-long-laugh.mp3",
@@ -7226,7 +7226,7 @@
           "name": "until-then-lol",
           "description": {
             "en": "玩Until Then最終章出Bug狂笑",
-            "ja": "玩Until Then最終章出Bug狂笑",
+            "ja": "Until Thenの最終章でバグが出て爆笑",
             "zh": "玩Until Then最終章出Bug狂笑"
           },
           "path": "_mixed/until-then-lol.mp3",
@@ -7276,7 +7276,7 @@
       "group_name": "scream",
       "group_description": {
         "en": "DaDa: Shouting",
-        "ja": "フイダ：叫び声",
+        "ja": "ダダ：叫び声",
         "zh": "灰妲：大叫"
       },
       "voice_list": [
@@ -7285,7 +7285,7 @@
           "name": "gong-xi-da-duei-ye",
           "description": {
             "en": "耶~~~",
-            "ja": "耶~~~",
+            "ja": "いえーい〜〜〜",
             "zh": "耶~~~"
           },
           "path": "20251231-new-year-eve-minecraft/gong-xi-da-duei-ye.mp3",
@@ -7513,7 +7513,7 @@
           "name": "ni-shi-bai-chi-o",
           "description": {
             "en": "慘叫聲-02",
-            "ja": "慘叫聲-02",
+            "ja": "悲鳴-2",
             "zh": "慘叫聲-02"
           },
           "path": "20260402-fifth-anniversary-redesign/ni-shi-bai-chi-o.mp3",
@@ -7657,7 +7657,7 @@
           "name": "diu-ta-ma-mi-a",
           "description": {
             "en": "不要再打了啦！",
-            "ja": "不要再打了啦！",
+            "ja": "もう叩かないでよ！",
             "zh": "不要再打了啦！"
           },
           "path": "20260322-galgame-three-d/diu-ta-ma-mi-a.mp3",
@@ -7801,7 +7801,7 @@
           "name": "kao-lian-chi-fan",
           "description": {
             "en": "不要再打臉了啦！",
-            "ja": "不要再打臉了啦！",
+            "ja": "ねえ、もう顔を叩かないでよ！",
             "zh": "欸不要再打臉了啦！"
           },
           "path": "20260322-galgame-three-d/kao-lian-chi-fan.mp3",
@@ -8017,7 +8017,7 @@
           "name": "sao-chu-wo-de-dian",
           "description": {
             "en": "等一下！不要動！不要動！不要動！",
-            "ja": "等一下！不要動！不要動！不要動！",
+            "ja": "ちょっと待って！動かないで！動かないで！動かないで！",
             "zh": "等一下！不要動！不要動！不要動！"
           },
           "path": "20260402-fifth-anniversary-redesign/sao-chu-wo-de-dian.mp3",
@@ -8115,7 +8115,7 @@
       "group_name": "weird-cry",
       "group_description": {
         "en": "DaDa: Strange Sounds",
-        "ja": "フイダ：変な声",
+        "ja": "ダダ：変な声",
         "zh": "灰妲：怪聲"
       },
       "voice_list": [
@@ -8448,7 +8448,7 @@
           "name": "wo-qiu-qiu-ni-le",
           "description": {
             "en": "發現恐遊接力要幫同箱收爛攤子",
-            "ja": "發現恐遊接力要幫同箱收爛攤子",
+            "ja": "ホラゲーリレーで同じ箱の後始末をする羽目になると気づいた",
             "zh": "發現恐遊接力要幫同箱收爛攤子"
           },
           "path": "20251003-silent-hill-f/wo-qiu-qiu-ni-le.mp3",
@@ -8558,7 +8558,7 @@
       "group_name": "vivid",
       "group_description": {
         "en": "DaDa: Imitation",
-        "ja": "フイダ：物まね",
+        "ja": "ダダ：物まね",
         "zh": "灰妲：模仿"
       },
       "voice_list": [
@@ -8953,7 +8953,7 @@
       "group_name": "singing",
       "group_description": {
         "en": "DaDa: Singing",
-        "ja": "フイダ：歌唱",
+        "ja": "ダダ：歌唱",
         "zh": "灰妲：唱歌"
       },
       "voice_list": [
@@ -9456,7 +9456,7 @@
       "group_name": "chat",
       "group_description": {
         "en": "DaDa: Chatting",
-        "ja": "フイダ：雑談",
+        "ja": "ダダ：雑談",
         "zh": "灰妲：閒聊"
       },
       "voice_list": [
@@ -10245,7 +10245,7 @@
           "name": "zhenda-bu-cun-zai",
           "description": {
             "en": "Realda will never have a channel in this lifetime. I can tell you that with absolute certainty, because I don't believe Realda exists.",
-            "ja": "真妲（リアルダ）は一生チャンネルを持つことはありません。断言できます。なぜなら、真妲が存在するとは思っていないからです。",
+            "ja": "真ダダ（リアルダ）は一生チャンネルを持つことはありません。断言できます。なぜなら、真ダダが存在するとは思っていないからです。",
             "zh": "真妲這一輩子都不會有頻道，我現在就可以跟你打死講這件事情，因為我不認為真妲存在。"
           },
           "path": "20251230-news-december/zhenda-bu-cun-zai.mp3",
@@ -10341,7 +10341,7 @@
           "name": "wo-gn-ni-jia-realda",
           "description": {
             "en": "Let me tell you, this is created by my audience who arbitrarily imagined Gray Da's appearance. After looking at me, they looked at Young Da and thought Young Da won't grow up to look like this, so they arbitrarily imagined a character called True Da",
-            "ja": "聞いてよ、これは私の視聴者が勝手に想像した灰妲の姿なの。私を見て、それから幼妲を見て、幼妲は大きくなってもこんな感じにならないと思って、勝手に「真妲」という存在を想像したの",
+            "ja": "聞いてよ、これは私の視聴者が勝手に想像した灰妲の姿なの。私を見て、それから幼ダダを見て、幼ダダは大きくなってもこんな感じにならないと思って、勝手に「真ダダ」という存在を想像したの",
             "zh": "我跟你講這是誰這個是這個是我的觀眾擅自幻想出來灰妲的模樣他們看了我之後又看看幼妲他們覺得說不幼妲長大不會變這個樣子所以他們擅自幻想出來一個叫真妲的傢伙"
           },
           "path": "real-da-lyrics/wo-gn-ni-jia-realda.mp3",
@@ -10379,7 +10379,7 @@
       "group_name": "yoda_greetings",
       "group_description": {
         "en": "YoDa: Greetings",
-        "ja": "幼フイダ：挨拶",
+        "ja": "幼ダダ：挨拶",
         "zh": "幼妲：問候"
       },
       "voice_list": [
@@ -10666,7 +10666,7 @@
       "group_name": "yoda_cute",
       "group_description": {
         "en": "YoDa: Cute",
-        "ja": "幼フイダ：可愛い",
+        "ja": "幼ダダ：可愛い",
         "zh": "幼妲：可愛"
       },
       "voice_list": [
@@ -10723,7 +10723,7 @@
           "name": "yoda-hsin-hun-san-wun",
           "description": {
             "en": "The three questions for newlyweds",
-            "ja": "新婚三問",
+            "ja": "新婚の三択",
             "zh": "新婚三問"
           },
           "path": "valentine-lyrics/yoda-hsin-hun-san-wun.mp3",
@@ -10927,7 +10927,7 @@
           "name": "dian-zan-din-ue-fu-hsian",
           "description": {
             "en": "If you like the video, just like, subscribe, and share! Buy a chicken leg bento and get a free chicken wing, along with a cute smile from Youta!",
-            "ja": "この動画を気に入ったら、いいねとチャンネル登録、シェアをお願いします！チキンレッグ弁当を購入すると、もれなくチキンウィングと幼妲のかわいい笑顔がついてくる！",
+            "ja": "この動画を気に入ったら、いいねとチャンネル登録、シェアをお願いします！チキンレッグ弁当を購入すると、もれなくチキンウィングと幼ダダのかわいい笑顔がついてくる！",
             "zh": "現在影片只要按讚、訂閱、分享，購買一個雞腿便當就可以加贈一個雞翅，還有幼妲可愛的微笑喔！"
           },
           "path": "yoda-girlfriend/dian-zan-din-ue-fu-hsian.mp3",
@@ -10953,7 +10953,7 @@
       "group_name": "yoda_agree",
       "group_description": {
         "en": "YoDa: Affirmation",
-        "ja": "幼フイダ：肯定",
+        "ja": "幼ダダ：肯定",
         "zh": "幼妲：肯定"
       },
       "voice_list": [
@@ -11144,7 +11144,7 @@
       "group_name": "yoda_retort",
       "group_description": {
         "en": "YoDa: Tsukkomi",
-        "ja": "幼フイダ：ツッコミ",
+        "ja": "幼ダダ：ツッコミ",
         "zh": "幼妲：吐槽"
       },
       "voice_list": [
@@ -11431,7 +11431,7 @@
       "group_name": "yoda_cure",
       "group_description": {
         "en": "YoDa: Healing",
-        "ja": "幼フイダ：癒し",
+        "ja": "幼ダダ：癒し",
         "zh": "幼妲：療癒"
       },
       "voice_list": [
@@ -11440,7 +11440,7 @@
           "name": "yoda-jigglypuff-song",
           "description": {
             "en": "胖丁之歌",
-            "ja": "胖丁之歌",
+            "ja": "プリンの歌",
             "zh": "胖丁之歌"
           },
           "path": "_mixed/yoda-jigglypuff-song.mp3",
@@ -11524,7 +11524,7 @@
           "name": "yoda-sleep-song",
           "description": {
             "en": "寶寶睡，快快睡",
-            "ja": "寶寶睡，快快睡",
+            "ja": "ねんねしな、早くおやすみ",
             "zh": "寶寶睡，快快睡"
           },
           "path": "_mixed/yoda-sleep-song.mp3",
@@ -11548,7 +11548,7 @@
           "name": "jia-yo-yoda-ai-ni",
           "description": {
             "en": "Keep going, Young Huida loves you loves you yes",
-            "ja": "頑張って、幼フイダはあなたを愛してる愛してるよ",
+            "ja": "頑張って、幼ダダはあなたを愛してる愛してるよ",
             "zh": "加油幼妲愛你愛你諾"
           },
           "path": "yoda-cure-mama/jia-yo-yoda-ai-ni.mp3",
@@ -11560,7 +11560,7 @@
           "name": "yoda-si-huan-master",
           "description": {
             "en": "Young Huida loves Master the most 5ma",
-            "ja": "幼フイダはご主人様が大好き5ma",
+            "ja": "幼ダダはご主人様が大好き5ma",
             "zh": "幼妲最喜歡主人了5ma"
           },
           "path": "yoda-cure-mama/yoda-si-huan-master.mp3",
@@ -11572,7 +11572,7 @@
           "name": "yoda-jia-yo",
           "description": {
             "en": "Young Huida will cheer for you~",
-            "ja": "幼フイダはあなたを応援しますよ〜",
+            "ja": "幼ダダはあなたを応援しますよ〜",
             "zh": "幼妲會為你加油的喔～"
           },
           "path": "yoda-cure-mama/yoda-jia-yo.mp3",
@@ -11706,7 +11706,7 @@
       "group_name": "yoda_abuse",
       "group_description": {
         "en": "YoDa: Scolding",
-        "ja": "幼フイダ：罵倒",
+        "ja": "幼ダダ：罵倒",
         "zh": "幼妲：罵倒"
       },
       "voice_list": [
@@ -11727,7 +11727,7 @@
           "name": "din-gon-san-lian",
           "description": {
             "en": "Kugimiya triple combo",
-            "ja": "釘宮三連",
+            "ja": "釘宮三連発",
             "zh": "釘宮三連"
           },
           "path": "two-loli-blame/din-gon-san-lian.mp3",
@@ -12099,7 +12099,7 @@
           "name": "yoda-tao-ye-gtue",
           "description": {
             "en": "Young Huida hates useless chicken leg big brothers and big sisters like this the most",
-            "ja": "幼フイダはこんなチキンレッグのお兄ちゃんお姉ちゃんが大嫌い、完全なる無能よ",
+            "ja": "幼ダダはこんなチキンレッグのお兄ちゃんお姉ちゃんが大嫌い、完全なる無能よ",
             "zh": "幼妲最討厭像這樣的雞腿大哥哥大姊姊完全就是廢物嘛"
           },
           "path": "yoda-cure-mama/yoda-tao-ye-gtue.mp3",
@@ -12233,7 +12233,7 @@
       "group_name": "yoda_whine",
       "group_description": {
         "en": "YoDa: Whine",
-        "ja": "幼フイダ：撒嬌",
+        "ja": "幼ダダ：甘え",
         "zh": "幼妲：撒嬌"
       },
       "voice_list": [
@@ -12388,7 +12388,7 @@
       "group_name": "yoda_yandere",
       "group_description": {
         "en": "YoDa: Yandere",
-        "ja": "幼フイダ：ヤンデレ",
+        "ja": "幼ダダ：ヤンデレ",
         "zh": "幼妲：病嬌"
       },
       "voice_list": [
@@ -12469,7 +12469,7 @@
           "name": "tiao-duan-ni-de-jiaojin",
           "description": {
             "en": "Do you want Yoda to cut your Achilles' tendons right now?",
-            "ja": "今すぐ、幼妲にアキレス腱を切ってほしいの？",
+            "ja": "今すぐ、幼ダダにアキレス腱を切ってほしいの？",
             "zh": "難道要幼妲現在就挑斷你的腳筋嗎？"
           },
           "path": "20250727-yandere-yoda/tiao-duan-ni-de-jiaojin.mp3",
@@ -12505,7 +12505,7 @@
           "name": "yoda-maniac-laugh",
           "description": {
             "en": "(Yoda's yandere maniacal laugh) Hehehehehehe...",
-            "ja": "（幼妲のヤンデレな狂笑）へへへへへへへへへ......",
+            "ja": "（幼ダダのヤンデレな狂笑）へへへへへへへへへ......",
             "zh": "（幼妲的病嬌狂笑）嘿嘿嘿嘿嘿嘿嘿嘿嘿......"
           },
           "path": "20250727-yandere-yoda/yoda-maniac-laugh.mp3",
@@ -12577,7 +12577,7 @@
           "name": "bu-zun-kan-bie-ren",
           "description": {
             "en": "Because Youda loves big brother the most, so Youda doesn't allow big brother to look at others, not allowed",
-            "ja": "幼妲は大好きな大兄さんしか見ちゃダメ。他の人を見るの禁止よ",
+            "ja": "幼ダダは大好きな大兄さんしか見ちゃダメ。他の人を見るの禁止よ",
             "zh": "因為幼妲最喜歡大哥哥了所以幼妲不准大哥哥看別人不准喔"
           },
           "path": "yoda-yandere/bu-zun-kan-bie-ren.mp3",
@@ -12673,7 +12673,7 @@
           "name": "yoda-buy-candy",
           "description": {
             "en": "Didn't we agree that the money would be used to buy candy for Youda? Why are you donating to other little girls?",
-            "ja": "お金は幼妲のためにキャンディを買うって約束したじゃない？なぜ他の小さな女の子にドネーションするの？",
+            "ja": "お金は幼ダダのためにキャンディを買うって約束したじゃない？なぜ他の小さな女の子にドネーションするの？",
             "zh": "不是說好錢錢都要給幼妲買糖果的嗎？為什麼還要去斗內其他的小女孩阿？"
           },
           "path": "yoda-yandere/yoda-buy-candy.mp3",
@@ -12759,7 +12759,7 @@
       "group_name": "yoda_others",
       "group_description": {
         "en": "YoDa: Others",
-        "ja": "幼フイダ：その他",
+        "ja": "幼ダダ：その他",
         "zh": "幼妲：其他"
       },
       "voice_list": [
@@ -12888,7 +12888,7 @@
           "name": "yoda-loligod-huh",
           "description": {
             "en": "哼蘿莉神鎮魂曲",
-            "ja": "哼蘿莉神鎮魂曲",
+            "ja": "ロリ神レクイエムを口ずさむ",
             "zh": "哼蘿莉神鎮魂曲"
           },
           "path": "_mixed/yoda-loligod-huh.mp3",
@@ -13142,7 +13142,7 @@
       "group_name": "realda_greetings",
       "group_description": {
         "en": "JenDa: Greetings",
-        "ja": "真フイダ：挨拶",
+        "ja": "真ダダ：挨拶",
         "zh": "真妲：問候"
       },
       "voice_list": [
@@ -13163,7 +13163,7 @@
           "name": "realda-mihumisang",
           "description": {
             "en": "Mihu-san",
-            "ja": "米乎咪桑",
+            "ja": "ミホミサン",
             "zh": "米乎咪桑"
           },
           "path": "real-da-lyrics/realda-mihumisang.mp3",
@@ -13249,7 +13249,7 @@
       "group_name": "realda_agree",
       "group_description": {
         "en": "JenDa: Affirmation",
-        "ja": "真フイダ：肯定",
+        "ja": "真ダダ：肯定",
         "zh": "真妲：肯定"
       },
       "voice_list": [
@@ -13464,7 +13464,7 @@
       "group_name": "realda_retort",
       "group_description": {
         "en": "JenDa: Tsukkomi",
-        "ja": "真フイダ：ツッコミ",
+        "ja": "真ダダ：ツッコミ",
         "zh": "真妲：吐槽"
       },
       "voice_list": [
@@ -13631,7 +13631,7 @@
       "group_name": "realda_cure",
       "group_description": {
         "en": "JenDa: Healing",
-        "ja": "真フイダ：癒し",
+        "ja": "真ダダ：癒し",
         "zh": "真妲：療癒"
       },
       "voice_list": [
@@ -13702,7 +13702,7 @@
       "group_name": "realda_abuse",
       "group_description": {
         "en": "JenDa: Scolding",
-        "ja": "真フイダ：罵倒",
+        "ja": "真ダダ：罵倒",
         "zh": "真妲：罵倒"
       },
       "voice_list": [
@@ -13735,7 +13735,7 @@
           "name": "real-bian-ta-lolicon",
           "description": {
             "en": "Are you this in love with young Da? Even though I'm already here, isn't that enough? So gross, pervert, lolicon!",
-            "ja": "幼妲にそんなに夢中？私がもういるのに、それじゃ足りないの？気持ち悪い、変態、ロリコン！",
+            "ja": "幼ダダにそんなに夢中？私がもういるのに、それじゃ足りないの？気持ち悪い、変態、ロリコン！",
             "zh": "你就這麼你就那麼喜歡幼妲嗎都已經有我了還不夠嗎真噁心變態蘿莉控"
           },
           "path": "real-da-lyrics/real-bian-ta-lolicon.mp3",
@@ -13749,7 +13749,7 @@
       "group_name": "realda_chat",
       "group_description": {
         "en": "JenDa: Chatting",
-        "ja": "真フイダ：雑談",
+        "ja": "真ダダ：雑談",
         "zh": "真妲：閒聊"
       },
       "voice_list": [
@@ -13770,7 +13770,7 @@
           "name": "chen-shi-tsu-chai",
           "description": {
             "en": "Jenda really exists.",
-            "ja": "真妲は本当に存在しているよ",
+            "ja": "真ダダは本当に存在しているよ",
             "zh": "真妲是真實存在的"
           },
           "path": "real-da-agree/chen-shi-tsu-chai.mp3",
@@ -13818,7 +13818,7 @@
           "name": "tse-da-tse-shi",
           "description": {
             "en": "Is Jenda real? If you believe, then I think it must be real.",
-            "ja": "真妲は本当に存在しているの？あなたが信じれば、本当に存在しているんだと思うよ。",
+            "ja": "真ダダは本当に存在しているの？あなたが信じれば、本当に存在しているんだと思うよ。",
             "zh": "真妲究竟是不是真實的呢只要你這麼相信的話我想應該就是真實的吧"
           },
           "path": "real-da-agree/tse-da-tse-shi.mp3",
@@ -13844,7 +13844,7 @@
       "group_name": "realda_others",
       "group_description": {
         "en": "JenDa: Others",
-        "ja": "真フイダ：その他",
+        "ja": "真ダダ：その他",
         "zh": "真妲：其他"
       },
       "voice_list": [
@@ -13985,7 +13985,7 @@
           "name": "real-smile-dada",
           "description": {
             "en": "Smiling Little Da, let your heart smile too. Spreading smiles, Gray Da loves Da Da. If you love Da Da, remember Little Da, okay? No, no, Da Da belongs to everyone, you all!",
-            "ja": "微笑む小妲妲、あなたの心も一緒に笑って。笑顔を広げる、灰妲は妲妲を愛してる。妲妲を愛するなら、小妲妲を覚えてね、オーケー？だめ、だめ、妲妲は皆のもの、あなたたち！",
+            "ja": "微笑む小ダダ、あなたの心も一緒に笑って。笑顔を広げる、灰妲はダダを愛してる。ダダを愛するなら、小ダダを覚えてね、オーケー？だめ、だめ、ダダは皆のもの、あなたたち！",
             "zh": "微笑小妲妲讓你的心也跟著一起微笑傳遞笑容的灰妲愛妲妲的話就要記住小妲妲喔不行不行妲妲是大家的愛你們喔欸嘿"
           },
           "path": "real-da-lyrics/real-smile-dada.mp3",
@@ -14011,7 +14011,7 @@
       "group_name": "brother-da",
       "group_description": {
         "en": "Bro Da",
-        "ja": "フイダ兄貴",
+        "ja": "ダダ兄貴",
         "zh": "妲哥"
       },
       "voice_list": [
@@ -14142,7 +14142,7 @@
       "group_name": "egg-da",
       "group_description": {
         "en": "Egg Da",
-        "ja": "フイダ卵",
+        "ja": "ダダ卵",
         "zh": "蛋妲"
       },
       "voice_list": [
@@ -14285,7 +14285,7 @@
       "group_name": "mini-da",
       "group_description": {
         "en": "Mini Da",
-        "ja": "迷你妲",
+        "ja": "ミニダダ",
         "zh": "迷你妲"
       },
       "voice_list": [
@@ -14356,7 +14356,7 @@
       "group_name": "disease-da",
       "group_description": {
         "en": "Disease Da",
-        "ja": "異病妲",
+        "ja": "病能ダダ",
         "zh": "異病妲"
       },
       "voice_list": [
@@ -14508,7 +14508,7 @@
           "name": "jiu-suan-wo-qi-sui",
           "description": {
             "en": "我是美少女阿",
-            "ja": "我是美少女阿",
+            "ja": "私は美少女だよ",
             "zh": "我是美少女阿"
           },
           "path": "20260105-seventh-birthday/jiu-suan-wo-qi-sui.mp3",
@@ -16196,7 +16196,7 @@
           "name": "yoda-bu-neng-da-nai",
           "description": {
             "en": "My bottom line is, Yoda cannot have big boobs, okay?",
-            "ja": "私の最低ラインは、幼妲がおっぱいおっきいのはダメってこと、いい？",
+            "ja": "私の最低ラインは、幼ダダがおっぱいおっきいのはダメってこと、いい？",
             "zh": "我的底線就是，幼妲是不能是大奶的，好不好？"
           },
           "path": "20251102-marshmallow-reunion/yoda-bu-neng-da-nai.mp3",
@@ -16482,7 +16482,7 @@
           "name": "genshin-impact-on",
           "description": {
             "en": "原神啟動",
-            "ja": "原神啟動",
+            "ja": "原神起動",
             "zh": "原神啟動"
           },
           "path": "_mixed/genshin-impact-on.mp3",
@@ -18045,7 +18045,7 @@
           "name": "mihumisang",
           "description": {
             "en": "mihumisang",
-            "ja": "mihumisang",
+            "ja": "ミホミサン",
             "zh": "米乎咪桑"
           },
           "path": "first-broadcast/mihumisang.mp3",
@@ -19028,7 +19028,7 @@
           "name": "zhenda-bu-hui-you-3d",
           "description": {
             "en": "Realda will not have a 3D model, how many times do I have to say it? Realda will never have a 3D model in this lifetime. You can bury that thought in your mind.",
-            "ja": "真妲は3Dにはならないって、何回言えばわかるの？真妲は一生3Dにならないから、その考えは脳内に埋めていいよ。",
+            "ja": "真ダダは3Dにはならないって、何回言えばわかるの？真ダダは一生3Dにならないから、その考えは脳内に埋めていいよ。",
             "zh": "真妲不會有3D，要講幾次？真妲這輩子都不會3D，可以直接把這個想法埋葬在你的腦海裡了。"
           },
           "path": "20251127-news-november/zhenda-bu-hui-you-3d.mp3",
