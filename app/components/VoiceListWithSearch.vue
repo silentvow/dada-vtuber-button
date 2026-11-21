@@ -51,9 +51,26 @@
             class="flex-grow-0"
             icon
             variant="plain"
-            @click.stop="$emit('copy-link', group.id)"
+            :aria-label="$t('action.copy_link')"
+            @click.stop="$emit('copy-link', group)"
           >
             <v-icon :icon="mdiLink"></v-icon>
+          </v-btn>
+          <!-- 分類獨立頁 (可被索引、有專屬 OG 圖)。跟複製連結一樣用 tag="span":
+               <a> / tabindex 元素巢狀在標題 <button> 裡會被 axe 判定為 nested-interactive。
+               爬蟲改由 sitemap 與各頁 hreflang 發現這些頁面 -->
+          <v-btn
+            v-if="showGroupCopyLink"
+            tag="span"
+            role="link"
+            class="flex-grow-0"
+            icon
+            variant="plain"
+            :aria-label="$t('group.open_page')"
+            :title="$t('group.open_page')"
+            @click.stop="navigateTo(localePath(`/group/${groupSlug(group.group_name)}`))"
+          >
+            <v-icon :icon="mdiOpenInNew"></v-icon>
           </v-btn>
         </v-expansion-panel-title>
 
@@ -81,7 +98,7 @@
 
 <script setup>
 import { ref, computed, watch } from 'vue';
-import { mdiLink, mdiMagnify } from '@mdi/js';
+import { mdiLink, mdiMagnify, mdiOpenInNew } from '@mdi/js';
 
 // 從首頁抽出來的可重用語音列表元件 — 包含搜尋 + 年份篩選 + 群組展開面板
 //
@@ -95,7 +112,7 @@ import { mdiLink, mdiMagnify } from '@mdi/js';
 //
 // Emits:
 //   play(voice) / youtube(voice) / download(voice)  — 預設 voice slot 觸發
-//   copy-link(groupId)                              — 群組複製連結按鈕
+//   copy-link(group)                                — 群組複製連結按鈕 (連結指向該分類的獨立頁)
 
 const props = defineProps({
   groups: { type: Array, required: true },
@@ -105,6 +122,7 @@ const props = defineProps({
 defineEmits(['play', 'youtube', 'download', 'copy-link']);
 
 const { locale } = useI18n();
+const localePath = useLocalePath();
 const settings = useSettingsStore();
 
 // v-model:panel 給外層做 hash scroll 用 (e.g. 首頁從 # 跳轉)

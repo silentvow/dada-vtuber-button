@@ -78,6 +78,12 @@
     "unlink": "解除連結",
     "welcome": "歡迎"
   },
+  "group": {
+    "open_page": "開啟此分類頁面",
+    "back": "回到全部語音",
+    "description": "灰妲「{name}」語音合集,共 {count} 句,可直接播放、下載與分享。",
+    "summary": "共 {count} 句語音"
+  },
   "favorite": {
     "empty": "目前還沒有收藏任何語音喔！快去首頁點擊愛心吧。"
   },
