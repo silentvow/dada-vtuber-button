@@ -5,7 +5,7 @@
       "group_name": "catchphrase",
       "group_description": {
         "en": "DaDa: Catchphrase",
-        "ja": "フイダ：口癖",
+        "ja": "ダダ：口癖",
         "zh": "灰妲：口頭禪"
       },
       "voice_list": [
@@ -232,7 +232,7 @@
       "group_name": "greetings",
       "group_description": {
         "en": "DaDa: Greetings",
-        "ja": "フイダ：挨拶",
+        "ja": "ダダ：挨拶",
         "zh": "灰妲：問候"
       },
       "voice_list": [
@@ -709,7 +709,7 @@
           "name": "wo4-gray-da",
           "description": {
             "en": "Hello hello everyone, Miho-san here, I'm Huida",
-            "ja": "ハローハロー皆さん、ミホさんです、私はフイダです",
+            "ja": "ハローハロー皆さん、ミホさんです、私はダダです",
             "zh": "哈囉哈囉大家好米乎咪桑我是灰妲"
           },
           "path": "new-clothes-2-year/wo4-gray-da.mp3",
@@ -795,7 +795,7 @@
       "group_name": "agree",
       "group_description": {
         "en": "DaDa: Affirmation",
-        "ja": "フイダ：肯定",
+        "ja": "ダダ：肯定",
         "zh": "灰妲：肯定"
       },
       "voice_list": [
@@ -1022,7 +1022,7 @@
       "group_name": "shut-up",
       "group_description": {
         "en": "DaDa: Shut Up",
-        "ja": "フイダ：閉嘴",
+        "ja": "ダダ：閉嘴",
         "zh": "灰妲：閉嘴"
       },
       "voice_list": [
@@ -1237,7 +1237,7 @@
       "group_name": "retort",
       "group_description": {
         "en": "DaDa: Tsukkomi",
-        "ja": "フイダ：ツッコミ",
+        "ja": "ダダ：ツッコミ",
         "zh": "灰妲：吐槽"
       },
       "voice_list": [
@@ -3900,7 +3900,7 @@
       "group_name": "abuse",
       "group_description": {
         "en": "DaDa: Scolding",
-        "ja": "フイダ：罵倒",
+        "ja": "ダダ：罵倒",
         "zh": "灰妲：罵倒"
       },
       "voice_list": [
@@ -4343,7 +4343,7 @@
       "group_name": "funny",
       "group_description": {
         "en": "DaDa: Playful",
-        "ja": "フイダ：ふざけ",
+        "ja": "ダダ：ふざけ",
         "zh": "灰妲：搞耍"
       },
       "voice_list": [
@@ -5134,7 +5134,7 @@
       "group_name": "kind",
       "group_description": {
         "en": "DaDa: Gentle",
-        "ja": "フイダ：優しい",
+        "ja": "ダダ：優しい",
         "zh": "灰妲：溫柔"
       },
       "voice_list": [
@@ -5517,7 +5517,7 @@
       "group_name": "tsundere",
       "group_description": {
         "en": "DaDa: Tsundere",
-        "ja": "フイダ：ツンデレ",
+        "ja": "ダダ：ツンデレ",
         "zh": "灰妲：傲嬌"
       },
       "voice_list": [
@@ -5612,7 +5612,7 @@
       "group_name": "whine",
       "group_description": {
         "en": "DaDa: Whine",
-        "ja": "フイダ：撒嬌",
+        "ja": "ダダ：撒嬌",
         "zh": "灰妲：撒嬌"
       },
       "voice_list": [
@@ -6199,7 +6199,7 @@
       "group_name": "yandere",
       "group_description": {
         "en": "DaDa: Yandere",
-        "ja": "フイダ：ヤンデレ",
+        "ja": "ダダ：ヤンデレ",
         "zh": "灰妲：病嬌"
       },
       "voice_list": [
@@ -6558,7 +6558,7 @@
       "group_name": "cry",
       "group_description": {
         "en": "DaDa: Crying Voice",
-        "ja": "フイダ：泣き声",
+        "ja": "ダダ：泣き声",
         "zh": "灰妲：哭腔"
       },
       "voice_list": [
@@ -6881,7 +6881,7 @@
       "group_name": "laugh",
       "group_description": {
         "en": "DaDa: Laughter",
-        "ja": "フイダ：笑い声",
+        "ja": "ダダ：笑い声",
         "zh": "灰妲：笑聲"
       },
       "voice_list": [
@@ -7276,7 +7276,7 @@
       "group_name": "scream",
       "group_description": {
         "en": "DaDa: Shouting",
-        "ja": "フイダ：叫び声",
+        "ja": "ダダ：叫び声",
         "zh": "灰妲：大叫"
       },
       "voice_list": [
@@ -8115,7 +8115,7 @@
       "group_name": "weird-cry",
       "group_description": {
         "en": "DaDa: Strange Sounds",
-        "ja": "フイダ：変な声",
+        "ja": "ダダ：変な声",
         "zh": "灰妲：怪聲"
       },
       "voice_list": [
@@ -8558,7 +8558,7 @@
       "group_name": "vivid",
       "group_description": {
         "en": "DaDa: Imitation",
-        "ja": "フイダ：物まね",
+        "ja": "ダダ：物まね",
         "zh": "灰妲：模仿"
       },
       "voice_list": [
@@ -8953,7 +8953,7 @@
       "group_name": "singing",
       "group_description": {
         "en": "DaDa: Singing",
-        "ja": "フイダ：歌唱",
+        "ja": "ダダ：歌唱",
         "zh": "灰妲：唱歌"
       },
       "voice_list": [
@@ -9456,7 +9456,7 @@
       "group_name": "chat",
       "group_description": {
         "en": "DaDa: Chatting",
-        "ja": "フイダ：雑談",
+        "ja": "ダダ：雑談",
         "zh": "灰妲：閒聊"
       },
       "voice_list": [
@@ -10379,7 +10379,7 @@
       "group_name": "yoda_greetings",
       "group_description": {
         "en": "YoDa: Greetings",
-        "ja": "幼フイダ：挨拶",
+        "ja": "幼ダダ：挨拶",
         "zh": "幼妲：問候"
       },
       "voice_list": [
@@ -10666,7 +10666,7 @@
       "group_name": "yoda_cute",
       "group_description": {
         "en": "YoDa: Cute",
-        "ja": "幼フイダ：可愛い",
+        "ja": "幼ダダ：可愛い",
         "zh": "幼妲：可愛"
       },
       "voice_list": [
@@ -10953,7 +10953,7 @@
       "group_name": "yoda_agree",
       "group_description": {
         "en": "YoDa: Affirmation",
-        "ja": "幼フイダ：肯定",
+        "ja": "幼ダダ：肯定",
         "zh": "幼妲：肯定"
       },
       "voice_list": [
@@ -11144,7 +11144,7 @@
       "group_name": "yoda_retort",
       "group_description": {
         "en": "YoDa: Tsukkomi",
-        "ja": "幼フイダ：ツッコミ",
+        "ja": "幼ダダ：ツッコミ",
         "zh": "幼妲：吐槽"
       },
       "voice_list": [
@@ -11431,7 +11431,7 @@
       "group_name": "yoda_cure",
       "group_description": {
         "en": "YoDa: Healing",
-        "ja": "幼フイダ：癒し",
+        "ja": "幼ダダ：癒し",
         "zh": "幼妲：療癒"
       },
       "voice_list": [
@@ -11548,7 +11548,7 @@
           "name": "jia-yo-yoda-ai-ni",
           "description": {
             "en": "Keep going, Young Huida loves you loves you yes",
-            "ja": "頑張って、幼フイダはあなたを愛してる愛してるよ",
+            "ja": "頑張って、幼ダダはあなたを愛してる愛してるよ",
             "zh": "加油幼妲愛你愛你諾"
           },
           "path": "yoda-cure-mama/jia-yo-yoda-ai-ni.mp3",
@@ -11560,7 +11560,7 @@
           "name": "yoda-si-huan-master",
           "description": {
             "en": "Young Huida loves Master the most 5ma",
-            "ja": "幼フイダはご主人様が大好き5ma",
+            "ja": "幼ダダはご主人様が大好き5ma",
             "zh": "幼妲最喜歡主人了5ma"
           },
           "path": "yoda-cure-mama/yoda-si-huan-master.mp3",
@@ -11572,7 +11572,7 @@
           "name": "yoda-jia-yo",
           "description": {
             "en": "Young Huida will cheer for you~",
-            "ja": "幼フイダはあなたを応援しますよ〜",
+            "ja": "幼ダダはあなたを応援しますよ〜",
             "zh": "幼妲會為你加油的喔～"
           },
           "path": "yoda-cure-mama/yoda-jia-yo.mp3",
@@ -11706,7 +11706,7 @@
       "group_name": "yoda_abuse",
       "group_description": {
         "en": "YoDa: Scolding",
-        "ja": "幼フイダ：罵倒",
+        "ja": "幼ダダ：罵倒",
         "zh": "幼妲：罵倒"
       },
       "voice_list": [
@@ -12099,7 +12099,7 @@
           "name": "yoda-tao-ye-gtue",
           "description": {
             "en": "Young Huida hates useless chicken leg big brothers and big sisters like this the most",
-            "ja": "幼フイダはこんなチキンレッグのお兄ちゃんお姉ちゃんが大嫌い、完全なる無能よ",
+            "ja": "幼ダダはこんなチキンレッグのお兄ちゃんお姉ちゃんが大嫌い、完全なる無能よ",
             "zh": "幼妲最討厭像這樣的雞腿大哥哥大姊姊完全就是廢物嘛"
           },
           "path": "yoda-cure-mama/yoda-tao-ye-gtue.mp3",
@@ -12233,7 +12233,7 @@
       "group_name": "yoda_whine",
       "group_description": {
         "en": "YoDa: Whine",
-        "ja": "幼フイダ：撒嬌",
+        "ja": "幼ダダ：撒嬌",
         "zh": "幼妲：撒嬌"
       },
       "voice_list": [
@@ -12388,7 +12388,7 @@
       "group_name": "yoda_yandere",
       "group_description": {
         "en": "YoDa: Yandere",
-        "ja": "幼フイダ：ヤンデレ",
+        "ja": "幼ダダ：ヤンデレ",
         "zh": "幼妲：病嬌"
       },
       "voice_list": [
@@ -12759,7 +12759,7 @@
       "group_name": "yoda_others",
       "group_description": {
         "en": "YoDa: Others",
-        "ja": "幼フイダ：その他",
+        "ja": "幼ダダ：その他",
         "zh": "幼妲：其他"
       },
       "voice_list": [
@@ -13142,7 +13142,7 @@
       "group_name": "realda_greetings",
       "group_description": {
         "en": "JenDa: Greetings",
-        "ja": "真フイダ：挨拶",
+        "ja": "真ダダ：挨拶",
         "zh": "真妲：問候"
       },
       "voice_list": [
@@ -13249,7 +13249,7 @@
       "group_name": "realda_agree",
       "group_description": {
         "en": "JenDa: Affirmation",
-        "ja": "真フイダ：肯定",
+        "ja": "真ダダ：肯定",
         "zh": "真妲：肯定"
       },
       "voice_list": [
@@ -13464,7 +13464,7 @@
       "group_name": "realda_retort",
       "group_description": {
         "en": "JenDa: Tsukkomi",
-        "ja": "真フイダ：ツッコミ",
+        "ja": "真ダダ：ツッコミ",
         "zh": "真妲：吐槽"
       },
       "voice_list": [
@@ -13631,7 +13631,7 @@
       "group_name": "realda_cure",
       "group_description": {
         "en": "JenDa: Healing",
-        "ja": "真フイダ：癒し",
+        "ja": "真ダダ：癒し",
         "zh": "真妲：療癒"
       },
       "voice_list": [
@@ -13702,7 +13702,7 @@
       "group_name": "realda_abuse",
       "group_description": {
         "en": "JenDa: Scolding",
-        "ja": "真フイダ：罵倒",
+        "ja": "真ダダ：罵倒",
         "zh": "真妲：罵倒"
       },
       "voice_list": [
@@ -13749,7 +13749,7 @@
       "group_name": "realda_chat",
       "group_description": {
         "en": "JenDa: Chatting",
-        "ja": "真フイダ：雑談",
+        "ja": "真ダダ：雑談",
         "zh": "真妲：閒聊"
       },
       "voice_list": [
@@ -13844,7 +13844,7 @@
       "group_name": "realda_others",
       "group_description": {
         "en": "JenDa: Others",
-        "ja": "真フイダ：その他",
+        "ja": "真ダダ：その他",
         "zh": "真妲：其他"
       },
       "voice_list": [
@@ -14011,7 +14011,7 @@
       "group_name": "brother-da",
       "group_description": {
         "en": "Bro Da",
-        "ja": "フイダ兄貴",
+        "ja": "ダダ兄貴",
         "zh": "妲哥"
       },
       "voice_list": [
@@ -14142,7 +14142,7 @@
       "group_name": "egg-da",
       "group_description": {
         "en": "Egg Da",
-        "ja": "フイダ卵",
+        "ja": "ダダ卵",
         "zh": "蛋妲"
       },
       "voice_list": [
@@ -14356,7 +14356,7 @@
       "group_name": "disease-da",
       "group_description": {
         "en": "Disease Da",
-        "ja": "異病妲",
+        "ja": "病能ダダ",
         "zh": "異病妲"
       },
       "voice_list": [
