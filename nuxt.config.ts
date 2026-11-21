@@ -1,12 +1,20 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { createRequire } from 'node:module';
 import { dirname, resolve } from 'node:path';
+import { readFileSync } from 'node:fs';
+import { groupSlug } from './shared/utils/groupSlug';
 
 // 解析 pinia 安裝路徑 (透過 pnpm 也能正確找到),並指向其 ESM build
 // 解決 Pinia 3 在 production NODE_ENV 下會解析到 pinia.prod.cjs,導致 SSR 失敗的問題
 const require$ = createRequire(import.meta.url);
 const piniaPkgPath = require$.resolve('pinia/package.json');
 const piniaEsm = resolve(dirname(piniaPkgPath), 'dist/pinia.mjs');
+
+// 每個語音分類一頁 (/group/<slug>,三語系),從 voices.json 產生
+const groupSlugs: string[] = JSON.parse(readFileSync(resolve(__dirname, 'public/voices.json'), 'utf-8')).groups.map(
+  (g: { group_name: string }) => groupSlug(g.group_name)
+);
+const groupRoutes = groupSlugs.flatMap(s => [`/group/${s}`, `/ja/group/${s}`, `/en/group/${s}`]);
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
@@ -50,7 +58,8 @@ export default defineNuxtConfig({
         '/en/privacy',
         // llms.txt / llms-full.txt 由 server/routes 從 voices.json 產生
         '/llms.txt',
-        '/llms-full.txt'
+        '/llms-full.txt',
+        ...groupRoutes
         // /sitemap.xml 也會 prerender,由下方的 inline module 在 modules:done 階段
         // 加回去 (因為 @nuxtjs/sitemap 預設會把它從 prerender 清單裡 filter 掉)。
       ],
@@ -96,6 +105,8 @@ export default defineNuxtConfig({
     '@nuxtjs/seo',
     // 圖片優化:自動 WebP/AVIF、lazy、srcset
     '@nuxt/image',
+    // 提供 OG 圖用的字型 (nuxt-og-image 需要 @nuxt/fonts 才吃得到 fonts.families 的自訂字型)
+    '@nuxt/fonts',
     // Vercel Web Analytics — 自動 inject `_vercel/insights/script.js` 並追蹤 pageview/route
     '@vercel/analytics/nuxt',
     // 把 @nuxtjs/sitemap 預設加在 /sitemap.xml 的 redirect / handler 清掉,
@@ -133,6 +144,22 @@ export default defineNuxtConfig({
       });
     }
   ],
+
+  // OG 圖:prerender 時 165 張圖排隊算圖,預設 15 秒逾時會讓後面的圖 408,拉長逾時
+  ogImage: {
+    security: { renderTimeout: 180000 }
+  },
+
+  // OG 圖 (satori) 用的 CJK 字型子集,產生方式見 scripts/build-og-font.py。
+  // 只在 OG 圖使用,不影響網站本身的字型載入。
+  fonts: {
+    families: [
+      // 維持原本行為:不要讓 @nuxt/fonts 順手把 Vuetify 的 Roboto 改成自架 webfont
+      { name: 'Roboto', provider: 'none' },
+      { name: 'Noto Sans TC', src: '/fonts/og/NotoSansTC-Bold-subset.ttf', weight: 700, global: true },
+      { name: 'Noto Sans JP', src: '/fonts/og/NotoSansJP-Bold-subset.ttf', weight: 700, global: true }
+    ]
+  },
 
   // @nuxt/image 設定
   image: {

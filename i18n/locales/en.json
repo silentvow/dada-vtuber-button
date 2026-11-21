@@ -78,6 +78,12 @@
     "unlink": "Unlink",
     "welcome": "Welcome"
   },
+  "group": {
+    "open_page": "Open this category page",
+    "back": "Back to all voices",
+    "description": "DaDa voice clips: \"{name}\" — {count} clips you can play, download and share.",
+    "summary": "{count} voice clips"
+  },
   "favorite": {
     "empty": "No voices have been favorited yet! Go to the home page and click the heart icon."
   },

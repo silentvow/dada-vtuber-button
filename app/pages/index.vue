@@ -97,6 +97,7 @@ const { data: voice_lists } = await useAsyncData('voices', () => $fetch('/api/vo
 
 // 全域工具
 const { t, locale } = useI18n();
+const localePath = useLocalePath();
 const audioStore = useAudioStore();
 const settings = useSettingsStore();
 const snackbar = useSnackbar();
@@ -178,9 +179,9 @@ const download = item => {
   a.click();
 };
 
-const copyLink = groupId => {
-  // 帶上當前語系 path,讓接收連結的人看到的是分享者當下的語系
-  const url = window.location.origin + window.location.pathname.replace(/\/$/, '') + '/#' + groupId;
+const copyLink = group => {
+  // 複製該分類的獨立頁網址 (帶當前語系前綴);獨立頁有專屬 OG 圖,貼到社群會有預覽。舊的 /#<groupId> 連結仍然有效
+  const url = window.location.origin + localePath(`/group/${groupSlug(group.group_name)}`);
   navigator.clipboard.writeText(url).then(() => {
     snackbar.show(t('action.copy_link'));
   });
