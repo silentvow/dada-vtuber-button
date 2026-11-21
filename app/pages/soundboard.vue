@@ -324,7 +324,8 @@ onBeforeUnmount(() => {
 
 useSeoMeta({
   title: () => t('soundboard.title'),
-  description: () => t('soundboard.subtitle')
+  description: () => t('soundboard.subtitle'),
+  robots: 'noindex, nofollow' // 實況主工具,sitemap 也已排除
 });
 </script>
 

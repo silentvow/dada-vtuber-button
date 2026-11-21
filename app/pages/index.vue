@@ -59,8 +59,8 @@
         <iframe
           v-if="dialog_item.url"
           class="mx-auto d-block"
-          :src="`https://www.youtube.com/embed/${dialog_item.url.slice(-11)}`"
-          frameborder="0"
+          :src="`https://www.youtube-nocookie.com/embed/${dialog_item.url.slice(-11)}`"
+          :title="$t('action.stream_player_title')"
           allowfullscreen
           :style="{
             width: 'calc(100% - 40px)',

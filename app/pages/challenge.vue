@@ -70,8 +70,8 @@
                 <v-progress-circular indeterminate color="primary" size="56" width="6"></v-progress-circular>
               </div>
               <iframe
-                :src="`https://www.youtube.com/embed/${question.url.slice(-11)}`"
-                frameborder="0"
+                :src="`https://www.youtube-nocookie.com/embed/${question.url.slice(-11)}`"
+                :title="$t('action.stream_player_title')"
                 allowfullscreen
                 class="rounded"
                 :style="{ zIndex: 2, position: 'absolute', width: '100%', height: '100%' }"

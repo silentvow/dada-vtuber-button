@@ -121,6 +121,17 @@ watch(searchInput, val => {
   }, 200);
 });
 
+// 支援 ?q=關鍵字 預填搜尋 (給 schema.org SearchAction 與分享連結用)。
+// 放在 onMounted:prerender 的 HTML 沒有 query,避免 hydration mismatch。
+const route = useRoute();
+onMounted(() => {
+  const q = Array.isArray(route.query.q) ? route.query.q[0] : route.query.q;
+  if (typeof q === 'string' && q.trim()) {
+    searchInput.value = q;
+    searchQuery.value = q; // 不等 debounce,直接生效
+  }
+});
+
 const selectedYear = ref('All');
 const currentLocale = computed(() => locale.value);
 const darkText = computed(() => ({ 'text-grey-lighten-2': settings.dark }));

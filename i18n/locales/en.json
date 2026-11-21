@@ -13,7 +13,8 @@
     "submit_answer": "Submit Answer",
     "unlike": "Unlike",
     "unlike_success": "Unliked",
-    "view_stream": "View Stream"
+    "view_stream": "View Stream",
+    "stream_player_title": "YouTube stream player"
   },
   "challenge": {
     "answer_result": "Correct Answer: ",
@@ -172,5 +173,9 @@
   "tab": {
     "classic": "Display by Category",
     "stream": "Display by Stream"
+  },
+  "schema": {
+    "site_description": "DaDa Voice Museum is a fan site collecting the voice clips of Taiwanese Vtuber DaDa (ReLive Project), playable with one click.",
+    "dada_description": "Taiwanese Vtuber affiliated with ReLive Project, debuted on March 26, 2021."
   }
 }
