@@ -19,6 +19,8 @@ const htmlLang = computed(() => {
   return map[locale.value] || 'zh-TW';
 });
 
+const localePath = useLocalePath();
+
 const canonicalUrl = computed(() => `${siteUrl}${route.path === '/' ? '' : route.path}`);
 
 // 全站基礎 SEO meta (各頁可用 useSeoMeta 覆蓋 title / description / og:image)
@@ -54,9 +56,20 @@ useHead({
 // JSON-LD 結構化資料 — 給搜尋引擎與 LLM (AEO) 識別站點實體
 useSchemaOrg([
   defineWebSite({
-    name: '灰妲語音博物館',
-    description: '收藏台V「灰妲」(ReLive Project) 的各種語音與獨特叫聲,點擊即可播放。',
-    inLanguage: ['zh-TW', 'ja-JP', 'en-US']
+    name: computed(() => t('site.title')),
+    description: computed(() => t('schema.site_description')),
+    inLanguage: ['zh-TW', 'ja-JP', 'en-US'],
+    // 首頁支援 ?q= 預填搜尋,讓搜尋引擎 / AI agent 可以直接帶關鍵字進站
+    potentialAction: [
+      {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: computed(() => `${siteUrl}${localePath('/')}?q={search_term_string}`)
+        },
+        'query-input': 'required name=search_term_string'
+      }
+    ]
   }),
   defineOrganization({
     '@id': '#relive-project',
@@ -67,7 +80,7 @@ useSchemaOrg([
     '@id': '#dada',
     name: '灰妲',
     alternateName: ['フイダ', 'DaDa', 'Gray Da'],
-    description: 'ReLive Project 旗下台灣 Vtuber,2021 年 3 月 26 日出道。',
+    description: computed(() => t('schema.dada_description')),
     image: `${siteUrl}/banner.jpg`,
     birthDate: '2021-03-26',
     sameAs: ['https://www.youtube.com/@ReLiveDaDa', 'https://x.com/DadaRelive'],

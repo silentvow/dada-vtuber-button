@@ -1,6 +1,13 @@
 import { test, expect } from '@playwright/test';
 
 test.describe('Voice search', () => {
+  test('?q= pre-fills the search box and filters', async ({ page }) => {
+    await page.goto('/?q=天老爺');
+    await page.waitForLoadState('networkidle');
+    await expect(page.locator('input[placeholder*="搜尋"]')).toHaveValue('天老爺');
+    expect(await page.getByText('天老爺阿', { exact: false }).count()).toBeGreaterThan(0);
+  });
+
   test('typing query filters groups + voices', async ({ page }) => {
     await page.goto('/');
     await page.waitForLoadState('networkidle');

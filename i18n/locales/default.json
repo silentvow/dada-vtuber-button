@@ -13,7 +13,8 @@
     "submit_answer": "提交答案",
     "unlike": "移除最愛",
     "unlike_success": "已移除最愛",
-    "view_stream": "觀看直播"
+    "view_stream": "觀看直播",
+    "stream_player_title": "YouTube 直播影片播放器"
   },
   "challenge": {
     "answer_result": "正確答案：",
@@ -172,5 +173,9 @@
   "tab": {
     "classic": "依分類顯示",
     "stream": "依直播顯示"
+  },
+  "schema": {
+    "site_description": "灰妲語音博物館是收藏台V「灰妲」(ReLive Project) 各種語音與獨特叫聲的粉絲站,點擊即可播放。",
+    "dada_description": "ReLive Project 旗下台灣 Vtuber,2021 年 3 月 26 日出道。"
   }
 }

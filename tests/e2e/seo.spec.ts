@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import fs from 'node:fs';
 
 // 每個迴歸都對應實際發生過的 bug:
 // - PR1: title / canonical / og:url 缺漏或錯字串
@@ -105,6 +106,28 @@ test.describe('Robots / Sitemap', () => {
     expect(res.status()).toBe(200);
     const body = await res.text();
     expect(body).toContain('DaDa');
+    expect(body).toContain('/llms-full.txt');
+  });
+
+  test('llms-full.txt lists every voice from voices.json', async ({ request }) => {
+    const voices = JSON.parse(fs.readFileSync('public/voices.json', 'utf-8'));
+    const total = voices.groups.reduce((n: number, g: any) => n + g.voice_list.length, 0);
+    const body = await (await request.get('/llms-full.txt')).text();
+    const lines = body.split(String.fromCharCode(10)).map(l => l.trimEnd());
+    expect(lines.filter(l => l.startsWith('- ')).length).toBe(total);
+    expect(lines.filter(l => l.startsWith('## ')).length).toBe(voices.groups.length);
+    // llms.txt 的數字也要和資料一致
+    const summary = await (await request.get('/llms.txt')).text();
+    expect(summary).toContain(`${total} voice clips across ${voices.groups.length}`);
+  });
+
+  test('JSON-LD is localized and exposes SearchAction', async ({ page }) => {
+    await page.goto('/ja');
+    const ld = await page.locator('script[type="application/ld+json"]').first().textContent();
+    expect(ld).toContain('SearchAction');
+    expect(ld).toContain('/ja?q={search_term_string}');
+    expect(ld).toContain('灰妲ボイス博物館');
+    expect(ld).not.toContain('收藏台V');
   });
 });
 

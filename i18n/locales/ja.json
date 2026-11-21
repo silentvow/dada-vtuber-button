@@ -13,7 +13,8 @@
     "submit_answer": "回答を送信",
     "unlike": "お気に入りから削除",
     "unlike_success": "お気に入りから削除しました",
-    "view_stream": "配信を見る"
+    "view_stream": "配信を見る",
+    "stream_player_title": "YouTube 配信プレーヤー"
   },
   "challenge": {
     "answer_result": "正解：",
@@ -172,5 +173,9 @@
   "tab": {
     "classic": "カテゴリ別表示",
     "stream": "配信別表示"
+  },
+  "schema": {
+    "site_description": "灰妲ボイス博物館は、台湾 VTuber「灰妲」(ReLive Project) の多彩な声をクリックで再生できるファンサイトです。",
+    "dada_description": "ReLive Project 所属の台湾 VTuber。2021 年 3 月 26 日デビュー。"
   }
 }

@@ -47,11 +47,26 @@ export default defineNuxtConfig({
         '/en/soundboard',
         '/en/challenge',
         '/en/feedback',
-        '/en/privacy'
+        '/en/privacy',
+        // llms.txt / llms-full.txt 由 server/routes 從 voices.json 產生
+        '/llms.txt',
+        '/llms-full.txt'
         // /sitemap.xml 也會 prerender,由下方的 inline module 在 modules:done 階段
         // 加回去 (因為 @nuxtjs/sitemap 預設會把它從 prerender 清單裡 filter 掉)。
       ],
       ignore: ['/member', '/ja/member', '/en/member']
+    }
+  },
+
+  // 全站安全標頭 (Vercel preset 會轉成 config.json routes)。
+  // 不設 X-Frame-Options / CSP:soundboard 可能被嵌入直播工具,且 YouTube iframe 需要放行。
+  routeRules: {
+    '/**': {
+      headers: {
+        'X-Content-Type-Options': 'nosniff',
+        'Referrer-Policy': 'strict-origin-when-cross-origin',
+        'Permissions-Policy': 'camera=(), microphone=(), geolocation=(), payment=()'
+      }
     }
   },
 

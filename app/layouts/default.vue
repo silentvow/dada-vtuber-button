@@ -4,7 +4,7 @@
       <v-list style="padding-top: 0" role="none">
         <v-list-item :to="localePath('/')" exact>
           <template #prepend>
-            <v-img alt="home-icon" src="/icon.png" width="24" class="mr-8" />
+            <v-img alt="" src="/icon.png" width="24" class="mr-8" />
           </template>
           <v-list-item-title>{{ $t('site.index') }}</v-list-item-title>
         </v-list-item>
@@ -52,7 +52,7 @@
           exact
         >
           <template #prepend>
-            <v-img :alt="item.title" :src="item.icon" width="24" class="mr-8" />
+            <v-img alt="" :src="item.icon" width="24" class="mr-8" />
           </template>
           <v-list-item-title>{{ item.title }}</v-list-item-title>
         </v-list-item>
@@ -61,7 +61,7 @@
       <template #append>
         <NuxtImg
           src="/img/woman.png"
-          alt="灰妲側欄圖"
+          alt=""
           width="256"
           format="webp"
           quality="80"
@@ -139,7 +139,7 @@
         <NuxtImg
           class="rounded mb-4 d-block banner-hero"
           :src="currentBanner"
-          alt="灰妲語音博物館橫幅"
+          :alt="$t('site.title')"
           width="1920"
           height="480"
           sizes="100vw md:1024px lg:1280px xl:1920px"
