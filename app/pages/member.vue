@@ -350,6 +350,7 @@ const play = item => {
 };
 
 useSeoMeta({
-  title: () => t('member.member_area')
+  title: () => t('member.member_area'),
+  robots: 'noindex, nofollow'
 });
 </script>
