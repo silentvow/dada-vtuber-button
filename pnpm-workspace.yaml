@@ -1,0 +1,9 @@
+# pnpm 11 不再讀 package.json 的 "pnpm" 欄位,dependency build script 的核准要放在這裡 (allowBuilds)。
+# 沒核准的話,全新安裝 (例如 Vercel) 會因為 ERR_PNPM_IGNORED_BUILDS 以 exit 1 失敗。
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  sharp: true
+  # vue-demi 的 postinstall 只是切換 Vue 2/3 build,本專案是 Vue 3 (預設即是),
+  # 原本就沒有執行過,維持原行為,明確標示不執行。
+  vue-demi: false
