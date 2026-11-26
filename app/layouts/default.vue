@@ -63,6 +63,7 @@
           src="/img/woman.png"
           :alt="$t('site.sidebar_alt')"
           width="256"
+          height="195"
           format="webp"
           quality="80"
           loading="lazy"

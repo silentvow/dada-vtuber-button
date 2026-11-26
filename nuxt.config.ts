@@ -151,13 +151,13 @@ export default defineNuxtConfig({
   },
 
   // OG 圖 (satori) 用的 CJK 字型子集,產生方式見 scripts/build-og-font.py。
-  // 只在 OG 圖使用,不影響網站本身的字型載入。
+  // 只在 OG 圖使用 (build 時讀取),頁面不需要:preload: false 避免每頁多載 160KB 且和 banner 搶頻寬。
   fonts: {
     families: [
       // 維持原本行為:不要讓 @nuxt/fonts 順手把 Vuetify 的 Roboto 改成自架 webfont
       { name: 'Roboto', provider: 'none' },
-      { name: 'Noto Sans TC', src: '/fonts/og/NotoSansTC-Bold-subset.ttf', weight: 700, global: true },
-      { name: 'Noto Sans JP', src: '/fonts/og/NotoSansJP-Bold-subset.ttf', weight: 700, global: true }
+      { name: 'Noto Sans TC', src: '/fonts/og/NotoSansTC-Bold-subset.ttf', weight: 700, global: true, preload: false },
+      { name: 'Noto Sans JP', src: '/fonts/og/NotoSansJP-Bold-subset.ttf', weight: 700, global: true, preload: false }
     ]
   },
 
