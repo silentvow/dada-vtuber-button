@@ -198,7 +198,9 @@ export default defineNuxtConfig({
   },
 
   gtag: {
-    id: 'G-JHW2E0H1PQ'
+    id: 'G-JHW2E0H1PQ',
+    // 不在載入時就抓 gtag.js,由 app/plugins/gtag-defer.client.ts 在第一次互動或 7 秒後才載入
+    initMode: 'manual'
   },
 
   // Vuetify 3 配置
